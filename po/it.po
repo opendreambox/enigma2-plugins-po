@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-28 07:35+0200\n"
-"PO-Revision-Date: 2017-01-27 08:50+0000\n"
-"Last-Translator: Satrunner® <satrunner@fastwebnet.it>\n"
+"POT-Creation-Date: 2017-08-28 07:48+0200\n"
+"PO-Revision-Date: 2017-08-16 12:15+0000\n"
+"Last-Translator: kosmacz <anteneczka@gmail.com>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-Basepath: .../enigma2-plugins/3dsettings\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: .../enigma2-plugins/3dsettings\n"
-"X-POOTLE-MTIME: 1485507034.000000\n"
+"X-POOTLE-MTIME: 1502885757.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1040
 msgid ""
@@ -2671,10 +2671,6 @@ msgstr "Monitoraggio chiamate"
 msgid "Call redirection"
 msgstr "Deviazione chiamate"
 
-#: fritzcall/src/plugin.py:1077
-msgid "Call redirection active"
-msgstr "deviazione chiamate attiva"
-
 #: enigma2-plugins/fritzcall/src/plugin.py:1712
 #, python-format
 msgid "Calling %s"
@@ -3315,14 +3311,6 @@ msgstr "Città"
 #: enigma2-plugins/autotimer/src/__init__.py:20
 msgid "Classic"
 msgstr "Classico"
-
-#: partnerbox/src/plugin.py:245
-msgid "Clean up"
-msgstr "Ripulire"
-
-#: partnerbox/src/plugin.py:330
-msgid "Cleaning up finished timer entries..."
-msgstr "Rimozione delle voci di timer conclusi..."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:36
 msgid "Cleans up the list of timers by removing e.g. finished timers"
@@ -4014,10 +4002,6 @@ msgstr "Nazione"
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
 msgstr ""
 
-#: fritzcall/src/plugin.py:2635
-msgid "Countrycode (e.g. 44 for UK, 34 for Spain, etc.)"
-msgstr "Codice Paese (e.s. 44 per UK, 34 per Spagna, etc.)"
-
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:308
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:607
 #, python-format
@@ -4379,11 +4363,6 @@ msgstr "Player DVD:"
 #: enigma2-plugins/easymedia/src/plugin.py:564
 msgid "DVDPlayer Plugin is not installed!"
 msgstr "Plugin DVDPlayer non installato!"
-
-#: partnerbox/src/RemoteTimerEntry.py:127
-#: partnerbox/src/RemoteTimerEntry.py:433
-msgid "DVR"
-msgstr "DVR"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "Daily cleanup time"
@@ -6503,18 +6482,6 @@ msgstr "Termina"
 msgid "English"
 msgstr "Inglese"
 
-#: partnerbox/src/PartnerboxSetup.py:38
-msgid "Enigma 1"
-msgstr "Enigma 1"
-
-#: partnerbox/src/PartnerboxSetup.py:38
-msgid "Enigma 2"
-msgstr "Enigma 2"
-
-#: partnerbox/src/PartnerboxSetup.py:128 partnerbox/src/PartnerboxSetup.py:265
-msgid "Enigma Type"
-msgstr "Tipo enigma"
-
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:92
 msgid "Enigma1-like history:"
 msgstr "History in veste enigma1"
@@ -6922,22 +6889,6 @@ msgstr ""
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1264
 msgid "Error..."
 msgstr "Errore..."
-
-#: partnerbox/src/plugin.py:1373
-msgid "Error: No space left"
-msgstr "Errore: spazio insufficiente"
-
-#: partnerbox/src/plugin.py:1379
-msgid "Error: Outdated"
-msgstr "Errore: sorpassato"
-
-#: partnerbox/src/plugin.py:1375
-msgid "Error: User aborted"
-msgstr "Errore: annullato dall'utente"
-
-#: partnerbox/src/plugin.py:1377
-msgid "Error: Zap failed"
-msgstr "Errore : zap fallito"
 
 #: enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml./enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml
 msgid "EuroticTV"
@@ -8059,10 +8010,6 @@ msgstr "Caricamento elenco InternetRadio %s in corso..."
 #: enigma2-plugin-partnerbox/src/plugin.py:1070
 msgid "Getting Partnerbox Bouquet Information..."
 msgstr "Recupero informazioni bouquet Partnerbox in corso..."
-
-#: partnerbox/src/plugin.py:246
-msgid "Getting Partnerbox Information..."
-msgstr "Recupero informazioni Partnerbox in corso..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1380
 #: enigma2-plugins/fritzcall/src/plugin.py:1443
@@ -10808,10 +10755,6 @@ msgstr "Limite minimo file cache (0=cache tutto)"
 msgid "Minutes"
 msgstr "Minuti"
 
-#: fritzcall/src/plugin.py:2648
-msgid "Minutes of uptime of WLAN guest network"
-msgstr " WLAN minuti di attività rete guest"
-
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1149
 msgid ""
 "Mipsel architecture not detected.\n"
@@ -11402,10 +11345,6 @@ msgstr "Muto"
 msgid "Mute button remote control"
 msgstr "Tasto mute"
 
-#: fritzcall/src/plugin.py:2624
-msgid "Mute on call"
-msgstr "Mute su Chiamata"
-
 #: enigma2-plugins/fritzcall/src/plugin.py:2645
 msgid "Mute on incoming call"
 msgstr ""
@@ -11563,11 +11502,6 @@ msgstr ""
 msgid "NFS share"
 msgstr "Condivisione NFS"
 
-#: partnerbox/src/RemoteTimerEntry.py:127
-#: partnerbox/src/RemoteTimerEntry.py:433
-msgid "NGRAB"
-msgstr "NGRAB"
-
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:187
 msgid "NNE"
 msgstr ""
@@ -11604,10 +11538,6 @@ msgstr "Inserimento nome e descrizione"
 #: enigma2-plugins/dvdbackup/src/plugin.py:378
 msgid "Name of DVD"
 msgstr "Titolo del DVD"
-
-#: fritzcall/src/plugin.py:2645
-msgid "Name of WLAN guest network"
-msgstr "Nome della rete WLAN Guest"
 
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:154
 #: enigma2-plugins/dvdbackup/src/plugin.py:310
@@ -11886,10 +11816,6 @@ msgstr "Nessun timeshift trovato da salvare come registrazione!"
 #: enigma2-plugins/fritzcall/src/plugin.py:1093
 msgid "No call diversion active"
 msgstr ""
-
-#: fritzcall/src/plugin.py:1085
-msgid "No call redirection active"
-msgstr "Nessuna deviazione chiamate attiva"
 
 #: enigma2-plugins/imdb/src/plugin.py:601
 #: enigma2-plugins/ofdb/src/plugin.py:420
@@ -12511,10 +12437,6 @@ msgstr "Un telefono DECT registrato"
 msgid "One call diversion active"
 msgstr ""
 
-#: fritzcall/src/plugin.py:1079
-msgid "One call redirection active"
-msgstr "Una deviazione chiamate attiva"
-
 #: enigma2-plugins/fritzcall/src/plugin.py:1053
 msgid "One mailbox active"
 msgstr "Una casella di posta attiva"
@@ -12871,10 +12793,6 @@ msgstr "Password"
 #: enigma2-plugins/fritzcall/src/plugin.py:2664
 msgid "Password Accessing FRITZ!Box"
 msgstr "Password di accesso alla FRITZ!Box"
-
-#: fritzcall/src/plugin.py:2647
-msgid "Password of WLAN guest network"
-msgstr "Password per la rete WLAN Guest"
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:39
 msgid "Password to the google account."
@@ -15528,10 +15446,6 @@ msgstr "Lingua: opzione secondaria"
 msgid "Secondary playback subtitle language"
 msgstr "Lingua sottotitoli: opzione secondaria"
 
-#: fritzcall/src/plugin.py:2646
-msgid "Secure WLAN guest network"
-msgstr "Sicurezza rete WLAN Guest"
-
 #: enigma2-plugins/genuinedreambox/src/plugin.py:160
 msgid "Security service not running."
 msgstr "Il servizio di sicurezza non è attivo."
@@ -15738,10 +15652,6 @@ msgstr ""
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:87
 msgid "Send"
 msgstr "Inviare"
-
-#: babelzapper/src/plugin.py:71
-msgid "Send ESC for EXIT key"
-msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:71
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:88
@@ -16162,17 +16072,9 @@ msgstr ""
 msgid "Show 'EPGRefresh Start now' in extension menu"
 msgstr "Mostrare \"Avviare aggiornamento\" nel menu estensioni"
 
-#: partnerbox/src/PartnerboxSetup.py:75
-msgid "Show 'RemoteTV Player' in E-Menu"
-msgstr "Mostrare \"RemoteTV Player\" nel E-menu:"
-
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:73
 msgid "Show 'RemoteTimer' in E-Menu"
 msgstr "Mostrare \"RemoteTimer\" nel E-menu:"
-
-#: partnerbox/src/PartnerboxSetup.py:76
-msgid "Show 'Stream current Service' in E-Menu"
-msgstr "Mostrare \"Stream del canale corrente\" nel E-menu:"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:162
 msgid "Show Advanced Options"
@@ -16651,10 +16553,6 @@ msgstr "Mostrare i canali in attesa di aggiornamento"
 #: e2openplugin-InfoBarTunerState/meta/plugin_infobartunerstate.xml./e2openplugin-InfoBarTunerState/meta/plugin_infobartunerstate.xml
 msgid "Show the tuner state as infobar popup"
 msgstr "Mostrare lo stato tuner come barra informazioni popup."
-
-#: curlytx/src/CurlyTx.py:106
-msgid "Show this help screen"
-msgstr "Mostrare una schermata d'aiuto"
 
 #: enigma2-plugins/3dsettings/src/plugin.py:220
 msgid "Show top/bottom option in extension menu"
@@ -17606,14 +17504,6 @@ msgstr "Client stream"
 #: e2openplugin-InfoBarTunerState/src/plugin.py:75
 msgid "Stream Client with Port"
 msgstr "Client stream con porta"
-
-#: partnerbox/src/plugin.py:147
-msgid "Stream TV from your Partnerbox"
-msgstr "Stream TV dal Partnerbox"
-
-#: partnerbox/src/plugin.py:149
-msgid "Stream current service from partnerbox"
-msgstr "Stream canale corrente da Partnerbox"
 
 #: enigma2-plugins/podcast/meta/plugin_podcast.xml./enigma2-plugins/podcast/meta/plugin_podcast.xml
 msgid "Stream podcasts"
@@ -20209,16 +20099,6 @@ msgstr "Voto:"
 msgid "W"
 msgstr "O"
 
-#: multirc/src/plugin.py:73
-msgid ""
-"WARNING!\n"
-"After changing this and pressing <Ok>, your Remote Control might stop "
-"working!\n"
-"\n"
-"Information about re-configuring the RC is available at http://www.dream-"
-"multimedia-tv.de/board/thread.php?threadid=5613"
-msgstr ""
-
 #: enigma2-plugins/multirc/src/plugin.py:73
 msgid ""
 "WARNING!\n"
@@ -20931,13 +20811,6 @@ msgid ""
 "chosen by default when playing media to match your personal preferences."
 msgstr ""
 
-#: partnerbox/src/plugin.py:1781
-msgid ""
-"You can not add services or bouquets from Enigma1-receivers into the "
-"channellist..."
-msgstr ""
-"Impossibile aggiungere all'elenco canali o bouquet da ricevitori enigma1..."
-
 #: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid ""
 "You can set the basic properties of an AutoTimer here.\n"
@@ -21027,10 +20900,6 @@ msgid ""
 "This is supposed to change in the future, but for now this is unfortunately "
 "how things are."
 msgstr ""
-
-#: partnerbox/src/plugin.py:115
-msgid "You have to restart Enigma2 to activate your new preferences!"
-msgstr "Riavvaire enigma2 per attivare la nuova configurazione!"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:111
 msgid ""
@@ -21686,10 +21555,6 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/plugin.py:1089
 msgid "call diversions active"
 msgstr ""
-
-#: fritzcall/src/plugin.py:1081
-msgid "call redirections active"
-msgstr "deviazione chiamate attiva"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3149
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3610
@@ -22812,22 +22677,6 @@ msgstr "Filmati in"
 #: enigma2-plugins/filebrowser/src/plugin.py:218
 msgid "moving file ..."
 msgstr ""
-
-#: weathercomponent/src/Components/Sources/MSNWeather.py:45
-#: weathercomponent/src/Components/Sources/MSNWeather.py:54
-#: weathercomponent/src/Components/Sources/MSNWeather.py:56
-#: weathercomponent/src/Components/Sources/MSNWeather.py:67
-#: weathercomponent/src/Components/Sources/MSNWeather.py:79
-#: weathercomponent/src/Components/Sources/MSNWeather.py:92
-#: weathercomponent/src/Components/Sources/MSNWeather.py:105
-#: weathercomponent/src/Components/Sources/MSNWeather.py:112
-#: weathercomponent/src/Components/Sources/MSNWeather.py:119
-#: weathercomponent/src/Components/Sources/MSNWeather.py:126
-#: weathercomponent/src/Components/Sources/MSNWeather.py:133
-#: weathercomponent/src/Components/Sources/MSNWeather.py:146
-#: weathercomponent/src/Components/Sources/MSNWeather.py:157
-msgid "n/a"
-msgstr "n/d"
 
 #: enigma2-plugins/googlemaps/src/plugin.py:256
 #: enigma2-plugins/googlemaps/src/plugin.py:257
@@ -24069,7 +23918,7 @@ msgstr "Tastiera virtuale"
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:88
 msgid "void"
-msgstr "Vuoto"
+msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:583
 msgid "votes"

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-28 07:35+0200\n"
-"PO-Revision-Date: 2016-10-06 22:04+0000\n"
+"POT-Creation-Date: 2017-08-28 07:48+0200\n"
+"PO-Revision-Date: 2017-05-22 15:59+0000\n"
 "Last-Translator: ppteam <ppteam.translation@digsat.net>\n"
 "Language-Team: none\n"
 "Language: no\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.7\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
-"X-POOTLE-MTIME: 1475791488.000000\n"
+"X-POOTLE-MTIME: 1495468750.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1040
 msgid ""
@@ -807,7 +807,6 @@ msgstr "720p"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:31
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:49
-#, fuzzy
 msgid ": "
 msgstr ": "
 
@@ -1130,7 +1129,7 @@ msgstr "Legg til kontroller"
 #: enigma2-plugins/tubelib/src/plugin.py:47
 #: enigma2-plugins/tubelib/src/plugin.py:48
 msgid "Add Live-Streaming Channel"
-msgstr ""
+msgstr "Legg til Live Streaming kanal"
 
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:109
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:254
@@ -1352,7 +1351,7 @@ msgstr "Lagt til: "
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:86
 msgid "Additional Security"
-msgstr ""
+msgstr "Ekstra sikkerhet"
 
 #: enigma2-plugins/growlee/src/plugin.py:179
 msgid "Address"
@@ -1987,7 +1986,7 @@ msgstr "Autentisering avventer"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:88
 msgid "Authentication for local clients"
-msgstr ""
+msgstr "AUtentisering for lokale klienter"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:113
 msgid "Authors"
@@ -2415,7 +2414,7 @@ msgstr "Tom"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Blowing Snow"
-msgstr ""
+msgstr "Snøføyk"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:356
 msgid "Blue button function"
@@ -2431,7 +2430,7 @@ msgstr "BluesOfDream-HD"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Blustery"
-msgstr ""
+msgstr "Vindkast"
 
 #: enigma2-plugins/emailclient/src/plugin.py:398
 msgid "Bodys"
@@ -2530,7 +2529,7 @@ msgstr "Lysstyrke"
 
 #: enigma2-plugins/pushservice/src/Controller/BrokenRecords.py:31
 msgid "Broken records"
-msgstr ""
+msgstr "Avbrutte innspillinger"
 
 #: enigma2-plugins/orfteletext/meta/plugin_orfteletext.xml./enigma2-plugins/orfteletext/meta/plugin_orfteletext.xml
 msgid ""
@@ -2665,10 +2664,6 @@ msgstr "Samtalemonitorering"
 #: enigma2-plugins/fritzcall/src/plugin.py:935
 msgid "Call redirection"
 msgstr "Viderekobling"
-
-#: fritzcall/src/plugin.py:1077
-msgid "Call redirection active"
-msgstr "Viderekobling aktiv"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1712
 #, python-format
@@ -2998,7 +2993,7 @@ msgstr "Oppgave startet, vennligs verifiser resultatet!"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 msgid "Change"
-msgstr ""
+msgstr "Endre"
 
 #: enigma2-plugins/3dsettings/src/plugin.py:279
 msgid "Change 3D settings"
@@ -3305,14 +3300,6 @@ msgstr "By"
 msgid "Classic"
 msgstr "Klassisk"
 
-#: partnerbox/src/plugin.py:245
-msgid "Clean up"
-msgstr "Rydd opp"
-
-#: partnerbox/src/plugin.py:330
-msgid "Cleaning up finished timer entries..."
-msgstr "Rydder opp i utførte timeroppføringer..."
-
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:36
 msgid "Cleans up the list of timers by removing e.g. finished timers"
 msgstr "Rydder opp i timerlisten ved å fjerne eks. vis utførte timere"
@@ -3483,11 +3470,11 @@ msgstr "Steng vindu"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:36
 msgid "Cloudy"
-msgstr ""
+msgstr "Skyet"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:36
 msgid "Cold"
-msgstr ""
+msgstr "Kaldt"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2604
 msgid "Collection"
@@ -3577,7 +3564,7 @@ msgstr "Konfigurasjon av WebInterface"
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:87
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:46
 msgid "Configuration of the title:episode separator"
-msgstr ""
+msgstr "Konfigurering av tittel:episode separator"
 
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:365
 msgid "Configuration saved."
@@ -3996,10 +3983,6 @@ msgstr "Land"
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
 msgstr ""
 
-#: fritzcall/src/plugin.py:2635
-msgid "Countrycode (e.g. 44 for UK, 34 for Spain, etc.)"
-msgstr "Landskode (eks: 47 for Norge, 44 for UK, etc.)"
-
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:308
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:607
 #, python-format
@@ -4354,11 +4337,6 @@ msgstr "DVD spiller:"
 #: enigma2-plugins/easymedia/src/plugin.py:564
 msgid "DVDPlayer Plugin is not installed!"
 msgstr "DVDPlayer plugin er ikke installert!"
-
-#: partnerbox/src/RemoteTimerEntry.py:127
-#: partnerbox/src/RemoteTimerEntry.py:433
-msgid "DVR"
-msgstr "DVR"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "Daily cleanup time"
@@ -4883,7 +4861,7 @@ msgstr "Slå av"
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:131
 msgid "Disable "
-msgstr ""
+msgstr "Slå av "
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:341
 msgid "Disable EMC"
@@ -5166,6 +5144,9 @@ msgid ""
 "  %s\n"
 "with %d movies?"
 msgstr ""
+"Vil du virkelig slette serier\n"
+"  %s\n"
+"med %d filmer?"
 
 #: enigma2-plugins/tageditor/src/plugin.py:225
 #, python-format
@@ -5573,7 +5554,7 @@ msgstr "Dreambox: "
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Drizzle"
-msgstr ""
+msgstr "Duskregn"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:70
 msgid "Duration"
@@ -5584,6 +5565,7 @@ msgid ""
 "Duration to stay can be automatically detected by enigma2 or manually set by "
 "the user"
 msgstr ""
+"Varighet kan bli automatisk oppdaget av enigma2 eller manuelt satt av bruker"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:156
 msgid "Duration to stay on service (seconds)"
@@ -5605,7 +5587,7 @@ msgstr "Varighet"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Dust"
-msgstr ""
+msgstr "Støv i luften"
 
 #: enigma2-plugins/dyndns/src/plugin.py:142
 msgid "DynDNS"
@@ -5711,7 +5693,7 @@ msgstr ""
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:191
 msgid "ENE"
-msgstr ""
+msgstr "ENE"
 
 #: enigma2-plugins/epgcopy/src/plugin.py:154
 msgid "EPG Copy - Password"
@@ -5886,7 +5868,7 @@ msgstr "FEIL: Obligatorisk parameter 'time' [0-999] mangler"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:195
 msgid "ESE"
-msgstr ""
+msgstr "ESE"
 
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:216
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:708
@@ -6056,7 +6038,7 @@ msgstr "Rediger den valgte oppføring "
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:111
 msgid "Edit title:episode separator"
-msgstr ""
+msgstr "Rediger tittel:episode separator"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1155
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:118
@@ -6130,7 +6112,7 @@ msgstr "Aktiver"
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:57
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:128
 msgid "Enable "
-msgstr ""
+msgstr "Aktiver "
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:61
 msgid "Enable /media"
@@ -6150,15 +6132,15 @@ msgstr "Aktiver 1080p30 modus"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:27
 msgid "Enable 2160p24 Mode"
-msgstr ""
+msgstr "Aktiver 2160p24 modus"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:28
 msgid "Enable 2160p25 Mode"
-msgstr ""
+msgstr "Aktiver 2160p25 modus"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:28
 msgid "Enable 2160p30 Mode"
-msgstr ""
+msgstr "Aktiver 2160p30 modus"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:25
 msgid "Enable 720p24 Mode"
@@ -6455,18 +6437,6 @@ msgstr "Avslutter"
 #: enigma2-plugins/imdb/src/plugin.py:41
 msgid "English"
 msgstr "Engelsk"
-
-#: partnerbox/src/PartnerboxSetup.py:38
-msgid "Enigma 1"
-msgstr "Enigma1"
-
-#: partnerbox/src/PartnerboxSetup.py:38
-msgid "Enigma 2"
-msgstr "Enigma2"
-
-#: partnerbox/src/PartnerboxSetup.py:128 partnerbox/src/PartnerboxSetup.py:265
-msgid "Enigma Type"
-msgstr "Enigma type"
 
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:92
 msgid "Enigma1-like history:"
@@ -6877,22 +6847,6 @@ msgstr ""
 msgid "Error..."
 msgstr "Feil..."
 
-#: partnerbox/src/plugin.py:1373
-msgid "Error: No space left"
-msgstr "Feil: Ingen plass ledig"
-
-#: partnerbox/src/plugin.py:1379
-msgid "Error: Outdated"
-msgstr "Feil: Utdatert"
-
-#: partnerbox/src/plugin.py:1375
-msgid "Error: User aborted"
-msgstr "Feil: Brukeravbrudd"
-
-#: partnerbox/src/plugin.py:1377
-msgid "Error: Zap failed"
-msgstr "Feil: Zap feilet"
-
 #: enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml./enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml
 msgid "EuroticTV"
 msgstr "EuroticTV"
@@ -7295,7 +7249,7 @@ msgstr "Feilet: %s."
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:37
 msgid "Fair"
-msgstr ""
+msgstr "Fint"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:62
 msgid "Fake recording"
@@ -7589,7 +7543,7 @@ msgstr "Flickr API nøkkel"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Foggy"
-msgstr ""
+msgstr "Tåke"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:80
 msgid "Foldername:"
@@ -7677,8 +7631,10 @@ msgid ""
 "%d similars added."
 msgstr ""
 "Fant totalt %d treff i programmer.\n"
-"%d timere ble lagt til og %d modifisert,\n"
-"%d konfliker funnet, %d lignende lagt til."
+"%d timere ble lagt til og\n"
+"%d modifisert,\n"
+"%d konfliker funnet,\n"
+"%d lignende lagt til."
 
 #: enigma2-plugins/pushservice/src/Controller/ActiveTimers.py:31
 msgid "Found active timer(s)"
@@ -7739,11 +7695,11 @@ msgstr "Advarsel angående ledig lagringsplass "
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Freezing Drizzle"
-msgstr ""
+msgstr "Underkjølt yr"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Freezing Rain"
-msgstr ""
+msgstr "Underkjølt regn"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
@@ -7999,10 +7955,6 @@ msgstr "Henter InternetRadio %s liste..."
 #: enigma2-plugin-partnerbox/src/plugin.py:1070
 msgid "Getting Partnerbox Bouquet Information..."
 msgstr "Henter Partnerbox favoritt informasjon..."
-
-#: partnerbox/src/plugin.py:246
-msgid "Getting Partnerbox Information..."
-msgstr "Henter Partnerbox informasjon..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1380
 #: enigma2-plugins/fritzcall/src/plugin.py:1443
@@ -8731,7 +8683,7 @@ msgstr "HH:MM YYYY/MM/DD"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:65
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:307
 msgid "HTTP Password"
@@ -8748,7 +8700,7 @@ msgstr "HTTP responsoverskrifter for"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:76
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:81
 msgid "HTTPS Port"
@@ -8756,7 +8708,7 @@ msgstr "HTTPS Port"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Hail"
-msgstr ""
+msgstr "Hagl"
 
 #
 #: enigma2-plugins/logomanager/src/plugin.py:13
@@ -8766,7 +8718,7 @@ msgstr "Harddisk"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Haze"
-msgstr ""
+msgstr "Dis"
 
 #: enigma2-plugins/quickbutton/src/plugin.py:153
 #: enigma2-plugins/quickbutton/src/plugin.py:228
@@ -8776,7 +8728,7 @@ msgstr "HbbTV Programvare"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:38
 msgid "Heavy Snow"
-msgstr ""
+msgstr "Mye snø"
 
 #: enigma2-plugins/teletext/src/plugin.py:69
 msgid "Hebrew / Arabic"
@@ -8908,7 +8860,7 @@ msgstr "Vertsnavn er lagt til!"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:37
 msgid "Hot"
-msgstr ""
+msgstr "Varmt"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:483
 msgid "How many days files may remain in trashcan"
@@ -9675,11 +9627,11 @@ msgstr "Virker fjernkontrollen fremdeles?"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:38
 msgid "Isolated Thundershowers"
-msgstr ""
+msgstr "Lokale tordenbyger"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:37
 msgid "Isolated Thunderstorms"
-msgstr ""
+msgstr "Lokalt tordenvær"
 
 #: enigma2-plugins/mytube/src/plugin.py:99
 msgid "Israel"
@@ -9740,11 +9692,11 @@ msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:289
 msgid "Jump to listbegin"
-msgstr ""
+msgstr "Gå til listestart"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:290
 msgid "Jump to listend"
-msgstr ""
+msgstr "Gå til listeslutt"
 
 #: enigma2-plugins/seekbar/src/plugin.py:71
 msgid "Jump x minutes back:"
@@ -9778,7 +9730,7 @@ msgstr "Nøkkel %(key)s (gjeldende verdi: %(value)i ms)"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:112
 msgid "Key 0 provides special chracters, key 1 blank"
-msgstr ""
+msgstr "Tast 0 gir spesialkarakterer, tast 1 mellomrom"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:39
 msgid "Key Help"
@@ -9824,7 +9776,7 @@ msgstr "Nivå 2 og Nivå 3 sertifikater (Base64 encoded)"
 
 #: enigma2-plugins/eurotictv/src/plugin.py:22
 msgid "LIVE"
-msgstr ""
+msgstr "LIVE"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:539
 msgid ""
@@ -9919,7 +9871,7 @@ msgstr "Lengde på historie"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:138
 msgid "Length of the title:episode separator"
-msgstr ""
+msgstr "Lengde på tittel:episode separator"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:116
 msgid "License"
@@ -9931,7 +9883,7 @@ msgstr "LigaLine"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Light Snow Showers"
-msgstr ""
+msgstr "Lette snøbyger"
 
 #: enigma2-plugins/mytube/src/plugin.py:1159
 msgid "Likes: "
@@ -10087,7 +10039,7 @@ msgstr "Lokal"
 
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:20
 msgid "Local channel name"
-msgstr ""
+msgstr "Lokalt kanalnavn"
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:124
 msgid "Local share name"
@@ -10578,10 +10530,6 @@ msgstr ""
 msgid "Minutes"
 msgstr ""
 
-#: fritzcall/src/plugin.py:2648
-msgid "Minutes of uptime of WLAN guest network"
-msgstr "Minutter oppetid for WLAN gjestenettverk"
-
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1149
 msgid ""
 "Mipsel architecture not detected.\n"
@@ -10670,19 +10618,19 @@ msgstr "Manglende verdi for parameter dirname"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:37
 msgid "Mixed Rain and Hail"
-msgstr ""
+msgstr "Regn og hagl"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Mixed Rain and Sleet"
-msgstr ""
+msgstr "Regn og sludd"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Mixed Rain and Snow"
-msgstr ""
+msgstr "Regn og snø"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Mixed Snow and Sleet"
-msgstr ""
+msgstr "Snø og sludd"
 
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:70
 msgid "Mode:"
@@ -10773,7 +10721,7 @@ msgstr "Mosaikk"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:36
 msgid "Mostly Cloudy"
-msgstr ""
+msgstr "For det meste overskyet"
 
 #: enigma2-plugin-networkbrowser/src/plugin.py:33
 #: enigma2-plugin-networkbrowser/src/plugin.py:42
@@ -11159,10 +11107,6 @@ msgstr "Lydløs"
 msgid "Mute button remote control"
 msgstr "Lyddempingstast fjernkontroll"
 
-#: fritzcall/src/plugin.py:2624
-msgid "Mute on call"
-msgstr "Demp lyd ved samtale"
-
 #: enigma2-plugins/fritzcall/src/plugin.py:2645
 msgid "Mute on incoming call"
 msgstr ""
@@ -11238,7 +11182,7 @@ msgstr "MyVideo spiller:"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:217
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:274
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:281
@@ -11314,28 +11258,23 @@ msgstr "NCID server lytteport (1-65535)"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:189
 msgid "NE"
-msgstr ""
+msgstr "NØ"
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:85
 msgid "NFS share"
 msgstr "NFS deling"
 
-#: partnerbox/src/RemoteTimerEntry.py:127
-#: partnerbox/src/RemoteTimerEntry.py:433
-msgid "NGRAB"
-msgstr "NGRAB"
-
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:187
 msgid "NNE"
-msgstr ""
+msgstr "NNØ"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:215
 msgid "NNW"
-msgstr ""
+msgstr "NNV"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:213
 msgid "NW"
-msgstr ""
+msgstr "NV"
 
 #
 #: e2openplugin-InfoBarTunerState/src/plugin.py:63
@@ -11362,10 +11301,6 @@ msgstr "Oppgi navn og beskrivelse"
 #: enigma2-plugins/dvdbackup/src/plugin.py:378
 msgid "Name of DVD"
 msgstr "Navn på DVD"
-
-#: fritzcall/src/plugin.py:2645
-msgid "Name of WLAN guest network"
-msgstr "Navn på WLAN gjestenettverk"
 
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:154
 #: enigma2-plugins/dvdbackup/src/plugin.py:310
@@ -11577,7 +11512,7 @@ msgstr "Ingen buketter å vise"
 
 #: enigma2-plugins/eurotictv/src/plugin.py:22
 msgid "No Connection"
-msgstr ""
+msgstr "Ingen tilkobling"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:320
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:341
@@ -11646,10 +11581,6 @@ msgstr "Ingen TimeShift filer funnet for lagring som opptak!"
 #: enigma2-plugins/fritzcall/src/plugin.py:1093
 msgid "No call diversion active"
 msgstr ""
-
-#: fritzcall/src/plugin.py:1085
-msgid "No call redirection active"
-msgstr "Ingen viderekobling aktiv"
 
 #: enigma2-plugins/imdb/src/plugin.py:601
 #: enigma2-plugins/ofdb/src/plugin.py:420
@@ -11891,7 +11822,7 @@ msgstr "Normal (informasjon)"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:38
 msgid "Not Available"
-msgstr ""
+msgstr "Ikke tilgjengelig"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:577
 msgid "Not after"
@@ -12017,7 +11948,7 @@ msgstr "Nummer på WebIF loggoppføringer"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:137
 msgid "Number of characters"
-msgstr ""
+msgstr "Antall karakterer"
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:95
 msgid "Number of finished entries in list"
@@ -12272,10 +12203,6 @@ msgstr "En DECT telefon registrert"
 #: enigma2-plugins/fritzcall/src/plugin.py:1087
 msgid "One call diversion active"
 msgstr ""
-
-#: fritzcall/src/plugin.py:1079
-msgid "One call redirection active"
-msgstr "En viderekobling aktivert"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1053
 msgid "One mailbox active"
@@ -12573,7 +12500,7 @@ msgstr "Partisjonsverktøy"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:36
 msgid "Partly Cloudy"
-msgstr ""
+msgstr "Delvis skyet"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:154
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:184
@@ -12633,10 +12560,6 @@ msgstr "Passord"
 #: enigma2-plugins/fritzcall/src/plugin.py:2664
 msgid "Password Accessing FRITZ!Box"
 msgstr "Passord for FRITXBox"
-
-#: fritzcall/src/plugin.py:2647
-msgid "Password of WLAN guest network"
-msgstr "Passord for WLAN gjestenettverk"
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:39
 msgid "Password to the google account."
@@ -12787,7 +12710,7 @@ msgstr "BiB tilgjengelig nå."
 
 #: enigma2-plugins/tubelib/src/ChannelListTubeServiceHelper.py:53
 msgid "Pick a Source"
-msgstr ""
+msgstr "Velg en kilde"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:60
 msgid "Picture in Picture"
@@ -12994,7 +12917,7 @@ msgstr "Vennligst velg en funksjon..."
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:147
 msgid "Please delete the files in this Directory!"
-msgstr ""
+msgstr "Vennligst slett filer i denne katalogen!"
 
 #: enigma2-plugins/epgrefresh/src/PipAdapter.py:32
 msgid "Please don't use PiP meanwhile!"
@@ -13062,11 +12985,11 @@ msgstr "Vennligst skriv inn tekst som skal finnes"
 
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:15
 msgid "Please provide a YouTube Channel-/Username"
-msgstr ""
+msgstr "Vennligst oppgi YouTube kanal-/brukernavn"
 
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:20
 msgid "Please provide a channel name for your local channel list"
-msgstr ""
+msgstr "Vennligst oppgi kanalnavn for din lokale kanalliste"
 
 #: enigma2-plugins/subsdownloader2/src/SourceCode/xbmc_subtitles/services/Itasa/service.py:207
 msgid ""
@@ -13921,7 +13844,7 @@ msgstr "Radiomodus"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:36
 msgid "Rain"
-msgstr ""
+msgstr "Regn"
 
 #: enigma2-plugins/mytube/src/plugin.py:50
 msgid "Rating"
@@ -14144,7 +14067,7 @@ msgstr "Innspilte filer..."
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:294
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:422
 msgid "Recording is currently disabled!"
-msgstr ""
+msgstr "Innspilling er for tiden avslått!"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:545
 msgid "Recording length"
@@ -14824,7 +14747,7 @@ msgstr "Russland"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:201
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:22
 msgid "SD 25/50HZ Interlace Mode"
@@ -14844,7 +14767,7 @@ msgstr "SD 30/60HZ Progressive Mode"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:197
 msgid "SE"
-msgstr ""
+msgstr "SØ"
 
 #: enigma2-plugins/easymedia/src/plugin.py:576
 msgid "SHOUTcast Plugin is not installed!"
@@ -14872,11 +14795,11 @@ msgstr "SMTP TLS"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:199
 msgid "SSE"
-msgstr ""
+msgstr "SSE"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:203
 msgid "SSW"
-msgstr ""
+msgstr "SSV"
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:240
 msgid "STB- / Web-Channel for bouquet:"
@@ -14906,7 +14829,7 @@ msgstr "SVDRP server for Enigma2"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:205
 msgid "SW"
-msgstr ""
+msgstr "SV"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:214
 #: enigma2-plugin-partnerbox/src/plugin.py:743
@@ -15102,15 +15025,15 @@ msgstr "Søk underkataloger"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:37
 msgid "Scattered Showers"
-msgstr ""
+msgstr "Regnbyger"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:38
 msgid "Scattered Snow Showers"
-msgstr ""
+msgstr "Snøbyger"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:37
 msgid "Scattered Thunderstorms"
-msgstr ""
+msgstr "Tordenbyger"
 
 #: enigma2-plugins/mytube/src/plugin.py:83
 msgid "Science & Technology"
@@ -15130,7 +15053,7 @@ msgstr "Skjermbilde (Alt)"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:76
 msgid "Screenshot (Display)"
-msgstr ""
+msgstr "Skjermbilde (LCD)"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:75
 msgid "Screenshot (OSD)"
@@ -15332,10 +15255,6 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:506
 msgid "Secondary playback subtitle language"
 msgstr ""
-
-#: fritzcall/src/plugin.py:2646
-msgid "Secure WLAN guest network"
-msgstr "Sikkert WLAN gjestenettverk"
 
 # File: tmp/enigma2_plugins/genuinedreambox/src/plugin.py, line: 160
 #: enigma2-plugins/genuinedreambox/src/plugin.py:160
@@ -15542,10 +15461,6 @@ msgstr ""
 msgid "Send"
 msgstr "Send"
 
-#: babelzapper/src/plugin.py:71
-msgid "Send ESC for EXIT key"
-msgstr "Send ESC for EXIT tast"
-
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:71
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:88
 msgid "Send Message"
@@ -15606,7 +15521,7 @@ msgstr "Sensorer"
 
 #: enigma2-plugins/serienfilm/src/MovieList.py:441
 msgid "Series"
-msgstr ""
+msgstr "Serier"
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:31
 #: enigma2-plugins/merlinepg/src/plugin.py:574
@@ -15769,7 +15684,7 @@ msgstr "Sett aspektratio ved oppstart"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 msgid "Set default"
-msgstr ""
+msgstr "Sett som standard"
 
 #: enigma2-plugins/audiosync/src/AC3main.py:88
 #: enigma2-plugins/audiosync/src/AC3main.py:89
@@ -15805,7 +15720,7 @@ msgstr "Oppgi søkeord"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:61
 msgid "Set size"
-msgstr ""
+msgstr "Sett størrelse"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:291
 msgid "Set start directory"
@@ -15906,7 +15821,7 @@ msgstr ""
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Severe Thunderstorms"
-msgstr ""
+msgstr " Kraftig tordenvær"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:42
 msgid "Shadow"
@@ -15967,17 +15882,9 @@ msgstr "Vis EPG oppføring"
 msgid "Show 'EPGRefresh Start now' in extension menu"
 msgstr "Vis 'EPGRefresh start nå' i utvidet meny"
 
-#: partnerbox/src/PartnerboxSetup.py:75
-msgid "Show 'RemoteTV Player' in E-Menu"
-msgstr "Vis 'RemoteTV spiller' i utvidet meny"
-
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:73
 msgid "Show 'RemoteTimer' in E-Menu"
 msgstr "Vis 'RemoteTimer' i utvidet meny"
-
-#: partnerbox/src/PartnerboxSetup.py:76
-msgid "Show 'Stream current Service' in E-Menu"
-msgstr "Vis 'Stream nåværende kanal' i utvidet meny"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:162
 msgid "Show Advanced Options"
@@ -16459,10 +16366,6 @@ msgstr "Vis ventende tjenester klar for oppfriskning"
 msgid "Show the tuner state as infobar popup"
 msgstr "Vis tunerstatus som infobar popup"
 
-#: curlytx/src/CurlyTx.py:106
-msgid "Show this help screen"
-msgstr "Vis denne hjelpsiden"
-
 #: enigma2-plugins/3dsettings/src/plugin.py:220
 msgid "Show top/bottom option in extension menu"
 msgstr "Vis topp/bunn valg i utvidet meny"
@@ -16505,7 +16408,7 @@ msgstr "Vis webkamerabilder på TV skjermen"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Showers"
-msgstr ""
+msgstr "Regn"
 
 #: enigma2-plugins/elektro/src/plugin.py:539
 msgid "Showing Elektro readme.txt"
@@ -16777,7 +16680,7 @@ msgstr "Hvilemodustimer satt til %s minutter"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Sleet"
-msgstr ""
+msgstr "Sludd"
 
 #: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:18
 msgid "Slideshow Mode"
@@ -16797,19 +16700,19 @@ msgstr "Smilefjes"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Smoky"
-msgstr ""
+msgstr "Røyk"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Snow"
-msgstr ""
+msgstr "Snø"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Snow Flurries"
-msgstr ""
+msgstr "Snøfiller"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:38
 msgid "Snow Showers"
-msgstr ""
+msgstr "Lette snøbyger"
 
 #: enigma2-plugins/pluginsort/src/mphelp.xml
 msgid "So that's all you can do?"
@@ -16842,7 +16745,7 @@ msgstr "Sanger (%d)"
 
 #: enigma2-plugin-networkbrowser/src/MountView.py:116
 msgid "Sorry! Your network mount has NOT been removed."
-msgstr ""
+msgstr "Beklager! Din nettverksmontering har ikke blitt fjernet."
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:135
 #: enigma2-plugins/automaticcleanup/src/plugin.py:137
@@ -17414,14 +17317,6 @@ msgstr "Strømningsklient"
 msgid "Stream Client with Port"
 msgstr "Strømningsklient med port"
 
-#: partnerbox/src/plugin.py:147
-msgid "Stream TV from your Partnerbox"
-msgstr "Strøm TV fra Partnerbox"
-
-#: partnerbox/src/plugin.py:149
-msgid "Stream current service from partnerbox"
-msgstr "Strøm nåværende kanal fra Partnerbox"
-
 #: enigma2-plugins/podcast/meta/plugin_podcast.xml./enigma2-plugins/podcast/meta/plugin_podcast.xml
 msgid "Stream podcasts"
 msgstr "Stream podcasts"
@@ -17527,7 +17422,7 @@ msgstr "Søndag"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:36
 msgid "Sunny"
-msgstr ""
+msgstr "Sol"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:268
 msgid "Suomipoeka-Movielist patch"
@@ -18086,6 +17981,8 @@ msgid ""
 "The current title:episode separator is \"%s\" (%d characters)\n"
 "To change it: first Set size and then Edit"
 msgstr ""
+"Nåværende tittel:episode separator er \"%s\" (%d karakterer)\n"
+"For å endre: først sett størrelse, så rediger på nytt"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:270
 #, python-format
@@ -18243,7 +18140,7 @@ msgstr "Det finnes allerede en aktiv overføring."
 #: enigma2-plugins/pushservice/src/Controller/BrokenRecords.py:32
 #, python-format
 msgid "There are broken records - %s"
-msgstr ""
+msgstr "Det finnes avbrutte innspillinger - %s"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:303
 msgid ""
@@ -18658,6 +18555,9 @@ msgid ""
 "\n"
 "Application details provides the HELP key in the movielist"
 msgstr ""
+"Dette tillegget er konfigurert av MENU tast i filmlisten\n"
+"\n"
+"Tilleggsdetaljer krever HELP tast i filmlisten"
 
 #: enigma2-plugins/autotimer/src/mphelp.xml
 msgid ""
@@ -18728,11 +18628,11 @@ msgstr "Tor"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:38
 msgid "Thundershowers"
-msgstr ""
+msgstr "Tordenbyger"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Thunderstorms"
-msgstr ""
+msgstr "Tordenvær"
 
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
 #: enigma2-plugins/elektro/src/plugin.py:129
@@ -19074,11 +18974,11 @@ msgstr "Veksle alle postbokser"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:288
 msgid "Toggle date / alphabetic sort mode"
-msgstr ""
+msgstr "Veksle mellom dato / alfabetisk modus"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:292
 msgid "Toggle description / tags display"
-msgstr ""
+msgstr "Veksle mellom beskrivelse / tag visning"
 
 #: enigma2-plugins/pipzap/src/plugin.py:547
 msgid "Toggle pipzap status"
@@ -19090,7 +18990,7 @@ msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:291
 msgid "Toggle style minimal / compact"
-msgstr ""
+msgstr "Veksle mellom minimal / kompakt stil"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:642
 msgid "Toggle viewed / not viewed"
@@ -19118,7 +19018,7 @@ msgstr "Topp/Bunn"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Tornado"
-msgstr ""
+msgstr "Tornado"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:202
 msgid "Torrent could not be scheduled not download!"
@@ -19183,7 +19083,7 @@ msgstr "Reise & Hendelser"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:33
 msgid "Tropical Storm"
-msgstr ""
+msgstr "Tropisk storm"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:125
 #, python-format
@@ -19296,7 +19196,7 @@ msgstr "Skriv tekst og trykk OK for å sende:"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:27
 msgid "UHD Progressive Mode"
-msgstr ""
+msgstr "UHD progressiv modus"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:152
 msgid "UL"
@@ -19498,7 +19398,7 @@ msgstr "Uppdateringsintervall (minutter)"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3141
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3602
 msgid "Update available"
-msgstr ""
+msgstr "Uppdatering tilgjengelig"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:412
 msgid ""
@@ -19683,7 +19583,7 @@ msgstr ""
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:154
 msgid "Use time-based duration to stay on service"
-msgstr ""
+msgstr "Bruk tidsbasert varighet for å være på kanal"
 
 #: enigma2-plugins/movietagger/src/plugin.py:256
 msgid "Used Tag"
@@ -19768,6 +19668,12 @@ msgid ""
 "A commen part of the title up to this title:episode separator shared by "
 "several movies creates a series"
 msgstr ""
+"Vanligvis er episodtittel fra serier hentet i beskrivelsen\n"
+"I noen få serier er dette tillagt tittelen bak en kolonne\n"
+"eks: Krim: Mumiens forbannelse\n"
+"\n"
+"En vanlig del av tittelen, opptil denne tittel:episode separator delt av "
+"flere filmer, danner serien"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2382
 msgid "VLC"
@@ -20142,22 +20048,6 @@ msgstr ""
 msgid "W"
 msgstr "W"
 
-#: multirc/src/plugin.py:73
-msgid ""
-"WARNING!\n"
-"After changing this and pressing <Ok>, your Remote Control might stop "
-"working!\n"
-"\n"
-"Information about re-configuring the RC is available at http://www.dream-"
-"multimedia-tv.de/board/thread.php?threadid=5613"
-msgstr ""
-"ADVARSEL!\n"
-"Etter å endre dette og trykke <Ok>, din fjernkontroll kan stoppe og "
-"fungere!\n"
-"\n"
-"Informasjon om hvordan du rekonfigurerer din fjernkontroll finner du på "
-"nettsiden https://dreambox.de/board/thread.php?threadid=5613"
-
 #: enigma2-plugins/multirc/src/plugin.py:73
 msgid ""
 "WARNING!\n"
@@ -20190,11 +20080,11 @@ msgstr "WLAN ikke aktiv"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:211
 msgid "WNW"
-msgstr ""
+msgstr "VNV"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:207
 msgid "WSW"
-msgstr ""
+msgstr "VSV"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2945
 msgid "Wait for screensaver (in min)"
@@ -20263,7 +20153,7 @@ msgstr ""
 
 #: enigma2-plugins/eurotictv/src/plugin.py:207
 msgid "Watch eUroticTV via HTTP Live Streaming"
-msgstr ""
+msgstr "Se uUroticTV via HTTP live streaming"
 
 #: enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml./enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml
 msgid ""
@@ -20687,7 +20577,7 @@ msgstr "Widescreen"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Windy"
-msgstr ""
+msgstr "Vind"
 
 #: enigma2-plugins/antiscrollbar/meta/plugin_antiscrollbar.xml./enigma2-plugins/antiscrollbar/meta/plugin_antiscrollbar.xml
 msgid ""
@@ -20740,7 +20630,7 @@ msgid ""
 "original channel after execution."
 msgstr ""
 "Med Werbezapper kan du fjerne reklame ved å lage korte timere\n"
-"(mellom 1 og 9 minutter lange) som vil automatisk skifte kanal til den\n"
+"(mellom 1 og 9 minutter lange) som vil automatisk skifte kanal til den "
 "originale kanal etter kjøring."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:515
@@ -20811,7 +20701,7 @@ msgstr "YYYY/MM/DD HH:MM"
 
 #: enigma2-plugins/weatherplugin/src/setup.py:294
 msgid "Yahoo location search result"
-msgstr ""
+msgstr "Yahoo lokasjon søkeresultat"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:572
 msgid "Year:"
@@ -20895,14 +20785,6 @@ msgid ""
 msgstr ""
 "Du kan tilpasse hvilke lyd- og undertekstspråk samt kodek som skal velges "
 "som standard når du avspille media."
-
-#: partnerbox/src/plugin.py:1781
-msgid ""
-"You can not add services or bouquets from Enigma1-receivers into the "
-"channellist..."
-msgstr ""
-"Du kan ikke legge kanaler eller buketter fra Enigma1 tunere til i "
-"kanallisten..."
 
 #: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid ""
@@ -21011,10 +20893,6 @@ msgstr ""
 "PluginBrowser, eller om du ser på et opptak.\n"
 "Vi beklager dette, og håper at vi vil finne en løsning for en fremtidig "
 "versjon."
-
-#: partnerbox/src/plugin.py:115
-msgid "You have to restart Enigma2 to activate your new preferences!"
-msgstr "For å aktivere de nye innstillingene må Enigma2 restartes!"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:111
 msgid ""
@@ -21198,11 +21076,11 @@ msgstr ""
 
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:15
 msgid "Youtube Channel/User"
-msgstr ""
+msgstr "YouTube Kanal/Bruker"
 
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:9
 msgid "Youtube Live Channel"
-msgstr ""
+msgstr "YouTube Live Kanal"
 
 #: enigma2-plugins/easymedia/src/plugin.py:416
 msgid "ZDFmediathek"
@@ -21518,7 +21396,7 @@ msgstr "sorter alfabetisk"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:71
 msgid "alphabetic sort  (quick toggle by key 0)"
-msgstr ""
+msgstr "alfabetisk sortering  (rask veksling med 0 tast)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:364
 #: enigma2-plugins/movieepg/src/plugin.py:18
@@ -21683,14 +21561,10 @@ msgstr "etter hastighet"
 msgid "call diversions active"
 msgstr ""
 
-#: fritzcall/src/plugin.py:1081
-msgid "call redirections active"
-msgstr "viderekobling aktiv"
-
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3149
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3610
 msgid "calls in mailbox"
-msgstr ""
+msgstr "anrop i postkasse"
 
 #: enigma2-plugins/logomanager/src/plugin.py:221
 #: enigma2-plugins/googlemaps/src/plugin.py:85
@@ -21772,7 +21646,7 @@ msgstr "konfigurasjon"
 
 #: enigma2-plugins/eurotictv/src/plugin.py:22
 msgid "connecting..."
-msgstr ""
+msgstr "tilkobler..."
 
 #: enigma2-plugins/emailclient/src/plugin.py:834
 msgid "connection failed - retrying"
@@ -21944,7 +21818,7 @@ msgstr "deaktivert ved låst av foreldrekontroll"
 
 #: enigma2-plugins/eurotictv/src/plugin.py:22
 msgid "disconnected"
-msgstr ""
+msgstr "frakoblet"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:152
 msgid "display Info"
@@ -22030,7 +21904,7 @@ msgstr "dump frekvens (dager): "
 
 #: enigma2-plugins/serienfilm/src/MovieList.py:597
 msgid "duplicated"
-msgstr ""
+msgstr "duplisert"
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:34
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:90
@@ -22330,7 +22204,7 @@ msgstr "grønn teletekst link"
 
 #: enigma2-plugins/serienfilm/src/plugin.py:72
 msgid "group movies of a series to virtual directories"
-msgstr ""
+msgstr "grupper filmer fra en serie til virtuelle kataloger "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:3407
 msgid "guest "
@@ -22367,7 +22241,7 @@ msgstr "skjul"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:84
 msgid "hide duration"
-msgstr ""
+msgstr "skjul varighet"
 
 #: enigma2-plugins/menusort/src/plugin.py:200
 msgid "hide entry"
@@ -22387,7 +22261,7 @@ msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:80
 msgid "hide recordingtime"
-msgstr ""
+msgstr "skjul innspillingstid"
 
 #: enigma2-plugins/pluginsort/src/plugin.py:398
 msgid "hide selected plugin"
@@ -22395,7 +22269,7 @@ msgstr "skjul valgt plugin"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:89
 msgid "hide the red real directories"
-msgstr ""
+msgstr "skjul røde kataloger"
 
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:127
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:208
@@ -22589,19 +22463,19 @@ msgstr "liste og programinformasjon: enkel"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:75
 msgid "list style compact with service  (quick toggle by key 8)"
-msgstr ""
+msgstr "lKompakt listestil med beskrivelse  (hurtig veksling med tast 8)"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:76
 msgid "list style compact with tags  (quick toggle by key 8)"
-msgstr ""
+msgstr "Kompakt listestil med tags  (hurtig veksling med tast 8)"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:74
 msgid "list style elaborately"
-msgstr ""
+msgstr "Enkel listestil"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:77
 msgid "list style single line  (key = service, 8 = tags)"
-msgstr ""
+msgstr "Enkel linje listestil  (tast=kanal, 8=tags)"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:109
 msgid "list: off, event info: four parts"
@@ -22821,22 +22695,6 @@ msgstr ""
 #: enigma2-plugins/filebrowser/src/plugin.py:218
 msgid "moving file ..."
 msgstr "flytter fil..."
-
-#: weathercomponent/src/Components/Sources/MSNWeather.py:45
-#: weathercomponent/src/Components/Sources/MSNWeather.py:54
-#: weathercomponent/src/Components/Sources/MSNWeather.py:56
-#: weathercomponent/src/Components/Sources/MSNWeather.py:67
-#: weathercomponent/src/Components/Sources/MSNWeather.py:79
-#: weathercomponent/src/Components/Sources/MSNWeather.py:92
-#: weathercomponent/src/Components/Sources/MSNWeather.py:105
-#: weathercomponent/src/Components/Sources/MSNWeather.py:112
-#: weathercomponent/src/Components/Sources/MSNWeather.py:119
-#: weathercomponent/src/Components/Sources/MSNWeather.py:126
-#: weathercomponent/src/Components/Sources/MSNWeather.py:133
-#: weathercomponent/src/Components/Sources/MSNWeather.py:146
-#: weathercomponent/src/Components/Sources/MSNWeather.py:157
-msgid "n/a"
-msgstr "ikke tilgjengelig"
 
 #: enigma2-plugins/googlemaps/src/plugin.py:256
 #: enigma2-plugins/googlemaps/src/plugin.py:257
@@ -23674,7 +23532,7 @@ msgstr "vis detaljer"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:86
 msgid "show duration"
-msgstr ""
+msgstr "vis varighet"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:109
 #: enigma2-plugins/fritzcall/src/plugin.py:125
@@ -23724,11 +23582,11 @@ msgstr "vis forrige side"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:91
 msgid "show real directories in red"
-msgstr ""
+msgstr "vis virkelige kataloger i rødt"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:82
 msgid "show recordingtime"
-msgstr ""
+msgstr "vis innspillingstid"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:276
 msgid "show second selected tag"
@@ -23770,7 +23628,7 @@ msgstr "sorter på dato"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:69
 msgid "sort by date  (quick toggle by key 0)"
-msgstr ""
+msgstr "sorter på dato  (hurtig veksling med tast 0)"
 
 #: enigma2-plugins/teletext/src/plugin.py:233
 msgid "split screen"

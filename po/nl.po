@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 - AC3LipSync\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-08-28 07:35+0200\n"
+"POT-Creation-Date: 2017-08-28 07:48+0200\n"
 "PO-Revision-Date: 2016-09-07 22:53+0000\n"
 "Last-Translator: ppteam <ppteam.translation@digsat.net>\n"
 "Language-Team: <Benny.DeTandt@gmail.com>\n"
@@ -2624,10 +2624,6 @@ msgstr "Gespreksmonitoring"
 msgid "Call redirection"
 msgstr ""
 
-#: fritzcall/src/plugin.py:1077
-msgid "Call redirection active"
-msgstr ""
-
 #: enigma2-plugins/fritzcall/src/plugin.py:1712
 #, python-format
 msgid "Calling %s"
@@ -3260,14 +3256,6 @@ msgstr ""
 #: enigma2-plugins/autotimer/src/__init__.py:20
 msgid "Classic"
 msgstr "Klassiek"
-
-#: partnerbox/src/plugin.py:245
-msgid "Clean up"
-msgstr "Opschonen"
-
-#: partnerbox/src/plugin.py:330
-msgid "Cleaning up finished timer entries..."
-msgstr "Timer opschonen..."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:36
 msgid "Cleans up the list of timers by removing e.g. finished timers"
@@ -3938,10 +3926,6 @@ msgstr "Land"
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
 msgstr ""
 
-#: fritzcall/src/plugin.py:2635
-msgid "Countrycode (e.g. 44 for UK, 34 for Spain, etc.)"
-msgstr ""
-
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:308
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:607
 #, python-format
@@ -4203,13 +4187,11 @@ msgstr "Kyrillisch"
 msgid "Czech Republic"
 msgstr "Tsjechische Republiek"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:86
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:144
+#: src/plugin.py:144
 msgid "DD.MM HH:MM"
 msgstr "DD.MM HH:MM"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:87
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:145
+#: src/plugin.py:145
 msgid "DD.MM. HH:MM"
 msgstr "DD.MM. HH:MM"
 
@@ -4217,8 +4199,7 @@ msgstr "DD.MM. HH:MM"
 msgid "DD.MM.YYYY"
 msgstr "DD.MM.YYYY"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:89
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:143
+#: src/plugin.py:143
 msgid "DD.MM.YYYY HH:MM"
 msgstr "DD.MM.YYYY HH:MM"
 
@@ -4304,11 +4285,6 @@ msgstr "DVD speler:"
 msgid "DVDPlayer Plugin is not installed!"
 msgstr "DVD-speler is niet geïnstalleerd!"
 
-#: partnerbox/src/RemoteTimerEntry.py:127
-#: partnerbox/src/RemoteTimerEntry.py:433
-msgid "DVR"
-msgstr ""
-
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "Daily cleanup time"
 msgstr "Tijdstip om dagelijks leeg maken"
@@ -4349,8 +4325,7 @@ msgstr "Dag"
 msgid "Day:"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:387
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:57
+#: src/plugin.py:387
 msgid "Days"
 msgstr "Dagen"
 
@@ -6418,18 +6393,6 @@ msgstr ""
 msgid "English"
 msgstr "Engels"
 
-#: partnerbox/src/PartnerboxSetup.py:38
-msgid "Enigma 1"
-msgstr ""
-
-#: partnerbox/src/PartnerboxSetup.py:38
-msgid "Enigma 2"
-msgstr ""
-
-#: partnerbox/src/PartnerboxSetup.py:128 partnerbox/src/PartnerboxSetup.py:265
-msgid "Enigma Type"
-msgstr "Enigma type"
-
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:92
 msgid "Enigma1-like history:"
 msgstr ""
@@ -6817,22 +6780,6 @@ msgstr ""
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1264
 msgid "Error..."
 msgstr ""
-
-#: partnerbox/src/plugin.py:1373
-msgid "Error: No space left"
-msgstr "Fout: Niet genoeg ruimte"
-
-#: partnerbox/src/plugin.py:1379
-msgid "Error: Outdated"
-msgstr "Fout: te oud"
-
-#: partnerbox/src/plugin.py:1375
-msgid "Error: User aborted"
-msgstr "Fout: door gebruiker afgebroken"
-
-#: partnerbox/src/plugin.py:1377
-msgid "Error: Zap failed"
-msgstr "Fout: schakel (zap) fout"
 
 #: enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml./enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml
 msgid "EuroticTV"
@@ -7921,10 +7868,6 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/plugin.py:1070
 msgid "Getting Partnerbox Bouquet Information..."
 msgstr "Partnerbox boeket informatie ophalen"
-
-#: partnerbox/src/plugin.py:246
-msgid "Getting Partnerbox Information..."
-msgstr "Partnerbox infomatie ophalen..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1380
 #: enigma2-plugins/fritzcall/src/plugin.py:1443
@@ -9063,9 +9006,7 @@ msgstr ""
 msgid "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 msgstr "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3169
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3175
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1289
+#: src/MovieSelection.py:3169 src/MovieSelection.py:3175
 msgid "IMDb"
 msgstr "IMDb"
 
@@ -10188,9 +10129,7 @@ msgstr ""
 msgid "Location code"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:27
-#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:65
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1080
+#: src/MovieRetitle.py:27 src/MovieRetitle.py:65
 msgid "Location:"
 msgstr "Locatie:"
 
@@ -10264,8 +10203,7 @@ msgstr ""
 "Ondergrens van tijdspanne. Programma's vangen niet voor deze tijd aan. "
 "Offsets worden niet meegenomen."
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:88
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:148
+#: src/plugin.py:148
 msgid "MM/DD HH:MM"
 msgstr "MM/DD hh:mm"
 
@@ -10621,10 +10559,6 @@ msgstr "Minimale bestands cache limiet ( 0=cache alles)"
 msgid "Minutes"
 msgstr "Minuten"
 
-#: fritzcall/src/plugin.py:2648
-msgid "Minutes of uptime of WLAN guest network"
-msgstr ""
-
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1149
 msgid ""
 "Mipsel architecture not detected.\n"
@@ -10851,10 +10785,6 @@ msgstr ""
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:67
 msgid "Mounts editor"
 msgstr "Verbindingseditor"
-
-#: enigma2-plugins/subsdownloader2/src/plugin.py:1074
-msgid "Move"
-msgstr "Verplaatsen"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1190
 msgid "Move Cover to:"
@@ -11203,10 +11133,6 @@ msgstr "Geluid uit"
 msgid "Mute button remote control"
 msgstr ""
 
-#: fritzcall/src/plugin.py:2624
-msgid "Mute on call"
-msgstr "Muten bij oproep"
-
 #: enigma2-plugins/fritzcall/src/plugin.py:2645
 msgid "Mute on incoming call"
 msgstr ""
@@ -11361,11 +11287,6 @@ msgstr ""
 msgid "NFS share"
 msgstr "NFS share"
 
-#: partnerbox/src/RemoteTimerEntry.py:127
-#: partnerbox/src/RemoteTimerEntry.py:433
-msgid "NGRAB"
-msgstr ""
-
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:187
 msgid "NNE"
 msgstr ""
@@ -11401,10 +11322,6 @@ msgstr ""
 #: enigma2-plugins/dvdbackup/src/plugin.py:28
 #: enigma2-plugins/dvdbackup/src/plugin.py:378
 msgid "Name of DVD"
-msgstr ""
-
-#: fritzcall/src/plugin.py:2645
-msgid "Name of WLAN guest network"
 msgstr ""
 
 #
@@ -11683,11 +11600,6 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/plugin.py:1093
 msgid "No call diversion active"
 msgstr ""
-
-#: fritzcall/src/plugin.py:1085
-#, fuzzy
-msgid "No call redirection active"
-msgstr "Geen mailbox actief"
 
 #: enigma2-plugins/imdb/src/plugin.py:601
 #: enigma2-plugins/ofdb/src/plugin.py:420
@@ -12305,11 +12217,6 @@ msgstr "Eén DECT telefoon geregistreerd"
 msgid "One call diversion active"
 msgstr ""
 
-#: fritzcall/src/plugin.py:1079
-#, fuzzy
-msgid "One call redirection active"
-msgstr "Eén mailbox actief"
-
 #: enigma2-plugins/fritzcall/src/plugin.py:1053
 msgid "One mailbox active"
 msgstr "Eén mailbox actief"
@@ -12661,10 +12568,6 @@ msgstr "Paswoord"
 #: enigma2-plugins/fritzcall/src/plugin.py:2664
 msgid "Password Accessing FRITZ!Box"
 msgstr "Wachtwoord voor toegang FRITZ!Box"
-
-#: fritzcall/src/plugin.py:2647
-msgid "Password of WLAN guest network"
-msgstr ""
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:39
 msgid "Password to the google account."
@@ -15356,10 +15259,6 @@ msgstr "Tweede voorkeur voor geluidsspoor"
 msgid "Secondary playback subtitle language"
 msgstr "Tweede voorkeur voor ondertiteltaal"
 
-#: fritzcall/src/plugin.py:2646
-msgid "Secure WLAN guest network"
-msgstr ""
-
 #
 #: enigma2-plugins/genuinedreambox/src/plugin.py:160
 msgid "Security service not running."
@@ -15568,10 +15467,6 @@ msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:87
 msgid "Send"
-msgstr ""
-
-#: babelzapper/src/plugin.py:71
-msgid "Send ESC for EXIT key"
 msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:71
@@ -16001,17 +15896,9 @@ msgstr ""
 msgid "Show 'EPGRefresh Start now' in extension menu"
 msgstr "\"EPG actualisering starten\" in uitbreidingsmenu weergeven"
 
-#: partnerbox/src/PartnerboxSetup.py:75
-msgid "Show 'RemoteTV Player' in E-Menu"
-msgstr "'Remote TV Player' in E-Menu tonen"
-
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:73
 msgid "Show 'RemoteTimer' in E-Menu"
 msgstr "'Remote Timer' in E-Menu tonen"
-
-#: partnerbox/src/PartnerboxSetup.py:76
-msgid "Show 'Stream current Service' in E-Menu"
-msgstr "'Actuele stream' in E-Menu tonen"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:162
 msgid "Show Advanced Options"
@@ -16491,10 +16378,6 @@ msgstr "Zenders in de wachtrij weergeven"
 #: e2openplugin-InfoBarTunerState/meta/plugin_infobartunerstate.xml./e2openplugin-InfoBarTunerState/meta/plugin_infobartunerstate.xml
 msgid "Show the tuner state as infobar popup"
 msgstr "Tunerstatus als infobar pop-up weergeven"
-
-#: curlytx/src/CurlyTx.py:106
-msgid "Show this help screen"
-msgstr ""
 
 #: enigma2-plugins/3dsettings/src/plugin.py:220
 msgid "Show top/bottom option in extension menu"
@@ -17454,14 +17337,6 @@ msgstr ""
 #: e2openplugin-InfoBarTunerState/src/plugin.py:75
 msgid "Stream Client with Port"
 msgstr ""
-
-#: partnerbox/src/plugin.py:147
-msgid "Stream TV from your Partnerbox"
-msgstr "TV-beeld van je partnerbox tonen"
-
-#: partnerbox/src/plugin.py:149
-msgid "Stream current service from partnerbox"
-msgstr "Actueel TV-beeld van de partnerbox tonen"
 
 #: enigma2-plugins/podcast/meta/plugin_podcast.xml./enigma2-plugins/podcast/meta/plugin_podcast.xml
 msgid "Stream podcasts"
@@ -19365,8 +19240,7 @@ msgstr ""
 msgid "UnwetterInfo shows German storm information."
 msgstr "UnwetterInfo geeft Duitse storminformatie."
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2406
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:153
+#: src/MovieCenter.py:2406
 msgid "Up"
 msgstr "Omhoog"
 
@@ -20005,16 +19879,6 @@ msgstr "Stemmen:"
 msgid "W"
 msgstr "W"
 
-#: multirc/src/plugin.py:73
-msgid ""
-"WARNING!\n"
-"After changing this and pressing <Ok>, your Remote Control might stop "
-"working!\n"
-"\n"
-"Information about re-configuring the RC is available at http://www.dream-"
-"multimedia-tv.de/board/thread.php?threadid=5613"
-msgstr ""
-
 #: enigma2-plugins/multirc/src/plugin.py:73
 msgid ""
 "WARNING!\n"
@@ -20618,8 +20482,7 @@ msgstr ""
 msgid "YYYY/MM/DD"
 msgstr "YYYY/MM/DD"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:90
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:147
+#: src/plugin.py:147
 msgid "YYYY/MM/DD HH:MM"
 msgstr "YYYY/MM/DD HH:MM"
 
@@ -20710,14 +20573,6 @@ msgid ""
 "chosen by default when playing media to match your personal preferences."
 msgstr ""
 
-#: partnerbox/src/plugin.py:1781
-msgid ""
-"You can not add services or bouquets from Enigma1-receivers into the "
-"channellist..."
-msgstr ""
-"Je kunt geen zenders of boeketten van Enigma1 ontvangers aan de kanalenlijst "
-"toevoegen..."
-
 #: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid ""
 "You can set the basic properties of an AutoTimer here.\n"
@@ -20806,11 +20661,6 @@ msgid ""
 "This is supposed to change in the future, but for now this is unfortunately "
 "how things are."
 msgstr ""
-
-#: partnerbox/src/plugin.py:115
-msgid "You have to restart Enigma2 to activate your new preferences!"
-msgstr ""
-"Om de nieuwe voorkeuren te gebruiken moet Enigma2 opnieuw worden gestart!"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:111
 msgid ""
@@ -21278,14 +21128,11 @@ msgstr ""
 msgid "after restart/standby"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:300
-#: enigma2-plugins/audiorestart/src/plugin.py:15
+#: src/plugin.py:300
 msgid "after standby"
 msgstr "Na standby"
 
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
-#: enigma2-plugins/automaticcleanup/src/plugin.py:90
-#: enigma2-plugins/automaticcleanup/src/plugin.py:94
+#: src/EMCCoverSearch.py:52
 msgid "all"
 msgstr "Alles"
 
@@ -21460,10 +21307,6 @@ msgstr ""
 msgid "call diversions active"
 msgstr ""
 
-#: fritzcall/src/plugin.py:1081
-msgid "call redirections active"
-msgstr ""
-
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3149
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3610
 msgid "calls in mailbox"
@@ -21542,10 +21385,7 @@ msgstr ""
 msgid "config changed."
 msgstr "configuratie gewijzigd."
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:187
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:529
-#: enigma2-plugins/podcast/src/plugin.py:613
-#: enigma2-plugins/pushservice/src/plugin.py:109
+#: src/plugin.py:529
 msgid "configuration"
 msgstr "Configuratie"
 
@@ -21789,8 +21629,7 @@ msgstr "gereed!"
 msgid "done, using last list"
 msgstr "klaar, gebruikt nu de laatste lijst"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:209
-#: enigma2-plugins/eibox/src/plugin.py:37
+#: src/plugin.py:209
 msgid "down"
 msgstr "omlaag"
 
@@ -22589,22 +22428,6 @@ msgstr "films in"
 msgid "moving file ..."
 msgstr ""
 
-#: weathercomponent/src/Components/Sources/MSNWeather.py:45
-#: weathercomponent/src/Components/Sources/MSNWeather.py:54
-#: weathercomponent/src/Components/Sources/MSNWeather.py:56
-#: weathercomponent/src/Components/Sources/MSNWeather.py:67
-#: weathercomponent/src/Components/Sources/MSNWeather.py:79
-#: weathercomponent/src/Components/Sources/MSNWeather.py:92
-#: weathercomponent/src/Components/Sources/MSNWeather.py:105
-#: weathercomponent/src/Components/Sources/MSNWeather.py:112
-#: weathercomponent/src/Components/Sources/MSNWeather.py:119
-#: weathercomponent/src/Components/Sources/MSNWeather.py:126
-#: weathercomponent/src/Components/Sources/MSNWeather.py:133
-#: weathercomponent/src/Components/Sources/MSNWeather.py:146
-#: weathercomponent/src/Components/Sources/MSNWeather.py:157
-msgid "n/a"
-msgstr "n/a"
-
 #: enigma2-plugins/googlemaps/src/plugin.py:256
 #: enigma2-plugins/googlemaps/src/plugin.py:257
 #: enigma2-plugins/googlemaps/src/plugin.py:258
@@ -23287,8 +23110,7 @@ msgstr ""
 msgid "search..."
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1084
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:162
+#: src/EMCCoverSearch.py:1084
 msgid "sec"
 msgstr "sec"
 
@@ -24131,6 +23953,9 @@ msgstr ""
 
 #~ msgid "IMDBSearch"
 #~ msgstr "Zoeken via IMDB"
+
+#~ msgid "Move"
+#~ msgstr "Verplaatsen"
 
 #~ msgid "Move Movie"
 #~ msgstr "Verplaats Film"
