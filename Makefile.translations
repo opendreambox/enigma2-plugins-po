@@ -9,9 +9,14 @@ POTFILE:=$(PODIR)/$(DOMAIN).pot
 
 default: catalog
 
-catalog : template merge msgmerge
+catalog : template msgmerge merge
 
-XMLPODIRS := autotimer/src/ epgrefresh/src/ pipzap/src/ pluginsort/src/
+XMLPODIRS := enigma2-plugins/autotimer/src/ enigma2-plugins/epgrefresh/src/ enigma2-plugins/pipzap/src/ enigma2-plugins/pluginsort/src/
+
+update:
+	git pull
+	git submodule init
+	git submodule foreach git pull origin master
 
 template:
 	mkdir -p $(PODIR)
@@ -34,7 +39,7 @@ msgmerge:
 
 merge :
 	mkdir -p $(PODIR)
-	for pofile in ./*/po/*.po; do \
+	for pofile in */po/*.po; do \
 		echo "merging $${pofile} into ${PODIR}/$${pofile##*/}"; \
 		touch $(PODIR)/$${pofile##*/}; \
 		msgcat --add-location --force-po --use-first -s $(PODIR)/$${pofile##*/} $${pofile} -o $(PODIR)/$${pofile##*/}; \

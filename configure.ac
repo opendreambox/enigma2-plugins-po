@@ -1,0 +1,10 @@
+AC_INIT([enigma2-plugins-po],[1.0.0],[https://github.com/opendreambox/enigma2-plugins-po])
+AM_INIT_AUTOMAKE([foreign])
+
+AC_PATH_PROG(MSGFMT, msgfmt, AC_MSG_ERROR(Could not find msgfmt))
+
+AC_CONFIG_FILES([
+Makefile
+po/Makefile
+])
+AC_OUTPUT

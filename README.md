@@ -1,0 +1,1 @@
+Collects all enigma2 plugin translations at a single location
