@@ -5,7 +5,7 @@ GETTEXT=xgettext
 PODIR:=po
 POTFILE:=$(PODIR)/$(DOMAIN).pot
 
-.PHONY: default catalog template msgmerge merge
+.PHONY: default catalog update template msgmerge merge
 
 default: catalog
 
