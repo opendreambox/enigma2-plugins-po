@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: 3D Settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-28 07:48+0200\n"
-"PO-Revision-Date: 2017-08-16 12:02+0000\n"
-"Last-Translator: kosmacz <anteneczka@gmail.com>\n"
+"PO-Revision-Date: 2017-09-13 05:04+0000\n"
+"Last-Translator: Stephan Reichholf <stephan@reichholf.net>\n"
 "Language-Team: Dr. Best <dr.best@dreambox-tools.info>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.7\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1502884967.000000\n"
+"X-POOTLE-MTIME: 1505279074.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1040
 msgid ""
@@ -119,7 +119,7 @@ msgstr "  {lookups:d} Erfolgreiche Treffer.\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:529
 msgid " (Setup)"
-msgstr ""
+msgstr " (Setup)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:727
 msgid " (without counting cover range)"
@@ -128,7 +128,7 @@ msgstr " (ohne Zählung der Cover-Auswahl)"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:62
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:399
 msgid " B"
@@ -354,6 +354,8 @@ msgid ""
 "%i file(s) was extracted and I didn't match them automatically this time. \n"
 " Please make local convertion (long TEXT)."
 msgstr ""
+"%i Dateien wurden extrahiert konnten aber nicht zugwiesen werden.\n"
+"Bitte manuell konvertieren (Lang TEXT)."
 
 #: enigma2-plugins/audiosync/src/AC3main.py:57
 #: enigma2-plugins/audiosync/src/AC3main.py:139
@@ -883,7 +885,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/meta/plugin_stalkerclient.xml./enigma2-plugin-stalkerclient/meta/plugin_stalkerclient.xml
 msgid "A native client for the Stalker Middleware streaming server"
-msgstr ""
+msgstr "Ein nativer Client für Stalker Middleware Streaming Server"
 
 #: enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml./enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml
 msgid "A plugin to add / remove / modify entries of fstab."
@@ -918,7 +920,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:497
 msgid "A value is required for the selected option"
-msgstr ""
+msgstr "Für die gewählte Option wird ein Wert benötigt"
 
 #: enigma2-plugin-vlcplayer/src/plugin.py:58
 msgid "A video streaming solution based on VLC"
@@ -950,7 +952,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:41
 msgid "API Root"
-msgstr ""
+msgstr "API Stammpfad"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:349
 msgid ""
@@ -1144,12 +1146,12 @@ msgstr "\"InfoBarTunerState anzeigen\" im Erweiterungsmenü anzeigen"
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:109
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:110
 msgid "Add Stalker Channel"
-msgstr ""
+msgstr "Stalker Kanal hinzufügen"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:116
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:117
 msgid "Add Stalker Group"
-msgstr ""
+msgstr "Stalker Gruppe hinzufügen"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1180
 msgid "Add Subs Downloader to BlueButton menu:"
@@ -1209,6 +1211,7 @@ msgid ""
 "Add channels of a Stalker streaming server to your channel list and watch "
 "them"
 msgstr ""
+"Kanäle eines Stalker Streaming Servers zur Kanalliste hinzufügen und ansehen"
 
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:213
 msgid "Add controller"
@@ -1278,7 +1281,7 @@ msgstr "Neuen Tag hinzufügen..."
 #: enigma2-plugins/fstabeditor/src/plugin.py:199
 #: enigma2-plugins/fstabeditor/src/plugin.py:214
 msgid "Add option"
-msgstr ""
+msgstr "Option hinzufügen"
 
 #: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
 msgid "Add season and episode information to Your recordings."
@@ -1488,7 +1491,7 @@ msgstr "Alle Genre"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:404
 msgid "All I/O to the filesystem should be done asynchronously."
-msgstr ""
+msgstr "Alle E/A-Vorgänge auf das Dateisystem sollten asynchron erfolgen."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:436
 msgid ""
@@ -1496,6 +1499,9 @@ msgid ""
 "with a limited number of write cycles (e.g. some flash drives), sync may "
 "cause life-cycle shortening."
 msgstr ""
+"Alle E/A-Operationen am Dateisystem sollen synchron erfolgen. Im Fall von "
+"Medien mit eingeschränkten Schreibzyklen (z.B. Speicherkarten), kann "
+"synchrone E/A zu einem verkürzten Lebenszyklus führen."
 
 #: enigma2-plugins/ecasa/src/FlickrApi.py:122
 msgid "All Photos"
@@ -1523,6 +1529,9 @@ msgid ""
 "This affects the following system calls: creat, link, unlink, symlink, "
 "mkdir, rmdir, mknod and rename."
 msgstr ""
+"Eine Verzeichnisaktualisierungen am Dateisystem sollen synchron erfolgen. "
+"Dies betrifft die folgenden Systemaufrufe:  create, link, unlink, symlink, "
+"mkdir, rmdir, mknod und rename."
 
 #: enigma2-plugins/autotimer/src/__init__.py:15
 msgid "All non-repeating timers"
@@ -2331,7 +2340,7 @@ msgstr "Basis"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:120
 msgid "Base background:"
-msgstr ""
+msgstr "Basishintergrund:"
 
 #: enigma2-plugins/ecasa/meta/plugin_ecasa.xml./enigma2-plugins/ecasa/meta/plugin_ecasa.xml
 msgid "Basic Picasa client."
@@ -2368,11 +2377,11 @@ msgstr "Beta: dauerhafte Aufnahme aktivieren?"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:43
 msgid "Beyond Dreams"
-msgstr ""
+msgstr "Beyond Dreams"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:43
 msgid "BeyondDreams-HD"
-msgstr ""
+msgstr "BeyondDreams-HD"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:219
 msgid "Birthday"
@@ -2417,11 +2426,11 @@ msgstr "Funktion der blauen Taste"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:52
 msgid "Blues of dream"
-msgstr ""
+msgstr "Blues of dream"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:47
 msgid "BluesOfDream-HD"
-msgstr ""
+msgstr "BluesOfDream-HD"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:35
 msgid "Blustery"
@@ -2525,7 +2534,7 @@ msgstr "Helligkeit"
 
 #: enigma2-plugins/pushservice/src/Controller/BrokenRecords.py:31
 msgid "Broken records"
-msgstr ""
+msgstr "Defekte Aufnahmen"
 
 #: enigma2-plugins/orfteletext/meta/plugin_orfteletext.xml./enigma2-plugins/orfteletext/meta/plugin_orfteletext.xml
 msgid ""
@@ -2650,11 +2659,11 @@ msgstr "Anrufen"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:635
 msgid "Call diversion"
-msgstr ""
+msgstr "Rufumleitung"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1085
 msgid "Call diversion active"
-msgstr ""
+msgstr "Rufumleitung aktiv"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:731
 #: enigma2-plugins/fritzcall/src/plugin.py:2633
@@ -2697,7 +2706,7 @@ msgstr "Kann in Einstellungen konfiguriert werden"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:407
 msgid "Can be mounted with the -a option."
-msgstr ""
+msgstr "Kann mit der -a Option eingehängt werden"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1156
 msgid "Can not save "
@@ -2740,6 +2749,8 @@ msgid ""
 "Can only be mounted explicitly (i.e., the -a option will not cause the "
 "filesystem to be mounted)."
 msgstr ""
+"Nur nur explizit eingehängt werden (i.e. die -a Option führt nicht dazu dass "
+"das Dateisystem eingebunden wird)."
 
 #
 #: enigma2-plugins/genuinedreambox/src/plugin.py:108
@@ -2963,6 +2974,8 @@ msgid ""
 "Cannot remove option. At least one option is required. Option will be set to "
 "defaults"
 msgstr ""
+"Kann Option nicht entfernen. Mindestens eine Option ist benötigt. Option "
+"wird auf defaults gesetzt"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/SwitchService.py:71
 msgid "Cannot zap while device is in Standby"
@@ -3190,7 +3203,7 @@ msgstr "Kapitel"
 
 #: enigma2-plugins/dreamirc/src/plugin.py:109
 msgid "ChatBox"
-msgstr ""
+msgstr "ChatBox"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:231
 msgid ""
@@ -3446,7 +3459,7 @@ msgstr "EMC schließen"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:608
 msgid "Close EMC and do power button action"
-msgstr ""
+msgstr "EMC schließen und Power-Knopf Aktion ausführen"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:176
 msgid "Close MediaPlayer"
@@ -3540,7 +3553,7 @@ msgstr "Dateinamen-Zusammensetzung der Aufnahmen"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:46
 msgid "Concinnity"
-msgstr ""
+msgstr "Concinnity"
 
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:175
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
@@ -3601,7 +3614,7 @@ msgstr "Movie-EPG Plugin konfigurieren"
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:124
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:130
 msgid "Configure Stalker Middleware Client"
-msgstr ""
+msgstr "Stalker Middleware Client konfigurieren"
 
 #: enigma2-plugins/trackautoselect/src/plugin.py:20
 msgid "Configure Track Autoselect"
@@ -3616,6 +3629,8 @@ msgid ""
 "Configure how long systemd should wait for a device to show up before giving "
 "up on an entry from /etc/fstab. Specify a time in seconds."
 msgstr ""
+"Konfiguriert wie lange systemd auf ein Gerät warten soll, bevor der Eintrag "
+"aus /etc/fstab übersprungen wird. Zeitangabe in Sekunden."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "Configured directories at the top of movielist"
@@ -3623,7 +3638,7 @@ msgstr "Konfigurierte Verzeichnisse ganz oben in der Filmliste"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:455
 msgid "Configures the idle timeout of the automount unit."
-msgstr ""
+msgstr "Konfiguriert das idle timeout der automount unit."
 
 #: enigma2-plugins/movieepg/src/MovieEpgSetup.py:37
 msgid ""
@@ -3884,7 +3899,7 @@ msgstr "Konnte Anrufliste nicht bekommen; falsche Firmware-Version?"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3982
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3999
 msgid "Could not load phonebook: "
-msgstr ""
+msgstr "Telefonbuch konnte nicht geladen werden:"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:422
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1396
@@ -3997,7 +4012,7 @@ msgstr "Land"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2659
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
-msgstr ""
+msgstr "Ländercode (z.B. 0044 für Großbritannien, 0034 für Spanien, etc.)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:308
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:607
@@ -4322,19 +4337,19 @@ msgstr "DM8000 Full"
 
 #: enigma2-plugins/multirc/src/plugin.py:18
 msgid "DM8000-RC layer 1"
-msgstr ""
+msgstr "DM8000-RC Band 1"
 
 #: enigma2-plugins/multirc/src/plugin.py:19
 msgid "DM8000-RC layer 2"
-msgstr ""
+msgstr "DM8000-RC Band 2"
 
 #: enigma2-plugins/multirc/src/plugin.py:20
 msgid "DM8000-RC layer 3"
-msgstr ""
+msgstr "DM8000-RC Band 3"
 
 #: enigma2-plugins/multirc/src/plugin.py:21
 msgid "DM8000-RC layer 4"
-msgstr ""
+msgstr "DM8000-RC Band 4"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:41
 msgid "DMM-Board"
@@ -4808,6 +4823,12 @@ msgid ""
 "retransmissions have been sent, causing the NFS client to return an error to "
 "the calling application."
 msgstr ""
+"Bestimmt das Verhalten des NFS client nachdem eine NFS-Anfrage eine "
+"Zeitüberschreitung erreicht hat. Wenn keine Option spezifiziert ist (oder "
+"die Option hard), werden NFS-Anfragen unbegrenzt wiederholt. Wenn die Option "
+"soft spezifiziert ist, schlägt die NFS-Anfrage fehlt nachdem die Anzahl "
+"Versuche gemäss retrans erreicht ist und ein Fehler wird an die aufrufende "
+"Applikation zurückgegeben."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:356
 msgid "Device"
@@ -5060,15 +5081,15 @@ msgstr "Möchtest Du das Umbenennen beginnen?"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:421
 msgid "Do not allow mandatory locks on this filesystem."
-msgstr ""
+msgstr "Erlaube keine zwingenden locks auf diesem Dateisystem."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:430
 msgid "Do not allow set-user-ID or set-group-ID bits to take effect."
-msgstr ""
+msgstr "set-user-ID oder set-group-ID dürfen keine Auswirkungen haben."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:419
 msgid "Do not increment the i_version inode field."
-msgstr ""
+msgstr "Erhöhe das i_version inode Feld nicht."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:411
 msgid "Do not interpret character or block special devices on the file system."
@@ -5078,16 +5099,20 @@ msgstr ""
 msgid ""
 "Do not permit direct execution of any binaries on the mounted filesystem."
 msgstr ""
+"Unterbinde die direkte Ausführung eines binaries auf dem gemounteten "
+"Dateisystem."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:422
 msgid "Do not report errors for this device if it does not exist."
-msgstr ""
+msgstr "Keine Fehler melden für dieses Gerät, wenn es nicht existiert."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:413
 msgid ""
 "Do not update directory inode access times on this filesystem. (This option "
 "is implied when noatime is set.)"
 msgstr ""
+"Aktualisiere die inode-Zugriffszeiten auf diesem Dateisystem nicht. (Diese "
+"Option ist impliziert, wenn noatime gesetzt ist.)"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:406
 msgid ""
@@ -5098,7 +5123,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:428
 msgid "Do not use the lazytime feature."
-msgstr ""
+msgstr "Verwende das lazytime Feature nicht."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:405
 msgid ""
@@ -5108,7 +5133,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:424
 msgid "Do not use the relatime feature."
-msgstr ""
+msgstr "Verwende relatime Feature nicht."
 
 #: enigma2-plugins/elektro/src/plugin.py:463
 msgid "Do not wake up at the end of next deep standby interval."
@@ -5263,7 +5288,6 @@ msgid ""
 "%s?"
 msgstr ""
 "Soll das folgende Lesezeichen wirklich gelöscht werden?\n"
-"\n"
 "%s"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2275
@@ -5273,7 +5297,6 @@ msgid ""
 "%s?"
 msgstr ""
 "Soll das folgende Verzeichnis wirklich gelöscht werden?\n"
-"\n"
 "%s"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2273
@@ -5283,7 +5306,6 @@ msgid ""
 "%s?"
 msgstr ""
 "Soll der folgende Link wirklich gelöscht werden?\n"
-"\n"
 "%s"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:542
@@ -6219,7 +6241,7 @@ msgstr "Autoresolution aktivieren"
 
 #: enigma2-plugin-babelzapper/src/plugin.py:106
 msgid "Enable Babelzapper Audio"
-msgstr ""
+msgstr "Babelzapper Audio aktivieren"
 
 #: enigma2-plugin-babelzapper/src/plugin.py:101
 msgid "Enable Babelzapper on Mute"
@@ -6951,7 +6973,7 @@ msgstr "Event Info"
 #: enigma2-plugins/fstabeditor/src/plugin.py:418
 msgid ""
 "Every time the inode is modified, the i_version field will be incremented."
-msgstr ""
+msgstr "Erhöhe das i_version-Feld, wenn inode verändert wird."
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:406
 msgid "Everything done ;)"
@@ -7137,7 +7159,7 @@ msgstr "FRITZ!Box - Sperrliste konnte nicht geholt werden: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3551
 msgid "FRITZ!Box - Error getting status: "
-msgstr ""
+msgstr "FRITZ!Box - Fehler beim laden des Status:"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1009
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1724
@@ -7382,7 +7404,7 @@ msgstr "Kanal ist leer."
 
 #: enigma2-plugins/podcast/src/plugin.py:619
 msgid "Feedly OPML"
-msgstr ""
+msgstr "Feedly OPML"
 
 #: enigma2-plugins/weatherplugin/src/plugin.py:210
 #, python-format
@@ -7839,19 +7861,19 @@ msgstr "Frontprozessor Version"
 #: enigma2-plugins/aihdcontroler/src/plugin.py:56
 #: enigma2-plugins/valixdcontrol/src/plugin.py:56
 msgid "Full"
-msgstr ""
+msgstr "Voll"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:51
 msgid "Full vertikal"
-msgstr ""
+msgstr "Vertikal voll"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:58
 msgid "Full-horizontal"
-msgstr ""
+msgstr "Horizontal voll"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:57
 msgid "Full-vertical"
-msgstr ""
+msgstr "Vertikal voll"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:819
 #: enigma2-plugins/eurotictv/src/plugin.py:60
@@ -8146,11 +8168,11 @@ msgstr "England"
 
 #: enigma2-plugins/pushservice/src/Services/GNTP.py:47
 msgid "Growl Host name"
-msgstr ""
+msgstr "Growl Hostname"
 
 #: enigma2-plugins/pushservice/src/Services/GNTP.py:48
 msgid "Growl Port"
-msgstr ""
+msgstr "Growl Port"
 
 #: enigma2-plugins/growlee/meta/plugin_growlee.xml./enigma2-plugins/growlee/meta/plugin_growlee.xml
 msgid ""
@@ -11078,11 +11100,11 @@ msgstr "Freigabeoptionen"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:434
 msgid "Mount the filesystem read-only."
-msgstr ""
+msgstr "Dateisystem read only mounten."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:435
 msgid "Mount the filesystem read-write."
-msgstr ""
+msgstr "Dateisystem read-write mounten."
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:125
 msgid "Mount type"
@@ -12668,7 +12690,7 @@ msgstr "Extras menu öffnen"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:40
 msgid "OpenWebif"
-msgstr ""
+msgstr "OpenWebif"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:306
 msgid "Options:\n"
@@ -12848,7 +12870,7 @@ msgstr "Teilweise bewölkt"
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:184
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:301
 msgid "Partnerbox"
-msgstr ""
+msgstr "Partnerbox"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:537
 #, python-format
@@ -13014,7 +13036,7 @@ msgstr "Alle Dateien endgültig aus Papierkorb entfernen?"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:415
 msgid "Permit execution of binaries."
-msgstr ""
+msgstr "Erlaube die Ausführung von binaries."
 
 #: enigma2-plugins/mytube/src/plugin.py:71
 msgid "Pets & Animals"
@@ -14659,7 +14681,7 @@ msgstr "Deaktivierte Timer löschen"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:281
 msgid "Remove directory from Bookmarks"
-msgstr ""
+msgstr "Entferne Verzeichnis aus Bookmarks"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:170
 msgid "Remove directory from E2 Bookmarks"
@@ -14686,7 +14708,7 @@ msgstr "Nicht existierende Einträge entfernen"
 #: enigma2-plugins/fstabeditor/src/plugin.py:201
 #: enigma2-plugins/fstabeditor/src/plugin.py:215
 msgid "Remove option"
-msgstr ""
+msgstr "Option löschen"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:186
 msgid "Remove permanent sort"
@@ -15072,7 +15094,7 @@ msgstr "Läuft im Testbetrieb"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:431
 msgid "Running processes: "
-msgstr ""
+msgstr "Laufende Prozesse: "
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:346
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:147
@@ -16081,6 +16103,9 @@ msgid ""
 "permissions. Add search permission to directories that have read permission. "
 "The value is given in octal."
 msgstr ""
+"Setze mode für alle Dateien auf Wert & 0777 ohne Berücksichtigung der "
+"originalen Rechte. Füge Suchrechte zu Verzeichnissen hinzu, für die "
+"Leserechte vorhanden sind. Dieser Wert wird in octal definiert."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:508
 msgid "Set this NO to disable this AutoTimer."
@@ -17100,7 +17125,7 @@ msgstr "Lieder (%d)"
 
 #: enigma2-plugin-networkbrowser/src/MountView.py:116
 msgid "Sorry! Your network mount has NOT been removed."
-msgstr ""
+msgstr "Dein Netzwerk-Mount wurde NICHT gelöscht."
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:135
 #: enigma2-plugins/automaticcleanup/src/plugin.py:137
@@ -17353,16 +17378,16 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:103
 msgid "Stalker Channels"
-msgstr ""
+msgstr "Stalker-Kanäle"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:123
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:129
 msgid "Stalker Configuration"
-msgstr ""
+msgstr "Stalker-Konfiguration"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:42
 msgid "Stalker MAC"
-msgstr ""
+msgstr "Stalker-MAC"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:23
 msgid "Stalker Middleware Client Configuration"
@@ -17370,11 +17395,11 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:40
 msgid "Stalker Server"
-msgstr ""
+msgstr "Stalker-Server"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:47
 msgid "Stalker Services"
-msgstr ""
+msgstr "Stalker-Sender"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:68
 msgid "Stalker Streaming Client"
@@ -17382,7 +17407,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:165
 msgid "Stalker login failed!"
-msgstr ""
+msgstr "Anmeldung bei Stalker fehlgeschlagen!"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:40
 msgid "Standard"
@@ -18779,6 +18804,8 @@ msgid ""
 "This option is an alternative to the nfsvers option. It is included for "
 "compatibility with other operating systems."
 msgstr ""
+"Diese Option ist eine Alternative zur nfsvers-Option. Sie ist vorhanden für "
+"Kompatibilität mit anderen Betriebssystemen."
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:77
 msgid ""
@@ -19181,7 +19208,7 @@ msgstr "Cover-Umschalttaste"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:77
 msgid "Toggle Idle Mode"
-msgstr ""
+msgstr "Idle-Modus umschalten"
 
 #: enigma2-plugins/movietagger/src/plugin.py:265
 #: enigma2-plugins/movietagger/src/plugin.py:273
@@ -19402,11 +19429,11 @@ msgstr "Medienfilter vorher entfernen."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:432
 msgid "Turn off the silent flag."
-msgstr ""
+msgstr "Silent-Flag ausschalten."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:431
 msgid "Turn on the silent flag."
-msgstr ""
+msgstr "Silent-Flag anschalten."
 
 #: enigma2-plugins/easymedia/src/plugin.py:53
 msgid "TuxCom"
@@ -19823,7 +19850,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:426
 msgid "Use the kernel's default behavior for inode access time updates."
-msgstr ""
+msgstr "Verwende Kernel-Standardverhalten für inode-Zugriffszeit-Updates."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:154
 msgid "Use time-based duration to stay on service"
@@ -20399,7 +20426,7 @@ msgstr "Schauen Sie EuroticTV via HTTP Live Streaming."
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:104
 msgid "Watch Stalker Channels"
-msgstr ""
+msgstr "Stalker-Kanäle schauen"
 
 #: enigma2-plugins/eurotictv/src/plugin.py:207
 msgid "Watch eUroticTV via HTTP Live Streaming"
@@ -20479,7 +20506,7 @@ msgstr "Webinterface"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:254
 msgid "Webinterface Type"
-msgstr ""
+msgstr "Webinterface-Typ"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:122
 msgid "Webinterface Version"
@@ -21093,6 +21120,8 @@ msgstr ""
 msgid ""
 "You have to restart Enigma2 to activate your new preferences! Restart now?"
 msgstr ""
+"Du musst enigma2 neustarten, um die neuen Einstellungen zu aktivieren! Jetzt "
+"neustarten?"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:184
 msgid ""
@@ -22282,11 +22311,11 @@ msgstr ""
 #: enigma2-plugins/dreamexplorer/src/plugin.py:482
 #: enigma2-plugins/dreamexplorer/src/plugin.py:510
 msgid "file"
-msgstr ""
+msgstr "Datei"
 
 #: enigma2-plugins/pushservice/src/Controller/ListDir.py:47
 msgid "file extension"
-msgstr ""
+msgstr "Dateierweiterung"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:264
 msgid "file system type: "
@@ -22695,7 +22724,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:104
 msgid "loading ..."
-msgstr ""
+msgstr "Lade..."
 
 #: enigma2-plugins/emailclient/src/plugin.py:189
 msgid "loading headers ..."
@@ -22906,7 +22935,7 @@ msgstr "Zufallspasswd"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:344
 msgid "new option: "
-msgstr ""
+msgstr "Neue Option:"
 
 #: enigma2-plugins/webcamviewer/src/WebcamTravel.py:87
 msgid "next"
@@ -23199,11 +23228,11 @@ msgstr "Menü öffnen"
 #: enigma2-plugins/fstabeditor/src/plugin.py:268
 #, python-format
 msgid "option %d: "
-msgstr ""
+msgstr "Option %d:"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:465
 msgid "option: "
-msgstr ""
+msgstr "Option:"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:265
 msgid "options: "
@@ -24104,7 +24133,7 @@ msgstr "Benutzername"
 #: enigma2-plugins/fstabeditor/src/plugin.py:469
 #: enigma2-plugins/fstabeditor/src/plugin.py:485
 msgid "value: "
-msgstr ""
+msgstr "Wert:"
 
 #: enigma2-plugins/emailclient/src/plugin.py:1147
 msgid "view Emails via IMAP4"
@@ -24116,7 +24145,7 @@ msgstr "Erweiterungsmenü öffnen"
 
 #: enigma2-plugins/setpasswd/src/plugin.py:52
 msgid "virt. Keyboard"
-msgstr ""
+msgstr "virt. Tastatur"
 
 #: enigma2-plugins/dreamirc/src/plugin.py:116
 msgid "virtual Keyb."

@@ -7,18 +7,18 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-28 07:48+0200\n"
-"PO-Revision-Date: 2017-06-21 07:54+0000\n"
+"PO-Revision-Date: 2017-09-16 13:42+0000\n"
 "Last-Translator: Adga <adga@zebra.lt>\n"
 "Language-Team: Adga / enigma2 (c) <audrgrin@takas.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1498031678.000000\n"
+"X-POOTLE-MTIME: 1505569376.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1040
 msgid ""
@@ -124,7 +124,7 @@ msgstr "  {lookups:d} sėkminga paieška.\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:529
 msgid " (Setup)"
-msgstr ""
+msgstr " (Sąranka)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:727
 msgid " (without counting cover range)"
@@ -890,7 +890,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/meta/plugin_stalkerclient.xml./enigma2-plugin-stalkerclient/meta/plugin_stalkerclient.xml
 msgid "A native client for the Stalker Middleware streaming server"
-msgstr ""
+msgstr "Gimtasis Stalker Middleware srautinio perdavimo serverio klientas"
 
 #: enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml./enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml
 msgid "A plugin to add / remove / modify entries of fstab."
@@ -923,7 +923,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:497
 msgid "A value is required for the selected option"
-msgstr ""
+msgstr "Reikalinga vertė pagal pasirinktą parinktį"
 
 #: enigma2-plugin-vlcplayer/src/plugin.py:58
 msgid "A video streaming solution based on VLC"
@@ -955,7 +955,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:41
 msgid "API Root"
-msgstr ""
+msgstr "API šaknis"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:349
 msgid ""
@@ -1155,12 +1155,12 @@ msgstr "Pridėti rodymą išplėstiniame meniu"
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:109
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:110
 msgid "Add Stalker Channel"
-msgstr ""
+msgstr "Pridėti Stalker kanalą"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:116
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:117
 msgid "Add Stalker Group"
-msgstr ""
+msgstr "Pridėti Stalker grupę"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1180
 msgid "Add Subs Downloader to BlueButton menu:"
@@ -1217,6 +1217,8 @@ msgid ""
 "Add channels of a Stalker streaming server to your channel list and watch "
 "them"
 msgstr ""
+"Pridėti kanalus iš STALKER transliacijos serverio į savo kanalų sąrašą ir "
+"juos žiūrėti"
 
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:213
 msgid "Add controller"
@@ -1286,7 +1288,7 @@ msgstr "Pridėti naują žymą..."
 #: enigma2-plugins/fstabeditor/src/plugin.py:199
 #: enigma2-plugins/fstabeditor/src/plugin.py:214
 msgid "Add option"
-msgstr ""
+msgstr "Pridėti parinktį"
 
 #: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
 msgid "Add season and episode information to Your recordings."
@@ -1502,7 +1504,7 @@ msgstr "Visi žanrai"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:404
 msgid "All I/O to the filesystem should be done asynchronously."
-msgstr ""
+msgstr "Viskas I/O į failų sistemą turėtų būti padaryta asinchroniškai."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:436
 msgid ""
@@ -1510,6 +1512,10 @@ msgid ""
 "with a limited number of write cycles (e.g. some flash drives), sync may "
 "cause life-cycle shortening."
 msgstr ""
+"Visas failų įvedimo/išėmimo operacijas į sistemą reikia atlikti "
+"sinchroniškai. Jei laikmenose yra ribotas rašymo ciklų skaičius (pvz., kai "
+"kurios vidinės atminties laikmenos) , sinchronizavimas gali sutrumpinti "
+"naudojimo ciklą."
 
 #: enigma2-plugins/ecasa/src/FlickrApi.py:122
 msgid "All Photos"
@@ -1538,6 +1544,9 @@ msgid ""
 "This affects the following system calls: creat, link, unlink, symlink, "
 "mkdir, rmdir, mknod and rename."
 msgstr ""
+"Visi katalogų atnaujinimai per failų sistemą turėtų būti padaryti "
+"sinchroniškai. Tai turi įtakos šiems sistemos reikalavimams: creat, link, "
+"unlink, symlink, mkdir, rmdir, mknod ir pervadinti."
 
 #
 #: enigma2-plugins/autotimer/src/__init__.py:15
@@ -1559,6 +1568,10 @@ msgid ""
 "nodev (unless overridden by subsequent options, as in the option line group,"
 "dev,suid)."
 msgstr ""
+"Leisti paprastam vartotojui prijungti failų sistemą, jei vienas iš tos "
+"naudotojo grupės sutampa su įrenginio grupe. Ši parinktis reiškia "
+"pasirinkimą nosuid ir nodev (jei nebus pakeista vėlesnėmis parinktimis, kaip "
+"parinkčių eilutės grupėje, dev, suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:433
 msgid ""
@@ -1566,6 +1579,10 @@ msgid ""
 "the device. This option implies the options nosuid and nodev (unless "
 "overridden by subsequent options, as in the option line owner,dev,suid)."
 msgstr ""
+"Leisti įprastam vartotojui įkelti failų sistemą, jei šis vartotojas yra "
+"įrenginio naudotojas. Ši parinktis reiškia parinktis nosuid ir nodev (jei "
+"nebus pakeista vėlesnėmis parinktimis, kaip parinkčių eilutės naudotojas, "
+"dev, suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:437
 msgid ""
@@ -1576,6 +1593,12 @@ msgid ""
 "nodev (unless overridden by subsequent options, as in the option line user,"
 "exec,dev,suid)."
 msgstr ""
+"Leisti paprastam vartotojui prijungti failų sistemą. Prijungimo vartotojo "
+"vardas įrašomas į mtab rinkmeną (arba prie privataus libmount failo "
+"sistemoje /run/mount sistemose be reguliaraus mtab), kad tas pats vartotojas "
+"galėtų dar kartą pašalinti failų sistemą. Ši parinktis reiškia parinktis "
+"noexec, nosuid ir nodev (jei nebus pakeista vėlesnėmis parinktimis, kaip "
+"parinkčių eilutės vartotojo, exec, dev, suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:439
 msgid ""
@@ -1584,14 +1607,19 @@ msgid ""
 "and nodev (unless overridden by subsequent options, as in the option line "
 "users,exec,dev,suid)."
 msgstr ""
+"Leisti bet kuriam vartotojui prijungti ir atjungti failų sistemą net tada, "
+"kai kitas paprastas vartotojas tai prijungė. Ši parinktis reiškia parinktis "
+"noexec, nosuid ir nodev (jei nebus pakeista vėlesnėmis parinktimis, kaip "
+"parinkčių eilutės vartotojams, exec, dev, suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:420
 msgid "Allow mandatory locks on this filesystem."
-msgstr ""
+msgstr "Leisti privalomus užrakinimus šioje failų sistemoje."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:429
 msgid "Allow set-user-ID or set-group-ID bits to take effect."
 msgstr ""
+"Leisti nustatyti naudotojo ID arba nustatymo grupės ID bitų įsigaliojimui"
 
 #: enigma2-plugins/moviesearch/meta/plugin_moviesearch.xml./enigma2-plugins/moviesearch/meta/plugin_moviesearch.xml
 msgid "Allow to search recordings"
@@ -1620,6 +1648,9 @@ msgid ""
 "the kernel to default to relatime or noatime but still allow userspace to "
 "override it."
 msgstr ""
+"Leidžia aiškiai visą laiką prašyti atnaujinimų. Tai leidžia branduoliui "
+"pagal nutylėjimą prilyginti realumui ar noatime, bet vis tiek leidžia "
+"vartotojams nepaisyti erdvės."
 
 #: enigma2-plugins/pipzap/meta/plugin_pipzap.xml./enigma2-plugins/pipzap/meta/plugin_pipzap.xml
 msgid "Allows to zap using the picture in picture."
@@ -1734,7 +1765,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:454
 msgid "An automount unit will be created for the file system."
-msgstr ""
+msgstr "Failų sistemai bus sukurtas automatinis pajungimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:280
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:303
@@ -2682,11 +2713,11 @@ msgstr "Skambinti"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:635
 msgid "Call diversion"
-msgstr ""
+msgstr "Skambučio nukreipimas"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1085
 msgid "Call diversion active"
-msgstr ""
+msgstr "Skambučių nukreipimas veikia"
 
 #
 #: enigma2-plugins/ncidclient/src/plugin.py:731
@@ -2730,7 +2761,7 @@ msgstr "Gali būti konfigūruojama per nustatymus"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:407
 msgid "Can be mounted with the -a option."
-msgstr ""
+msgstr "Galima įdiegti su parinktimi -a."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1156
 msgid "Can not save "
@@ -2773,6 +2804,8 @@ msgid ""
 "Can only be mounted explicitly (i.e., the -a option will not cause the "
 "filesystem to be mounted)."
 msgstr ""
+"Gali būti montuojamas tik aiškiai (t.y. -a variantas nesukels failų sistemos "
+"įdiegimo)."
 
 #: enigma2-plugins/genuinedreambox/src/plugin.py:108
 msgid "Can't connect to server. Please check your network!"
@@ -2995,6 +3028,8 @@ msgid ""
 "Cannot remove option. At least one option is required. Option will be set to "
 "defaults"
 msgstr ""
+"Nepavyksta pašalinti parinkties. Bent vienas variantas yra privalomas. "
+"Pasirinkimas bus nustatytas pagal numatytuosius nustatymus"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/SwitchService.py:71
 msgid "Cannot zap while device is in Standby"
@@ -3485,7 +3520,7 @@ msgstr "Uždaryti EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:608
 msgid "Close EMC and do power button action"
-msgstr ""
+msgstr "Uždarykite EMC ir atlikite veiksmus su įtampos mygtuku"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:176
 msgid "Close MediaPlayer"
@@ -3645,7 +3680,7 @@ msgstr "Konfigūruokite filmo EPG priedą"
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:124
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:130
 msgid "Configure Stalker Middleware Client"
-msgstr ""
+msgstr "Konfigūruokite Stalker Middleware klientą"
 
 #: enigma2-plugins/trackautoselect/src/plugin.py:20
 msgid "Configure Track Autoselect"
@@ -3660,6 +3695,8 @@ msgid ""
 "Configure how long systemd should wait for a device to show up before giving "
 "up on an entry from /etc/fstab. Specify a time in seconds."
 msgstr ""
+"Konfigūruokite, kiek laiko systemd turėtų laukti, kol įrenginys atsiras "
+"prieš atsisakant įrašo iš /etc/fstab. Nurodykite laiką sekundėmis."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "Configured directories at the top of movielist"
@@ -3667,7 +3704,7 @@ msgstr "Sukonfigūruoti katalogai filmų sąrašo viršuje"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:455
 msgid "Configures the idle timeout of the automount unit."
-msgstr ""
+msgstr "Konfigūruoja automatinio pajungimo tuščiosios eigos laiką."
 
 #: enigma2-plugins/movieepg/src/MovieEpgSetup.py:37
 msgid ""
@@ -3923,7 +3960,7 @@ msgstr "Nepavyko gauti skambučių sąrašo; gal netinkama versija?"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3982
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3999
 msgid "Could not load phonebook: "
-msgstr ""
+msgstr "Nepavyko įkelti telefonų knygos: "
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:422
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1396
@@ -4034,7 +4071,7 @@ msgstr "Šalis"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2659
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
-msgstr ""
+msgstr "Šalies kodas (pvz 0044 JK, 0034 Ispanija, ir t.t.)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:308
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:607
@@ -4850,6 +4887,11 @@ msgid ""
 "retransmissions have been sent, causing the NFS client to return an error to "
 "the calling application."
 msgstr ""
+"NFS kliento atkūrimo elgsena nustatoma po NFS užklausos ištrynimo. Jei "
+"nenurodyta nei viena parinktis (arba jei nurodyta sunki parinktis), NFS "
+"užklausos tęsiamos neribotą laiką. Jei yra nurodyta minkšta parinktis, tada "
+"NFS klientas nepateikia NFS užklausos po to, kai buvo retransliuotos "
+"retransliacijos, todėl NFS klientas grąžina klaidingą skambinimo programą."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:356
 msgid "Device"
@@ -4905,9 +4947,7 @@ msgstr "Pakatalogis"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2595
 msgid "Directory is not empty! Do you really want to delete it?"
-msgstr ""
-"Katalogas netuščias!\n"
-"Ar tikrai norite jį pašalinti?"
+msgstr "Katalogas netuščias! Ar tikrai norite jį pašalinti?"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:557
 msgid "Directory name error !"
@@ -5108,34 +5148,40 @@ msgstr "Ar norite paleisti pervardijimą?"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:421
 msgid "Do not allow mandatory locks on this filesystem."
-msgstr ""
+msgstr "Neleisti, kad šioje failų sistemoje būtų privalomi blokavimai."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:430
 msgid "Do not allow set-user-ID or set-group-ID bits to take effect."
 msgstr ""
+"Neleiskite nustatyti vartotojo ID arba nustatytos grupės ID, kad įsigaliotų "
+"bitai."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:419
 msgid "Do not increment the i_version inode field."
-msgstr ""
+msgstr "Negalima padidinti i_version inode lauko."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:411
 msgid "Do not interpret character or block special devices on the file system."
 msgstr ""
+"Negalima interpretuoti savybių ar blokuoti specialių failų sistemos "
+"įrenginių."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:416
 msgid ""
 "Do not permit direct execution of any binaries on the mounted filesystem."
-msgstr ""
+msgstr "Neleiskite sistemoje diegti bet kokių dvejetainių failų."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:422
 msgid "Do not report errors for this device if it does not exist."
-msgstr ""
+msgstr "Nepraneškite apie klaidas šiame įrenginyje, jei jo nėra."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:413
 msgid ""
 "Do not update directory inode access times on this filesystem. (This option "
 "is implied when noatime is set.)"
 msgstr ""
+"Negalima atnaujinti katalogo inode prieigos laikų, šioje failų sistemoje. ("
+"Ši parinktis yra numanoma, kai yra nustatyta noatime.)"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:406
 msgid ""
@@ -5143,20 +5189,26 @@ msgid ""
 "on the news spool to speed up news servers). This works for all inode types "
 "(directories too), so it implies nodiratime."
 msgstr ""
+"Negalima atnaujinti inode prieigos laikų šioje failų sistemoje (pvz., "
+"siekiant greičiau pasiekti naujienų kanalą, kad pagreitintų naujienų "
+"serverius). Tai veikia visiems inode tipams (taip pat ir katalogams), taigi, "
+"tai reiškia \"nodiratime\"."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:428
 msgid "Do not use the lazytime feature."
-msgstr ""
+msgstr "Nenaudokite lazytime funkcijos."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:405
 msgid ""
 "Do not use the noatime feature, so the inode access time is controlled by "
 "kernel defaults."
 msgstr ""
+"Nenaudokite noatime funkcijos, taigi inode prieigos laiką kontroliuoja "
+"branduolio numatytuosius nustatymus."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:424
 msgid "Do not use the relatime feature."
-msgstr ""
+msgstr "Nenaudokite realaus laiko funkcijos."
 
 #: enigma2-plugins/elektro/src/plugin.py:463
 msgid "Do not wake up at the end of next deep standby interval."
@@ -6278,7 +6330,7 @@ msgstr "Įjungti auto rezoliuciją"
 
 #: enigma2-plugin-babelzapper/src/plugin.py:106
 msgid "Enable Babelzapper Audio"
-msgstr ""
+msgstr "Įjungti Babelzapper garsą"
 
 #: enigma2-plugin-babelzapper/src/plugin.py:101
 msgid "Enable Babelzapper on Mute"
@@ -7005,6 +7057,7 @@ msgstr "Įvykio info"
 msgid ""
 "Every time the inode is modified, the i_version field will be incremented."
 msgstr ""
+"Kiekvieną kartą, kai inode yra pakeista, i_version laukas bus didinamas."
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:406
 msgid "Everything done ;)"
@@ -7188,7 +7241,7 @@ msgstr "FRITZ!Box - klaida, gaunant juodąjį sąrašą: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3551
 msgid "FRITZ!Box - Error getting status: "
-msgstr ""
+msgstr "FRITZ! Box - statuso gavimo klaida: "
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1009
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1724
@@ -7695,6 +7748,8 @@ msgid ""
 "Forbid an ordinary user to mount the filesystem. This is the default; it "
 "does not imply any other options."
 msgstr ""
+"Uždrausti įprastam vartotojui įdiegti failų sistemą. Tai pagal nutylėjimą; "
+"tai nereiškia jokių kitų galimybių."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:172
 msgid "Force save EPG.db"
@@ -7799,7 +7854,9 @@ msgstr ""
 msgid ""
 "Found rogue files:\n"
 "\n"
-msgstr "Rasti neteisingi failai:\n"
+msgstr ""
+"Rasti neteisingi failai:\n"
+"\n"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:46
 #: enigma2-plugins/mytube/src/plugin.py:91
@@ -8261,10 +8318,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:463
 msgid "HELP_Always save last played progress as marker"
-msgstr ""
-"Pasirinkus 'Taip', žymė nustatoma kiekvienąkart, sustabdžius atkūrimą.\n"
-"Tęsiant atkūrimą, mygtukais '<' ir '>' galima šokinėti per šias žymes "
-"(nepriklausomai nuo pratęsimo vietos)."
+msgstr "PAGALBA. Visada išsaugokite paskutinę grojamą pažangą kaip žymeklį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:499
 msgid "HELP_Automatic timers list cleaning"
@@ -8281,14 +8335,11 @@ msgstr "Nustatykite, kas vyks, paspaudus 'Bouquet' mygtuką."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:401
 msgid "HELP_Check for dead links"
-msgstr ""
-"Kadangi daugelis nuorodų būna į nešiojamas/atjungiamas/tinklines laikmenas, "
-"kurios bet kada gali būti atjungtos, tokios nuorodos dažnai keičiasi.\n"
-"Ši funkcija ir skirta patikrinti, ar jos dar galioja."
+msgstr "PAGALBA_patikrinkite neveikiančias nuorodas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "HELP_Configure in etc\\enigma2\\emc-topdir.cfg"
-msgstr "Kelias į /etc/enigma2/emc-topdir.cfg konfigūravimo failą."
+msgstr "PAGALBA_konfigūruokite etc\\enigma2\\emc-topdir.cfg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:445
 msgid "HELP_Cover background"
@@ -8300,9 +8351,7 @@ msgstr "Kai pasirinkta rodyti viršelį, čia galite nustatyti jo rodymo trukmę
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:373
 msgid "HELP_Cursor predictive move after selection"
-msgstr ""
-"Pasirinkus 'VIDEO/PVR' mygtuku, žymeklis judės nurodyta kryptimi.\n"
-"Su 'Aukštyn/Žemyn' mygtuku, žymeklis judės paskutine nustatyta kryptimi."
+msgstr "PAGALBA_numatomas kursoriaus judėjimas po pasirinkimo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:360
 msgid "HELP_Daily auto-start"
@@ -8327,10 +8376,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:515
 msgid "HELP_Description field update delay"
-msgstr ""
-"Aprašymo lango filmų sąraše atvaizdavimo delsa.\n"
-"(pagreitina navigaciją filmų sąrašu aukštyn/žemyn mygtukais, nes aprašymas "
-"parodomas tik po pasirinkto uždelsimo)."
+msgstr "PAGALBA_aprašymo lauko atnaujinimo delsa"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:341
 msgid "HELP_Disable EMC"
@@ -8350,9 +8396,7 @@ msgstr "Nenuskaityti automatiškai dydžio katalogų, įtrauktų į emc-noscan.c
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:532
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
-"Galima parsisiųsti garso metaduomenų paketą Mutagen.\n"
-"Parsisiuntę, turėsite jį įsidiegti."
+msgstr "PAGALBA_atsisiųskite Mutagen paketą garso meta duomenims"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:470
 msgid "HELP_Download cutlist from Cutlist.at"
@@ -8365,10 +8409,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "HELP_EMC always reload after open"
-msgstr ""
-"Atidarant EMC, katalogo turinys kiekvienąkart bus perskaitomas iš naujo.\n"
-"Jei ne, paleidžiant EMC antrąkart, katalogo turinys bus skaitomas iš "
-"atminties podėlio."
+msgstr "PAGALBA_EMC visada iš naujo įkrauti po atidarymo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:547
 msgid "HELP_EMC output directory"
@@ -8377,29 +8418,19 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:371
 msgid "HELP_EMC path access limit"
-msgstr ""
-"Čia galite apriboti, kiek giliai galima nueiti \"Filmų namų\" "
-"pakatalogiais.\n"
-"'<' ir '>' mygtukais (šalia '0' mygtuko) šį limitą galima peržengti."
+msgstr "PAGALBA_EMC kelio prieigos riba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:491
 msgid "HELP_EMC re-open list after Movie end"
-msgstr ""
-"Kai filmas pasibaigia, bus atveriamas EMC įrašų sąrašas.\n"
-"Jei ne, vėl įjungiamas ankstesnės TV transliacijos režimas."
+msgstr "PAGALBA_EMC iš naujo atidarykite sąrašą pasibaigus filmui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:490
 msgid "HELP_EMC re-open list after STOP-press"
-msgstr ""
-"Kai atkūrimas sustabdytas, bus atvertas EMC įrašų sąrašas.\n"
-"Jei ne, vėl įjungiamas ankstesnės TV transliacijos režimas."
+msgstr "PAGALBA_EMC iš naujo atidarykite sąrašą, po STOP paspaudimo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:546
 msgid "HELP_Enable EMC debug output"
-msgstr ""
-"Įjungti EMC klaidų derinimo žurnalą. Klaidų žurnalo failas bus išsaugotas "
-"EMC išvesties kataloge.\n"
-"!!! ĮJUNKITE ČIA TIK TADA, KAI TURITE PROBLEMŲ SU EMC !!!"
+msgstr "PAGALBA_įjunkite EMC derinimo išvestį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:481
 msgid "HELP_Enable daily trashcan cleanup"
@@ -8421,9 +8452,7 @@ msgstr "Čia galite įjungti automatinį subtitrų kalbos parinkimą."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:498
 msgid "HELP_Enable remote recordings"
-msgstr ""
-"Atpažinti įrašus, darytus kitų aparatų į bendrą laikmeną.\n"
-"Šie įrašai pažymimi specialia piktograma."
+msgstr "PAGALBA_įjungti nuotolinius įrašus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "HELP_Extra support for selected language"
@@ -8437,10 +8466,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:441
 msgid "HELP_Finished watching percent"
-msgstr ""
-"Galite nurodyti, kiek procentų peržiūrėjus, įrašas bus skaitomas, kaip "
-"\"peržiūrėtas\".\n"
-"Eigos juosta pasikeis į žalią."
+msgstr "PAGALBA_peržiūros procentas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:363
 msgid "HELP_Force standby after auto-start"
@@ -8448,15 +8474,11 @@ msgstr "Po autopaleidimo iš naujo imtuvas bus perjungtas į budėjimo būseną.
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "HELP_Hide movies being deleted"
-msgstr ""
-"Įrašas bus paslėptas, t.y. šalinimo metu filmų sąraše nebus rodomas\n"
-"(bet kokiu atveju, šalinimas vis tiek vyks fono režime)."
+msgstr "PAGALBA_Slėpti ištrintus filmus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:495
 msgid "HELP_Hide movies being moved"
-msgstr ""
-"Įrašas bus paslėptas, t.y. perkėlimo metu filmų sąraše nebus rodomas\n"
-"(bet kokiu atveju, perkėlimas vis tiek vyks fono režime)."
+msgstr "PAGALBA_slėpti perkeltus filmus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Horizontal alignment for count / size"
@@ -8468,10 +8490,7 @@ msgstr "Horizontalus teksto išdėstymas pagal žinomas datas."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:483
 msgid "HELP_How many days files may remain in trashcan"
-msgstr ""
-"Nustatykite, kiek dienų failai turi išbūti šiukšliadėžėje, kol EMC juos "
-"ištrins galutinai.\n"
-"Kai pasirinkta [0], failai visada bus trinami iškart."
+msgstr "PAGALBA_kiek dienų failai gali likti šiukšliadėžėje"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Icon shown for initially unknown count / size"
@@ -8480,9 +8499,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:461
 msgid "HELP_Jump to first mark when playing movie"
-msgstr ""
-"Automatiškai pereis prie pirmos įrašo žymės, jei tai įmanoma.\n"
-"(gali padėti automatiškai praleisti pradinio laiko intarpus)."
+msgstr "PAGALBA_pereiti prie pirmos atžymos žiūrint filmą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "HELP_Key assignment Separator"
@@ -8503,9 +8520,7 @@ msgstr "Kalbos nustatymai."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_Latest Recordings directory limit"
-msgstr ""
-"Nustatykite virtualaus \"Naujausių įrašų\" katalogo apribojimus.\n"
-"VTI galimi apribojimai dienomis."
+msgstr "PAGALBA_naujausių įrašų katalogo riba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:391
 msgid "HELP_Latest Recordings directory use emc-noscan.cfg"
@@ -8569,9 +8584,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:367
 msgid "HELP_Movie home at start"
-msgstr ""
-"EMC visada pirmiausiai atveria \"Filmų katalogą\".\n"
-"(Žemiau galite pasirinkti pageidaujamą \"Filmų katalogą\")."
+msgstr "PAGALBA_filmo pradžia"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Movie home home path"
@@ -8592,10 +8605,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:460
 msgid "HELP_No resume below 10 seconds"
-msgstr ""
-"Trumpesnės, kaip 10 sek. paleidimo žymės bus ignoruojamos.\n"
-"Jeigu atkūrimas sustabdytas per pirmąsias 10 sekundžių, paleidus iš naujo, "
-"pratęsti siūloma nebus."
+msgstr "PAGALBA_nepavyksta tęsti mažiau nei 10 sekundžių"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:436
 msgid "HELP_Own Path to movie picons"
@@ -8635,10 +8645,7 @@ msgstr "Pabraukimai ir taškai pavadinimuose bus pakeičiami tarpais."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:420
 msgid "HELP_Resolve links and show real path"
-msgstr ""
-"Bus tikrinami nuorodų keliai.\n"
-"Ilgai rodant suktuką, ar esant NAS prisijungimo problemų, išjunkite šią "
-"parinktį. Kelias bus rodomas, kaip \"Išplėstinis aprašymas\"."
+msgstr "PAGALBA_leisti nuorodas ir rodyti tikrą kelią"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:462
 msgid "HELP_Rewind finished movies before playing"
@@ -8648,27 +8655,19 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:406
 msgid "HELP_Scan for DVD structures"
-msgstr ""
-"Leidžia išjungti DVD struktūros nuskaitymą visuose kataloguose.\n"
-"Išjungus, išvengiama nepageidaujamų (tinklo) diskų pabudimų."
+msgstr "PAGALBA_nuskaityti DVD struktūras"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:408
 msgid "HELP_Scan for bluray structures"
-msgstr ""
-"Leidžia išjungti Blu-ray diskų struktūros nuskaitymą.\n"
-"Išjungus, išvengiama nepageidaujamų (tinklo) diskų pabudimų."
+msgstr "PAGALBA_nuskaityti bluray struktūras"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:409
 msgid "HELP_Scan for bluray structures in .iso"
-msgstr ""
-"Leidžia išjungti Blu-ray diskų struktūros nuskaitymą ISO faile.\n"
-"Išjungus, išvengiama nepageidaujamų (tinklo) diskų pabudimų."
+msgstr "PAGALBA_nuskaityti bluray.iso struktūras"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:407
 msgid "HELP_Scan for movie structures"
-msgstr ""
-"Leidžia išjungti filmų struktūros nuskaitymą kataloguose.\n"
-"Išjungus, išvengiama nepageidaujamų (tinklo) diskų pabudimų."
+msgstr "PAGALBA_nuskaityti filmų struktūras"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:511
 msgid "HELP_Secondary playback audio language"
@@ -8684,10 +8683,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:440
 msgid "HELP_Short watching percent"
-msgstr ""
-"Galite nurodyti, kiek procentų peržiūrėjus, įrašas bus skaitomas, kaip "
-"\"trumpai žiūrėtas\".\n"
-"Eigos juosta pasikeis į mėlyną."
+msgstr "PAGALBA_trumpas žiūrėjimo procentas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:393
 msgid "HELP_Show Bookmarks in movielist"
@@ -8699,17 +8695,11 @@ msgstr "Jei viršelis prieinamas, tada jis bus parodytas."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:419
 msgid "HELP_Show Cut-Nr if exist"
-msgstr ""
-"Jei įrašymo metu Enigma2 pasileis iš naujo, įrašymas bus tęsiamas "
-"automatiškai, failo pavadinimo gale pridedant skaitmenį.\n"
-"Kitaip sakant, čia įjungus, prie pavadinimo, nutraukus ir vėliau pratęsus "
-"įrašą, bus pridedamas skaičius."
+msgstr "PAGALBA_rodyti Cut-Nr, jeigu yra"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:345
 msgid "HELP_Show EMC in extensions menu"
-msgstr ""
-"Pasirinkite, rodyti, ar ne EMC paleidimą plėtinių meniu lange.\n"
-"Šis meniu paprastai atsidaro 'MĖLYNO' mygtuko paspaudimu."
+msgstr "PAGALBA_rodyti EMC tarp plėtinių meniu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:389
 msgid "HELP_Show Latest Recordings directory"
@@ -8731,10 +8721,7 @@ msgstr "Rodyti/nerodyti VLC katalogą (kai įdiegtas VLC išplėstinis įskiepis
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:538
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr ""
-"Rodyti garso metaduomenis filmų sąraše.\n"
-"Kad jie būtų korektiškai atvaizduojami, reikės atlikti pakeitimus EMC "
-"aplinkos temoje."
+msgstr "PAGALBA_rodyti garso metaduomenis (reikia pakeisti aplinkos temą)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:378
 msgid "HELP_Show directories"
@@ -8787,9 +8774,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:344
 msgid "HELP_Show plugin config in extensions menu"
-msgstr ""
-"Pasirinkite, rodyti, ar ne įskiepio konfigūravimą plėtinių meniu lange.\n"
-"Šis meniu paprastai atsidaro 'MĖLYNO' mygtuko paspaudimu."
+msgstr "PAGALBA_rodyti priedo konfigūraciją tarp plėtinių meniu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:465
 msgid "HELP_Show real length of running records"
@@ -8801,9 +8786,7 @@ msgstr "Rodyti/nerodyti simbolines nuorodas."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:477
 msgid "HELP_Show trashcan directory"
-msgstr ""
-"Šiukšliadėžės katalogą rodyti EMC\n"
-"(kai šiukšliadėžė nerodoma, ją galite atsidaryti EMC paspaudę 'MENU')."
+msgstr "PAGALBA_rodyti katalogo šiukšliadėžę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:368
 msgid "HELP_Sort mode at startup"
@@ -8846,9 +8829,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:475
 msgid "HELP_Trashcan enable"
-msgstr ""
-"Čia galite įjungti-išjungti šiukšliadėžę.\n"
-"Išjungus, šalinamas turinys bus ištrintas iškart po užklausimo."
+msgstr "PAGALBA_įjungti šiukšliadėžę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:476
 msgid "HELP_Trashcan path"
@@ -8858,10 +8839,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:416
 msgid "HELP_Try to load titles from .eit files"
-msgstr ""
-"Pavadinimus bus bandoma įkelti iš .eit failų. Jei nepavyks, pavadinimas bus "
-"imamas iš failo pavadinimo.\n"
-"(Jei aktyvūs ir .meta, ir .eit, pirmiausiai bus skaitoma iš .meta)"
+msgstr "PAGALBA_pabandykite įkelti antraštes iš .eit failų"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:414
 msgid "HELP_Try to load titles from .meta files"
@@ -8911,17 +8889,11 @@ msgstr "Langų autopaleidimo pabaigos laikas."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:405
 msgid "HELP_cfghide_enable"
-msgstr ""
-"Slėpti failus ir katalogus, įtrauktus į /etc/enigma2/emc-hide.cfg.\n"
-"Pakeitus šį nustatymą, būtina grafinę aplinką paleisti iš naujo!"
+msgstr "PAGALBA_cfg slėpimas_įjungtas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:410
 msgid "HELP_cfgscan_suppress"
-msgstr ""
-"Kataloguose, išvardintuose /etc/enigma2/emc-noscan.cfg, stabdyti DVD "
-"struktūros nuskaitymą. Taip išvengiama nepageidaujamų (tinklo) diskų "
-"pabudimų.\n"
-"Pakeitus šį nustatymą, būtina grafinę aplinką paleisti iš naujo!"
+msgstr "PAGALBA_slopinti cfg nuskaitymą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:451
 msgid "HELP_hide_miniTV"
@@ -8929,11 +8901,7 @@ msgstr "Nurodo situacijas, kada turi būti paslėptas mažasis TV ekranas."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:455
 msgid "HELP_hide_miniTV_method"
-msgstr ""
-"Pasirenkamas mažojo ekrano slėpimo būdas.\n"
-"Panaudotinas, pvz., kai Gigablue Quad iškraipo teisingą kraštinių santykį. "
-"Tiesioginė transliacija nebus nutraukta, bet miniTV alternatyviai sumažins "
-"pikselių skaičių."
+msgstr "PAGALBA_slėpti_miniTV_metodą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:411
 msgid "HELP_scan_linked"
@@ -9865,6 +9833,7 @@ msgstr "Interneto Radijo stočių sąrašo paieškos kriterijus: %s"
 #: enigma2-plugins/fstabeditor/src/plugin.py:410
 msgid "Interpret character or block special devices on the filesystem."
 msgstr ""
+"Interpretuoti simbolį arba blokuoti specialius prietaisus failų sistemoje."
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:43
 msgid "Interval in slideshow before new picture is being shown."
@@ -11031,11 +11000,11 @@ msgstr "Pajungimo pasirinkimas"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:434
 msgid "Mount the filesystem read-only."
-msgstr ""
+msgstr "Šią failų sistemą prijungti tik skaitymui"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:435
 msgid "Mount the filesystem read-write."
-msgstr ""
+msgstr "Šią failų sistemą prijungti skaitymui ir rašymui."
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:125
 msgid "Mount type"
@@ -11416,11 +11385,11 @@ msgstr "Garso išjungimo mygtukas nuotolinio valdymo pulte"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2645
 msgid "Mute on incoming call"
-msgstr ""
+msgstr "Išjungti garsą įeinančiam skambučiui"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2646
 msgid "Mute on outgoing calls"
-msgstr ""
+msgstr "Išjungti garsą išeinantiems skambučiams"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Volume.py:26
 msgid "Mute toggled"
@@ -11884,7 +11853,7 @@ msgstr "Laiko poslinkis nenustatytas, kad išsaugoti tuos įrašus!"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1093
 msgid "No call diversion active"
-msgstr ""
+msgstr "Neveikia skambučių nukreipimas"
 
 #: enigma2-plugins/imdb/src/plugin.py:601
 #: enigma2-plugins/ofdb/src/plugin.py:420
@@ -12508,7 +12477,7 @@ msgstr "Vienas DECT telefonas registruotas"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1087
 msgid "One call diversion active"
-msgstr ""
+msgstr "Vienas skambučių nukreipimas aktyvus"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1053
 msgid "One mailbox active"
@@ -12570,6 +12539,8 @@ msgid ""
 "Only update times (atime, mtime, ctime) on the in-memory version of the file "
 "inode."
 msgstr ""
+"Atnaujinkite tik laikus (atime, mtime, ctime) failo inode atminties "
+"versijoje."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:557
 msgid "Open"
@@ -12632,7 +12603,7 @@ msgstr "Atidarykite išplėstinį meniu"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:40
 msgid "OpenWebif"
-msgstr ""
+msgstr "OpenWebif"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:306
 msgid "Options:\n"
@@ -12812,7 +12783,7 @@ msgstr "Šiek tiek debesuota"
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:184
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:301
 msgid "Partnerbox"
-msgstr ""
+msgstr "Partnerbox"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:537
 #, python-format
@@ -12977,7 +12948,7 @@ msgstr "Negrįžtamai pašalinti visus įrašus iš šiukšliadėžės?"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:415
 msgid "Permit execution of binaries."
-msgstr ""
+msgstr "Leisti dvejetainius failus."
 
 #: enigma2-plugins/mytube/src/plugin.py:71
 msgid "Pets & Animals"
@@ -13535,7 +13506,7 @@ msgstr "Jungtis:"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugalų"
 
 #: enigma2-plugins/googlemaps/src/plugin.py:422
 #: enigma2-plugins/googlemaps/src/plugin.py:423
@@ -13851,7 +13822,7 @@ msgstr "eigos juosta"
 
 #: e2openplugin-SeriesPlugin/src/TimeoutServerProxy.py:62
 msgid "ProtocolError:"
-msgstr ""
+msgstr "Protokolo klaida:"
 
 #: enigma2-plugins/pushservice/src/Services/SMTP.py:32
 msgid "Provided by Dreambox Plugin {name:s} {version:s} - {plugin:s}\n"
@@ -14200,7 +14171,7 @@ msgstr "Skaitomas log failas…\n"
 
 #: enigma2-plugin-babelzapper/src/plugin.py:107
 msgid "Reading speed [80-450] words/min"
-msgstr ""
+msgstr "Skaitymo greitis [80-450] žodžių/per min."
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:165
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:372
@@ -14652,12 +14623,12 @@ msgstr "Pašalinti baigtą laikmatį(s)"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:59
 msgid "Remove not existing events"
-msgstr "Pašalinti neesamą įvykį"
+msgstr "Pašalinti neegzistuojantį įvykį"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:201
 #: enigma2-plugins/fstabeditor/src/plugin.py:215
 msgid "Remove option"
-msgstr ""
+msgstr "Pašalinti parinktį"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:186
 msgid "Remove permanent sort"
@@ -15763,6 +15734,12 @@ msgid ""
 "other applications running on the same client. Remote applications are not "
 "affected by these locks."
 msgstr ""
+"Nustato, ar norite naudoti NLM juostos protokolą, kad užrakintumėte failus "
+"serveryje. Jei nenurodyta nė viena galimybė (arba jei yra nurodyta užraktas)"
+", šis montavimo taškas yra naudojamas NLM užrakinimui. Naudodami \"nolock\" "
+"parinktį, programos gali užrakinti failus, tačiau tokie užrakinimai suteikia "
+"išskirtinumą tik kitoms, to paties kliento programoms. Nuotolinės programos "
+"neturi įtakos šiems užrakinimams."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:87
 msgid "Send"
@@ -16037,6 +16014,9 @@ msgid ""
 "permissions. Add search permission to directories that have read permission. "
 "The value is given in octal."
 msgstr ""
+"Nustatykite visų failų režimą į reikšmę 0777, neatsižvelgiant į pradinius "
+"leidimus. Pridėkite paieškos leidimą į katalogus, kurie turi leidimą "
+"skaityti. Vertė yra pateikta aštuntainėje."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:508
 msgid "Set this NO to disable this AutoTimer."
@@ -16240,7 +16220,7 @@ msgstr "Rodyti EPG stulpeliais:"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:133
 msgid "Show Energy shedule timers"
-msgstr ""
+msgstr "Rodyti energijos taupymo laiką"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:530
 msgid "Show Fan Speed as"
@@ -16312,7 +16292,7 @@ msgstr "Rodyti PiP infojuostoje"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/PiP.py:41
 msgid "Show PiP service(s)"
-msgstr ""
+msgstr "Rodyti PiP paslaugą (-as)"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:117
 msgid "Show Picons (Reference):"
@@ -16375,7 +16355,7 @@ msgstr "Rodyti visus priedus filmų grotuve?"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2675
 msgid "Show also internal numbers"
-msgstr ""
+msgstr "Rodyti ir vidinius numerius"
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:89
 msgid "Show and hide with InfoBar"
@@ -16411,7 +16391,7 @@ msgstr "Rodyti Informaciją apie prijungimą iššokančiais langais"
 
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:54
 msgid "Show cover arts"
-msgstr "Rodyti viršelių meną"
+msgstr "Rodyti albumo viršelį"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:210
 msgid "Show current Playlist"
@@ -17302,44 +17282,44 @@ msgstr "Sportas"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:99
 msgid "Stalker Autostart"
-msgstr ""
+msgstr "Stalker automatinis paleidimas"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:103
 msgid "Stalker Channels"
-msgstr ""
+msgstr "Stalker kanalai"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:123
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:129
 msgid "Stalker Configuration"
-msgstr ""
+msgstr "Stalker konfigūracija"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:42
 msgid "Stalker MAC"
-msgstr ""
+msgstr "Stalker MAC"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:23
 msgid "Stalker Middleware Client Configuration"
-msgstr ""
+msgstr "STALKER Middleware kliento konfigūracija"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:40
 msgid "Stalker Server"
-msgstr ""
+msgstr "Stalker serveris"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:47
 msgid "Stalker Services"
-msgstr ""
+msgstr "Stalker paslaugos"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:68
 msgid "Stalker Streaming Client"
-msgstr ""
+msgstr "STALKER transliacijos klientas"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:165
 msgid "Stalker login failed!"
-msgstr ""
+msgstr "STALKER prisijungimas nesėkmingas!"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:40
 msgid "Standard"
-msgstr ""
+msgstr "Standartinis"
 
 #: enigma2-plugins/merlinepg/src/plugin.py:574
 msgid "Standard EPG info"
@@ -17560,6 +17540,8 @@ msgstr "Sustabdyti dabartinę užduotį, nevykdant sekančių užduočių"
 #: e2openplugin-SeriesPlugin/src/TimeoutServerProxy.py:62
 msgid "Stop is enabled. To reactivate SeriesPlugin, just open the setup"
 msgstr ""
+"Sustabdymas yra įjungtas. Norėdami iš naujo suaktyvinti SeriesPlugin, "
+"atverkite sąranką"
 
 #: enigma2-plugins/werbezapper/src/WerbeZapper.py:129
 msgid "Stop monitoring"
@@ -17567,7 +17549,7 @@ msgstr "Stabdyti rodymą"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:238
 msgid "Stop on ProtocolError"
-msgstr ""
+msgstr "Stabdyti ProtocolError"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2220
 msgid "Stop ongoing recording?\n"
@@ -18160,6 +18142,11 @@ msgid ""
 "with the server, trying version 4 first, version 3 second, and version 2 "
 "last."
 msgstr ""
+"NFS protokolo versijos numeris, naudojamas norint susisiekti su serverio NFS "
+"paslauga. Jei serveris nepalaiko prašomos versijos, nepavyksta atlikti "
+"pajungimo užklausos. Jei ši parinktis nenurodyta, klientas derina su "
+"serveriu tinkamą versiją, pirmą kartą bando 4 versiją, paskui 3 versiją ir "
+"galiausiai 2 versiją."
 
 #: enigma2-plugins/ncidclient/src/plugin.py:45
 #: enigma2-plugins/fritzcall/src/plugin.py:166
@@ -18340,6 +18327,12 @@ msgid ""
 "setting. The largest read payload supported by the Linux NFS client is "
 "1,048,576 bytes (one megabyte)."
 msgstr ""
+"Maksimalus baitų skaičius kiekviename tinkle skaito užklausą, kurį NFS "
+"klientas gali gauti skaitydamas duomenis iš failo NFS serveryje. Kiekvieno "
+"NFS READ užklausos faktinis duomenų kintamojo dydžio dydis yra lygus arba "
+"mažesnis nei nustatymo dydis. Didžiausia nuskaityta naudingoji apkrova, "
+"kurią palaiko \"Linux NFS\" klientas, yra 1,048,576 baitai (vienas "
+"megabaitas)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:446
 msgid ""
@@ -18349,6 +18342,11 @@ msgid ""
 "setting. The largest write payload supported by the Linux NFS client is "
 "1,048,576 bytes (one megabyte)."
 msgstr ""
+"Maksimalus baitų skaičius viename tinkle rašymo užklausa, kurią NFS klientas "
+"gali siųsti, kai rašo duomenis į NFS serverio failą. Kiekvieno NFS WRITE "
+"užklausos faktinių duomenų kintamoji apkrova yra lygi arba mažesnė nei wsize "
+"nustatymas. Didžiausia \"Linux NFS\" kliento palaikomo kopijavimo kopija yra "
+"1,048,576 baitų (1 megabaitas)."
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:275
 #, python-format
@@ -18374,6 +18372,12 @@ msgid ""
 "one week). If a value of zero is specified, the mount(8) command exits "
 "immediately after the first failure."
 msgstr ""
+"Minučių skaičius, per kurį komanda mount (8) pakartoja NFS prijungimo "
+"operaciją į priekinį planą ar fone prieš atsisakant. Jei ši parinktis "
+"nenurodyta, numatytųjų įvesties tvirtinimų reikšmė yra 2 minutės, o fono "
+"tvirtinimų numatytoji reikšmė yra 10 000 minučių (80 minučių - vienos "
+"savaitės). Jei yra nurodyta nulio vertė, komanda mount (8) išeina iš kart po "
+"pirmo gedimo."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:444
 msgid ""
@@ -18381,6 +18385,9 @@ msgid ""
 "further recovery action. If the retrans option is not specified, the NFS "
 "client tries each request three times."
 msgstr ""
+"NFS kliento pakartotinio užklausimo skaičius, kol jis bando tolesnį atkūrimo "
+"veiksmą. Jei retrans parinktis nenurodyta, NFS klientas kiekvieną "
+"užklausąbando tris kartus."
 
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:97
 #: enigma2-plugin-partnerbox/src/plugin.py:1021
@@ -18419,12 +18426,16 @@ msgid ""
 "The tcp option is an alternative to specifying proto=tcp. It is included for "
 "compatibility with other operating systems."
 msgstr ""
+"Tcp parinktis yra alternatyva nurodyti proto = tcp. Jis įtrauktas į "
+"suderinamumą su kitomis operacinėmis sistemomis."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:443
 msgid ""
 "The time in deciseconds (tenths of a second) the NFS client waits for a "
 "response before it retries an NFS request."
 msgstr ""
+"Laikas deciseconds (dešimtosios sekundės) NFS klientas laukia atsakymo, kol "
+"jis vėl bandys NFS."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:95
 #, python-format
@@ -18440,6 +18451,8 @@ msgid ""
 "The udp option is an alternative to specifying proto=udp. It is included for "
 "compatibility with other operating systems."
 msgstr ""
+"\"Udp\" parinktis yra alternatyva nurodytai \"proto = udp\". Ji įtraukta į "
+"suderinamumą su kitomis operacinėmis sistemomis."
 
 #: enigma2-plugins/ftpbrowser/src/plugin.py:59
 msgid ""
@@ -18855,6 +18868,8 @@ msgid ""
 "This option is an alternative to the nfsvers option. It is included for "
 "compatibility with other operating systems."
 msgstr ""
+"Ši parinktis yra alternatyva nfsvers parinkčiai. Ji įtraukta į suderinamumą "
+"su kitomis operacinėmis sistemomis."
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:77
 msgid ""
@@ -19009,7 +19024,7 @@ msgstr "Pertraukos laikas skambučių pranešimams (sekundės)"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:242
 msgid "Timeout for Error Popups"
-msgstr ""
+msgstr "Iššokančių klaidingų langų laikas"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:240
 msgid "Timeout for Success Popups"
@@ -19473,11 +19488,11 @@ msgstr "Išjunkite medijos filtrą pirmiausiai."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:432
 msgid "Turn off the silent flag."
-msgstr ""
+msgstr "Išjunkite tylią vėliavą."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:431
 msgid "Turn on the silent flag."
-msgstr ""
+msgstr "Įjunkite tylią vėliavą."
 
 #: enigma2-plugins/easymedia/src/plugin.py:53
 msgid "TuxCom"
@@ -19593,7 +19608,7 @@ msgstr "Jungtinės Valstijos"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3906
 msgid "Unknown"
-msgstr ""
+msgstr "Nežinoma"
 
 #: enigma2-plugins/quickbutton/src/plugin.py:116
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:112
@@ -19714,6 +19729,8 @@ msgid ""
 "Update directory inode access times on this filesystem. This is the default. "
 "(This option is ignored when noatime is set.)"
 msgstr ""
+"Atnaujinti katalogo inode prieigos laikus šioje failų sistemoje. Tai pagal "
+"nutylėjimą. (Ši parinktis yra ignoruojama, kai noatime jau yra nustatyta.)"
 
 #: enigma2-plugins/genuinedreambox/src/plugin.py:167
 msgid "Update done..."
@@ -19735,6 +19752,11 @@ msgid ""
 "applications that need to know if a file has been read since the last time "
 "it was modified.)"
 msgstr ""
+"Atnaujinti prieigos laiką prie inode, palyginti su laiko keitimu ar "
+"pakeitimu. Prieigos laikas atnaujinamas tik tuo atveju, jei ankstesnis "
+"prieigos laikas buvo ankstesnis nei dabartinis keitimo arba keitimo laikas. ("
+"Panašus į noatime, tačiau jis nepažeidžia mutt arba kitų programų, kurios "
+"turi žinoti, ar failas buvo perskaitytas nuo paskutinio pakeitimo)."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:160
 msgid "Update interval for current service (min. 10 sec)"
@@ -19882,10 +19904,15 @@ msgid ""
 "that the real set of all default mount options depends on kernel and "
 "filesystem type."
 msgstr ""
+"Naudokite numatytas parinktis: rw, suid, dev, exec, auto, nouser ir async. "
+"Atkreipkite dėmesį, kad realus visų numatytųjų nustatymų pasirinkimas "
+"priklauso nuo branduolio ir failų sistemos tipo."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:426
 msgid "Use the kernel's default behavior for inode access time updates."
 msgstr ""
+"Naudokitės branduolio numatyta elgsena su inode prieigos, laiko "
+"atnaujinimais funkcija."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:154
 msgid "Use time-based duration to stay on service"
@@ -20364,6 +20391,11 @@ msgid ""
 "Information about re-configuring the RC is available at https://dreambox.de/"
 "board/thread.php?threadid=5613"
 msgstr ""
+"ĮSPĖJIMAS!\n"
+"Pakeitus tai ir paspausdus <Ok>, nuotolinis valdymas gali nustoti veikti!\n"
+"\n"
+"Informacija apie RC pakartotinį konfigūravimą pateikiama adresu "
+"https://dreambox.de/board/thread.php?threadid=5613"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:844
 msgid "WARNING! You're about to move or copy\n"
@@ -20456,7 +20488,7 @@ msgstr "Žiūrėti EuroticTV per HTTP tiesioginį srautą."
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:104
 msgid "Watch Stalker Channels"
-msgstr ""
+msgstr "Žiūrėti Stalker kanalus"
 
 #: enigma2-plugins/eurotictv/src/plugin.py:207
 msgid "Watch eUroticTV via HTTP Live Streaming"
@@ -20536,7 +20568,7 @@ msgstr "Internetinė sąsaja"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:254
 msgid "Webinterface Type"
-msgstr ""
+msgstr "Interneto sąsajos tipas"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:122
 msgid "Webinterface Version"
@@ -20998,11 +21030,11 @@ msgstr "Rašyti CSV failą %s."
 
 #: enigma2-plugin-babelzapper/src/plugin.py:103
 msgid "X Position [0-1100] needs restart"
-msgstr ""
+msgstr "X pozicijos [0-1100] reikia paleisti iš naujo"
 
 #: enigma2-plugin-babelzapper/src/plugin.py:104
 msgid "Y Position [0-680]  needs restart"
-msgstr ""
+msgstr "Y Pozicija [0-680]  reikia paleisti iš naujo"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:146
 msgid "YYYY/MM/DD"
@@ -21218,6 +21250,8 @@ msgstr ""
 msgid ""
 "You have to restart Enigma2 to activate your new preferences! Restart now?"
 msgstr ""
+"Turite iš naujo paleisti \"Enigma2\", kad suaktyvintumėte savo naujas "
+"nuostatas! Paleisti iš naujo dabar?"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:184
 msgid ""
@@ -21888,7 +21922,7 @@ msgstr "pagal greitį"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1089
 msgid "call diversions active"
-msgstr ""
+msgstr "skambučių nukreipimas aktyvus"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3149
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3610
@@ -22405,11 +22439,11 @@ msgstr "mėgstamiausi / aukščio sumažinimas"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4038
 msgid "fax_home"
-msgstr ""
+msgstr "namų faksas"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4038
 msgid "fax_work"
-msgstr ""
+msgstr "darbo faksas"
 
 #: enigma2-plugins/remotetimer/src/plugin.py:115
 msgid "fetching remote data..."
@@ -22830,7 +22864,7 @@ msgstr "įkelti žemėlapio perdangas"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:104
 msgid "loading ..."
-msgstr ""
+msgstr "Įkeliama ..."
 
 #: enigma2-plugins/emailclient/src/plugin.py:189
 msgid "loading headers ..."
@@ -23040,7 +23074,7 @@ msgstr "naujas atsitiktinis"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:344
 msgid "new option: "
-msgstr ""
+msgstr "nauja parinktis:"
 
 #: enigma2-plugins/webcamviewer/src/WebcamTravel.py:87
 msgid "next"
@@ -23333,11 +23367,11 @@ msgstr "atidaryti meniu"
 #: enigma2-plugins/fstabeditor/src/plugin.py:268
 #, python-format
 msgid "option %d: "
-msgstr ""
+msgstr "parinktis %d: "
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:465
 msgid "option: "
-msgstr ""
+msgstr "parinktis: "
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:265
 msgid "options: "
@@ -23354,7 +23388,7 @@ msgstr "visuotinis"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4038
 msgid "pager"
-msgstr ""
+msgstr "pranešimų gaviklis"
 
 #: enigma2-plugins/eibox/src/plugin.py:587
 msgid "parser error"
@@ -23426,7 +23460,7 @@ msgstr "žiūrėti kaip paveikslėlį paveikslėlyje"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:812
 msgid "play current selected favorite on startup"
-msgstr "paleisti dabartinį pasirinktą mėgstamiausią, startuojant"
+msgstr "Startuojant paleisti, dabar pasirinktą, mėgstamą"
 
 #: enigma2-plugins/pipzap/src/plugin.py:40
 msgid "play in mainwindow"
@@ -23556,7 +23590,7 @@ msgstr "pašalinti"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:808
 msgid "remove current selected favorite"
-msgstr "pašalinti esamą pasirinktą mėgstamiausią"
+msgstr "pašalinti dabar pasirinktą mėgstamą"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:85
 msgid "remove torrent"
@@ -23568,7 +23602,7 @@ msgstr "pervardyti"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:807
 msgid "rename current selected favorite"
-msgstr "pervadinti esamą pasirinktą mėgstamiausią"
+msgstr "pervadinti dabar pasirinktą mėgstamą"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:227
 msgid "rename file"
@@ -24228,7 +24262,7 @@ msgstr "vartotojo vardas"
 #: enigma2-plugins/fstabeditor/src/plugin.py:469
 #: enigma2-plugins/fstabeditor/src/plugin.py:485
 msgid "value: "
-msgstr ""
+msgstr "reikšmė: "
 
 #: enigma2-plugins/emailclient/src/plugin.py:1147
 msgid "view Emails via IMAP4"
@@ -24276,7 +24310,7 @@ msgstr "webcam.travel"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3238
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3699
 msgid "with"
-msgstr ""
+msgstr "su"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:59
 msgid "with PiG"

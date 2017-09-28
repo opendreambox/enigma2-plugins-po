@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: FanControl2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-28 07:48+0200\n"
-"PO-Revision-Date: 2017-08-16 14:28+0000\n"
+"PO-Revision-Date: 2017-09-24 08:38+0000\n"
 "Last-Translator: kosmacz <anteneczka@gmail.com>\n"
 "Language-Team: Mariusz1970 <Mariusz1970@onet.eu>\n"
 "Language: pl\n"
@@ -12,8 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Pootle 2.7\n"
-"X-POOTLE-MTIME: 1502893737.000000\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1506242338.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1040
 msgid ""
@@ -119,7 +119,7 @@ msgstr "  {lookups:d} wyszukiwanie udane.\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:529
 msgid " (Setup)"
-msgstr ""
+msgstr " (Ustawienia)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:727
 msgid " (without counting cover range)"
@@ -128,7 +128,7 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:62
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:399
 msgid " B"
@@ -330,7 +330,7 @@ msgstr "%d nazw nagrań zmienionych poprawnie"
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
-msgstr[0] ""
+msgstr[0] "%d sekunda%d sekundy"
 msgstr[1] ""
 msgstr[2] ""
 
@@ -488,7 +488,7 @@ msgstr "%s z %s min"
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:494
 #, python-format
 msgid "%s removed."
-msgstr ""
+msgstr "%s usunięto."
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayTimer.py:53
 #, python-format
@@ -549,15 +549,15 @@ msgstr "'%s' usunięto z listy odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:152
 msgid "( # )"
-msgstr ""
+msgstr "( # )"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:153
 msgid "( # / GB )"
-msgstr ""
+msgstr "( # / GB )"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:154
 msgid "( GB )"
-msgstr ""
+msgstr "( GB )"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:129
 msgid "(Un-)Lock Directory"
@@ -613,15 +613,15 @@ msgstr "."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:56
 msgid ".../foldername.jpg"
-msgstr ""
+msgstr ".../nazwafolderu.jpg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:56
 msgid ".../foldername/folder.jpg"
-msgstr ""
+msgstr ".../nazwafolderu/folder.jpg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:56
 msgid ".../foldername/foldername.jpg"
-msgstr ""
+msgstr ".../nazwafolderu/nazwafolderu.jpg"
 
 #: enigma2-plugins/kiddytimer/src/KTpositioner.py:18
 #: enigma2-plugins/kiddytimer/src/KTpositioner.py:20
@@ -894,7 +894,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/meta/plugin_stalkerclient.xml./enigma2-plugin-stalkerclient/meta/plugin_stalkerclient.xml
 msgid "A native client for the Stalker Middleware streaming server"
-msgstr ""
+msgstr "Natywny klient serwera strumieniowego dla Stalker Middleware"
 
 #: enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml./enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml
 msgid "A plugin to add / remove / modify entries of fstab."
@@ -927,7 +927,7 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:497
 msgid "A value is required for the selected option"
-msgstr ""
+msgstr "Dla wybranej opcji wymagana jest wartość"
 
 #: enigma2-plugin-vlcplayer/src/plugin.py:58
 msgid "A video streaming solution based on VLC"
@@ -1237,11 +1237,11 @@ msgstr "Dodaj katalog do Zakładek"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:168
 msgid "Add directory to E2 Bookmarks"
-msgstr ""
+msgstr "Dodaj katalog do zakładek E2"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:177
 msgid "Add directory to EMC Bookmarks"
-msgstr ""
+msgstr "Dodaj katalog do zakładek EMC"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:103
 msgid "Add entry"
@@ -1285,7 +1285,7 @@ msgstr "Dodaj nowy znacznik..."
 #: enigma2-plugins/fstabeditor/src/plugin.py:199
 #: enigma2-plugins/fstabeditor/src/plugin.py:214
 msgid "Add option"
-msgstr ""
+msgstr "Dodaj opcję"
 
 #: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
 msgid "Add season and episode information to Your recordings."
@@ -1333,12 +1333,12 @@ msgstr "Dodaj timer jako wyłączony przy konflikcie"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:172
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:193
 msgid "Add to Playlist"
-msgstr ""
+msgstr "Dodaj do listy odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:95
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:214
 msgid "Add to current Playlist"
-msgstr ""
+msgstr "Dodaj do bieżącej listy odtwarzania"
 
 #: enigma2-plugins/mytube/src/plugin.py:533
 msgid "Add to favorites"
@@ -1454,7 +1454,7 @@ msgstr "Album (%s) -> Lista Utworów"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:342
 msgid "Album:"
-msgstr ""
+msgstr "Album:"
 
 #: enigma2-plugins/ecasa/src/EcasaGui.py:107
 msgid "Albums"
@@ -1646,19 +1646,19 @@ msgstr "Sortuj wg nazw"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:240
 msgid "Alpha sort ascending (AZ)"
-msgstr ""
+msgstr "Sortuj alfabetycznie rosnąco (AZ)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:242
 msgid "Alpha sort ascending with meta (AZM)"
-msgstr ""
+msgstr "Sortuj alfabetycznie rosnąco z meta (AZM)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:243
 msgid "Alpha sort ascending with meta, Date descending (AZMD-)"
-msgstr ""
+msgstr "Sortuj alfabetycznie rosnąco z meta, Data malejąco (AZMD-)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:241
 msgid "Alpha sort ascending, Date descending (AZD-)"
-msgstr ""
+msgstr "Sortuj alfabetycznie rosnąco, Data malejąco (AZD-)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:241
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:247
@@ -1825,7 +1825,7 @@ msgstr "Wykonawca (%s) -> Lista Utworów"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:340
 msgid "Artist:"
-msgstr ""
+msgstr "Wykonawca:"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2370
 #, python-format
@@ -2485,7 +2485,7 @@ msgstr "Bonjour: Przegląd"
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2412
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2418
 msgid "Bookmark"
-msgstr ""
+msgstr "Zakładka"
 
 #
 #: enigma2-plugins/easymedia/src/plugin.py:374
@@ -2502,7 +2502,7 @@ msgstr "Pakiet Bootlogo:\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:221
 msgid "Both"
-msgstr ""
+msgstr "Obydwa"
 
 #: enigma2-plugins/elektro/src/plugin.py:447
 msgid ""
@@ -2523,7 +2523,7 @@ msgstr "Bukiet +/- długo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:348
 msgid "Bouquet buttons behaviour"
-msgstr ""
+msgstr "Funkcje klawiszy Bukiet"
 
 #
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1103
@@ -2608,7 +2608,7 @@ msgstr "Bufor:"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:179
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:200
 msgid "Button disabled"
-msgstr ""
+msgstr "Klawisz wyłączony"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:519
 msgid ""
@@ -2660,11 +2660,11 @@ msgstr "Podział CIFS"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3173
 msgid "CSFD"
-msgstr ""
+msgstr "CSFD"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:439
 msgid "CSFD Info"
-msgstr ""
+msgstr "CSFD Info"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:483
 msgid "CSV import successful!"
@@ -2738,15 +2738,15 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1156
 msgid "Can not save "
-msgstr ""
+msgstr "Nie można zapisać"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1170
 msgid "Can not save Cover in "
-msgstr ""
+msgstr "Nie można zapisać Okładki w"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:258
 msgid "Can not save current Playlist!"
-msgstr ""
+msgstr "Nie można zapisać Listy Odtwarzania!"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:584
 #, python-format
@@ -3040,15 +3040,15 @@ msgstr "Zmień ustawienia 3D"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:116
 msgid "Change File/Moviename and/or Description"
-msgstr ""
+msgstr "Zmień Plik/NazwęFilmu i/lub Opis"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:231
 msgid "Change Folder"
-msgstr ""
+msgstr "Zmień Katalog"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:114
 msgid "Change Foldername"
-msgstr ""
+msgstr "Zmień NazwęKatalogu"
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:456
 msgid "Change Movielist Preview position"
@@ -3097,7 +3097,7 @@ msgstr "Zmień sortowanie"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:237
 msgid "Change the filename to save current Playlist:"
-msgstr ""
+msgstr "Zmień nazwę pliku, aby zapisać obecną Listę Odtwarzania:"
 
 #
 #: enigma2-plugin-networkbrowser/src/MountManager.py:72
@@ -3220,11 +3220,11 @@ msgstr "Kanały nie są dopasowane"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:933
 msgid "Chap."
-msgstr ""
+msgstr "Roz."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:934
 msgid "Chapter"
-msgstr ""
+msgstr "Rozdział"
 
 #: enigma2-plugins/dreamirc/src/plugin.py:109
 msgid "ChatBox"
@@ -3258,7 +3258,7 @@ msgstr "Sprawdź wszelkie uruchomione procesy."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:401
 msgid "Check for dead links"
-msgstr ""
+msgstr "Sprawdzanie martwych linków"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:619
 msgid "Check for uniqueness in"
@@ -3288,7 +3288,7 @@ msgstr "Sprawdź listę timerów z rozszerzonego menu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:495
 msgid "Choose Directory:"
-msgstr ""
+msgstr "Wybierz Katalog:"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1173
 msgid "Choose Napisy24 search method:"
@@ -3296,7 +3296,7 @@ msgstr "Wybierz metodę wyszukiwania Napisy24:"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:202
 msgid "Choose bookmark"
-msgstr ""
+msgstr "Wybierz zakładkę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:773
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2929
@@ -3324,7 +3324,7 @@ msgstr "Wybierz wtyczkę"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1260
 msgid "Choose script"
-msgstr ""
+msgstr "Wybierz skrypt"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1161
 msgid "Choose subtitle server:"
@@ -3530,7 +3530,7 @@ msgstr "Zimno"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2604
 msgid "Collection"
-msgstr ""
+msgstr "Zbiór"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:275
 msgid ""
@@ -3788,7 +3788,7 @@ msgstr "Zawartość wzorca (RegExp)"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:147
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:202
 msgid "Content:"
-msgstr ""
+msgstr "Zawartość:"
 
 #: enigma2-plugins/teletext/src/plugin.py:1332
 msgid "Contrast"
@@ -3856,11 +3856,11 @@ msgstr "Kopiuj"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:197
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:139
 msgid "Copy File"
-msgstr ""
+msgstr "Kopiuj Plik"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:136
 msgid "Copy Files"
-msgstr ""
+msgstr "Skopiuj Pliki"
 
 #: enigma2-plugins/epgcopy/meta/plugin_epgcopy.xml./enigma2-plugins/epgcopy/meta/plugin_epgcopy.xml
 msgid "Copy epg.db EPG-Data"
@@ -3869,7 +3869,7 @@ msgstr "Kopiuj dane epg.db"
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3004
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3046
 msgid "Copy file(s):"
-msgstr ""
+msgstr "Kopiuj plik(i):"
 
 #: enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml./enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml
 msgid "Copy, rename, delete, move local files on your Dreambox."
@@ -3929,7 +3929,7 @@ msgstr "Nie udało się uzyskać listy połączeń; zła wersja?"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3982
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3999
 msgid "Could not load phonebook: "
-msgstr ""
+msgstr "Nie można wczytać książki telefonicznej: "
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:422
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1396
@@ -4041,7 +4041,7 @@ msgstr "Państwo"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2659
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
-msgstr ""
+msgstr "Kod pocztowy (np 0044 dla Anglii, 0034 dla Hiszpani itd.)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:308
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:607
@@ -4089,7 +4089,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:722
 msgid "Coversize"
-msgstr ""
+msgstr "Rozmiar Okładki"
 
 #: enigma2-plugins/pushservice/src/Controller/CrashLog.py:33
 msgid "Crashlog(s) are attached"
@@ -4097,7 +4097,7 @@ msgstr "Dołączono Rejestr Awarii"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:294
 msgid "Create Link"
-msgstr ""
+msgstr "Utwórz Odnośnik"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:34
 msgid "Create Timer"
@@ -4141,7 +4141,7 @@ msgstr "Utwórz iso:"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:126
 msgid "Create link"
-msgstr ""
+msgstr "Utwórz odnośnik"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:289
 #: enigma2-plugins/dreamexplorer/src/plugin.py:297
@@ -4316,7 +4316,7 @@ msgstr "DD.MM. GG:MM"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:142
 msgid "DD.MM.YYYY"
-msgstr ""
+msgstr "DD.MM.RRRR"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:89
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:143
@@ -4419,7 +4419,7 @@ msgstr "Data"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:426
 msgid "Date format"
-msgstr ""
+msgstr "Format daty"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:630
 msgid "Date format:"
@@ -4432,15 +4432,15 @@ msgstr "Sortuj wg daty"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:245
 msgid "Date sort ascending (D+)"
-msgstr ""
+msgstr "Sortuj wg Daty rosnąco (D+)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:239
 msgid "Date sort descending (D-)"
-msgstr ""
+msgstr "Sortuj wg Daty malejąco (D-)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:384
 msgid "Day"
-msgstr ""
+msgstr "Dzień"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:568
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:570
@@ -4540,11 +4540,11 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:473
 msgid "Default Playlist name"
-msgstr ""
+msgstr "Domyślna nazwa Listy Odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:472
 msgid "Default Playlist path"
-msgstr ""
+msgstr "Domyślna ścieżka Listy Odtwarzania"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:212
 msgid "Default episode"
@@ -4560,7 +4560,7 @@ msgstr "Domyślny sezon"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:368
 msgid "Default sort mode"
-msgstr ""
+msgstr "Domyślny tryb sortowania"
 
 #
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:884
@@ -4673,11 +4673,11 @@ msgstr "Usuń %s"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:134
 msgid "Delete All"
-msgstr ""
+msgstr "Usuń Wszystko"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:133
 msgid "Delete Entry"
-msgstr ""
+msgstr "Usuń Wpis"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:44
 msgid "Delete Timer"
@@ -4706,7 +4706,7 @@ msgstr "Usuń Rejestry Awarii"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:218
 msgid "Delete current Playlist"
-msgstr ""
+msgstr "Usuń obecną Listę Odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:124
 msgid "Delete cut file(s)"
@@ -4825,7 +4825,7 @@ msgstr "Opóźnienie aktualizacji pola"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:84
 msgid "Description:"
-msgstr ""
+msgstr "Opis:"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:73
 msgid "Destination"
@@ -5441,11 +5441,11 @@ msgstr "Pobierz"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:175
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:196
 msgid "Download Movie Info"
-msgstr ""
+msgstr "Pobierz Info o filmie"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:144
 msgid "Download Movie Information"
-msgstr ""
+msgstr "Pobierz Informacje o filmie"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:532
 msgid "Download Mutagen-package for audio metadata"
@@ -5500,7 +5500,7 @@ msgstr "Pobierz:"
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:432
 #, python-format
 msgid "Download: %s"
-msgstr ""
+msgstr "Pobrano: %s"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:247
 #: enigma2-plugins/emission/src/EmissionDetailview.py:250
@@ -5696,15 +5696,15 @@ msgstr "E"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1123
 msgid "E2 Bookmark"
-msgstr ""
+msgstr "E2 Zakładka"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:219
 msgid "E2 Bookmarks"
-msgstr ""
+msgstr "E2 Zakładki"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:227
 msgid "E2 Restart"
-msgstr ""
+msgstr "E2 Restart"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:85
 msgid "EIT wait timeout (ms) before auto selection"
@@ -5718,47 +5718,47 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:220
 msgid "EMC Bookmarks"
-msgstr ""
+msgstr "EMC Zakładki"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:803
 msgid "EMC Cover Selecter"
-msgstr ""
+msgstr "EMC Selekcja Okładek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:241
 msgid "EMC Cover search"
-msgstr ""
+msgstr "EMC Wyszukiwanie Okładek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:701
 msgid "EMC Cover search setup"
-msgstr ""
+msgstr "EMC Ustawienia Wyszukiwania Okładek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:571
 msgid "EMC Filebrowser"
-msgstr ""
+msgstr "EMC Wyszukiwarka Plików"
 
 #: EMCPlayList.py:154
 msgid "EMC Playlist"
-msgstr ""
+msgstr "EMC Lista Odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
-msgstr ""
+msgstr "EMC Lista Odtwarzania - obecna lista"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:161
 msgid "EMC Playlist Menu"
-msgstr ""
+msgstr "EMC Menu Listy Odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:488
 msgid "EMC Playlist Setup"
-msgstr ""
+msgstr "EMC Ustawienia Listy Odtwarzania"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:193
 msgid "EMC Setup"
-msgstr ""
+msgstr "EMS Ustawienia"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:146
 msgid "EMC Trashcan Cleanup failed!"
-msgstr ""
+msgstr "EMC oczyszczanie Kosza nieudane!"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "EMC always reload after open"
@@ -6601,7 +6601,7 @@ msgstr "Wpisz IP do skanowania..."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:512
 msgid "Enter Name for Playlist"
-msgstr ""
+msgstr "Wpisz nazwę dla Listy Odtwarzania"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:643
 #: enigma2-plugins/fritzcall/src/plugin.py:2412
@@ -6634,7 +6634,7 @@ msgstr "Wprowadź w minutach (0 oznacza brak limitu)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:247
 msgid "Enter name for new directory:"
-msgstr ""
+msgstr "Wpisz nazwę dla nowego katalogu:"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1965
 msgid "Enter name for playlist"
@@ -7555,7 +7555,7 @@ msgstr "Wzór nazwy pliku"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:82
 msgid "Filename:"
-msgstr ""
+msgstr "Nazwa pliku:"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:100
 #: enigma2-plugins/easymedia/src/plugin.py:401
@@ -7695,7 +7695,7 @@ msgstr "Mgliście"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:80
 msgid "Foldername:"
-msgstr ""
+msgstr "Nazwa folderu:"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:654
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:660
@@ -8029,7 +8029,7 @@ msgstr "Lista Gatunków"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:202
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:519
 msgid "Genre:"
-msgstr ""
+msgstr "Gatunek:"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:67
 #: enigma2-plugins/internetradio/src/InternetRadioList.py:46
@@ -9227,7 +9227,7 @@ msgstr "IMDb nazwa pliku filmu"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:611
 msgid "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
-msgstr ""
+msgstr "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3169
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3175
@@ -9272,7 +9272,7 @@ msgstr "IMDb Ponowne Pobieranie zakończone"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:439
 msgid "IMDb Search"
-msgstr ""
+msgstr "IMDb Wyszukiwanie"
 
 #: enigma2-plugins/imdb/src/plugin.py:682
 msgid "IMDb Setup"
@@ -10099,7 +10099,7 @@ msgstr "Język"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:715
 msgid "Language:"
-msgstr ""
+msgstr "Język:"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:828
 #: enigma2-plugins/fritzcall/src/plugin.py:2819
