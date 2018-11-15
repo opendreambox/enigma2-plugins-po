@@ -12,18 +12,18 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 11:22+0200\n"
-"PO-Revision-Date: 2018-09-22 12:59+0000\n"
+"PO-Revision-Date: 2018-10-08 17:26+0000\n"
 "Last-Translator: Adga <adga@zebra.lt>\n"
 "Language-Team: Adga / enigma2 (c) <audrgrin@takas.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-POOTLE-MTIME: 1537621171.000000\n"
+"X-POOTLE-MTIME: 1539019594.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1342
 msgid ""
@@ -64,7 +64,7 @@ msgstr " "
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1948
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1950
 msgid "   select default answer for zap-warning-question"
-msgstr ""
+msgstr "   Pasirinkite numatytą atsakymą į jungimo įspėjimo klausimą"
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:39
 #: e2openplugin-InfoBarTunerState/src/plugin.py:44
@@ -148,7 +148,7 @@ msgstr "  {lookups:d} sėkmingų paieškų.\n"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:415
 msgid " (Live VOD)"
-msgstr ""
+msgstr " (Tiesioginis VOD)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:720
 msgid " (without counting cover range)"
@@ -521,7 +521,7 @@ msgstr "%s (%s)\n"
 #: enigma2-plugins/twitchtv/src/plugin.py:626
 #, python-format
 msgid "%s - Livestreams"
-msgstr ""
+msgstr "%s - tiesioginiai srautai"
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:397
 #, python-format
@@ -546,22 +546,22 @@ msgstr "%s pralaidumo nuostatos"
 #: enigma2-plugins/twitchtv/src/plugin.py:716
 #, python-format
 msgid "%s does not follow any channel"
-msgstr ""
+msgstr "%s nesekti jokio kanalo"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:714
 #, python-format
 msgid "%s folllows %s channels"
-msgstr ""
+msgstr "%s sekami %s kanalai"
 
 #: enigma2-plugins/twitchtv/src/TwitchMiddleware.py:72
 #, python-format
 msgid "%s is live, please wait..."
-msgstr ""
+msgstr "%s yra tiesioginis, prašome palaukti..."
 
 #: enigma2-plugins/twitchtv/src/TwitchMiddleware.py:68
 #, python-format
 msgid "%s is offline"
-msgstr ""
+msgstr "%s yra autonominis"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:465
 #, python-format
@@ -581,7 +581,7 @@ msgstr "%s pašalinta."
 #: enigma2-plugins/twitchtv/src/plugin.py:708
 #, python-format
 msgid "%s results for '%s'"
-msgstr ""
+msgstr "%s rezultatai dėl '%s'"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayTimer.py:53
 #, python-format
@@ -1421,7 +1421,7 @@ msgstr "Pridėti parinktį"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:77
 msgid "Add search-text to history at open plugin"
-msgstr ""
+msgstr "Pridėti paieškos tekstą į istoriją, atidarytuose prieduose"
 
 #: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
 msgid "Add season and episode information to Your recordings."
@@ -1454,10 +1454,12 @@ msgstr "Pridėti žymas įrašytiems filmams"
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:77
 msgid "Add the search-text also directly to the history if open the plugin."
 msgstr ""
+"Pridėti paieškos tekstą taip pat tiesiogiai į istoriją, jei atidaryti "
+"priedai."
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:86
 msgid "Add the short description of the event to the search-result"
-msgstr ""
+msgstr "Į paieškos rezultatą pridėkite trumpą įvykio aprašymą"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:245
 #: enigma2-plugin-partnerbox/src/plugin.py:312
@@ -1476,7 +1478,7 @@ msgstr "Pridėti laikmatį, kaip išjungtą konflikto metu"
 #: enigma2-plugins/twitchtv/src/plugin.py:244
 #: enigma2-plugins/twitchtv/src/plugin.py:371
 msgid "Add to Fav"
-msgstr ""
+msgstr "Pridėti prie mėgstamų"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
@@ -1997,12 +1999,12 @@ msgstr "Arabų"
 #: enigma2-plugins/twitchtv/src/plugin.py:287
 #: enigma2-plugins/twitchtv/src/plugin.py:295
 msgid "Archive"
-msgstr ""
+msgstr "Archyvas"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:552
 #, python-format
 msgid "Are you sure to remove %s from your favorites?"
-msgstr ""
+msgstr "Ar tikrai pašalinti %s iš savo mėgstamiausių?"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:452
 #, python-format
@@ -6338,7 +6340,7 @@ msgstr "EPG paieškos valdymas"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:413
 msgid "EPGSearch menu"
-msgstr ""
+msgstr "EPG paieškos meniu"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:621
 #: enigma2-plugins/easyinfo/src/plugin.py:993
@@ -7119,7 +7121,7 @@ msgstr "Įrašykite tekstą, jei norite ieškoti"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:685
 msgid "Enter the name of the channel you're searching for"
-msgstr ""
+msgstr "Įveskite ieškomo kanalo pavadinimą"
 
 #: enigma2-plugins/movietagger/src/plugin.py:246
 msgid "Enter the new Tag"
@@ -7164,7 +7166,7 @@ msgstr "Įrašykite savo tekstą čia:"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:690
 msgid "Enter your twitch user"
-msgstr ""
+msgstr "Įveskite savo Twitch vartotoją"
 
 #: enigma2-plugins/mytube/src/plugin.py:79
 msgid "Entertainment"
@@ -8203,7 +8205,7 @@ msgstr "Folge"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:665
 msgid "Followed Channels"
-msgstr ""
+msgstr "Sekami kanalai"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:721
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:727
@@ -8798,581 +8800,567 @@ msgstr "HD progresyvi būsena"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:334
 msgid "HELP_About"
-msgstr "PAGALBA_apie"
+msgstr "PAGALBA-apie"
 
 #: EnhancedMovieCenter.py:522
 msgid "HELP_Advanced Skin options separator"
-msgstr "EMC vartotojo aplinkos temos parametrai."
+msgstr "PAGALBA-išplėstinis temos parinkčių skirtukas"
 
 #: EnhancedMovieCenter.py:526
 msgid "HELP_Advanced audio metadata options separator"
-msgstr "Išplėstinės garso metaduomenų parinktys."
+msgstr "PAGALBA-išplėstinės garso meta duomenų parinkties skirtukas"
 
 #: EnhancedMovieCenter.py:514 EnhancedMovieCenter.py:519
 #: EnhancedMovieCenter.py:545
 msgid "HELP_Advanced options separator"
-msgstr "Išplėstinės EMC parinktys."
+msgstr "PAGALBA-išplėstinių parinkčių skirtukas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
-msgstr ""
-"PAGALBA_Po bylos failų OPs pakartotinai nuskaito paveiktas direktorijas"
+msgstr "PAGALBA-Po bylos failų OPs pakartotinai nuskaito paveiktas direktorijas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:443
 msgid "HELP_Age of finished movies in movie folder (days)"
-msgstr "PAGALBA_ Filmų aplanke esančių filmų aplanko amžius (dienomis)"
+msgstr "PAGALBA-Filmų aplanke esančių filmų aplanko amžius (dienomis)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:421
 msgid "HELP_Always save last played progress as marker"
-msgstr "PAGALBA_Visada išsaugokite paskutinę grojamą pažangą kaip žymeklį"
+msgstr "PAGALBA-Visada išsaugoti paskutinį atkūrimo stovį, kaip žymę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:457
 msgid "HELP_Automatic timers list cleaning"
-msgstr "PAGALBA_automatinis laikmačių sąrašo valymas"
+msgstr "PAGALBA-automatinis laikmačių sąrašo valymas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "HELP_Blue button function"
-msgstr "PAGALBA_Mėlyno mygtuko funkcija"
+msgstr "PAGALBA-'MĖLYNO' mygtuko funkcija"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:342
 msgid "HELP_Bouquet buttons behaviour"
-msgstr "PAGALBA_Bouquet mygtuko elgsena"
+msgstr "PAGALBA-Bouquet mygtuko elgsena"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:392
 msgid "HELP_Check for dead links"
-msgstr "PAGALBA_patikrinkite neveikiančias nuorodas"
+msgstr "PAGALBA-patikrinkite neveikiančias nuorodas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:372
 msgid "HELP_Configure in etc\\enigma2\\emc-topdir.cfg"
-msgstr "PAGALBA_konfigūruokite etc\\enigma2\\emc-topdir.cfg"
+msgstr "PAGALBA-Konfigūravimas etc\\enigma2\\emc-topdir.cfg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:513
 msgid "HELP_Cover background"
-msgstr "PAGALBA_viršelio fonas"
+msgstr "PAGALBA-Viršelio fonas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 msgid "HELP_Cover delay in ms"
-msgstr "PAGALBA_viršelio delsa ms"
+msgstr "PAGALBA-Viršelio delsa (ms)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "HELP_Cursor predictive move after selection"
-msgstr "PAGALBA_numatomas žymeklio judėjimas po pasirinkimo"
+msgstr "PAGALBA-Žymeklio nuspėjamas judėjimas po pasirinkimo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:354
 msgid "HELP_Daily auto-start"
-msgstr "PAGALBA_ kasdieninis automatinis paleidimas"
+msgstr "PAGALBA-kasdieninis automatinis paleidimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:440
 msgid "HELP_Daily cleanup time"
-msgstr "PAGALBA_kasdienio valymo laikas"
+msgstr "PAGALBA-Kasdienio ištuštinimo laikas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "HELP_Date format"
-msgstr "PAGALBA_datos formatas"
+msgstr "PAGALBA-datos formatas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:559
 msgid "HELP_Debug output file name"
-msgstr "PAGALBA_derinimo išvesties failo pavadinimas"
+msgstr "PAGALBA-derinimo išvesties failo pavadinimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:501
 msgid "HELP_Default color highlighted"
-msgstr "PAGALBA_Numatytoji spalva pažymėta"
+msgstr "PAGALBA-Numatytoji spalva pažymėta"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:498
 msgid "HELP_Default color partially watched"
-msgstr "PAGALBA_ Numatytoji spalva nebaigtiems žiūrėti"
+msgstr "PAGALBA-Numatytoji spalva nebaigtiems žiūrėti"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:500
 msgid "HELP_Default color recording"
-msgstr "PAGALBA_ Numatytoji spalva įrašymui"
+msgstr "PAGALBA-Numatytoji spalva įrašymui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:497
 msgid "HELP_Default color unwatched"
-msgstr "PAGALBA_Numatytoji spalva nežiūrėtiems"
+msgstr "PAGALBA-Numatytoji spalva nežiūrėtiems"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:499
 msgid "HELP_Default color watched"
-msgstr "PAGALBA_Numatytoji spalva žiūrėtiems"
+msgstr "PAGALBA-numatytoji spalva žiūrėtiems"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:437
 msgid "HELP_Delete validation"
-msgstr "PAGALBA_Ištrinti patvirtinimą"
+msgstr "PAGALBA-Pašalinimo patvirtinimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:472
 msgid "HELP_Description field update delay"
-msgstr "PAGALBA_aprašymo lauko atnaujinimo delsa"
+msgstr "PAGALBA-aprašymo lauko atnaujinimo delsa"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:335
 msgid "HELP_Disable EMC"
-msgstr "PAGALBA_išjungti EMC"
+msgstr "PAGALBA-išjungti EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:446
 msgid "HELP_Display directory reading text"
-msgstr "PAGALBA_rodyti skaityto teksto katalogą"
+msgstr "PAGALBA-rodyti skaityto teksto katalogą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:388
 msgid "HELP_Don't auto scan size of dirs from emc-noscan.cfg"
 msgstr ""
-"PAGALBA_negalima automatiškai nuskaityti katalogo dydžio iš emc-noscan.cfg"
+"PAGALBA-Netikrinti automatiškai dydžio katalogų, įtrauktų į emc-noscan.cfg"
 
 #: EnhancedMovieCenter.py:532
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
-"Galima parsisiųsti garso metaduomenų paketą Mutagen.\n"
-"Parsisiuntę, turėsite jį įsidiegti."
+msgstr "PAGALBA-atsisiųskite Mutagen paketą garso meta duomenims"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
-msgstr "PAGALBA_atsisiųsti iškarpų sąrašą iš Cutlist.at"
+msgstr "PAGALBA-atsisiųsti iškarpų sąrašą iš Cutlist.at"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:436
 msgid "HELP_Dynamic trashcan"
-msgstr "PAGALBA_dinaminė šiukšliadėžė"
+msgstr "PAGALBA-dinaminė šiukšliadėžė"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:447
 msgid "HELP_EMC always reload after open"
-msgstr "PAGALBA_EMC visada iš naujo įkrauti po atidarymo"
+msgstr "PAGALBA-EMC visada iš naujo įkrauti po atidarymo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:558
 msgid "HELP_EMC output directory"
-msgstr "PAGALBA_EMC išvesties katalogas"
+msgstr "PAGALBA-EMC išvesties katalogas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:364
 msgid "HELP_EMC path access limit"
-msgstr "PAGALBA_EMC kelio prieigos riba"
+msgstr "PAGALBA-EMC kelio prieigos riba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:449
 msgid "HELP_EMC re-open list after Movie end"
-msgstr "PAGALBA_EMC iš naujo atidarykite sąrašą pasibaigus filmui"
+msgstr "PAGALBA-EMC iš naujo atidarykite sąrašą pasibaigus filmui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:448
 msgid "HELP_EMC re-open list after STOP-press"
-msgstr "PAGALBA_EMC iš naujo atidarykite sąrašą, po STOP paspaudimo"
+msgstr "PAGALBA-EMC iš naujo atidarykite sąrašą, po STOP paspaudimo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:557
 msgid "HELP_Enable EMC debug output"
-msgstr "PAGALBA_įjunkite EMC derinimo išvestį"
+msgstr "PAGALBA-įjunkite EMC derinimo išvestį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:439
 msgid "HELP_Enable daily trashcan cleanup"
-msgstr "PAGALBA_įjunkite kasdienį šiukšliadėžės valymą"
+msgstr "PAGALBA-įjunkite kasdienį šiukšliadėžės valymą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:466
 msgid "HELP_Enable playback AC3-track first"
-msgstr "PAGALBA_pirmiausia paleiskite AC3 takelį"
+msgstr "PAGALBA-Pirmenybė AC3 takeliui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:465
 msgid "HELP_Enable playback auto-language selection"
-msgstr "PAGALBA_įjunkite automatinį atkuriamos kalbos parinkimą"
+msgstr "PAGALBA-įjunkite automatinį atkuriamos kalbos parinkimą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:461
 msgid "HELP_Enable playback auto-subtitling"
-msgstr "PAGALBA_įjunkite automatinį subtitrų kalbos parinkimą"
+msgstr "PAGALBA-įjunkite automatinį subtitrų kalbos parinkimą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:456
 msgid "HELP_Enable remote recordings"
-msgstr "PAGALBA_įjungti nuotolinius įrašus"
+msgstr "PAGALBA-įjungti nuotolinius įrašus"
 
 msgid "HELP_Enigma auto-restart window begin"
-msgstr "Enigma2 automatinio paleidimo iš naujo laikotarpio pradžia."
+msgstr "PAGALBA-lango auto paleidimo pradžios laikas"
 
 msgid "HELP_Enigma auto-restart window end"
-msgstr "Enigma2 automatinio paleidimo iš naujo laikotarpio pabaiga."
+msgstr "PAGALBA-Enigma lango auto paleidimo pabaiga"
 
 msgid "HELP_Enigma daily auto-restart"
-msgstr "Enigma2 kas nurodytą laiko tarpą bus paleidžiama iš naujo."
+msgstr "PAGALBA-Enigma kasdienis auto paleidimas iš naujo"
 
 #: EnhancedMovieCenter.py:503
 msgid "HELP_Extra support for selected language"
-msgstr "Čia galite įjungti pasirinktos papildomos kalbos palaikymą."
+msgstr "PAGALBA-papildomas pasirinktas kalbos palaikymas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:506
 msgid "HELP_Fallback Cover"
-msgstr "PAGALBA_atvirkštinis viršelis"
+msgstr "PAGALBA-atvirkštinis viršelis"
 
 msgid "HELP_File order reverse"
-msgstr ""
-"Filmų sąrašas bus surūšiuotas atvirkštine tvarka.\n"
-"Nesvarbu, ar pasirinkta rodyti pagal chronologiją, ar pagal abėcėlę."
+msgstr "PAGALBA-apversti failo tvarką"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "HELP_Finished watching percent"
-msgstr "PAGALBA_peržiūros procentas"
+msgstr "PAGALBA-baigtų peržiūrų procentas"
 
 msgid "HELP_Force standby after auto-restart"
-msgstr ""
-"Po Enigma2 automatinio paleidimo iš naujo Vu+ bus perjungtas į budėjimo "
-"būseną."
+msgstr "PAGALBA-priverstinis budėjimo režimas po automatinio paleidimo iš naujo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:357
 msgid "HELP_Force standby after auto-start"
-msgstr "PAGALBA_priverstinio budėjimo režimas po automatinio paleidimo"
+msgstr "PAGALBA-Po auto paleidimo iš naujo į budėjimo būseną"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:454
 msgid "HELP_Hide movies being deleted"
-msgstr "PAGALBA_Slėpti ištrintus filmus"
+msgstr "PAGALBA-Slėpti šalinamus filmus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:453
 msgid "HELP_Hide movies being moved"
-msgstr "PAGALBA_slėpti perkeltus filmus"
+msgstr "PAGALBA-Slėpti perkeliamus filmus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:484
 msgid "HELP_Horizontal alignment for count / size"
-msgstr "PAGALBA_horizontalus išdėstymas pagal skaičių / dydį"
+msgstr "PAGALBA-horizontalus išdėstymas pagal skaičių / dydį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:483
 msgid "HELP_Horizontal alignment for date"
-msgstr "PAGALBA_horizontalus teksto išdėstymas pagal datą"
+msgstr "PAGALBA-horizontalus teksto išdėstymas pagal datą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:441
 msgid "HELP_How many days files may remain in trashcan"
-msgstr "PAGALBA_kiek dienų failai gali likti šiukšliadėžėje"
+msgstr "PAGALBA-Kiek dienų failai gali išbūti šiukšliadėžėje"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:377
 msgid "HELP_Icon shown for initially unknown count / size"
-msgstr "PAGALBA_logotipas, rodomas iš pradžių nežinomam skaičiui / dydžiui"
+msgstr "PAGALBA-piktograma, rodoma iš pradžių nežinomam skaičiui / dydžiui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "HELP_Install Mutagen-package for audio metadata"
-msgstr "PAGALBA_Įdiekite Mutagen paketą garso meta duomenims"
+msgstr "PAGALBA-Įdiekite Mutagen paketą garso meta duomenims"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:419
 msgid "HELP_Jump to first mark when playing movie"
-msgstr "PAGALBA_pereiti prie pirmos žymos žiūrint filmą"
+msgstr "PAGALBA-pereiti prie pirmos žymos žiūrint filmą"
 
 #: EnhancedMovieCenter.py:347
 msgid "HELP_Key assignment Separator"
-msgstr "Funkcinių mygtukų priskyrimas."
+msgstr "PAGALBA-pagrindinės paskirties skirtukas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:473
 msgid "HELP_Key period value (50-900)"
-msgstr "PAGALBA_pagrindinio periodo reikšmė (50-900)"
+msgstr "PAGALBA-pagrindinio periodo reikšmė (50-900)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:474
 msgid "HELP_Key repeat value (250-900)"
-msgstr "PAGALBA_pagrindinė kartotinė reikšmė (250-900)"
+msgstr "PAGALBA-pagrindinė kartotinė reikšmė (250-900)"
 
 #: EnhancedMovieCenter.py:501
 msgid "HELP_Language Separator"
-msgstr "Kalbos nustatymai."
+msgstr "PAGALBA-kalbos skirtukas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "HELP_Latest Recordings directory limit"
-msgstr "PAGALBA_naujausių įrašų katalogo riba"
+msgstr "PAGALBA-Naujausių įrašų katalogo ribojimai"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:382
 msgid "HELP_Latest Recordings directory use emc-noscan.cfg"
-msgstr "PAGALBA_naujausių įrašų kataloguose naudokite emc-noscan.cfg"
+msgstr "PAGALBA-naujausių įrašų kataloguose naudokite emc-noscan.cfg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:451
 msgid "HELP_Leave Movie with Exit"
-msgstr "PAGALBA_palikite filmą su Exit"
+msgstr "PAGALBA-Užverti filmą 'EXIT' mugtuku"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:389
 msgid "HELP_Limit file operations in dirs from emc-noscan.cfg"
-msgstr "PAGALBA_apriboti failo operacijas kataloge iš emc-noscan.cfg"
+msgstr "PAGALBA-apriboti failo operacijas kataloge iš emc-noscan.cfg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:343
 msgid "HELP_List entries to skip"
-msgstr "PAGALBA_praleistų įrašų sąrašas"
+msgstr "PAGALBA-Įrašai, kuriuos praleisti"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:480
 msgid "HELP_Listbox is skin able"
-msgstr "PAGALBA_sąrašo laukelis yra tinkamas temai"
+msgstr "PAGALBA-Sąrašo langas pritaikytinas temai"
 
 #: EnhancedMovieCenter.py:415
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr ""
-"Kai pavadinimas negali būti paimtas iš .meta failo, bus bandoma paimti "
-"kitais būdais, kad atvaizduoti pavadinimą."
+msgstr "PAGALBA-Įkelti visus nerodomus pavadinimus iš .meta failų"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
-msgstr "PAGALBA_Mėlyno mygtuko ilgas paspaudimas"
+msgstr "PAGALBA-'MĖLYNO' mygtuko ilgas paspaudimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:345
 msgid "HELP_Long Red button function"
-msgstr "PAGALBA_raudono mygtuko ilgas paspaudimas"
+msgstr "PAGALBA-'RAUDONO' mygtuko ilgas paspaudimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:348
 msgid "HELP_Long Yellow button function"
-msgstr "PAGALBA_Geltono mygtuko ilgas paspaudimas"
+msgstr "PAGALBA-Geltono mygtuko ilgas paspaudimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:351
 msgid "HELP_LongInfo Button"
-msgstr "PAGALBA_Info mygtuko ilgas paspaudimas"
+msgstr "PAGALBA-Info mygtuko ilgas paspaudimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:502
 msgid "HELP_Mark new recordings with a star"
-msgstr "PAGALBA_naujus įrašus pažymėti žvaigždute"
+msgstr "PAGALBA-Naujus įrašus pažymėti žvaigždute"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:386
 msgid "HELP_Minimum file cache limit"
-msgstr "PAGALBA_minimalus failų podėlio dydis"
+msgstr "PAGALBA-Minimalus failų podėlio limitas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:442
 msgid "HELP_Move finished movies in trashcan"
-msgstr "PAGALBA_peržiūrėtus filmus perkelti į šiukšliadėžę"
+msgstr "PAGALBA-peržiūrėtus filmus perkelti į šiukšliadėžę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:360
 msgid "HELP_Movie home at start"
-msgstr "PAGALBA_filmo pradžia"
+msgstr "PAGALBA-Filmų namų katalogas paleidžiant"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:363
 msgid "HELP_Movie home home path"
-msgstr "PAGALBA_kelias į \"Filmų namų\" katalogą"
+msgstr "PAGALBA-Kelias į filmų namų vietą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:520
 msgid "HELP_Movie preview delay in ms"
-msgstr "PAGALBA_filmo peržiūros atvėrimo delsa (ms)"
+msgstr "PAGALBA-Filmo peržiūros delsa ms"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:521
 msgid "HELP_Movie preview offset in seconds"
-msgstr "PAGALBA_filmo peržiūra kompensuojama per kelias sekundes"
+msgstr "PAGALBA-filmo peržiūra kompensuojama per kelias sekundes"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:418
 msgid "HELP_No resume below 10 seconds"
-msgstr "PAGALBA_nepavyksta tęsti mažiau nei 10 sekundžių"
+msgstr "PAGALBA-Mažiau 10 sek. nepratęsti"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:491
 msgid "HELP_Own Path to movie picons"
-msgstr "PAGALBA_kelias į filmų logotipus"
+msgstr "PAGALBA-Savas kelias į filmų piktogramas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:492
 msgid "HELP_Path to movie picons"
-msgstr "PAGALBA_kelias į filmų logotipus"
+msgstr "PAGALBA-Kelias į filmų piktogramas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:490
 msgid "HELP_Position movie picons"
-msgstr "PAGALBA_filmų logotipų vieta"
+msgstr "PAGALBA-Filmų piktogramos vieta"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:460
 msgid "HELP_Preferred EPG language"
-msgstr "PAGALBA_pageidaujama EPG kalba"
+msgstr "PAGALBA-Pageidaujama EPG kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:467
 msgid "HELP_Primary playback audio language"
-msgstr "PAGALBA_Pagrindinė garso takelio kalba"
+msgstr "PAGALBA-Pagrindinė garso takelio kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:462
 msgid "HELP_Primary playback subtitle language"
-msgstr "PAGALBA_pagrindinė subtitrų kalba"
+msgstr "PAGALBA-Pagrindinė subtitrų kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:344
 msgid "HELP_Red button function"
-msgstr "PAGALBA_raudono mygtuko funkcija"
+msgstr "PAGALBA-'RAUDONO' mygtuko funkcija"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:407
 msgid "HELP_Replace special chars in title"
-msgstr "PAGALBA_pakeisti specialius simbolius pavadinime"
+msgstr "PAGALBA-Pakeisti specialius simbolius pavadinime"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:410
 msgid "HELP_Resolve links and show real path"
-msgstr "PAGALBA_leisti nuorodas ir rodyti tikrą kelią"
+msgstr "PAGALBA-Atsekti nuorodas ir rodyti tiktąjį kelią"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:420
 msgid "HELP_Rewind finished movies before playing"
-msgstr "PAGALBA_prieš pradėdami žiūrėti, persukite baigtus filmus"
+msgstr "PAGALBA-Atsukti baigtus filmus prieš juos rodant"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:396
 msgid "HELP_Scan for DVD structures"
-msgstr "PAGALBA_nuskaityti DVD struktūras"
+msgstr "PAGALBA-Nuskaityti DVD struktūrą"
 
 msgid "HELP_Scan for Movie Structures"
-msgstr ""
-"Leidžia išjungti filmų struktūros nuskaitymą visuose kataloguose.\n"
-"Išjungus, išvengiama nepageidaujamų (tinklo) diskų prižadinimų."
+msgstr "PAGALBA-nuskaityti filmų struktūras"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:398
 msgid "HELP_Scan for bluray structures"
-msgstr "PAGALBA_nuskaityti bluray struktūras"
+msgstr "PAGALBA-Nuskaityti Blu-ray struktūrą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:399
 msgid "HELP_Scan for bluray structures in .iso"
-msgstr "PAGALBA_nuskaityti bluray.iso struktūras"
+msgstr "PAGALBA-Nuskaityti Blu-ray struktūrą ISO faile"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:397
 msgid "HELP_Scan for movie structures"
-msgstr "PAGALBA_nuskaityti filmų struktūras"
+msgstr "PAGALBA-nuskaityti filmų struktūras"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:468
 msgid "HELP_Secondary playback audio language"
-msgstr "PAGALBA_antroji garso takelio kalba"
+msgstr "PAGALBA-antroji garso takelio kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:463
 msgid "HELP_Secondary playback subtitle language"
-msgstr "PAGALBA_antroji subtitrų kalba"
+msgstr "PAGALBA-antroji subtitrų kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:495
 msgid "HELP_Short watching percent"
-msgstr "PAGALBA_trumpas žiūrėjimo procentas"
+msgstr "PAGALBA-Trumpai rodyti peržiūrėtus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:384
 msgid "HELP_Show Bookmarks in movielist"
-msgstr "PAGALBA_filmų sąraše rodyti žymeles"
+msgstr "PAGALBA-filmų sąraše rodyti žymeles"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "HELP_Show Cover"
-msgstr "PAGALBA_rodyti viršelį"
+msgstr "PAGALBA-Rodyti viršelį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:409
 msgid "HELP_Show Cut-Nr if exist"
-msgstr "PAGALBA_rodyti Cut-Nr, jeigu yra"
+msgstr "PAGALBA-Jei yra, rodyti kirpimo Nr"
 
 msgid "HELP_Show E2 Bookmarks in movielist"
 msgstr ""
-"'Filmų namuose' rodyti virtualius katalogus, atitinkančius Enigma2 žymes."
+"'Filmų namuose' rodyti virtualius katalogus, atitinkančius Enigma2 žymes"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:339
 msgid "HELP_Show EMC in extensions menu"
-msgstr "PAGALBA_rodyti EMC tarp plėtinių meniu"
+msgstr "PAGALBA-rodyti EMC tarp plėtinių meniu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:338
 msgid "HELP_Show EMC in main menu"
-msgstr ""
+msgstr "PAGALBA-rodyti EMC pagrindiniame meniu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "HELP_Show Latest Recordings directory"
-msgstr "PAGALBA_Rodyti naujausius įrašų katalogus"
+msgstr "PAGALBA-Rodyti naujausius įrašų katalogus"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:408
 msgid "HELP_Show Movie Format"
-msgstr "PAGALBA_rodyti filmo formatą"
+msgstr "PAGALBA-Rodyti filmo formatą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:411
 msgid "HELP_Show Path if no extended description available"
-msgstr "PAGALBA_jei nėra išplėstinio aprašymo, rodyti kelią"
+msgstr "PAGALBA-Rodyti kelią, jei nėra išplėstinio aprašymo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:383
 msgid "HELP_Show VLC directory"
-msgstr "PAGALBA_rodyti VLC katalogą"
+msgstr "PAGALBA-rodyti VLC katalogą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "HELP_Show audio metadata"
-msgstr "PAGALBA_Rodyti garso meta duomenis"
+msgstr "PAGALBA-Rodyti garso meta duomenis"
 
 #: EnhancedMovieCenter.py:538
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr ""
-"Rodyti garso metaduomenis filmų sąraše.\n"
-"Kad jie būtų korektiškai atvaizduojami, reikės atlikti pakeitimus EMC "
-"aplinkos temoje."
+msgstr "PAGALBA-rodyti garso meta duomenis (reikia temos pokyčių)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
-msgstr "PAGALBA_rodyti katalogus"
+msgstr "PAGALBA-rodyti katalogų informaciją"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:373
 msgid "HELP_Show directories information"
-msgstr "PAGALBA_rodyti katalogų informaciją"
+msgstr "PAGALBA-Rodyti katalogų informaciją"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:371
 msgid "HELP_Show directories within movielist"
-msgstr "PAGALBA_rodyti katalogus filmų sąraše"
+msgstr "PAGALBA-rodyti katalogus filmų sąraše"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:378
 msgid "HELP_Show directory size in skin"
-msgstr "PAGALBA_rodyti katalogo dydį temoje"
+msgstr "PAGALBA-Temoje rodyti katalogo dydį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:387
 msgid "HELP_Show experimental options"
-msgstr "PAGALBA_rodyti eksperimentines parinktis"
+msgstr "PAGALBA-Rodyti eksperimentines parinktis"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:487
 msgid "HELP_Show link arrow"
-msgstr "PAGALBA_rodyti krypties rodyklę"
+msgstr "PAGALBA-Rodyti krypties rodyklę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:417
 msgid "HELP_Show message if file added to playlist"
-msgstr "PAGALBA_rodyti žinutę, jei failas pridėtas į grojaraštį"
+msgstr "PAGALBA-Rodyti žinutę, jei failas pridėtas į grojaraštį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:486
 msgid "HELP_Show movie icons"
-msgstr "PAGALBA_rodyti filmų logotipus"
+msgstr "PAGALBA-Rodyti filmų piktogramas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "HELP_Show movie picons"
-msgstr "PAGALBA_rodyti filmų logotipus"
+msgstr "PAGALBA-rodyti filmų piktogramas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:519
 msgid "HELP_Show movie preview"
-msgstr "PAGALBA_rodyti filmo peržiūrą"
+msgstr "PAGALBA-Rodyti filmo peržiūrą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:494
 msgid "HELP_Show movie progress"
-msgstr "PAGALBA_rodyti filmo eigą"
+msgstr "PAGALBA-Rodyti filmo eigą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:337
 msgid "HELP_Show plugin config in extensions menu"
-msgstr "PAGALBA_rodyti priedo konfigūraciją tarp plėtinių meniu"
+msgstr "PAGALBA-rodyti priedo konfigūraciją tarp plėtinių meniu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:423
 msgid "HELP_Show real length of running records"
-msgstr "PAGALBA_bus rodomas faktiškas vykdomų įrašų dydis"
+msgstr "PAGALBA-bus rodomas faktiškas vykdomų įrašų dydis"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:369
 msgid "HELP_Show symlinks"
-msgstr "PAGALBA_rodyti nuorodas"
+msgstr "PAGALBA-rodyti nuorodas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:435
 msgid "HELP_Show trashcan directory"
-msgstr "PAGALBA_rodyti katalogo šiukšliadėžę"
+msgstr "PAGALBA-Rodyti šiukšliadėžės katalogą"
 
 msgid "HELP_Sort file A to Z at startup"
-msgstr "Atveriant, filmų sąrašas bus surūšiuotas pagal abėcėlę."
+msgstr "PAGALBA-rūšiuoti failus nuo A iki Z paleidžiant"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:361
 msgid "HELP_Sort mode at startup"
-msgstr "PAGALBA_rūšiavimo režimas paleidžiant"
+msgstr "PAGALBA-Rūšiavimo būdas paleidžiant"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:336
 msgid "HELP_Start EMC with"
-msgstr "PAGALBA_Pradėkite EMC su"
+msgstr "PAGALBA-Pradėti EMC su"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:478
 msgid "HELP_Style for original EMC-skin (needs reopen)"
-msgstr "PAGALBA_Originalus EMC temos stilius (reikia atnaujinti)"
+msgstr "PAGALBA-Originalus EMC temos stilius (reikia atnaujinti)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:469
 msgid "HELP_Tertiary playback audio language"
-msgstr "PAGALBA_trečioji garso takelio kalba"
+msgstr "PAGALBA-Trečioji garso takelio kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:464
 msgid "HELP_Tertiary playback subtitle language"
-msgstr "PAGALBA_trečioji subtitrų kalba"
+msgstr "PAGALBA-Trečioji subtitrų kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:375
 msgid "HELP_Text shown for initially unknown count and size"
-msgstr "PAGALBA_tekstas, rodomas iš pradžių nežinomam skaičiui ir dydžiui"
+msgstr "PAGALBA-Tekstas, rodomas nuo pradžių nežinomam skaičiui ir dydžiui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:376
 msgid "HELP_Text shown for initially unknown directory size"
-msgstr "PAGALBA_tekstas, rodomas nuo pradžių nežinomam katalogo dydžiui"
+msgstr "PAGALBA-Tekstas rodomas nuo pradžių nežinomam katalogo dydžiui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:374
 msgid "HELP_Text shown for initially unknown file count"
-msgstr "PAGALBA_tekstas, rodomas iš pradžių nežinomam failų skaičiui"
+msgstr "PAGALBA-Tekstas rodomas nuo pradžių nežinomam failų skaičiui"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:433
 msgid "HELP_Trashcan enable"
-msgstr "PAGALBA_įjungti šiukšliadėžę"
+msgstr "PAGALBA-įjungti šiukšliadėžę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:434
 msgid "HELP_Trashcan path"
-msgstr "PAGALBA_kelias į šiukšliadėžę"
+msgstr "PAGALBA-Kelias į  šiukšliadėžę"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:405
 msgid "HELP_Try to load extra title and more from .meta files"
 msgstr ""
-"PAGALBA_Pabandykite įkelti papildomą pavadinimą ir dar daugiau iš .meta failų"
+"PAGALBA-Bandyti įkelti papildomą pavadinimą ir dar daugiau iš .meta failų"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:406
 msgid "HELP_Try to load titles from .eit files"
-msgstr "PAGALBA_pabandykite įkelti antraštes iš .eit failų"
+msgstr "PAGALBA-Bandyti įkelti pavadinimus iš .eit failų"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:404
 msgid "HELP_Try to load titles from .meta files"
-msgstr "PAGALBA_bandyti įkelti pavadinimus iš .meta failų"
+msgstr "PAGALBA-bandyti įkelti pavadinimus iš .meta failų"
 
 #: EnhancedMovieCenter.py:543
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
@@ -9381,65 +9369,65 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
-msgstr "PAGALBA_Failams ir katalogams naudoti atminties podėlį"
+msgstr "PAGALBA-Failams ir katalogams naudoti atminties podėlį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:477
 msgid "HELP_Use original EMC-skin (needs reopen)"
 msgstr ""
-"PAGALBA_įjungti originalią EMC vartotojo aplinkos temą (reikės paleisti iš "
+"PAGALBA-įjungti originalią EMC vartotojo aplinkos temą (reikės paleisti iš "
 "naujo)."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:391
 msgid "HELP_Wake device when entering dir from emc-noscan.cfg"
-msgstr "PAGALBA_prižadinti, atveriant katalogą iš emc-noscan.cfg"
+msgstr "PAGALBA-Prižadinti, atveriant katalogą iš emc-noscan.cfg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "HELP_Yellow button function"
-msgstr "PAGALBA_geltono mygtuko funkcija"
+msgstr "PAGALBA-Geltono mygtuko funkcija"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:422
 msgid "HELP_Zap to channel after record EOF"
-msgstr "PAGALBA_jungti kanalą po įrašo EOF"
+msgstr "PAGALBA-jungti kanalą po įrašo EOF"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:355
 msgid "HELP_auto-start window begin"
-msgstr "PAGALBA_langų auto paleidimo pradžios laikas"
+msgstr "PAGALBA-auto paleidimo lango pradžia"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:356
 msgid "HELP_auto-start window end"
-msgstr "PAGALBA_langų auto paleidimo pabaigos laikas"
+msgstr "PAGALBA-langų auto paleidimo pabaigos laikas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:395
 msgid "HELP_cfghide_enable"
-msgstr "PAGALBA_cfg slėpimas_įjungtas"
+msgstr "PAGALBA-cfg slėpimas_įjungtas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:400
 msgid "HELP_cfgscan_suppress"
-msgstr "PAGALBA_slopinti cfg nuskaitymą"
+msgstr "PAGALBA-slopinti cfg nuskaitymą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:522
 msgid "HELP_hide_MiniTV"
-msgstr "PAGALBA_paslėpti Mini TV viršelį"
+msgstr "PAGALBA-paslėpti Mini TV viršelį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:523
 msgid "HELP_hide_MiniTV cover"
-msgstr "PAGALBA_paslėpti Mini TV viršelį"
+msgstr "PAGALBA-paslėpti Mini TV viršelį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:530
 msgid "HELP_hide_MiniTV_method"
-msgstr "PAGALBA_slėpti_MiniTV_metodą"
+msgstr "PAGALBA-slėpti_MiniTV_metodą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:401
 msgid "HELP_scan_linked"
-msgstr "PAGALBA_skenavimas susietas"
+msgstr "PAGALBA-skenavimas susietas"
 
 #: EnhancedMovieCenter.py:474
 msgid "HELP_separator_Trashcan settings"
-msgstr "Šiukšliadėžės ir jos automatinio išvalymo funkcijų nuostatos."
+msgstr "PAGALBA-šiukšliadėžės skirtuko nustatymai"
 
 #: EnhancedMovieCenter.py:404
 msgid "HELP_separator_hide&performance"
-msgstr "Nustatymas nerodyti failų/katalogų ir našumo."
+msgstr "PAGALBA-skirtuko slėpimas ir našumas"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:87
 msgid "HH:MM"
@@ -9590,7 +9578,7 @@ msgstr "Didžiausias (avarinis)"
 #: enigma2-plugins/twitchtv/src/plugin.py:289
 #: enigma2-plugins/twitchtv/src/plugin.py:296
 msgid "Highlights"
-msgstr ""
+msgstr "Svarbiausi dalykai"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:263
 #: enigma2-plugins/mytube/src/plugin.py:260
@@ -10820,11 +10808,11 @@ msgstr "Sąrašai"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:231
 msgid "Live Streams"
-msgstr ""
+msgstr "Tiesioginės transliacijos"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:660
 msgid "Livestreams"
-msgstr ""
+msgstr "Tiesioginės transliacijos"
 
 #: enigma2-plugins/tageditor/src/plugin.py:47
 msgid "Load"
@@ -10895,13 +10883,13 @@ msgstr "Įkelti konfigūracinio failo %s nepavyko: %s"
 #: enigma2-plugins/twitchtv/src/plugin.py:687
 #, python-format
 msgid "Loading followed channels for %s"
-msgstr ""
+msgstr "Įkeliami kanalai po %s"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:254
 #: enigma2-plugins/twitchtv/src/plugin.py:328
 #: enigma2-plugins/twitchtv/src/plugin.py:607
 msgid "Loading..."
-msgstr ""
+msgstr "Įkeliama..."
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:194
 msgid "Local"
@@ -12848,7 +12836,7 @@ msgstr "Nieko"
 #: enigma2-plugins/twitchtv/src/plugin.py:710
 #, python-format
 msgid "Nothing found for '%s'..."
-msgstr ""
+msgstr "Nieko nerasta '%s'..."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:145
 msgid "Nothing found..."
@@ -13309,11 +13297,11 @@ msgstr "Atidaryti pasirinktą IMDb"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:401
 msgid "Open selected in TMDB Info (AMS)"
-msgstr ""
+msgstr "Atidaryti pasirinktą TMDB informaciją (AMS)"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:402
 msgid "Open selected in TMDB Serie Info (AMS)"
-msgstr ""
+msgstr "Atidaryti pasirinktą TMDB informaciją (AMS)"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:270
 msgid "Open selector"
@@ -15173,7 +15161,7 @@ msgstr "Peradresuokite pranešimus Growl, Snarl, Prowl arba Syslog"
 #: enigma2-plugins/twitchtv/src/plugin.py:246
 #: enigma2-plugins/twitchtv/src/plugin.py:374
 msgid "Refresh"
-msgstr ""
+msgstr "Atnaujinti"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:157
 msgid "Refresh EPG automatically"
@@ -16270,7 +16258,7 @@ msgstr "Ieškoti EPG"
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:121
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:141
 msgid "Search EPG with Message"
-msgstr ""
+msgstr "Ieškoti EPG su pranešimu"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:722
 msgid "Search EPG: Selected Event"
@@ -16338,7 +16326,7 @@ msgstr "Ieškoti %s"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:667
 msgid "Search for channel"
-msgstr ""
+msgstr "Kanalų paieška"
 
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:222
 msgid "Search for:"
@@ -16389,7 +16377,7 @@ msgstr "Ieškoti rezultatų:"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:80
 msgid "Search scope"
-msgstr ""
+msgstr "Paieškos aprėptis"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:599
 msgid "Search strictness"
@@ -16410,7 +16398,7 @@ msgstr "Paieškos tipas:"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:80
 msgid "Search will return only matches from services in the selected bouquet"
-msgstr ""
+msgstr "Paieška parodys atitikimus tik iš kanalų pasirinktame pakete"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:897
 #, python-format
@@ -16425,7 +16413,7 @@ msgstr "Ieškoma  %s"
 #: enigma2-plugins/twitchtv/src/plugin.py:703
 #, python-format
 msgid "Searching for channels containing '%s'"
-msgstr ""
+msgstr "Ieškoti kanalų, kuriuose yra '%s'"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1691
 msgid "Searching in LDIF..."
@@ -16541,6 +16529,9 @@ msgid ""
 "\" if you only want to search for a part of the event title or description "
 "or \"Ask user\""
 msgstr ""
+"Pasirinkite \"tikslų\" atitikmenį, kad \"pavadinimo atitikimas\" būtų "
+"tiksliai suderintas, \"dalinį\", jei norite tik ieškoti dalies įvykio "
+"pavadinimo ar aprašymo arba \"klauskite naudotojo\""
 
 #: enigma2-plugins/merlinepg/src/plugin.py:574
 msgid "Select Info type..."
@@ -17155,6 +17146,8 @@ msgid ""
 "Show 'all', 'current', 'future' or 'current & future' events. So you can "
 "filter the matches by the event-time."
 msgstr ""
+"Rodyti \"visus\", \"dabartinius\", \"būsimus\" arba \"esamus ir būsimus\" "
+"įvykius. Taigi galite filtruoti atitikimus pagal įvykio laiką."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:168
 msgid "Show Advanced Options"
@@ -17202,7 +17195,7 @@ msgstr "Rodyti EMC plėtinių meniu lange"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:338
 msgid "Show EMC in main menu"
-msgstr ""
+msgstr "Rodyti EMC pagrindiniame meniu"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:95
 #, python-format
@@ -17308,7 +17301,7 @@ msgstr "Rodyti PiP paslaugą (-as)"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:83
 msgid "Show Picons"
-msgstr ""
+msgstr "Rodyti logotipus"
 
 #: enigma2-plugins/valixdcontrol/src/plugin.py:117
 msgid "Show Picons (Reference):"
@@ -17643,7 +17636,7 @@ msgstr "Rodyti vykdomų įrašų tikrąjį dydį"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1944
 msgid "Show real remainingtime while timeshifting?"
-msgstr ""
+msgstr "Rodyti realų likusį laiką, laiko poslinkio metu?"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Records.py:70
 msgid "Show record(s)"
@@ -17687,6 +17680,8 @@ msgid ""
 "Show the most matched channelname in the screen-title. So you have more "
 "place to show eventname and short description."
 msgstr ""
+"Rodyti labiausiai sutampantį kanalo pavadinimą ekrano pavadinime. Taigi, "
+"turite daugiau vietos parodyti įvykio pavadinimą ir trumpą aprašymą."
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:246
 msgid "Show the pending Services for refresh"
@@ -17697,6 +17692,8 @@ msgid ""
 "Show the the picon of the channel instead of channelname. Use the picon-path "
 "from the channelselection-settings."
 msgstr ""
+"Rodyti kanalo logotipą vietoj kanalo pavadinimo. Naudokite logotipų kelią iš "
+"kanalo parinkčių nustatymų."
 
 #: e2openplugin-InfoBarTunerState/meta/plugin_infobartunerstate.xml./e2openplugin-InfoBarTunerState/meta/plugin_infobartunerstate.xml
 msgid "Show the tuner state as infobar popup"
@@ -17752,7 +17749,7 @@ msgstr "Rodyti su info juosta (filmų grotuvas)"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1945
 msgid "Show zap-warning on active timeshifting?"
-msgstr ""
+msgstr "Rodyti jungimo įspėjimą apie aktyvų laiko poslinkį?"
 
 #: enigma2-plugins/weatherplugin/src/MSNWeather.py:34
 msgid "Showers"
@@ -19398,7 +19395,7 @@ msgstr ""
 
 #: enigma2-plugins/twitchtv/src/plugin.py:541
 msgid "The channel wasn't found on Twitch"
-msgstr ""
+msgstr "Kanalas nebuvo rastas Twitch"
 
 #: enigma2-plugins/epgrefresh/src/mphelp.xml
 msgid "The configuration menu"
@@ -20600,7 +20597,7 @@ msgstr "Įrankiai"
 #: enigma2-plugins/twitchtv/src/plugin.py:568
 #: enigma2-plugins/twitchtv/src/plugin.py:661
 msgid "Top Games"
-msgstr ""
+msgstr "Populiariausi žaidimai"
 
 #: enigma2-plugins/mytube/src/plugin.py:118
 msgid "Top rated"
@@ -20785,16 +20782,16 @@ msgstr "Twitch kanalas/vartotojas"
 #: enigma2-plugins/twitchtv/src/plugin.py:639
 #: enigma2-plugins/twitchtv/src/plugin.py:656
 msgid "TwitchTV"
-msgstr ""
+msgstr "TwitchTV"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:358
 #, python-format
 msgid "TwitchTV - %s"
-msgstr ""
+msgstr "TwitchTV - %s"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:352
 msgid "TwitchTV - Channel Details"
-msgstr ""
+msgstr "TwitchTV - kanalo informacija"
 
 #: enigma2-plugins/eparted/src/eparted.py:314
 #: enigma2-plugins/podcast/src/plugin.py:288
@@ -21110,7 +21107,7 @@ msgstr "Įkėlimo norma"
 #: enigma2-plugins/twitchtv/src/plugin.py:291
 #: enigma2-plugins/twitchtv/src/plugin.py:297
 msgid "Uploads"
-msgstr ""
+msgstr "Įkėlimai"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:574
 msgid "Upper bound of timespan."
@@ -21584,7 +21581,7 @@ msgstr "Vaizdo grotuvo sustojimo/išėjimo elgsena:"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:373
 msgid "Videos"
-msgstr ""
+msgstr "Vaizdo įrašai"
 
 #: enigma2-plugins/merlinepg/src/plugin.py:605
 #: enigma2-plugins/merlinepg/src/plugin.py:922
@@ -21634,7 +21631,7 @@ msgstr ""
 #: enigma2-plugins/twitchtv/src/plugin.py:423
 #, python-format
 msgid "Viewers: %s"
-msgstr ""
+msgstr "Žiūrovai: %s"
 
 #: enigma2-plugins/mytube/src/plugin.py:1155
 #: enigma2-plugins/mytube/src/plugin.py:1386
@@ -21849,7 +21846,7 @@ msgstr "Žiūrėti EuroticTV per HTTP tiesioginį srautą."
 
 #: enigma2-plugins/twitchtv/src/plugin.py:372
 msgid "Watch Live"
-msgstr ""
+msgstr "Žiūrėti gyvai"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:104
 msgid "Watch Stalker Channels"
@@ -21861,7 +21858,7 @@ msgstr "Žiūrėti eUroticTV per HTTP internetinį srautą"
 
 #: enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml./enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml
 msgid "Watch livestreams and vods from twitch.tv"
-msgstr ""
+msgstr "Žiūrėkite tiesioginius srautus ir vod iš twitch.tv"
 
 #: enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml./enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml
 msgid ""
@@ -21875,11 +21872,11 @@ msgstr "Žiūrėti anonsus iš EPG sąrašo/įvykių peržiūros"
 
 #: enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml./enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml
 msgid "Watch twitch.tv"
-msgstr ""
+msgstr "Žiūrėti twitch.tv"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:723
 msgid "Watch twitch.tv Streams and VODs"
-msgstr ""
+msgstr "Žiūrėti twitch.tv srautus ir VOD"
 
 #: enigma2-plugins/easymedia/src/plugin.py:398
 msgid "Weather"
@@ -22248,7 +22245,7 @@ msgstr ""
 
 #: enigma2-plugins/twitchtv/src/plugin.py:532
 msgid "Which channel do you want to add?"
-msgstr ""
+msgstr "Kurį kanalą norite įtraukti?"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:767
 msgid "Which event do you want to save permanently?"
@@ -22524,6 +22521,9 @@ msgid ""
 "\n"
 "Do you really want to zap?"
 msgstr ""
+"Jūs esate aktyvaus laiko poslinkio režime\n"
+"\n"
+"Ką norite daryti jungiant?"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:83
 msgid ""
@@ -22531,6 +22531,9 @@ msgid ""
 "\n"
 "What do you want to do on zapping?"
 msgstr ""
+"Jūs esate aktyvaus laiko poslinkio režime\n"
+"\n"
+"Ką norite daryti perjungiant?"
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:50
 msgid "You can choose between Flickr and Picasa as site to use."
@@ -23178,7 +23181,7 @@ msgstr "įtraukti į EPG atnaujintoją"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
 msgid "advanced warning"
-msgstr ""
+msgstr "išplėstinis įspėjimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
 msgid "after reload list"
@@ -23206,7 +23209,7 @@ msgstr "visi"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:100
 msgid "all services"
-msgstr ""
+msgstr "visi kanalai"
 
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:99
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:126
@@ -23576,11 +23579,11 @@ msgstr "csfd.cz"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:25
 msgid "current"
-msgstr ""
+msgstr "dabartinis"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:25
 msgid "current & future"
-msgstr ""
+msgstr "dabartis ir ateitis"
 
 #: enigma2-plugins/antiscrollbar/src/plugin.py:127
 msgid "current Service"
@@ -23588,7 +23591,7 @@ msgstr "dabartinis kanalas"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:100
 msgid "current bouquet"
-msgstr ""
+msgstr "dabartinis paketas"
 
 #: enigma2-plugins/webcamviewer/src/WebcamTravel.py:82
 #: enigma2-plugins/webcamviewer/src/WebcamTravel.py:242
@@ -23971,7 +23974,7 @@ msgstr "kiekvienas atskiras"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:13
 msgid "exact Title-match"
-msgstr ""
+msgstr "tiksli pavadinimo atitiktis"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:207
 msgid "exact match"
@@ -24104,7 +24107,7 @@ msgstr "iš xml"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:25
 msgid "future"
-msgstr ""
+msgstr "ateitis"
 
 #: enigma2-plugins/dvdbackup/src/plugin.py:164
 msgid ""
@@ -24303,7 +24306,7 @@ msgstr ""
 
 #: enigma2-plugins/twitchtv/src/plugin.py:419
 msgid "is currently offline"
-msgstr ""
+msgstr "šiuo metu yra neprisijungęs"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:194
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:222
@@ -25099,11 +25102,11 @@ msgstr "apdorojamas pranešimas..."
 
 #: enigma2-plugins/epgsearch/src/__init__.py:15
 msgid "partial Title or Description"
-msgstr ""
+msgstr "dalinis pavadinimas arba aprašymas"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:14
 msgid "partial Title-match"
-msgstr ""
+msgstr "dalinio pavadinimo atitikimas"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:207
 msgid "partial match"
@@ -25673,7 +25676,7 @@ msgstr "rodyti užduočių detales"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:82
 msgid "show events"
-msgstr ""
+msgstr "rodyti įvykius"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:275
 msgid "show first selected tag"
@@ -25685,7 +25688,7 @@ msgstr "rodyti meta duomenis"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:85
 msgid "show most matched channelname in screen-title"
-msgstr ""
+msgstr "rodyti labiausiai suderintą kanalo pavadinimą ekrano pavadinime"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:72
 msgid "show next download details"
@@ -25734,7 +25737,7 @@ msgstr "rodyti pasirinktos vietos žymeklį"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:86
 msgid "show short description"
-msgstr ""
+msgstr "rodyti trumpą aprašymą"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:277
 msgid "show tag menu"
@@ -25746,7 +25749,7 @@ msgstr "rodyti jūsų albumus (jei prisijungę)"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
 msgid "simple warning"
-msgstr ""
+msgstr "paprastas įspėjimas"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:93
 msgid "single line style"
