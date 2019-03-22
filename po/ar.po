@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-11 08:48+0100\n"
-"PO-Revision-Date: 2018-11-15 09:11+0000\n"
+"POT-Creation-Date: 2019-03-22 08:55+0100\n"
+"PO-Revision-Date: 2019-03-11 07:51+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Arabic <moustafagamal@hotmail.com>\n"
 "Language: ar\n"
@@ -24,7 +24,7 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
-"X-POOTLE-MTIME: 1542273116.000000\n"
+"X-POOTLE-MTIME: 1552290680.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1341
 msgid ""
@@ -40,11 +40,17 @@ msgid ""
 "Cancel?"
 msgstr ""
 
+#: enigma2-plugins/skipintro/src/plugin.py:130
+msgid ""
+"\n"
+"Intro duration will be saved with season."
+msgstr ""
+
 #: enigma2-plugins/audiosync/src/AC3setup.py:60
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:384
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:385
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:228
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:229
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:230
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:254
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:383
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:387
@@ -136,10 +142,16 @@ msgstr ""
 msgid "  {lookups:d} successful lookups.\n"
 msgstr ""
 
+#: enigma2-plugins/skipintro/src/plugin.py:128
+#, python-format
+msgid " (-%s seconds)."
+msgstr ""
+
 #: enigma2-plugins/twitchtv/src/plugin.py:415
 msgid " (Live VOD)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:720
 msgid " (without counting cover range)"
 msgstr " (دون احتساب مساحة غلاف الفلم("
 
@@ -151,6 +163,7 @@ msgstr ""
 msgid " B"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2445
 msgid ""
 " Deleting remotely recorded and it will display an rec-error dialog on the "
 "other DB."
@@ -180,9 +193,11 @@ msgstr "النتائج"
 msgid " added to EasyMedia"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2491
 msgid " all selected video files?"
 msgstr " جميع ملفات الفيديو المحددة ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2500
 msgid ""
 " all selected video files? The currently playing movie is also one of the "
 "selections and its playback will be stopped."
@@ -190,14 +205,17 @@ msgstr ""
 " جميع ملفات الفيديو المحددة ؟ الفيلم الذي يلعب حاليا هو أيضا أحد التحديدات "
 "سيتم إيقاف تشغيله."
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2470
 msgid " currently played?"
 msgstr " تشغيل حاليا ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/RogueFileCheck.py:42
 msgid " files\n"
 msgstr ""
 " الملفات\n"
 " \n"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2451
 msgid " permanently"
 msgstr " شكل دائم"
 
@@ -345,7 +363,7 @@ msgstr ""
 
 #
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:352
-#: enigma2-plugins/easyinfo/src/plugin.py:725
+#: enigma2-plugins/easyinfo/src/plugin.py:645
 #, python-format
 msgid "%d min"
 msgstr "%d دقيقه"
@@ -360,6 +378,8 @@ msgstr ""
 msgid "%d records renamed successfully"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:410
+#, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "% d ثانيه"
@@ -518,6 +538,8 @@ msgstr ""
 msgid "%s is offline"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:465
+#, python-format
 msgid "%s not removed. Write protect?"
 msgstr "لم تتم أزاله %s. حماية المؤلف ؟"
 
@@ -526,6 +548,8 @@ msgstr "لم تتم أزاله %s. حماية المؤلف ؟"
 msgid "%s of %s min"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:463
+#, python-format
 msgid "%s removed."
 msgstr "%s تم حذفه."
 
@@ -596,15 +620,19 @@ msgstr ""
 msgid "'%s' removed from playlist"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:185
 msgid "( # )"
 msgstr "( # )"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
 msgid "( # / GB )"
 msgstr "(#/جيجابايت)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:187
 msgid "( GB )"
 msgstr "( جيجابايت )"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:133
 msgid "(Un-)Lock Directory"
 msgstr "(Un-) إقفال المسار"
 
@@ -635,6 +663,7 @@ msgstr ""
 msgid "(set point)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:195
 msgid "(show optional DVD audio menu)"
 msgstr "(عرض قائمة صوت ديفيدي إختياريه)"
 
@@ -642,6 +671,7 @@ msgstr "(عرض قائمة صوت ديفيدي إختياريه)"
 msgid "*"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1458
 msgid "*** Multiselection active ***"
 msgstr "*** تنشيط الخيارات المحددة ***"
 
@@ -654,16 +684,43 @@ msgstr ""
 msgid "-    HH:MM"
 msgstr ""
 
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:285
+msgid "- skip by a stored skip time or\n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:286
+msgid "- start timekeeping when no skip time is stored or\n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:289
+msgid "- start timekeeping when skip time is already stored or \n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:290
+msgid ""
+"- stop timekeeping (save with season number)\n"
+"\n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:287
+msgid ""
+"- stop timekeeping (save without season number)\n"
+"\n"
+msgstr ""
+
 #: enigma2-plugins/fancontrol2/src/plugin.py:115
 msgid "."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:55
 msgid ".../foldername.jpg"
 msgstr ".../أسم الملف.jpg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:55
 msgid ".../foldername/folder.jpg"
 msgstr ".../أسم المجلد/المجلد.jpg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:55
 msgid ".../foldername/foldername.jpg"
 msgstr ".../أسم المجلد/أسم المجلد.jpg"
 
@@ -851,9 +908,9 @@ msgstr ": "
 msgid ": Main Setup"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1701
-#: enigma2-plugins/teletext/src/plugin.py:1710
-#: enigma2-plugins/teletext/src/plugin.py:1737
+#: enigma2-plugins/teletext/src/plugin.py:1708
+#: enigma2-plugins/teletext/src/plugin.py:1717
+#: enigma2-plugins/teletext/src/plugin.py:1744
 msgid "<empty>"
 msgstr ""
 
@@ -862,6 +919,26 @@ msgstr ""
 #: enigma2-plugin-pzyp4t/src/plugin.py:2191
 msgid "<unknown>"
 msgstr "<غير معروف>"
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:288
+msgid "=== Remote control button 2 (long press) ===\n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:284
+msgid "=== Remote control button 2 ===\n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:292
+msgid ""
+"==== Configuration of title pattern ====\n"
+"\n"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:283
+msgid ""
+"==== Remote control button definitions when playing a recording ====\n"
+"\n"
+msgstr ""
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1140
 msgid ">>> ERROR - themes.xml in "
@@ -998,6 +1075,7 @@ msgstr ""
 msgid "API Root"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:379
 msgid ""
 "ATTENTION\n"
 "\n"
@@ -1013,9 +1091,11 @@ msgstr ""
 "\n"
 "تاكيد هذا مع المفتاح الأزرق متبوعا المفتاح الأخضر."
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:536
 msgid "AUDIO METADATA"
 msgstr "بيانات الصوت"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:353
 msgid "AUTOSTART"
 msgstr "تشغيل تلقائي"
 
@@ -1150,7 +1230,7 @@ msgstr ""
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1296
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:157
 #: enigma2-plugins/pipservicerelation/src/plugin.py:87
-#: enigma2-plugins/teletext/src/plugin.py:1713
+#: enigma2-plugins/teletext/src/plugin.py:1720
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:140
 #: enigma2-plugins/weatherplugin/src/setup.py:76
 #: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:31
@@ -1293,9 +1373,11 @@ msgstr ""
 msgid "Add directory to Bookmarks"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:172
 msgid "Add directory to E2 Bookmarks"
 msgstr "أضافه المسار إلى E2 الإشارات المرجعية"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:181
 msgid "Add directory to EMC Bookmarks"
 msgstr "إضافة المسار إلى مرجعية متصفح الأفلام"
 
@@ -1380,7 +1462,7 @@ msgstr ""
 #
 #: enigma2-plugin-partnerbox/src/plugin.py:245
 #: enigma2-plugin-partnerbox/src/plugin.py:312
-#: enigma2-plugins/easyinfo/src/plugin.py:739
+#: enigma2-plugins/easyinfo/src/plugin.py:659
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1319
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1327
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:192
@@ -1396,9 +1478,13 @@ msgstr "إضافة مؤقت غير مفعل عند التعارض"
 msgid "Add to Fav"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
 msgid "Add to Playlist"
 msgstr "أضافه إلى قائمه التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:99
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:218
 msgid "Add to current Playlist"
 msgstr "أضافه إلى قائمه التشغيل الحالية"
 
@@ -1481,6 +1567,7 @@ msgstr ""
 msgid "After event"
 msgstr "بعد الحدث"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "After file OPs only re-scan affected dirs"
 msgstr "بعد ملف OPs أعاده المسح الضوئي المتضررة فقط dirs"
 
@@ -1489,6 +1576,7 @@ msgstr "بعد ملف OPs أعاده المسح الضوئي المتضررة ف
 msgid "Age"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:443
 msgid "Age of finished movies in movie folder (days)"
 msgstr "عمر الأفلام النهائية في مجلد الفيلم (أيام)"
 
@@ -1506,6 +1594,7 @@ msgstr "البوم"
 msgid "Album (%s) -> Song List"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:362
 msgid "Album:"
 msgstr "الالبوم:"
 
@@ -1684,45 +1773,63 @@ msgid ""
 "unusable movie player until you uninstall one of the conflicting plugins."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:269
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:275
 msgid "Alpha sort"
 msgstr "الترتيب الأبجدي"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:269
 msgid "Alpha sort ascending (AZ)"
 msgstr "الترتيب الأبجدي تصاعديا (أي)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:271
 msgid "Alpha sort ascending with meta (AZM)"
 msgstr "الترتيب الأبجدي تصاعديا من أعلى (أي م)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:272
 msgid "Alpha sort ascending with meta, Date descending (AZMD-)"
 msgstr "الترتيب الأبجدي تصاعديا من أعلى, حسب التاريخ (أ ي م د)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:270
 msgid "Alpha sort ascending, Date descending (AZD-)"
 msgstr "الترتيب الأبجدي تصاعديا من أعلى, حسب التاريخ (أ ي د)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:270
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:276
 msgid "Alpha sort date newest"
 msgstr "الترتيب حسب الأحدث"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:275
 msgid "Alpha sort descending (ZA)"
 msgstr "الترتيب الأبجدي تنازليآ (أ ي)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:277
 msgid "Alpha sort descending with meta (ZAM)"
 msgstr "الترتيب الأبجدي من الأعلى (ي أ م)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:278
 msgid "Alpha sort descending with meta, Date ascending (ZAMD+)"
 msgstr "الترتيب الأبجدي تصاعديا من أعلى, حسب التاريخ (أ ي م د+)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:276
 msgid "Alpha sort descending, Date ascending (ZAD+)"
 msgstr "الترتيب الأبجدي تصاعديا, حسب التاريخ (ي أ د+)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:271
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:277
 msgid "Alpha sort meta"
 msgstr "الترتيب الأبجدي من الأعلى"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:272
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:278
 msgid "Alpha sort meta date newest"
 msgstr "الترتيب الأبجدي حسب الأحدث"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:447
 msgid "Always save current Playlist"
 msgstr "دائما أحفظ قائمه التشغيل الحالية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:421
 msgid "Always save last played progress as marker"
 msgstr "دائما حفظ آخر تشغيل للمادة المسجلة كعلامة"
 
@@ -1862,6 +1969,7 @@ msgstr ""
 msgid "Artist (%s) -> Song List"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:360
 msgid "Artist:"
 msgstr "الفنان:"
 
@@ -2046,10 +2154,6 @@ msgstr ""
 msgid "Auto paginate on last entry:"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:252
-msgid "Auto reduce calculated skip time (sec)"
-msgstr ""
-
 #: enigma2-plugins/fancontrol2/src/plugin.py:554
 msgid "Auto-Delete Data older than (Days)"
 msgstr ""
@@ -2069,6 +2173,10 @@ msgstr ""
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:38
 msgid "Auto-enable conditions for subtitles"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:253
+msgid "Auto-reduce calculated skip time (in seconds)"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/plugin.py:39
@@ -2189,6 +2297,7 @@ msgstr ""
 msgid "Automatic Volume Adjustment - Service Config"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:457
 msgid "Automatic timers list cleaning"
 msgstr "الحذف التلقائي للمؤقتات الألية"
 
@@ -2223,9 +2332,9 @@ msgstr ""
 msgid "Automatically create timer events based on keywords"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:252
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:253
 msgid ""
-"Automatically reduces the skip time by the selected time in seconds when "
+"Automatically reduces the skip time by the defined number of seconds when "
 "saving the skip time."
 msgstr ""
 
@@ -2284,11 +2393,11 @@ msgstr ""
 msgid "Autos & Vehicles"
 msgstr "سيارات ومركبات"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:76
+#: enigma2-plugins/easyinfo/src/plugin.py:65
 msgid "Autotimer"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:610
+#: enigma2-plugins/easyinfo/src/plugin.py:541
 msgid "Autotimer is not installed!"
 msgstr ""
 
@@ -2300,6 +2409,8 @@ msgstr ""
 msgid "Autowrite timer"
 msgstr "مؤقت الكتابه الالى"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:681
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:683
 msgid "Available plugins menu"
 msgstr "قائمه الإضافات المتاحة"
 
@@ -2344,7 +2455,7 @@ msgstr "خلف"
 msgid "Back to main screen"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1342
+#: enigma2-plugins/teletext/src/plugin.py:1349
 msgid "Background caching"
 msgstr ""
 
@@ -2411,10 +2522,6 @@ msgstr ""
 msgid "Beta: Enable Permanent Recording?"
 msgstr ""
 
-#: enigma2-plugins/aihdcontroler/src/plugin.py:43
-msgid "BeyondDreams-HD"
-msgstr ""
-
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:219
 msgid "Birthday"
 msgstr ""
@@ -2444,6 +2551,8 @@ msgstr ""
 msgid "BitrateViewer"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Black"
 msgstr "أسود"
 
@@ -2451,12 +2560,9 @@ msgstr "أسود"
 msgid "Blank"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "Blue button function"
 msgstr "وظيفة الزر الأزرق"
-
-#: enigma2-plugins/aihdcontroler/src/plugin.py:47
-msgid "BluesOfDream-HD"
-msgstr ""
 
 #: enigma2-plugins/emailclient/src/plugin.py:398
 msgid "Bodys"
@@ -2478,6 +2584,8 @@ msgstr ""
 msgid "Bonjour: Overview"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2466
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2472
 msgid "Bookmark"
 msgstr "علامة مرجعية"
 
@@ -2493,6 +2601,7 @@ msgstr ""
 msgid "Bootlogo-package:\n"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:254
 msgid "Both"
 msgstr "كلاهما"
 
@@ -2510,6 +2619,7 @@ msgstr ""
 msgid "Bouquet +/- long"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:342
 msgid "Bouquet buttons behaviour"
 msgstr "أزرار وظائف الباقة"
 
@@ -2544,7 +2654,7 @@ msgid "Brazil"
 msgstr "البرازيل"
 
 #
-#: enigma2-plugins/teletext/src/plugin.py:1331
+#: enigma2-plugins/teletext/src/plugin.py:1338
 msgid "Brightness"
 msgstr "الإضاءه"
 
@@ -2590,6 +2700,11 @@ msgstr ""
 msgid "Build Clean Timerlist"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1906
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1922
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1938
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:212
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:233
 msgid "Button disabled"
 msgstr "تم تعطيل الزر"
 
@@ -2631,9 +2746,11 @@ msgstr ""
 msgid "CIFS share"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3248
 msgid "CSFD"
 msgstr "CSFD"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
 msgid "CSFD Info"
 msgstr "معلومات csfd"
 
@@ -2705,15 +2822,20 @@ msgstr ""
 msgid "Can be mounted with the -a option."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1157
 msgid "Can not save "
 msgstr "لا يمكن الحفظ "
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1171
 msgid "Can not save Cover in "
 msgstr "لا يمكن حفظ الغلاف في "
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:258
 msgid "Can not save current Playlist!"
 msgstr "لا يمكن حفظ قائمه التشغيل الحالية!"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:468
+#, python-format
 msgid ""
 "Can not write Movie Information File\n"
 "\n"
@@ -2822,8 +2944,8 @@ msgstr "كندا"
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:46
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:121
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:68
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:226
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:69
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:227
 #: enigma2-plugins/growlee/src/plugin.py:99
 #: enigma2-plugins/subsdownloader2/src/plugin.py:931
 #: enigma2-plugins/subsdownloader2/src/plugin.py:936
@@ -2847,8 +2969,8 @@ msgstr "كندا"
 #: enigma2-plugins/3dsettings/src/plugin.py:184
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:174
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:39
-#: enigma2-plugins/teletext/src/plugin.py:1130
-#: enigma2-plugins/teletext/src/plugin.py:1276
+#: enigma2-plugins/teletext/src/plugin.py:1137
+#: enigma2-plugins/teletext/src/plugin.py:1283
 #: enigma2-plugins/c3vocupdater/src/plugin.py:42
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:15
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:71
@@ -2929,6 +3051,7 @@ msgstr "إلغاء"
 msgid "Cancel and close"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2698
 msgid "Cannot delete the parent directory."
 msgstr "لا يمكن حذف المسار الأصل."
 
@@ -3000,12 +3123,15 @@ msgstr ""
 msgid "Change 3D settings"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:120
 msgid "Change File/Moviename and/or Description"
 msgstr "تغيير ملف/أسم الفلم و/أو الوصف"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:264
 msgid "Change Folder"
 msgstr "تغيير المجلد"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:118
 msgid "Change Foldername"
 msgstr "تغيير اسم المجلد"
 
@@ -3049,7 +3175,7 @@ msgstr ""
 msgid "Change pin code"
 msgstr "تغيير الرقم السرى"
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:155
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:156
 msgid "Change series name"
 msgstr ""
 
@@ -3057,6 +3183,7 @@ msgstr ""
 msgid "Change sorting"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:237
 msgid "Change the filename to save current Playlist:"
 msgstr "تغيير اسم الملف لحفظ قائمه التشغيل الحالية:"
 
@@ -3148,7 +3275,7 @@ msgstr ""
 msgid "Channel audio:"
 msgstr "صوت القناه:"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:77
+#: enigma2-plugins/easyinfo/src/plugin.py:66
 msgid "Channel info"
 msgstr ""
 
@@ -3180,9 +3307,11 @@ msgstr "قنوات"
 msgid "Channels are not matched"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1026
 msgid "Chap."
 msgstr "فصل."
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1027
 msgid "Chapter"
 msgstr "فصل"
 
@@ -3213,6 +3342,7 @@ msgstr ""
 msgid "Check any running reconstruct process"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:392
 msgid "Check for dead links"
 msgstr "التحقق من من الروابط المعطوبة"
 
@@ -3239,6 +3369,7 @@ msgstr ""
 msgid "Check timer list from extension menu"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:469
 msgid "Choose Directory:"
 msgstr "أختار المسار:"
 
@@ -3246,12 +3377,23 @@ msgstr "أختار المسار:"
 msgid "Choose Napisy24 search method:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:206
 msgid "Choose bookmark"
 msgstr "أختار العلامة المرجعية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1192
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3026
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3068
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3102
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3144
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3171
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:299
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:752
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:470
 msgid "Choose directory"
 msgstr "أختار المسار"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:85
 msgid "Choose operation"
 msgstr "أختار العملية"
 
@@ -3259,9 +3401,11 @@ msgstr "أختار العملية"
 msgid "Choose path"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:200
 msgid "Choose plugin"
 msgstr "أختار الإضافة"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1307
 msgid "Choose script"
 msgstr "أختار السكريبت"
 
@@ -3333,7 +3477,7 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1678
+#: enigma2-plugins/teletext/src/plugin.py:1685
 msgid "Clear all"
 msgstr ""
 
@@ -3409,6 +3553,7 @@ msgstr ""
 msgid "Close"
 msgstr "أغلاق"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:651
 msgid "Close EMC"
 msgstr "أغلق مركز تشغيل الأفلام"
 
@@ -3445,6 +3590,7 @@ msgstr ""
 msgid "Close window"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2661
 msgid "Collection"
 msgstr "اسم المجموعة"
 
@@ -3473,10 +3619,6 @@ msgstr "كومباكت فلاش"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:217
 msgid "Composition of the recording filenames"
-msgstr ""
-
-#: enigma2-plugins/aihdcontroler/src/plugin.py:46
-msgid "Concinnity"
 msgstr ""
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
@@ -3555,6 +3697,7 @@ msgid ""
 "up on an entry from /etc/fstab. Specify a time in seconds."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:372
 msgid "Configured directories at the top of movielist"
 msgstr "إعدادات المسارات في أعلى قائمة الأفلام"
 
@@ -3660,10 +3803,12 @@ msgstr ""
 msgid "Content pattern (RegExp)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
 msgid "Content:"
 msgstr "يحتوى:"
 
-#: enigma2-plugins/teletext/src/plugin.py:1332
+#: enigma2-plugins/teletext/src/plugin.py:1339
 msgid "Contrast"
 msgstr "تباين"
 
@@ -3711,13 +3856,12 @@ msgstr ""
 msgid "Converted connection"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:73
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
+#: enigma2-plugins/easyinfo/src/plugin.py:62
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 msgid "Cool-TV"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:658
+#: enigma2-plugins/easyinfo/src/plugin.py:583
 msgid "CoolTVGuide is not installed!"
 msgstr ""
 
@@ -3725,9 +3869,13 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:209
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:230
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:143
 msgid "Copy File"
 msgstr "نسخ ملف"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:140
 msgid "Copy Files"
 msgstr "نسخ الملفات"
 
@@ -3735,6 +3883,8 @@ msgstr "نسخ الملفات"
 msgid "Copy epg.db EPG-Data"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3101
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3143
 msgid "Copy file(s):"
 msgstr "نسخ الملفات:"
 
@@ -3913,6 +4063,8 @@ msgstr ""
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:491
+#, python-format
 msgid ""
 "Cover %s exists!\n"
 "\n"
@@ -3922,24 +4074,35 @@ msgstr ""
 "\n"
 "هل تريد استبدال الغلاف الموجود ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:207
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:228
 msgid "Cover Search"
 msgstr "بحث عن الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:513
 msgid "Cover background"
 msgstr "خلفية الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:627
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 msgid "Cover delay in ms"
 msgstr "مدة ظهور الغلاف في الثانية"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1907
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1923
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1939
 msgid "Cover disabled in EMC-Setup"
 msgstr "الغلاف معطل من إعدادات مركز تشغيل الأفلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:515
 msgid "Cover is Saved."
 msgstr "تم حفظ الغلاف."
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:106
 msgid "Cover search"
 msgstr "بحث عن الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1328
 msgid ""
 "Cover search with all Files in Subdirectories?\n"
 "\n"
@@ -3949,6 +4112,7 @@ msgstr ""
 "\n"
 "هذا قد يستغرق بعض الوقت علي أقراص ضخمه ، أو المسارات!"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:626
 msgid "Coversize"
 msgstr "حجم الغلاف"
 
@@ -3988,6 +4152,8 @@ msgstr "أنشأ مؤقت جديد باستخدام نافذه الاعدادا�
 msgid "Create and update c3voc stream bouquet for current events"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:131
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:252
 msgid "Create directory"
 msgstr "إنشاء دليل"
 
@@ -3995,6 +4161,8 @@ msgstr "إنشاء دليل"
 msgid "Create iso:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:130
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:298
 msgid "Create link"
 msgstr "إنشاء رابط"
 
@@ -4050,6 +4218,7 @@ msgstr ""
 msgid "Creating Hardlink to Timeshift file failed!"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:297
 msgid "Creating Search List.."
 msgstr "يتم الآن إنشاء قائمه بحث.."
 
@@ -4065,6 +4234,7 @@ msgstr ""
 msgid "Current Index:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:255
 msgid "Current Playlist saved successfully!"
 msgstr "تم حفظ قائمه التشغيل الحالية بنجاح!"
 
@@ -4084,9 +4254,14 @@ msgstr ""
 msgid "Current value: %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "Cursor predictive move after selection"
 msgstr "المؤشر الانتقال التنبؤيه بعد التحديد"
 
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
+#: enigma2-plugins/werbezapper/src/WerbeZapper.py:110
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:175
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:197
 msgid "Custom"
 msgstr "خيار طول شاشة الرسيفر"
 
@@ -4162,12 +4337,17 @@ msgstr "حمهورية التشيك"
 msgid "DD.MM HH:MM"
 msgstr ""
 
+#: e2openplugin-InfoBarTunerState/src/plugin.py:89
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:170
 msgid "DD.MM. HH:MM"
 msgstr "DD.MM: MM"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:164
 msgid "DD.MM.YYYY"
 msgstr "DD.MM.YYYY"
 
+#: e2openplugin-InfoBarTunerState/src/plugin.py:91
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:167
 msgid "DD.MM.YYYY HH:MM"
 msgstr "DD.MM.YYYY HH:MM"
 
@@ -4175,6 +4355,7 @@ msgstr "DD.MM.YYYY HH:MM"
 msgid "DEB-package:\n"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:556
 msgid "DEBUG"
 msgstr "DEBUG"
 
@@ -4186,6 +4367,7 @@ msgstr ""
 msgid "DECT phones registered"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:471
 msgid "DELAYS"
 msgstr "التاخير"
 
@@ -4193,6 +4375,7 @@ msgstr "التاخير"
 msgid "DHCP enabled"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:368
 msgid "DISPLAY-SETTINGS"
 msgstr "إعدادات -شاشة العرض"
 
@@ -4221,10 +4404,6 @@ msgstr ""
 msgid "DM8000-RC layer 4"
 msgstr ""
 
-#: enigma2-plugins/aihdcontroler/src/plugin.py:41
-msgid "DMM-Board"
-msgstr ""
-
 #: enigma2-plugin-pzyp4t/src/plugin.py:1983
 msgid "DVB-C"
 msgstr ""
@@ -4241,6 +4420,7 @@ msgstr ""
 msgid "DVD"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:394
 msgid "DVD / BLU-RAY / FOLDERS"
 msgstr "دفيفدي / بلوراي / مجلدات"
 
@@ -4265,18 +4445,24 @@ msgstr ""
 msgid "DVDPlayer Plugin is not installed!"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:440
 msgid "Daily cleanup time"
 msgstr "حذف التوقيت اليومي"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
 msgid "Dark green"
 msgstr "اخضر غامق"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Dark grey"
 msgstr "رمادي غامق"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:403
 msgid "Dark orange"
 msgstr "برتقالي غامق"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
 msgid "Dark red"
 msgstr "احمر غامق"
 
@@ -4286,6 +4472,7 @@ msgstr "احمر غامق"
 msgid "Date"
 msgstr "تاريخ"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "Date format"
 msgstr "صيغة التاريخ"
 
@@ -4293,15 +4480,20 @@ msgstr "صيغة التاريخ"
 msgid "Date format:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:268
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:274
 msgid "Date sort"
 msgstr "الترتيب حسب التاريخ"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:274
 msgid "Date sort ascending (D+)"
 msgstr "الترتيب حسب التاريخ تصاعديا (د+)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:268
 msgid "Date sort descending (D-)"
 msgstr "الترتيب حسب التاريخ تصاعديا (د-)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:419
 msgid "Day"
 msgstr "يوم"
 
@@ -4310,6 +4502,8 @@ msgstr "يوم"
 msgid "Day:"
 msgstr ""
 
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:57
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:422
 msgid "Days"
 msgstr "أيام"
 
@@ -4342,11 +4536,12 @@ msgstr ""
 msgid "DeactivatedTimerPushed"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1343
+#: enigma2-plugins/teletext/src/plugin.py:1350
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:69
 msgid "Debug"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:559
 msgid "Debug output file name"
 msgstr "تصحيح اسم ملف الإخراج"
 
@@ -4377,15 +4572,17 @@ msgstr "قلل التأخير بـ %i مللى ثانيه (يمكن إعداده
 msgid "Decrease remaining time"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:258
 msgid "DeepStandby"
 msgstr "الإستعداد العميق"
 
-#: enigma2-plugins/teletext/src/plugin.py:1277
+#: enigma2-plugins/teletext/src/plugin.py:1284
 #: enigma2-plugins/imdb/src/plugin.py:44
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:176
 msgid "Default"
 msgstr "الافتراضى"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:171
 msgid ""
 "Default Playlist is not empty!\n"
 "\n"
@@ -4395,24 +4592,31 @@ msgstr ""
 "\n"
 "حفظ قائمه التشغيل الافتراضية ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:446
 msgid "Default Playlist name"
 msgstr "اسم قائمه التشغيل الافتراضية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:445
 msgid "Default Playlist path"
 msgstr "مسار قائمه التشغيل الافتراضية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:501
 msgid "Default color for highlighted movie"
 msgstr "اللون الافتراضي للفيلم المميز"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:498
 msgid "Default color for partially watched movie"
 msgstr "اللون الافتراضي للفيلم الذي شاهدت منه جزئيا"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:500
 msgid "Default color for recording movie"
 msgstr "اللون الافتراضي للأفلام المسجلة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:497
 msgid "Default color for unwatched movie"
 msgstr "اللون الافتراضي للفيلم الغير مشاهد"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:499
 msgid "Default color for watched movie"
 msgstr "اللون الافتراضي للأفلام المشاهدة"
 
@@ -4428,6 +4632,7 @@ msgstr ""
 msgid "Default season"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:361
 msgid "Default sort mode"
 msgstr "وضع الترتيب الافتراضي"
 
@@ -4501,7 +4706,7 @@ msgstr "تأخير (عدد) ثوانى بعد بدأ القناه"
 #: enigma2-plugins/remotetimer/src/plugin.py:104
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:105
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:129
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:70
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:71
 #: enigma2-plugins/growlee/src/plugin.py:102
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1072
 #: enigma2-plugins/zapstatistic/src/plugin.py:409
@@ -4513,7 +4718,7 @@ msgstr "تأخير (عدد) ثوانى بعد بدأ القناه"
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:116
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:178
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:230
-#: enigma2-plugins/teletext/src/plugin.py:1715
+#: enigma2-plugins/teletext/src/plugin.py:1722
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:173
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:143
 #: enigma2-plugins/weatherplugin/src/setup.py:78
@@ -4541,9 +4746,11 @@ msgstr "أمسح"
 msgid "Delete %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:134
 msgid "Delete All"
 msgstr "حذف الكل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:133
 msgid "Delete Entry"
 msgstr "مسح المدخل"
 
@@ -4555,7 +4762,7 @@ msgstr ""
 msgid "Delete all entries"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1772
+#: enigma2-plugins/teletext/src/plugin.py:1779
 msgid "Delete all favorites?"
 msgstr ""
 
@@ -4571,9 +4778,11 @@ msgstr ""
 msgid "Delete crashlogs"
 msgstr "مسح سجل العطب"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:222
 msgid "Delete current Playlist"
 msgstr "حذف قائمه التشغيل الحالية"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:128
 msgid "Delete cut file(s)"
 msgstr "حذف الملفات المقطوعة"
 
@@ -4583,9 +4792,11 @@ msgstr "حذف الملفات المقطوعة"
 msgid "Delete entry"
 msgstr "مسح البند"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2504
 msgid "Delete error:\n"
 msgstr "خطا في الحذف:\n"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2646
 msgid ""
 "Delete failed because the trashcan directory does not exist. Attempt to "
 "create it now?"
@@ -4598,7 +4809,7 @@ msgstr "فشل الحذف لان مسار سلة المهملات غير موج�
 msgid "Delete failed!"
 msgstr "فشل المسح"
 
-#: enigma2-plugins/teletext/src/plugin.py:1761
+#: enigma2-plugins/teletext/src/plugin.py:1768
 msgid "Delete favorite?"
 msgstr ""
 
@@ -4618,6 +4829,8 @@ msgstr ""
 msgid "Delete orphaned movie files"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:119
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:121
 msgid "Delete permanently"
 msgstr "حذف بشكل دائم"
 
@@ -4662,6 +4875,7 @@ msgstr ""
 msgid "Delete unused tags"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:437
 msgid "Delete validation"
 msgstr "حذف التحقق"
 
@@ -4678,9 +4892,11 @@ msgstr "حذف التحقق"
 msgid "Description"
 msgstr "الوصـف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:472
 msgid "Description field update delay"
 msgstr "تأخير تحديث معلومات الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:88
 msgid "Description:"
 msgstr "الوصف.:"
 
@@ -4746,9 +4962,13 @@ msgstr "دليل:"
 msgid "Direct playback of Youtube videos"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2657
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2668
 msgid "Directory"
 msgstr "الدليل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:258
+#, python-format
 msgid "Directory %s already exists!"
 msgstr "المسار %s موجود بالفعل!"
 
@@ -4757,12 +4977,15 @@ msgstr "المسار %s موجود بالفعل!"
 msgid "Directory %s nonexistent."
 msgstr "الدليل %s غير موجود"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:677
 msgid "Directory back"
 msgstr "الرجوع للمسار"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:675
 msgid "Directory forward"
 msgstr "تقدم للمسار"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2692
 msgid "Directory is not empty! Do you really want to delete it?"
 msgstr "المسار ليس فارغا! هل تريد حقا حذفه ؟"
 
@@ -4778,9 +5001,11 @@ msgstr ""
 msgid "Directory to scan for Logos"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:91
 msgid "Directory up"
 msgstr "المسار للأعلى"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:110
 msgid "Directory-Cover search"
 msgstr "المسار - بحث عن الغلاف"
 
@@ -4798,6 +5023,7 @@ msgstr "تعطيل"
 msgid "Disable "
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:335
 msgid "Disable EMC"
 msgstr "تعطيل مركز تشغيل الأفلام"
 
@@ -4810,9 +5036,8 @@ msgid "Disable media filter"
 msgstr ""
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:65
-#: enigma2-plugins/easyinfo/src/plugin.py:96
-#: enigma2-plugins/easyinfo/src/plugin.py:104
+#: enigma2-plugins/easyinfo/src/plugin.py:54
+#: enigma2-plugins/easyinfo/src/plugin.py:93
 #: enigma2-plugins/skipintro/src/__init__.py:15
 #: enigma2-plugins/teletext/src/plugin.py:70
 #: enigma2-plugins/easymedia/src/plugin.py:52
@@ -4847,7 +5072,7 @@ msgstr "تجاهل التغيرات وغلق البلج إن"
 msgid "Discard changes and close screen"
 msgstr "تجاهل التغيرات وأغلاق الشاشه"
 
-#: enigma2-plugins/teletext/src/plugin.py:1431
+#: enigma2-plugins/teletext/src/plugin.py:1438
 msgid "Discard changes?"
 msgstr ""
 
@@ -4888,10 +5113,11 @@ msgstr ""
 msgid "Display connection infos"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:446
 msgid "Display directory reading text"
 msgstr "عرض مسار النصوص المقروءه"
 
-#: enigma2-plugins/teletext/src/plugin.py:1337
+#: enigma2-plugins/teletext/src/plugin.py:1344
 msgid "Display edges"
 msgstr ""
 
@@ -4934,15 +5160,14 @@ msgstr ""
 msgid "Displays a label in the opposite corner of PiP if pipzap is enabled."
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:250
-msgid ""
-"Displays a message if you press the button '2' to skip with saved skip time."
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:251
+msgid "Displays a message when button '2' is pressed to skip the intro."
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:251
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:252
 msgid ""
-"Displays a message when the video starts if a skip time has already been "
-"saved for this series."
+"Displays a message when the playback of the recording starts and a skip time "
+"has already been saved for this series."
 msgstr ""
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:87
@@ -5045,7 +5270,7 @@ msgstr ""
 msgid "Do you really want to add all songs from that genre to a playlist?"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:137
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:138
 msgid "Do you really want to close without saving settings?"
 msgstr ""
 
@@ -5110,6 +5335,7 @@ msgstr ""
 msgid "Do you really want to delete the current playlist?"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:522
 msgid ""
 "Do you really want to delete the cut file?\n"
 "If you have selected a directory, all cut files within the folder and its "
@@ -5124,7 +5350,7 @@ msgstr ""
 msgid "Do you really want to delete the entry for %s?"
 msgstr ""
 
-#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:121
+#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:115
 #: enigma2-plugin-partnerbox/src/plugin.py:423
 #: enigma2-plugins/remotetimer/src/plugin.py:145
 #, python-format
@@ -5133,7 +5359,7 @@ msgid ""
 "%s ?"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:113
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:114
 #: enigma2-plugins/pipservicerelation/src/plugin.py:123
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:184
 msgid "Do you really want to delete this entry?"
@@ -5143,9 +5369,16 @@ msgstr ""
 msgid "Do you really want to delete:\n"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:272
+#, python-format
 msgid "Do you really want to lock the directory %s and all its subfolders?"
 msgstr "هل تريد حقا إقفال المسار %s وكافة مجلداته الفرعية ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2402
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2425
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:454
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:486
+#, python-format
 msgid ""
 "Do you really want to remove your bookmark\n"
 "%s?"
@@ -5153,6 +5386,8 @@ msgstr ""
 "هل تريد حقا أزاله الاشارات المرجعية \n"
 "%s ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2357
+#, python-format
 msgid ""
 "Do you really want to remove your directory\n"
 "%s?"
@@ -5160,6 +5395,8 @@ msgstr ""
 "هل تريد حقا أزاله المسار\n"
 " %s ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2355
+#, python-format
 msgid ""
 "Do you really want to remove your link\n"
 "%s?"
@@ -5191,6 +5428,8 @@ msgstr ""
 msgid "Do you want to restart the GUI now?"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:174
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:176
 msgid "Do you want to resume this playback?"
 msgstr "هل تريد إستئناف هذا العرض؟"
 
@@ -5211,9 +5450,11 @@ msgstr ""
 msgid "Do you want to try to open the downloaded file?"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1302
 msgid "Does not contain any scripts."
 msgstr "لا يحتوي علي إيه برامج نصيه."
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:388
 msgid "Don't auto scan size of dirs from emc-noscan.cfg"
 msgstr "لا للبحث التلقائي عن حجم المسارات من مركز تشغيل الأفلام - noscan.cfg"
 
@@ -5280,9 +5521,12 @@ msgstr ""
 msgid "Download"
 msgstr "تحميل"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:208
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:229
 msgid "Download Movie Info"
 msgstr "تحميل معلومات الفيلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:148
 msgid "Download Movie Information"
 msgstr "تحميل معلومات الفيلم"
 
@@ -5294,6 +5538,7 @@ msgstr ""
 msgid "Download Video"
 msgstr "تحميل فيديو"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "Download cutlist from Cutlist.at"
 msgstr "تحميل القوائم المقطعة من قائمة الأجزاء المقطعة"
 
@@ -5329,6 +5574,10 @@ msgstr ""
 msgid "Download:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:290
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:312
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:401
+#, python-format
 msgid "Download: %s"
 msgstr "تحميل: %s"
 
@@ -5508,12 +5757,15 @@ msgstr ""
 msgid "E"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1170
 msgid "E2 Bookmark"
 msgstr "العلامة المرجعية للانجما2"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:252
 msgid "E2 Bookmarks"
 msgstr "العلامات المرجعية للانجما2"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:260
 msgid "E2 Restart"
 msgstr "إعادة تشغيل الانجما2"
 
@@ -5521,6 +5773,7 @@ msgstr "إعادة تشغيل الانجما2"
 msgid "EIT wait timeout (ms) before auto selection"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:523
 msgid ""
 "EMC\n"
 "Zap to Live TV of record"
@@ -5528,54 +5781,71 @@ msgstr ""
 "مركز تشغيل الأفلام\n"
 "إنتقل إلى القنوات البث المباشر من التسجيلات"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:253
 msgid "EMC Bookmarks"
 msgstr "العلامات المرجعية لمركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:800
 msgid "EMC Cover Selecter"
 msgstr "الغلاف المحدد لمركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:210
 msgid "EMC Cover search"
 msgstr "البحث عن الغلاف لمركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:690
 msgid "EMC Cover search setup"
 msgstr "ضبط بحث عن الغلاف لمركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:557
 msgid "EMC Filebrowser"
 msgstr "تصفح ملفات لمركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
 msgstr "قائمة التشغيل الحالية مركز مشغل الأفلام - قائمة التشغيل الحالية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:161
 msgid "EMC Playlist Menu"
 msgstr "قائمة التشغيل الحالية في مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:462
 msgid "EMC Playlist Setup"
 msgstr "ضبط التشغيل الحالية في مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:197
 msgid "EMC Setup"
 msgstr "ضبط مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:154
 msgid "EMC Trashcan Cleanup failed!"
 msgstr "فشل تنظيف الملفات المهملة في مركز مشغل الافلام!"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:447
 msgid "EMC always reload after open"
 msgstr "دائما أعد تشغيل الأفلام بعد الفتح في مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:558
 msgid "EMC output directory"
 msgstr "معلومات مسارات مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:364
 msgid "EMC path access limit"
 msgstr "حد الوصول إلى مسار مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:449
 msgid "EMC re-open list after Movie end"
 msgstr "إعادة فتح قائمة مركز مشغل الأفلام بعد إنتهاء الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:448
 msgid "EMC re-open list after STOP-press"
 msgstr "إعادة فتح قائمة مركز مشغل الأفلام بعد ضغط زر التوقف"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
 msgid "EMC-TMDB Info"
 msgstr "معلومات الأفلام - مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:116
 msgid ""
 "EMC: Skipping Trashcan Cleanup\n"
 "Movie Home Path is equal to or a subfolder of the Trashcan"
@@ -5618,7 +5888,7 @@ msgstr ""
 msgid "EPG Selection"
 msgstr "إختيار EPG"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:80
+#: enigma2-plugins/easyinfo/src/plugin.py:68
 msgid "EPG refresh"
 msgstr ""
 
@@ -5654,7 +5924,7 @@ msgstr ""
 msgid "EPG refresh starts scanning channels."
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:75
+#: enigma2-plugins/easyinfo/src/plugin.py:64
 msgid "EPG search"
 msgstr ""
 
@@ -5697,7 +5967,7 @@ msgstr ""
 msgid "EPGRefresh Services"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:652
+#: enigma2-plugins/easyinfo/src/plugin.py:577
 msgid "EPGRefresh is not installed!"
 msgstr ""
 
@@ -5723,8 +5993,8 @@ msgstr ""
 msgid "EPGSearch menu"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:621
-#: enigma2-plugins/easyinfo/src/plugin.py:993
+#: enigma2-plugins/easyinfo/src/plugin.py:552
+#: enigma2-plugins/easyinfo/src/plugin.py:909
 #: enigma2-plugins/merlinepg/src/plugin.py:707
 #: enigma2-plugins/merlinepg/src/plugin.py:716
 #: enigma2-plugins/merlinepg/src/plugin.py:1004
@@ -5780,35 +6050,32 @@ msgstr ""
 msgid "Eastern Europe"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:69
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
-#: enigma2-plugins/easyinfo/src/plugin.py:104
+#: enigma2-plugins/easyinfo/src/plugin.py:72
+#: enigma2-plugins/easyinfo/src/plugin.py:93
 msgid "Easy-PG"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:256
+#: enigma2-plugins/easyinfo/src/plugin.py:265
 msgid "Easy-PG Primetime 1:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:257
+#: enigma2-plugins/easyinfo/src/plugin.py:266
 msgid "Easy-PG Primetime 2 (main):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:258
+#: enigma2-plugins/easyinfo/src/plugin.py:267
 msgid "Easy-PG Primetime 3:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:255
+#: enigma2-plugins/easyinfo/src/plugin.py:264
 msgid "Easy-PG picons path:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:70
-#: enigma2-plugins/easyinfo/src/plugin.py:104
+#: enigma2-plugins/easyinfo/src/plugin.py:93
 msgid "Easy-Selection"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:246
+#: enigma2-plugins/easyinfo/src/plugin.py:255
 msgid "EasyInfo settings..."
 msgstr ""
 
@@ -5816,11 +6083,19 @@ msgstr ""
 msgid "EasyMedia settings..."
 msgstr ""
 
+#: enigma2-plugins/easyinfo/src/plugin.py:58
+msgid "EasyPG"
+msgstr ""
+
+#: enigma2-plugins/easyinfo/src/plugin.py:59
+msgid "EasySelection"
+msgstr ""
+
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:160
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:39
 #: enigma2-plugins/pipservicerelation/src/plugin.py:88
-#: enigma2-plugins/teletext/src/plugin.py:1717
+#: enigma2-plugins/teletext/src/plugin.py:1724
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:142
 #: enigma2-plugins/weatherplugin/src/setup.py:77
 #: enigma2-plugins/fritzcall/src/plugin.py:2143
@@ -5877,8 +6152,8 @@ msgid "Edit Timer"
 msgstr ""
 
 #. TRANSLATORS: description of AutoTimer in PluginBrowser
-#: enigma2-plugins/autotimer/src/plugin.py:283
-#: enigma2-plugins/autotimer/src/plugin.py:294
+#: enigma2-plugins/autotimer/src/plugin.py:288
+#: enigma2-plugins/autotimer/src/plugin.py:299
 msgid "Edit Timers and scan for new Events"
 msgstr "تحرير المؤقت والبحث عن أحداث جديده"
 
@@ -5996,6 +6271,7 @@ msgstr ""
 msgid "Empty .ap file"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:122
 msgid "Empty trashcan"
 msgstr "سلة مهملات فارغة"
 
@@ -6075,6 +6351,7 @@ msgstr ""
 msgid "Enable Debug"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:557
 msgid "Enable EMC debug output"
 msgstr "تمكين معلومات مسارات مركز مشغل الافلام"
 
@@ -6185,6 +6462,7 @@ msgstr ""
 msgid "Enable automatic selection of subtitle tracks"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:439
 msgid "Enable daily trashcan cleanup"
 msgstr "تمكين تنظيف سلة المهملات بشكل يومي"
 
@@ -6200,12 +6478,15 @@ msgstr ""
 msgid "Enable media filter"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:466
 msgid "Enable playback AC3-track first"
 msgstr "تمكين تشغيل الصوت الثلاثي-الصوت الأول"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:465
 msgid "Enable playback auto-language selection"
 msgstr "تمكين اختيار اللغة التلقائية للتشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:461
 msgid "Enable playback auto-subtitling"
 msgstr "تمكين تشغيل الترجمة التلقائية"
 
@@ -6213,6 +6494,7 @@ msgstr "تمكين تشغيل الترجمة التلقائية"
 msgid "Enable recording debug (Timer log)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:456
 msgid "Enable remote recordings"
 msgstr "تمكين التسجيلات بالريموت"
 
@@ -6266,7 +6548,6 @@ msgid "Enable zap history:"
 msgstr ""
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:96
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:148
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:592
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:150
@@ -6378,6 +6659,7 @@ msgstr ""
 msgid "Enter IP to scan..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:486
 msgid "Enter Name for Playlist"
 msgstr "ادخل أسم لقائمة التشغيل"
 
@@ -6409,6 +6691,7 @@ msgstr ""
 msgid "Enter in minutes (0 means unlimited)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:251
 msgid "Enter name for new directory:"
 msgstr "أدخل أسم للمسار الجديد:"
 
@@ -6453,7 +6736,7 @@ msgstr ""
 msgid "Enter search-text"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:173
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:174
 msgid "Enter series name"
 msgstr ""
 
@@ -6465,7 +6748,7 @@ msgstr "أدخل دليل المشاركه:"
 msgid "Enter share name:"
 msgstr "أدخل أسم المشاركه:"
 
-#: enigma2-plugins/teletext/src/plugin.py:1744
+#: enigma2-plugins/teletext/src/plugin.py:1751
 #, python-format
 msgid "Enter text for page %s"
 msgstr ""
@@ -6571,10 +6854,6 @@ msgstr ""
 msgid "Error"
 msgstr "خطأ"
 
-#: enigma2-plugins/aihdcontroler/src/plugin.py:174
-msgid "Error by processing the skin file !!!"
-msgstr ""
-
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:263
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:308
 msgid "Error check log file"
@@ -6650,6 +6929,10 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/SeriesPlugin.py:136
 msgid "Error missing dependency"
+msgstr ""
+
+#: enigma2-plugins/aihdcontroler/src/plugin.py:174
+msgid "Error processing the skin file!"
 msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:249
@@ -6757,8 +7040,8 @@ msgstr ""
 msgid "Event Info"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:66
-#: enigma2-plugins/easyinfo/src/plugin.py:100
+#: enigma2-plugins/easyinfo/src/plugin.py:55
+#: enigma2-plugins/easyinfo/src/plugin.py:89
 msgid "Event info"
 msgstr ""
 
@@ -6766,11 +7049,11 @@ msgstr ""
 msgid "EventId not found"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:253
+#: enigma2-plugins/easyinfo/src/plugin.py:262
 msgid "EventInfo blue button:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:252
+#: enigma2-plugins/easyinfo/src/plugin.py:261
 msgid "EventInfo yellow button:"
 msgstr ""
 
@@ -6841,9 +7124,17 @@ msgid ""
 "unwanted parts from the files."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:240
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:250
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:308
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:633
 msgid "Exist"
 msgstr "موجود"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:288
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:311
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:400
+#, python-format
 msgid "Exist: %s"
 msgstr "موجود: %s"
 
@@ -7256,9 +7547,11 @@ msgstr ""
 msgid "File Size"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2151
 msgid "File added to current Playlist."
 msgstr "تمت أضافه الملف إلى قائمه التشغيل الحالية."
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2153
 msgid "File exists in current Playlist."
 msgstr "الملف موجود في قائمه التشغيل الحالية."
 
@@ -7270,6 +7563,7 @@ msgstr ""
 msgid "File name error !"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2094
 msgid "File not available."
 msgstr "الملف غير متوفر."
 
@@ -7307,6 +7601,7 @@ msgstr ""
 msgid "Filename pattern (No RegExp)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:86
 msgid "Filename:"
 msgstr "اسم الملف:"
 
@@ -7315,6 +7610,7 @@ msgstr "اسم الملف:"
 msgid "Files"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2156
 msgid "Files added to current Playlist."
 msgstr "الملفات المضافة إلى قائمه التشغيل الحالية."
 
@@ -7335,6 +7631,8 @@ msgstr ""
 msgid "Files browser:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2160
+#, python-format
 msgid ""
 "Files exists in current Playlist:\n"
 "%s"
@@ -7428,6 +7726,7 @@ msgid ""
 "%s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "Finished watching percent"
 msgstr "الانتهاء من مشاهده النسبة المئوية"
 
@@ -7457,6 +7756,7 @@ msgstr "شحن"
 msgid "Flickr API Key"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:84
 msgid "Foldername:"
 msgstr "أسم المجلد:"
 
@@ -7501,6 +7801,7 @@ msgstr ""
 msgid "Force sleep (even when not in standby)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:357
 msgid "Force standby after auto-restart"
 msgstr "فرض الاستعداد بعد أعاده التشغيل التلقائي"
 
@@ -7514,6 +7815,7 @@ msgstr ""
 msgid "Foreground also"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:218
 msgid "Format AVSwitch"
 msgstr "التحكم بتهيئة الصوت والصورة"
 
@@ -7569,20 +7871,13 @@ msgid ""
 "But did not load. Probably not PNG, 8-bit"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/RogueFileCheck.py:44
 msgid ""
 "Found rogue files:\n"
 "\n"
 msgstr ""
 "العثور على الملفات الفاسدة:\n"
 "\n"
-
-#: enigma2-plugins/skipintro/src/plugin.py:52
-#, python-format
-msgid ""
-"Found saved skip time for:\n"
-"'%s'\n"
-"%s Sek"
-msgstr ""
 
 #: enigma2-plugins/fritzcall/src/plugin.py:168
 #: enigma2-plugins/mytube/src/plugin.py:91
@@ -7607,6 +7902,9 @@ msgstr ""
 msgid "Free space warning"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1488
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1490
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1492
 msgid "Free: "
 msgstr "متوفر: "
 
@@ -7688,6 +7986,7 @@ msgstr ""
 msgid "Functions"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:333
 msgid "GENERAL"
 msgstr "عام"
 
@@ -7774,6 +8073,10 @@ msgstr ""
 msgid "Genre List"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:403
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:364
 msgid "Genre:"
 msgstr "النوع:"
 
@@ -7882,6 +8185,8 @@ msgstr ""
 msgid "Getting weather information..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:770
+#, python-format
 msgid "Given path %s does not exist. Please change."
 msgstr "المسار المعطي %s غير موجود. الرجاء التغيير."
 
@@ -7906,6 +8211,7 @@ msgstr ""
 msgid "Go to sleep now?"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:123
 msgid "Go to trashcan"
 msgstr "أذهب إلى سلة المهملات"
 
@@ -7935,13 +8241,12 @@ msgstr ""
 msgid "Grab Video & OSD"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:640
+#: enigma2-plugins/easyinfo/src/plugin.py:571
 msgid "GraphMultiEPG is not installed!"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:71
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
+#: enigma2-plugins/easyinfo/src/plugin.py:60
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 msgid "Graphik multi-EPG"
 msgstr ""
 
@@ -7949,9 +8254,12 @@ msgstr ""
 msgid "Great Britain"
 msgstr "بريطانيا"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
 msgid "Green"
 msgstr "أخضر"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Grey"
 msgstr "رمادي"
 
@@ -7996,197 +8304,260 @@ msgstr ""
 msgid "HD Progressive Mode"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:334
 msgid "HELP_About"
 msgstr "المساعدة_ حول"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
 msgstr "المساعدة_حول الملفات التي تبحث عنها وتفحص المسارات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:443
 msgid "HELP_Age of finished movies in movie folder (days)"
 msgstr "المساعدة_ عمر الأفلام النهائية في مجلد الفيلم (الأيام)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:421
 msgid "HELP_Always save last played progress as marker"
 msgstr "المساعدة _ احفظ دائمًا آخر تقدم تم تشغيله كعلامة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:457
 msgid "HELP_Automatic timers list cleaning"
 msgstr "المساعدة _ التنظيف التلقائي لقائمة المؤقتات التلقائية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "HELP_Blue button function"
 msgstr "المساعدة _ وظائف الزر الازرق"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:342
 msgid "HELP_Bouquet buttons behaviour"
 msgstr "المساعدة _ وظائف سلوك الباقات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:392
 msgid "HELP_Check for dead links"
 msgstr "المساعدة _ في التحقق من الروابط المعطوبة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:372
 msgid "HELP_Configure in etc\\enigma2\\emc-topdir.cfg"
 msgstr "المساعدة _ تهئية مسار etc\\enigma2\\emc-topdir.cfg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:513
 msgid "HELP_Cover background"
 msgstr "المساعدة _ خلفية الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 msgid "HELP_Cover delay in ms"
 msgstr "المساعدة _ مدة ظهور الغلاف في الثانية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "HELP_Cursor predictive move after selection"
 msgstr "المساعدة _ الانتقال التنبؤي بعد التحديد"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:354
 msgid "HELP_Daily auto-start"
 msgstr "المساعدة _ تأخير بدء التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:440
 msgid "HELP_Daily cleanup time"
 msgstr "المساعدة _ حذف التوقيت اليومي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "HELP_Date format"
 msgstr "المساعدة _ تهيئة التاريخ"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:559
 msgid "HELP_Debug output file name"
 msgstr "المساعدة _ اسم ملف الإخراج"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:501
 msgid "HELP_Default color highlighted"
 msgstr "المساعدة _ اللون الافتراضي للأفلام المشاهدة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:498
 msgid "HELP_Default color partially watched"
 msgstr "المساعدة _ اللون الافتراضي للفيلم الذي شاهدت منه جزئيا"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:500
 msgid "HELP_Default color recording"
 msgstr "المساعدة _ اللون الافتراضي للأفلام المسجلة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:497
 msgid "HELP_Default color unwatched"
 msgstr "المساعدة _ اللون الافتراضي للأفلام الغير مشاهدة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:499
 msgid "HELP_Default color watched"
 msgstr "المساعدة _ اللون الافتراضي للفيلم الذي شاهدته"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:437
 msgid "HELP_Delete validation"
 msgstr "المساعدة _ التحقق من المحذوف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:472
 msgid "HELP_Description field update delay"
 msgstr "المساعدة _ تأخير تحديث معلومات الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:335
 msgid "HELP_Disable EMC"
 msgstr "المساعدة _ تعطيل مركز تشغيل الأفلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:446
 msgid "HELP_Display directory reading text"
 msgstr "المساعدة _ عرض مسار النصوص المقروءه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:388
 msgid "HELP_Don't auto scan size of dirs from emc-noscan.cfg"
 msgstr ""
 "المساعدة _ لا للبحث التلقائي عن حجم المسارات من مركز تشغيل الأفلام - noscan."
 "cfg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
 msgstr "المساعدة _ تحميل القوائم المقطعة من قائمة الأجزاء المقطعة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:436
 msgid "HELP_Dynamic trashcan"
 msgstr "المساعدة _ دينامكية سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:447
 msgid "HELP_EMC always reload after open"
 msgstr "المساعدة _ دائما أعد تشغيل الأفلام بعد الفتح في مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:558
 msgid "HELP_EMC output directory"
 msgstr "المساعدة _ معلومات مسارات مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:364
 msgid "HELP_EMC path access limit"
 msgstr "المساعدة _ حد الوصول إلى مسار مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:449
 msgid "HELP_EMC re-open list after Movie end"
 msgstr "المساعدة _ إعادة فتح قائمة مركز مشغل الأفلام بعد إنتهاء الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:448
 msgid "HELP_EMC re-open list after STOP-press"
 msgstr "المساعدة _ إعادة فتح قائمة مركز مشغل الأفلام بعد ضغط زر التوقف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:557
 msgid "HELP_Enable EMC debug output"
 msgstr "المساعدة _ تمكين معلومات مسارات مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:439
 msgid "HELP_Enable daily trashcan cleanup"
 msgstr "المساعدة _ تمكين تنظيف سلة المهملات بشكل يومي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:466
 msgid "HELP_Enable playback AC3-track first"
 msgstr "المساعدة _تمكين تشغيل الصوت الثلاثي-الصوت الأول"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:465
 msgid "HELP_Enable playback auto-language selection"
 msgstr "المساعدة _ تمكين اللغة المختارة تلقائي في التسغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:461
 msgid "HELP_Enable playback auto-subtitling"
 msgstr "المساعدة _تمكين تشغيل الترجمة التلقائية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:456
 msgid "HELP_Enable remote recordings"
 msgstr "المساعدة _تمكين التسجيلات بالريموت"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:506
 msgid "HELP_Fallback Cover"
 msgstr "المساعدة _ تراجع عن الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "HELP_Finished watching percent"
 msgstr "المساعدة _ المشاهدة تظهر بالنسبة المئوية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:357
 msgid "HELP_Force standby after auto-start"
 msgstr "المساعدة _ الاستعداد بعد التشغيل التلقائي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:454
 msgid "HELP_Hide movies being deleted"
 msgstr "المساعدة _ إخفاء ملفات الأفلام المحذوفة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:453
 msgid "HELP_Hide movies being moved"
 msgstr "المساعدة _ نقل إخفاء الملفات المحذوفة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:484
 msgid "HELP_Horizontal alignment for count / size"
 msgstr "المساعدة _محاذاة أفقية للعد/ الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:483
 msgid "HELP_Horizontal alignment for date"
 msgstr "المساعدة _المحاذاة الافقية حسب التاريخ"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:441
 msgid "HELP_How many days files may remain in trashcan"
 msgstr ""
 "المساعدة _كم عدد الأيام التي تريد أن تبقى الملفات المحذوفة في سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:377
 msgid "HELP_Icon shown for initially unknown count / size"
 msgstr "المساعدة_الايقونة معروض للعد مجهول مبدئيًا / الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "HELP_Install Mutagen-package for audio metadata"
 msgstr "المساعدة_ ثبت الحزمة-بيانات التعريف الصوتية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:419
 msgid "HELP_Jump to first mark when playing movie"
 msgstr "المساعدة_القفز إلى أول علامة عند تشغيل الفيلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:473
 msgid "HELP_Key period value (50-900)"
 msgstr "المساعدة_ قيمة المفتاح الرئيسي (50-900)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:474
 msgid "HELP_Key repeat value (250-900)"
 msgstr "المساعدة_ قيمة المفتاح الرئيسي (250-900)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "HELP_Latest Recordings directory limit"
 msgstr "المساعدة_حدد مسار التسجيلات الاخيرة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:382
 msgid "HELP_Latest Recordings directory use emc-noscan.cfg"
 msgstr ""
 "المساعدة_ مسار التسجيلات الأخيرة المستخدمة في مركز مشغل الافلام-noscan.cfg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:451
 msgid "HELP_Leave Movie with Exit"
 msgstr "المساعدة_غادر الفلم مع الخروج"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:389
 msgid "HELP_Limit file operations in dirs from emc-noscan.cfg"
 msgstr ""
 "المساعدة_الحد من عمليات الملف في المسارات من مركز مشغل الافلام-noscan.cfg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:343
 msgid "HELP_List entries to skip"
 msgstr "المساعدة_تخطي قائمة المدخلات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:480
 msgid "HELP_Listbox is skin able"
 msgstr "المساعدة_قائمة المربع حسب السكن المتوفر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
 msgstr "المساعدة _ الضغط على الزر الارزق مطولا لعرض وظائفه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:345
 msgid "HELP_Long Red button function"
 msgstr "المساعدة _ الضغط على الزر الاحمر مطولا لعرض وظائفه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:348
 msgid "HELP_Long Yellow button function"
 msgstr "المساعدة _ الضغط على الزر الاصفر مطولا لعرض وظائفه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:351
 msgid "HELP_LongInfo Button"
 msgstr "المساعدة_الضغط مطولا على زر المعلومات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:502
 msgid "HELP_Mark new recordings with a star"
 msgstr "المساعدة_ضع علامة نجمة على التسجيلات الجديدة"
 
@@ -8194,225 +8565,299 @@ msgstr "المساعدة_ضع علامة نجمة على التسجيلات ال
 msgid "HELP_Minimum file cache limit"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:442
 msgid "HELP_Move finished movies in trashcan"
 msgstr "المساعدة_أنقل الأفلام التي شاهدتها في سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:360
 msgid "HELP_Movie home at start"
 msgstr "المساعدة_تشغيل الصفحة الرئيسية للافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:363
 msgid "HELP_Movie home home path"
 msgstr "المساعدة_مسار الصفحة الرئيسية للافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:520
 msgid "HELP_Movie preview delay in ms"
 msgstr "المساعدة _ مدة تأخير عرض الفلم في الثانية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:521
 msgid "HELP_Movie preview offset in seconds"
 msgstr "المساعدة _ مدة تأخير إيقاف الفلم في الثانية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:418
 msgid "HELP_No resume below 10 seconds"
 msgstr "المساعدة_لا استئناف أقل من عشر ثواني"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:491
 msgid "HELP_Own Path to movie picons"
 msgstr "المساعدة_ المسار الخاص بايقونات الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:492
 msgid "HELP_Path to movie picons"
 msgstr "المساعدة_مسار ايقونات الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:490
 msgid "HELP_Position movie picons"
 msgstr "المساعدة_مكان ايقونات الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:460
 msgid "HELP_Preferred EPG language"
 msgstr "المساعدة_اللغة المفضلة لدليل البرامج الإلكترونية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:467
 msgid "HELP_Primary playback audio language"
 msgstr "المساعدة_لغة القناة الصوتية الرئيسية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:462
 msgid "HELP_Primary playback subtitle language"
 msgstr "المساعدة_لغة ترجمة القناة الرئيسية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:344
 msgid "HELP_Red button function"
 msgstr "المساعدة _ الضغط على الزر الاحمر لعرض وظائفه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:407
 msgid "HELP_Replace special chars in title"
 msgstr "المساعدة_ إستبدال الأحرف الخاصة في العنوان"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:410
 msgid "HELP_Resolve links and show real path"
 msgstr "المساعدة_ حل الروابط وإظهار المسار الحقيقي لها"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:420
 msgid "HELP_Rewind finished movies before playing"
 msgstr "المساعدة_ترجيع الفلم لاخر توقف شاهدتها قبل التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:396
 msgid "HELP_Scan for DVD structures"
 msgstr "المساعدة_ بحث في قواعد الدفيفدي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:398
 msgid "HELP_Scan for bluray structures"
 msgstr "المساعدة_ بحث في قواعد البلوراي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:399
 msgid "HELP_Scan for bluray structures in .iso"
 msgstr "المساعدة_ بحث في قواعد البلوراي في الايزو"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:397
 msgid "HELP_Scan for movie structures"
 msgstr "المساعدة_ بحث في قواعد الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:468
 msgid "HELP_Secondary playback audio language"
 msgstr "المساعدة_لغة القناة الصوتية الثانوية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:463
 msgid "HELP_Secondary playback subtitle language"
 msgstr "المساعدة_لغة ترجمة القناة الثانوية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:495
 msgid "HELP_Short watching percent"
 msgstr "المساعدة _ المشاهدة القصيرة بالنسبة المئوية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:384
 msgid "HELP_Show Bookmarks in movielist"
 msgstr "المساعدة_عرض العلامات المرجعية في قائمة الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "HELP_Show Cover"
 msgstr "المساعدة_ عرض الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:409
 msgid "HELP_Show Cut-Nr if exist"
 msgstr "المساعدة_عرض الملفات المتقطعة إن وجدت"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:339
 msgid "HELP_Show EMC in extensions menu"
 msgstr "المساعدة_عرض قائمة الملحقات في مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:338
 msgid "HELP_Show EMC in main menu"
 msgstr "المساعدة_عرض مركز مشغل الأفلام في القائمة الرئيسية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "HELP_Show Latest Recordings directory"
 msgstr "المساعدة_عرض مسار التسجيلات الاخيرة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:408
 msgid "HELP_Show Movie Format"
 msgstr "المساعدة _ عرض ضيغة الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:411
 msgid "HELP_Show Path if no extended description available"
 msgstr "المساعدة_ عرض مسار إذا لم يكن هناك وصف مطول متوفر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:383
 msgid "HELP_Show VLC directory"
 msgstr "المساعدة_عرض مسار مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "HELP_Show audio metadata"
 msgstr "المساعدة_عرض البيانات الصوتية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
 msgstr "المساعدة_عرض المسارات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:373
 msgid "HELP_Show directories information"
 msgstr "المساعدة_عرض معلومات المسارات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:371
 msgid "HELP_Show directories within movielist"
 msgstr "المساعدة_عرض المسارات داخل قائمة الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:378
 msgid "HELP_Show directory size in skin"
 msgstr "المساعدة_عرض حجم المسارات في السكن"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:387
 msgid "HELP_Show experimental options"
 msgstr "المساعدة_عرض الخيارات التجريبية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:487
 msgid "HELP_Show link arrow"
 msgstr "المساعدة_عرض سهم على الروابط"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:417
 msgid "HELP_Show message if file added to playlist"
 msgstr "المساعدة_عرض رسالة إذا أضفت الملف في قائمة التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:486
 msgid "HELP_Show movie icons"
 msgstr "المساعدة_عرض ايقونة الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "HELP_Show movie picons"
 msgstr "المساعدة_عرض بايقونة الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:519
 msgid "HELP_Show movie preview"
 msgstr "المساعدة_عرض مشاهدة الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:494
 msgid "HELP_Show movie progress"
 msgstr "المساعدة_عرض علامة تقدم  الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:337
 msgid "HELP_Show plugin config in extensions menu"
 msgstr "المساعدة_عرض إضافة الاعدادات في قائمة الملحقات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:423
 msgid "HELP_Show real length of running records"
 msgstr "المساعدة_ عرض الطول الحقيقي للسجلات قيد التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:369
 msgid "HELP_Show symlinks"
 msgstr "المساعدة_عرض الروابط الرمزية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:435
 msgid "HELP_Show trashcan directory"
 msgstr "المساعدة _ عرض مسار سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:361
 msgid "HELP_Sort mode at startup"
 msgstr "المساعدة_وضع الفرز عند بدء التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:336
 msgid "HELP_Start EMC with"
 msgstr "المساعدة_تشغيل مركز مشغل الأفلام مع"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:478
 msgid "HELP_Style for original EMC-skin (needs reopen)"
 msgstr "المساعدة_الشكل الأصلي لمركز مشغل الأفلام - السكن (تحتاج إعادة فتحه)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:469
 msgid "HELP_Tertiary playback audio language"
 msgstr "المساعدة_لغة القناة الصوتية الثالثة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:464
 msgid "HELP_Tertiary playback subtitle language"
 msgstr "المساعدة_لغة ترجمة القناة الثالثة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:375
 msgid "HELP_Text shown for initially unknown count and size"
 msgstr "المساعدة_الايقونة معروض للعد مجهول مبدئيًا / الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:376
 msgid "HELP_Text shown for initially unknown directory size"
 msgstr "المساعدة_الايقونة معروض للعد مجهول مبدئيًا / الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:374
 msgid "HELP_Text shown for initially unknown file count"
 msgstr "المساعدة_الايقونة معروض للعد مجهول مبدئيًا / الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:433
 msgid "HELP_Trashcan enable"
 msgstr "المساعدة _ تفعيل سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:434
 msgid "HELP_Trashcan path"
 msgstr "المساعدة _ مسار سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:405
 msgid "HELP_Try to load extra title and more from .meta files"
 msgstr "المساعدة_إعادة تحميل عنوان اضافيه وأكثر من الملفات. الفوقية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:406
 msgid "HELP_Try to load titles from .eit files"
 msgstr "المساعدة_إعادة تحميل عنوان اضافيه وأكثر من الملفات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:404
 msgid "HELP_Try to load titles from .meta files"
 msgstr "المساعدة_إعادة تحميل عنوان اضافيه الملفات من الاعلى"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
 msgstr "المساعدة_أستخدم الذاكرة المؤقتة للملفات والمسارات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:477
 msgid "HELP_Use original EMC-skin (needs reopen)"
 msgstr "المساعدة_الأصلي لمركز مشغل الأفلام - السكن (تحتاج إعادة فتحه)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:391
 msgid "HELP_Wake device when entering dir from emc-noscan.cfg"
 msgstr "المساعدة_جهاز تنبيه عند دخول المسار من مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "HELP_Yellow button function"
 msgstr "المساعدة_وظائف الزر الافر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:422
 msgid "HELP_Zap to channel after record EOF"
 msgstr "المساعدة_أنتقل إلى القناة بعد التسجيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:355
 msgid "HELP_auto-start window begin"
 msgstr "المساعدة_بدء تشغيل النافذة تلقائيا"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:356
 msgid "HELP_auto-start window end"
 msgstr "المساعدة_إنهاء تشغيل النافذة تلقائيا"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:395
 msgid "HELP_cfghide_enable"
 msgstr "المساعدة_تفعيل إخفاء ملف السي في جي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:400
 msgid "HELP_cfgscan_suppress"
 msgstr "المساعدة_البحث عن ملفات سي في جي المخفية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:522
 msgid "HELP_hide_MiniTV"
 msgstr "المساعدة_ إخفاء التلفزيون المصغر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:523
 msgid "HELP_hide_MiniTV cover"
 msgstr "المساعدة_ إخفاء غلاف التلفزيون المصغر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:530
 msgid "HELP_hide_MiniTV_method"
 msgstr "المساعدة_طريقة إخفاء التلفزيون المصغر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:401
 msgid "HELP_scan_linked"
 msgstr "المساعدة_ البحث عن الروابط"
 
@@ -8501,12 +8946,17 @@ msgstr ""
 msgid "Helps to remind of birthdays"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1902
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1918
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1934
 msgid "Hide Cover"
 msgstr "إخفاء الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:522
 msgid "Hide MiniTV"
 msgstr "إخفاء التلفزيون المصغر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:523
 msgid "Hide MiniTV if Cover is shown"
 msgstr "إخفاء التلفزيون المصغر إذا تم عرض الغلاف"
 
@@ -8522,12 +8972,15 @@ msgstr ""
 msgid "Hide Plugins"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:395
 msgid "Hide configured entries"
 msgstr "إخفاء الإدخالات المكونة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:454
 msgid "Hide movies being deleted"
 msgstr "إخفاء الأفلام التي يتم حذفها"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:453
 msgid "Hide movies being moved"
 msgstr "إخفاء الأفلام التي يتم نقلها"
 
@@ -8568,6 +9021,7 @@ msgstr "هولندا"
 msgid "Home"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:262
 msgid "HomeEnd"
 msgstr "نهاية الصفحة الرئيسية"
 
@@ -8575,9 +9029,11 @@ msgstr "نهاية الصفحة الرئيسية"
 msgid "Hong Kong"
 msgstr "هونج كونج"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:484
 msgid "Horizontal alignment for count / size"
 msgstr "المساعدة _محاذاة أفقية للعد/ الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:483
 msgid "Horizontal alignment for date"
 msgstr "محاذاة أفقيه للتاريخ"
 
@@ -8602,6 +9058,7 @@ msgstr ""
 msgid "Hostname has been applied!"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:441
 msgid "How many days files may remain in trashcan"
 msgstr "كم عدد الأيام التي تريد أن تبقى الملفات المحذوفة في سلة المهملات"
 
@@ -8609,6 +9066,8 @@ msgstr "كم عدد الأيام التي تريد أن تبقى الملفات 
 msgid "How many minutes to wait until zapping back?"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3130
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3153
 msgid ""
 "How to copy files:\n"
 "Select some movies with the VIDEO-button, move the cursor on top of the "
@@ -8618,6 +9077,8 @@ msgstr ""
 "حدد بعض الأفلام مع زر الفيديو ، وتحريك المؤشر علي راس الدليل الوجهة والصحافة "
 "الصفراء طويلة."
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3054
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3077
 msgid ""
 "How to move files:\n"
 "Select some movies with the VIDEO-button, move the cursor on top of the "
@@ -8670,13 +9131,12 @@ msgstr ""
 msgid "IMDB"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:78
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
+#: enigma2-plugins/easyinfo/src/plugin.py:67
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 msgid "IMDB info"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:634
+#: enigma2-plugins/easyinfo/src/plugin.py:565
 msgid "IMDB is not installed!"
 msgstr ""
 
@@ -8684,9 +9144,13 @@ msgstr ""
 msgid "IMDB then movie filname"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:655
 msgid "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 msgstr "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1290
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3244
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3250
 msgid "IMDb"
 msgstr "قاعدة بيانات الأفلام على الإنترنت"
 
@@ -8725,6 +9189,7 @@ msgstr ""
 msgid "IMDb Re-Download completed"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
 msgid "IMDb Search"
 msgstr "البحث في قاعدة بيانات معلومات الأفلام على الإنترنت"
 
@@ -8777,6 +9242,7 @@ msgstr ""
 msgid "IRC Client for Enigma2"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:377
 msgid "Icon shown for initially unknown count / size"
 msgstr "الايقونة معروض للعد مجهول مبدئيًا / الحجم"
 
@@ -9188,6 +9654,7 @@ msgstr ""
 msgid "Install"
 msgstr "تثبيت"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "Install Mutagen-package for audio metadata"
 msgstr "ثبت الحزمة-بيانات التعريف الصوتية"
 
@@ -9207,6 +9674,8 @@ msgstr ""
 msgid "Install this package"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:569
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:571
 msgid "Installing Mutagen-package"
 msgstr "تثبيت حزمة موتجان"
 
@@ -9349,6 +9818,7 @@ msgstr "اليابان"
 msgid "JavaScript Libraries"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:419
 msgid "Jump to first mark when playing movie"
 msgstr "القفز إلى أول علامة عند تشغيل الفيلم"
 
@@ -9372,10 +9842,11 @@ msgstr ""
 msgid "Just Scale"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:100
+#: enigma2-plugins/easyinfo/src/plugin.py:89
 msgid "Just zap"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:341
 msgid "KEYMAPPING"
 msgstr "خريطة المفاتيح"
 
@@ -9405,9 +9876,11 @@ msgstr ""
 msgid "Key mapping"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:473
 msgid "Key period value (50-900)"
 msgstr "قيمه الفترة الاساسيه (50-900)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:474
 msgid "Key repeat value (250-900)"
 msgstr "القيمة الرئيسية للتكرار (250-900)"
 
@@ -9433,6 +9906,7 @@ msgstr ""
 msgid "KiddyTimer allows to control your kids's daily tv usage."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:459
 msgid "LANGUAGE"
 msgstr "اللغـة"
 
@@ -9460,6 +9934,7 @@ msgstr ""
 msgid "Language"
 msgstr "اللغـه "
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:619
 msgid "Language:"
 msgstr "اللغة:"
 
@@ -9479,6 +9954,7 @@ msgid ""
 "matched."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2204
 msgid "Last played movie/playlist not available..."
 msgstr "آخر تشغيل الفيلم/قائمه التشغيل غير متوفرة..."
 
@@ -9492,18 +9968,24 @@ msgstr ""
 msgid "Last updated: "
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2454
 msgid "Latest"
 msgstr "الحصول على أحدث صورة تجريبية"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1465
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1099
 msgid "Latest Recordings"
 msgstr "أحدث التسجيلات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "Latest Recordings directory limit"
 msgstr "مسار أخر التسجيلات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:382
 msgid "Latest Recordings directory use emc-noscan.cfg"
 msgstr "مسار التسجيلات الأخيرة المستخدمة في مركز مشغل الافلام-noscan.cfg"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:451
 msgid "Leave Movie with Exit"
 msgstr "غادر الفلم مع الخروج"
 
@@ -9532,19 +10014,20 @@ msgstr ""
 msgid "License"
 msgstr ""
 
-#: enigma2-plugins/aihdcontroler/src/plugin.py:45
-msgid "LigaLine"
-msgstr ""
-
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
 msgid "Light green"
 msgstr "اخضر فاتح"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Light grey"
 msgstr "رمادي فاتح"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:403
 msgid "Light orange"
 msgstr "برتقالي فاتح"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
 msgid "Light red"
 msgstr "احمر فاتح"
 
@@ -9561,6 +10044,7 @@ msgstr ""
 msgid "Limit"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:389
 msgid "Limit file operations in dirs from emc-noscan.cfg"
 msgstr "الحد من عمليات الملف في المسارات من مركز مشغل الافلام-noscan.cfg"
 
@@ -9573,9 +10057,11 @@ msgstr ""
 msgid "Limit: %d GB\n"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2659
 msgid "Link"
 msgstr "رابط"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:343
 msgid "List entries to skip"
 msgstr "تخطي قائمة المدخلات"
 
@@ -9617,6 +10103,7 @@ msgstr ""
 msgid "List upcoming timer"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:480
 msgid "Listbox is skin able"
 msgstr "قائمة المربع حسب السكن المتوفر"
 
@@ -9645,15 +10132,19 @@ msgstr "تحميل"
 msgid "Load Bouquet"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:621
 msgid "Load Genre:"
 msgstr "تحميل النوع:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:622
 msgid "Load Production Countries:"
 msgstr "تحميل الإنتاج حسب الدول:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:623
 msgid "Load Release Date:"
 msgstr "تحميل تاريخ الإصدار:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
 msgid "Load Runtime:"
 msgstr "تحميل وقت التشغيل:"
 
@@ -9661,6 +10152,7 @@ msgstr "تحميل وقت التشغيل:"
 msgid "Load STB channels for bouquet"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:624
 msgid "Load Vote:"
 msgstr "تحميل التصويت:"
 
@@ -9668,6 +10160,7 @@ msgstr "تحميل التصويت:"
 msgid "Load Web channels for bouquet"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:644
 msgid "Load default settings will overwrite all settings, really load them?"
 msgstr ""
 "تحميل الإعدادات الافتراضية سوف الكتابة فوق كافة الإعدادات ، حقا تحميلها ؟"
@@ -9725,6 +10218,7 @@ msgid ""
 "%s."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:358
 msgid ""
 "Locate rogue files and remove them? (permanently if no trashcan available, "
 "may take a minute or so)"
@@ -9773,6 +10267,9 @@ msgstr ""
 msgid "Location of autotimer_search.log"
 msgstr ""
 
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1081
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:27
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:65
 msgid "Location:"
 msgstr "موقعك:"
 
@@ -9809,15 +10306,19 @@ msgstr ""
 msgid "Logging-Path: %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "Long Blue button function"
 msgstr "وظيفة الزر الأزرق المطول"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:345
 msgid "Long Red button function"
 msgstr "وظيفة الزر الأحمر المطول"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:348
 msgid "Long Yellow button function"
 msgstr "وظيفة الزر الأصفر المطول"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:351
 msgid "LongInfo Button"
 msgstr "زر المعلومات المطول"
 
@@ -9852,6 +10353,8 @@ msgid ""
 "are not taken into account!"
 msgstr ""
 
+#: e2openplugin-InfoBarTunerState/src/plugin.py:90
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:179
 msgid "MM/DD HH:MM"
 msgstr "MM/DD HH:MM"
 
@@ -9900,6 +10403,7 @@ msgstr ""
 msgid "Make it more skin friendly"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:191
 msgid "Manage Cover"
 msgstr "إدارة الغلاف"
 
@@ -9952,9 +10456,11 @@ msgstr ""
 msgid "Margin after record (in seconds)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:125
 msgid "Mark all movies"
 msgstr "وضع علامة علي جميع الأفلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:502
 msgid "Mark new recordings with a star"
 msgstr "وضع علامة علي التسجيلات الجديدة بنجمه"
 
@@ -10135,21 +10641,20 @@ msgstr ""
 msgid "Menu"
 msgstr "قائمه"
 
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:71
-msgid "Menu title"
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:161
+msgid "Menu SkipIntro"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:160
-msgid "Menü SkipIntro"
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:71
+msgid "Menu title"
 msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:247
 msgid "Merging Timeshift files"
 msgstr ""
 
+#: enigma2-plugins/easyinfo/src/plugin.py:61
 #: enigma2-plugins/easyinfo/src/plugin.py:72
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
 msgid "Merlin EPG"
 msgstr ""
 
@@ -10176,7 +10681,7 @@ msgstr ""
 msgid "Merlin iDream is not installed!"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:604
+#: enigma2-plugins/easyinfo/src/plugin.py:535
 msgid "MerlinEPG is not installed!"
 msgstr ""
 
@@ -10197,6 +10702,7 @@ msgstr "رسـاله"
 msgid "Message sent successfully!"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:530
 msgid "Method of hiding MiniTV"
 msgstr "طريقة إخفاء التلفزيون المصغر"
 
@@ -10238,9 +10744,13 @@ msgstr ""
 msgid "Minimum Priority"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:386
 msgid "Minimum file cache limit (0=cache everything)"
 msgstr "حد الحد الأدنى لذاكره التخزين المؤقت للملف (0 = كل شيء)"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:428
 msgid "Minutes"
 msgstr "دقائق"
 
@@ -10388,6 +10898,7 @@ msgstr "الاثنين"
 msgid "Monitoring: %s (%d:%02d Min)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:435
 msgid "Month"
 msgstr "شهر"
 
@@ -10400,8 +10911,13 @@ msgstr ""
 msgid "Monthly"
 msgstr "شهرى"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:438
 msgid "Months"
 msgstr "أشهر"
+
+#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:185
+msgid "More ..."
+msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/plugin.py:178
 msgid "More than just an EPG..."
@@ -10471,15 +10987,21 @@ msgstr "تحرير الاعتلاء"
 msgid "Move"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1191
 msgid "Move Cover to:"
 msgstr "نقل الغلاف إلى:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3170
 msgid "Move Directory:"
 msgstr "نقل المسار:"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:204
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:225
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:144
 msgid "Move File"
 msgstr "نقل ملف"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:141
 msgid "Move Files"
 msgstr "نقل الملفات"
 
@@ -10488,6 +11010,8 @@ msgstr "نقل الملفات"
 msgid "Move clock"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:270
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:672
 msgid "Move cursor down"
 msgstr "تحريك المؤشر لأسفل"
 
@@ -10495,9 +11019,11 @@ msgstr "تحريك المؤشر لأسفل"
 msgid "Move cursor left"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:670
 msgid "Move cursor page down"
 msgstr "تحريك صفحه المؤشر لأسفل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:669
 msgid "Move cursor page up"
 msgstr "تحريك صفحه المؤشر لاعلي"
 
@@ -10505,6 +11031,7 @@ msgstr "تحريك صفحه المؤشر لاعلي"
 msgid "Move cursor right"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:674
 msgid ""
 "Move cursor to the end / Move cursor x entries down / Switch Folders in "
 "Movie Home (down)"
@@ -10512,6 +11039,7 @@ msgstr ""
 "نقل المؤشر إلى نهاية/نقل المؤشر الإدخالات العاشر أسفل/تبديل المجلدات في "
 "الصفحة الرئيسية الفيلم (لأسفل)"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:673
 msgid ""
 "Move cursor to the top / Move cursor x entries up / Switch Folders in Movie "
 "Home (up)"
@@ -10519,12 +11047,17 @@ msgstr ""
 "تحريك المؤشر إلى اعلي/تحريك المؤشر x إدخالات لاعلي/تبديل المجلدات في الصفحة "
 "الرئيسية الفيلم (حتى)"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:269
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:671
 msgid "Move cursor up"
 msgstr "تحريك المؤشر لاعلي"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3025
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3067
 msgid "Move file(s):"
 msgstr "نقل الملفات:"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:442
 msgid "Move finished movies in trashcan"
 msgstr "أنقل الأفلام التي شاهدتها في سلة المهملات"
 
@@ -10611,9 +11144,12 @@ msgstr ""
 msgid "Movie '%s' moved to '%s' without errors."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:191
 msgid "Movie Color"
 msgstr "لون الفيلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:464
+#, python-format
 msgid ""
 "Movie Cover downloaded successfully!\n"
 "\n"
@@ -10631,21 +11167,30 @@ msgstr ""
 msgid "Movie Directory"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:641
 msgid "Movie Information Download Setup"
 msgstr "اعداد تحميل معلومات الفيلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:341
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:526
 msgid "Movie Information Preview for:"
 msgstr "معاينه الفيلم للحصول علي معلومات:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:379
 msgid "Movie Information TMDb"
 msgstr "عرض معلومات الفلم من قاعدة بيانات الأفلام على الانترنت"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:454
 msgid "Movie Information and Cover downloaded successfully!"
 msgstr "تحميل معلومات الفلم والغلاف بنجاح!"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:458
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:462
 msgid "Movie Information downloaded successfully!"
 msgstr "تحميل معلومات الفيلم بنجاح!"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:460
+#, python-format
 msgid ""
 "Movie Information downloaded successfully!\n"
 "\n"
@@ -10662,6 +11207,7 @@ msgstr ""
 msgid "Movie Player"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:341
 msgid "Movie Selection Menu"
 msgstr "قائمة الأفلام المختارة"
 
@@ -10673,18 +11219,27 @@ msgstr ""
 msgid "Movie Tagger..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:690
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1467
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:202
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:223
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:88
 msgid "Movie home"
 msgstr "صفحة الأفلام الرئيسية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:360
 msgid "Movie home at start"
 msgstr "تشغيل صفحة الأفلام الرئيسية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:363
 msgid "Movie home home path"
 msgstr "مسار الصفحة الرئيسية للافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:223
 msgid "Movie information"
 msgstr "معلومات الفيلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:520
 msgid "Movie preview delay in ms"
 msgstr "مدة تأخير عرض الفلم في الثانية"
 
@@ -10716,9 +11271,15 @@ msgid ""
 "the movielist."
 msgstr ""
 
+#: enigma2-plugins/easymedia/src/plugin.py:320
+#: enigma2-plugins/easymedia/src/plugin.py:371
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:16
+#: enigma2-plugins/serienfilm/src/MovieList.py:595
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:50
 msgid "Movies"
 msgstr "الأفلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:87
 msgid "Movietitle:"
 msgstr "عنوان الفلم:"
 
@@ -10732,9 +11293,8 @@ msgid "Multi Dreambox RC layer setup"
 msgstr ""
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:68
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
+#: enigma2-plugins/easyinfo/src/plugin.py:57
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 #: enigma2-plugins/quickbutton/src/plugin.py:124
 #: enigma2-plugins/quickbutton/src/plugin.py:222
 #: enigma2-plugins/quickbutton/src/plugin.py:267
@@ -11072,6 +11632,7 @@ msgstr "أخبار وسياسه"
 msgid "Next"
 msgstr "التالى"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:201
 msgid "Next auto-start in "
 msgstr "التالي تشغيل تلقائي في "
 
@@ -11143,6 +11704,10 @@ msgstr ""
 msgid "No Connection"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:289
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:310
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:399
+#, python-format
 msgid "No Cover: %s"
 msgstr "لايوجد غلاف: %s"
 
@@ -11150,6 +11715,7 @@ msgstr "لايوجد غلاف: %s"
 msgid "No DECT phone registered"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:429
 msgid "No DVD-Player found!"
 msgstr "لم يتم العثور علي مشغل دفيفدي!"
 
@@ -11180,6 +11746,7 @@ msgstr ""
 msgid "No Messagetext given"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:339
 msgid "No Movies found!"
 msgstr "لم يتم العثور علي أفلام!"
 
@@ -11245,6 +11812,7 @@ msgstr ""
 msgid "No file found"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1366
 msgid "No functionality set..."
 msgstr "لا توجد مجموعه وظائف..."
 
@@ -11262,6 +11830,7 @@ msgstr ""
 msgid "No items to show..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:444
 msgid "No limit"
 msgstr "لا يوجد حد"
 
@@ -11330,6 +11899,7 @@ msgstr "لا يوجد اتصال متاح بشبكه"
 msgid "No network devices found!"
 msgstr "لا يوجد جهاز شبكه"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:155
 msgid "No override"
 msgstr "لا تجاوز"
 
@@ -11369,9 +11939,11 @@ msgstr ""
 msgid "No result from reverse lookup"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:418
 msgid "No resume below 10 seconds"
 msgstr "لا يوجد استئناف اقل من عشر ثوان"
 
+#: e2openplugin-EnhancedMovieCenter/src/RogueFileCheck.py:43
 msgid "No rogue files found."
 msgstr "لم يتم العثور على الملفات الفاسدة."
 
@@ -11389,8 +11961,8 @@ msgstr ""
 #: enigma2-plugins/skipintro/src/plugin.py:50
 #, python-format
 msgid ""
-"No skip time saved for:\n"
-"'%s'"
+"No skip time saved for\n"
+"%s"
 msgstr ""
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:750
@@ -11410,7 +11982,7 @@ msgstr ""
 msgid "No tags are set on these movies."
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1857
+#: enigma2-plugins/teletext/src/plugin.py:1864
 msgid "No teletext available."
 msgstr ""
 
@@ -11470,6 +12042,7 @@ msgstr ""
 msgid "Not after"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2286
 msgid "Not all timers have been stopped. Modify them with the timer editor."
 msgstr "لم يتم إيقاف كافة أجهزه ضبط التوقيت. تعديلها مع محرر جهاز ضبط الوقت."
 
@@ -11553,6 +12126,7 @@ msgstr ""
 msgid "Nothing to test"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:344
 msgid "Nothing was found !"
 msgstr "لم يتم العثور علي شيء!"
 
@@ -11684,9 +12258,9 @@ msgstr ""
 #: enigma2-plugins/3dsettings/src/plugin.py:185
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:175
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:38
-#: enigma2-plugins/teletext/src/plugin.py:1131
-#: enigma2-plugins/teletext/src/plugin.py:1152
-#: enigma2-plugins/teletext/src/plugin.py:1278
+#: enigma2-plugins/teletext/src/plugin.py:1138
+#: enigma2-plugins/teletext/src/plugin.py:1159
+#: enigma2-plugins/teletext/src/plugin.py:1285
 #: enigma2-plugins/c3vocupdater/src/plugin.py:43
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:16
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:70
@@ -11733,7 +12307,7 @@ msgstr ""
 msgid "OK"
 msgstr "موافق"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:254
+#: enigma2-plugins/easyinfo/src/plugin.py:263
 msgid "OK function in Easy-PG:"
 msgstr ""
 
@@ -11757,9 +12331,11 @@ msgstr ""
 msgid "ORF-Teletext"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:878
 msgid "OSError - please reload list (EMC menu)"
 msgstr "Oserror--يرجى تحديث قائمه (ضبط مركز مشغل الافلام)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:403
 msgid "OTHER"
 msgstr "أخرى"
 
@@ -11926,6 +12502,7 @@ msgid ""
 "inode."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:543
 msgid "Open"
 msgstr "لا يمكن فتح صوره داخل صوره"
 
@@ -11933,12 +12510,17 @@ msgstr "لا يمكن فتح صوره داخل صوره"
 msgid "Open Context Menu"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1171
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:170
 msgid "Open E2 Bookmark path"
 msgstr "فتح مسار الاشاره المرجعية الانجما2"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:210
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:231
 msgid "Open E2 bookmarks"
 msgstr "فتح الإشارات المرجعية الانجما2"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:179
 msgid "Open EMC Bookmark path"
 msgstr "فتح مسار الاشاره المرجعية لمركز مشغل الافلام"
 
@@ -11963,6 +12545,7 @@ msgstr ""
 msgid "Open Signal Panel"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:685
 msgid "Open Timer List"
 msgstr "فتح قائمة المؤقت"
 
@@ -11974,6 +12557,7 @@ msgstr ""
 msgid "Open editor"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:653
 msgid "Open menu"
 msgstr "فتح الضبط"
 
@@ -12005,6 +12589,7 @@ msgstr ""
 msgid "Options:\n"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:403
 msgid "Orange"
 msgstr "برتقالي"
 
@@ -12087,6 +12672,7 @@ msgstr ""
 msgid "Overwrite left and right buttons:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:491
 msgid "Own Path to movie picons"
 msgstr "المسار الخاص بايقونات الافلام"
 
@@ -12189,8 +12775,8 @@ msgid "Partition tool"
 msgstr ""
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:195
-#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:154
-#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:184
+#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:148
+#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:178
 msgid "Partnerbox"
 msgstr ""
 
@@ -12283,6 +12869,7 @@ msgstr ""
 msgid "Path to check"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:492
 msgid "Path to movie picons"
 msgstr "مسار ايقونات الافلام"
 
@@ -12291,8 +12878,14 @@ msgstr "مسار ايقونات الافلام"
 msgid "Path:  %s\n"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:253
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:254
 msgid "Pattern for series name (title)"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:293
+msgid ""
+"Pattern stored in '/etc/enigma2/SkipIntro.pattern.json' can be selected in "
+"settings"
 msgstr ""
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:287
@@ -12312,9 +12905,11 @@ msgstr ""
 msgid "People & Blogs"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:190
 msgid "Percent (%)"
 msgstr "نسبه مئوية (%)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:177
 msgid "Performance"
 msgstr "الاداء"
 
@@ -12362,6 +12957,7 @@ msgstr ""
 msgid "PermanentClock shows the clock permanently on the screen."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:329
 msgid "Permanently delete all files in trashcan?"
 msgstr "بشكل دائم حذف جميع التسجيلات في سلة المهملات؟"
 
@@ -12474,9 +13070,12 @@ msgstr "تشغيل"
 msgid "Play %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:649
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:103
 msgid "Play All"
 msgstr "تشغيل الكل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2227
 msgid "Play All starting"
 msgstr "بداية تشغيل الكل"
 
@@ -12493,6 +13092,7 @@ msgstr ""
 msgid "Play YouTube movies"
 msgstr "تشغيل افلام يوتيوب"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:220
 msgid "Play current Playlist"
 msgstr "تشغيل القائمة الحالية"
 
@@ -12500,9 +13100,13 @@ msgstr "تشغيل القائمة الحالية"
 msgid "Play entry"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:206
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:227
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:101
 msgid "Play last"
 msgstr "أخر تشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2208
 msgid "Play last movie starting"
 msgstr "تشغيل أخر فلم تم مشاهدته"
 
@@ -12517,9 +13121,11 @@ msgstr ""
 msgid "Play next video"
 msgstr "تشغيل الفيديو التالى"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:221
 msgid "Play random current Playlist"
 msgstr "تشغيل عشوائي لقائمة التشغيل الحالية"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:647
 msgid "Play selected movie(s)"
 msgstr "تشغيل الفلم المحدد"
 
@@ -12562,9 +13168,12 @@ msgstr ""
 msgid "Playlist (%s) -> Song List"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:95
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:213
 msgid "Playlist Options"
 msgstr "خيارات قائمه التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:223
 msgid "Playlist Setup"
 msgstr "اعداد قائمه التشغيل"
 
@@ -12573,6 +13182,7 @@ msgstr "اعداد قائمه التشغيل"
 msgid "Playlist for %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:162
 msgid "Playlist open"
 msgstr "فتح قائمه التشغيل"
 
@@ -12581,6 +13191,7 @@ msgstr "فتح قائمه التشغيل"
 msgid "Playlist saved to '%s'"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:233
 msgid ""
 "Playlist with same name exists!\n"
 "\n"
@@ -12915,6 +13526,7 @@ msgstr ""
 msgid "Port:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:29
 msgid "Portuguese"
 msgstr "البرتقالية"
 
@@ -12923,55 +13535,56 @@ msgstr "البرتقالية"
 msgid "Pos."
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:259
+#: enigma2-plugins/easyinfo/src/plugin.py:268
 msgid "Position 1 (info button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:268
+#: enigma2-plugins/easyinfo/src/plugin.py:277
 msgid "Position 10:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:269
+#: enigma2-plugins/easyinfo/src/plugin.py:278
 msgid "Position 11:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:260
+#: enigma2-plugins/easyinfo/src/plugin.py:269
 msgid "Position 2 (red button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:261
+#: enigma2-plugins/easyinfo/src/plugin.py:270
 msgid "Position 3 (green button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:262
+#: enigma2-plugins/easyinfo/src/plugin.py:271
 msgid "Position 4 (yellow button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:263
+#: enigma2-plugins/easyinfo/src/plugin.py:272
 msgid "Position 5 (blue button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:264
+#: enigma2-plugins/easyinfo/src/plugin.py:273
 msgid "Position 6:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:265
+#: enigma2-plugins/easyinfo/src/plugin.py:274
 msgid "Position 7:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:266
+#: enigma2-plugins/easyinfo/src/plugin.py:275
 msgid "Position 8:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:267
+#: enigma2-plugins/easyinfo/src/plugin.py:276
 msgid "Position 9:"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1336
-#: enigma2-plugins/teletext/src/plugin.py:1341
+#: enigma2-plugins/teletext/src/plugin.py:1343
+#: enigma2-plugins/teletext/src/plugin.py:1348
 msgid "Position and size"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:490
 msgid "Position movie picons"
 msgstr "مكان ايقونات الافلام"
 
@@ -13011,9 +13624,11 @@ msgstr ""
 msgid "Preference of subtitle language"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:460
 msgid "Preferred EPG language"
 msgstr "اللغة المفضلة لدليل البرامج الإلكترونية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:713
 msgid "Preferred cover resolution (if possible):"
 msgstr "الدقة المفضلة للغلاف (إن وجدت)"
 
@@ -13064,6 +13679,7 @@ msgstr ""
 msgid "Press OK to select."
 msgstr "أضغط موافق لتختار"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:189
 msgid "Press green button to start search"
 msgstr "اضغط علي الزر الأخضر لبدء البحث"
 
@@ -13121,22 +13737,16 @@ msgstr ""
 msgid "Previous bouquet"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:467
 msgid "Primary playback audio language"
 msgstr "لغة القناة الصوتية الرئيسية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:462
 msgid "Primary playback subtitle language"
 msgstr "لغة ترجمة الرئيسية لفلم"
 
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 msgid "Prime Time"
-msgstr ""
-
-#: enigma2-plugins/easyinfo/src/plugin.py:79
-msgid "Prime Time Manager"
-msgstr ""
-
-#: enigma2-plugins/easyinfo/src/plugin.py:646
-msgid "Prime Time Manager is not installed!"
 msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:182
@@ -13191,6 +13801,9 @@ msgid ""
 "%s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:404
 msgid "Production Countries:"
 msgstr "المنتجين حسب الدولة:"
 
@@ -13202,15 +13815,20 @@ msgstr ""
 msgid "Progress bar style:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:273
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:279
 msgid "Progress sort"
 msgstr "ترتيب حسب التشغيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:273
 msgid "Progress sort ascending (P+)"
 msgstr "ترتيب أبجدي التقدم تصاعديآ (ب+)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:279
 msgid "Progress sort descending (P-)"
 msgstr "ترتيب أبجدي التقدم تنازليا (ب+)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:189
 msgid "ProgressBar"
 msgstr "شريط التقدم"
 
@@ -13442,6 +14060,7 @@ msgstr ""
 msgid "Quick switching via remote control"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:159
 msgid "Quick-button"
 msgstr "زر سريع"
 
@@ -13481,6 +14100,7 @@ msgstr "راديو"
 msgid "Radio key long"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:158
 msgid "Radio-button"
 msgstr "زر الراديو"
 
@@ -13524,6 +14144,8 @@ msgstr ""
 msgid "Read/write error (disk full?)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:628
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1844
 msgid "Reading directory..."
 msgstr "قراءة المسار..."
 
@@ -13731,9 +14353,11 @@ msgstr ""
 msgid "Recording stream station"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
 msgid "Red"
 msgstr "أحمر"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:344
 msgid "Red button function"
 msgstr "وظيفة الزر الأحمر"
 
@@ -13786,7 +14410,7 @@ msgstr ""
 msgid "Refreshing..."
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1335
+#: enigma2-plugins/teletext/src/plugin.py:1342
 msgid "Region"
 msgstr ""
 
@@ -13807,6 +14431,9 @@ msgstr ""
 msgid "Related videos"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:405
 msgid "Release Date:"
 msgstr "تاريخ الإصدار:"
 
@@ -13822,6 +14449,7 @@ msgstr "علاقه"
 msgid "Reload"
 msgstr "إعادة تحميل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:93
 msgid "Reload current directory"
 msgstr "أعاده تحميل المسار الحالي"
 
@@ -13833,6 +14461,7 @@ msgstr ""
 msgid "Reload interval for phonebooks (hours)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:684
 msgid "Reload movie file list"
 msgstr "أعاده تحميل قائمة ملف الافلام"
 
@@ -13915,6 +14544,12 @@ msgstr ""
 msgid "Remote Timer - WebIf Port"
 msgstr ""
 
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:291
+msgid ""
+"Remote control button 8 can be used as an alternative to 2 (long press).\n"
+"\n"
+msgstr ""
+
 #: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
 msgid "Remote file display"
 msgstr ""
@@ -13975,9 +14610,11 @@ msgstr ""
 msgid "Remove Tag"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:375
 msgid "Remove all cut file marker permanently?"
 msgstr "حذف كافة علامات ملف القطع بشكل دائم ؟"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:389
 msgid "Remove all marker permanently?"
 msgstr "حذف كافة علامات المملف بشكل دائم ؟"
 
@@ -13991,6 +14628,7 @@ msgstr ""
 msgid "Remove controller"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:153
 msgid "Remove cut list marker"
 msgstr "حذف قائمة القطع المصنوعة"
 
@@ -14002,9 +14640,11 @@ msgstr ""
 msgid "Remove directory from Bookmarks"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:174
 msgid "Remove directory from E2 Bookmarks"
 msgstr "حذف المسار إلى E2 الإشارات المرجعية"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:183
 msgid "Remove directory from EMC Bookmarks"
 msgstr "حذف المسار إلى مرجعية متصفح الأفلام"
 
@@ -14029,12 +14669,15 @@ msgstr ""
 msgid "Remove option"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:190
 msgid "Remove permanent sort"
 msgstr "حذف الفرز الدائم"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:194
 msgid "Remove permanent sort from parent"
 msgstr "حذف الفرز الدائم من الأصل"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:126
 msgid "Remove rogue files"
 msgstr "حذف الملفات الفاسدة"
 
@@ -14042,9 +14685,11 @@ msgstr "حذف الملفات الفاسدة"
 msgid "Remove selected AutoTimer"
 msgstr "حذف المؤقت الالى المختار"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:177
 msgid "Remove selected E2 Bookmark"
 msgstr "حذف الإشارة المرجعية المحددة للانجما2"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:186
 msgid "Remove selected EMC Bookmark"
 msgstr "حذف الإشارة المرجعية المحددة لمركز مشغل الافلام"
 
@@ -14052,6 +14697,7 @@ msgstr "حذف الإشارة المرجعية المحددة لمركز مشغ�
 msgid "Remove service"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:680
 msgid "Remove service selection"
 msgstr "حذف الخدمة المحددة"
 
@@ -14059,9 +14705,9 @@ msgstr "حذف الخدمة المحددة"
 msgid "Remove the selected entry"
 msgstr ""
 
-#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:166
+#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:160
 #: enigma2-plugin-partnerbox/src/plugin.py:316
-#: enigma2-plugins/easyinfo/src/plugin.py:736
+#: enigma2-plugins/easyinfo/src/plugin.py:656
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1316
 msgid "Remove timer"
 msgstr "حذف المؤقت"
@@ -14096,6 +14742,7 @@ msgstr ""
 msgid "Rename log(s)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:152
 msgid "Rename selected movie(s)"
 msgstr "أعاده تسميه الأفلام المحددة"
 
@@ -14160,8 +14807,12 @@ msgstr ""
 msgid "Replace InfoBar single and multi EPG:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:251
+#: enigma2-plugins/easyinfo/src/plugin.py:260
 msgid "Replace TV-button function:"
+msgstr ""
+
+#: enigma2-plugins/easyinfo/src/plugin.py:259
+msgid "Replace event info with EasyInfo:"
 msgstr ""
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:117
@@ -14172,6 +14823,7 @@ msgstr ""
 msgid "Replace special characters in title"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:407
 msgid "Replace special chars in title"
 msgstr "إستبدال الأحرف الخاصة في العنوان"
 
@@ -14232,6 +14884,7 @@ msgstr ""
 msgid "Reset count"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:154
 msgid "Reset marker from selected movie(s)"
 msgstr "أعاده تعيين العلامة من الفيلم (الأفلام) المحددة"
 
@@ -14311,9 +14964,13 @@ msgstr ""
 msgid "Results: %s - Page: %s "
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:174
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:176
+#, python-format
 msgid "Resume position at %s"
 msgstr "إستعادة الوضع إلى %s"
 
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:178
 msgid "Resuming playback"
 msgstr "إستئناف العرض"
 
@@ -14364,6 +15021,7 @@ msgstr ""
 msgid "Reverse searching..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:420
 msgid "Rewind finished movies before playing"
 msgstr "ترجيع الفلم لاخر توقف شاهدتها قبل التشغيل"
 
@@ -14408,6 +15066,10 @@ msgstr ""
 msgid "Running processes: "
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:402
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:366
 msgid "Runtime:"
 msgstr "وقت التشغيل:"
 
@@ -14440,6 +15102,7 @@ msgstr ""
 msgid "SID"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:476
 msgid "SKIN-SETTINGS"
 msgstr "إعدادات السكن"
 
@@ -14526,8 +15189,8 @@ msgstr "السبت"
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:128
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:383
 #: enigma2-plugins/podcast/src/plugin.py:543
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:69
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:227
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:70
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:228
 #: enigma2-plugins/satloader/src/plugin.py:165
 #: enigma2-plugins/satloader/src/plugin.py:409
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
@@ -14558,6 +15221,7 @@ msgstr "حفظ"
 msgid "Save & Exit Editor"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:625
 msgid "Save Cover"
 msgstr "حفظ الغلاف"
 
@@ -14593,6 +15257,7 @@ msgstr ""
 msgid "Save and stop"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:237
 msgid "Save current Playlist"
 msgstr "حفظ قائمه التشغيل الحالية"
 
@@ -14600,6 +15265,7 @@ msgstr "حفظ قائمه التشغيل الحالية"
 msgid "Save current delay to key"
 msgstr "حفظ التاخير الحالى فى مفتاح"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:714
 msgid "Save description to movie.txt file:"
 msgstr "حفظ وصف الفلم في ملف نصوص:"
 
@@ -14648,6 +15314,14 @@ msgstr "حفظ القيم وإغلاق الشاشه"
 msgid "Save/check labelled series in filter list (SeriesPlugin)"
 msgstr ""
 
+#: enigma2-plugins/skipintro/src/plugin.py:52
+#, python-format
+msgid ""
+"Saved skip time found for\n"
+"%s:\n"
+"%s seconds"
+msgstr ""
+
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:206
 msgid "Saving Timeshift files"
 msgstr ""
@@ -14657,11 +15331,11 @@ msgstr ""
 msgid "Saving timeshift as movie now. This might take a while!"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1329
+#: enigma2-plugins/teletext/src/plugin.py:1336
 msgid "Scale filter"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1330
+#: enigma2-plugins/teletext/src/plugin.py:1337
 msgid "Scale filter zoom"
 msgstr ""
 
@@ -14669,18 +15343,23 @@ msgstr ""
 msgid "Scan NFS share"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:396
 msgid "Scan for DVD structures"
 msgstr "بحث في قواعد الدفيفدي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:398
 msgid "Scan for bluray structures"
 msgstr "بحث في قواعد البلوراي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:399
 msgid "Scan for bluray structures in .iso"
 msgstr "بحث في قواعد البلوراي في الايزو"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:397
 msgid "Scan for movie structures"
 msgstr "بحث في قواعد الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:401
 msgid "Scan linked folders"
 msgstr "بحث روابط المجلدات"
 
@@ -14753,6 +15432,15 @@ msgstr ""
 msgid "Scroll page contents up"
 msgstr ""
 
+#. TRANSLATORS: keep it short, this is a button
+#: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
+#: enigma2-plugins/ecasa/src/EcasaGui.py:109
+#: enigma2-plugins/fritzcall/src/plugin.py:2145
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:679
+#: enigma2-plugins/ncidclient/src/plugin.py:447
+#: enigma2-plugins/googlemaps/src/plugin.py:211
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:177
 msgid "Search"
 msgstr "بحث"
 
@@ -14813,9 +15501,12 @@ msgstr ""
 msgid "Search Log"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:722
+#, python-format
 msgid "Search Results per Search Site%s:"
 msgstr "نتائج البحث لكل موقع بحث %s:"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:710
 msgid "Search Site:"
 msgstr "البحث في الموقع:"
 
@@ -14827,6 +15518,8 @@ msgstr "شروط البحث"
 msgid "Search Trailer"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:711
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:716
 msgid "Search filter for matching existing terms in the title:"
 msgstr "فلتر البحث لمطابقه المصطلحات الموجودة في العنوان:"
 
@@ -14880,6 +15573,9 @@ msgstr ""
 msgid "Search results for \"%s\" in title, artist or album"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:331
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:343
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:567
 msgid "Search results for:"
 msgstr "نتائج البحث لـ:"
 
@@ -14913,6 +15609,8 @@ msgstr ""
 msgid "Searching InternetRadio for %s..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:783
+#, python-format
 msgid "Searching for %s"
 msgstr "البحث عن %s"
 
@@ -14933,6 +15631,7 @@ msgstr ""
 msgid "Searching your network. Please wait..."
 msgstr "بحث عن الشبكه. رجاء الانتظار..."
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:291
 msgid "Searching..."
 msgstr "البحث..."
 
@@ -14948,9 +15647,11 @@ msgid ""
 "{title:s}"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:468
 msgid "Secondary playback audio language"
 msgstr "لغة القناة الصوتية الثانوية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:463
 msgid "Secondary playback subtitle language"
 msgstr "لغة ترجمة القناة الثانوية"
 
@@ -14986,9 +15687,11 @@ msgstr ""
 msgid "Seek"
 msgstr "بحـث"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:220
 msgid "Seek backward"
 msgstr "الرجوع للخلف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:219
 msgid "Seek forward"
 msgstr "التقديم إلى الأمام"
 
@@ -14998,7 +15701,7 @@ msgstr ""
 
 #: enigma2-plugins/podcast/src/plugin.py:490
 #: enigma2-plugins/netcaster/src/plugin.py:69
-#: enigma2-plugins/teletext/src/plugin.py:1716
+#: enigma2-plugins/teletext/src/plugin.py:1723
 msgid "Select"
 msgstr "أختار"
 
@@ -15021,6 +15724,7 @@ msgstr ""
 msgid "Select Info type..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:751
 msgid "Select Location"
 msgstr "أختار الموقع"
 
@@ -15088,7 +15792,7 @@ msgstr ""
 msgid "Select splitting mode."
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1112
+#: enigma2-plugins/teletext/src/plugin.py:1119
 msgid "Select teletext"
 msgstr ""
 
@@ -15114,6 +15818,12 @@ msgstr "اختار المكان الذى ستحفظ فيه التسجيلات"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:97
 msgid "Select the path where the autotimer_search.log should be saved"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:254
+msgid ""
+"Select the title pattern to identify the series from the recording title. If "
+"disabled the complete recording title is used."
 msgstr ""
 
 #: enigma2-plugins/merlinepg/src/plugin.py:605
@@ -15156,12 +15866,6 @@ msgstr ""
 
 #: enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml./enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml
 msgid "Select your skin theme."
-msgstr ""
-
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:253
-msgid ""
-"Select your title pattern to identify the series from the record title. If "
-"disabled the complete record title is used."
 msgstr ""
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:42
@@ -15425,9 +16129,11 @@ msgstr ""
 msgid "Set maximum duration"
 msgstr "حدد أقصى مده"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:723
 msgid "Set path to save the folder Cover:"
 msgstr "تعيين مسار لحفظ مجلد للاغلفة:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:188
 msgid "Set permanent sort"
 msgstr "تعيين نوع دائم"
 
@@ -15484,6 +16190,7 @@ msgstr ""
 msgid "Settings"
 msgstr "إعدادات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:507
 msgid "Settings have been Saved."
 msgstr "تم حفظ الإعدادات."
 
@@ -15491,7 +16198,7 @@ msgstr "تم حفظ الإعدادات."
 #: e2openplugin-SeriesPlugin/src/plugin.py:294
 #: e2openplugin-SeriesPlugin/src/plugin.py:295
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:71
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
 #: enigma2-plugins/simplerss/src/RSSScreens.py:456
 #: enigma2-plugins/simplerss/src/RSSScreens.py:461
 #: enigma2-plugins/ecasa/src/EcasaGui.py:353
@@ -15535,25 +16242,15 @@ msgstr ""
 msgid "Setup for the AudioRestart Plugin"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:163
 msgid "Setup open"
 msgstr "فتح الاعداد"
-
-#: enigma2-plugins/aihdcontroler/src/plugin.py:42
-msgid "Shadow"
-msgstr ""
-
-#: enigma2-plugins/easyinfo/src/plugin.py:82
-msgid "Sherlock"
-msgstr ""
-
-#: enigma2-plugins/easyinfo/src/plugin.py:664
-msgid "Sherlock is not installed!"
-msgstr ""
 
 #: enigma2-plugins/mytube/src/plugin.py:74
 msgid "Short Movies"
 msgstr "افلام قصيره"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:495
 msgid "Short watching percent"
 msgstr "المشاهدة القصيرة بالنسبة المئوية"
 
@@ -15623,6 +16320,7 @@ msgstr ""
 msgid "Show Blocked Calls"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:384
 msgid "Show Bookmarks in movielist"
 msgstr "عرض العلامات المرجعية في قائمة الافلام"
 
@@ -15639,15 +16337,22 @@ msgstr ""
 msgid "Show Controllers"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1904
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1920
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1936
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "Show Cover"
 msgstr "عرض الغلاف"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:409
 msgid "Show Cut-Nr if exist"
 msgstr "عرض الملفات المتقطعة إن وجدت"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:339
 msgid "Show EMC in extensions menu"
 msgstr "عرض قائمة الملحقات في مركز مشغل الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:338
 msgid "Show EMC in main menu"
 msgstr "عرض مركز مشغل الأفلام في القائمة الرئيسية"
 
@@ -15692,6 +16397,7 @@ msgstr ""
 msgid "Show InfoBarTunerState"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "Show Latest Recordings directory"
 msgstr "عرض مسار التسجيلات الاخيرة"
 
@@ -15725,6 +16431,7 @@ msgstr "أظهر رساله عندما يبدأ التسجيل"
 msgid "Show Monitor in Extension-Menu"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:408
 msgid "Show Movie Format"
 msgstr "عرض صيغة الفلم"
 
@@ -15740,6 +16447,7 @@ msgstr ""
 msgid "Show PTS Infobar while timeshifting?"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:411
 msgid "Show Path if no extended description available"
 msgstr "عرض مسار إذا لم يكن هناك وصف مطول متوفر"
 
@@ -15797,6 +16505,7 @@ msgstr ""
 msgid "Show Tuner"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:383
 msgid "Show VLC directory"
 msgstr "عرض مسار مشغل الافلام"
 
@@ -15823,6 +16532,7 @@ msgstr ""
 msgid "Show also internal numbers"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "Show audio metadata"
 msgstr "عرض البيانات الصوتية"
 
@@ -15854,6 +16564,7 @@ msgstr ""
 msgid "Show cover arts"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:214
 msgid "Show current Playlist"
 msgstr "عرض قائمة التشغيل الحالية"
 
@@ -15863,15 +16574,19 @@ msgstr "عرض قائمة التشغيل الحالية"
 msgid "Show details of entry"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "Show directories"
 msgstr "عرض المسارات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:373
 msgid "Show directories information"
 msgstr "عرض معلومات المسارات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:371
 msgid "Show directories within movielist"
 msgstr "عرض المسارات داخل قائمة الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:378
 msgid "Show directory size in skin"
 msgstr "عرض حجم المسارات في السكن"
 
@@ -15883,6 +16598,7 @@ msgstr ""
 msgid "Show duration:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:654
 msgid "Show event info"
 msgstr "عرض معلومات الحدث"
 
@@ -15890,9 +16606,11 @@ msgstr "عرض معلومات الحدث"
 msgid "Show event information:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:387
 msgid "Show experimental options"
 msgstr "عرض الخيارات التجريبية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:506
 msgid "Show fallback cover"
 msgstr "تراجع عن الغلاف"
 
@@ -15950,15 +16668,19 @@ msgstr ""
 msgid "Show indicator label if zapping PiP"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "Show info at the bottom"
 msgstr "عرض المعلومات في الجزء السفلي"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "Show info at the bottom (with MiniTV)"
 msgstr "عرض المعلومات في الجزء السفلي (مع الشاشة المصغرة)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "Show info on the left"
 msgstr "عرض المعلومات علي اليسار"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "Show info on the left (with MiniTV)"
 msgstr "عرض المعلومات علي اليسار (مع الشاشة الصغيرة)"
 
@@ -15974,6 +16696,7 @@ msgstr ""
 msgid "Show last search log"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:487
 msgid "Show link arrow"
 msgstr "عرض سهم على الروابط"
 
@@ -15985,22 +16708,35 @@ msgstr ""
 msgid "Show live tuner"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:417
 msgid "Show message if file added to playlist"
 msgstr "عرض رسالة إذا أضفت الملف في قائمة التشغيل"
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:252
+msgid "Show message when playback of recording starts"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:251
+msgid "Show message when skipping intro"
+msgstr ""
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:118
 msgid "Show more Functions"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:486
 msgid "Show movie icons"
 msgstr "عرض ايقونة الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "Show movie picons"
 msgstr "عرض ايقونات الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:519
 msgid "Show movie preview"
 msgstr "عرض مشاهدة الفلم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:494
 msgid "Show movie progress"
 msgstr "عرض علامة تقدم  الفلم"
 
@@ -16036,6 +16772,7 @@ msgstr ""
 msgid "Show picons:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:337
 msgid "Show plugin config in extensions menu"
 msgstr "عرض إضافة الاعدادات في قائمة الملحقات"
 
@@ -16055,6 +16792,7 @@ msgstr ""
 msgid "Show program settings"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:423
 msgid "Show real length of running records"
 msgstr "عرض الطول الحقيقي للسجلات قيد التشغيل"
 
@@ -16083,10 +16821,6 @@ msgstr ""
 msgid "Show side by side option in extension menu"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:250
-msgid "Show skip message"
-msgstr ""
-
 #: e2openplugin-InfoBarTunerState/src/Handler/StreamWebIf.py:73
 msgid "Show stream(s) (WebIf)"
 msgstr ""
@@ -16095,6 +16829,7 @@ msgstr ""
 msgid "Show switch message"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:369
 msgid "Show symlinks"
 msgstr "عرض الروابط الرمزية"
 
@@ -16128,9 +16863,11 @@ msgstr ""
 msgid "Show transcoded stream(s) (WebIf)"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:435
 msgid "Show trashcan directory"
 msgstr "عرض مسار سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:436
 msgid "Show trashcan information"
 msgstr "عرض معلومات سلة المهملات"
 
@@ -16144,10 +16881,6 @@ msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:248
 msgid "Show video picture:"
-msgstr ""
-
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:251
-msgid "Show video start message"
 msgstr ""
 
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:83
@@ -16214,9 +16947,12 @@ msgstr ""
 msgid "Shows the watched services with some statistic"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:650
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:104
 msgid "Shuffle All"
 msgstr "تشغيل القائمة عشوائيآ"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2246
 msgid "Shuffle All starting"
 msgstr "بدء تشغيل القائمة عشوائيآ"
 
@@ -16242,8 +16978,8 @@ msgid "Side by side"
 msgstr ""
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:681
-#: enigma2-plugins/easyinfo/src/plugin.py:726
+#: enigma2-plugins/easyinfo/src/plugin.py:600
+#: enigma2-plugins/easyinfo/src/plugin.py:646
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:545
 msgid "Similar"
 msgstr "شبيهه"
@@ -16290,18 +17026,19 @@ msgstr ""
 msgid "Single"
 msgstr "مفرد"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:67
-#: enigma2-plugins/easyinfo/src/plugin.py:97
-#: enigma2-plugins/easyinfo/src/plugin.py:98
+#: enigma2-plugins/easyinfo/src/plugin.py:56
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 #: enigma2-plugins/quickbutton/src/plugin.py:119
 #: enigma2-plugins/quickbutton/src/plugin.py:221
 #: enigma2-plugins/quickbutton/src/plugin.py:265
 msgid "Single EPG"
 msgstr "دليل برامج واحد"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:715
 msgid "Single Search:"
 msgstr "بحث منفرد:"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:193
 msgid "Single search"
 msgstr "بحث منفرد"
 
@@ -16322,6 +17059,7 @@ msgstr ""
 msgid "Skinlist"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:263
 msgid "Skip"
 msgstr "تخطي"
 
@@ -16366,20 +17104,28 @@ msgstr ""
 msgid "Skip search if pattern matches"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:101
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:102
 #, python-format
 msgid "Skip time saved for '%s'"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:93
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:246
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:94
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:247
 #, python-format
 msgid "SkipIntro Version %s"
 msgstr ""
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:306
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:307
 #, python-format
-msgid "SkipIntro Version %s - HelpScreen"
+msgid "SkipIntro Version %s - Help"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/plugin.py:95
+#, python-format
+msgid ""
+"SkipIntro found seek time for\n"
+"%s:\n"
+"%s seconds"
 msgstr ""
 
 #: enigma2-plugins/pushservice/src/ModuleBase.py:94
@@ -16399,6 +17145,7 @@ msgstr ""
 msgid "Skipping lookup because no show name is specified"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:483
 msgid ""
 "Skipping movie, the file does not exist.\n"
 "\n"
@@ -16448,7 +17195,7 @@ msgstr ""
 msgid "Sleep"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:81
+#: enigma2-plugins/easyinfo/src/plugin.py:69
 msgid "Sleep timer"
 msgstr ""
 
@@ -16505,6 +17252,7 @@ msgstr ""
 msgid "Some plugins are not available:\n"
 msgstr "بعض البلج إنز غير متوفر : \n"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:720
 msgid "Some settings changes require GUI restart to take effect."
 msgstr "تتطلب بعض تغييرات الإعدادات أعاده تشغيل واجهة الانجما نافذه المفعول."
 
@@ -16590,6 +17338,7 @@ msgstr ""
 msgid "Sort Extensions"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1877
 msgid "Sort Mode"
 msgstr "وضع الفرز"
 
@@ -16597,9 +17346,11 @@ msgstr "وضع الفرز"
 msgid "Sort MovieList Extensions"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:216
 msgid "Sort Options"
 msgstr "خيارات الفرز"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1878
 msgid "Sort Order"
 msgstr "ترتيب حسب الطلب"
 
@@ -16750,7 +17501,7 @@ msgstr ""
 msgid "Speed"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1338
+#: enigma2-plugins/teletext/src/plugin.py:1345
 msgid "Splitting mode"
 msgstr ""
 
@@ -16845,6 +17596,7 @@ msgstr ""
 msgid "Start / Stop monitoring instantly"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:688
 msgid "Start / end multiselection"
 msgstr "بداية / نهاية الاختيار المتعدد"
 
@@ -16852,6 +17604,7 @@ msgstr "بداية / نهاية الاختيار المتعدد"
 msgid "Start Autotimer EPG Parsing"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:336
 msgid "Start EMC with"
 msgstr "تشغيل مركز مشغل الأفلام مع"
 
@@ -16888,10 +17641,6 @@ msgstr ""
 msgid "Start execution"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:250
-msgid "Start first EventInfo:"
-msgstr ""
-
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:100
 msgid "Start infinite recording"
 msgstr ""
@@ -16900,6 +17649,7 @@ msgstr ""
 msgid "Start monitoring"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:521
 msgid "Start movie preview before last position"
 msgstr "تشغيل معاينة الفلم قبل اخر مكان توقف عنده"
 
@@ -16945,6 +17695,13 @@ msgstr ""
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:34
 msgid "Starting time"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/plugin.py:154
+#, python-format
+msgid ""
+"Starting time measurement for intro duration for:\n"
+"%s"
 msgstr ""
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:112
@@ -17108,9 +17865,12 @@ msgstr ""
 msgid "Stop on ProtocolError"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2302
 msgid "Stop ongoing recording?\n"
 msgstr "إيقاف التسجيل المستمر ؟\n"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:179
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:184
 msgid "Stop playback"
 msgstr "إيقاف تشغيل"
 
@@ -17141,6 +17901,14 @@ msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1942
 msgid "Stop timeshift while recording?"
+msgstr ""
+
+#: enigma2-plugins/skipintro/src/plugin.py:127
+#, python-format
+msgid ""
+"Stopping time measurment for intro duration for\n"
+"%s.\n"
+"Intro duration: %s seconds"
 msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:97
@@ -17183,6 +17951,7 @@ msgstr ""
 msgid "Strip Leading 0"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:478
 msgid "Style for original EMC-skin (needs reopen)"
 msgstr "الشكل الأصلي لمركز مشغل الأفلام - السكن (تحتاج إعادة فتحه)"
 
@@ -17281,6 +18050,7 @@ msgstr ""
 msgid "Support {support:s}\n"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:400
 msgid "Suppress scan in selected folders"
 msgstr "بحث مخفي للمجلدات المحددة"
 
@@ -17328,12 +18098,15 @@ msgstr "النـظام"
 msgid "System cleanup"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
 msgid "TMBD Info"
 msgstr "معلومات قاعدة بيانات الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
 msgid "TMDB Info"
 msgstr "معلومات قاعدة بيانات الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3246
 msgid "TMDb"
 msgstr "معلومات قاعدة بيانات الافلام"
 
@@ -17341,6 +18114,7 @@ msgstr "معلومات قاعدة بيانات الافلام"
 msgid "TMDb info"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:432
 msgid "TRASHCAN"
 msgstr "سلة المحذوفات"
 
@@ -17368,9 +18142,11 @@ msgstr ""
 msgid "TV Services"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:54
 msgid "TV Shows"
 msgstr "لقطات شاشة المعاينة لتشغيل العروض التلفزيونية"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:157
 msgid "TV-button"
 msgstr "زر التلفزيون"
 
@@ -17427,13 +18203,13 @@ msgstr ""
 msgid "Technical Information"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1644
-#: enigma2-plugins/teletext/src/plugin.py:1812
+#: enigma2-plugins/teletext/src/plugin.py:1651
+#: enigma2-plugins/teletext/src/plugin.py:1819
 msgid "TeleText favorites"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1253
-#: enigma2-plugins/teletext/src/plugin.py:1474
+#: enigma2-plugins/teletext/src/plugin.py:1260
+#: enigma2-plugins/teletext/src/plugin.py:1481
 msgid "TeleText settings"
 msgstr ""
 
@@ -17470,9 +18246,11 @@ msgstr ""
 msgid "Terrestrial"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:469
 msgid "Tertiary playback audio language"
 msgstr "لغة الفلم الصوتية الثالثة"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:464
 msgid "Tertiary playback subtitle language"
 msgstr "لغة ترجمة الفلم الثالثة"
 
@@ -17543,7 +18321,7 @@ msgstr ""
 msgid "Text PID"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1334
+#: enigma2-plugins/teletext/src/plugin.py:1341
 msgid "Text level"
 msgstr ""
 
@@ -17555,12 +18333,15 @@ msgstr ""
 msgid "Text padding offset in pixel"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:375
 msgid "Text shown for initially unknown count and size"
 msgstr "الايقونة معروض للعد مجهول مبدئيًا / الحجم"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:376
 msgid "Text shown for initially unknown directory size"
 msgstr "النص المعروض لحجم الدليل غير معروف في البداية"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:374
 msgid "Text shown for initially unknown file count"
 msgstr "النص المعروض لعدد الملفات غير المعروف في البداية"
 
@@ -17753,6 +18534,8 @@ msgid ""
 "To change it: first Set size and then Edit"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:274
+#, python-format
 msgid ""
 "The directory %s is already locked. Do you want to unlock it and all its "
 "subfolders?"
@@ -17764,6 +18547,9 @@ msgid ""
 "the classic editor."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2543
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2587
+#, python-format
 msgid ""
 "The following files are used for other entrys in List !\n"
 "\n"
@@ -17837,6 +18623,7 @@ msgstr ""
 msgid "The pin code you entered is wrong."
 msgstr "الرقم السرى الذى ادخلته خطأ"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:573
 msgid "The python-mutagen package is not available on the feed."
 msgstr "حزمة البايثون غير متوفرة علي الفييد."
 
@@ -18035,6 +18822,7 @@ msgstr "هذا الاسبوع"
 msgid "This device does not support AC3 Downmix"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2634
 msgid "This element belongs to a locked folder and cannot be deleted!"
 msgstr "ينتمي هذا العنصر إلى مجلد مغلق ولا يمكن حذفه!"
 
@@ -18045,10 +18833,11 @@ msgid ""
 "explanation."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2671
 msgid "This folder is locked or contains a locked subfolder, unlock it first!"
 msgstr "هذا المجلد مغلق أو يحتوي علي مجلد فرعي مغلق ، افتحه أولا!"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:669
+#: enigma2-plugins/easyinfo/src/plugin.py:588
 msgid "This function is yet not available!"
 msgstr ""
 
@@ -18450,7 +19239,7 @@ msgstr ""
 msgid "TimerList has not been saved"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:74
+#: enigma2-plugins/easyinfo/src/plugin.py:63
 msgid "Timerlist"
 msgstr ""
 
@@ -18509,6 +19298,7 @@ msgstr ""
 msgid "Timeshift-Save Action on zap"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:160
 msgid "Timeshift-button"
 msgstr "زر التحكم الزمني في البث المباشر"
 
@@ -18615,6 +19405,7 @@ msgstr ""
 msgid "Toggle 5. mailbox"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:211
 msgid "Toggle Cover Button"
 msgstr "زر تبديل الغلاف"
 
@@ -18664,6 +19455,7 @@ msgstr ""
 msgid "Toggle pipzap status"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:679
 msgid "Toggle service selection"
 msgstr "تبديل اختيار الخدمة"
 
@@ -18671,6 +19463,7 @@ msgstr "تبديل اختيار الخدمة"
 msgid "Toggle style minimal / compact"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:686
 msgid "Toggle viewed / not viewed"
 msgstr "التبديل المعروض/غير المعروض"
 
@@ -18704,6 +19497,7 @@ msgstr ""
 msgid "Torrent could not be scheduled not download!"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:250
 msgid "Total"
 msgstr "الإجمــالي"
 
@@ -18725,7 +19519,7 @@ msgstr ""
 msgid "Transcode MPEG/DVD Video"
 msgstr ""
 
-#: enigma2-plugins/teletext/src/plugin.py:1333
+#: enigma2-plugins/teletext/src/plugin.py:1340
 msgid "Transparency"
 msgstr ""
 
@@ -18739,15 +19533,21 @@ msgstr "التردد"
 msgid "Transponder selection"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2643
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2666
 msgid "Trashcan"
 msgstr "سلة المحذوفات"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3234
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:778
 msgid "Trashcan create failed. Check mounts and permissions."
 msgstr "فشل إنشاء سلة المهملات,تحقق من الارتباطات والاذونات."
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:433
 msgid "Trashcan enable"
 msgstr "تفعيل سلة المهملات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:434
 msgid "Trashcan path"
 msgstr "مسار سلة المهملات"
 
@@ -18760,12 +19560,15 @@ msgstr ""
 msgid "Try to find infos for %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:405
 msgid "Try to load extra title and more from .meta files"
 msgstr "محاولة تحميل عنوان اضافيه وأكثر من الملفات"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:406
 msgid "Try to load titles from .eit files"
 msgstr "محاولة تحميل العناوين من ملفات. eit"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:404
 msgid "Try to load titles from .meta files"
 msgstr "إعادة تحميل عنوان اضافيه الملفات من الاعلى"
 
@@ -18907,6 +19710,20 @@ msgstr ""
 msgid "UL: %d kb/s"
 msgstr ""
 
+#: enigma2-plugins/fritzcall/src/plugin.py:1477
+#: enigma2-plugins/fritzcall/src/plugin.py:2849
+#: enigma2-plugins/fritzcall/src/plugin.py:2852
+#: enigma2-plugins/fritzcall/src/plugin.py:2891
+#: enigma2-plugins/fritzcall/src/plugin.py:3228
+#: enigma2-plugins/fritzcall/src/plugin.py:3350
+#: enigma2-plugins/fritzcall/src/plugin.py:3355
+#: enigma2-plugins/fritzcall/src/plugin.py:3379
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:87
+#: enigma2-plugins/ncidclient/src/plugin.py:836
+#: enigma2-plugins/ncidclient/src/plugin.py:839
+#: enigma2-plugins/ncidclient/src/plugin.py:941
+#: enigma2-plugins/ncidclient/src/plugin.py:995
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2505
 msgid "UNKNOWN"
 msgstr "غير معروف"
 
@@ -19058,6 +19875,8 @@ msgstr ""
 msgid "UnwetterInfo shows German storm information."
 msgstr ""
 
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:153
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2460
 msgid "Up"
 msgstr "أعلى"
 
@@ -19210,6 +20029,7 @@ msgstr ""
 msgid "Use both profiles alternately"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "Use cache for files and directories"
 msgstr "أستخدم الذاكرة المؤقتة للملفات والمسارات"
 
@@ -19234,6 +20054,7 @@ msgstr ""
 msgid "Use media patern filter in FileList:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:477
 msgid "Use original EMC-skin (needs reopen)"
 msgstr "الأصلي لمركز مشغل الأفلام - السكن (تحتاج إعادة فتحه)"
 
@@ -19359,6 +20180,7 @@ msgid ""
 "several movies creates a series"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2436
 msgid "VLC"
 msgstr "مشغل الوسائط"
 
@@ -19370,6 +20192,7 @@ msgstr ""
 msgid "VLC Player is not installed!"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/VlcPluginInterface.py:156
 msgid "VLC Server not reachable"
 msgstr "سيرفر مشغل الوسائط غير قابل للوصول"
 
@@ -19377,9 +20200,11 @@ msgstr "سيرفر مشغل الوسائط غير قابل للوصول"
 msgid "VLC player:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2448
 msgid "VLC-Dir"
 msgstr "مسار مشغل الوسائط"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2442
 msgid "VLC-Server"
 msgstr "سيرفر مشغل الوسائط"
 
@@ -19536,6 +20361,7 @@ msgstr ""
 msgid "Video successfully added to favorites"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:156
 msgid "Video-button"
 msgstr "زر الفيديو"
 
@@ -19678,6 +20504,9 @@ msgstr ""
 msgid "Volume set to %i"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:135
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:190
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:406
 msgid "Vote:"
 msgstr "التصويت:"
 
@@ -19696,19 +20525,27 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:836
-msgid "WARNING! You're about to move or copy\n"
+#, python-format
+msgid ""
+"WARNING! You're about to move or copy\n"
+"%s\n"
+"to:"
 msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:158
 msgid "WARNING: Cookies are required to store the settings!"
 msgstr ""
 
+#: e2openplugin-InfoBarTunerState/src/plugin.py:97
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:171
 msgid "WD DD.MM. HH:MM"
 msgstr "WD DD.MM: MM"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:165
 msgid "WD DD.MM.YYYY"
 msgstr "DD.MM.YYYY"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:168
 msgid "WD DD.MM.YYYY HH:MM"
 msgstr "DD.MM.YYYY HH:MM"
 
@@ -19716,12 +20553,15 @@ msgstr "DD.MM.YYYY HH:MM"
 msgid "WD HH:MM"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:180
 msgid "WD MM/DD HH:MM"
 msgstr "WD MM/DD HH:MM"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:174
 msgid "WD YYYY/MM/DD"
 msgstr "WD YYYY/MM/DD"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:177
 msgid "WD YYYY/MM/DD HH:MM"
 msgstr "WD YYYY/MM/DD HH:MM"
 
@@ -19769,6 +20609,7 @@ msgstr ""
 msgid "Wake HDD for free space statistics"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:391
 msgid "Wake device when entering dir from emc-noscan.cfg"
 msgstr "جهاز تنبيه عند دخول المسار من مركز مشغل الافلام"
 
@@ -19927,6 +20768,7 @@ msgstr "الاربعاء"
 msgid "Wednesday"
 msgstr "الاربعاء"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:427
 msgid "Week"
 msgstr "الأسبوع"
 
@@ -19950,6 +20792,7 @@ msgstr "اسبوعيا (الاثنين)"
 msgid "Weekly (Sunday)"
 msgstr "اسبوعيا (الاحد)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:430
 msgid "Weeks"
 msgstr "أسبوع"
 
@@ -20190,12 +21033,10 @@ msgid ""
 "using the BLUE button."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "White"
 msgstr "أبيض"
-
-#: enigma2-plugins/aihdcontroler/src/plugin.py:44
-msgid "WhiteLine"
-msgstr ""
 
 #: enigma2-plugins/movietagger/src/plugin.py:246
 msgid "Whitepace will be replaced by \"_\""
@@ -20306,9 +21147,12 @@ msgstr ""
 msgid "Y Position [0-680]  needs restart"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:173
 msgid "YYYY/MM/DD"
 msgstr "YYYY/MM/DD"
 
+#: e2openplugin-InfoBarTunerState/src/plugin.py:92
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:176
 msgid "YYYY/MM/DD HH:MM"
 msgstr "YYYY/MM/DD HH:MM"
 
@@ -20316,6 +21160,7 @@ msgstr "YYYY/MM/DD HH:MM"
 msgid "Year:"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "Yellow button function"
 msgstr "وظائف الزر الاصفر"
 
@@ -20370,6 +21215,7 @@ msgstr "نعم ، لكن أعرض الفيديو السابق"
 msgid "Yes, don't ask again"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:361
 msgid "Yes, everything"
 msgstr "نعم ، كل شيء"
 
@@ -20377,12 +21223,15 @@ msgstr "نعم ، كل شيء"
 msgid "Yes, keep them."
 msgstr "نعم , أبق عليهم"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:361
 msgid "Yes, only extra title"
 msgstr "نعم ، العنوان الإضافي فقط"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:357
 msgid "Yes, with Message"
 msgstr "نعم ، مع رسالة"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:357
 msgid "Yes, without Message"
 msgstr "نعم ، بدون رسالة"
 
@@ -20508,7 +21357,7 @@ msgstr ""
 msgid "You must select a valid service!"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:277
+#: enigma2-plugins/easyinfo/src/plugin.py:286
 msgid "You need GUI-restart to load the new settings!"
 msgstr ""
 
@@ -20590,6 +21439,7 @@ msgid ""
 "Please confirm if this was intentional, if not they will be removed."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:217
 msgid ""
 "Your Box is about to go into DeepStandby, continue?\n"
 " Select no to delay one hour"
@@ -20598,6 +21448,7 @@ msgstr ""
 "والاستمرار ؟\n"
 " حدد أن لا يتاخير ساعة واحده"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:221
 msgid ""
 "Your Box is about to go into E2 Restart, continue?\n"
 " Select no to delay one hour"
@@ -20606,6 +21457,7 @@ msgstr ""
 "والاستمرار ؟\n"
 " حدد أن لا يتاخير ساعة واحده"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:219
 msgid ""
 "Your Box is about to go into Reboot, continue?\n"
 " Select no to delay one hour"
@@ -20614,6 +21466,7 @@ msgstr ""
 "والاستمرار ؟\n"
 " حدد أن لا يتاخير ساعة واحده"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:215
 msgid ""
 "Your Box is about to go into Standby, continue?\n"
 " Select no to delay one hour"
@@ -20626,7 +21479,7 @@ msgid "Your autotimer is deprecated"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/plugin.py:128
-#: enigma2-plugins/autotimer/src/plugin.py:241
+#: enigma2-plugins/autotimer/src/plugin.py:246
 #, python-format
 msgid ""
 "Your config file is not well-formed:\n"
@@ -20693,7 +21546,7 @@ msgstr ""
 msgid "Zap Statistic"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:100
+#: enigma2-plugins/easyinfo/src/plugin.py:89
 msgid "Zap and Exit"
 msgstr ""
 
@@ -20714,6 +21567,7 @@ msgstr ""
 msgid "Zap to %s"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:422
 msgid "Zap to channel after record EOF"
 msgstr "أنتقل إلى القناة بعد التسجيل"
 
@@ -20870,7 +21724,7 @@ msgid "add"
 msgstr ""
 
 #. TRANSLATORS: AutoTimer title in MovieList (automatically opens importer, I consider this no further interaction)
-#: enigma2-plugins/autotimer/src/plugin.py:296
+#: enigma2-plugins/autotimer/src/plugin.py:301
 msgid "add AutoTimer"
 msgstr ""
 
@@ -20879,7 +21733,8 @@ msgid "add AutoTimer for Partnerbox..."
 msgstr ""
 
 #. TRANSLATORS: AutoTimer title in EventInfo dialog (requires the user to select an event to base the AutoTimer on)
-#: enigma2-plugins/autotimer/src/plugin.py:298
+#: enigma2-plugins/autotimer/src/plugin.py:303
+#: enigma2-plugins/autotimer/src/plugin.py:304
 msgid "add AutoTimer..."
 msgstr "إضافة مؤقت ألى...."
 
@@ -20960,7 +21815,7 @@ msgstr "إضافة قنوات"
 msgid "add stream to favorites"
 msgstr ""
 
-#: enigma2-plugins/autotimer/src/plugin.py:287
+#: enigma2-plugins/autotimer/src/plugin.py:292
 msgid "add to AutoTimer filter list"
 msgstr ""
 
@@ -20972,6 +21827,7 @@ msgstr ""
 msgid "advanced warning"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
 msgid "after reload list"
 msgstr "بعد إعادة تحميل القائمة"
 
@@ -20983,9 +21839,15 @@ msgstr ""
 msgid "after restart/standby"
 msgstr ""
 
+#: enigma2-plugins/audiorestart/src/plugin.py:15
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:328
 msgid "after standby"
 msgstr "بعد الاستعداد"
 
+#: enigma2-plugins/automaticcleanup/src/plugin.py:90
+#: enigma2-plugins/automaticcleanup/src/plugin.py:94
+#: enigma2-plugins/epgsearch/src/__init__.py:25
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "all"
 msgstr "الكل"
 
@@ -21002,6 +21864,9 @@ msgstr "ترنيب أبجدى"
 msgid "alphabetic sort  (quick toggle by key 0)"
 msgstr ""
 
+#: enigma2-plugins/movieepg/src/plugin.py:18
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
 msgid "always"
 msgstr "دائما"
 
@@ -21009,6 +21874,7 @@ msgstr "دائما"
 msgid "always ask"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
 msgid "always hide"
 msgstr "إخفاء دائما"
 
@@ -21103,12 +21969,15 @@ msgstr ""
 msgid "auto"
 msgstr "تلقائى"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:203
 msgid "auto-start is currently not active."
 msgstr "التشغيل التلقائي غير نشط حاليا."
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:355
 msgid "auto-start window begin"
 msgstr "بدء تشغيل النافذة تلقائيا"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:356
 msgid "auto-start window end"
 msgstr "إنهاء تشغيل النافذة تلقائيا"
 
@@ -21219,6 +22088,8 @@ msgstr ""
 msgid "case-sensitive search"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:352
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:400
 msgid "center"
 msgstr "وسط"
 
@@ -21275,6 +22146,10 @@ msgstr ""
 msgid "config changed."
 msgstr ""
 
+#: e2openplugin-InfoBarTunerState/src/plugin.py:193
+#: enigma2-plugins/podcast/src/plugin.py:613
+#: enigma2-plugins/pushservice/src/plugin.py:109
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:569
 msgid "configuration"
 msgstr "تكوين"
 
@@ -21315,6 +22190,7 @@ msgstr ""
 msgid "copying file ..."
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1081
 msgid "covers in"
 msgstr "الاغلقة في"
 
@@ -21339,6 +22215,7 @@ msgstr ""
 msgid "creating and manipulating partition tables"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "csfd.cz"
 msgstr "csfd.cz"
 
@@ -21372,6 +22249,7 @@ msgstr ""
 msgid "daily"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:354
 msgid "daily auto-start"
 msgstr "تأخير بدء التشغيل التلقائي"
 
@@ -21561,6 +22439,8 @@ msgstr "تم !"
 msgid "done, using last list"
 msgstr ""
 
+#: enigma2-plugins/eibox/src/plugin.py:37
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:242
 msgid "down"
 msgstr "اسفل"
 
@@ -21734,6 +22614,7 @@ msgstr ""
 msgid "error writing to disk, not uploaded"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "every single one"
 msgstr "كل واحد"
 
@@ -21837,9 +22718,11 @@ msgstr ""
 msgid "format"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:191
 msgid "forward to the next chapter"
 msgstr "الانتقال إلى الأمام إلى الفصل التالي"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1081
 msgid "found"
 msgstr "وجدت"
 
@@ -21847,6 +22730,7 @@ msgstr "وجدت"
 msgid "free"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:397
 msgid "from"
 msgstr "من"
 
@@ -21934,12 +22818,15 @@ msgstr ""
 msgid "hide entry"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
 msgid "hide live TV"
 msgstr "إخفاء البث التلفزيوني المباشر"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
 msgid "hide live TV and timeshift"
 msgstr "إخفاء البث التلفزيوني المباشر والتايم شفت"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
 msgid "hide playback"
 msgstr "إخفاء التشغيل"
 
@@ -21990,6 +22877,7 @@ msgstr ""
 msgid "illegal call"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "imdb.com"
 msgstr "imdb.com"
 
@@ -22050,15 +22938,21 @@ msgstr ""
 msgid "is currently offline"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:194
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:222
 msgid "jump back to the previous title"
 msgstr "الانتقال خلفا للعنوان السابق"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:193
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:221
 msgid "jump forward to the next title"
 msgstr "الانتقال أماما للعنوان التالى"
 
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:127
 msgid "jump to next marked position"
 msgstr "الرجوع إلى الوضع القادم  المحدد"
 
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:126
 msgid "jump to previous marked position"
 msgstr "القفز إلى وضع ملحوظ السابقة"
 
@@ -22108,9 +23002,12 @@ msgstr "اترك عارض الافلام .."
 msgid "leave unread"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:352
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:400
 msgid "left"
 msgstr "يسار"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:345
 msgid "left from Name"
 msgstr "الاسم من اليسار"
 
@@ -22371,9 +23268,12 @@ msgstr ""
 msgid "movie list"
 msgstr "قائمة الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:572
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:575
 msgid "movie manipulation list"
 msgstr "قائمة معالجة الافلام"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:410
 msgid "movies in"
 msgstr "أفلام في"
 
@@ -22401,6 +23301,7 @@ msgstr ""
 msgid "never"
 msgstr "مطلقا"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
 msgid "never hide"
 msgstr "أبدا إخفاء"
 
@@ -22483,6 +23384,8 @@ msgstr ""
 msgid "no from"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:53
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:54
 msgid "no limit"
 msgstr "لا يوجد حد"
 
@@ -22704,6 +23607,7 @@ msgstr ""
 msgid "only failed"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
 msgid "only initially"
 msgstr "في البداية فقط"
 
@@ -22747,6 +23651,8 @@ msgstr ""
 msgid "over Security Card"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "overall"
 msgstr "العام"
 
@@ -23012,12 +23918,16 @@ msgstr ""
 msgid "return"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:192
 msgid "rewind to the previous chapter"
 msgstr "عوده للفصل السابق"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:352
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:400
 msgid "right"
 msgstr "اليمين"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:345
 msgid "right from Name"
 msgstr "الاسم من اليمين"
 
@@ -23084,7 +23994,7 @@ msgstr ""
 msgid "saved"
 msgstr ""
 
-#: enigma2-plugins/autotimer/src/plugin.py:284
+#: enigma2-plugins/autotimer/src/plugin.py:289
 msgid "scan for new Events"
 msgstr ""
 
@@ -23122,12 +24032,16 @@ msgstr ""
 msgid "search..."
 msgstr ""
 
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:162
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1081
 msgid "sec"
 msgstr "ثانيه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:410
 msgid "sec found. Avg. Speed:"
 msgstr "العثور علي ثانيه. متوسط السرعة:"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:410
 msgid "sec."
 msgstr "ثانيه."
 
@@ -23246,6 +24160,7 @@ msgstr ""
 msgid "sharper"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:189
 msgid "show DVD main menu"
 msgstr "أعرض قائمة دى فى دى الرئيسيه"
 
@@ -23368,6 +24283,7 @@ msgstr ""
 msgid "single line style"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "single pixel TV, muted"
 msgstr "واحد بكسل التلفزيون ، صامت"
 
@@ -23402,6 +24318,7 @@ msgstr ""
 msgid "standard"
 msgstr "قياسى"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:54
 msgid "standard cover"
 msgstr "غلاف عادي"
 
@@ -23438,6 +24355,7 @@ msgstr "إيقاف التسجيل"
 msgid "stop recording on Partnerbox"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "stop service"
 msgstr "إيقاف الخدمة"
 
@@ -23464,12 +24382,15 @@ msgstr ""
 msgid "switch to skin"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:198
 msgid "switch to the next angle"
 msgstr "الانتقال الى الزاويه التاليه"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:196
 msgid "switch to the next audio track"
 msgstr "الانتقال الى مسار الصوت التالى"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:197
 msgid "switch to the next subtitle language"
 msgstr "الانتقال الى لغة العناوين الفرعيه التاليه"
 
@@ -23489,27 +24410,34 @@ msgstr ""
 msgid "the command was not > 0"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "themoviedb.org"
 msgstr "themoviedb.org"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "themoviedb.org + thetvdb.com"
 msgstr "themoviedb.org + thetvdb.com"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "themoviedb.org + thetvdb.com + imdb.com"
 msgstr "themoviedb.org + thetvdb.com + imdb.com"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:47
 msgid ""
 "themoviedb.org for movies + thetvdb.com for series (e.g. 'S01E01' in title)"
 msgstr ""
 "themoviedb.org للأفلام + thetvdb.com للسلسلة (علي سبيل المثال ' ق 01e01 ' في "
 "العنوان)"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:712
 msgid "thetvdb cover number (standard cover):"
 msgstr "رقم تغطيه thetvdb (الغطاء القياسي):"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:721
 msgid "thetvdb cover range per title:"
 msgstr "نطاق تغطيه thetvdb لكل عنوان:"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "thetvdb.com"
 msgstr "thetvdb.com"
 
@@ -23519,9 +24447,12 @@ msgstr "thetvdb.com"
 msgid "this recording"
 msgstr "هذا التسجيل"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "three contiguous"
 msgstr "ثلاثه متجاورة"
 
+#: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:128
 msgid "toggle a cut mark at the current position"
 msgstr "تبديل علامة قطع في الموضع الحالي"
 
@@ -23554,6 +24485,8 @@ msgstr ""
 msgid "tolerated"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1466
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1094
 msgid "trashcan"
 msgstr "سلة المحذوفات"
 
@@ -23571,6 +24504,8 @@ msgstr ""
 msgid "twitch.tv Live Channel"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "two contiguous"
 msgstr "اثنين متجاورة"
 
@@ -23579,15 +24514,19 @@ msgstr "اثنين متجاورة"
 msgid "type %s is not a number"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
 msgid "type 1 - OSD + black (#00000000)"
 msgstr "type 1 - OSD + black (#00000000)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:247
 msgid "type 2 - transparent + white (#FFFFFFFF)"
 msgstr "type 2 - transparent + white (#FFFFFFFF)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:248
 msgid "type 3 - OSD + black (#00FFFFFF)"
 msgstr "type 3 - OSD + black (#00FFFFFF)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:249
 msgid "type 4 - transparent + black (#FF000000)"
 msgstr "type 4 - transparent + black (#FF000000)"
 
@@ -23631,6 +24570,7 @@ msgstr "قناه غير معروفه"
 msgid "up"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:243
 msgid "up/down"
 msgstr "اعلي/أسفل"
 
@@ -23675,6 +24615,7 @@ msgstr ""
 msgid "view Emails via IMAP4"
 msgstr ""
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:217
 msgid "view extensions..."
 msgstr "مشاهدة الملحقات..."
 
