@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eParted 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-22 08:55+0100\n"
+"POT-Creation-Date: 2019-04-25 09:43+0200\n"
 "PO-Revision-Date: 2019-03-11 07:55+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: mechatron\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-15\n"
 "X-POOTLE-MTIME: 1552290932.000000\n"
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1341
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1346
 msgid ""
 "\n"
 "An Input/output error usually indicates a corrupted filesystem! Please check "
@@ -59,8 +59,44 @@ msgstr ""
 msgid " "
 msgstr " "
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1948
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1950
+#: e2openplugin-InfoBarTunerState/src/Handler/Records.py:67
+msgid "   Number of finished record(s)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:135
+msgid "   Number of pending timer(s)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:137
+msgid "   Show Energy shedule timers"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/StreamOpenWebIf.py:79
+msgid "   Show events of transcoded stream(s) (OpenWebIf)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/StreamServer.py:81
+msgid "   Show events of transcoded stream(s) (StreamServer)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/StreamWebIf.py:80
+msgid "   Show events of transcoded stream(s) (WebIf)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:55
+msgid "   Show events of undefined service(s)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/Records.py:68
+msgid "   Show finished records only for x hour(s)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:136
+msgid "   Show pending records only within x hour(s)"
+msgstr ""
+
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1953
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1955
 msgid "   select default answer for zap-warning-question"
 msgstr ""
 
@@ -299,12 +335,12 @@ msgstr ""
 msgid "%Y.%m.%d %H:%M"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:883
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:944
 #, python-format
 msgid "%d"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:940
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:1001
 #, python-format
 msgid "%d %%"
 msgstr ""
@@ -314,21 +350,21 @@ msgstr ""
 msgid "%d Feed(s) were added to configuration."
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:975
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:1051
 #, python-format
 msgid "%d GB"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:971
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:1047
 #, python-format
 msgid "%d MB"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:899
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:903
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:912
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:915
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:936
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:960
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:964
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:973
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:976
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:997
 #, python-format
 msgid "%d Min"
 msgstr ""
@@ -667,12 +703,12 @@ msgstr ""
 msgid "*** Multiselection active ***"
 msgstr "*** Multisélection active ***"
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:681
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:682
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:739
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:740
 msgid "-"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:100
+#: e2openplugin-InfoBarTunerState/src/plugin.py:101
 msgid "-    HH:MM"
 msgstr ""
 
@@ -1010,7 +1046,7 @@ msgid "A plugin to add / remove / modify entries of fstab."
 msgstr "Un plugin pour ajouter / supprimer / modifier des entrées fstab."
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1164
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1167
 msgid ""
 "A recording is currently running.\n"
 "What do you want to do?"
@@ -1269,11 +1305,11 @@ msgstr ""
 msgid "Add Service"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:87
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:94
 msgid "Add Setup to extension menu"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:86
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:93
 msgid "Add Show to extension menu"
 msgstr ""
 
@@ -2490,7 +2526,7 @@ msgstr ""
 msgid "Background only"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:129
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:136
 msgid "Background transparency"
 msgstr ""
 
@@ -2525,11 +2561,11 @@ msgstr ""
 msgid "Basic Picasa client."
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:69
+#: e2openplugin-InfoBarTunerState/src/plugin.py:70
 msgid "Begin"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:71
+#: e2openplugin-InfoBarTunerState/src/plugin.py:72
 msgid "Begin / End"
 msgstr ""
 
@@ -2548,7 +2584,7 @@ msgstr "Démarrage par période"
 msgid "Begins"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1954
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1959
 msgid "Beta: Enable Permanent Recording?"
 msgstr ""
 
@@ -3087,7 +3123,7 @@ msgstr "Canada"
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:542
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:87
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1926
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:25
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:296
 #: enigma2-plugin-moviecut/src_py/plugin.py:87
@@ -3299,6 +3335,10 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:151
 msgid "Channel Editor"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/plugin.py:65
+msgid "Channel Icon"
 msgstr ""
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:64
@@ -3961,7 +4001,7 @@ msgstr ""
 msgid "Copy, rename, delete, move, show, play, install files."
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1762
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1767
 msgid ""
 "Could not activate Permanent-Timeshift!\n"
 "Timeshift-Path does not exist"
@@ -4286,8 +4326,8 @@ msgstr "Créer programmations sur Dreamboxes distantes."
 msgid "Creating AP and SC Files"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1322
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1342
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1327
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1347
 msgid "Creating Hardlink to Timeshift file failed!"
 msgstr ""
 
@@ -4299,7 +4339,7 @@ msgstr "Création d’une liste de recherche…"
 msgid "Cross fade duration (seconds)"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:743
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:745
 msgid "Current Event:"
 msgstr ""
 
@@ -4410,11 +4450,11 @@ msgstr ""
 msgid "Czech Republic"
 msgstr "République Tchèque"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:88
+#: e2openplugin-InfoBarTunerState/src/plugin.py:89
 msgid "DD.MM HH:MM"
 msgstr "JJ.MM HH:MM"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:89
+#: e2openplugin-InfoBarTunerState/src/plugin.py:90
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:170
 msgid "DD.MM. HH:MM"
 msgstr "JJ.MM HH:MM"
@@ -4423,7 +4463,7 @@ msgstr "JJ.MM HH:MM"
 msgid "DD.MM.YYYY"
 msgstr "JJ.MM.AAAA"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:91
+#: e2openplugin-InfoBarTunerState/src/plugin.py:92
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:167
 msgid "DD.MM.YYYY HH:MM"
 msgstr "JJ.MM.AAAA HH:MM"
@@ -4718,7 +4758,7 @@ msgstr ""
 msgid "Default sort mode"
 msgstr "Tri par défaut"
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1154
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1157
 msgid "Default storage device is not available!"
 msgstr ""
 
@@ -4985,11 +5025,11 @@ msgstr "Délai de mise à jour du champ description"
 msgid "Description:"
 msgstr "Description:"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:75
+#: e2openplugin-InfoBarTunerState/src/plugin.py:76
 msgid "Destination"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:78
+#: e2openplugin-InfoBarTunerState/src/plugin.py:79
 msgid "Destination / Client"
 msgstr ""
 
@@ -5578,7 +5618,7 @@ msgid "Don't save"
 msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:86
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:726
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:728
 msgid "Don't save Timeshift as Movie"
 msgstr ""
 
@@ -5820,7 +5860,7 @@ msgstr ""
 msgid "Dreambox: "
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:72
+#: e2openplugin-InfoBarTunerState/src/plugin.py:73
 msgid "Duration"
 msgstr ""
 
@@ -6506,7 +6546,7 @@ msgstr "Activer authentification HTTPS"
 msgid "Enable Hotkey"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:84
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:91
 msgid "Enable InfoBarTunerState"
 msgstr ""
 
@@ -6701,14 +6741,14 @@ msgstr ""
 msgid "Encryption"
 msgstr "Cryptage"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:70
+#: e2openplugin-InfoBarTunerState/src/plugin.py:71
 #: enigma2-plugins/eparted/src/eparted.py:312
 msgid "End"
 msgstr "Fin"
 
-#: enigma2-plugins/pluginsort/src/plugin.py:314
-#: enigma2-plugins/pluginsort/src/plugin.py:317
-#: enigma2-plugins/pluginsort/src/plugin.py:446
+#: enigma2-plugins/pluginsort/src/plugin.py:320
+#: enigma2-plugins/pluginsort/src/plugin.py:323
+#: enigma2-plugins/pluginsort/src/plugin.py:452
 msgid "End Sort"
 msgstr ""
 
@@ -7670,12 +7710,12 @@ msgstr "Chercher entrées feed"
 msgid "Fetching search entries"
 msgstr "Chercher entrées recherche"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:112
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:119
 #, python-format
 msgid "Field %d content"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:116
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:123
 #, python-format
 msgid "Field %d width"
 msgstr ""
@@ -7686,7 +7726,7 @@ msgstr ""
 msgid "File %s does not exists"
 msgstr "Le fichier %s n'existe pas"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:81
+#: e2openplugin-InfoBarTunerState/src/plugin.py:82
 msgid "File Size"
 msgstr ""
 
@@ -8049,7 +8089,7 @@ msgstr ""
 msgid "France"
 msgstr "France"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:82
+#: e2openplugin-InfoBarTunerState/src/plugin.py:83
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:126
 msgid "Free Space"
 msgstr ""
@@ -8316,8 +8356,8 @@ msgstr ""
 msgid "Getting EPG Information..."
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1238
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1260
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1243
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1265
 msgid "Getting Event Info failed!"
 msgstr ""
 
@@ -9093,23 +9133,23 @@ msgstr "AIDE_paramètres séparateur_corbeille"
 msgid "HELP_separator_hide&performance"
 msgstr "AIDE_séparateur_cacher&performance"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:87
+#: e2openplugin-InfoBarTunerState/src/plugin.py:88
 msgid "HH:MM"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:93
+#: e2openplugin-InfoBarTunerState/src/plugin.py:94
 msgid "HH:MM DD.MM"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:95
+#: e2openplugin-InfoBarTunerState/src/plugin.py:96
 msgid "HH:MM DD.MM.YYYY"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:94
+#: e2openplugin-InfoBarTunerState/src/plugin.py:95
 msgid "HH:MM MM/DD"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:96
+#: e2openplugin-InfoBarTunerState/src/plugin.py:97
 msgid "HH:MM YYYY/MM/DD"
 msgstr ""
 
@@ -9155,7 +9195,7 @@ msgstr ""
 msgid "Hebrew / Arabic"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:402
+#: enigma2-plugins/pluginsort/src/plugin.py:408
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:297
 #: enigma2-plugins/podcast/src/plugin.py:605
 #: enigma2-plugins/elektro/src/plugin.py:493
@@ -9270,11 +9310,11 @@ msgstr "Alignement horizontal pour nombre/taille"
 msgid "Horizontal alignment for date"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:121
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:128
 msgid "Horizontal offset left in pixel"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:122
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:129
 msgid "Horizontal offset right in pixel"
 msgstr ""
 
@@ -9839,7 +9879,7 @@ msgstr ""
 msgid "InfoBarTunerState Setup"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:248
+#: e2openplugin-InfoBarTunerState/src/plugin.py:249
 msgid "InfoBarTunerState is disabled"
 msgstr ""
 
@@ -9853,7 +9893,7 @@ msgstr ""
 msgid "Infobar and window style:"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:145
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:152
 msgid "Infobar timeout"
 msgstr "Temps dépassé barre d'infos"
 
@@ -10327,7 +10367,7 @@ msgstr "Lien"
 msgid "List entries to skip"
 msgstr "Liste des entrées à sauter"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:128
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:135
 msgid "List goes up"
 msgstr ""
 
@@ -10542,11 +10582,11 @@ msgstr ""
 msgid "Location:"
 msgstr "Localisation:"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:134
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:141
 msgid "Log debug prints to shell"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:140
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:147
 msgid "Log file path and name"
 msgstr ""
 
@@ -10554,7 +10594,7 @@ msgstr ""
 msgid "Log level"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:135
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:142
 msgid "Log to file"
 msgstr ""
 
@@ -10626,7 +10666,7 @@ msgstr ""
 "Limite inférieure de période. Rien avant cette fois ne sera trié. Les "
 "décalages ne sont pas pris en considération!"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:90
+#: e2openplugin-InfoBarTunerState/src/plugin.py:91
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:179
 msgid "MM/DD HH:MM"
 msgstr "MM/DD HH:MM"
@@ -10686,7 +10726,7 @@ msgstr ""
 
 #
 #. TRANSLATORS: leaving this empty is encouraged to not cause any confusion (this string was taken directly from the standard PluginBrowser)
-#: enigma2-plugins/pluginsort/src/plugin.py:313
+#: enigma2-plugins/pluginsort/src/plugin.py:319
 msgid "Manage extensions"
 msgstr "Gestionnaire extensions"
 
@@ -10839,7 +10879,7 @@ msgstr ""
 msgid "Maximum Connections"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1837
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1842
 msgid ""
 "Maximum Timeshift length per Event reached!\n"
 "Restarting Timeshift now ..."
@@ -11784,7 +11824,7 @@ msgstr "Partage NFS"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:419
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:156
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:306
-#: e2openplugin-InfoBarTunerState/src/plugin.py:65
+#: e2openplugin-InfoBarTunerState/src/plugin.py:66
 #: enigma2-plugins/growlee/src/plugin.py:167
 #: enigma2-plugins/elektro/src/plugin.py:471
 #: enigma2-plugins/showclock/src/plugin.py:121
@@ -12039,7 +12079,7 @@ msgstr ""
 msgid "No File-Manager installed!"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1159
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1162
 msgid "No HDD found or HDD not initialized!"
 msgstr "Aucun disque dur trouvé oudisque dur non initialisé!"
 
@@ -12076,7 +12116,7 @@ msgstr ""
 msgid "No Timer Available!"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:840
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:842
 msgid "No Timeshift found to save as recording!"
 msgstr ""
 
@@ -12099,7 +12139,7 @@ msgstr ""
 msgid "No data available"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1148
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1151
 msgid "No default storage device found!"
 msgstr ""
 
@@ -12335,7 +12375,7 @@ msgid "No, remove them."
 msgstr "Non, les retirer."
 
 #
-#: e2openplugin-InfoBarTunerState/src/plugin.py:83
+#: e2openplugin-InfoBarTunerState/src/plugin.py:84
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:370
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:401
 #: enigma2-plugins/autotimer/src/__init__.py:13
@@ -12372,7 +12412,7 @@ msgstr ""
 msgid "Not easy way to start EasyMedia"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:977
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:979
 #, python-format
 msgid ""
 "Not enough free Diskspace!\n"
@@ -12431,7 +12471,7 @@ msgstr ""
 msgid "Nothing found..."
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:381
+#: e2openplugin-InfoBarTunerState/src/InfoBarTunerState.py:395
 msgid "Nothing running"
 msgstr ""
 
@@ -12490,12 +12530,8 @@ msgid ""
 "disable history entirely."
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:93
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:100
 msgid "Number of finished entries in list"
-msgstr ""
-
-#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:132
-msgid "Number of pending timer(s)"
 msgstr ""
 
 #
@@ -12507,7 +12543,7 @@ msgstr "nombre d'enregistrements programmés restants."
 msgid "Number of search results to display at most."
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:94
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:101
 msgid "Number of seconds for displaying finished entries"
 msgstr ""
 
@@ -12621,7 +12657,7 @@ msgstr ""
 #: enigma2-plugin-pzyp4t/src/plugin.py:3415
 #: enigma2-plugin-pzyp4t/src/plugin.py:3783
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:637
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1925
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:26
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:297
 #: enigma2-plugin-moviecut/src_py/plugin.py:86
@@ -12807,15 +12843,15 @@ msgstr "Seulement sur service: %s"
 msgid "Only on Weekday: %s"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:222
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:228
 msgid "Only one Graphical Progress field allowed:"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:217
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:223
 msgid "Only one Icon field allowed:"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:213
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:219
 msgid "Only one Name field allowed:"
 msgstr ""
 
@@ -12995,7 +13031,7 @@ msgstr ""
 msgid "Overwrite HBBTV-red-button"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:130
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:137
 msgid "Overwrite Infobar timeout"
 msgstr ""
 
@@ -13028,7 +13064,7 @@ msgstr ""
 msgid "PMT PID"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:837
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:839
 #, python-format
 msgid "PTS Plugin Error: %s"
 msgstr ""
@@ -13259,15 +13295,15 @@ msgstr ""
 msgid "Permanent Clock"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1935
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1940
 msgid "Permanent Timeshift Enable"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1938
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1943
 msgid "Permanent Timeshift Max Events"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1939
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1944
 msgid "Permanent Timeshift Max Length"
 msgstr ""
 
@@ -13275,16 +13311,16 @@ msgstr ""
 msgid "Permanent Timeshift Plugin for E2 Dreamboxes"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1995
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:2000
 msgid "Permanent Timeshift Settings"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1911
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1916
 #, python-format
 msgid "Permanent Timeshift Settings Version %s"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1940
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1945
 msgid "Permanent Timeshift Start Delay"
 msgstr ""
 
@@ -13391,7 +13427,7 @@ msgstr ""
 msgid "Place the cut movie in a new file ending with \" cut\""
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:127
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:134
 msgid "Placeholder for Progressbar"
 msgstr ""
 
@@ -13605,13 +13641,13 @@ msgstr "Veuillez saisir votre terme de recherche."
 msgid "Please install missing python paket manually"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1149
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1152
 msgid ""
 "Please make sure to set up your default storage device in menu -> setup -> "
 "system -> recording paths."
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1145
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1148
 msgid ""
 "Please make sure to set up your storage devices with the storage management "
 "in menu -> setup -> system -> storage devices."
@@ -13719,7 +13755,7 @@ msgid ""
 "cancel the moving."
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1155
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1158
 msgid ""
 "Please verify if your default storage device is attached or set up your "
 "default storage device in menu -> setup -> system -> recording paths."
@@ -14523,7 +14559,7 @@ msgstr ""
 
 #
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:382
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:176
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:254
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:770
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1187
@@ -14633,7 +14669,7 @@ msgstr ""
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:241
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:505
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:51
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:764
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:766
 msgid "Record"
 msgstr "Enregistrer"
 
@@ -14685,7 +14721,7 @@ msgstr ""
 msgid "Record rename has been finished with %d errors:\n"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1790
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1795
 msgid "Record started! Stopping timeshift now ..."
 msgstr ""
 
@@ -15618,12 +15654,12 @@ msgid "Save Playlist"
 msgstr "Sauver liste lecture"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:85
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:725
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:727
 msgid "Save Timeshift as Movie and continue recording"
 msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:84
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:724
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:726
 msgid "Save Timeshift as Movie and stop recording"
 msgstr ""
 
@@ -15718,8 +15754,8 @@ msgstr ""
 msgid "Saving Timeshift files"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:800
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:973
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:802
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:975
 msgid "Saving timeshift as movie now. This might take a while!"
 msgstr ""
 
@@ -16790,10 +16826,6 @@ msgstr ""
 msgid "Show EPG in columns:"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:133
-msgid "Show Energy shedule timers"
-msgstr ""
-
 #: enigma2-plugin-pzyp4t/src/plugin.py:3555
 msgid "Show EventEit"
 msgstr ""
@@ -16848,7 +16880,7 @@ msgid "Show Merlin-iDream:"
 msgstr ""
 
 #
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:146
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:153
 msgid "Show Message when Recording starts"
 msgstr "Montrer message en démarrant l'enregistrement"
 
@@ -16868,7 +16900,7 @@ msgstr ""
 msgid "Show Outgoing Calls"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1943
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1948
 msgid "Show PTS Infobar while timeshifting?"
 msgstr ""
 
@@ -17191,11 +17223,7 @@ msgstr ""
 msgid "Show only calls for specific MSN"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:134
-msgid "Show pending records only within x hour(s)"
-msgstr ""
-
-#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:131
+#: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:132
 msgid "Show pending timer(s)"
 msgstr ""
 
@@ -17227,11 +17255,11 @@ msgstr ""
 msgid "Show real length of running records"
 msgstr "Afficher la vraie longueur de la lecture en cours"
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1944
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1949
 msgid "Show real remainingtime while timeshifting?"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/Records.py:70
+#: e2openplugin-InfoBarTunerState/src/Handler/Records.py:64
 msgid "Show record(s)"
 msgstr ""
 
@@ -17250,10 +17278,6 @@ msgstr ""
 
 #: enigma2-plugins/3dsettings/src/plugin.py:219
 msgid "Show side by side option in extension menu"
-msgstr ""
-
-#: e2openplugin-InfoBarTunerState/src/Handler/StreamWebIf.py:73
-msgid "Show stream(s) (WebIf)"
 msgstr ""
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:108
@@ -17286,11 +17310,15 @@ msgstr ""
 msgid "Show top/bottom option in extension menu"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/StreamOpenWebIf.py:72
+#: e2openplugin-InfoBarTunerState/src/Handler/StreamOpenWebIf.py:76
 msgid "Show transcoded stream(s) (OpenWebIf)"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/StreamServer.py:74
+#: e2openplugin-InfoBarTunerState/src/Handler/StreamServer.py:78
+msgid "Show transcoded stream(s) (StreamServer)"
+msgstr ""
+
+#: e2openplugin-InfoBarTunerState/src/Handler/StreamWebIf.py:77
 msgid "Show transcoded stream(s) (WebIf)"
 msgstr ""
 
@@ -17306,7 +17334,7 @@ msgstr "Afficher les informations de la corbeille"
 msgid "Show tv/radio switch:"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:48
+#: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:52
 msgid "Show undefined service(s)"
 msgstr ""
 
@@ -17322,15 +17350,15 @@ msgstr ""
 msgid "Show webcam pictures on your TV Screen"
 msgstr "Montrer images webcam sur votre écran TV"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:89
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:96
 msgid "Show with InfoBar (TV-mode)"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:90
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:97
 msgid "Show with Infobar (MoviePlayer)"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1945
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1950
 msgid "Show zap-warning on active timeshifting?"
 msgstr ""
 
@@ -17514,7 +17542,7 @@ msgstr ""
 msgid "Skip intro by predefined skip time"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:132
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:139
 msgid "Skip mounts for free space statistics"
 msgstr ""
 
@@ -17720,9 +17748,9 @@ msgstr ""
 msgid "Sorry, video is not available!"
 msgstr "Désolé, la vidéo n'est pas disponible!"
 
-#: enigma2-plugins/pluginsort/src/plugin.py:314
-#: enigma2-plugins/pluginsort/src/plugin.py:317
-#: enigma2-plugins/pluginsort/src/plugin.py:434
+#: enigma2-plugins/pluginsort/src/plugin.py:320
+#: enigma2-plugins/pluginsort/src/plugin.py:323
+#: enigma2-plugins/pluginsort/src/plugin.py:440
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:95
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:123
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:180
@@ -17767,11 +17795,11 @@ msgstr ""
 msgid "Sort AutoTimer"
 msgstr "Trier ProgAuto"
 
-#: enigma2-plugins/pluginsort/src/plugin.py:284
+#: enigma2-plugins/pluginsort/src/plugin.py:290
 msgid "Sort EventInfo Extensions"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:282
+#: enigma2-plugins/pluginsort/src/plugin.py:288
 msgid "Sort Extensions"
 msgstr ""
 
@@ -17779,7 +17807,7 @@ msgstr ""
 msgid "Sort Mode"
 msgstr "Mode de tri"
 
-#: enigma2-plugins/pluginsort/src/plugin.py:283
+#: enigma2-plugins/pluginsort/src/plugin.py:289
 msgid "Sort MovieList Extensions"
 msgstr ""
 
@@ -18099,7 +18127,7 @@ msgid "Start record"
 msgstr ""
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1177
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1180
 msgid "Start recording?"
 msgstr "Démarrer l'enregistrement?"
 
@@ -18339,7 +18367,7 @@ msgstr ""
 msgid "Stop timer"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1942
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1947
 msgid "Stop timeshift while recording?"
 msgstr ""
 
@@ -18361,11 +18389,11 @@ msgstr ""
 msgid "Stream %s"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:76
+#: e2openplugin-InfoBarTunerState/src/plugin.py:77
 msgid "Stream Client"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:77
+#: e2openplugin-InfoBarTunerState/src/plugin.py:78
 msgid "Stream Client with Port"
 msgstr ""
 
@@ -18776,7 +18804,7 @@ msgstr ""
 msgid "Text only"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:124
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:131
 msgid "Text padding offset in pixel"
 msgstr ""
 
@@ -18792,7 +18820,7 @@ msgstr "Texte affiché pour la taille de répertoire initiallement inconnu"
 msgid "Text shown for initially unknown file count"
 msgstr "Texte affiché pour le nombre de fichiers initialement inconnu"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:125
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:132
 msgid "Text spacing offset in pixel"
 msgstr ""
 
@@ -18862,7 +18890,7 @@ msgid ""
 "sleep time. Hence you needn't wait for it to boot-up."
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1322
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1327
 msgid ""
 "The Filesystem on your Timeshift-Device does not support hardlinks.\n"
 "Make sure it is formated in EXT2 or EXT3!"
@@ -18899,7 +18927,7 @@ msgstr ""
 "La programmation ne sera pas ajoutée à la liste.\n"
 "Veuillez presser OK pour fermer cet assistant."
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:723
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:725
 msgid ""
 "The Timeshift record was not saved yet!\n"
 "What do you want to do now with the timeshift file?"
@@ -19584,23 +19612,23 @@ msgstr ""
 msgid "Time - Without Endtime Selected"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:68
+#: e2openplugin-InfoBarTunerState/src/plugin.py:69
 msgid "Time Elapsed"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:67
+#: e2openplugin-InfoBarTunerState/src/plugin.py:68
 msgid "Time Left"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:66
+#: e2openplugin-InfoBarTunerState/src/plugin.py:67
 msgid "Time Left / Duration"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:91
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:98
 msgid "Time format begin"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:92
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:99
 msgid "Time format end"
 msgstr ""
 
@@ -19669,11 +19697,11 @@ msgstr ""
 msgid "Timer ON - Deactivate All Conflicts"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:73
+#: e2openplugin-InfoBarTunerState/src/plugin.py:74
 msgid "Timer Progress (Graphical)"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:74
+#: e2openplugin-InfoBarTunerState/src/plugin.py:75
 msgid "Timer Progress (Text)"
 msgstr ""
 
@@ -19755,30 +19783,30 @@ msgstr ""
 
 #
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:392
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1172
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1173
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1182
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1183
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1175
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1176
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1185
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1186
 msgid "Timeshift"
 msgstr "PauseDirect"
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1989
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1994
 msgid "Timeshift Settings"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:987
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:989
 msgid "Timeshift save failed!"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1482
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1487
 msgid "Timeshift saved to your harddisk!"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1194
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1197
 msgid "Timeshift will get saved at end of event!"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1941
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1946
 msgid "Timeshift-Save Action on zap"
 msgstr ""
 
@@ -20254,11 +20282,11 @@ msgstr ""
 msgid "Unable to download picture: %s"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:420
+#: enigma2-plugins/pluginsort/src/plugin.py:426
 msgid "Unable to load PluginHider"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1144
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1147
 msgid "Unconfigured storage devices found!"
 msgstr ""
 
@@ -20490,7 +20518,7 @@ msgstr ""
 "Limite supérieure de période. Rien après cette fois ne sera comparé. Les "
 "décalages ne sont pas pris en compte!"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:78
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:85
 #: enigma2-plugins/virtualzap/src/plugin.py:727
 msgid "Usage"
 msgstr ""
@@ -20606,7 +20634,7 @@ msgstr ""
 msgid "Used Tag"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:130
+#: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:140
 msgid "Used by unknown service"
 msgstr ""
 
@@ -20801,7 +20829,7 @@ msgstr ""
 msgid "Vanity"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:126
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:133
 msgid "Variable field width"
 msgstr ""
 
@@ -20831,7 +20859,7 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:123
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:130
 msgid "Vertical offset in pixel"
 msgstr ""
 
@@ -21052,7 +21080,7 @@ msgstr ""
 msgid "WARNING: Cookies are required to store the settings!"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:97
+#: e2openplugin-InfoBarTunerState/src/plugin.py:98
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:171
 msgid "WD DD.MM. HH:MM"
 msgstr ""
@@ -21065,7 +21093,7 @@ msgstr ""
 msgid "WD DD.MM.YYYY HH:MM"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:99
+#: e2openplugin-InfoBarTunerState/src/plugin.py:100
 msgid "WD HH:MM"
 msgstr ""
 
@@ -21081,7 +21109,7 @@ msgstr ""
 msgid "WD YYYY/MM/DD HH:MM"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:98
+#: e2openplugin-InfoBarTunerState/src/plugin.py:99
 msgid "WD, DD.MM. HH:MM"
 msgstr ""
 
@@ -21121,7 +21149,7 @@ msgstr "Attendez"
 msgid "Waiting until poweroff"
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:131
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:138
 msgid "Wake HDD for free space statistics"
 msgstr ""
 
@@ -21523,7 +21551,7 @@ msgstr ""
 msgid "Which channel do you want to add?"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:766
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:768
 msgid "Which event do you want to save permanently?"
 msgstr ""
 
@@ -21683,7 +21711,7 @@ msgstr ""
 msgid "YYYY/MM/DD"
 msgstr "AAAA/MM/JJ"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:92
+#: e2openplugin-InfoBarTunerState/src/plugin.py:93
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:176
 msgid "YYYY/MM/DD HH:MM"
 msgstr "AAAA/MM/JJ HH:MM"
@@ -22195,11 +22223,11 @@ msgstr ""
 msgid "[Media files] "
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1417
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1422
 msgid "[PTS-Plugin] Merging records failed!"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:719
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:721
 msgid "[PTS-Plugin] Restarting Timeshift!"
 msgstr ""
 
@@ -22316,26 +22344,26 @@ msgid "add partition"
 msgstr "Ajout partition"
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1168
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1180
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1171
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1183
 msgid "add recording (enter recording duration)"
 msgstr "ajout d'enregistrement (saisir durée d'enregistrement)"
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1169
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1181
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1172
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1184
 msgid "add recording (enter recording endtime)"
 msgstr "ajout d'enregistrement (saisir heure de fin)"
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1167
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1179
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1170
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1182
 msgid "add recording (indefinitely)"
 msgstr "ajout d'enregistrement (indéfiniment)"
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1166
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1178
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1169
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1181
 msgid "add recording (stop after current event)"
 msgstr "ajout d'enregistrement (stopper après l'émission)"
 
@@ -22648,12 +22676,12 @@ msgid "change name..."
 msgstr ""
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1170
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1173
 msgid "change recording (duration)"
 msgstr "modifier un enregistrement (durée)"
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1171
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1174
 msgid "change recording (endtime)"
 msgstr "modifier un enregistrement (heure de fin)"
 
@@ -22698,7 +22726,7 @@ msgstr ""
 msgid "config changed."
 msgstr ""
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:193
+#: e2openplugin-InfoBarTunerState/src/plugin.py:194
 #: enigma2-plugins/podcast/src/plugin.py:613
 #: enigma2-plugins/pushservice/src/plugin.py:109
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:569
@@ -22910,7 +22938,7 @@ msgstr "Désactiver DMM-Fancontrol"
 
 #
 #. TRANSLATORS: there is no need to translate this string, as it was reused from e2 core
-#: enigma2-plugins/pluginsort/src/plugin.py:386
+#: enigma2-plugins/pluginsort/src/plugin.py:392
 msgid "disable move mode"
 msgstr "désactiver le mode déplacement"
 
@@ -22972,12 +23000,12 @@ msgstr ""
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:28
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:282
 #: enigma2-plugins/fancontrol2/src/plugin.py:169
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1174
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1177
 msgid "do nothing"
 msgstr "ne rien faire"
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1184
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1187
 msgid "don't record"
 msgstr "ne pas enregistrer"
 
@@ -23095,7 +23123,7 @@ msgstr ""
 
 #
 #. TRANSLATORS: there is no need to translate this string, as it was reused from e2 core
-#: enigma2-plugins/pluginsort/src/plugin.py:389
+#: enigma2-plugins/pluginsort/src/plugin.py:395
 msgid "enable move mode"
 msgstr "activer le mode déplacement"
 
@@ -23406,7 +23434,7 @@ msgstr ""
 msgid "hide recordingtime"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:399
+#: enigma2-plugins/pluginsort/src/plugin.py:405
 msgid "hide selected plugin"
 msgstr ""
 
@@ -23445,7 +23473,7 @@ msgstr ""
 msgid "if no prefered audio language"
 msgstr ""
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:223
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:231
 msgid "illegal call"
 msgstr ""
 
@@ -23818,11 +23846,11 @@ msgstr ""
 msgid "move directory"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:395
+#: enigma2-plugins/pluginsort/src/plugin.py:401
 msgid "move event extensions"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:393
+#: enigma2-plugins/pluginsort/src/plugin.py:399
 msgid "move extensions"
 msgstr ""
 
@@ -23830,7 +23858,7 @@ msgstr ""
 msgid "move file"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/src/plugin.py:394
+#: enigma2-plugins/pluginsort/src/plugin.py:400
 msgid "move movie extensions"
 msgstr ""
 
@@ -24567,13 +24595,13 @@ msgstr ""
 msgid "save last Map Position"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1173
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1183
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1176
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1186
 msgid "save recording (Select event)"
 msgstr ""
 
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1172
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1182
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1175
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1185
 msgid "save recording (stop after current event)"
 msgstr ""
 
@@ -24949,7 +24977,7 @@ msgid "stop TV Service on Start"
 msgstr ""
 
 #
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1165
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1168
 msgid "stop recording"
 msgstr "arrêter l'enregistrement"
 
