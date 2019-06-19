@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-25 09:43+0200\n"
-"PO-Revision-Date: 2019-03-11 07:51+0000\n"
+"POT-Creation-Date: 2019-06-19 13:32+0200\n"
+"PO-Revision-Date: 2019-03-22 07:59+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Arabic <moustafagamal@hotmail.com>\n"
 "Language: ar\n"
@@ -24,7 +24,7 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Pootle 2.8\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
-"X-POOTLE-MTIME: 1552290680.000000\n"
+"X-POOTLE-MTIME: 1553241556.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1346
 msgid ""
@@ -185,6 +185,10 @@ msgstr ""
 
 #: enigma2-plugins/twitchtv/src/plugin.py:415
 msgid " (Live VOD)"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:580
+msgid " (search filter)"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:720
@@ -399,7 +403,7 @@ msgstr ""
 
 #
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:352
-#: enigma2-plugins/easyinfo/src/plugin.py:645
+#: enigma2-plugins/easyinfo/src/plugin.py:654
 #, python-format
 msgid "%d min"
 msgstr "%d دقيقه"
@@ -989,7 +993,7 @@ msgstr ""
 msgid "??:??"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:464
+#: enigma2-plugins/elektro/src/plugin.py:467
 msgid "A NAS/Server can be shut down. Is required activated Telnet."
 msgstr ""
 
@@ -1202,6 +1206,7 @@ msgid "Activate Picture in Picture"
 msgstr "صوره داخل صوره نشط"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:674
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:52
 msgid "Activate VPS"
 msgstr " تنشيط VPS  "
 
@@ -1225,7 +1230,7 @@ msgstr ""
 msgid "Active"
 msgstr "نشط"
 
-#: enigma2-plugins/elektro/src/plugin.py:443
+#: enigma2-plugins/elektro/src/plugin.py:445
 msgid "Active Time Profile"
 msgstr ""
 
@@ -1279,10 +1284,6 @@ msgstr ""
 msgid "Add"
 msgstr "أضف"
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:78
-msgid "Add \"Search\" button to EPG"
-msgstr ""
-
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:166
 #, python-format
 msgid "Add %s to playlist"
@@ -1291,6 +1292,10 @@ msgstr ""
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:118
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:285
 msgid "Add Controller"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:256
+msgid "Add EPGSearch search filter"
 msgstr ""
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:721
@@ -1491,17 +1496,17 @@ msgstr ""
 msgid "Add tags to recorded movies"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:86
-msgid "Add the short description of the event to the search result"
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:85
+msgid "Add the short description of the event to the search result."
 msgstr ""
 
 #
 #: enigma2-plugin-partnerbox/src/plugin.py:245
 #: enigma2-plugin-partnerbox/src/plugin.py:312
-#: enigma2-plugins/easyinfo/src/plugin.py:659
+#: enigma2-plugins/easyinfo/src/plugin.py:668
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1319
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1327
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:192
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:206
 msgid "Add timer"
 msgstr "أضف مؤقت"
 
@@ -1599,6 +1604,7 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:473
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:201
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:640
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:44
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:63
 msgid "After event"
 msgstr "بعد الحدث"
@@ -1616,7 +1622,7 @@ msgstr ""
 msgid "Age of finished movies in movie folder (days)"
 msgstr "عمر الأفلام النهائية في مجلد الفيلم (أيام)"
 
-#: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontrol.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontrol.xml
+#: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
 msgid "Ai.HD skin-style control plugin"
 msgstr ""
 
@@ -2026,11 +2032,8 @@ msgstr ""
 msgid "Ask default Yes"
 msgstr ""
 
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:13
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:15
-#: enigma2-plugins/dreammediathek/src/plugin.py:18
-#: enigma2-plugins/dreammediathek/src/plugin.py:20
 #: enigma2-plugins/epgsearch/src/__init__.py:12
+#: enigma2-plugins/epgsearch/src/__init__.py:29
 #: enigma2-plugins/mytube/src/plugin.py:121
 #: enigma2-plugins/mytube/src/plugin.py:124
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:61
@@ -2288,6 +2291,11 @@ msgstr ""
 msgid "AutoTimer was removed"
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:340
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:355
+msgid "AutoTimer-plugin must be installed to use the search filter function!"
+msgstr ""
+
 #: enigma2-plugins/autotimer/src/AutoTimerResource.py:281
 msgid "AutoTimers were changed successfully"
 msgstr ""
@@ -2390,7 +2398,7 @@ msgstr ""
 msgid "Automatically select Audio- and Subtitle tracks"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:103
+#: enigma2-plugins/elektro/src/plugin.py:104
 msgid "Automatically shut down to deep standby"
 msgstr ""
 
@@ -2433,7 +2441,7 @@ msgstr "سيارات ومركبات"
 msgid "Autotimer"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:541
+#: enigma2-plugins/easyinfo/src/plugin.py:550
 msgid "Autotimer is not installed!"
 msgstr ""
 
@@ -2450,16 +2458,20 @@ msgstr "مؤقت الكتابه الالى"
 msgid "Available plugins menu"
 msgstr "قائمه الإضافات المتاحة"
 
-#: enigma2-plugins/elektro/src/plugin.py:457
+#: enigma2-plugins/elektro/src/plugin.py:460
 msgid "Avoid deep standby on network activity, e.g. for Streaming"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:459
+#: enigma2-plugins/elektro/src/plugin.py:462
 msgid "Avoid deep standby on nfs-read activity, e.g. for Streaming"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:455
+#: enigma2-plugins/elektro/src/plugin.py:458
 msgid "Avoid deep standby when HDD is active, e.g. for FTP"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:87
+msgid "BUTTONS"
 msgstr ""
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:937
@@ -2600,6 +2612,10 @@ msgstr ""
 msgid "Blue button function"
 msgstr "وظيفة الزر الأزرق"
 
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:94
+msgid "Blue button function (search list)"
+msgstr ""
+
 #: enigma2-plugins/emailclient/src/plugin.py:398
 msgid "Bodys"
 msgstr ""
@@ -2641,7 +2657,7 @@ msgstr ""
 msgid "Both"
 msgstr "كلاهما"
 
-#: enigma2-plugins/elektro/src/plugin.py:448
+#: enigma2-plugins/elektro/src/plugin.py:450
 msgid ""
 "Both profiles are used alternately. When shutting down the other profile is "
 "enabled. This allows two time cycles per day. Do not overlap the times."
@@ -2698,12 +2714,6 @@ msgstr "الإضاءه"
 msgid "Broken records"
 msgstr ""
 
-#: enigma2-plugins/orfteletext/meta/plugin_orfteletext.xml./enigma2-plugins/orfteletext/meta/plugin_orfteletext.xml
-msgid ""
-"Browse ORF and SAT1 Teletext independent from channel. This need I-net "
-"conection."
-msgstr ""
-
 #: enigma2-plugin-networkbrowser/meta/plugin_networkbrowser.xml./enigma2-plugin-networkbrowser/meta/plugin_networkbrowser.xml
 msgid "Browse for and connect to network shares"
 msgstr ""
@@ -2743,6 +2753,18 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:233
 msgid "Button disabled"
 msgstr "تم تعطيل الزر"
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:88
+msgid "Buttons for 'Search EPG'"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:93
+msgid "Buttons for 'add search filter to EPGSearch'"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:89
+msgid "Buttons for 'open EPGSearch search list'"
+msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:563
 msgid ""
@@ -2965,7 +2987,6 @@ msgstr "كندا"
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:51
 #: enigma2-plugins/remotetimer/src/plugin.py:105
 #: enigma2-plugins/remotetimer/src/plugin.py:232
-#: enigma2-plugins/dreammediathek/src/plugin.py:68
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:118
 #: enigma2-plugins/audiosync/src/AC3main.py:65
 #: enigma2-plugins/audiosync/src/AC3setup.py:58
@@ -2998,10 +3019,10 @@ msgstr "كندا"
 #: enigma2-plugins/pipservicerelation/src/plugin.py:188
 #: enigma2-plugins/simplerss/src/RSSSetup.py:23
 #: enigma2-plugins/simplerss/src/RSSSetup.py:70
-#: enigma2-plugins/elektro/src/plugin.py:266
-#: enigma2-plugins/elektro/src/plugin.py:311
-#: enigma2-plugins/elektro/src/plugin.py:389
-#: enigma2-plugins/elektro/src/plugin.py:491
+#: enigma2-plugins/elektro/src/plugin.py:268
+#: enigma2-plugins/elektro/src/plugin.py:313
+#: enigma2-plugins/elektro/src/plugin.py:391
+#: enigma2-plugins/elektro/src/plugin.py:494
 #: enigma2-plugins/3dsettings/src/plugin.py:184
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:174
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:39
@@ -3039,7 +3060,7 @@ msgstr "كندا"
 #: enigma2-plugins/genuinedreambox/src/plugin.py:81
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:765
 #: enigma2-plugins/quickbutton/src/plugin.py:196
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:613
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:779
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:59
 #: enigma2-plugins/audiorestart/src/plugin.py:107
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:30
@@ -3098,12 +3119,12 @@ msgstr ""
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2795
 #: enigma2-plugins/fritzcall/src/plugin.py:3505
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3907
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4144
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4164
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4203
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4282
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4308
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3917
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4154
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4174
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4215
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4294
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4320
 msgid ""
 "Cannot get infos from FRITZ!Box yet\n"
 "Still initialising or wrong firmware version"
@@ -3175,8 +3196,8 @@ msgstr "تغيير اسم المجلد"
 msgid "Change Movielist Preview position"
 msgstr ""
 
-#: enigma2-plugins/setpasswd/src/plugin.py:24
-msgid "Change Root Password"
+#: enigma2-plugins/setpasswd/src/plugin.py:16
+msgid "Change Password"
 msgstr ""
 
 #
@@ -3194,7 +3215,7 @@ msgstr ""
 msgid "Change hostname"
 msgstr "تغيير أسم المضيف"
 
-#: enigma2-plugins/setpasswd/src/plugin.py:155
+#: enigma2-plugins/setpasswd/src/plugin.py:108
 msgid "Change or reset the root password of your dreambox"
 msgstr ""
 
@@ -3301,7 +3322,7 @@ msgstr ""
 #: enigma2-plugins/ofdb/src/plugin.py:24
 #: enigma2-plugins/pipservicerelation/src/plugin.py:211
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:651
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:817
 #: enigma2-plugins/imdb/src/plugin.py:55
 #: enigma2-plugin-pzyp4t/src/plugin.py:3319
 msgid "Channel Selection"
@@ -3337,6 +3358,10 @@ msgstr ""
 msgid "Channel: "
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/__init__.py:17
+msgid "Channellist red"
+msgstr ""
+
 #
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1252
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:67
@@ -3370,7 +3395,7 @@ msgstr ""
 msgid "Check"
 msgstr "فحص"
 
-#: enigma2-plugins/elektro/src/plugin.py:461
+#: enigma2-plugins/elektro/src/plugin.py:464
 msgid "Check IPs (press OK to edit)"
 msgstr ""
 
@@ -3649,7 +3674,7 @@ msgstr "كوميدي"
 msgid "Command '%s' executed"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:383
+#: enigma2-plugins/elektro/src/plugin.py:385
 msgid "Command [poweroff, shutdown -h,...]"
 msgstr ""
 
@@ -3819,7 +3844,7 @@ msgstr ""
 msgid "Connecting to NCID Server..."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:144
+#: enigma2-plugins/elektro/src/plugin.py:146
 msgid "Connection Error"
 msgstr ""
 
@@ -3901,7 +3926,7 @@ msgstr ""
 msgid "Cool-TV"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:583
+#: enigma2-plugins/easyinfo/src/plugin.py:592
 msgid "CoolTVGuide is not installed!"
 msgstr ""
 
@@ -3979,9 +4004,9 @@ msgstr ""
 msgid "Could not get call list; wrong version?"
 msgstr ""
 
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4050
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4067
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4211
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4060
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4077
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4223
 msgid "Could not load phonebook: "
 msgstr ""
 
@@ -3990,8 +4015,8 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1401
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2071
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2841
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4073
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4217
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4083
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4229
 #, python-format
 msgid "Could not load phonebook: %s"
 msgstr ""
@@ -4010,7 +4035,7 @@ msgstr "لا يمكن فتح صوره داخل صوره"
 msgid "Could not parse FRITZ!Box Phonebook entry"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:362
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:451
 #: enigma2-plugin-pzyp4t/src/plugin.py:2876
 #, python-format
 msgid "Could not read AutoTimer timer list: %s"
@@ -4319,6 +4344,7 @@ msgid "Custom location"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:625
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:41
 msgid "Custom offset"
 msgstr ""
 
@@ -4924,7 +4950,7 @@ msgstr "حذف التحقق"
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:593
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:151
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
-#: enigma2-plugins/elektro/src/plugin.py:473
+#: enigma2-plugins/elektro/src/plugin.py:476
 #: enigma2-plugins/movieretitle/src/plugin.py:62
 #: enigma2-plugins/showclock/src/plugin.py:123
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:60
@@ -5073,6 +5099,10 @@ msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:267
 msgid "Disable media filter"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:26
+msgid "Disable password-based login"
 msgstr ""
 
 #
@@ -5289,7 +5319,7 @@ msgstr ""
 msgid "Do not use the relatime feature."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:466
+#: enigma2-plugins/elektro/src/plugin.py:469
 msgid "Do not wake up at the end of next deep standby interval."
 msgstr ""
 
@@ -5534,7 +5564,7 @@ msgstr ""
 msgid "Don't stop current event but disable coming events"
 msgstr "لا توقف الحدث الحالى لكن قم بتعطيل الاحداث القادمه"
 
-#: enigma2-plugins/elektro/src/plugin.py:465
+#: enigma2-plugins/elektro/src/plugin.py:468
 msgid "Don't wake up"
 msgstr ""
 
@@ -5726,10 +5756,6 @@ msgstr ""
 msgid "DreamExplorer"
 msgstr ""
 
-#: enigma2-plugins/dreammediathek/src/plugin.py:174
-msgid "DreamMediathek"
-msgstr ""
-
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3427
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3430
 msgid "Dreambox Music Database"
@@ -5917,9 +5943,9 @@ msgstr ""
 msgid "EPG Copy view 1280"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:247
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:475
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:533
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:258
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:641
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:699
 msgid "EPG Search"
 msgstr ""
 
@@ -5927,6 +5953,10 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/plugin.py:1191
 msgid "EPG Selection"
 msgstr "إختيار EPG"
+
+#: enigma2-plugins/epgsearch/src/__init__.py:17
+msgid "EPG Single/Eventview blue"
+msgstr ""
 
 #: enigma2-plugins/easyinfo/src/plugin.py:68
 msgid "EPG refresh"
@@ -6007,7 +6037,7 @@ msgstr ""
 msgid "EPGRefresh Services"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:577
+#: enigma2-plugins/easyinfo/src/plugin.py:586
 msgid "EPGRefresh is not installed!"
 msgstr ""
 
@@ -6024,17 +6054,29 @@ msgid ""
 "to not disturb the current TV program."
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:89
+msgid "EPGSearch Filters"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:99
+msgid "EPGSearch Services"
+msgstr ""
+
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:34
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:132
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:141
 msgid "EPGSearch Setup"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:327
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:409
 msgid "EPGSearch menu"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:552
-#: enigma2-plugins/easyinfo/src/plugin.py:909
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:221
+msgid "EPGSearch search filter overview"
+msgstr ""
+
+#: enigma2-plugins/easyinfo/src/plugin.py:561
+#: enigma2-plugins/easyinfo/src/plugin.py:918
 #: enigma2-plugins/merlinepg/src/plugin.py:707
 #: enigma2-plugins/merlinepg/src/plugin.py:716
 #: enigma2-plugins/merlinepg/src/plugin.py:1004
@@ -6095,19 +6137,19 @@ msgstr ""
 msgid "Easy-PG"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:265
+#: enigma2-plugins/easyinfo/src/plugin.py:274
 msgid "Easy-PG Primetime 1:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:266
+#: enigma2-plugins/easyinfo/src/plugin.py:275
 msgid "Easy-PG Primetime 2 (main):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:267
+#: enigma2-plugins/easyinfo/src/plugin.py:276
 msgid "Easy-PG Primetime 3:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:264
+#: enigma2-plugins/easyinfo/src/plugin.py:273
 msgid "Easy-PG picons path:"
 msgstr ""
 
@@ -6115,7 +6157,7 @@ msgstr ""
 msgid "Easy-Selection"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:255
+#: enigma2-plugins/easyinfo/src/plugin.py:264
 msgid "EasyInfo settings..."
 msgstr ""
 
@@ -6160,6 +6202,18 @@ msgstr "تحرير مرشحات المؤقت الالى"
 msgid "Edit AutoTimer services"
 msgstr "تحرير خدمات المؤقت الالى"
 
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:102
+msgid "Edit EPGSearch Services"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:92
+msgid "Edit EPGSearch filter"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:64
+msgid "Edit EPGSearch search filter"
+msgstr ""
+
 #: enigma2-plugin-pzyp4t/src/plugin.py:2796
 msgid "Edit Filter"
 msgstr ""
@@ -6192,8 +6246,8 @@ msgid "Edit Timer"
 msgstr ""
 
 #. TRANSLATORS: description of AutoTimer in PluginBrowser
-#: enigma2-plugins/autotimer/src/plugin.py:288
-#: enigma2-plugins/autotimer/src/plugin.py:299
+#: enigma2-plugins/autotimer/src/plugin.py:292
+#: enigma2-plugins/autotimer/src/plugin.py:303
 msgid "Edit Timers and scan for new Events"
 msgstr "تحرير المؤقت والبحث عن أحداث جديده"
 
@@ -6279,7 +6333,7 @@ msgstr "تعليم"
 msgid "Eject DVD?"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:102
+#: enigma2-plugins/elektro/src/plugin.py:103
 msgid "Elektro Power Save"
 msgstr ""
 
@@ -6395,7 +6449,7 @@ msgstr ""
 msgid "Enable EMC debug output"
 msgstr "تمكين معلومات مسارات مركز مشغل الافلام"
 
-#: enigma2-plugins/elektro/src/plugin.py:445
+#: enigma2-plugins/elektro/src/plugin.py:447
 msgid "Enable Elektro Power Save"
 msgstr ""
 
@@ -6571,10 +6625,6 @@ msgid ""
 "menu."
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:78
-msgid "Enable to add \"Search\" button to standard EPG."
-msgstr ""
-
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:93
 msgid "Enable to add recordings to filter list from movielist context menu."
 msgstr ""
@@ -6605,6 +6655,7 @@ msgstr ""
 #: enigma2-plugins/easymedia/src/plugin.py:64
 #: enigma2-plugins/easymedia/src/plugin.py:65
 #: enigma2-plugins/easymedia/src/plugin.py:66
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:39
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:51
 msgid "Enabled"
 msgstr "تم التفعيل"
@@ -6719,6 +6770,10 @@ msgstr ""
 msgid "Enter VLC-Server as FQDN or IP-Address"
 msgstr ""
 
+#: enigma2-plugins/setpasswd/src/plugin.py:24
+msgid "Enter a new password"
+msgstr ""
+
 #: enigma2-plugins/fstabeditor/src/dirSelect.py:42
 msgid "Enter directory"
 msgstr ""
@@ -6737,10 +6792,6 @@ msgstr "أدخل أسم للمسار الجديد:"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1965
 msgid "Enter name for playlist"
-msgstr ""
-
-#: enigma2-plugins/setpasswd/src/plugin.py:105
-msgid "Enter new Password"
 msgstr ""
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:384
@@ -6796,7 +6847,7 @@ msgstr ""
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
 #: enigma2-plugins/moviesearch/src/plugin.py:85
 #: enigma2-plugins/ecasa/src/EcasaGui.py:334
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:271
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:324
 #: enigma2-plugins/imdb/src/plugin.py:441
 msgid "Enter text to search for"
 msgstr ""
@@ -6830,10 +6881,6 @@ msgstr "أدخل أسم المستخدم:"
 msgid ""
 "Enter values (left, top, right, bottom) or press TEXT to move and resize the "
 "teletext graphically."
-msgstr ""
-
-#: enigma2-plugins/setpasswd/src/plugin.py:138
-msgid "Enter your password here:"
 msgstr ""
 
 #: enigma2-plugins/mytube/src/plugin.py:584
@@ -7064,10 +7111,6 @@ msgstr ""
 msgid "Error..."
 msgstr ""
 
-#: enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml./enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml
-msgid "EuroticTV"
-msgstr ""
-
 #: enigma2-plugin-pzyp4t/src/plugin.py:3579
 msgid "Event ID"
 msgstr ""
@@ -7089,11 +7132,11 @@ msgstr ""
 msgid "EventId not found"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:262
+#: enigma2-plugins/easyinfo/src/plugin.py:271
 msgid "EventInfo blue button:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:261
+#: enigma2-plugins/easyinfo/src/plugin.py:270
 msgid "EventInfo yellow button:"
 msgstr ""
 
@@ -7182,7 +7225,6 @@ msgstr "موجود: %s"
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1071
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
-#: enigma2-plugins/eurotictv/src/plugin.py:57
 #: enigma2-plugins/imdb/src/plugin.py:208
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 msgid "Exit"
@@ -7216,7 +7258,7 @@ msgstr ""
 msgid "Export Timer 2 Autotimer"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:303
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:378
 msgid "Export selected as AutoTimer"
 msgstr ""
 
@@ -7257,7 +7299,7 @@ msgid "Extensions"
 msgstr "إضافات"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
-#: enigma2-plugins/elektro/src/plugin.py:104
+#: enigma2-plugins/elektro/src/plugin.py:105
 #: enigma2-plugins/showclock/src/plugin.py:72
 msgid "Extensions menu"
 msgstr ""
@@ -7283,11 +7325,11 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1401
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2071
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2841
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4050
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4067
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4073
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4211
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4217
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4060
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4077
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4083
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4223
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4229
 msgid "FRITZ!Box - "
 msgstr ""
 
@@ -7295,7 +7337,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1491
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2175
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2942
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3913
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3923
 #, python-format
 msgid "FRITZ!Box - Could not load calls: %s"
 msgstr ""
@@ -7311,7 +7353,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1811
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2616
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3471
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4255
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4267
 #, python-format
 msgid "FRITZ!Box - Error getting blacklist: %s"
 msgstr ""
@@ -7338,8 +7380,8 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:480
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4182
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4191
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4194
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4203
 #, python-format
 msgid "FRITZ!Box - Error logging in: %s"
 msgstr ""
@@ -7784,7 +7826,7 @@ msgid ""
 "matched."
 msgstr ""
 
-#: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontrol.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontrol.xml
+#: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
 msgid "First generate your skin-style with the Ai.HD-Control plugin."
 msgstr ""
 
@@ -7837,7 +7879,7 @@ msgstr ""
 msgid "Force scan even if receiver is in use"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:453
+#: enigma2-plugins/elektro/src/plugin.py:456
 msgid "Force sleep (even when not in standby)"
 msgstr ""
 
@@ -7845,7 +7887,7 @@ msgstr ""
 msgid "Force standby after auto-restart"
 msgstr "فرض الاستعداد بعد أعاده التشغيل التلقائي"
 
-#: enigma2-plugins/elektro/src/plugin.py:454
+#: enigma2-plugins/elektro/src/plugin.py:457
 msgid ""
 "Forces deep standby, even when not in standby mode. Scheduled recordings "
 "remain unaffected."
@@ -7978,7 +8020,7 @@ msgstr "الجمعه"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:445
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:45
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:131
+#: enigma2-plugins/elektro/src/plugin.py:133
 #: enigma2-plugins/kiddytimer/src/KTglob.py:12
 msgid "Friday"
 msgstr "الجمعه"
@@ -8010,7 +8052,6 @@ msgid "Full vertikal"
 msgstr ""
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:819
-#: enigma2-plugins/eurotictv/src/plugin.py:60
 msgid "Fullscreen"
 msgstr ""
 
@@ -8094,6 +8135,10 @@ msgstr ""
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:38
 msgid "General Help"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:25
+msgid "Generate a random password"
 msgstr ""
 
 #: enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml./enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml
@@ -8247,7 +8292,7 @@ msgstr ""
 msgid "Go to position:"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:837
+#: enigma2-plugins/elektro/src/plugin.py:851
 msgid "Go to sleep now?"
 msgstr ""
 
@@ -8281,7 +8326,7 @@ msgstr ""
 msgid "Grab Video & OSD"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:571
+#: enigma2-plugins/easyinfo/src/plugin.py:580
 msgid "GraphMultiEPG is not installed!"
 msgstr ""
 
@@ -8967,7 +9012,7 @@ msgstr ""
 #: enigma2-plugins/pluginsort/src/plugin.py:408
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:297
 #: enigma2-plugins/podcast/src/plugin.py:605
-#: enigma2-plugins/elektro/src/plugin.py:493
+#: enigma2-plugins/elektro/src/plugin.py:496
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:43
 #: enigma2-plugins/automaticcleanup/src/plugin.py:172
 #: enigma2-plugins/fancontrol2/src/plugin.py:689
@@ -9039,12 +9084,12 @@ msgstr ""
 msgid "Highlights"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:177
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:547
 #: enigma2-plugins/mytube/src/plugin.py:260
 msgid "History"
 msgstr "تاريخ"
 
-#: enigma2-plugins/elektro/src/plugin.py:467
+#: enigma2-plugins/elektro/src/plugin.py:470
 msgid "Holiday mode (experimental)"
 msgstr ""
 
@@ -9176,7 +9221,7 @@ msgstr ""
 msgid "IMDB info"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:565
+#: enigma2-plugins/easyinfo/src/plugin.py:574
 msgid "IMDB is not installed!"
 msgstr ""
 
@@ -9255,7 +9300,7 @@ msgid "IP"
 msgstr ""
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:307
+#: enigma2-plugins/elektro/src/plugin.py:309
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:130
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:575
 msgid "IP Address"
@@ -9357,8 +9402,16 @@ msgid ""
 "the programme begins earlier. (0 disables feature)"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:257
-#: enigma2-plugins/elektro/src/plugin.py:262
+#: enigma2-plugins/elektro/src/plugin.py:455
+msgid ""
+"If set to 'yes' the box will check to deepstandby directly after manual boot "
+"if sleep time is already reached. If set to 'no' (default) the box will "
+"check to deepstandby only if the next deepstandby interval starts (after "
+"next wakeuptime)"
+msgstr ""
+
+#: enigma2-plugins/elektro/src/plugin.py:259
+#: enigma2-plugins/elektro/src/plugin.py:264
 msgid ""
 "If the box is supposed to enter deep standby e.g. monday night at 1 AM, it "
 "actually is already tuesday. To enable this anyway, differing next day start "
@@ -9408,6 +9461,14 @@ msgstr ""
 msgid ""
 "If you see this message, please switch to the service you want to mark as "
 "startservice and try again."
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:29
+#, python-format
+msgid ""
+"If you want to login to your Dreambox using SSH, FTP or a remote web "
+"browser, you need to configure a password first.\n"
+"The username will be '%s'."
 msgstr ""
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:167
@@ -9483,17 +9544,17 @@ msgstr ""
 msgid "Import existing Timer"
 msgstr "إستيراد المؤقت الموجود"
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:301
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:376
 msgid "Import from AutoTimer"
 msgstr ""
 
 #
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:289
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:295
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:370
 msgid "Import from EPG"
 msgstr "استيراد من دليل البرامج الالكترونى"
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:294
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:369
 msgid "Import from Timer"
 msgstr ""
 
@@ -9664,11 +9725,6 @@ msgstr "وقت ظهور شريط المعلومات"
 msgid "Information"
 msgstr "معلومات"
 
-#: enigma2-plugins/meteoitalia/src/plugin.py:264
-#: enigma2-plugins/meteoitalia/src/plugin.py:308
-msgid "Informazioni"
-msgstr ""
-
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:184
 msgid "Inherit Services from AutoTimer"
 msgstr ""
@@ -9828,14 +9884,6 @@ msgstr ""
 msgid "Italian"
 msgstr "إيطالى"
 
-#: enigma2-plugins/meteoitalia/meta/plugin_meteoitalia.xml./enigma2-plugins/meteoitalia/meta/plugin_meteoitalia.xml
-msgid "Italian Weather forecast on Dreambox"
-msgstr ""
-
-#: enigma2-plugins/meteoitalia/meta/plugin_meteoitalia.xml./enigma2-plugins/meteoitalia/meta/plugin_meteoitalia.xml
-msgid "Italian Weather forecast on Dreambox from www.google.it."
-msgstr ""
-
 #: enigma2-plugins/fritzcall/src/plugin.py:169
 #: enigma2-plugins/mytube/src/plugin.py:100
 #: enigma2-plugins/ncidclient/src/plugin.py:47
@@ -9952,10 +10000,6 @@ msgstr "اللغـة"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/TPMChallenge.py:29
 msgid "LEVEL2 and LEVEL3 Certifcates (Base64-encoded)"
-msgstr ""
-
-#: enigma2-plugins/eurotictv/src/plugin.py:22
-msgid "LIVE"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:679
@@ -10426,7 +10470,6 @@ msgstr ""
 msgid "Mailbox"
 msgstr ""
 
-#: enigma2-plugins/pushservice/src/ConfigScreen.py:199
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:211
 msgid "Main"
 msgstr ""
@@ -10437,6 +10480,10 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:226
 msgid "Main bouquet for channel editor"
+msgstr ""
+
+#: enigma2-plugins/pushservice/src/ConfigScreen.py:199
+msgid "Mainmenu"
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2706
@@ -10721,7 +10768,7 @@ msgstr ""
 msgid "Merlin iDream is not installed!"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:535
+#: enigma2-plugins/easyinfo/src/plugin.py:544
 msgid "MerlinEPG is not installed!"
 msgstr ""
 
@@ -10928,7 +10975,7 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:441
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:41
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:127
+#: enigma2-plugins/elektro/src/plugin.py:129
 #: enigma2-plugins/kiddytimer/src/KTglob.py:8
 msgid "Monday"
 msgstr "الاثنين"
@@ -11479,11 +11526,11 @@ msgid ""
 "Please enter movie name to search."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:463
+#: enigma2-plugins/elektro/src/plugin.py:466
 msgid "NAS Poweroff (press OK to edit)"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:380
+#: enigma2-plugins/elektro/src/plugin.py:382
 msgid "NAS/Server Name or IP"
 msgstr ""
 
@@ -11516,7 +11563,7 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:306
 #: e2openplugin-InfoBarTunerState/src/plugin.py:66
 #: enigma2-plugins/growlee/src/plugin.py:167
-#: enigma2-plugins/elektro/src/plugin.py:471
+#: enigma2-plugins/elektro/src/plugin.py:474
 #: enigma2-plugins/showclock/src/plugin.py:121
 #: enigma2-plugins/fritzcall/src/plugin.py:2350
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:59
@@ -11611,8 +11658,12 @@ msgstr ""
 msgid "New Items since last Auto-Update"
 msgstr ""
 
+#: enigma2-plugins/setpasswd/src/plugin.py:44
+msgid "New Password"
+msgstr ""
+
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1300
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:176
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:190
 msgid "New Search"
 msgstr ""
 
@@ -11684,8 +11735,8 @@ msgstr ""
 msgid "Next bouquet"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:256
-#: enigma2-plugins/elektro/src/plugin.py:261
+#: enigma2-plugins/elektro/src/plugin.py:258
+#: enigma2-plugins/elektro/src/plugin.py:263
 msgid "Next day starts at"
 msgstr ""
 
@@ -11704,7 +11755,6 @@ msgstr ""
 #
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
-#: enigma2-plugins/dreammediathek/src/plugin.py:102
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:336
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:3321
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:3326
@@ -11738,10 +11788,6 @@ msgstr "لا"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:27
 msgid "No Bouquets to Display"
-msgstr ""
-
-#: enigma2-plugins/eurotictv/src/plugin.py:22
-msgid "No Connection"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:289
@@ -11858,7 +11904,7 @@ msgstr "لا توجد مجموعه وظائف..."
 
 #: enigma2-plugins/ecasa/src/EcasaGui.py:382
 #: enigma2-plugins/ecasa/src/EcasaGui.py:590
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:459
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:592
 msgid "No history"
 msgstr ""
 
@@ -11953,7 +11999,6 @@ msgstr ""
 msgid "No phonebook"
 msgstr ""
 
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:269
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:290
 msgid "No playable video found! Stop playing this movie?"
 msgstr "لا يوجد فيديو للعرض ، هل تريد وقف تشغيل هذا الفيلم ؟"
@@ -12042,7 +12087,6 @@ msgstr ""
 msgid "No videos to display"
 msgstr "لا يوجد فيديو للعرض"
 
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:262
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:283
 msgid "No, but play video again"
 msgstr "لا، لكن أعد تشغيل الفيديو ثانية"
@@ -12271,7 +12315,6 @@ msgstr ""
 #: enigma2-plugin-babelzapper/src/plugin.py:114
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:52
 #: enigma2-plugins/remotetimer/src/plugin.py:233
-#: enigma2-plugins/dreammediathek/src/plugin.py:69
 #: enigma2-plugins/movielistpreview/src/plugin.py:123
 #: enigma2-plugins/audiosync/src/AC3main.py:66
 #: enigma2-plugins/movieepg/src/MovieEpgSetup.py:55
@@ -12321,7 +12364,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/plugin.py:2571
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:150
 #: enigma2-plugins/quickbutton/src/plugin.py:197
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:614
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:780
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:58
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:31
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:71
@@ -12343,7 +12386,7 @@ msgstr ""
 msgid "OK"
 msgstr "موافق"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:263
+#: enigma2-plugins/easyinfo/src/plugin.py:272
 msgid "OK function in Easy-PG:"
 msgstr ""
 
@@ -12361,10 +12404,6 @@ msgstr ""
 
 #: enigma2-plugins/pushservice/src/Controller/OPKGUpdateNotification.py:33
 msgid "OPKG Update Notification"
-msgstr ""
-
-#: enigma2-plugins/orfteletext/src/plugin.py:45
-msgid "ORF-Teletext"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:878
@@ -12431,10 +12470,10 @@ msgstr ""
 msgid "Offset before recording (in m)"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:267
-#: enigma2-plugins/elektro/src/plugin.py:312
-#: enigma2-plugins/elektro/src/plugin.py:390
-#: enigma2-plugins/elektro/src/plugin.py:492
+#: enigma2-plugins/elektro/src/plugin.py:269
+#: enigma2-plugins/elektro/src/plugin.py:314
+#: enigma2-plugins/elektro/src/plugin.py:392
+#: enigma2-plugins/elektro/src/plugin.py:495
 msgid "Ok"
 msgstr ""
 
@@ -12543,6 +12582,7 @@ msgid "Open"
 msgstr "لا يمكن فتح صوره داخل صوره"
 
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:126
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:183
 msgid "Open Context Menu"
 msgstr ""
 
@@ -12601,20 +12641,32 @@ msgstr "فتح الضبط"
 msgid "Open plugin menu"
 msgstr "أفتح قائمة البلج إنز"
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:311
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:563
+msgid "Open search filter list"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:386
 msgid "Open selected in IMDb"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:315
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:390
 msgid "Open selected in TMDB Info (AMS)"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:316
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:391
 msgid "Open selected in TMDB Serie Info (AMS)"
 msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:270
 msgid "Open selector"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:564
+msgid "Open text search history list"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:562
+msgid "Open text search history with search filters"
 msgstr ""
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:197
@@ -12865,8 +12917,8 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:309
 #: enigma2-plugins/growlee/src/plugin.py:182
 #: enigma2-plugins/dyndns/src/plugin.py:37
-#: enigma2-plugins/elektro/src/plugin.py:382
-#: enigma2-plugins/setpasswd/src/plugin.py:69
+#: enigma2-plugins/elektro/src/plugin.py:384
+#: enigma2-plugins/setpasswd/src/plugin.py:100
 #: enigma2-plugins/emission/src/EmissionSetup.py:29
 #: enigma2-plugins/pushservice/src/Services/SMTP.py:55
 #: enigma2-plugins/pushservice/src/Services/GNTP.py:50
@@ -12877,6 +12929,22 @@ msgstr "كلمة المرور"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2670
 msgid "Password Accessing FRITZ!Box"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:87
+msgid "Password change failed!"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:75
+msgid "Password changed"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:81
+msgid "Password locked"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:84
+msgid "Password removed"
 msgstr ""
 
 #: enigma2-plugins/ecasa/src/EcasaSetup.py:39
@@ -13097,7 +13165,6 @@ msgstr ""
 #
 #: enigma2-plugins/netcaster/src/plugin.py:67
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:164
-#: enigma2-plugins/eurotictv/src/plugin.py:58
 msgid "Play"
 msgstr "تشغيل"
 
@@ -13117,10 +13184,6 @@ msgstr "بداية تشغيل الكل"
 
 #: enigma2-plugins/imdb/src/plugin.py:402
 msgid "Play Trailer"
-msgstr ""
-
-#: enigma2-plugins/dreammediathek/src/plugin.py:175
-msgid "Play Web and ipTV streams"
 msgstr ""
 
 #
@@ -13151,8 +13214,6 @@ msgid "Play last used songlist after starting"
 msgstr ""
 
 #
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:13
-#: enigma2-plugins/dreammediathek/src/plugin.py:18
 #: enigma2-plugins/mytube/src/plugin.py:121
 msgid "Play next video"
 msgstr "تشغيل الفيديو التالى"
@@ -13166,8 +13227,6 @@ msgid "Play selected movie(s)"
 msgstr "تشغيل الفلم المحدد"
 
 #
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:13
-#: enigma2-plugins/dreammediathek/src/plugin.py:18
 #: enigma2-plugins/mytube/src/plugin.py:121
 msgid "Play video again"
 msgstr "تشغيل الفيديو مره ثانيه"
@@ -13264,6 +13323,11 @@ msgstr ""
 
 #: enigma2-plugins/epgrefresh/src/PipAdapter.py:32
 msgid "Please don't use PiP meanwhile!"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:44
+#, python-format
+msgid "Please enter a new password for %s"
 msgstr ""
 
 #: enigma2-plugins/webcamviewer/src/WebcamTravel.py:131
@@ -13468,7 +13532,7 @@ msgid "Plugin browser"
 msgstr "متصفح البلج إنز"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
-#: enigma2-plugins/elektro/src/plugin.py:104
+#: enigma2-plugins/elektro/src/plugin.py:105
 #: enigma2-plugins/showclock/src/plugin.py:72
 msgid "Plugin menu"
 msgstr ""
@@ -13571,47 +13635,47 @@ msgstr "البرتقالية"
 msgid "Pos."
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:268
+#: enigma2-plugins/easyinfo/src/plugin.py:277
 msgid "Position 1 (info button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:277
+#: enigma2-plugins/easyinfo/src/plugin.py:286
 msgid "Position 10:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:278
+#: enigma2-plugins/easyinfo/src/plugin.py:287
 msgid "Position 11:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:269
+#: enigma2-plugins/easyinfo/src/plugin.py:278
 msgid "Position 2 (red button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:270
+#: enigma2-plugins/easyinfo/src/plugin.py:279
 msgid "Position 3 (green button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:271
+#: enigma2-plugins/easyinfo/src/plugin.py:280
 msgid "Position 4 (yellow button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:272
+#: enigma2-plugins/easyinfo/src/plugin.py:281
 msgid "Position 5 (blue button):"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:273
+#: enigma2-plugins/easyinfo/src/plugin.py:282
 msgid "Position 6:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:274
+#: enigma2-plugins/easyinfo/src/plugin.py:283
 msgid "Position 7:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:275
+#: enigma2-plugins/easyinfo/src/plugin.py:284
 msgid "Position 8:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:276
+#: enigma2-plugins/easyinfo/src/plugin.py:285
 msgid "Position 9:"
 msgstr ""
 
@@ -14007,7 +14071,7 @@ msgstr ""
 msgid "PushService started: "
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:450
+#: enigma2-plugins/elektro/src/plugin.py:452
 msgid "Puts the box in standby mode after boot."
 msgstr ""
 
@@ -14212,6 +14276,7 @@ msgstr "هل تريد فعلا الغلق بدون حفظ الاعدادات ؟"
 #: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 msgid ""
 "Really close without saving settings?\n"
 "What do you want to do?"
@@ -14257,10 +14322,6 @@ msgstr ""
 #: enigma2-plugins/mytube/src/plugin.py:632
 msgid "Really quit MyTube Player?"
 msgstr "هل تريد فعلا الخروج من مشغل MyTube ؟"
-
-#: enigma2-plugins/dreammediathek/src/plugin.py:104
-msgid "Really quit dreamMediathek ?"
-msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:79
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:259
@@ -14314,6 +14375,7 @@ msgid "Record Summary"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:653
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:49
 msgid "Record a maximum of x times"
 msgstr ""
 
@@ -14705,6 +14767,10 @@ msgstr ""
 msgid "Remove option"
 msgstr ""
 
+#: enigma2-plugins/setpasswd/src/plugin.py:27
+msgid "Remove password protection (DANGEROUS!)"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:190
 msgid "Remove permanent sort"
 msgstr "حذف الفرز الدائم"
@@ -14743,7 +14809,7 @@ msgstr ""
 
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:160
 #: enigma2-plugin-partnerbox/src/plugin.py:316
-#: enigma2-plugins/easyinfo/src/plugin.py:656
+#: enigma2-plugins/easyinfo/src/plugin.py:665
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1316
 msgid "Remove timer"
 msgstr "حذف المؤقت"
@@ -14843,11 +14909,11 @@ msgstr ""
 msgid "Replace InfoBar single and multi EPG:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:260
+#: enigma2-plugins/easyinfo/src/plugin.py:269
 msgid "Replace TV-button function:"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:259
+#: enigma2-plugins/easyinfo/src/plugin.py:268
 msgid "Replace event info with EasyInfo:"
 msgstr ""
 
@@ -15018,10 +15084,6 @@ msgstr ""
 msgid "Return to main tab with exit:"
 msgstr ""
 
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:13
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:15
-#: enigma2-plugins/dreammediathek/src/plugin.py:18
-#: enigma2-plugins/dreammediathek/src/plugin.py:20
 #: enigma2-plugins/mytube/src/plugin.py:121
 #: enigma2-plugins/mytube/src/plugin.py:124
 msgid "Return to movie list"
@@ -15069,7 +15131,7 @@ msgstr ""
 msgid "Rip to single file, name is timestamped"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:391
+#: enigma2-plugins/elektro/src/plugin.py:393
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:80
 msgid "Run"
 msgstr ""
@@ -15212,7 +15274,7 @@ msgstr "اقمار صناعيه"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:446
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:46
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:132
+#: enigma2-plugins/elektro/src/plugin.py:134
 #: enigma2-plugins/kiddytimer/src/KTglob.py:13
 msgid "Saturday"
 msgstr "السبت"
@@ -15309,7 +15371,7 @@ msgstr "حفظ وصف الفلم في ملف نصوص:"
 msgid "Save last FileList path:"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:302
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:377
 msgid "Save search as AutoTimer"
 msgstr ""
 
@@ -15473,7 +15535,7 @@ msgstr ""
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 #: enigma2-plugins/ecasa/src/EcasaGui.py:109
 #: enigma2-plugins/fritzcall/src/plugin.py:2145
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:679
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:845
 #: enigma2-plugins/ncidclient/src/plugin.py:447
 #: enigma2-plugins/googlemaps/src/plugin.py:211
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:177
@@ -15490,8 +15552,10 @@ msgid "Search Code"
 msgstr ""
 
 #. TRANSLATORS: description of EPGSearch in PluginBrowser
-#: enigma2-plugins/epgsearch/src/plugin.py:47
-#: enigma2-plugins/epgsearch/src/plugin.py:59
+#. TRANSLATORS: EPGSearch title in MovieList (does not require further user interaction)
+#: enigma2-plugins/epgsearch/src/plugin.py:58
+#: enigma2-plugins/epgsearch/src/plugin.py:70
+#: enigma2-plugins/epgsearch/src/plugin.py:81
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:24
 msgid "Search EPG"
 msgstr ""
@@ -15554,10 +15618,18 @@ msgstr "شروط البحث"
 msgid "Search Trailer"
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:545
+msgid "Search filter"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:711
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:716
 msgid "Search filter for matching existing terms in the title:"
 msgstr "فلتر البحث لمطابقه المصطلحات الموجودة في العنوان:"
+
+#: enigma2-plugins/epgsearch/src/__init__.py:29
+msgid "Search filter list"
+msgstr ""
 
 #: enigma2-plugins/ecasa/src/EcasaGui.py:349
 #, python-format
@@ -15574,6 +15646,10 @@ msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1831
 msgid "Search in iDream database"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:549
+msgid "Search list"
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2418
@@ -15615,7 +15691,7 @@ msgstr ""
 msgid "Search results for:"
 msgstr "نتائج البحث لـ:"
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:80
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:79
 msgid "Search scope"
 msgstr ""
 
@@ -15628,7 +15704,7 @@ msgid "Search through the EPG"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:598
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:79
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:78
 msgid "Search type"
 msgstr "نوع البحث"
 
@@ -15636,8 +15712,12 @@ msgstr "نوع البحث"
 msgid "Search type:"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:80
-msgid "Search will return only matches from services in the selected bouquet"
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:79
+msgid "Search will return only matches from services in the selected bouquet."
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:32
+msgid "SearchFilter Editor"
 msgstr ""
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:897
@@ -15741,11 +15821,11 @@ msgstr ""
 msgid "Select"
 msgstr "أختار"
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:79
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:78
 msgid ""
 "Select \"exact match of title\" for a perfect match or \"partial match\" if "
 "you want to search for a part of the title or the description. Select \"Ask "
-"user\" to choose when searching"
+"user\" to choose when searching."
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:555
@@ -15772,7 +15852,7 @@ msgstr ""
 msgid "Select a timer to import"
 msgstr "أختار المؤقت المراد توريده"
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:628
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:794
 msgid "Select a timer to search"
 msgstr ""
 
@@ -15837,9 +15917,21 @@ msgid "Select teletext version to use."
 msgstr ""
 
 #: enigma2-plugins/ecasa/src/EcasaGui.py:376
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:373
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:453
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:462
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:586
 msgid "Select text to search for"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:566
+msgid "Select the action to search"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:88
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:89
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:93
+msgid ""
+"Select the buttons, which show this menu item (on change GUI-restart is "
+"necessary)."
 msgstr ""
 
 #: enigma2-plugins/audiosync/src/AC3main.py:240
@@ -15854,6 +15946,12 @@ msgstr "اختار المكان الذى ستحفظ فيه التسجيلات"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:97
 msgid "Select the path where the autotimer_search.log should be saved"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:94
+msgid ""
+"Select the search list to show on blue button in the EPGSearch match list "
+"(default = text search history and search filter list)."
 msgstr ""
 
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:254
@@ -16120,10 +16218,6 @@ msgstr ""
 msgid "Set End Time"
 msgstr "أضبط وقت النتهاء"
 
-#: enigma2-plugins/setpasswd/src/plugin.py:70
-msgid "Set Password"
-msgstr ""
-
 #: enigma2-plugins/remotetimer/src/plugin.py:367
 #, python-format
 msgid ""
@@ -16238,7 +16332,7 @@ msgstr "تم حفظ الإعدادات."
 #: enigma2-plugins/simplerss/src/RSSScreens.py:456
 #: enigma2-plugins/simplerss/src/RSSScreens.py:461
 #: enigma2-plugins/ecasa/src/EcasaGui.py:353
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:319
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:394
 #: enigma2-plugins/twitchtv/src/plugin.py:668
 #: enigma2-plugins/imdb/src/plugin.py:397
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:321
@@ -16295,7 +16389,7 @@ msgstr "المشاهدة القصيرة بالنسبة المئوية"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1389
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2057
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2829
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4119
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4129
 msgid "Shortcut"
 msgstr ""
 
@@ -16338,7 +16432,7 @@ msgstr ""
 msgid "Show 'add to filter list' in movielist context menu"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:82
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:81
 msgid ""
 "Show 'all', 'current', 'future' or 'current & future' events. This allows "
 "filtering matches by the event time."
@@ -16491,7 +16585,7 @@ msgstr ""
 msgid "Show PiP service(s)"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:83
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:82
 msgid "Show Picons"
 msgstr ""
 
@@ -16572,6 +16666,10 @@ msgstr "عرض البيانات الصوتية"
 msgid "Show begin/remain times:"
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:84
+msgid "Show best matching channelname in screen title"
+msgstr ""
+
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:249
 msgid "Show blinking picon for running timers:"
 msgstr ""
@@ -16638,6 +16736,10 @@ msgstr "عرض معلومات الحدث"
 msgid "Show event information:"
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:81
+msgid "Show events"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:387
 msgid "Show experimental options"
 msgstr "عرض الخيارات التجريبية"
@@ -16654,7 +16756,7 @@ msgstr ""
 msgid "Show iDream in mainmenu"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:469
+#: enigma2-plugins/elektro/src/plugin.py:472
 #: enigma2-plugins/showclock/src/plugin.py:119
 msgid "Show in"
 msgstr ""
@@ -16833,12 +16935,16 @@ msgid "Show record(s)"
 msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:32
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:307
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:382
 msgid "Show series info (SP)"
 msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:207
 msgid "Show service name:"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:85
+msgid "Show short description"
 msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:250
@@ -16865,7 +16971,7 @@ msgstr ""
 msgid "Show the pending Services for refresh"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:83
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:82
 msgid ""
 "Show the the picon of the channel instead of channelname. Use the picon path "
 "from the channelselection settings."
@@ -16931,7 +17037,7 @@ msgstr ""
 msgid "Show zap-warning on active timeshifting?"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:542
+#: enigma2-plugins/elektro/src/plugin.py:545
 msgid "Showing Elektro readme.txt"
 msgstr ""
 
@@ -16953,7 +17059,7 @@ msgstr ""
 msgid "Shows statistics of watched services"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:85
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:84
 msgid ""
 "Shows the best matching channelname in the screen title to have more space "
 "to display event name and short description."
@@ -17006,8 +17112,8 @@ msgid "Side by side"
 msgstr ""
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:600
-#: enigma2-plugins/easyinfo/src/plugin.py:646
+#: enigma2-plugins/easyinfo/src/plugin.py:609
+#: enigma2-plugins/easyinfo/src/plugin.py:655
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:545
 msgid "Similar"
 msgstr "شبيهه"
@@ -17218,8 +17324,8 @@ msgstr ""
 msgid "Skipping timer because no event was found"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:255
-#: enigma2-plugins/elektro/src/plugin.py:260
+#: enigma2-plugins/elektro/src/plugin.py:257
+#: enigma2-plugins/elektro/src/plugin.py:262
 msgid "Sleep"
 msgstr ""
 
@@ -17490,12 +17596,12 @@ msgid ""
 "Set to \"0\" to show clock until hidden manually."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:474
+#: enigma2-plugins/elektro/src/plugin.py:477
 #: enigma2-plugins/showclock/src/plugin.py:124
 msgid "Specify plugin description to be used in menu (needs GUI restart)."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:472
+#: enigma2-plugins/elektro/src/plugin.py:475
 #: enigma2-plugins/showclock/src/plugin.py:122
 msgid "Specify plugin name to be used in menu (needs GUI restart)."
 msgstr ""
@@ -17506,7 +17612,7 @@ msgid ""
 "after the timeout defined above)"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:470
+#: enigma2-plugins/elektro/src/plugin.py:473
 #: enigma2-plugins/showclock/src/plugin.py:120
 msgid ""
 "Specify whether plugin shall show up in plugin menu or extensions menu "
@@ -17601,12 +17707,12 @@ msgstr "وضع الاستعداد"
 msgid "Standby Notification"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:449
-#: enigma2-plugins/elektro/src/plugin.py:595
+#: enigma2-plugins/elektro/src/plugin.py:451
+#: enigma2-plugins/elektro/src/plugin.py:603
 msgid "Standby on boot"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:451
+#: enigma2-plugins/elektro/src/plugin.py:453
 msgid "Standby on manual boot"
 msgstr ""
 
@@ -17903,7 +18009,6 @@ msgid "Stop playback"
 msgstr "إيقاف تشغيل"
 
 #
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:267
 #: enigma2-plugins/podcast/src/plugin.py:46
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:288
 msgid "Stop playing this movie?"
@@ -17963,11 +18068,6 @@ msgstr ""
 
 #: enigma2-plugins/internetradio/src/InternetRadioInformationScreen.py:70
 msgid "Streaming Information"
-msgstr ""
-
-#: enigma2-plugins/eurotictv/src/plugin.py:144
-#, python-format
-msgid "Streaming error: %s"
 msgstr ""
 
 #: enigma2-plugins/mytube/src/plugin.py:63
@@ -18048,11 +18148,6 @@ msgstr ""
 msgid "Successfully transferred and loaded EPG"
 msgstr ""
 
-#: enigma2-plugins/setpasswd/src/plugin.py:128
-#, python-format
-msgid "Sucessfully changed password for %s user to: %s"
-msgstr ""
-
 #
 #: enigma2-plugin-partnerbox/src/plugin.py:562
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:121
@@ -18065,7 +18160,7 @@ msgstr "الاحد"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:447
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:47
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:133
+#: enigma2-plugins/elektro/src/plugin.py:135
 #: enigma2-plugins/kiddytimer/src/KTglob.py:7
 msgid "Sunday"
 msgstr "الاحد"
@@ -18201,6 +18296,7 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:466
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:228
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:671
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:48
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:62
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:408
 msgid "Tags"
@@ -18253,7 +18349,7 @@ msgstr ""
 msgid "Teletext with caching pages."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:384
+#: enigma2-plugins/elektro/src/plugin.py:386
 msgid "Telnet Port"
 msgstr ""
 
@@ -18359,6 +18455,14 @@ msgstr ""
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:131
 msgid "Text padding offset in pixel"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/__init__.py:29
+msgid "Text search history"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/__init__.py:29
+msgid "Text search history with search filters"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:375
@@ -18505,11 +18609,11 @@ msgid ""
 " Do you really want to enable VPS?"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:444
+#: enigma2-plugins/elektro/src/plugin.py:446
 msgid "The active Time Profile is (1 or 2)."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:468
+#: enigma2-plugins/elektro/src/plugin.py:471
 msgid "The box always enters deep standby mode, except for recording."
 msgstr ""
 
@@ -18643,6 +18747,24 @@ msgid ""
 "The number of times the NFS client retries a request before it attempts "
 "further recovery action. If the retrans option is not specified, the NFS "
 "client tries each request three times."
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:82
+#, python-format
+msgid "The password for '%s' is now disabled!"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:77
+#, python-format
+msgid ""
+"The password for '%s' was successfully changed to:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:85
+#, python-format
+msgid "The password protection for '%s' was removed!"
 msgstr ""
 
 #
@@ -18865,7 +18987,7 @@ msgstr ""
 msgid "This folder is locked or contains a locked subfolder, unlock it first!"
 msgstr "هذا المجلد مغلق أو يحتوي علي مجلد فرعي مغلق ، افتحه أولا!"
 
-#: enigma2-plugins/easyinfo/src/plugin.py:588
+#: enigma2-plugins/easyinfo/src/plugin.py:597
 msgid "This function is yet not available!"
 msgstr ""
 
@@ -19010,7 +19132,7 @@ msgstr ""
 msgid "This line is not editable!"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:462
+#: enigma2-plugins/elektro/src/plugin.py:465
 msgid ""
 "This list of IP addresses is checked. Elektro waits until addresses no "
 "longer responds to ping."
@@ -19091,7 +19213,7 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:444
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:44
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:130
+#: enigma2-plugins/elektro/src/plugin.py:132
 #: enigma2-plugins/kiddytimer/src/KTglob.py:11
 msgid "Thursday"
 msgstr "الخميس"
@@ -19243,6 +19365,7 @@ msgstr ""
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:600
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:153
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:40
 msgid "Timer type"
 msgstr "نوع المؤقت"
 
@@ -19293,7 +19416,7 @@ msgstr ""
 msgid "Timers"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:494
+#: enigma2-plugins/elektro/src/plugin.py:497
 msgid "Times"
 msgstr ""
 
@@ -19344,7 +19467,7 @@ msgstr "عنوان"
 msgid "Title Menu"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:474
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:640
 msgid "Title and Description"
 msgstr ""
 
@@ -19356,7 +19479,7 @@ msgstr ""
 msgid "Title and short description"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:473
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:639
 msgid "Title only"
 msgstr ""
 
@@ -19623,7 +19746,7 @@ msgstr "الثلاثاء"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:442
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:42
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:128
+#: enigma2-plugins/elektro/src/plugin.py:130
 #: enigma2-plugins/kiddytimer/src/KTglob.py:9
 msgid "Tuesday"
 msgstr "الثلاثاء"
@@ -19781,12 +19904,6 @@ msgstr ""
 msgid "Unable to authenticate with Google: %s."
 msgstr ""
 
-#: enigma2-plugins/setpasswd/src/plugin.py:92
-#: enigma2-plugins/setpasswd/src/plugin.py:131
-#, python-format
-msgid "Unable to change/reset password for %s user"
-msgstr ""
-
 #: enigma2-plugins/ecasa/src/EcasaGui.py:725
 #, python-format
 msgid "Unable to download picture: %s"
@@ -19794,6 +19911,11 @@ msgstr ""
 
 #: enigma2-plugins/pluginsort/src/plugin.py:426
 msgid "Unable to load PluginHider"
+msgstr ""
+
+#: enigma2-plugins/setpasswd/src/plugin.py:88
+#, python-format
+msgid "Unable to set new password for '%s'"
 msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1147
@@ -19809,7 +19931,7 @@ msgid "United States"
 msgstr "الولايات المتحده"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3619
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3968
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3978
 msgid "Unknown"
 msgstr ""
 
@@ -19867,7 +19989,7 @@ msgid ""
 "explicitly started by the yellow button in this menu."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:446
+#: enigma2-plugins/elektro/src/plugin.py:448
 msgid "Unless this is enabled, this plugin won't run automatically."
 msgstr ""
 
@@ -20046,6 +20168,7 @@ msgid "Use Transcoding"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:667
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:50
 msgid "Use a custom location"
 msgstr ""
 
@@ -20053,7 +20176,7 @@ msgstr ""
 msgid "Use and control multiple Dreamboxes with different RCs."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:447
+#: enigma2-plugins/elektro/src/plugin.py:449
 msgid "Use both profiles alternately"
 msgstr ""
 
@@ -20174,7 +20297,7 @@ msgstr ""
 
 #
 #: enigma2-plugins/dyndns/src/plugin.py:36
-#: enigma2-plugins/elektro/src/plugin.py:381
+#: enigma2-plugins/elektro/src/plugin.py:383
 #: enigma2-plugins/emission/src/EmissionSetup.py:28
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:117
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:133
@@ -20320,7 +20443,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1391
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2059
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2831
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4121
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4131
 msgid "Vanity"
 msgstr ""
 
@@ -20329,10 +20452,10 @@ msgid "Variable field width"
 msgstr ""
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:133
-#: enigma2-plugins/elektro/src/plugin.py:203
-#: enigma2-plugins/elektro/src/plugin.py:214
-#: enigma2-plugins/elektro/src/plugin.py:222
-#: enigma2-plugins/elektro/src/plugin.py:514
+#: enigma2-plugins/elektro/src/plugin.py:205
+#: enigma2-plugins/elektro/src/plugin.py:216
+#: enigma2-plugins/elektro/src/plugin.py:224
+#: enigma2-plugins/elektro/src/plugin.py:517
 #: enigma2-plugins/automaticcleanup/src/plugin.py:193
 #: enigma2-plugins/showclock/src/plugin.py:167
 #: enigma2-plugins/showclock/src/plugin.py:391
@@ -20601,7 +20724,7 @@ msgstr ""
 msgid "WLAN not active"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:460
+#: enigma2-plugins/elektro/src/plugin.py:463
 msgid "Wait for no nfs-read-activity to enter sleep mode."
 msgstr ""
 
@@ -20609,13 +20732,13 @@ msgstr ""
 msgid "Wait for screensaver (in min)"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:456
+#: enigma2-plugins/elektro/src/plugin.py:459
 msgid ""
 "Wait for the HDD to enter sleep mode. Depending on the configuration this "
 "can prevent the box entirely from entering deep standby mode."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:458
+#: enigma2-plugins/elektro/src/plugin.py:461
 msgid "Wait for the network to enter sleep mode."
 msgstr ""
 
@@ -20629,7 +20752,7 @@ msgstr "وقت الانتظار بالميللى ثانيه قبل التنشي�
 msgid "Waiting"
 msgstr "جارى الانتظار"
 
-#: enigma2-plugins/elektro/src/plugin.py:385
+#: enigma2-plugins/elektro/src/plugin.py:387
 msgid "Waiting until poweroff"
 msgstr ""
 
@@ -20645,8 +20768,8 @@ msgstr "جهاز تنبيه عند دخول المسار من مركز مشغل 
 msgid "Wake up from standby for EPG refresh"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:254
-#: enigma2-plugins/elektro/src/plugin.py:259
+#: enigma2-plugins/elektro/src/plugin.py:256
+#: enigma2-plugins/elektro/src/plugin.py:261
 msgid "Wakeup"
 msgstr ""
 
@@ -20662,10 +20785,6 @@ msgstr ""
 msgid "Warnlagebericht"
 msgstr ""
 
-#: enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml./enigma2-plugins/eurotictv/meta/plugin_eurotictv.xml
-msgid "Watch EuroticTV via HTTP Live Streaming."
-msgstr ""
-
 #: enigma2-plugins/twitchtv/src/plugin.py:372
 msgid "Watch Live"
 msgstr ""
@@ -20676,10 +20795,6 @@ msgstr ""
 
 #: enigma2-plugins/yttrailer/src/plugin.py:56
 msgid "Watch Trailer"
-msgstr ""
-
-#: enigma2-plugins/eurotictv/src/plugin.py:207
-msgid "Watch eUroticTV via HTTP Live Streaming"
 msgstr ""
 
 #: enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml./enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml
@@ -20791,7 +20906,7 @@ msgstr "الاربعاء"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:443
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:43
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:129
+#: enigma2-plugins/elektro/src/plugin.py:131
 #: enigma2-plugins/kiddytimer/src/KTglob.py:10
 msgid "Wednesday"
 msgstr "الاربعاء"
@@ -21012,12 +21127,12 @@ msgstr ""
 msgid "Where to save?"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:475
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:641
 #, python-format
 msgid "Where to search for '%s'?"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:452
+#: enigma2-plugins/elektro/src/plugin.py:454
 msgid ""
 "Whether to put the box in standby when booted manually. On manual boot the "
 "box will not go to standby before the next deep standby interval starts, "
@@ -21193,8 +21308,6 @@ msgid "Yellow button function"
 msgstr "وظائف الزر الاصفر"
 
 #
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:261
-#: enigma2-plugins/dreammediathek/src/plugin.py:101
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:3313
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:3316
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:3319
@@ -21228,13 +21341,11 @@ msgid "Yes (safe mode)"
 msgstr ""
 
 #
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:263
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:284
 msgid "Yes, but play next video"
 msgstr "نعم ، لكن أعرض الفيديو التالى"
 
 #
-#: enigma2-plugins/dreammediathek/src/MoviePlayer.py:264
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:285
 msgid "Yes, but play previous video"
 msgstr "نعم ، لكن أعرض الفيديو السابق"
@@ -21385,7 +21496,7 @@ msgstr ""
 msgid "You must select a valid service!"
 msgstr ""
 
-#: enigma2-plugins/easyinfo/src/plugin.py:286
+#: enigma2-plugins/easyinfo/src/plugin.py:295
 msgid "You need GUI-restart to load the new settings!"
 msgstr ""
 
@@ -21507,7 +21618,7 @@ msgid "Your autotimer is deprecated"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/plugin.py:128
-#: enigma2-plugins/autotimer/src/plugin.py:246
+#: enigma2-plugins/autotimer/src/plugin.py:250
 #, python-format
 msgid ""
 "Your config file is not well-formed:\n"
@@ -21752,7 +21863,7 @@ msgid "add"
 msgstr ""
 
 #. TRANSLATORS: AutoTimer title in MovieList (automatically opens importer, I consider this no further interaction)
-#: enigma2-plugins/autotimer/src/plugin.py:301
+#: enigma2-plugins/autotimer/src/plugin.py:305
 msgid "add AutoTimer"
 msgstr ""
 
@@ -21761,8 +21872,8 @@ msgid "add AutoTimer for Partnerbox..."
 msgstr ""
 
 #. TRANSLATORS: AutoTimer title in EventInfo dialog (requires the user to select an event to base the AutoTimer on)
-#: enigma2-plugins/autotimer/src/plugin.py:303
-#: enigma2-plugins/autotimer/src/plugin.py:304
+#: enigma2-plugins/autotimer/src/plugin.py:307
+#: enigma2-plugins/autotimer/src/plugin.py:308
 msgid "add AutoTimer..."
 msgstr "إضافة مؤقت ألى...."
 
@@ -21830,6 +21941,13 @@ msgstr ""
 msgid "add recording on Partnerbox (stop after current event)"
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/plugin.py:99
+#: enigma2-plugins/epgsearch/src/plugin.py:100
+#: enigma2-plugins/epgsearch/src/plugin.py:111
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:398
+msgid "add search filter to EPGSearch"
+msgstr ""
+
 #: enigma2-plugin-vlcplayer/src/VlcServerList.py:102
 msgid "add server"
 msgstr ""
@@ -21843,7 +21961,7 @@ msgstr "إضافة قنوات"
 msgid "add stream to favorites"
 msgstr ""
 
-#: enigma2-plugins/autotimer/src/plugin.py:292
+#: enigma2-plugins/autotimer/src/plugin.py:296
 msgid "add to AutoTimer filter list"
 msgstr ""
 
@@ -21874,12 +21992,13 @@ msgstr "بعد الاستعداد"
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:90
 #: enigma2-plugins/automaticcleanup/src/plugin.py:94
-#: enigma2-plugins/epgsearch/src/__init__.py:25
+#: enigma2-plugins/epgsearch/src/__init__.py:17
+#: enigma2-plugins/epgsearch/src/__init__.py:26
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "all"
 msgstr "الكل"
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:100
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:109
 msgid "all services"
 msgstr ""
 
@@ -22091,6 +22210,7 @@ msgstr ""
 #: enigma2-plugins/epgcopy/src/plugin.py:163
 #: enigma2-plugins/emailclient/src/EmailConfig.py:39
 #: enigma2-plugins/emailclient/src/EmailConfig.py:102
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 #: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:22
 #: enigma2-plugins/googlemaps/src/plugin.py:85
 msgid "cancel"
@@ -22133,6 +22253,10 @@ msgstr "تغيير التسجيل (المده الزمنيه)"
 msgid "change recording (endtime)"
 msgstr "تغيير التسجيل (وقت الانتهاء)"
 
+#: enigma2-plugins/elektro/src/plugin.py:455
+msgid "check for sleep directly after manual boot"
+msgstr ""
+
 #: enigma2-plugins/emission/src/EmissionDetailview.py:238
 msgid "check pending"
 msgstr ""
@@ -22153,6 +22277,7 @@ msgstr ""
 
 #: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 msgid "close and save"
 msgstr ""
 
@@ -22167,6 +22292,7 @@ msgstr ""
 #: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 msgid "close without saving"
 msgstr ""
 
@@ -22180,10 +22306,6 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:569
 msgid "configuration"
 msgstr "تكوين"
-
-#: enigma2-plugins/eurotictv/src/plugin.py:22
-msgid "connecting..."
-msgstr ""
 
 #: enigma2-plugins/emailclient/src/plugin.py:834
 msgid "connection failed - retrying"
@@ -22247,11 +22369,11 @@ msgstr ""
 msgid "csfd.cz"
 msgstr "csfd.cz"
 
-#: enigma2-plugins/epgsearch/src/__init__.py:25
+#: enigma2-plugins/epgsearch/src/__init__.py:26
 msgid "current"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/__init__.py:25
+#: enigma2-plugins/epgsearch/src/__init__.py:26
 msgid "current & future"
 msgstr ""
 
@@ -22259,7 +22381,7 @@ msgstr ""
 msgid "current Service"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:100
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:109
 msgid "current bouquet"
 msgstr ""
 
@@ -22304,7 +22426,6 @@ msgstr ""
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2038
 #: enigma2-plugins/emailclient/src/plugin.py:355
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
-#: enigma2-plugins/setpasswd/src/plugin.py:69
 #: enigma2-plugins/webadmin/src/WebScreens/WebAdminScreen.py:24
 msgid "delete"
 msgstr "مسح"
@@ -22396,10 +22517,6 @@ msgstr "تم التعطيل"
 msgid "disabled at parental lock"
 msgstr ""
 
-#: enigma2-plugins/eurotictv/src/plugin.py:22
-msgid "disconnected"
-msgstr ""
-
 #: enigma2-plugins/fancontrol2/src/plugin.py:169
 msgid "display Info"
 msgstr ""
@@ -22476,10 +22593,6 @@ msgstr "اسفل"
 msgid "downloading"
 msgstr ""
 
-#: enigma2-plugins/dreammediathek/src/plugin.py:95
-msgid "dreamMediathek TV Stations"
-msgstr ""
-
 #: enigma2-plugins/fstabeditor/src/plugin.py:319
 msgid "dump frequency (in days): "
 msgstr ""
@@ -22540,10 +22653,6 @@ msgstr "تحرير القنوات"
 #. TRANSLATORS: this is the string used in the movie context menu for TagEditor
 #: enigma2-plugins/tageditor/src/plugin.py:23
 msgid "edit tags"
-msgstr ""
-
-#: enigma2-plugins/setpasswd/src/plugin.py:121
-msgid "empty"
 msgstr ""
 
 #: enigma2-plugins/emailclient/src/EmailConfig.py:145
@@ -22673,11 +22782,11 @@ msgstr ""
 msgid "favorites / decrease height"
 msgstr ""
 
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4108
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4118
 msgid "fax_home"
 msgstr ""
 
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4108
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4118
 msgid "fax_work"
 msgstr ""
 
@@ -22732,7 +22841,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1412
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2097
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2865
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3931
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3941
 msgid "finishing"
 msgstr ""
 
@@ -22767,7 +22876,7 @@ msgstr "من"
 msgid "from xml"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/__init__.py:25
+#: enigma2-plugins/epgsearch/src/__init__.py:26
 msgid "future"
 msgstr ""
 
@@ -23333,10 +23442,6 @@ msgstr "مطلقا"
 msgid "never hide"
 msgstr "أبدا إخفاء"
 
-#: enigma2-plugins/setpasswd/src/plugin.py:71
-msgid "new Random"
-msgstr ""
-
 #: enigma2-plugins/fstabeditor/src/plugin.py:399
 msgid "new option: "
 msgstr ""
@@ -23377,7 +23482,7 @@ msgstr "لا."
 msgid "no Image"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:143
+#: enigma2-plugins/elektro/src/plugin.py:145
 msgid "no Name"
 msgstr ""
 
@@ -23437,6 +23542,7 @@ msgstr ""
 
 #
 #: enigma2-plugins/simplerss/src/plugin.py:15
+#: enigma2-plugins/epgsearch/src/__init__.py:17
 msgid "none"
 msgstr "لا احد"
 
@@ -23473,15 +23579,15 @@ msgstr ""
 msgid "not found"
 msgstr ""
 
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4295
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4343
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4350
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4360
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4370
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4380
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4390
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4400
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4407
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4307
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4355
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4362
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4372
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4382
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4392
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4402
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4412
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4419
 msgid "not yet implemented"
 msgstr ""
 
@@ -23513,9 +23619,9 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/plugin.py:150
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3270
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3281
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3770
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3783
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3802
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3774
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3793
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3812
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:244
 msgid "off"
 msgstr "لا يعمـل!"
@@ -23583,11 +23689,11 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3268
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3279
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3285
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3768
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3781
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3788
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3790
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3772
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3791
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3798
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3800
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3810
 msgid "on"
 msgstr "يعمل!"
 
@@ -23647,6 +23753,14 @@ msgstr ""
 msgid "only on keypress"
 msgstr ""
 
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:397
+msgid "open EPGSearch search filter list"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/plugin.py:92
+msgid "open EPGSearch search list"
+msgstr ""
+
 #: enigma2-plugins/emission/src/EmissionOverview.py:135
 #: enigma2-plugins/emission/src/EmissionDetailview.py:84
 msgid "open bandwidth settings"
@@ -23684,7 +23798,7 @@ msgstr ""
 msgid "overall"
 msgstr "العام"
 
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4108
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4118
 msgid "pager"
 msgstr ""
 
@@ -23712,7 +23826,6 @@ msgstr ""
 msgid "password"
 msgstr ""
 
-#: enigma2-plugins/eurotictv/src/plugin.py:22
 #: enigma2-plugins/emission/src/EmissionDetailview.py:176
 #: enigma2-plugins/webcamviewer/src/PictureScreen.py:193
 #: enigma2-plugins/webcamviewer/src/PictureScreen.py:219
@@ -23773,7 +23886,7 @@ msgstr ""
 msgid "please wait (until 3min)..."
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:344
+#: enigma2-plugins/elektro/src/plugin.py:346
 msgid "please wait..."
 msgstr ""
 
@@ -23785,7 +23898,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1422
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2087
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2855
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3919
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3929
 msgid "preparing"
 msgstr ""
 
@@ -23825,7 +23938,7 @@ msgstr ""
 msgid "read HDD-Temperature in HDD-Standby-Mode"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:542
+#: enigma2-plugins/elektro/src/plugin.py:545
 #: enigma2-plugins/fancontrol2/src/plugin.py:801
 msgid "readme.txt"
 msgstr ""
@@ -24022,7 +24135,7 @@ msgstr ""
 msgid "saved"
 msgstr ""
 
-#: enigma2-plugins/autotimer/src/plugin.py:289
+#: enigma2-plugins/autotimer/src/plugin.py:293
 msgid "scan for new Events"
 msgstr ""
 
@@ -24030,13 +24143,8 @@ msgstr ""
 msgid "search"
 msgstr ""
 
-#. TRANSLATORS: EPGSearch title in MovieList (does not require further user interaction)
-#: enigma2-plugins/epgsearch/src/plugin.py:74
-msgid "search EPG"
-msgstr ""
-
 #. TRANSLATORS: EPGSearch title in EventInfo dialog (requires the user to select an event to search for)
-#: enigma2-plugins/epgsearch/src/plugin.py:67
+#: enigma2-plugins/epgsearch/src/plugin.py:64
 msgid "search EPG..."
 msgstr ""
 
@@ -24046,6 +24154,11 @@ msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1975
 msgid "search for artist"
+msgstr ""
+
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:177
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:225
+msgid "search for current search filter"
 msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1974
@@ -24209,10 +24322,6 @@ msgstr "إظهر الكل"
 msgid "show as list"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:85
-msgid "show best matching channelname in screen title"
-msgstr ""
-
 #: enigma2-plugins/emailclient/src/EmailConfig.py:50
 msgid "show deleted entries"
 msgstr ""
@@ -24233,10 +24342,6 @@ msgstr ""
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:269
 msgid "show event details"
 msgstr "إظهار تفاصيل الحدث"
-
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:82
-msgid "show events"
-msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:275
 msgid "show first selected tag"
@@ -24289,10 +24394,6 @@ msgstr ""
 
 #: enigma2-plugins/googlemaps/src/plugin.py:260
 msgid "show selected Placemark"
-msgstr ""
-
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:86
-msgid "show short description"
 msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:277
@@ -24647,10 +24748,6 @@ msgstr ""
 msgid "view extensions..."
 msgstr "مشاهدة الملحقات..."
 
-#: enigma2-plugins/setpasswd/src/plugin.py:72
-msgid "virt. Keyboard"
-msgstr ""
-
 #: enigma2-plugins/dreamirc/src/plugin.py:116
 msgid "virtual Keyb."
 msgstr ""
@@ -24713,13 +24810,13 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1923
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2729
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3551
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3913
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4050
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4067
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4182
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4191
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4211
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4255
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3923
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4060
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4077
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4194
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4203
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4223
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4267
 msgid "wrong user or password?"
 msgstr ""
 
@@ -24746,11 +24843,11 @@ msgstr "نعـم"
 msgid "yes, Except for Recording or HDD"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:118
+#: enigma2-plugins/elektro/src/plugin.py:120
 msgid "yes, Profile 1"
 msgstr ""
 
-#: enigma2-plugins/elektro/src/plugin.py:118
+#: enigma2-plugins/elektro/src/plugin.py:120
 msgid "yes, Profile 2"
 msgstr ""
 
