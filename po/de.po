@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: 3D Settings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-23 17:21+0200\n"
-"PO-Revision-Date: 2020-10-30 16:03+0000\n"
-"Last-Translator: dhwz <dhwz@gmx.net>\n"
+"PO-Revision-Date: 2020-11-01 19:30+0000\n"
+"Last-Translator: Gorgone Impertinence <gorgone.rult@gmail.com>\n"
 "Language-Team: German <https://dreambox.de/translate/projects/dreambox/"
 "plugins/de/>\n"
 "Language: de\n"
@@ -2268,7 +2268,7 @@ msgstr "Automatische Primetime:"
 
 #: enigma2-plugins/emission/src/EmissionSetup.py:31
 msgid "Auto-add torrent enclosures from SimpleRSS"
-msgstr ""
+msgstr "Automatisches Hinzufügen von Torrents mit SimpleRSS"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:38
 msgid "Auto-enable conditions for subtitles"
@@ -3799,7 +3799,7 @@ msgstr "Konfigurationsdatei %s nicht gefunden."
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1086
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1088
 msgid "Configlist"
-msgstr ""
+msgstr "Konfigurationsliste"
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:47
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1831
@@ -5027,7 +5027,7 @@ msgstr "Endgültig löschen"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1406
 msgid "Delete screen to fix new MST version?"
-msgstr ""
+msgstr "Bildschirm löschen, um neue MST-Version zu korrigieren?"
 
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:93
 msgid "Delete selected page"
@@ -5149,7 +5149,7 @@ msgstr "Gerät:"
 
 #: enigma2-plugins/cec/src/CecConfig.py:38
 msgid "Devices"
-msgstr ""
+msgstr "Geräte"
 
 #: enigma2-plugin-networkbrowser/src/MountView.py:79
 msgid "Dir:"
@@ -5733,6 +5733,7 @@ msgstr "Timeshiftaufnahme nicht als Film speichern"
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:178
 msgid "Don't shutdown after manual abort of automated refresh"
 msgstr ""
+"Nicht abschalten nach manuellem Abbruch der automatischen Aktualisierung"
 
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:958
 msgid "Don't stop current event but disable coming events"
@@ -6912,7 +6913,7 @@ msgstr "Englisch"
 
 #: plugin.py:557
 msgid "Enhanced Movie Center"
-msgstr ""
+msgstr "Erweitertes Movie Center"
 
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:92
 msgid "Enigma1-like history:"
@@ -7538,7 +7539,7 @@ msgstr "FAQ"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:25
 msgid "FHD Progressive Mode"
-msgstr ""
+msgstr "FHD Progressiver Modus"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:427
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1401
@@ -8140,7 +8141,7 @@ msgstr "AV-Format umschalten"
 
 #: enigma2-plugins/cec/src/CecConfig.py:90
 msgid "Forward Volume keys to TV/AVR"
-msgstr ""
+msgstr "Lautstärketasten an TV/AVR weiterleiten"
 
 #: enigma2-plugins/pushservice/src/Controller/CrashLog.py:32
 msgid "Found CrashLog(s)"
@@ -8655,19 +8656,19 @@ msgstr "HD Progressiv Modus"
 
 #: enigma2-plugins/cec/src/CecConfig.py:72
 msgid "HDMI CEC"
-msgstr ""
+msgstr "HDMI CEC"
 
 #: enigma2-plugins/cec/src/plugin.py:23
 msgid "HDMI CEC 2.0"
-msgstr ""
+msgstr "HDMI CEC 2.0"
 
 #: enigma2-plugins/cec/src/CecConfig.py:116
 msgid "HDMI CEC: Setup"
-msgstr ""
+msgstr "HDMI CEC: Einrichtung"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:34
 msgid "HDMI CeC: Devices"
-msgstr ""
+msgstr "HDMI CEC: Geräte"
 
 # EMC Setup Helptext
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:334
@@ -9042,7 +9043,7 @@ msgstr "Markieren neuer Aufnahmen mit einem Stern"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:386
 msgid "HELP_Minimum file cache limit"
-msgstr ""
+msgstr "HELP_Minimales Datei-Cache-Limit"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:442
 msgid "HELP_Move finished movies in trashcan"
@@ -10696,7 +10697,7 @@ msgstr "Hellrot"
 
 #: enigma2-plugins/mytube/src/plugin.py:1155
 msgid "Likes: "
-msgstr ""
+msgstr "Vorlieben: "
 
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:33
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:37
@@ -10879,6 +10880,8 @@ msgid ""
 "Local subtitle convertion for:\n"
 "%s."
 msgstr ""
+"Lokale Untertitelkonvertierung für:\n"
+"%s."
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:358
 msgid ""
@@ -11366,19 +11369,20 @@ msgstr "Merlin Music Player und iDream"
 
 #: enigma2-plugins/easymedia/src/plugin.py:560
 msgid "Merlin iDream2 is not installed!"
-msgstr ""
+msgstr "Merlin iDream2 ist nicht installiert!"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:603
 msgid "MerlinEPG is not installed!"
 msgstr "MerlinEPG ist nicht installiert!"
 
 #: enigma2-plugins/easymedia/src/plugin.py:49
+#, fuzzy
 msgid "MerlinMusicPlayer2"
-msgstr ""
+msgstr "MerlinMusicPlayer2"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:39
 msgid "MerlinSkinThemes"
-msgstr ""
+msgstr "MerlinSkinThema"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1429
 msgid "MerlinSkinThemes - Help"
@@ -11450,6 +11454,9 @@ msgid ""
 "\n"
 "Please supplie requires binaries by Yourself."
 msgstr ""
+"Mipsel-Architektur nicht erkannt.\n"
+"\n"
+"Bitte spielen Sie die benötigten Binärdateien selbst ein."
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:1357
@@ -12098,6 +12105,10 @@ msgid ""
 "Both IMDB and movie name haven't values. \n"
 "Please give at least one correct searching value."
 msgstr ""
+"Fehler in der NAPISY24-Suchmethode:\n"
+"\n"
+"Sowohl IMDB als auch Filmname haben keine Werte. \n"
+"Bitte geben Sie mindestens einen korrekten Suchwert an."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:796
 msgid ""
@@ -12106,6 +12117,10 @@ msgid ""
 "Can't find IMDB identifier for this movie.\n"
 "Please try another searching method."
 msgstr ""
+"Fehler in der NAPISY24-Suchmethode:\n"
+"\n"
+"Kann den IMDB-Bezeichner für diesen Film nicht finden.\n"
+"Bitte versuchen Sie eine andere Suchmethode."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:800
 msgid ""
@@ -12113,6 +12128,9 @@ msgid ""
 "\n"
 "Please enter movie name to search."
 msgstr ""
+"Fehler in der NAPISY24-Suchmethode:\n"
+"\n"
+"Bitte geben Sie den Filmnamen für die Suche ein."
 
 #: enigma2-plugins/elektro/src/plugin.py:466
 msgid "NAS Poweroff (press OK to edit)"
@@ -12615,7 +12633,7 @@ msgstr "Keine verwaisten Dateien gefunden."
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1316
 msgid "No script operation for VLC streams."
-msgstr ""
+msgstr "Keine Skriptoperation für VLC-Streams."
 
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:164
 msgid ""
@@ -12974,8 +12992,9 @@ msgid "OPKG Update Notification"
 msgstr "OPKG Aktualisierungs Benachrichtigung"
 
 #: enigma2-plugins/cec/src/CecConfig.py:77
+#, fuzzy
 msgid "OSD Name"
-msgstr ""
+msgstr "OSD Name"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:878
 msgid "OSError - please reload list (EMC menu)"
@@ -13237,11 +13256,11 @@ msgstr "Auswahl-GUI öffnen"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:564
 msgid "Open text search history list"
-msgstr ""
+msgstr "Verlaufsliste der Freitextsuche"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:562
 msgid "Open text search history with search filters"
-msgstr ""
+msgstr "Offene Text-Suchverlauf mit Filter für die Suche"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:197
 msgid "Open the extras menu"
@@ -13275,7 +13294,7 @@ msgstr "Original Dateiname: %s"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:42
 msgid "Other"
-msgstr ""
+msgstr "Andere"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:172
 msgid "Others"
@@ -13668,7 +13687,7 @@ msgstr "Telefonanrufe"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:761
 msgid "PhoneBook Location"
-msgstr ""
+msgstr "Telefonbuch Speicherort"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2692
 #: enigma2-plugins/fritzcall/src/plugin.py:2716
@@ -13690,8 +13709,9 @@ msgid "PiP available now."
 msgstr "PiP is wieder verfügbar."
 
 #: enigma2-plugins/pipzap/src/plugin.py:689
+#, fuzzy
 msgid "PiPzap"
-msgstr ""
+msgstr "PiPzap"
 
 #: enigma2-plugins/pipzap/src/plugin.py:727
 msgid "PiPzap Settings"
@@ -13816,15 +13836,15 @@ msgstr "Videos von ihrem PC abspielen"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:13
 msgid "Playback Device"
-msgstr ""
+msgstr "Wiedergabegerät"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:17
 msgid "Playback Device 2"
-msgstr ""
+msgstr "Wiedergabegerät 2"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:20
 msgid "Playback Device 3"
-msgstr ""
+msgstr "Wiedergabegerät 3"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/MP.py:149
 #, python-format
@@ -14289,11 +14309,11 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:82
 msgid "Power on AV-Receiver"
-msgstr ""
+msgstr "Einschalten des AV-Empfängers"
 
 #: enigma2-plugins/cec/src/CecConfig.py:84
 msgid "Power on/off based on CEC Events"
-msgstr ""
+msgstr "Ein-/Ausschalten aufgrund von CEC-Ereignissen"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:571
 msgid ""
@@ -14481,12 +14501,12 @@ msgstr "Prioritäten für Timer"
 
 #: enigma2-plugin-pzyp4t/meta/plugin_pzyp4t.xml./enigma2-plugin-pzyp4t/meta/plugin_pzyp4t.xml
 msgid "Priorities for Timers aka Timer+ - by pzy-co"
-msgstr ""
+msgstr "Prioritäten für Timer aka Timer+ - von pzy-co"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:260
 #, python-format
 msgid "Private: %s"
-msgstr ""
+msgstr "Privat: %s"
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:235
 msgid "Problem during loading Webchannels"
@@ -14695,8 +14715,9 @@ msgid "Puts the box in standby mode after boot."
 msgstr "Versetzt die Box nach dem Booten in den Standby Modus."
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:171
+#, fuzzy
 msgid "PzyP4T"
-msgstr ""
+msgstr "PzyP4T"
 
 #: enigma2-plugins/imdb/src/plugin.py:498
 #, python-format
@@ -15067,15 +15088,15 @@ msgstr "Aufgenommene Dateien..."
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:10
 msgid "Recording Device"
-msgstr ""
+msgstr "Aufnahmegerät"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:11
 msgid "Recording Device 2"
-msgstr ""
+msgstr "Aufnahmegerät 2"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:18
 msgid "Recording Device 3"
-msgstr ""
+msgstr "Aufnahmegerät 3"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:165
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:294
@@ -15291,7 +15312,7 @@ msgstr "Remote Timer - WebIf Port"
 
 #: enigma2-plugins/cec/src/CecConfig.py:88
 msgid "Remote control"
-msgstr ""
+msgstr "Fernsteuerung"
 
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:291
 msgid ""
@@ -15304,7 +15325,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:91
 msgid "Remote control repeat delay (ms)"
-msgstr ""
+msgstr "Wiederholungsverzögerung der Fernbedienung (ms)"
 
 #: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
 msgid "Remote file display"
@@ -15663,7 +15684,7 @@ msgstr "Gespeicherte Position zurücksetzen"
 
 #: enigma2-plugins/cec/src/CecConfig.py:97
 msgid "Reset to defaults?"
-msgstr ""
+msgstr "Auf Standardwerte zurücksetzen?"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:393
 msgid "Reset todays remaining time"
@@ -16638,6 +16659,9 @@ msgid ""
 "Select the search list to show on blue button in the EPGSearch match list "
 "(default = text search history and search filter list)."
 msgstr ""
+"Wählen Sie die Suchliste, die auf der blauen Schaltfläche in der EPGSearch-"
+"Matchliste angezeigt werden soll (Standard = Textsuchverlauf und "
+"Suchfilterliste)."
 
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:254
 msgid ""
@@ -16851,16 +16875,19 @@ msgid "Server share"
 msgstr "Server Freigabe"
 
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:61
+#, fuzzy
 msgid "Server1"
-msgstr ""
+msgstr "Server1"
 
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:63
+#, fuzzy
 msgid "Server2"
-msgstr ""
+msgstr "Server2"
 
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:64
+#, fuzzy
 msgid "Server3"
-msgstr ""
+msgstr "Server3"
 
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:54
 msgid "Serverlist"
@@ -17008,6 +17035,8 @@ msgid ""
 "Setting \"Unlimited\" is not supported via RPC.\n"
 "Either abort or choose another limit to continue."
 msgstr ""
+"Die Einstellung \"Unbegrenzt\" wird über RPC nicht unterstützt.\n"
+"Entweder abbrechen oder eine andere Begrenzung wählen, um fortzufahren."
 
 #: enigma2-plugins/audiosync/src/AC3main.py:251
 msgid "Setting key canceled"
@@ -17261,7 +17290,7 @@ msgstr "MerlinMusicPlayer im Hauptmenü anzeigen"
 
 #: enigma2-plugins/easymedia/src/plugin.py:206
 msgid "Show Merlin-iDream2:"
-msgstr ""
+msgstr "Merlin-iDream2 anzeigen:"
 
 #
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:153
@@ -17509,7 +17538,7 @@ msgstr "Zeige im Plugin Browser"
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:85
 msgid "Show indicator label if zapping PiP"
-msgstr ""
+msgstr "Indikatorbeschriftung anzeigen, wenn mit PiP gezappt wird"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "Show info at the bottom"
@@ -17630,7 +17659,7 @@ msgstr "Meldung zeigen, wenn Aktualisierung startet/endet"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1544
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1548
 msgid "Show prev.png - "
-msgstr ""
+msgstr "prev.png anzeigen - "
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:96
 msgid "Show program settings"
@@ -17906,15 +17935,15 @@ msgstr "Größe"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1518
 msgid "Skin MOD - No info available"
-msgstr ""
+msgstr "Skin MOD - Keine Informationen verfügbar"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1493
 msgid "Skin ORGINAL - No info available"
-msgstr ""
+msgstr "Skin ORGINAL - Keine Informationen verfügbar"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:78
 msgid "Skin could not be rebuilt due to missing themes.xml"
-msgstr ""
+msgstr "Skin konnte aufgrund fehlender themes.xml nicht neu erstellt werden"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:75
 msgid ""
@@ -18005,7 +18034,7 @@ msgstr ""
 
 #: enigma2-plugins/pushservice/src/ModuleBase.py:94
 msgid "Skipping config option:"
-msgstr ""
+msgstr "Überspringen der Konfigurationsoption:"
 
 #: e2openplugin-SeriesPlugin/src/Identifiers/SerienServer.py:57
 msgid "Skipping lookup because no begin timestamp is specified"
@@ -18097,7 +18126,7 @@ msgstr "Slideshow-Modus"
 
 #: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:17
 msgid "Slideshow Time"
-msgstr ""
+msgstr "Diashow-Zeit"
 
 #: enigma2-plugins/kiddytimer/src/plugin.py:15
 msgid "Smiley"
@@ -18400,8 +18429,9 @@ msgid "Staffel"
 msgstr "Staffel"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:99
+#, fuzzy
 msgid "Stalker Autostart"
-msgstr ""
+msgstr "Stalker Autostart"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:103
 msgid "Stalker Channels"
@@ -18418,7 +18448,7 @@ msgstr "Stalker-MAC"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:23
 msgid "Stalker Middleware Client Configuration"
-msgstr ""
+msgstr "Stalker-Middleware-Client-Konfiguration"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:40
 msgid "Stalker Server"
@@ -18429,8 +18459,9 @@ msgid "Stalker Services"
 msgstr "Stalker-Sender"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/plugin.py:68
+#, fuzzy
 msgid "Stalker Streaming Client"
-msgstr ""
+msgstr "Stalker Streaming Client"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:165
 msgid "Stalker login failed!"
@@ -18843,7 +18874,7 @@ msgstr "Liste der Timer übertragen?"
 #: enigma2-plugins/subsdownloader2/src/plugin.py:938
 #: enigma2-plugins/subsdownloader2/src/plugin.py:946
 msgid "SubsDownloader : Install..."
-msgstr ""
+msgstr "SubsDownloader : Installieren..."
 
 #: enigma2-plugins/simplerss/src/plugin.py:127
 msgid "Subscribe Newsfeed..."
@@ -18855,7 +18886,7 @@ msgstr "Channel abonnieren"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:933
 msgid "Subtitle Downloader : Install..."
-msgstr ""
+msgstr "Untertitel Downloader : Installieren..."
 
 #: enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml./enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml
 msgid ""
@@ -19195,8 +19226,9 @@ msgstr ""
 "Abbrechen?"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:139
+#, fuzzy
 msgid "Text PID"
-msgstr ""
+msgstr "Text PID"
 
 #: enigma2-plugins/teletext/src/plugin.py:1352
 msgid "Text level"
@@ -19212,11 +19244,11 @@ msgstr "Text-Versatz (Füllung) in Pixel"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:29
 msgid "Text search history"
-msgstr ""
+msgstr "Verlauf der Textsuche"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:29
 msgid "Text search history with search filters"
-msgstr ""
+msgstr "Textsuchhistorie mit Suchfiltern"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:375
 msgid "Text shown for initially unknown count and size"
@@ -19729,6 +19761,12 @@ msgid ""
 "\n"
 "If error still appears please check network connection with server."
 msgstr ""
+"Auf diesem Server gibt es keinen Untertitel zu Ihrem Film. \n"
+"Bitte versuchen Sie eine andere Sprache oder einen anderen Untertitel-Server."
+"\n"
+"\n"
+"Wenn der Fehler weiterhin auftritt, überprüfen Sie bitte die "
+"Netzwerkverbindung mit dem Server."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:802
 msgid ""
@@ -19737,6 +19775,12 @@ msgid ""
 "\n"
 "If error still appears please check network connection with server."
 msgstr ""
+"Auf diesem Server gibt es keinen Untertitel zu Ihrem Film. \n"
+"Bitte versuchen Sie eine andere Suchmethode oder einen anderen "
+"Untertitelserver.\n"
+"\n"
+"Wenn der Fehler weiterhin auftritt, überprüfen Sie bitte die "
+"Netzwerkverbindung mit dem Server."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:478
 #, python-format
@@ -19744,18 +19788,24 @@ msgid ""
 "There is problem with DMnapi execution.\n"
 "Check if Your SubsDownloader supports DMnapi %s version."
 msgstr ""
+"Es gibt ein Problem mit der DMnapi-Ausführung.\n"
+"Prüfen Sie, ob Ihr SubsDownloader DMnapi %s Version unterstützt."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:720
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1001
 msgid ""
 "There is problem with downloading or saveing subtitles on storage device."
 msgstr ""
+"Es gibt Probleme beim Herunterladen oder Speichern von Untertiteln auf einem "
+"Speichergerät."
 
 #: enigma2-plugins/subsdownloader2/src/pluginOnlineContent.py:108
 msgid ""
 "There is problem with server connection. \n"
 " Please try again later."
 msgstr ""
+"Es gibt ein Problem mit der Serververbindung. \n"
+" Bitte versuchen Sie es später noch einmal."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:357
 msgid ""
@@ -19849,6 +19899,9 @@ msgid ""
 "You can do so with the Plugin Installer, see the User Manual for further "
 "explanation."
 msgstr ""
+"Für diese Funktion muss SimpleRSS installiert sein.\n"
+"Sie können dies mit dem Plugin-Installer durchführen, weitere Erläuterungen "
+"finden Sie im Benutzerhandbuch."
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2702
 msgid "This folder is locked or contains a locked subfolder, unlock it first!"
@@ -20178,6 +20231,9 @@ msgid ""
 "This will reset all CeC settings to their factory defaults\n"
 "Continue?"
 msgstr ""
+"Dadurch werden alle CEC-Einstellungen auf die Werkseinstellungen "
+"zurückgesetzt.\n"
+"Fortfahren?"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2108
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:121
@@ -20195,8 +20251,9 @@ msgid "Thursday"
 msgstr "Donnerstag"
 
 #: enigma2-plugins/simplerss/src/plugin.py:14
+#, fuzzy
 msgid "Ticker"
-msgstr ""
+msgstr "Ticker"
 
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:376
 msgid "Time"
@@ -20612,7 +20669,7 @@ msgstr "Oben/Unten"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:202
 msgid "Torrent could not be scheduled not download!"
-msgstr ""
+msgstr "Torrent konnte nicht geplant und nicht heruntergeladen werden!"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:250
 msgid "Total"
@@ -20624,9 +20681,9 @@ msgid "Track Autoselect"
 msgstr "Automatische Spurauswahl"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:259
-#, python-format
+#, fuzzy, python-format
 msgid "Tracker: %s"
-msgstr ""
+msgstr "Tracker: %s"
 
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:319
 msgid "Transcode MPEG/DVD Audio"
@@ -20720,16 +20777,19 @@ msgid "Tuner"
 msgstr "Tuner"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:15
+#, fuzzy
 msgid "Tuner 2"
-msgstr ""
+msgstr "Tuner 2"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:16
+#, fuzzy
 msgid "Tuner 3"
-msgstr ""
+msgstr "Tuner 3"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:19
+#, fuzzy
 msgid "Tuner 4"
-msgstr ""
+msgstr "Tuner 4"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3575
 msgid "Tuner Selected"
@@ -20822,13 +20882,14 @@ msgid "UHD Progressive Mode"
 msgstr "UHD Progressiv Modus"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:152
+#, fuzzy
 msgid "UL"
-msgstr ""
+msgstr "UL"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:450
-#, python-format
+#, fuzzy, python-format
 msgid "UL: %d kb/s"
-msgstr ""
+msgstr "UL: %d kb/s"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2505
 #: enigma2-plugins/ncidclient/src/plugin.py:836
@@ -20981,6 +21042,8 @@ msgstr "Angezeigte fortsetzen"
 msgid ""
 "Unselecting the only file scheduled for download is not possible through RPC."
 msgstr ""
+"Das Abwählen der einzigen zum Herunterladen vorgesehenen Datei ist über RPC "
+"nicht möglich."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Message.py:56
 #, python-format
@@ -21099,8 +21162,9 @@ msgid "Upload finished."
 msgstr "Upload abgeschloßen."
 
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:94
+#, fuzzy
 msgid "Upload rate"
-msgstr ""
+msgstr "Upload rate"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:289
 #: enigma2-plugins/twitchtv/src/plugin.py:295
@@ -21126,7 +21190,7 @@ msgstr "Benutzung"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1174
 msgid "Use \"guessFileData\" method for movie filname:"
-msgstr ""
+msgstr "Verwenden Sie die \"guessFileData\"-Methode für den Filmdateinamen:"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2707
 msgid "Use HTTPS to communicate with FRITZ!Box"
@@ -21187,7 +21251,7 @@ msgstr "Verwende ältere Dateinamen"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1179
 msgid "Use media patern filter in FileList:"
-msgstr ""
+msgstr "Medienmusterfilter in Dateiliste verwenden:"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:477
 msgid "Use original EMC-skin (needs reopen)"
@@ -22163,11 +22227,11 @@ msgstr ""
 
 #: enigma2-plugins/pushservice/src/Controller/ListDir.py:46
 msgid "Where to check"
-msgstr ""
+msgstr "Wo zu überprüfen"
 
 #: enigma2-plugins/pushservice/src/Controller/FreeSpace.py:73
 msgid "Where to check free space"
-msgstr ""
+msgstr "Wo können Sie den freien Speicherplatz überprüfen"
 
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:174
 msgid "Where to save?"
@@ -22931,7 +22995,7 @@ msgstr ""
 
 #: enigma2-plugins/pushservice/src/Controller/FreeSpace.py:94
 msgid "[FreeSpace] HDD is idle: "
-msgstr ""
+msgstr "Die [FreeSpace] Festplatte ist untätig: "
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:259
 msgid "[Media files] "
@@ -22953,8 +23017,22 @@ msgid ""
 "choose Design: -none-\n"
 "to reset themes to active settings/themes"
 msgstr ""
+"[OK]\n"
+"zum Skin-Auswahlbildschirm wechseln\n"
+"\n"
+"[Themen anwenden] braucht etwas Zeit - bitte warten\n"
+"\n"
+"[Muster löschen]\n"
+"ausgewähltes Muster löschen\n"
+"\n"
+"[als Muster speichern]\n"
+"ausgewählte Themen/Bildschirme im neuen Design speichern\n"
+"\n"
+"wähle Design: -nicht\n"
+"um Themen auf aktive Einstellungen/Themen zurückzusetzen"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1414
+#, fuzzy
 msgid ""
 "[OK]\n"
 "switch to themes/designs config screen for selected skin\n"
@@ -22966,6 +23044,17 @@ msgid ""
 "remove <screen name=\"MerlinSkinThemes\"...> from selected skin.This can fix "
 "a greenscreen if skin is not up to date for MST."
 msgstr ""
+"[OK]\n"
+"zum Konfigurationsbildschirm der Themen/Designs für den ausgewählten Skin "
+"wechseln\n"
+"\n"
+"[Themen erstellen] und [löschen]\n"
+"braucht etwas Zeit - bitte warten Sie\n"
+"\n"
+"[Menü]\n"
+"remove <screen name=\"MerlinSkinThemes\"...> from selected skin. Dies kann "
+"einen Greenscreen beheben, wenn der Skin nicht auf dem neuesten Stand für "
+"MST ist."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1422
 msgid "[PTS-Plugin] Merging records failed!"
@@ -23042,7 +23131,7 @@ msgstr "aktiviert"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1696
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1709
 msgid "active skin"
-msgstr ""
+msgstr "aktiver Skin"
 
 #: enigma2-plugins/eparted/src/eparted.py:327
 #: enigma2-plugins/emailclient/src/plugin.py:966
@@ -23424,15 +23513,15 @@ msgstr "Aufnahme ändern (Aufnahmeendzeit)"
 
 #: enigma2-plugins/elektro/src/plugin.py:455
 msgid "check for sleep directly after manual boot"
-msgstr ""
+msgstr "Prüfung auf Schlafmodus direkt nach manuellem Hochfahren"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:238
 msgid "check pending"
-msgstr ""
+msgstr "Prüfung ausstehend"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:240
 msgid "checking"
-msgstr ""
+msgstr "überprüfen"
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:92
 #: enigma2-plugins/automaticcleanup/src/plugin.py:96
@@ -23763,7 +23852,7 @@ msgstr "mehrfach"
 
 #: enigma2-plugins/emission/src/EmissionSetup.py:21
 msgid "eMission settings"
-msgstr ""
+msgstr "eMission-Einstellungen"
 
 #: enigma2-plugins/eparted/meta/plugin_eparted.xml./enigma2-plugins/eparted/meta/plugin_eparted.xml
 msgid "eParted manipulates partition tables"
@@ -23809,15 +23898,15 @@ msgstr "eingeschaltet"
 
 #: enigma2-plugins/streamserverseek/src/WebComponents/Sources/StreamServerSeekSource.py:101
 msgid "encoder service not pausable"
-msgstr ""
+msgstr "Encoder-Dienst nicht pausierbar"
 
 #: enigma2-plugins/streamserverseek/src/WebComponents/Sources/StreamServerSeekSource.py:95
 msgid "encoder service not running"
-msgstr ""
+msgstr "Encoder-Dienst läuft nicht"
 
 #: enigma2-plugins/streamserverseek/src/WebComponents/Sources/StreamServerSeekSource.py:108
 msgid "encoder service not seekable"
-msgstr ""
+msgstr "Encoder-Dienst nicht suchbar"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1021
 msgid "encrypted"
@@ -23833,7 +23922,7 @@ msgstr "unbeschränkt"
 
 #: enigma2-plugins/emission/src/plugin.py:162
 msgid "enigma2 frontend to transmission-daemon"
-msgstr ""
+msgstr "enigma2-Frontend für Transmission"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:210
 msgid "enter directory/get file/put file"
@@ -23873,11 +23962,11 @@ msgstr ""
 
 #: enigma2-plugins/remotetimer/src/plugin.py:166
 msgid "error parsing incoming data."
-msgstr ""
+msgstr "Fehler beim Parsen eingehender Daten."
 
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:51
 msgid "error writing to disk, not uploaded"
-msgstr ""
+msgstr "Fehler beim Schreiben auf Platte, nicht hochgeladen"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "every single one"
@@ -23912,16 +24001,18 @@ msgid "favorites / decrease height"
 msgstr "Favoriten / Höhe verringern"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4118
+#, fuzzy
 msgid "fax_home"
-msgstr ""
+msgstr "fax_home"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4118
+#, fuzzy
 msgid "fax_work"
-msgstr ""
+msgstr "fax_work"
 
 #: enigma2-plugins/remotetimer/src/plugin.py:115
 msgid "fetching remote data..."
-msgstr ""
+msgstr "Abrufen von entfernten Daten..."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:482
 #: enigma2-plugins/dreamexplorer/src/plugin.py:510
@@ -23938,7 +24029,7 @@ msgstr "Dateisystemtyp: "
 
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:37
 msgid "filesize was 0, not uploaded"
-msgstr ""
+msgstr "Dateigröße war 0, nicht hochgeladen"
 
 #: enigma2-plugins/eparted/src/eparted.py:214
 msgid "filesystem:"
@@ -23955,7 +24046,7 @@ msgstr "Filter an"
 
 #: enigma2-plugins/remotetimer/src/plugin.py:125
 msgid "finish fetching remote data..."
-msgstr ""
+msgstr "das Abrufen der entfernten Daten beenden..."
 
 #: enigma2-plugins/autotimer/src/AutoTimer.py:728
 #, python-format
@@ -24192,6 +24283,9 @@ msgid ""
 "irc server %s not responding!\n"
 "please check your network settings and/or irc servername..."
 msgstr ""
+"irc-Server %s antwortet nicht!\n"
+"Bitte überprüfen Sie Ihre Netzwerkeinstellungen und/oder Ihren irc-"
+"Servernamen..."
 
 #: enigma2-plugins/twitchtv/src/plugin.py:417
 msgid "is currently offline"
@@ -24236,20 +24330,24 @@ msgid "last 5"
 msgstr "die letzten 5"
 
 #: enigma2-plugins/multirc/src/plugin.py:12
+#, fuzzy
 msgid "layer 1"
-msgstr ""
+msgstr "layer 1"
 
 #: enigma2-plugins/multirc/src/plugin.py:13
+#, fuzzy
 msgid "layer 2"
-msgstr ""
+msgstr "layer 2"
 
 #: enigma2-plugins/multirc/src/plugin.py:14
+#, fuzzy
 msgid "layer 3"
-msgstr ""
+msgstr "layer 3"
 
 #: enigma2-plugins/multirc/src/plugin.py:15
+#, fuzzy
 msgid "layer 4"
-msgstr ""
+msgstr "layer 4"
 
 #: enigma2-plugins/yttrailer/src/plugin.py:203
 #: enigma2-plugins/yttrailer/src/plugin.py:209
@@ -24467,6 +24565,8 @@ msgid ""
 "missing or wrong parameter mode [%i=both, %i=lamedb only, %i=userbouqets "
 "only, %i=transponders, %i=parentalcontrol white-/blacklist]"
 msgstr ""
+"fehlender oder falscher Parametermodus [%i=both, %i=lamedb only, "
+"%i=userbouqets only, %i=transponders, %i=parentalcontrol white-/blacklist]"
 
 #: enigma2-plugins/autotimer/src/AutoTimerResource.py:261
 msgid "missing parameter \"id\""
@@ -24563,7 +24663,7 @@ msgstr "Neue Option: "
 
 #: enigma2-plugins/webcamviewer/src/WebcamTravel.py:87
 msgid "next"
-msgstr ""
+msgstr "nächste"
 
 #: enigma2-plugins/teletext/src/plugin.py:215
 msgid "next channel / channel list"
@@ -24603,7 +24703,7 @@ msgstr "kein Name"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:317
 msgid "no Viewer installed for this mimetype!"
-msgstr ""
+msgstr "kein Viewer für diesen Mimetyp installiert!"
 
 #: enigma2-plugins/emailclient/src/plugin.py:1015
 #: enigma2-plugins/emailclient/src/plugin.py:1052
@@ -24649,7 +24749,7 @@ msgstr "kein Sender"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1270
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1690
 msgid "no skin.xml"
-msgstr ""
+msgstr "keine skin.xml"
 
 #: enigma2-plugins/emailclient/src/plugin.py:347
 #: enigma2-plugins/emailclient/src/plugin.py:597
@@ -24660,7 +24760,7 @@ msgstr "kein Betreff"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1276
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1693
 msgid "no themes.xml"
-msgstr ""
+msgstr "keine themes.xml"
 
 #: enigma2-plugins/imdb/src/plugin.py:601
 msgid "no user rating yet"
@@ -24672,8 +24772,9 @@ msgid "none"
 msgstr "Keins"
 
 #: enigma2-plugins/webcamviewer/src/plugin.py:43
+#, fuzzy
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:157
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:193
@@ -24682,7 +24783,7 @@ msgstr "nicht aktiviert"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:75
 msgid "not available"
-msgstr ""
+msgstr "nicht verfügbar"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1541
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1590
@@ -24698,7 +24799,7 @@ msgstr "nicht konfiguriert"
 
 #: enigma2-plugins/remotetimer/src/plugin.py:119
 msgid "not configured yet. please do so in the settings."
-msgstr ""
+msgstr "noch nicht konfiguriert. Bitte tun Sie dies in den Einstellungen."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1019
 msgid "not encrypted"
@@ -24848,16 +24949,17 @@ msgid "one two three four unknown command"
 msgstr "eins zwei drei vier unbekannter befehl"
 
 #: enigma2-plugins/webcamviewer/src/plugin.py:144
+#, fuzzy
 msgid "online webcam.travel"
-msgstr ""
+msgstr "online webcam.travel"
 
 #: enigma2-plugins/pipzap/src/plugin.py:664
 msgid "only Close"
-msgstr ""
+msgstr "nur Schließen"
 
 #: enigma2-plugins/pipzap/src/plugin.py:664
 msgid "only Open"
-msgstr ""
+msgstr "nur Offen"
 
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
 msgid "only close and save (without searching)"
@@ -24890,11 +24992,11 @@ msgstr "EPGSearch-Suchliste öffnen"
 #: enigma2-plugins/emission/src/EmissionDetailview.py:84
 #: enigma2-plugins/emission/src/EmissionOverview.py:135
 msgid "open bandwidth settings"
-msgstr ""
+msgstr "öffne Bandbreiteneinstellungen"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:598
 msgid "open config"
-msgstr ""
+msgstr "Konfiguration öffnen"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:142
 msgid "open context menu"
@@ -24927,8 +25029,9 @@ msgid "overall"
 msgstr "insgesamt"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4118
+#, fuzzy
 msgid "pager"
-msgstr ""
+msgstr "pager"
 
 #: enigma2-plugins/eibox/src/plugin.py:587
 msgid "parser error"
@@ -25283,8 +25386,9 @@ msgstr "Suche nach Künstler"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:225
+#, fuzzy
 msgid "search for current search filter"
-msgstr ""
+msgstr "Suche mit aktuellem Filter"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1974
 msgid "search for title"
@@ -25397,8 +25501,9 @@ msgid "sets the Audio Delay (LipSync)"
 msgstr "Setzt die verschiedenen Audio- Verzögerungen (LipSync)"
 
 #: enigma2-plugins/pipservicerelation/src/plugin.py:279
+#, fuzzy
 msgid "setup for PiPServiceRelation"
-msgstr ""
+msgstr "Einrichtung für PiPServiceRelation"
 
 #: enigma2-plugins/quickbutton/src/plugin.py:72
 msgid "setup for Quickbutton"
@@ -25436,7 +25541,7 @@ msgstr "Anzeige gelöschter Mails"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:129
 msgid "show details"
-msgstr ""
+msgstr "Details anzeigen"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:86
 msgid "show duration"
@@ -25459,11 +25564,11 @@ msgstr "Zeige erstgewähltes tag"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:72
 msgid "show next download details"
-msgstr ""
+msgstr "nächste Download-Details anzeigen"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:137
 msgid "show next list"
-msgstr ""
+msgstr "nächste Liste anzeigen"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:109
 #: enigma2-plugins/fritzcall/src/plugin.py:125
@@ -25472,11 +25577,11 @@ msgstr "keine Anzeige"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:71
 msgid "show previous download details"
-msgstr ""
+msgstr "frühere Download-Details anzeigen"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:136
 msgid "show previous list"
-msgstr ""
+msgstr "vorherige Liste anzeigen"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:91
 msgid "show real directories in red"
@@ -25498,7 +25603,7 @@ msgstr "Zeige tag-Menü"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
 msgid "simple warning"
-msgstr ""
+msgstr "einfache Warnung"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:93
 msgid "single line style"
@@ -25545,20 +25650,22 @@ msgstr "Standard Cover"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:91
 #: enigma2-plugins/emission/src/EmissionDetailview.py:179
+#, fuzzy
 msgid "start"
-msgstr ""
+msgstr "start"
 
 #: enigma2-plugins/teletext/src/plugin.py:225
 msgid "start page catching / select page"
 msgstr "Seitenlink auswählen"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:93
+#, fuzzy
 msgid "stop"
-msgstr ""
+msgstr "stop"
 
 #: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:19
 msgid "stop Service on Start"
-msgstr ""
+msgstr "Dienst bei Start beenden"
 
 #
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1168
@@ -25575,7 +25682,7 @@ msgstr "Empfang stoppen"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:249
 msgid "stopped"
-msgstr ""
+msgstr "angehalten"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:84
 msgid "subtitle and audio language may be the same"
@@ -25671,11 +25778,11 @@ msgstr "Einen Marker an aktueller Position umschalten"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:83
 msgid "toggle download status"
-msgstr ""
+msgstr "Download-Status umschalten"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:77
 msgid "toggle file status"
-msgstr ""
+msgstr "Dateistatus umschalten"
 
 #: enigma2-plugins/teletext/src/plugin.py:228
 msgid "toggle flof/top"
