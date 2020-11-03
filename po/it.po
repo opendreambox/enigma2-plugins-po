@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-23 17:21+0200\n"
+"POT-Creation-Date: 2020-11-03 07:28+0100\n"
 "PO-Revision-Date: 2019-11-26 19:59+0000\n"
 "Last-Translator: spaeleus <spaeleus@croci.org>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
@@ -405,7 +405,7 @@ msgstr "%d canali in più"
 msgid "%d records renamed successfully"
 msgstr "record rinominati correttamente: %d"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:410
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:412
 #, python-format
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -655,15 +655,15 @@ msgstr "%s non trovato nella playlist"
 msgid "'%s' removed from playlist"
 msgstr "%s rimosso dalla playlist"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:185
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:187
 msgid "( # )"
 msgstr "( # )"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:188
 msgid "( # / GB )"
 msgstr "( # / GB )"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:187
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:189
 msgid "( GB )"
 msgstr "( GB )"
 
@@ -984,7 +984,7 @@ msgstr ""
 "====\n"
 "\n"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:849
 msgid ">>> ERROR - themes.xml in "
 msgstr ">>> ERRORE - themes.xml in "
 
@@ -1122,6 +1122,14 @@ msgstr "Downmix AC3 disabilitato"
 msgid "AC3 Downmix enabled"
 msgstr "Downmix AC3 abilitato"
 
+#: e2-advancedaudiosettings/src/plugin.py:64
+msgid "AC3 default"
+msgstr ""
+
+#: e2-advancedaudiosettings/src/plugin.py:65
+msgid "AC3 downmix"
+msgstr ""
+
 #: enigma2-plugins/growlee/src/plugin.py:175
 msgid "API Key"
 msgstr "API Key"
@@ -1130,7 +1138,7 @@ msgstr "API Key"
 msgid "API Root"
 msgstr "API Root"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:379
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:381
 msgid ""
 "ATTENTION\n"
 "\n"
@@ -1543,8 +1551,8 @@ msgstr "Agg. timer disabilitato se in conflitto"
 msgid "Add to Fav"
 msgstr "Aggiungere ai preferiti"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:207
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:228
 msgid "Add to Playlist"
 msgstr "Aggiungi alla Playlist"
 
@@ -1605,6 +1613,12 @@ msgstr "Regolare larghezza colonna nome canale:"
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:272
 msgid "Adjustment value"
 msgstr "Valori di regolazione"
+
+#: e2-advancedaudiosettings/src/plugin.py:39
+#: e2-advancedaudiosettings/src/plugin.py:161
+#: e2-advancedaudiosettings/src/plugin.py:166
+msgid "Advanced Audio Settings"
+msgstr ""
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:40
 msgid "Advanced cut specification..."
@@ -1866,55 +1880,55 @@ msgstr ""
 "ogni probabilità andrebbe in crash e ci si ritroverebbe con un movie player "
 "inutilizzabile fino alla rimozione di uno dei plugin in conflitto."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:269
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:275
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:271
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:277
 msgid "Alpha sort"
 msgstr "Ord. alfabetico"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:269
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:271
 msgid "Alpha sort ascending (AZ)"
 msgstr "Ordine alfabetico crescente (AZ)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:271
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:273
 msgid "Alpha sort ascending with meta (AZM)"
 msgstr "Ordine alfabetico crescente con meta (AZM)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:272
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:274
 msgid "Alpha sort ascending with meta, Date descending (AZMD-)"
 msgstr "Ordine alfabetico crescente con meta, Data decrescente (AZMD-)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:270
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:272
 msgid "Alpha sort ascending, Date descending (AZD-)"
 msgstr "Ordine alfabetico crescente, Data decrescente (AZD-)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:270
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:276
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:272
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:278
 msgid "Alpha sort date newest"
 msgstr "Ordine alfabetico, Data recente"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:275
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:277
 msgid "Alpha sort descending (ZA)"
 msgstr "Ordinamento per data decrescente (ZA)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:277
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:279
 msgid "Alpha sort descending with meta (ZAM)"
 msgstr "Ordinamento alfabetico descrescente con meta (ZAM)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:278
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:280
 msgid "Alpha sort descending with meta, Date ascending (ZAMD+)"
 msgstr "Ordinamento alfabetico descrescente con meta, Data crescente (ZAMD+)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:276
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:278
 msgid "Alpha sort descending, Date ascending (ZAD+)"
 msgstr "Ordinamento alfabetico decrescente, Data crescente (ZAD+)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:271
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:277
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:273
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:279
 msgid "Alpha sort meta"
 msgstr "Ordine alfabetico meta"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:272
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:278
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:274
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:280
 msgid "Alpha sort meta date newest"
 msgstr "Ordine alfabetico meta, Data recente"
 
@@ -2029,7 +2043,7 @@ msgstr "Aggiungere nome vanity"
 msgid "Apply"
 msgstr "Applicare"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:876
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:879
 msgid "Apply themes now?"
 msgstr "Applicare i temi?"
 
@@ -2194,6 +2208,10 @@ msgstr "PID audio"
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:322
 msgid "Audio Samplerate"
 msgstr "Campionamento audio"
+
+#: e2-advancedaudiosettings/src/plugin.py:167
+msgid "Audio Settings"
+msgstr ""
 
 #: enigma2-plugins/audiosync/src/plugin.py:36
 msgid "Audio Sync"
@@ -2685,8 +2703,8 @@ msgstr "Compleanni"
 msgid "BitrateViewer"
 msgstr "Visualizzare il Bitrate"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
 msgid "Black"
 msgstr "Nero"
 
@@ -2739,7 +2757,7 @@ msgstr "Ritardo avvio"
 msgid "Bootlogo-package:\n"
 msgstr "Pacchetto-Bootlogo:\n"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:254
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:256
 msgid "Both"
 msgstr "Entrambi"
 
@@ -2834,8 +2852,8 @@ msgstr "Buffer:"
 msgid "Build Clean Timerlist"
 msgstr "Creare elenco timer pulito"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:212
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:233
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:214
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:235
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1937
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1953
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1969
@@ -2908,7 +2926,7 @@ msgstr "Condivisione CIFS"
 msgid "CSFD"
 msgstr "CSFD"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "CSFD Info"
 msgstr "Informazioni CSFD"
 
@@ -3088,6 +3106,7 @@ msgstr "Canada"
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2929
 #: enigma2-plugin-moviecut/src_py/plugin.py:87
 #: enigma2-plugin-vps/src_py/Vps_setup.py:54
+#: e2-advancedaudiosettings/src/plugin.py:52
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:49
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:197
 #: enigma2-plugin-babelzapper/src/plugin.py:113
@@ -3290,7 +3309,7 @@ msgstr "Cambiare impostazioni 3D"
 msgid "Change File/Moviename and/or Description"
 msgstr "Cambia nome File/Film e/o la Descrizione"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:264
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:266
 msgid "Change Folder"
 msgstr "Cambiare directory"
 
@@ -3356,7 +3375,7 @@ msgstr "Cambiare nome Host del Dreambox."
 msgid "Change to %s"
 msgstr "Cambiare in %s"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:890
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:893
 msgid "Changes to skin "
 msgstr "Adeguamenti alla skin "
 
@@ -3751,9 +3770,9 @@ msgid "Close and save changes"
 msgstr "Chiudere e salvare le modifiche"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:133
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:624
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1617
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1624
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:627
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1620
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1627
 #: enigma2-plugins/zapstatistic/src/plugin.py:574
 msgid "Close plugin"
 msgstr "Chiudere il plugin"
@@ -3762,6 +3781,10 @@ msgstr "Chiudere il plugin"
 #: enigma2-plugin-curlytx/src/CurlyTx.py:111
 msgid "Close window"
 msgstr "Chiudere la finestra"
+
+#: e2-advancedaudiosettings/src/plugin.py:72
+msgid "Codecs"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2661
 msgid "Collection"
@@ -3808,8 +3831,8 @@ msgstr "File di configurazione"
 msgid "Config file %s not found."
 msgstr "La configurazione %s è inesistente."
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1086
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1088
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1089
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1091
 msgid "Configlist"
 msgstr ""
 
@@ -4056,8 +4079,8 @@ msgstr "CoolTVGuide non è installato !"
 msgid "Copy"
 msgstr "Copia"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:209
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:230
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:211
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:232
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:143
 msgid "Copy File"
 msgstr "Copia File"
@@ -4263,8 +4286,8 @@ msgstr ""
 "\n"
 "Vuoi ripristinare la cover esistente?"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:207
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:228
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:209
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:230
 msgid "Cover Search"
 msgstr "Ricerca Cover"
 
@@ -4532,16 +4555,16 @@ msgid "DD.MM HH:MM"
 msgstr "GG.MM HH:MM"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:90
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:170
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:172
 msgid "DD.MM. HH:MM"
 msgstr "GG.MM. HH:MM"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:164
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:166
 msgid "DD.MM.YYYY"
 msgstr "GG.MM.AAAA"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:92
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:167
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:169
 msgid "DD.MM.YYYY HH:MM"
 msgstr "GG.MM.YYYY HH:MM"
 
@@ -4643,20 +4666,20 @@ msgstr "Plugin DVDPlayer non installato!"
 msgid "Daily cleanup time"
 msgstr "Ora di svuotamento giornaliero"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Dark green"
 msgstr "Verde scuro"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
 msgid "Dark grey"
 msgstr "Grigio scuro"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:403
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
 msgid "Dark orange"
 msgstr "Arancio scuro"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
 msgid "Dark red"
 msgstr "Rosso scuro"
 
@@ -4674,20 +4697,20 @@ msgstr "Formato Data"
 msgid "Date format:"
 msgstr "Formato data"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:268
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:274
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:270
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:276
 msgid "Date sort"
 msgstr "Ord. per data"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:274
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:276
 msgid "Date sort ascending (D+)"
 msgstr "Ordinamento per Data crescente (D+)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:268
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:270
 msgid "Date sort descending (D-)"
 msgstr "Ordinamento per data decrescente (D-)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:419
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:421
 msgid "Day"
 msgstr "Giorno"
 
@@ -4696,7 +4719,7 @@ msgstr "Giorno"
 msgid "Day:"
 msgstr "Giorno:"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:422
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:424
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:57
 msgid "Days"
 msgstr "Giorni"
@@ -4768,7 +4791,7 @@ msgstr "Diminuire il ritardo di %i ms (configurabili)"
 msgid "Decrease remaining time"
 msgstr "Diminuire il tempo residuo"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:258
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:260
 msgid "DeepStandby"
 msgstr "DeepStandby"
 
@@ -4901,8 +4924,8 @@ msgstr "Ritardo in secondi dopo la sintonia canale"
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:52
 #: enigma2-plugin-networkbrowser/src/UserManager.py:51
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:203
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:224
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2482
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:112
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:114
@@ -5032,7 +5055,7 @@ msgstr "Cancellare i file di registrazioni orfani"
 msgid "Delete permanently"
 msgstr "Elimina definitivamente"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1406
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1409
 msgid "Delete screen to fix new MST version?"
 msgstr ""
 
@@ -5077,7 +5100,7 @@ msgstr "Cancellare le etichette inutilizzate"
 msgid "Delete validation"
 msgstr "Conferma eliminazione"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:184
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:420
 #: enigma2-plugins/movieretitle/src/plugin.py:62
 #: enigma2-plugins/elektro/src/plugin.py:476
@@ -5637,7 +5660,7 @@ msgstr ""
 msgid "Do you really want to stop the recording?"
 msgstr "Arrestare la registrazione?"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1565
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1568
 msgid "Do you want to Restart the GUI now to apply new skin settings?"
 msgstr ""
 
@@ -5757,8 +5780,8 @@ msgstr "Downlad %s"
 msgid "Download"
 msgstr "Download"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:208
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:229
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:210
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:231
 msgid "Download Movie Info"
 msgstr "Scarica informazioni Film"
 
@@ -5866,6 +5889,15 @@ msgstr "Download terminato. Analisi in corso..."
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:147
 msgid "Downloading..."
 msgstr "Download in corso..."
+
+#: e2-advancedaudiosettings/src/plugin.py:13
+#: e2-advancedaudiosettings/src/plugin.py:19
+#: e2-advancedaudiosettings/src/plugin.py:20
+#: e2-advancedaudiosettings/src/plugin.py:22
+#: e2-advancedaudiosettings/src/plugin.py:27
+#: e2-advancedaudiosettings/src/plugin.py:30
+msgid "Downmix"
+msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:938
 msgid "Dream Explorer..."
@@ -5998,11 +6030,11 @@ msgstr "E"
 msgid "E2 Bookmark"
 msgstr "Bookmark E2"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:252
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:254
 msgid "E2 Bookmarks"
 msgstr "Bookmarks E2"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:260
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:262
 msgid "E2 Restart"
 msgstr "Riavvia E2"
 
@@ -6018,7 +6050,7 @@ msgstr ""
 "EMC\n"
 "Vai alla Live TV della registrazione"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:253
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:255
 msgid "EMC Bookmarks"
 msgstr "Bookmarks EMC"
 
@@ -6078,7 +6110,7 @@ msgstr "EMC: riapertura elenco registrazioni su fine riproduzione"
 msgid "EMC re-open list after STOP-press"
 msgstr "EMC: riapertura elenco registrazioni su pressione STOP"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "EMC-TMDB Info"
 msgstr "Informazioni EMC-TMDB"
 
@@ -7110,7 +7142,7 @@ msgstr ""
 "Episodio: {rawepisode:s}\n"
 "{title:s}"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1115
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1118
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:39
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:41
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:47
@@ -7419,7 +7451,7 @@ msgstr "Esistente: %s"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1071
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1612
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1615
 #: enigma2-plugins/imdb/src/plugin.py:216
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
@@ -8307,8 +8339,8 @@ msgstr "Funzioni"
 msgid "GENERAL"
 msgstr "GENERALE"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:872
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:886
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:875
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:889
 msgid ""
 "GUI needs a restart to apply a new skin\n"
 "Do you want to Restart the GUI now?"
@@ -8374,14 +8406,23 @@ msgstr "Giochi"
 msgid "Gateway"
 msgstr "Gateway"
 
+#: e2-advancedaudiosettings/src/plugin.py:63
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:59
 msgid "General"
 msgstr "Generale"
 
+#: e2-advancedaudiosettings/src/plugin.py:66
+msgid "General AC3 Delay"
+msgstr ""
+
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:38
 msgid "General Help"
 msgstr "Aiuto generico"
+
+#: e2-advancedaudiosettings/src/plugin.py:67
+msgid "General PCM Delay"
+msgstr ""
 
 #: enigma2-plugins/setpasswd/src/plugin.py:25
 msgid "Generate a random password"
@@ -8579,12 +8620,12 @@ msgstr "Multi-EPG Grafico"
 msgid "Great Britain"
 msgstr "Gran Bretagna"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Green"
 msgstr "Verde"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
 msgid "Grey"
 msgstr "Grigio"
 
@@ -9549,7 +9590,7 @@ msgstr "Olanda"
 msgid "Home"
 msgstr "Nothing"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:262
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:264
 msgid "HomeEnd"
 msgstr "InizioFine"
 
@@ -9718,7 +9759,7 @@ msgstr "Plugin IMDb"
 msgid "IMDb Re-Download completed"
 msgstr "Ripetizione Download IMDb completato"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "IMDb Search"
 msgstr "Ricerca IMDb"
 
@@ -10604,20 +10645,20 @@ msgstr "Lunghezza titolo: separatore episodi"
 msgid "License"
 msgstr "Licenza"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Light green"
 msgstr "Verde chiaro"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
 msgid "Light grey"
 msgstr "Grigio chiaro"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:403
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
 msgid "Light orange"
 msgstr "Arancio chiaro"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
 msgid "Light red"
 msgstr "Rosa"
 
@@ -10949,7 +10990,7 @@ msgstr ""
 "margini registrazione non saranno considerati!"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:91
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:179
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:181
 msgid "MM/DD HH:MM"
 msgstr "MM/GG HH:MM"
 
@@ -10961,7 +11002,7 @@ msgstr "Risultato ricerca posizione MSN"
 msgid "MSN to show (separated by ,)"
 msgstr "MSN da mostrare (separare con ,)"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1407
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1410
 msgid "MST screen found"
 msgstr "Rilevata schermata MST"
 
@@ -11308,7 +11349,7 @@ msgstr ""
 msgid "MerlinSkinThemes"
 msgstr "Temi MerlinSkin"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1429
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1432
 msgid "MerlinSkinThemes - Help"
 msgstr ""
 
@@ -11528,7 +11569,7 @@ msgstr "Lunedì"
 msgid "Monitoring: %s (%d:%02d Min)"
 msgstr "Monitor in corso: %s (%d:%02d Min)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:435
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:437
 msgid "Month"
 msgstr "Mese"
 
@@ -11541,7 +11582,7 @@ msgstr "Mese:"
 msgid "Monthly"
 msgstr "Mensile"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:438
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:440
 msgid "Months"
 msgstr "Mesi"
 
@@ -11619,8 +11660,8 @@ msgstr "sposta Cover in:"
 msgid "Move Directory:"
 msgstr "Sposta Directory:"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:204
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:225
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:206
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:227
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:144
 msgid "Move File"
 msgstr "Sposta File"
@@ -11635,11 +11676,11 @@ msgid "Move clock"
 msgstr "Spost. orologio"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:703
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:616
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:619
 msgid "Move cursor down"
 msgstr "Cursore giù"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:617
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:620
 msgid "Move cursor left"
 msgstr "Spostare il cursore a sinistra"
 
@@ -11651,7 +11692,7 @@ msgstr "Spostare il cursore 1 pagina giù"
 msgid "Move cursor page up"
 msgstr "Spostare il cursore 1 pagina sù"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:618
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:621
 msgid "Move cursor right"
 msgstr "Spostare il cursore a destra"
 
@@ -11672,7 +11713,7 @@ msgstr ""
 "alla home directory video (su)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:702
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:615
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:618
 msgid "Move cursor up"
 msgstr "Cursore sù"
 
@@ -11767,7 +11808,7 @@ msgstr "La registrazione%s possiede un suffisso sconosciuto: %s"
 msgid "Movie '%s' moved to '%s' without errors."
 msgstr "Registrazione %s spostata in %s correttamente."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:191
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:193
 msgid "Movie Color"
 msgstr "Colore Film"
 
@@ -11852,8 +11893,8 @@ msgstr "Movie Tagger"
 msgid "Movie Tagger..."
 msgstr "Etichettare video..."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:202
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:223
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:204
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:225
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:721
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1498
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:88
@@ -12304,11 +12345,11 @@ msgstr "Soprannome"
 #: enigma2-plugin-vps/src_py/plugin.py:18
 #: enigma2-plugin-vps/src_py/Vps_check.py:249
 #: enigma2-plugin-vps/src_py/Vps_check.py:277
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:251
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:256
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:328
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:357
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:361
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:253
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:258
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:359
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:363
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:31
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:32
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
@@ -12319,9 +12360,9 @@ msgstr "Soprannome"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1446
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1451
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1456
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1449
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1454
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1459
 #: enigma2-plugins/mytube/src/plugin.py:61
 #: enigma2-plugins/mytube/src/plugin.py:623
 #: enigma2-plugins/mytube/src/plugin.py:629
@@ -12366,7 +12407,7 @@ msgstr "HDD non trovato o non formattato!"
 msgid "No IMDb match."
 msgstr "Nessun riscontro IMDb!"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1409
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1412
 msgid "No MST screen found in this skin.xml!"
 msgstr "Nessuna schermata MST trovata in questo skin.xml."
 
@@ -12402,7 +12443,7 @@ msgstr "Trasferimento di chiamata non attivo"
 msgid "No cast list found in the database."
 msgstr "Nessuna lista cast trovata nel database!"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1524
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1527
 msgid "No copyright info available"
 msgstr ""
 
@@ -12453,7 +12494,7 @@ msgstr "Nessuna identifica disponibile"
 msgid "No items to show..."
 msgstr "Nessuna voce da mostrare"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:444
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:446
 msgid "No limit"
 msgstr "Nessun limite"
 
@@ -12522,7 +12563,7 @@ msgstr "Nessuna connessione di rete disponibile."
 msgid "No network devices found!"
 msgstr "Nessun apparato di rete trovato!"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:155
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:157
 msgid "No override"
 msgstr "Non sovrascrivere"
 
@@ -12613,7 +12654,7 @@ msgstr "Nessuna etichetta assegnata."
 msgid "No teletext available."
 msgstr "Teletext non disponibile."
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1115
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1118
 msgid ""
 "No themes.xml or skin.xml found.\n"
 "Please select a valid skin including themes.xml"
@@ -12838,6 +12879,7 @@ msgstr "OFF"
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2930
 #: enigma2-plugin-moviecut/src_py/plugin.py:86
 #: enigma2-plugin-vps/src_py/Vps_setup.py:55
+#: e2-advancedaudiosettings/src/plugin.py:53
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:50
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:198
 #: enigma2-plugin-babelzapper/src/plugin.py:114
@@ -12982,10 +13024,10 @@ msgstr "Punto di osservazione: %s"
 msgid "Observation time: %s"
 msgstr "Ora osservazione: %s"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:163
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:183
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:192
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1544
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:165
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:185
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:194
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1547
 #: enigma2-plugins/internetradio/src/plugin.py:35
 #: enigma2-plugins/internetradio/src/plugin.py:37
 #: enigma2-plugins/internetradio/src/plugin.py:41
@@ -13026,7 +13068,7 @@ msgstr ""
 msgid "Old:  "
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1548
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1551
 #: enigma2-plugins/internetradio/src/plugin.py:35
 msgid "On"
 msgstr "On"
@@ -13124,8 +13166,8 @@ msgstr "Aprire Menu contestuale"
 msgid "Open E2 Bookmark path"
 msgstr "Aprire percorso segnalibri E2"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:210
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:231
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:212
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:233
 msgid "Open E2 bookmarks"
 msgstr "Apri bookmarks E2"
 
@@ -13210,7 +13252,7 @@ msgstr "Aprire menu extra"
 msgid "Options:\n"
 msgstr "Opzioni:\n"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:403
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
 msgid "Orange"
 msgstr "arancio"
 
@@ -13455,6 +13497,16 @@ msgstr "Prtnerbox: RemoteTimer"
 msgid "Passive:"
 msgstr "Passivo:"
 
+#: e2-advancedaudiosettings/src/plugin.py:14
+#: e2-advancedaudiosettings/src/plugin.py:15
+#: e2-advancedaudiosettings/src/plugin.py:16
+#: e2-advancedaudiosettings/src/plugin.py:17
+#: e2-advancedaudiosettings/src/plugin.py:19
+#: e2-advancedaudiosettings/src/plugin.py:20
+#: e2-advancedaudiosettings/src/plugin.py:22
+msgid "Passthrough"
+msgstr ""
+
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:59
 msgid "Passwd"
 msgstr "Password"
@@ -13552,7 +13604,7 @@ msgstr "Canali in attesa"
 msgid "People & Blogs"
 msgstr "Gente & blog"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:190
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:192
 msgid "Percent (%)"
 msgstr "Percentuale (%)"
 
@@ -13738,8 +13790,8 @@ msgstr "Riproduci Playlist corrente"
 msgid "Play entry"
 msgstr "Riprodurre la voce"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:206
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:227
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:208
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:229
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:101
 msgid "Play last"
 msgstr "Riprodurre l'ultimo"
@@ -13887,7 +13939,7 @@ msgstr "Inserire un codice località valido per la città."
 msgid "Please enter a value for every input field"
 msgstr "Inserire un valore per ciascun campo di input"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:924
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:927
 msgid "Please enter designname!"
 msgstr ""
 
@@ -14488,20 +14540,20 @@ msgstr "Avanzamento"
 msgid "Progress bar style:"
 msgstr "Stile barra avanzamento:"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:273
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:279
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:275
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:281
 msgid "Progress sort"
 msgstr "Ordinamento per Progresso"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:273
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:275
 msgid "Progress sort ascending (P+)"
 msgstr "Oridinamento per Progresso descrescente (P+)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:279
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:281
 msgid "Progress sort descending (P-)"
 msgstr "Ordinamento per progresso descrescente (P-)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:189
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:191
 msgid "ProgressBar"
 msgstr "Barra Progresso"
 
@@ -14748,7 +14800,7 @@ msgstr "Gestione configurazione rapporto d'aspetto"
 msgid "Quick switching via remote control"
 msgstr "Commutazione rapida via telecomando"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:159
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:161
 msgid "Quick-button"
 msgstr "Quick-button"
 
@@ -14788,7 +14840,7 @@ msgstr "Radio"
 msgid "Radio key long"
 msgstr "Press. lunga tasto Radio"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:158
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:160
 msgid "Radio-button"
 msgstr "Tasto RADIO"
 
@@ -14911,12 +14963,12 @@ msgstr "Cancellare il torrent?"
 msgid "Really quit MyTube Player?"
 msgstr "Uscire da MyTubePlayer?"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:259
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:261
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:79
 msgid "Reboot"
 msgstr "Riavvio"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1628
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1631
 msgid "Rebuild skin on boot"
 msgstr ""
 
@@ -15056,7 +15108,7 @@ msgstr "Destinazione registrazioni:"
 msgid "Recording stream station"
 msgstr "Registrazione stream in corso"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:405
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
 msgid "Red"
 msgstr "Rosso"
 
@@ -15650,9 +15702,9 @@ msgstr "Riavviare enigma2"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:606
 #: enigma2-plugins/virtualzap/src/plugin.py:745
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:873
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:887
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1566
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:876
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:890
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1569
 #: enigma2-plugins/aihdcontroler/src/plugin.py:176
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:697
 #: enigma2-plugins/satloader/src/plugin.py:104
@@ -15927,7 +15979,7 @@ msgstr "Sabato"
 #: enigma2-plugins/fritzcall/src/plugin.py:1572
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
 #: enigma2-plugins/podcast/src/plugin.py:543
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1613
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1616
 #: enigma2-plugins/mytube/src/MyTubeSettings.py:40
 #: enigma2-plugins/yttrailer/src/plugin.py:249
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
@@ -16004,8 +16056,8 @@ msgstr "Salvare ultimo percorso elenco file:"
 msgid "Save search as AutoTimer"
 msgstr "Salvare la ricerca come AutoTimer"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1618
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1623
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1621
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1626
 msgid "Save settings"
 msgstr ""
 
@@ -16979,7 +17031,7 @@ msgstr "Le impostazioni sono state salvate."
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:294
 #: e2openplugin-SeriesPlugin/src/plugin.py:295
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:569
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:322
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:192
@@ -17462,19 +17514,19 @@ msgstr "Mostrare nel browser plugin"
 msgid "Show indicator label if zapping PiP"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:343
 msgid "Show info at the bottom"
 msgstr "Mostra info in fondo"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:343
 msgid "Show info at the bottom (with MiniTV)"
 msgstr "Info in fondo + MiniTV"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:343
 msgid "Show info on the left"
 msgstr "Info a sinistra"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:343
 msgid "Show info on the left (with MiniTV)"
 msgstr "Info a sinistra + MiniTV"
 
@@ -17591,8 +17643,8 @@ msgstr ""
 msgid "Show popup when refresh starts and ends"
 msgstr "Mostrare popup su avvio e termine aggiornamento"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1544
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1548
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1547
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1551
 msgid "Show prev.png - "
 msgstr ""
 
@@ -17868,11 +17920,11 @@ msgstr "Ricerca Singola"
 msgid "Size"
 msgstr "Dimensioni"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1518
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1521
 msgid "Skin MOD - No info available"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1493
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1496
 msgid "Skin ORGINAL - No info available"
 msgstr ""
 
@@ -17886,14 +17938,14 @@ msgid ""
 "restart now?"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:584
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:586
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1121
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1123
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:587
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:589
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1124
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1126
 msgid "Skinlist"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:263
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:265
 msgid "Skip"
 msgstr "Salta"
 
@@ -18180,7 +18232,7 @@ msgstr "Modo ordinamento"
 msgid "Sort MovieList Extensions"
 msgstr "Odinare le estensioni elenco registrazioni"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:216
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:218
 msgid "Sort Options"
 msgstr "Opzioni Ordinamento"
 
@@ -18408,7 +18460,7 @@ msgstr "Informazioni EPG standard"
 msgid "Standard timer"
 msgstr "Tmer standard"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:257
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:259
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:78
 msgid "Standby"
 msgstr "Standby"
@@ -18921,11 +18973,11 @@ msgstr "Sistema"
 msgid "System cleanup"
 msgstr "Cleanup sistema"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "TMBD Info"
 msgstr "Informazioni TMBD"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:474
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "TMDB Info"
 msgstr "Informazioni TMDB"
 
@@ -18970,7 +19022,7 @@ msgstr "Canali TV"
 msgid "TV Shows"
 msgstr "Trasmissioni"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:157
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:159
 msgid "TV-button"
 msgstr "Tasto TV"
 
@@ -20370,7 +20422,7 @@ msgstr "Il timeshift sarà salvato al ternine dell'evento!"
 msgid "Timeshift-Save Action on zap"
 msgstr "Azione salvataggio timeshift su zap"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:160
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:162
 msgid "Timeshift-button"
 msgstr "Tasto timeshift"
 
@@ -20478,7 +20530,7 @@ msgstr "Comm. casella 4."
 msgid "Toggle 5. mailbox"
 msgstr "Comm. casella 5."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:211
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:213
 msgid "Toggle Cover Button"
 msgstr "Abilita pulsante copertina"
 
@@ -21478,7 +21530,7 @@ msgstr "Funzionalità video on demand per StreamServer"
 msgid "Video successfully added to favorites"
 msgstr "Video aggiunto correttamente ai preferiti"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:156
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:158
 msgid "Video-button"
 msgstr "Tasto VIDEO"
 
@@ -21612,6 +21664,10 @@ msgstr "Volume modificato"
 msgid "Volume set to %i"
 msgstr "Livello volume: %i"
 
+#: e2-advancedaudiosettings/src/plugin.py:69
+msgid "Volume step size (%)"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:136
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:407
@@ -21651,15 +21707,15 @@ msgid "WARNING: Cookies are required to store the settings!"
 msgstr "Attenzione: cookies richiesti per memorizzare la configurazione."
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:98
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:171
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:173
 msgid "WD DD.MM. HH:MM"
 msgstr "WD GG.MM. HH:MM"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:165
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:167
 msgid "WD DD.MM.YYYY"
 msgstr "giorno GG.MM.AAAA"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:168
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:170
 msgid "WD DD.MM.YYYY HH:MM"
 msgstr "giorno GG.MM.AAAA OO:MM"
 
@@ -21667,15 +21723,15 @@ msgstr "giorno GG.MM.AAAA OO:MM"
 msgid "WD HH:MM"
 msgstr "WD HH:MM"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:180
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:182
 msgid "WD MM/DD HH:MM"
 msgstr "giorno GG/MM OO:MM"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:174
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:176
 msgid "WD YYYY/MM/DD"
 msgstr "giorno AAAA/MM/GG"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:177
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:179
 msgid "WD YYYY/MM/DD HH:MM"
 msgstr "giorno AAAA/MM/GG OO:MM"
 
@@ -21867,7 +21923,7 @@ msgstr "Mer"
 msgid "Wednesday"
 msgstr "Mercoledì"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:427
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:429
 msgid "Week"
 msgstr "Settimana"
 
@@ -21888,7 +21944,7 @@ msgstr "Settimanale (Lunedì)"
 msgid "Weekly (Sunday)"
 msgstr "Settimanale (Domenica)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:430
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:432
 msgid "Weeks"
 msgstr "Settimane"
 
@@ -22152,8 +22208,8 @@ msgid ""
 "using the BLUE button."
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
 msgid "White"
 msgstr "Bianco"
 
@@ -22275,12 +22331,12 @@ msgstr ""
 msgid "Y Position [0-680]  needs restart"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:173
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:175
 msgid "YYYY/MM/DD"
 msgstr "AAAA/MM/GG"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:93
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:176
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:178
 msgid "YYYY/MM/DD HH:MM"
 msgstr "YYYY/MM/GG HH:MM"
 
@@ -22298,7 +22354,7 @@ msgstr "Funzione del tasto Giallo"
 #: enigma2-plugin-vps/src_py/plugin.py:18
 #: enigma2-plugin-vps/src_py/Vps_check.py:249
 #: enigma2-plugin-vps/src_py/Vps_check.py:277
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:328
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:31
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:32
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
@@ -22306,10 +22362,10 @@ msgstr "Funzione del tasto Giallo"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
 #: enigma2-plugin-pzyp4t/src/plugin.py:435
 #: enigma2-plugin-pzyp4t/src/plugin.py:467
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1435
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1438
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1441
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1444
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1447
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:282
 #: enigma2-plugins/mytube/src/plugin.py:622
 #: enigma2-plugins/mytube/src/plugin.py:628
@@ -22337,7 +22393,7 @@ msgstr "Sì: riprodurre il filmato precedente"
 msgid "Yes, don't ask again"
 msgstr "Sì. La richiesta non verrà ripetuta."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:361
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:363
 msgid "Yes, everything"
 msgstr "Tutto"
 
@@ -22346,15 +22402,15 @@ msgstr "Tutto"
 msgid "Yes, keep them."
 msgstr "Si, mantenerli"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:361
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:363
 msgid "Yes, only extra title"
 msgstr "Solo titoli extra"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:357
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:359
 msgid "Yes, with Message"
 msgstr "Si, con conferma"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:357
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:359
 msgid "Yes, without Message"
 msgstr "Si, senza conferma"
 
@@ -22797,7 +22853,7 @@ msgstr "[FreeSpace] HDD non attivo: "
 msgid "[Media files] "
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1422
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1425
 msgid ""
 "[OK]\n"
 "switch to skin selection screen\n"
@@ -22814,7 +22870,7 @@ msgid ""
 "to reset themes to active settings/themes"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1414
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1417
 msgid ""
 "[OK]\n"
 "switch to themes/designs config screen for selected skin\n"
@@ -22835,7 +22891,7 @@ msgstr ""
 msgid "[PTS-Plugin] Restarting Timeshift!"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:875
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:878
 msgid ""
 "[apply themes] needs time to build new settings\n"
 "Do you want to do this now?"
@@ -22896,9 +22952,9 @@ msgstr ""
 msgid "active"
 msgstr "Attivo"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1265
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1696
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1709
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1268
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1699
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1712
 msgid "active skin"
 msgstr ""
 
@@ -23003,7 +23059,7 @@ msgstr "aggiungere a EPGRefresh"
 msgid "advanced warning"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 msgid "after reload list"
 msgstr "dopo ricaricamento lista"
 
@@ -23015,7 +23071,7 @@ msgstr "Dopo il riavvio"
 msgid "after restart/standby"
 msgstr "Dopo riavvio/standby"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:328
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
 #: enigma2-plugins/audiorestart/src/plugin.py:15
 msgid "after standby"
 msgstr "Dopo lo standby"
@@ -23041,7 +23097,7 @@ msgstr "Ord. alfabetico"
 msgid "alphabetic sort  (quick toggle by key 0)"
 msgstr "Ordine alfabetico (0 >> comm. rapida)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 #: enigma2-plugins/movieepg/src/plugin.py:18
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
 msgid "always"
@@ -23051,7 +23107,7 @@ msgstr "sempre"
 msgid "always ask"
 msgstr "Chiedere sempre"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "always hide"
 msgstr "nascondi sempre"
 
@@ -23067,15 +23123,15 @@ msgstr "Anisotropico"
 msgid "any RC"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1096
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1099
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1102
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1153
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1105
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1156
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1159
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1172
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1162
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1175
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1178
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1181
 msgid "apply themes"
 msgstr ""
 
@@ -23260,8 +23316,8 @@ msgstr "Non distinguere Maiusc. - minusc."
 msgid "case-sensitive search"
 msgstr "Distinguere Maiusc. - minusc."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:352
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:400
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:354
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
 msgid "center"
 msgstr "centro"
 
@@ -23325,7 +23381,7 @@ msgid "config changed."
 msgstr "Comfigurazione modificata."
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:194
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:569
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: enigma2-plugins/pushservice/src/plugin.py:109
 #: enigma2-plugins/podcast/src/plugin.py:613
 msgid "configuration"
@@ -23339,10 +23395,24 @@ msgstr "Connessione fallita. Nuovo tentativo in corso"
 msgid "control multiple Dreamboxes with different RCs"
 msgstr "Plugin per il controllo di Dreambox multipli con diversi telecomandi"
 
+#: e2-advancedaudiosettings/src/plugin.py:21
+#: e2-advancedaudiosettings/src/plugin.py:25
+#: e2-advancedaudiosettings/src/plugin.py:27
+msgid "controlled by HDMI"
+msgstr ""
+
 #: enigma2-plugins/pushservice/src/PushServiceBase.py:307
 #, python-format
 msgid "controller %s returned error(s)"
 msgstr "Il controllo %s ha restituito errori"
+
+#: e2-advancedaudiosettings/src/plugin.py:19
+#: e2-advancedaudiosettings/src/plugin.py:20
+#: e2-advancedaudiosettings/src/plugin.py:21
+#: e2-advancedaudiosettings/src/plugin.py:22
+#: e2-advancedaudiosettings/src/plugin.py:27
+msgid "convert to multi-channel PCM"
+msgstr ""
 
 #: enigma2-plugins/filebrowser/src/plugin.py:114
 msgid "copy"
@@ -23373,7 +23443,7 @@ msgstr "cover in"
 msgid "create partition %s"
 msgstr "Creare partizione %s "
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1280
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1283
 msgid "create themes"
 msgstr ""
 
@@ -23442,7 +23512,7 @@ msgstr "Predefinito"
 #: enigma2-plugins/eparted/src/eparted.py:332
 #: enigma2-plugins/emailclient/src/plugin.py:355
 #: enigma2-plugins/podcast/src/plugin.py:70
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1274
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1277
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:987
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1264
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
@@ -23450,9 +23520,9 @@ msgstr "Predefinito"
 msgid "delete"
 msgstr "Cancellare"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1097
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1154
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1173
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1100
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1157
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1176
 msgid "delete design"
 msgstr ""
 
@@ -23596,7 +23666,7 @@ msgstr "Fatto!"
 msgid "done, using last list"
 msgstr "Fatto, sarà usata l'ultimo elenco"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:242
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:244
 #: enigma2-plugins/eibox/src/plugin.py:37
 msgid "down"
 msgstr "Giù"
@@ -23747,7 +23817,7 @@ msgstr "eccezione"
 msgid "execute"
 msgstr "Eseguire"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:595
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:598
 #: enigma2-plugins/teletext/src/plugin.py:216
 #: enigma2-plugins/teletext/src/plugin.py:235
 msgid "exit"
@@ -23827,6 +23897,26 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3941
 msgid "finishing"
 msgstr "Quasi terminato..."
+
+#: e2-advancedaudiosettings/src/plugin.py:15
+#: e2-advancedaudiosettings/src/plugin.py:16
+#: e2-advancedaudiosettings/src/plugin.py:17
+msgid "follow AC3"
+msgstr ""
+
+#: e2-advancedaudiosettings/src/plugin.py:21
+msgid "force AC3"
+msgstr ""
+
+#: e2-advancedaudiosettings/src/plugin.py:21
+msgid "force AC3+"
+msgstr ""
+
+#: e2-advancedaudiosettings/src/plugin.py:16
+#: e2-advancedaudiosettings/src/plugin.py:25
+#: e2-advancedaudiosettings/src/plugin.py:27
+msgid "force DTS"
+msgstr ""
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:47
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
@@ -23928,15 +24018,15 @@ msgstr "Nascondere durata"
 msgid "hide entry"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "hide live TV"
 msgstr "nascondi live TV"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "hide live TV and timeshift"
 msgstr "nascondi live TV e timeshift"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "hide playback"
 msgstr "nascondi riproduzione"
 
@@ -24107,12 +24197,12 @@ msgstr "Uscire da riproduzione registrazioni..."
 msgid "leave unread"
 msgstr "Lasciare non letto"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:352
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:400
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:354
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
 msgid "left"
 msgstr "sinistra"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:345
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:347
 msgid "left from Name"
 msgstr "a sinistra del Nome"
 
@@ -24372,8 +24462,8 @@ msgstr ""
 msgid "movie list"
 msgstr "Elenco registrazioni"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:572
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:575
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:574
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:577
 msgid "movie manipulation list"
 msgstr "Elenco gestione registrazioni"
 
@@ -24401,7 +24491,7 @@ msgstr "Vicino XILINX Spartan"
 msgid "never"
 msgstr "mai"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:337
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
 msgid "never hide"
 msgstr "non nascondere"
 
@@ -24493,9 +24583,9 @@ msgstr "Nessuna mailbox?!?!"
 msgid "no sender"
 msgstr "Nessun mittente"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:914
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1270
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1690
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:917
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1273
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1693
 msgid "no skin.xml"
 msgstr ""
 
@@ -24504,9 +24594,9 @@ msgstr ""
 msgid "no subject"
 msgstr "Nessun soggetto"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:911
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1276
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1693
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:914
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1279
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1696
 msgid "no themes.xml"
 msgstr ""
 
@@ -24528,6 +24618,7 @@ msgstr ""
 msgid "not active"
 msgstr "Non attivo"
 
+#: e2-advancedaudiosettings/src/plugin.py:32
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:75
 msgid "not available"
 msgstr ""
@@ -24576,7 +24667,7 @@ msgstr "Nulla"
 msgid "nothing playing..."
 msgstr "Nulla in riproduzione..."
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1010
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1013
 msgid "nothing to delete"
 msgstr ""
 
@@ -24589,7 +24680,7 @@ msgstr "numero mascherato"
 msgid "of"
 msgstr "di"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:244
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
 #: enigma2-plugins/autoresolution/src/plugin.py:36
 #: enigma2-plugins/autoresolution/src/plugin.py:38
 #: enigma2-plugins/fritzcall/src/plugin.py:150
@@ -24716,7 +24807,7 @@ msgstr ""
 msgid "only failed"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:394
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 msgid "only initially"
 msgstr "solo inizialmente"
 
@@ -24741,7 +24832,7 @@ msgstr ""
 msgid "open bandwidth settings"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:598
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:601
 msgid "open config"
 msgstr ""
 
@@ -25036,12 +25127,12 @@ msgstr "Uscire"
 msgid "rewind to the previous chapter"
 msgstr "indietro al capitolo precedente"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:352
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:400
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:354
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:402
 msgid "right"
 msgstr "destra"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:345
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:347
 msgid "right from Name"
 msgstr "a destra del nome"
 
@@ -25080,13 +25171,13 @@ msgstr ""
 msgid "save and quit"
 msgstr "Salvare e uscire"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:597
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1100
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:600
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1103
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1157
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1106
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1160
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1176
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1163
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1179
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1182
 msgid "save as design"
 msgstr ""
 
@@ -25352,7 +25443,7 @@ msgstr ""
 msgid "single line style"
 msgstr "Linea singola"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "single pixel TV, muted"
 msgstr "single pixel TV, muto"
 
@@ -25416,7 +25507,7 @@ msgstr "\"Fermare registrazione"
 msgid "stop recording on Partnerbox"
 msgstr ""
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:339
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:341
 msgid "stop service"
 msgstr "ferma servizio"
 
@@ -25438,8 +25529,8 @@ msgstr ""
 msgid "switch 4:3 content display"
 msgstr "Commutare visual. contenuti in 4:3"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:596
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1127
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:599
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1130
 msgid "switch to skin"
 msgstr ""
 
@@ -25574,19 +25665,19 @@ msgstr "due contigui"
 msgid "type %s is not a number"
 msgstr "Il tipo %s non è un numero"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:248
 msgid "type 1 - OSD + black (#00000000)"
 msgstr "tipo 1 - OSD + nero (#00000000)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:247
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:249
 msgid "type 2 - transparent + white (#FFFFFFFF)"
 msgstr "tipo 2 - trasparente + bianco (#FFFFFFFF)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:248
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:250
 msgid "type 3 - OSD + black (#00FFFFFF)"
 msgstr "tipo 3 - OSD + nero (#00FFFFFF)"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:249
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:251
 msgid "type 4 - transparent + black (#FF000000)"
 msgstr "tipo 4 - trasparente + black (#FF000000)"
 
@@ -25628,7 +25719,7 @@ msgstr "Canale sconosciuto"
 msgid "up"
 msgstr "Sù"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:243
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:245
 msgid "up/down"
 msgstr "Sù/Giù"
 
@@ -25643,6 +25734,14 @@ msgstr "Plugin per aggiornare ilfile transponder (satellites.xml)"
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:128
 msgid "use as HDD replacement"
 msgstr "Usare in sostituzione HDD"
+
+#: e2-advancedaudiosettings/src/plugin.py:19
+#: e2-advancedaudiosettings/src/plugin.py:20
+#: e2-advancedaudiosettings/src/plugin.py:21
+#: e2-advancedaudiosettings/src/plugin.py:22
+#: e2-advancedaudiosettings/src/plugin.py:27
+msgid "use best / controlled by HDMI"
+msgstr ""
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:40
 msgid "use external"
