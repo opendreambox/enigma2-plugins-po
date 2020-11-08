@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-03 07:28+0100\n"
-"PO-Revision-Date: 2020-11-03 16:01+0000\n"
+"PO-Revision-Date: 2020-11-09 19:40+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -201,7 +201,7 @@ msgstr " (bez výpočtu velikosti potisku)"
 
 #: MovieInfo.py:62 MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -1136,11 +1136,11 @@ msgstr "AC3 - aktivovat downmix"
 
 #: e2-advancedaudiosettings/src/plugin.py:64
 msgid "AC3 default"
-msgstr ""
+msgstr "předvolit AC3"
 
 #: e2-advancedaudiosettings/src/plugin.py:65
 msgid "AC3 downmix"
-msgstr ""
+msgstr "AC3 downmix"
 
 #: enigma2-plugins/growlee/src/plugin.py:175
 msgid "API Key"
@@ -1624,7 +1624,7 @@ msgstr "Přizpůsobit hodnotu"
 #: e2-advancedaudiosettings/src/plugin.py:161
 #: e2-advancedaudiosettings/src/plugin.py:166
 msgid "Advanced Audio Settings"
-msgstr ""
+msgstr "nastavení výstupu audia"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:40
 msgid "Advanced cut specification..."
@@ -2204,7 +2204,7 @@ msgstr "audio - vzorkovací kmitočet"
 
 #: e2-advancedaudiosettings/src/plugin.py:167
 msgid "Audio Settings"
-msgstr ""
+msgstr "nastavení audia -> menu"
 
 #: enigma2-plugins/audiosync/src/plugin.py:36
 msgid "Audio Sync"
@@ -3023,6 +3023,10 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"Nelze zapsat info o videu a potisk !\n"
+"\n"
+"%s\n"
+"%s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
@@ -3774,7 +3778,7 @@ msgstr "zavřít okno"
 
 #: e2-advancedaudiosettings/src/plugin.py:72
 msgid "Codecs"
-msgstr ""
+msgstr "kodeky---"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2661
 msgid "Collection"
@@ -5784,7 +5788,7 @@ msgstr "stáhnout info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "stáhnout balíček Mutagen pro audio meta-data"
 
 #: enigma2-plugins/mytube/src/plugin.py:534
 msgid "Download Video"
@@ -5891,7 +5895,7 @@ msgstr "...stahuji data..."
 #: e2-advancedaudiosettings/src/plugin.py:27
 #: e2-advancedaudiosettings/src/plugin.py:30
 msgid "Downmix"
-msgstr ""
+msgstr "downmix"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:938
 msgid "Dream Explorer..."
@@ -6066,7 +6070,7 @@ msgstr "EMC - správa souborů"
 
 #: EMCPlayList.py:154
 msgid "EMC Playlist"
-msgstr ""
+msgstr "seznam EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
@@ -7964,6 +7968,11 @@ msgid ""
 "Files exists in current Playlist:\n"
 "%s"
 msgstr ""
+"Soubory přidané do akt.seznamu  :\n"
+"%s\n"
+"\n"
+"Soubory existující v seznamu :\n"
+"%s"
 
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
@@ -8421,7 +8430,7 @@ msgstr "obecné---"
 
 #: e2-advancedaudiosettings/src/plugin.py:66
 msgid "General AC3 Delay"
-msgstr ""
+msgstr "základní zpoždění AC3"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:38
 msgid "General Help"
@@ -8429,7 +8438,7 @@ msgstr "základní nápověda"
 
 #: e2-advancedaudiosettings/src/plugin.py:67
 msgid "General PCM Delay"
-msgstr ""
+msgstr "základní zpoždění PCM"
 
 #: enigma2-plugins/setpasswd/src/plugin.py:25
 msgid "Generate a random password"
@@ -8700,11 +8709,11 @@ msgstr "Informační modul_"
 
 #: EnhancedMovieCenter.py:488
 msgid "HELP_Advanced Skin options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů skinů_"
 
 #: EnhancedMovieCenter.py:492
 msgid "HELP_Advanced audio metadata options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů metadat audia_"
 
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
@@ -8821,7 +8830,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:498
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "Stahování balíčku Mutagen pro audio metadata_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
@@ -8987,7 +8996,7 @@ msgstr "Změna vzhledu boxu podle skinu nebo EMC_"
 
 #: EnhancedMovieCenter.py:391
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
@@ -9152,7 +9161,7 @@ msgstr "Zobrazení audio meta-dat v seznamu videa_"
 
 #: EnhancedMovieCenter.py:504
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr ""
+msgstr "Zobrazení metadat audia (nutná změna skinu)_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
@@ -9272,7 +9281,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:509
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
-msgstr ""
+msgstr "Stáhnout nebo aktualizovat Mutagen v1.28 (experiment)_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
@@ -10189,7 +10198,7 @@ msgstr "instalovat >>"
 
 #: EnhancedMovieCenter.py:550 EnhancedMovieCenter.py:552
 msgid "Install Mutagen-package"
-msgstr ""
+msgstr "instalovat balíček Mutagen"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "Install Mutagen-package for audio metadata"
@@ -10680,7 +10689,7 @@ msgstr "načíst webové kanály pro sadu kanálů"
 
 #: EnhancedMovieCenter.py:391
 msgid "Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:644
 msgid "Load default settings will overwrite all settings, really load them?"
@@ -13397,7 +13406,7 @@ msgstr "pasivní :"
 #: e2-advancedaudiosettings/src/plugin.py:20
 #: e2-advancedaudiosettings/src/plugin.py:22
 msgid "Passthrough"
-msgstr ""
+msgstr "průběžně"
 
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:59
 msgid "Passwd"
@@ -17267,7 +17276,7 @@ msgstr "zobrazit audio metadata"
 
 #: EnhancedMovieCenter.py:504
 msgid "Show audio metadata (needs skin-changes)"
-msgstr ""
+msgstr "zobrazit audio metadata (nutná změna skinu)"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:211
 msgid "Show begin/remain times:"
@@ -18828,7 +18837,7 @@ msgstr "Přepíná OSD mezi 2D a 3D"
 
 #: MovieInfo.py:723
 msgid "Switch complete to new Version"
-msgstr ""
+msgstr "přepnout na novou verzi"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:102
 msgid "Switch to next configured page URL"
@@ -20930,7 +20939,7 @@ msgstr "Aktualizuji, čekejte..."
 
 #: EnhancedMovieCenter.py:509
 msgid "Upgrade/Download Mutagen v1.28(experimental)"
-msgstr ""
+msgstr "stáhnout / aktualizovat Mutagen v1.28 (experimental)"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:204
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:286
@@ -21498,7 +21507,7 @@ msgstr "nastavit hlasitost na  %i"
 
 #: e2-advancedaudiosettings/src/plugin.py:69
 msgid "Volume step size (%)"
-msgstr ""
+msgstr "krok hlasitosti (%)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:136
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
@@ -23303,7 +23312,7 @@ msgstr "-- spravovat více Dreamboxů s různými dálk.ovladači"
 #: e2-advancedaudiosettings/src/plugin.py:25
 #: e2-advancedaudiosettings/src/plugin.py:27
 msgid "controlled by HDMI"
-msgstr ""
+msgstr "ovládáno přes HDMI"
 
 #: enigma2-plugins/pushservice/src/PushServiceBase.py:307
 #, python-format
@@ -23316,7 +23325,7 @@ msgstr "přepínač %s vrací chybu"
 #: e2-advancedaudiosettings/src/plugin.py:22
 #: e2-advancedaudiosettings/src/plugin.py:27
 msgid "convert to multi-channel PCM"
-msgstr ""
+msgstr "převod na více-kanálů PCM"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:114
 msgid "copy"
@@ -23342,7 +23351,7 @@ msgstr "...kopíruji soubor..."
 #: EMCCoverSearch.py:851 EMCCoverSearch.py:854 EMCCoverSearch.py:872
 #: EMCCoverSearch.py:895
 msgid "covers"
-msgstr ""
+msgstr "obaly"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1081
 msgid "covers in"
@@ -23828,21 +23837,21 @@ msgstr "Dokončuji..."
 #: e2-advancedaudiosettings/src/plugin.py:16
 #: e2-advancedaudiosettings/src/plugin.py:17
 msgid "follow AC3"
-msgstr ""
+msgstr "následující AC3"
 
 #: e2-advancedaudiosettings/src/plugin.py:21
 msgid "force AC3"
-msgstr ""
+msgstr "platnost AC3"
 
 #: e2-advancedaudiosettings/src/plugin.py:21
 msgid "force AC3+"
-msgstr ""
+msgstr "platnost AC3+"
 
 #: e2-advancedaudiosettings/src/plugin.py:16
 #: e2-advancedaudiosettings/src/plugin.py:25
 #: e2-advancedaudiosettings/src/plugin.py:27
 msgid "force DTS"
-msgstr ""
+msgstr "platnost"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:47
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
@@ -25514,7 +25523,7 @@ msgstr "příkaz není > 0"
 
 #: EMCCoverSearch.py:705
 msgid "themoviedb cover resolution:"
-msgstr ""
+msgstr "rozlišení obalu z themoviedb :"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:51
 msgid "themoviedb.org"
@@ -25697,7 +25706,7 @@ msgstr "použít disk pro nahrávání"
 #: e2-advancedaudiosettings/src/plugin.py:22
 #: e2-advancedaudiosettings/src/plugin.py:27
 msgid "use best / controlled by HDMI"
-msgstr ""
+msgstr "použít nejlepší / ovl.přes HDMI"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:40
 msgid "use external"
