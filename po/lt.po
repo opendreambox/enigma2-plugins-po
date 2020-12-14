@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-14 12:00+0100\n"
+"POT-Creation-Date: 2020-12-14 12:53+0000\n"
 "PO-Revision-Date: 2020-11-03 16:01+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
@@ -49,12 +49,12 @@ msgstr ""
 "\n"
 "Intro trukmė bus išsaugota sezono metu."
 
+#: enigma2-plugins/audiorestart/src/plugin.py:109
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:229
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:230
-#: enigma2-plugins/audiorestart/src/plugin.py:109
+#: enigma2-plugins/audiosync/src/AC3setup.py:60
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:384
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:385
-#: enigma2-plugins/audiosync/src/AC3setup.py:60
 msgid " "
 msgstr " "
 
@@ -103,8 +103,8 @@ msgstr "   Rodyti laukiančius įrašus tik per x valandą (-as)"
 msgid "   select default answer for zap-warning-question"
 msgstr "   Pasirinkite numatytą atsakymą į jungimo įspėjimo klausimą"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:44
 #: e2openplugin-SeriesPlugin/src/plugin.py:39
+#: e2openplugin-InfoBarTunerState/src/plugin.py:44
 #: enigma2-plugins/pushservice/src/plugin.py:38
 msgid ""
 "  (C) 2012 by betonme @ IHAD \n"
@@ -308,10 +308,10 @@ msgstr "%(sname)s - %(tname)s: %(name)s at %(begin)s"
 msgid "%(tname)s: %(name)s at %(begin)s"
 msgstr "%(tname)s: %(name)s į %(begin)s"
 
+#: enigma2-plugins/pushservice/src/Controller/RecordSummary.py:59
 #: enigma2-plugins/pushservice/src/Controller/DeactivatedTimers.py:60
 #: enigma2-plugins/pushservice/src/Controller/FreeSpace.py:58
 #: enigma2-plugins/pushservice/src/Controller/ActiveTimers.py:55
-#: enigma2-plugins/pushservice/src/Controller/RecordSummary.py:59
 #: enigma2-plugins/pushservice/src/Controller/RecordNotification.py:100
 #: enigma2-plugins/pushservice/src/Controller/RecordNotification.py:114
 msgid "%H:%M"
@@ -321,10 +321,10 @@ msgstr "%H:%M"
 msgid "%Y.%m.%d"
 msgstr "%Y.%m.%d"
 
+#: enigma2-plugins/pushservice/src/Controller/RecordSummary.py:58
 #: enigma2-plugins/pushservice/src/Controller/DeactivatedTimers.py:59
 #: enigma2-plugins/pushservice/src/Controller/FreeSpace.py:57
 #: enigma2-plugins/pushservice/src/Controller/ActiveTimers.py:54
-#: enigma2-plugins/pushservice/src/Controller/RecordSummary.py:58
 #: enigma2-plugins/pushservice/src/Controller/RecordNotification.py:99
 #: enigma2-plugins/pushservice/src/Controller/RecordNotification.py:113
 msgid "%Y.%m.%d %H:%M"
@@ -383,10 +383,10 @@ msgstr ""
 "%d failai įtraukti į duomenų bazę!\n"
 "Paspauskite OK, kad uždaryti."
 
-#: enigma2-plugins/emission/src/EmissionDetailview.py:231
-#: enigma2-plugins/emission/src/EmissionDetailview.py:232
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:217
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:727
+#: enigma2-plugins/emission/src/EmissionDetailview.py:231
+#: enigma2-plugins/emission/src/EmissionDetailview.py:232
 #, python-format
 msgid "%d kb/s"
 msgstr "%d kb/s"
@@ -422,12 +422,12 @@ msgstr "%d laikmatis sėkmingai pervadintas"
 
 #: enigma2-plugin-vps/src_py/Modifications.py:143
 #: enigma2-plugin-vps/src_py/Modifications.py:146
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:378
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:397
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:366
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:370
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:252
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:253
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:378
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:397
 msgid "%d.%B %Y"
 msgstr "%d.%B %Y"
 
@@ -942,8 +942,8 @@ msgstr "5 min."
 msgid "60 min."
 msgstr "60 min."
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:31
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:49
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:31
 msgid ": "
 msgstr ": "
 
@@ -959,8 +959,8 @@ msgstr "<tuščia>"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2191
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:164
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:993
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:164
 msgid "<unknown>"
 msgstr "<nežinomas>"
 
@@ -1172,8 +1172,8 @@ msgid "AUTOSTART"
 msgstr "AUTO STARTAS"
 
 #
-#: enigma2-plugin-partnerbox/src/plugin.py:1123
 #: enigma2-plugins/dvdbackup/src/plugin.py:226
+#: enigma2-plugin-partnerbox/src/plugin.py:1123
 msgid "Abort"
 msgstr "Nutraukti"
 
@@ -1187,11 +1187,11 @@ msgid "Abort transfer"
 msgstr "Nutraukti perdavimą"
 
 #
-#: enigma2-plugin-babelzapper/src/plugin.py:116
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:334
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:93
-#: enigma2-plugins/dreamexplorer/src/plugin.py:303
 #: enigma2-plugins/satloader/src/plugin.py:119
+#: enigma2-plugins/dreamexplorer/src/plugin.py:303
+#: enigma2-plugin-babelzapper/src/plugin.py:116
 msgid "About"
 msgstr "Apie"
 
@@ -1312,22 +1312,22 @@ msgid "ActiveTimerPushed"
 msgstr "Aktyvaus laikmačio pastūmimas"
 
 #
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:159
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:213
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:268
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1296
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:39
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:51
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:87
-#: enigma2-plugins/twitchtv/src/plugin.py:510
-#: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:31
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1296
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:157
-#: enigma2-plugins/teletext/src/plugin.py:1731
-#: enigma2-plugins/weatherplugin/src/setup.py:76
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:106
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:130
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:140
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:268
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:157
+#: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:31
 #: enigma2-plugins/pipservicerelation/src/plugin.py:87
+#: enigma2-plugins/teletext/src/plugin.py:1731
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:213
+#: enigma2-plugins/twitchtv/src/plugin.py:510
+#: enigma2-plugins/weatherplugin/src/setup.py:76
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:130
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:106
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:159
 msgid "Add"
 msgstr "Pridėti"
 
@@ -1549,12 +1549,12 @@ msgstr "Pridėti žymas įrašytiems filmams"
 msgid "Add the short description of the event to the search result."
 msgstr "Į paieškos rezultatą pridėkite trumpą įvykio aprašymą."
 
-#: enigma2-plugin-partnerbox/src/plugin.py:246
-#: enigma2-plugin-partnerbox/src/plugin.py:313
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1319
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1327
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:206
 #: enigma2-plugins/easyinfo/src/plugin.py:727
+#: enigma2-plugin-partnerbox/src/plugin.py:246
+#: enigma2-plugin-partnerbox/src/plugin.py:313
 msgid "Add timer"
 msgstr "Laikmatis"
 
@@ -1662,11 +1662,11 @@ msgstr ""
 "rankiniu būdu. Jei 'EPG atnaujintojas' veikia fone, numatytasis atsakymas "
 "bus įvykdytas!"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:473
-#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:44
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:63
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:44
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:201
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:640
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:473
 msgid "After event"
 msgstr "Po įvykio"
 
@@ -1675,8 +1675,8 @@ msgid "After file OPs only re-scan affected dirs"
 msgstr ""
 "Po operacijų su failais, pakartotinai skenuoti tik susijusius katalogus"
 
-#: enigma2-plugins/birthdayreminder/src/plugin.py:45
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:220
+#: enigma2-plugins/birthdayreminder/src/plugin.py:45
 msgid "Age"
 msgstr "Amžius"
 
@@ -1710,14 +1710,14 @@ msgstr "Albumų sąrašas"
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-stalkerclient/StalkerClient/api.py:195
 #: enigma2-plugin-stalkerclient/StalkerClient/api.py:196
-#: enigma2-plugin-partnerbox/src/plugin.py:1046
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:31
+#: enigma2-plugins/mytube/src/plugin.py:67
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:252
 #: enigma2-plugins/emission/src/EmissionOverview.py:150
 #: enigma2-plugins/emission/src/EmissionOverview.py:303
 #: enigma2-plugins/emission/src/EmissionOverview.py:310
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:252
 #: enigma2-plugins/fritzcall/src/plugin.py:1355
-#: enigma2-plugins/mytube/src/plugin.py:67
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:31
+#: enigma2-plugin-partnerbox/src/plugin.py:1046
 msgid "All"
 msgstr "Visi"
 
@@ -2217,8 +2217,8 @@ msgstr "Priskirkite žymas"
 msgid "Attachments"
 msgstr "Pridėti priedai"
 
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:321
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:183
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:321
 msgid "Audio Bitrate"
 msgstr "Garso bitų dažnis"
 
@@ -2380,8 +2380,8 @@ msgstr "Auto laikmačio kanalai"
 msgid "AutoTimer Settings"
 msgstr "Auto laikmačio nustatymai"
 
-#: enigma2-plugins/autotimer/src/AutoTimerResource.py:108
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:486
+#: enigma2-plugins/autotimer/src/AutoTimerResource.py:108
 #, python-format
 msgid "AutoTimer failed with error %s"
 msgstr "Auto laikmatis nepavyko dėl klaidos %s"
@@ -2391,8 +2391,8 @@ msgid "AutoTimer independent mode"
 msgstr "Auto laikmačio nepriklausoma būsena"
 
 #
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:145
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:182
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:145
 msgid "AutoTimer overview"
 msgstr "Auto laikmačio apžvalga"
 
@@ -2678,8 +2678,8 @@ msgid "Bad arguments"
 msgstr "Blogi argumentai"
 
 #
-#: enigma2-plugins/emission/src/EmissionDetailview.py:89
 #: enigma2-plugins/emission/src/EmissionOverview.py:146
+#: enigma2-plugins/emission/src/EmissionDetailview.py:89
 msgid "Bandwidth"
 msgstr "Juostos plotis"
 
@@ -2835,8 +2835,8 @@ msgstr "'Bukietų' mygtuko elgesys"
 
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:26
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1253
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:68
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1253
 msgid "Bouquets"
 msgstr "Paketai"
 
@@ -2907,11 +2907,11 @@ msgstr "Buferis:"
 msgid "Build Clean Timerlist"
 msgstr "Sukurkite švarų laikmačių sąrašą"
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:214
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:235
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1937
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1953
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1969
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:214
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:235
 msgid "Button disabled"
 msgstr "Mygtukas išjungtas"
 
@@ -3033,9 +3033,9 @@ msgid "Cams: "
 msgstr "Kameros: "
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:68
+#: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:184
 #: e2openplugin-SeriesPlugin/src/SeriesPlugin.py:421
 #: e2openplugin-SeriesPlugin/src/SeriesPlugin.py:435
-#: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:184
 msgid "Can be configured within the setup"
 msgstr "Gali būti konfigūruojama per nustatymus"
 
@@ -3165,37 +3165,92 @@ msgstr "Kanados"
 
 #
 #. TRANSLATORS: keep it short, this is a button
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:51
+#: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:25
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:67
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:87
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
+#: enigma2-plugin-vps/src_py/Vps_setup.py:54
+#: enigma2-plugin-pzyp4t/src/plugin.py:3416
+#: enigma2-plugin-pzyp4t/src/plugin.py:3784
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:279
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2808
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2929
-#: enigma2-plugin-moviecut/src_py/plugin.py:87
-#: enigma2-plugin-vps/src_py/Vps_setup.py:54
-#: e2-advancedaudiosettings/src/plugin.py:52
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:49
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:197
-#: enigma2-plugin-babelzapper/src/plugin.py:113
-#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:154
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:91
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:296
-#: enigma2-plugin-networkbrowser/src/MountEdit.py:63
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:559
-#: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:25
-#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:32
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:637
+#: enigma2-plugin-networkbrowser/src/MountEdit.py:63
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:91
+#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:154
+#: e2-advancedaudiosettings/src/plugin.py:52
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:269
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:692
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:132
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:457
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:542
-#: enigma2-plugin-pzyp4t/src/plugin.py:3416
-#: enigma2-plugin-pzyp4t/src/plugin.py:3784
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:85
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:288
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:67
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:87
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:32
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:637
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:51
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:49
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:197
+#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
+#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:27
+#: enigma2-plugins/genuinedreambox/src/plugin.py:81
+#: enigma2-plugins/tvcharts/src/plugin.py:403
+#: enigma2-plugins/webinterface/src/WebIfConfig.py:30
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:765
+#: enigma2-plugins/ncidclient/src/plugin.py:576
+#: enigma2-plugins/ncidclient/src/plugin.py:698
 #: enigma2-plugins/quickbutton/src/plugin.py:196
+#: enigma2-plugins/cec/src/CecConfig.py:34
+#: enigma2-plugins/fancontrol2/src/plugin.py:686
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:71
+#: enigma2-plugins/movieretitle/src/plugin.py:41
+#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:78
+#: enigma2-plugins/tageditor/src/plugin.py:60
+#: enigma2-plugins/automaticcleanup/src/plugin.py:170
+#: enigma2-plugins/3dsettings/src/plugin.py:184
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:77
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
+#: enigma2-plugins/cdinfo/src/plugin.py:56
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:61
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:257
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/antiscrollbar/src/plugin.py:125
+#: enigma2-plugins/imdb/src/plugin.py:719
+#: enigma2-plugins/pushservice/src/ConfigScreen.py:170
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:779
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:59
+#: enigma2-plugins/virtualzap/src/plugin.py:724
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:36
+#: enigma2-plugins/pipzap/src/PipzapSetup.py:39
+#: enigma2-plugins/kiddytimer/src/KTsetup.py:77
+#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:174
+#: enigma2-plugins/remotetimer/src/plugin.py:105
+#: enigma2-plugins/remotetimer/src/plugin.py:232
+#: enigma2-plugins/audiorestart/src/plugin.py:107
+#: enigma2-plugins/subsdownloader2/src/plugin.py:931
+#: enigma2-plugins/subsdownloader2/src/plugin.py:936
+#: enigma2-plugins/subsdownloader2/src/plugin.py:944
+#: enigma2-plugins/subsdownloader2/src/plugin.py:949
+#: enigma2-plugins/emission/src/EmissionSetup.py:39
+#: enigma2-plugins/emission/src/EmissionBandwidth.py:72
+#: enigma2-plugins/pipservicerelation/src/plugin.py:188
+#: enigma2-plugins/yttrailer/src/plugin.py:248
+#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:49
+#: enigma2-plugins/namezap/src/NamezapSetup.py:54
+#: enigma2-plugins/fritzcall/src/plugin.py:2333
+#: enigma2-plugins/fritzcall/src/plugin.py:2569
+#: enigma2-plugins/satloader/src/plugin.py:53
+#: enigma2-plugins/satloader/src/plugin.py:164
+#: enigma2-plugins/satloader/src/plugin.py:284
+#: enigma2-plugins/satloader/src/plugin.py:408
+#: enigma2-plugins/showclock/src/plugin.py:142
+#: enigma2-plugins/teletext/src/plugin.py:1148
+#: enigma2-plugins/teletext/src/plugin.py:1294
+#: enigma2-plugins/elektro/src/plugin.py:268
+#: enigma2-plugins/elektro/src/plugin.py:313
+#: enigma2-plugins/elektro/src/plugin.py:391
+#: enigma2-plugins/elektro/src/plugin.py:494
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:559
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:579
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:584
@@ -3203,95 +3258,40 @@ msgstr "Kanados"
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:642
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:648
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:726
+#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:56
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:69
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:227
-#: enigma2-plugins/emission/src/EmissionBandwidth.py:72
-#: enigma2-plugins/emission/src/EmissionSetup.py:39
-#: enigma2-plugins/fancontrol2/src/plugin.py:686
-#: enigma2-plugins/ncidclient/src/plugin.py:576
-#: enigma2-plugins/ncidclient/src/plugin.py:698
-#: enigma2-plugins/pushservice/src/ConfigScreen.py:170
-#: enigma2-plugins/autoresolution/src/plugin.py:345
-#: enigma2-plugins/pipzap/src/PipzapSetup.py:39
-#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
-#: enigma2-plugins/movieretitle/src/plugin.py:41
+#: enigma2-plugins/growlee/src/plugin.py:99
+#: enigma2-plugins/c3vocupdater/src/plugin.py:42
 #: enigma2-plugins/simplerss/src/RSSSetup.py:23
 #: enigma2-plugins/simplerss/src/RSSSetup.py:70
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
-#: enigma2-plugins/tageditor/src/plugin.py:60
-#: enigma2-plugins/automaticcleanup/src/plugin.py:170
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:118
-#: enigma2-plugins/subsdownloader2/src/plugin.py:931
-#: enigma2-plugins/subsdownloader2/src/plugin.py:936
-#: enigma2-plugins/subsdownloader2/src/plugin.py:944
-#: enigma2-plugins/subsdownloader2/src/plugin.py:949
-#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:56
-#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:78
-#: enigma2-plugins/virtualzap/src/plugin.py:724
-#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:49
-#: enigma2-plugins/elektro/src/plugin.py:268
-#: enigma2-plugins/elektro/src/plugin.py:313
-#: enigma2-plugins/elektro/src/plugin.py:391
-#: enigma2-plugins/elektro/src/plugin.py:494
-#: enigma2-plugins/audiorestart/src/plugin.py:107
-#: enigma2-plugins/fritzcall/src/plugin.py:2333
-#: enigma2-plugins/fritzcall/src/plugin.py:2569
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:71
-#: enigma2-plugins/growlee/src/plugin.py:99
-#: enigma2-plugins/showclock/src/plugin.py:142
-#: enigma2-plugins/antiscrollbar/src/plugin.py:125
-#: enigma2-plugins/3dsettings/src/plugin.py:184
-#: enigma2-plugins/cec/src/CecConfig.py:34
-#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:174
-#: enigma2-plugins/yttrailer/src/plugin.py:248
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:36
-#: enigma2-plugins/teletext/src/plugin.py:1148
-#: enigma2-plugins/teletext/src/plugin.py:1294
-#: enigma2-plugins/weatherplugin/src/setup.py:195
-#: enigma2-plugins/imdb/src/plugin.py:719
-#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:27
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:779
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:59
-#: enigma2-plugins/webinterface/src/WebIfConfig.py:30
-#: enigma2-plugins/namezap/src/NamezapSetup.py:54
-#: enigma2-plugins/cdinfo/src/plugin.py:56
-#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:137
-#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:116
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:485
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:985
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1262
-#: enigma2-plugins/c3vocupdater/src/plugin.py:42
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:61
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:257
+#: enigma2-plugins/audiosync/src/AC3main.py:65
+#: enigma2-plugins/audiosync/src/AC3setup.py:58
+#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:46
+#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:121
 #: enigma2-plugins/dreamexplorer/src/plugin.py:208
 #: enigma2-plugins/dreamexplorer/src/plugin.py:218
 #: enigma2-plugins/dreamexplorer/src/plugin.py:223
 #: enigma2-plugins/dreamexplorer/src/plugin.py:229
 #: enigma2-plugins/dreamexplorer/src/plugin.py:271
 #: enigma2-plugins/dreamexplorer/src/plugin.py:461
-#: enigma2-plugins/genuinedreambox/src/plugin.py:81
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:765
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:77
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
-#: enigma2-plugins/remotetimer/src/plugin.py:105
-#: enigma2-plugins/remotetimer/src/plugin.py:232
-#: enigma2-plugins/tvcharts/src/plugin.py:403
-#: enigma2-plugins/pipservicerelation/src/plugin.py:188
+#: enigma2-plugins/autoresolution/src/plugin.py:345
+#: enigma2-plugins/weatherplugin/src/setup.py:195
+#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:137
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:485
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:985
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1262
+#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:116
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:118
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:15
-#: enigma2-plugins/kiddytimer/src/KTsetup.py:77
-#: enigma2-plugins/audiosync/src/AC3setup.py:58
-#: enigma2-plugins/audiosync/src/AC3main.py:65
-#: enigma2-plugins/satloader/src/plugin.py:53
-#: enigma2-plugins/satloader/src/plugin.py:164
-#: enigma2-plugins/satloader/src/plugin.py:284
-#: enigma2-plugins/satloader/src/plugin.py:408
-#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:46
-#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:121
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:85
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:288
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:296
+#: enigma2-plugin-babelzapper/src/plugin.py:113
+#: enigma2-plugin-moviecut/src_py/plugin.py:87
 msgid "Cancel"
 msgstr "Atšaukti"
 
@@ -3309,14 +3309,14 @@ msgstr "Negalite pašalinti aukštesniojo katalogo."
 msgid "Cannot get calls from FRITZ!Box"
 msgstr "Nepavyksta gauti skambučių iš FRITZ!Box"
 
-#: enigma2-plugins/fritzcall/src/plugin.py:2795
-#: enigma2-plugins/fritzcall/src/plugin.py:3505
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3917
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4154
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4174
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4215
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4294
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4320
+#: enigma2-plugins/fritzcall/src/plugin.py:2795
+#: enigma2-plugins/fritzcall/src/plugin.py:3505
 msgid ""
 "Cannot get infos from FRITZ!Box yet\n"
 "Still initialising or wrong firmware version"
@@ -3454,10 +3454,10 @@ msgstr "Klaviatūros išdėstymo pakeisti nepavyko (%s)."
 msgid "Changing the timer for '%s' failed!"
 msgstr "Laikmačio dėl '%s' pakeisti nepavyko!"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:463
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:58
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
 #: enigma2-plugins/merlinepg/src/plugin.py:782
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:58
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:463
 msgid "Channel"
 msgstr "Kanalas"
 
@@ -3498,11 +3498,11 @@ msgid "Channel Number"
 msgstr "Kanalo numeris"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3319
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
 #: enigma2-plugins/imdb/src/plugin.py:63
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:817
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:121
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
 #: enigma2-plugins/pipservicerelation/src/plugin.py:211
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:121
 msgid "Channel Selection"
 msgstr "Kanalo pasirinkimas"
 
@@ -3530,9 +3530,9 @@ msgstr "Kanalo sutapimas..."
 msgid "Channel videos"
 msgstr "Kanalo vaizdai"
 
+#: enigma2-plugins/mytube/src/plugin.py:1380
 #: enigma2-plugins/mosaic/src/plugin.py:171
 #: enigma2-plugins/mosaic/src/plugin.py:280
-#: enigma2-plugins/mytube/src/plugin.py:1380
 msgid "Channel: "
 msgstr "Kanalas: "
 
@@ -3541,8 +3541,8 @@ msgid "Channellist red"
 msgstr "Kanalų sąrašas, raudonas"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1252
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:67
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1252
 msgid "Channels"
 msgstr "Kanalai"
 
@@ -3631,13 +3631,13 @@ msgstr "Pasirinkite Napisy24 paieškos metodą:"
 msgid "Choose bookmark"
 msgstr "Pasirinkite žymelę"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:752
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:299
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3057
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3099
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3133
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3175
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3202
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:299
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:752
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1192
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:470
 msgid "Choose directory"
@@ -3664,10 +3664,10 @@ msgid "Choose subtitle server:"
 msgstr "Pasirinkti subtitrų serverį:"
 
 #
-#: enigma2-plugin-moviecut/src_py/plugin.py:178
-#: enigma2-plugins/movieretitle/src/plugin.py:86
 #: enigma2-plugins/mytube/src/MyTubeSettings.py:98
+#: enigma2-plugins/movieretitle/src/plugin.py:86
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:393
+#: enigma2-plugin-moviecut/src_py/plugin.py:178
 msgid "Choose target folder"
 msgstr "Pasirinkite aplanką"
 
@@ -3788,30 +3788,30 @@ msgid "Clone selected timer"
 msgstr "Klonuoti pasirinktą laikmatį"
 
 #
-#: enigma2-plugin-networkbrowser/src/UserDialog.py:82
-#: enigma2-plugin-networkbrowser/src/MountManager.py:51
 #: enigma2-plugin-networkbrowser/src/MountView.py:61
 #: enigma2-plugin-networkbrowser/src/UserManager.py:49
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:145
-#: enigma2-plugins/emission/src/EmissionDetailview.py:88
-#: enigma2-plugins/emission/src/EmissionOverview.py:145
-#: enigma2-plugins/webadmin/src/WebChilds/PKG.py:61
-#: enigma2-plugins/webadmin/src/WebChilds/PKG.py:69
-#: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:38
-#: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:51
-#: enigma2-plugins/webadmin/src/WebChilds/UploadText.py:93
-#: enigma2-plugins/simplerss/src/RSSScreens.py:457
-#: enigma2-plugins/simplerss/src/RSSScreens.py:462
-#: enigma2-plugins/fstabeditor/src/dirSelect.py:40
-#: enigma2-plugins/mphelp/src/MPHelp.py:43
+#: enigma2-plugin-networkbrowser/src/UserDialog.py:82
+#: enigma2-plugin-networkbrowser/src/MountManager.py:51
+#: enigma2-plugins/mytube/src/MyTubeSearch.py:314
 #: enigma2-plugins/mytube/src/plugin.py:258
 #: enigma2-plugins/mytube/src/plugin.py:1328
 #: enigma2-plugins/mytube/src/plugin.py:1504
 #: enigma2-plugins/mytube/src/MyTubeSettings.py:39
-#: enigma2-plugins/mytube/src/MyTubeSearch.py:314
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:131
+#: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:38
+#: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:51
+#: enigma2-plugins/webadmin/src/WebChilds/PKG.py:61
+#: enigma2-plugins/webadmin/src/WebChilds/PKG.py:69
+#: enigma2-plugins/webadmin/src/WebChilds/UploadText.py:93
+#: enigma2-plugins/emission/src/EmissionOverview.py:145
+#: enigma2-plugins/emission/src/EmissionDetailview.py:88
 #: enigma2-plugins/pipservicerelation/src/plugin.py:86
+#: enigma2-plugins/mphelp/src/MPHelp.py:43
+#: enigma2-plugins/simplerss/src/RSSScreens.py:457
+#: enigma2-plugins/simplerss/src/RSSScreens.py:462
 #: enigma2-plugins/internetradio/src/InternetRadioInformationScreen.py:69
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:131
+#: enigma2-plugins/fstabeditor/src/dirSelect.py:40
 msgid "Close"
 msgstr "Uždaryti"
 
@@ -3832,22 +3832,22 @@ msgid "Close Player with exit-key"
 msgstr "Uždaryti grotuvą su exit mygtuku"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:120
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:140
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:120
 msgid "Close and forget changes"
 msgstr "Uždarykite ir pamirškite pakeitimus"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:145
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:141
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:145
 msgid "Close and save changes"
 msgstr "Uždarykite ir išsaugokite pakeitimus"
 
-#: enigma2-plugins/fstabeditor/src/plugin.py:133
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:810
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1830
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1837
 #: enigma2-plugins/zapstatistic/src/plugin.py:574
+#: enigma2-plugins/fstabeditor/src/plugin.py:133
 msgid "Close plugin"
 msgstr "Uždarykite priedą"
 
@@ -3871,9 +3871,9 @@ msgstr "Kodekai"
 msgid "Collection"
 msgstr "Rinkinys"
 
+#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:85
 #: enigma2-plugins/videocolorspace/src/plugin.py:41
 #: enigma2-plugins/videocolorspace/src/plugin.py:42
-#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:85
 msgid "Color space setup"
 msgstr "Spalvų erdvės nustatymas"
 
@@ -3927,10 +3927,10 @@ msgstr "Konfigūracijos failas"
 msgid "Config file %s not found."
 msgstr "Konfigūracinio failo %s nerasta."
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:47
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1831
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3264
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:84
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:47
 #: enigma2-plugins/pushservice/src/ConfigScreen.py:66
 msgid "Configuration"
 msgstr "Konfigūracija"
@@ -3940,8 +3940,8 @@ msgstr "Konfigūracija"
 msgid "Configuration for the Webinterface"
 msgstr "Web sąsajos konfigūravimas"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:87
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:46
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:87
 msgid "Configuration of the title:episode separator"
 msgstr "Įrašo antraštės konfigūravimas:epizodo skirtuvas"
 
@@ -4169,9 +4169,9 @@ msgstr "CoolTVGuide nėra įdiegtas!"
 msgid "Copy"
 msgstr "Kopijuoti"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:143
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:211
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:232
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:143
 msgid "Copy File"
 msgstr "Kopijuoti failą"
 
@@ -4252,13 +4252,13 @@ msgstr "Nepavyko gauti skambučių sąrašo; gal netinkama versija?"
 msgid "Could not load phonebook: "
 msgstr "Nepavyko įkelti telefonų knygos: "
 
-#: enigma2-plugins/fritzcall/src/plugin.py:1774
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:427
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1401
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2071
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2841
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4083
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4229
+#: enigma2-plugins/fritzcall/src/plugin.py:1774
 #, python-format
 msgid "Could not load phonebook: %s"
 msgstr "Nepavyko įkelti telefonų knygelės: %s"
@@ -4267,8 +4267,8 @@ msgstr "Nepavyko įkelti telefonų knygelės: %s"
 msgid "Could not obtain list of files."
 msgstr "Nepavyko gauti failų sąrašo."
 
-#: enigma2-plugins/pipzap/src/plugin.py:75
 #: enigma2-plugins/virtualzap/src/plugin.py:126
+#: enigma2-plugins/pipzap/src/plugin.py:75
 msgid "Could not open Picture in Picture"
 msgstr "Nepavyko atidaryti paveikslėlio paveikslėlyje"
 
@@ -4346,6 +4346,7 @@ msgstr "Skaičiuoti - tipą (mazgas)"
 msgid "Countdown:"
 msgstr "Atgalinis skaičiavimas:"
 
+#: enigma2-plugins/internetradio/src/InternetRadioList.py:48
 #: enigma2-plugins/internetradio/src/plugin.py:33
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:302
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:571
@@ -4353,7 +4354,6 @@ msgstr "Atgalinis skaičiavimas:"
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:679
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:784
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:856
-#: enigma2-plugins/internetradio/src/InternetRadioList.py:48
 msgid "Countries"
 msgstr "Šalys"
 
@@ -4386,8 +4386,8 @@ msgstr "Viršelių paieška"
 msgid "Cover background"
 msgstr "Viršelio fonas"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:628
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:628
 msgid "Cover delay in ms"
 msgstr "Viršelio rodymo trukmė (ms)"
 
@@ -4571,8 +4571,8 @@ msgstr "Žymeklio nuspėjamas judėjimas po pasirinkimo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:175
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:197
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
 #: enigma2-plugins/werbezapper/src/WerbeZapper.py:110
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
 msgid "Custom"
 msgstr "Pasirinktinis"
 
@@ -4650,8 +4650,8 @@ msgstr "Čekijos respublika"
 msgid "DD.MM HH:MM"
 msgstr "DD.MM HH:MM"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:90
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:172
+#: e2openplugin-InfoBarTunerState/src/plugin.py:90
 msgid "DD.MM. HH:MM"
 msgstr "DD.MM. HH:MM"
 
@@ -4659,8 +4659,8 @@ msgstr "DD.MM. HH:MM"
 msgid "DD.MM.YYYY"
 msgstr "YYYY.MM.DD"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:92
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:169
+#: e2openplugin-InfoBarTunerState/src/plugin.py:92
 msgid "DD.MM.YYYY HH:MM"
 msgstr "DD.MM.YYYY HH:MM"
 
@@ -4781,9 +4781,9 @@ msgid "Dark red"
 msgstr "Tamsiai raudona"
 
 #
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:449
-#: enigma2-plugins/emailclient/src/plugin.py:346
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:375
+#: enigma2-plugins/emailclient/src/plugin.py:346
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:449
 msgid "Date"
 msgstr "Data"
 
@@ -4896,8 +4896,8 @@ msgstr "Išjungti"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:176
-#: enigma2-plugins/teletext/src/plugin.py:1295
 #: enigma2-plugins/imdb/src/plugin.py:52
+#: enigma2-plugins/teletext/src/plugin.py:1295
 msgid "Default"
 msgstr "Numatytasis"
 
@@ -5023,44 +5023,44 @@ msgstr "Delsa x sekundžių po kanalo paleisties"
 
 #
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:52
+#: enigma2-plugin-pzyp4t/src/plugin.py:641
 #: enigma2-plugin-networkbrowser/src/UserManager.py:51
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2482
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:112
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:114
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2482
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:179
-#: enigma2-plugin-pzyp4t/src/plugin.py:641
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:161
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:290
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:71
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:52
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:43
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:267
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:203
+#: enigma2-plugins/ncidclient/src/plugin.py:441
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:176
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:212
-#: enigma2-plugins/ncidclient/src/plugin.py:441
-#: enigma2-plugins/simplerss/src/RSSSetup.py:73
-#: enigma2-plugins/subsdownloader2/src/plugin.py:1072
-#: enigma2-plugins/fritzcall/src/plugin.py:2139
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:143
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:173
-#: enigma2-plugins/growlee/src/plugin.py:102
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:36
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:91
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:92
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:116
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:178
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:230
+#: enigma2-plugins/remotetimer/src/plugin.py:104
+#: enigma2-plugins/subsdownloader2/src/plugin.py:1072
+#: enigma2-plugins/pipservicerelation/src/plugin.py:85
+#: enigma2-plugins/fritzcall/src/plugin.py:2139
 #: enigma2-plugins/teletext/src/plugin.py:1733
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:71
+#: enigma2-plugins/zapstatistic/src/plugin.py:435
+#: enigma2-plugins/growlee/src/plugin.py:102
+#: enigma2-plugins/simplerss/src/RSSSetup.py:73
 #: enigma2-plugins/weatherplugin/src/setup.py:78
 #: enigma2-plugins/weatherplugin/src/setup.py:197
-#: enigma2-plugins/zapstatistic/src/plugin.py:435
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:43
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:105
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:129
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:143
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:203
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:267
-#: enigma2-plugins/remotetimer/src/plugin.py:104
-#: enigma2-plugins/pipservicerelation/src/plugin.py:85
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:105
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:161
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:290
 msgid "Delete"
 msgstr "Trinti"
 
@@ -5212,14 +5212,14 @@ msgstr "Pašalinimo patvirtinimas"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:420
-#: enigma2-plugins/movieretitle/src/plugin.py:62
-#: enigma2-plugins/elektro/src/plugin.py:476
-#: enigma2-plugins/showclock/src/plugin.py:123
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:60
+#: enigma2-plugins/movieretitle/src/plugin.py:62
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
+#: enigma2-plugins/showclock/src/plugin.py:123
+#: enigma2-plugins/elektro/src/plugin.py:476
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:151
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:593
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:420
 msgid "Description"
 msgstr "Aprašymas"
 
@@ -5257,10 +5257,10 @@ msgstr "Paskirtis / klientas"
 msgid "Destination dir '%s' does not exist."
 msgstr "Paskirties katalogo '%s' nėra."
 
-#: enigma2-plugins/twitchtv/src/plugin.py:241
-#: enigma2-plugins/twitchtv/src/plugin.py:482
 #: enigma2-plugins/imdb/src/plugin.py:359
 #: enigma2-plugins/imdb/src/plugin.py:568
+#: enigma2-plugins/twitchtv/src/plugin.py:241
+#: enigma2-plugins/twitchtv/src/plugin.py:482
 msgid "Details"
 msgstr "Išsamiau"
 
@@ -5392,11 +5392,6 @@ msgid "Disable password-based login"
 msgstr "Išjungti slaptažodžiu pagrįstą prisijungimą"
 
 #
-#: enigma2-plugins/birthdayreminder/src/plugin.py:38
-#: enigma2-plugins/skipintro/src/__init__.py:15
-#: enigma2-plugins/teletext/src/plugin.py:70
-#: enigma2-plugins/easyinfo/src/plugin.py:54
-#: enigma2-plugins/easyinfo/src/plugin.py:93
 #: enigma2-plugins/easymedia/src/plugin.py:49
 #: enigma2-plugins/easymedia/src/plugin.py:50
 #: enigma2-plugins/easymedia/src/plugin.py:51
@@ -5410,6 +5405,11 @@ msgstr "Išjungti slaptažodžiu pagrįstą prisijungimą"
 #: enigma2-plugins/easymedia/src/plugin.py:59
 #: enigma2-plugins/easymedia/src/plugin.py:60
 #: enigma2-plugins/easymedia/src/plugin.py:61
+#: enigma2-plugins/easyinfo/src/plugin.py:54
+#: enigma2-plugins/easyinfo/src/plugin.py:93
+#: enigma2-plugins/teletext/src/plugin.py:70
+#: enigma2-plugins/birthdayreminder/src/plugin.py:38
+#: enigma2-plugins/skipintro/src/__init__.py:15
 msgid "Disabled"
 msgstr "Išjungtas"
 
@@ -5658,11 +5658,11 @@ msgstr ""
 "%s?"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:459
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:261
 #: enigma2-plugins/merlinepg/src/plugin.py:622
 #: enigma2-plugins/merlinepg/src/plugin.py:939
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:255
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:275
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:255
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:261
 #, python-format
 msgid "Do you really want to delete %s?"
 msgstr "Ar tikrai norite trinti %s?"
@@ -5738,9 +5738,9 @@ msgstr ""
 msgid "Do you really want to delete the entry for %s?"
 msgstr "Ar tikrai norite ištrinti įrašą %s?"
 
+#: enigma2-plugins/remotetimer/src/plugin.py:145
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:115
 #: enigma2-plugin-partnerbox/src/plugin.py:424
-#: enigma2-plugins/remotetimer/src/plugin.py:145
 #, python-format
 msgid ""
 "Do you really want to delete the timer \n"
@@ -5749,9 +5749,9 @@ msgstr ""
 "Jūs iš tikro norite ištrinti laikmatį \n"
 "%s ?"
 
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:114
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:184
 #: enigma2-plugins/pipservicerelation/src/plugin.py:123
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:114
 msgid "Do you really want to delete this entry?"
 msgstr "Ar tikrai norite ištrinti įrašą?"
 
@@ -5764,10 +5764,10 @@ msgstr "Ar tikrai norite ištrinti:\n"
 msgid "Do you really want to lock the directory %s and all its subfolders?"
 msgstr "Ar tikrai norite užrakinti katalogą %s kartu su visais pakatalogiais?"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2433
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2456
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:454
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:486
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2433
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2456
 #, python-format
 msgid ""
 "Do you really want to remove your bookmark\n"
@@ -5858,8 +5858,8 @@ msgstr "Nenuskaityti automatiškai emc-noscan.cfg katalogų dydžio"
 msgid "Don't cut"
 msgstr "Nekirpti"
 
-#: e2openplugin-SeriesPlugin/src/Channels.py:308
 #: e2openplugin-SeriesPlugin/src/XMLTVBase.py:87
+#: e2openplugin-SeriesPlugin/src/Channels.py:308
 #: enigma2-plugins/pushservice/src/PushServiceBase.py:219
 msgid "Don't edit this manually unless you really know what you are doing"
 msgstr "Nereikia keisti tai rankiniu būdu, jei tikrai žinote ką darote"
@@ -5899,8 +5899,8 @@ msgstr "Nestabdykite esamo įvykio, bet išjunkite būsimus"
 msgid "Don't wake up"
 msgstr "Nepabusti"
 
-#: enigma2-plugins/pushservice/src/Services/SMTP.py:35
 #: enigma2-plugins/pushservice/src/Services/GNTP.py:34
+#: enigma2-plugins/pushservice/src/Services/SMTP.py:35
 msgid "Donate {donate:s}"
 msgstr "Aukokite {donate:s}"
 
@@ -5914,12 +5914,12 @@ msgid "Downlad %s"
 msgstr "Atsisiųsti %s"
 
 #
-#: enigma2-plugins/emission/src/EmissionOverview.py:298
-#: enigma2-plugins/emission/src/EmissionOverview.py:309
-#: enigma2-plugins/fancontrol2/src/FC2webSite.py:172
-#: enigma2-plugins/fancontrol2/src/FC2webSite.py:208
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:147
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:290
+#: enigma2-plugins/fancontrol2/src/FC2webSite.py:172
+#: enigma2-plugins/fancontrol2/src/FC2webSite.py:208
+#: enigma2-plugins/emission/src/EmissionOverview.py:298
+#: enigma2-plugins/emission/src/EmissionOverview.py:309
 msgid "Download"
 msgstr "Atsisiųsti"
 
@@ -6322,8 +6322,8 @@ msgstr "EPG automatinį atnaujinimą pradėti anksčiau (hh:mm)"
 msgid "EPG refresh auto-start latest (hh:mm)"
 msgstr "EPG automatinį atnaujinimą pradėti vėliau (hh:mm)"
 
-#: enigma2-plugins/epgrefresh/src/PipAdapter.py:82
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:519
+#: enigma2-plugins/epgrefresh/src/PipAdapter.py:82
 msgid "EPG refresh finished."
 msgstr "EPG atnaujinimas baigtas."
 
@@ -6435,12 +6435,12 @@ msgstr "EPG paieškos meniu"
 msgid "EPGSearch search filter overview"
 msgstr "EPG paieškos, paieškos filtro apžvalga"
 
+#: enigma2-plugins/easyinfo/src/plugin.py:620
+#: enigma2-plugins/easyinfo/src/plugin.py:1023
 #: enigma2-plugins/merlinepg/src/plugin.py:707
 #: enigma2-plugins/merlinepg/src/plugin.py:716
 #: enigma2-plugins/merlinepg/src/plugin.py:1004
 #: enigma2-plugins/merlinepg/src/plugin.py:1013
-#: enigma2-plugins/easyinfo/src/plugin.py:620
-#: enigma2-plugins/easyinfo/src/plugin.py:1023
 msgid "EPGsearch is not installed!"
 msgstr "EPG paieškos priedas neįdiegtas!"
 
@@ -6544,17 +6544,17 @@ msgstr "Lengvas pasirinkimas"
 #
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-pzyp4t/src/plugin.py:3018
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:160
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:264
-#: enigma2-plugins/ncidclient/src/plugin.py:445
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
-#: enigma2-plugins/fritzcall/src/plugin.py:2143
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:39
-#: enigma2-plugins/teletext/src/plugin.py:1735
-#: enigma2-plugins/weatherplugin/src/setup.py:77
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:142
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:269
+#: enigma2-plugins/ncidclient/src/plugin.py:445
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:142
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:39
 #: enigma2-plugins/pipservicerelation/src/plugin.py:88
+#: enigma2-plugins/fritzcall/src/plugin.py:2143
+#: enigma2-plugins/teletext/src/plugin.py:1735
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:264
+#: enigma2-plugins/weatherplugin/src/setup.py:77
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:160
 msgid "Edit"
 msgstr "Redaguoti"
 
@@ -6682,8 +6682,8 @@ msgid "Edit/Move Filter Toggle"
 msgstr "Redaguoti / perkelti filtrų jungiklį"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1322
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:118
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1322
 msgid "Editing"
 msgstr "Redagavimas"
 
@@ -7015,7 +7015,6 @@ msgid "Enable zap history:"
 msgstr "Įjungti jungimo istoriją:"
 
 #: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:41
-#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:39
 #: enigma2-plugins/easymedia/src/plugin.py:51
 #: enigma2-plugins/easymedia/src/plugin.py:52
 #: enigma2-plugins/easymedia/src/plugin.py:53
@@ -7027,10 +7026,11 @@ msgstr "Įjungti jungimo istoriją:"
 #: enigma2-plugins/easymedia/src/plugin.py:59
 #: enigma2-plugins/easymedia/src/plugin.py:60
 #: enigma2-plugins/easymedia/src/plugin.py:61
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:148
-#: enigma2-plugins/autotimer/src/AutoTimerWizard.py:150
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:592
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:39
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:51
+#: enigma2-plugins/autotimer/src/AutoTimerWizard.py:150
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:148
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:592
 msgid "Enabled"
 msgstr "Įjungta"
 
@@ -7219,9 +7219,9 @@ msgstr "Įrašykite bendrinimo pavadinimą:"
 msgid "Enter text for page %s"
 msgstr "Įrašykite puslapio tekstą %s"
 
-#: enigma2-plugins/moviesearch/src/plugin.py:85
 #: enigma2-plugins/imdb/src/plugin.py:449
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:324
+#: enigma2-plugins/moviesearch/src/plugin.py:85
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
 msgid "Enter text to search for"
 msgstr "Įrašykite tekstą, jei norite ieškoti"
@@ -7305,13 +7305,13 @@ msgstr ""
 "Epizodas: {rawepisode:s}\n"
 "{title:s}"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1371
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:39
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:41
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:47
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:86
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:39
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:41
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:132
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:136
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1371
 msgid "Error"
 msgstr "Klaida"
 
@@ -7325,17 +7325,17 @@ msgstr "Klaida tikrinant žurnalo failą"
 msgid "Error command '%s'"
 msgstr "Klaida komandoje '%s'"
 
-#: enigma2-plugins/emission/src/EmissionDetailview.py:120
-#: enigma2-plugins/emission/src/EmissionDetailview.py:136
-#: enigma2-plugins/emission/src/EmissionDetailview.py:183
-#: enigma2-plugins/emission/src/EmissionDetailview.py:211
-#: enigma2-plugins/emission/src/EmissionDetailview.py:312
 #: enigma2-plugins/emission/src/EmissionOverview.py:178
 #: enigma2-plugins/emission/src/EmissionOverview.py:194
 #: enigma2-plugins/emission/src/EmissionOverview.py:250
 #: enigma2-plugins/emission/src/EmissionOverview.py:264
 #: enigma2-plugins/emission/src/EmissionOverview.py:358
 #: enigma2-plugins/emission/src/EmissionOverview.py:385
+#: enigma2-plugins/emission/src/EmissionDetailview.py:120
+#: enigma2-plugins/emission/src/EmissionDetailview.py:136
+#: enigma2-plugins/emission/src/EmissionDetailview.py:183
+#: enigma2-plugins/emission/src/EmissionDetailview.py:211
+#: enigma2-plugins/emission/src/EmissionDetailview.py:312
 #, python-format
 msgid "Error communicating with transmission-daemon: %s."
 msgstr "Klaida komunikuojant su perdavimo tarnyba: %s."
@@ -7615,12 +7615,12 @@ msgstr "Yra"
 msgid "Exist: %s"
 msgstr "Yra: %s"
 
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
-#: enigma2-plugins/subsdownloader2/src/plugin.py:1071
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1825
 #: enigma2-plugins/imdb/src/plugin.py:216
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
+#: enigma2-plugins/subsdownloader2/src/plugin.py:1071
 msgid "Exit"
 msgstr "Išeiti"
 
@@ -7692,9 +7692,9 @@ msgstr "Numerio išplėtimas, kad pradėti skambinti"
 msgid "Extensions"
 msgstr "Išplėtimai"
 
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:80
-#: enigma2-plugins/elektro/src/plugin.py:105
 #: enigma2-plugins/showclock/src/plugin.py:72
+#: enigma2-plugins/elektro/src/plugin.py:105
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:80
 msgid "Extensions menu"
 msgstr "Išplėtimų meniu"
 
@@ -7706,8 +7706,8 @@ msgstr "Papildoma informacija"
 msgid "Extra support for language"
 msgstr "Išplėstinis kalbos palaikymas"
 
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:20
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
 msgid "Extras"
 msgstr "Papildomai"
 
@@ -8102,8 +8102,8 @@ msgstr "Failo pavadinimo šablonas (ne RegExp)"
 msgid "Filename:"
 msgstr "Failas:"
 
-#: enigma2-plugins/emission/src/EmissionDetailview.py:100
 #: enigma2-plugins/easymedia/src/plugin.py:410
+#: enigma2-plugins/emission/src/EmissionDetailview.py:100
 msgid "Files"
 msgstr "Failai"
 
@@ -8348,8 +8348,8 @@ msgstr "Rastas gedimų žurnalas(ai)"
 msgid "Found Log(s)"
 msgstr "Rastas žurnalas(ai)"
 
-#: enigma2-plugins/autotimer/src/plugin.py:206
 #: enigma2-plugins/autotimer/src/AutoTimerResource.py:97
+#: enigma2-plugins/autotimer/src/plugin.py:206
 #, python-format
 msgid ""
 "Found a total of %(matches)d matching Events.\n"
@@ -8416,8 +8416,8 @@ msgstr ""
 "\n"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:46
-#: enigma2-plugins/fritzcall/src/plugin.py:168
 #: enigma2-plugins/mytube/src/plugin.py:91
+#: enigma2-plugins/fritzcall/src/plugin.py:168
 msgid "France"
 msgstr "Prancūzija"
 
@@ -8467,12 +8467,12 @@ msgstr "Dažniausiai užduodami klausimai apie auto laikmatį"
 msgid "Fri"
 msgstr "Pen"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:12
+#: enigma2-plugins/elektro/src/plugin.py:133
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:45
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:445
-#: enigma2-plugins/elektro/src/plugin.py:133
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:45
-#: enigma2-plugins/kiddytimer/src/KTglob.py:12
 msgid "Friday"
 msgstr "Penktadienis"
 
@@ -8588,8 +8588,8 @@ msgid "Gateway"
 msgstr "Šliuzas"
 
 #: e2-advancedaudiosettings/src/plugin.py:63
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:59
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
 msgid "General"
 msgstr "Bendra informacija"
 
@@ -8635,9 +8635,9 @@ msgid "Genre:"
 msgstr "Žanras:"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:67
+#: enigma2-plugins/internetradio/src/InternetRadioList.py:46
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:302
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:677
-#: enigma2-plugins/internetradio/src/InternetRadioList.py:46
 msgid "Genres"
 msgstr "Žanrai"
 
@@ -8671,8 +8671,8 @@ msgid "German storm information"
 msgstr "Vokietijos audrų informacija"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:44
-#: enigma2-plugins/fritzcall/src/plugin.py:166
 #: enigma2-plugins/mytube/src/plugin.py:92
+#: enigma2-plugins/fritzcall/src/plugin.py:166
 msgid "Germany"
 msgstr "Vokietija"
 
@@ -9549,8 +9549,8 @@ msgstr "HTTP"
 msgid "HTTP Password"
 msgstr "HTTP slaptažodis"
 
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:306
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:71
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:306
 msgid "HTTP Port"
 msgstr "HTTP jungtis"
 
@@ -9566,8 +9566,8 @@ msgstr "HTTPS"
 msgid "HTTPS Port"
 msgstr "HTTPS jungtis"
 
-#: enigma2-plugins/logomanager/src/plugin.py:13
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:124
+#: enigma2-plugins/logomanager/src/plugin.py:13
 msgid "Harddisk"
 msgstr "Kietas diskas"
 
@@ -9581,15 +9581,15 @@ msgstr "HbbTV internetinės programos"
 msgid "Hebrew / Arabic"
 msgstr "Hebrajų / Arabų"
 
-#: enigma2-plugins/fancontrol2/src/plugin.py:689
-#: enigma2-plugins/pipzap/src/PipzapSetup.py:43
-#: enigma2-plugins/automaticcleanup/src/plugin.py:172
-#: enigma2-plugins/elektro/src/plugin.py:496
-#: enigma2-plugins/showclock/src/plugin.py:144
-#: enigma2-plugins/podcast/src/plugin.py:605
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
 #: enigma2-plugins/mytube/src/plugin.py:1522
+#: enigma2-plugins/fancontrol2/src/plugin.py:689
+#: enigma2-plugins/podcast/src/plugin.py:605
+#: enigma2-plugins/automaticcleanup/src/plugin.py:172
 #: enigma2-plugins/pluginsort/src/plugin.py:420
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
+#: enigma2-plugins/pipzap/src/PipzapSetup.py:43
+#: enigma2-plugins/showclock/src/plugin.py:144
+#: enigma2-plugins/elektro/src/plugin.py:496
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:297
 msgid "Help"
 msgstr "Pagalba"
@@ -9706,8 +9706,8 @@ msgstr "Horizontaliai kompensuoti pikselius dešinėje"
 msgid "Host"
 msgstr "Mazgas"
 
-#: enigma2-plugins/emission/src/EmissionSetup.py:27
 #: enigma2-plugins/dyndns/src/plugin.py:35
+#: enigma2-plugins/emission/src/EmissionSetup.py:27
 msgid "Hostname"
 msgstr "Mazgo pavadinimas"
 
@@ -9872,8 +9872,8 @@ msgid "IP"
 msgstr "IP"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:575
-#: enigma2-plugins/elektro/src/plugin.py:309
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:130
+#: enigma2-plugins/elektro/src/plugin.py:309
 msgid "IP Address"
 msgstr "IP adresas"
 
@@ -10310,13 +10310,13 @@ msgstr "Nepriklausomos būsenos išimtis"
 msgid "India"
 msgstr "Indija"
 
-#: enigma2-plugin-babelzapper/src/plugin.py:115
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:84
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
 #: enigma2-plugin-partnerbox/src/plugin.py:251
 #: enigma2-plugin-partnerbox/src/plugin.py:308
 #: enigma2-plugin-partnerbox/src/plugin.py:1124
 #: enigma2-plugin-partnerbox/src/plugin.py:1261
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:84
+#: enigma2-plugin-babelzapper/src/plugin.py:115
 msgid "Info"
 msgstr "Informacija"
 
@@ -10411,9 +10411,9 @@ msgstr "Įdiegti šį paketą"
 msgid "Installing Mutagen-package"
 msgstr "Įdiegiamas Mutagen paketas"
 
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:98
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:104
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:139
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:98
 msgid "Instant Record"
 msgstr "Momentinis įrašymas"
 
@@ -10520,8 +10520,8 @@ msgid "Italian"
 msgstr "Italų"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:47
-#: enigma2-plugins/fritzcall/src/plugin.py:169
 #: enigma2-plugins/mytube/src/plugin.py:100
+#: enigma2-plugins/fritzcall/src/plugin.py:169
 msgid "Italy"
 msgstr "Italija"
 
@@ -10690,8 +10690,8 @@ msgstr "Paskutinį kartą atnaujinta: "
 msgid "Latest"
 msgstr "Naujausi"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1496
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1099
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1496
 msgid "Latest Recordings"
 msgstr "Naujausi įrašai"
 
@@ -10953,11 +10953,11 @@ msgstr ""
 "Nustatyti neteisingus failus ir pašalinti? (visiškai, jei negalima į "
 "šiukšliadėžę. Tai užtruks apie minutę)"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:465
-#: enigma2-plugins/movieretitle/src/plugin.py:58
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:61
-#: enigma2-plugins/dvdbackup/src/plugin.py:302
+#: enigma2-plugins/movieretitle/src/plugin.py:58
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:219
+#: enigma2-plugins/dvdbackup/src/plugin.py:302
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:465
 msgid "Location"
 msgstr "Vieta"
 
@@ -11050,8 +11050,8 @@ msgid "LongInfo Button"
 msgstr "'INFO' mygtuko ilgas paspaudimas"
 
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugins/fritzcall/src/plugin.py:1568
 #: enigma2-plugins/imdb/src/plugin.py:92
+#: enigma2-plugins/fritzcall/src/plugin.py:1568
 msgid "Lookup"
 msgstr "Paieška"
 
@@ -11081,8 +11081,8 @@ msgstr ""
 "Žemesnioji trukmės riba. Niekas prieš šį laiką nebus suderinama. Į padengimą "
 "neatsižvelgia!"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:91
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:181
+#: e2openplugin-InfoBarTunerState/src/plugin.py:91
 msgid "MM/DD HH:MM"
 msgstr "MM/DD HH:MM"
 
@@ -11662,12 +11662,12 @@ msgstr "Pir"
 msgid "Mon-Fri"
 msgstr "Pirm-Penk"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:8
+#: enigma2-plugins/elektro/src/plugin.py:129
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:41
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:441
-#: enigma2-plugins/elektro/src/plugin.py:129
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:41
-#: enigma2-plugins/kiddytimer/src/KTglob.py:8
 msgid "Monday"
 msgstr "Pirmadienis"
 
@@ -11771,9 +11771,9 @@ msgstr "Perkelti viršelį į:"
 msgid "Move Directory:"
 msgstr "Perkelti katalogą:"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:144
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:206
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:227
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:144
 msgid "Move File"
 msgstr "Perkelti failą"
 
@@ -11781,8 +11781,8 @@ msgstr "Perkelti failą"
 msgid "Move Files"
 msgstr "Perkelti failus"
 
-#: enigma2-plugins/showclock/src/plugin.py:145
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:80
+#: enigma2-plugins/showclock/src/plugin.py:145
 msgid "Move clock"
 msgstr "Perkelti laikrodį"
 
@@ -12007,11 +12007,11 @@ msgstr "Filmų žymų tvarkytuvė"
 msgid "Movie Tagger..."
 msgstr "Filmų žymų tvarkytuvė..."
 
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:204
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:225
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:88
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:721
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1498
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:88
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:204
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:225
 msgid "Movie home"
 msgstr "Filmų katalogas"
 
@@ -12064,10 +12064,10 @@ msgstr ""
 "kino filmo sąraše."
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:51
-#: enigma2-plugins/serienfilm/src/MovieList.py:595
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:16
 #: enigma2-plugins/easymedia/src/plugin.py:323
 #: enigma2-plugins/easymedia/src/plugin.py:380
+#: enigma2-plugins/serienfilm/src/MovieList.py:595
 msgid "Movies"
 msgstr "Filmai"
 
@@ -12255,17 +12255,17 @@ msgid "NFS share"
 msgstr "NFS bendrinimas"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:66
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:59
+#: enigma2-plugins/ncidclient/src/plugin.py:593
+#: enigma2-plugins/fritzcall/src/plugin.py:2350
+#: enigma2-plugins/showclock/src/plugin.py:121
+#: enigma2-plugins/elektro/src/plugin.py:474
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:218
+#: enigma2-plugins/birthdayreminder/src/plugin.py:43
+#: enigma2-plugins/growlee/src/plugin.py:167
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:419
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:156
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:306
-#: enigma2-plugins/birthdayreminder/src/plugin.py:43
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:218
-#: enigma2-plugins/ncidclient/src/plugin.py:593
-#: enigma2-plugins/elektro/src/plugin.py:474
-#: enigma2-plugins/fritzcall/src/plugin.py:2350
-#: enigma2-plugins/growlee/src/plugin.py:167
-#: enigma2-plugins/showclock/src/plugin.py:121
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:59
 msgid "Name"
 msgstr "Pavadinimas"
 
@@ -12278,15 +12278,15 @@ msgstr "Pavadinimo ir aprašymo įvestis"
 msgid "Name of DVD"
 msgstr "DVD pavadinimas"
 
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:155
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:565
 #: enigma2-plugins/dvdbackup/src/plugin.py:310
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:155
 msgid "Name:"
 msgstr "Pavadinimas:"
 
-#: enigma2-plugins/namezap/src/plugin.py:104
 #: enigma2-plugins/namezap/src/NamezapSetup.py:30
 #: enigma2-plugins/namezap/src/NamezapSetup.py:71
+#: enigma2-plugins/namezap/src/plugin.py:104
 msgid "NameZAP Setup"
 msgstr "NameZAP valdymas"
 
@@ -12336,14 +12336,14 @@ msgstr ""
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:51
 #: enigma2-plugins/ncidclient/src/plugin.py:443
-#: enigma2-plugins/simplerss/src/RSSSetup.py:72
 #: enigma2-plugins/tageditor/src/plugin.py:62
-#: enigma2-plugins/fritzcall/src/plugin.py:2141
-#: enigma2-plugins/growlee/src/plugin.py:101
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:988
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1265
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:80
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:56
+#: enigma2-plugins/fritzcall/src/plugin.py:2141
+#: enigma2-plugins/growlee/src/plugin.py:101
+#: enigma2-plugins/simplerss/src/RSSSetup.py:72
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:988
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1265
 msgid "New"
 msgstr "Naujas"
 
@@ -12449,12 +12449,14 @@ msgstr "Sekantis laikmatis:"
 msgid "Nickname"
 msgstr "Slapyvardis"
 
-#: enigma2-plugin-moviecut/src_py/plugin.py:95
-#: enigma2-plugin-vps/src_py/Modifications.py:140
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:65
 #: enigma2-plugin-vps/src_py/plugin.py:17
 #: enigma2-plugin-vps/src_py/plugin.py:18
 #: enigma2-plugin-vps/src_py/Vps_check.py:249
 #: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Modifications.py:140
+#: enigma2-plugin-pzyp4t/src/plugin.py:436
+#: enigma2-plugin-pzyp4t/src/plugin.py:468
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:253
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:258
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
@@ -12465,18 +12467,16 @@ msgstr "Slapyvardis"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: enigma2-plugin-pzyp4t/src/plugin.py:436
-#: enigma2-plugin-pzyp4t/src/plugin.py:468
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:65
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:859
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1716
 #: enigma2-plugins/mytube/src/plugin.py:61
 #: enigma2-plugins/mytube/src/plugin.py:623
 #: enigma2-plugins/mytube/src/plugin.py:629
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:336
 #: enigma2-plugins/epgrefresh/src/plugin.py:54
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:859
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1716
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:336
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
+#: enigma2-plugin-moviecut/src_py/plugin.py:95
 #: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid "No"
 msgstr "Ne"
@@ -12889,13 +12889,13 @@ msgstr "Pastaba: Dėl pasikartojančių įvykių datos nėra privalomos."
 #: enigma2-plugins/quickbutton/src/plugin.py:37
 #: enigma2-plugins/quickbutton/src/plugin.py:118
 #: enigma2-plugins/quickbutton/src/plugin.py:220
+#: enigma2-plugins/easymedia/src/plugin.py:486
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:37
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:38
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:39
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:90
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:115
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:177
-#: enigma2-plugins/easymedia/src/plugin.py:486
 msgid "Nothing"
 msgstr "Nieko"
 
@@ -12990,86 +12990,86 @@ msgid "OFF"
 msgstr "IŠJUNGTA"
 
 #. TRANSLATORS: keep it short, this is a button
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:52
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2809
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2930
-#: enigma2-plugin-moviecut/src_py/plugin.py:86
-#: enigma2-plugin-vps/src_py/Vps_setup.py:55
-#: e2-advancedaudiosettings/src/plugin.py:53
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:50
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:198
-#: enigma2-plugin-babelzapper/src/plugin.py:114
-#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:155
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:92
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:297
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:26
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:638
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
+#: enigma2-plugin-vps/src_py/Vps_setup.py:55
 #: enigma2-plugin-pzyp4t/src/plugin.py:3415
 #: enigma2-plugin-pzyp4t/src/plugin.py:3783
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:86
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:289
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
-#: enigma2-plugins/quickbutton/src/plugin.py:197
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:727
-#: enigma2-plugins/emission/src/EmissionBandwidth.py:71
-#: enigma2-plugins/emission/src/EmissionSetup.py:38
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2809
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2930
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:92
+#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:155
+#: e2-advancedaudiosettings/src/plugin.py:53
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:638
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:52
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:50
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:198
+#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
+#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:28
+#: enigma2-plugins/tvcharts/src/plugin.py:402
+#: enigma2-plugins/webinterface/src/WebIfConfig.py:31
+#: enigma2-plugins/movielistpreview/src/plugin.py:123
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:150
 #: enigma2-plugins/ncidclient/src/plugin.py:578
 #: enigma2-plugins/ncidclient/src/plugin.py:700
-#: enigma2-plugins/pushservice/src/ConfigScreen.py:171
-#: enigma2-plugins/autoresolution/src/plugin.py:344
-#: enigma2-plugins/pipzap/src/PipzapSetup.py:38
-#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
+#: enigma2-plugins/quickbutton/src/plugin.py:197
+#: enigma2-plugins/cec/src/CecConfig.py:35
 #: enigma2-plugins/movieretitle/src/plugin.py:40
-#: enigma2-plugins/simplerss/src/RSSSetup.py:24
-#: enigma2-plugins/simplerss/src/RSSSetup.py:71
+#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:77
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1299
 #: enigma2-plugins/tageditor/src/plugin.py:61
 #: enigma2-plugins/automaticcleanup/src/plugin.py:171
-#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:55
-#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:77
-#: enigma2-plugins/virtualzap/src/plugin.py:725
-#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:50
-#: enigma2-plugins/fritzcall/src/plugin.py:2335
-#: enigma2-plugins/fritzcall/src/plugin.py:2571
-#: enigma2-plugins/growlee/src/plugin.py:100
-#: enigma2-plugins/showclock/src/plugin.py:143
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1299
-#: enigma2-plugins/antiscrollbar/src/plugin.py:126
 #: enigma2-plugins/3dsettings/src/plugin.py:185
-#: enigma2-plugins/cec/src/CecConfig.py:35
-#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:175
-#: enigma2-plugins/teletext/src/plugin.py:1149
-#: enigma2-plugins/teletext/src/plugin.py:1170
-#: enigma2-plugins/teletext/src/plugin.py:1296
-#: enigma2-plugins/weatherplugin/src/setup.py:196
-#: enigma2-plugins/weatherplugin/src/setup.py:304
-#: enigma2-plugins/imdb/src/plugin.py:718
-#: enigma2-plugins/movielistpreview/src/plugin.py:123
-#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:28
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:780
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:58
-#: enigma2-plugins/webinterface/src/WebIfConfig.py:31
-#: enigma2-plugins/namezap/src/NamezapSetup.py:53
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
 #: enigma2-plugins/cdinfo/src/plugin.py:57
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:47
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:138
-#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:115
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1263
-#: enigma2-plugins/c3vocupdater/src/plugin.py:43
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:62
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:141
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:258
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:150
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
+#: enigma2-plugins/antiscrollbar/src/plugin.py:126
+#: enigma2-plugins/imdb/src/plugin.py:718
+#: enigma2-plugins/pushservice/src/ConfigScreen.py:171
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:780
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:58
+#: enigma2-plugins/virtualzap/src/plugin.py:725
+#: enigma2-plugins/pipzap/src/PipzapSetup.py:38
+#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:175
 #: enigma2-plugins/remotetimer/src/plugin.py:233
-#: enigma2-plugins/tvcharts/src/plugin.py:402
+#: enigma2-plugins/emission/src/EmissionSetup.py:38
+#: enigma2-plugins/emission/src/EmissionBandwidth.py:71
 #: enigma2-plugins/pipservicerelation/src/plugin.py:189
-#: enigma2-plugins/screensaver/src/ScreensaverSetup.py:16
-#: enigma2-plugins/audiosync/src/AC3main.py:66
+#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:50
+#: enigma2-plugins/namezap/src/NamezapSetup.py:53
+#: enigma2-plugins/fritzcall/src/plugin.py:2335
+#: enigma2-plugins/fritzcall/src/plugin.py:2571
 #: enigma2-plugins/satloader/src/plugin.py:285
+#: enigma2-plugins/showclock/src/plugin.py:143
+#: enigma2-plugins/teletext/src/plugin.py:1149
+#: enigma2-plugins/teletext/src/plugin.py:1170
+#: enigma2-plugins/teletext/src/plugin.py:1296
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:727
+#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:55
+#: enigma2-plugins/growlee/src/plugin.py:100
+#: enigma2-plugins/c3vocupdater/src/plugin.py:43
+#: enigma2-plugins/simplerss/src/RSSSetup.py:24
+#: enigma2-plugins/simplerss/src/RSSSetup.py:71
+#: enigma2-plugins/audiosync/src/AC3main.py:66
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:47
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:122
+#: enigma2-plugins/autoresolution/src/plugin.py:344
+#: enigma2-plugins/weatherplugin/src/setup.py:196
+#: enigma2-plugins/weatherplugin/src/setup.py:304
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:47
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:138
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1263
+#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:115
+#: enigma2-plugins/screensaver/src/ScreensaverSetup.py:16
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:86
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:289
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:297
+#: enigma2-plugin-babelzapper/src/plugin.py:114
+#: enigma2-plugin-moviecut/src_py/plugin.py:86
 msgid "OK"
 msgstr "GERAI"
 
@@ -13277,8 +13277,8 @@ msgstr "Atverti"
 msgid "Open Context Menu"
 msgstr "Atidaryti konteksto meniu"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1202
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:170
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1202
 msgid "Open E2 Bookmark path"
 msgstr "Atidaryti E2 žymelės kelią"
 
@@ -13551,10 +13551,10 @@ msgstr "Puslapis: "
 msgid "Pan&Scan"
 msgstr "Panoraminis skenavimas"
 
-#: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:207
-#: enigma2-plugins/dreamexplorer/src/myFileList.py:230
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:109
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:131
+#: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:207
+#: enigma2-plugins/dreamexplorer/src/myFileList.py:230
 msgid "Parent Directory"
 msgstr "Pagrindinė direktorija"
 
@@ -13579,9 +13579,9 @@ msgstr "Dalinis pavadinimo ar aprašo atitikimas"
 msgid "Partition tool"
 msgstr "Skaidinio įrankis"
 
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:195
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:148
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:178
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:195
 msgid "Partnerbox"
 msgstr "Partnerbox"
 
@@ -13644,16 +13644,16 @@ msgstr "Pereiti"
 msgid "Passwd"
 msgstr "Slaptažodis"
 
-#: enigma2-plugin-networkbrowser/src/UserDialog.py:119
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:134
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:309
-#: enigma2-plugins/emission/src/EmissionSetup.py:29
-#: enigma2-plugins/pushservice/src/Services/SMTP.py:55
+#: enigma2-plugin-networkbrowser/src/UserDialog.py:119
+#: enigma2-plugins/dyndns/src/plugin.py:37
 #: enigma2-plugins/pushservice/src/Services/GNTP.py:50
+#: enigma2-plugins/pushservice/src/Services/SMTP.py:55
+#: enigma2-plugins/setpasswd/src/plugin.py:100
+#: enigma2-plugins/emission/src/EmissionSetup.py:29
 #: enigma2-plugins/elektro/src/plugin.py:384
 #: enigma2-plugins/growlee/src/plugin.py:182
-#: enigma2-plugins/setpasswd/src/plugin.py:100
-#: enigma2-plugins/dyndns/src/plugin.py:37
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:309
 msgid "Password"
 msgstr "Slaptažodis"
 
@@ -13728,8 +13728,8 @@ msgstr "Sustabdyti visus"
 msgid "Pause shown"
 msgstr "Pauzė parodyta"
 
-#: enigma2-plugins/epgrefresh/src/plugin.py:247
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:55
+#: enigma2-plugins/epgrefresh/src/plugin.py:247
 msgid "Pending Services"
 msgstr "Laukiantys kanalai"
 
@@ -13898,8 +13898,8 @@ msgstr "Groti"
 msgid "Play %s"
 msgstr "Groti %s"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:680
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:103
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:680
 msgid "Play All"
 msgstr "Atkurti viską"
 
@@ -13923,9 +13923,9 @@ msgstr "Paleisti dabartinį grojaraštį"
 msgid "Play entry"
 msgstr "Groti įrašus"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:101
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:208
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:229
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:101
 msgid "Play last"
 msgstr "Rodyti paskutinį žiūrėtą"
 
@@ -13974,8 +13974,8 @@ msgstr "Atkūrimo įrenginys 3"
 msgid "Playback of '%s' started"
 msgstr "Atkūrimas '%s' prasidėjo"
 
-#: enigma2-plugin-vlcplayer/src/VlcMediaList.py:60
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:174
+#: enigma2-plugin-vlcplayer/src/VlcMediaList.py:60
 msgid "Playlist"
 msgstr "Grojaraštis"
 
@@ -14282,9 +14282,9 @@ msgstr "Priedo automatinis atnaujinimas:"
 msgid "Plugin browser"
 msgstr "Papildomų programų naršyklė"
 
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:80
-#: enigma2-plugins/elektro/src/plugin.py:105
 #: enigma2-plugins/showclock/src/plugin.py:72
+#: enigma2-plugins/elektro/src/plugin.py:105
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:80
 msgid "Plugin menu"
 msgstr "Priedų meniu"
 
@@ -14310,8 +14310,8 @@ msgstr "Priedas nerastas!"
 msgid "Plugin to edit fstab"
 msgstr "Priedas fstab redagavimui"
 
-#: enigma2-plugins/audiorestart/src/plugin.py:104
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:72
+#: enigma2-plugins/audiorestart/src/plugin.py:104
 #: enigma2-plugins/audiosync/src/AC3setup.py:55
 #, python-format
 msgid "Plugin: %(plugin)s , Version: %(version)s"
@@ -14365,11 +14365,11 @@ msgstr "Apklausa automatiškai"
 msgid "Popup timeout in seconds"
 msgstr "Iššokančio lango limitas sekundėmis"
 
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:66
+#: enigma2-plugins/emission/src/EmissionSetup.py:30
+#: enigma2-plugins/emission/src/EmissionBandwidth.py:103
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:158
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:308
-#: enigma2-plugins/emission/src/EmissionBandwidth.py:103
-#: enigma2-plugins/emission/src/EmissionSetup.py:30
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:66
 msgid "Port"
 msgstr "Jungtis"
 
@@ -15040,25 +15040,25 @@ msgstr "Skaitomas log failas…\n"
 msgid "Reading speed [80-450] words/min"
 msgstr "Skaitymo greitis [80-450] žodžių/per min"
 
-#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
 #: enigma2-plugin-vps/src_py/Vps_setup.py:110
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:382
 #: e2openplugin-EnhancedMovieCenter/src/configlistext.py:324
-#: enigma2-plugins/pushservice/src/ConfigScreen.py:340
+#: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:86
+#: enigma2-plugins/pushservice/src/ConfigScreen.py:340
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:421
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:254
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:770
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1187
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1421
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
 msgid "Really close without saving settings?"
 msgstr "Tikrai uždaryti be nustatymų išsaugojimo ?"
 
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid ""
 "Really close without saving settings?\n"
 "What do you want to do?"
@@ -15085,9 +15085,9 @@ msgstr "Tikrai trinti šį serverį?"
 msgid "Really delete this WeatherPlugin Entry?"
 msgstr "Ar tikrai norite ištrinti šį Orų priedo įrašą?"
 
-#: enigma2-plugins/simplerss/src/RSSSetup.py:142
-#: enigma2-plugins/growlee/src/plugin.py:137
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:323
+#: enigma2-plugins/growlee/src/plugin.py:137
+#: enigma2-plugins/simplerss/src/RSSSetup.py:142
 msgid ""
 "Really delete this entry?\n"
 "It cannot be recovered!"
@@ -15150,8 +15150,8 @@ msgstr ""
 msgid "Reconstruct the .ap and .sc files of the selected movie"
 msgstr "Rekonstruoti .ap ir .csc failus pasirinktam filmui"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:406
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:766
+#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:406
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:51
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:241
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:505
@@ -15293,9 +15293,9 @@ msgstr "Atnaujinimo norma"
 msgid "Refresh Screenshot"
 msgstr "Atnaujinti ekraną"
 
-#: enigma2-plugins/epgrefresh/src/plugin.py:245
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:58
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:61
+#: enigma2-plugins/epgrefresh/src/plugin.py:245
 msgid "Refresh now"
 msgstr "Atnaujinti dabar"
 
@@ -15345,10 +15345,10 @@ msgstr "Išleidimo data:"
 msgid "Relevance"
 msgstr "Tinkamumas"
 
+#: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:66
 #: enigma2-plugin-curlytx/src/CurlyTx.py:55
 #: enigma2-plugin-curlytx/src/CurlyTx.py:120
 #: enigma2-plugin-curlytx/src/CurlyTx.py:124
-#: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:66
 msgid "Reload"
 msgstr "Užkrauti"
 
@@ -15422,8 +15422,8 @@ msgstr "Nuotolinis"
 msgid "Remote (not connected)"
 msgstr "Nuotolinis (neprijungta)"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:235
 #: enigma2-plugins/remotetimer/src/plugin.py:266
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:235
 msgid "Remote Timer"
 msgstr "Nuotolinis laikmatis"
 
@@ -15476,13 +15476,13 @@ msgstr "Nuotolinio laikmačio ir nuotolinės televizijos grotuvas"
 msgid "Remote-Control for the Transmission BitTorrent client."
 msgstr "Nuotolinio valdymo perdavimo BitTorrent klientas."
 
-#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:156
 #: enigma2-plugin-pzyp4t/src/plugin.py:2620
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:265
-#: enigma2-plugins/twitchtv/src/plugin.py:511
-#: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:30
+#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:156
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1298
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:158
+#: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:30
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:265
+#: enigma2-plugins/twitchtv/src/plugin.py:511
 msgid "Remove"
 msgstr "Pašalinti"
 
@@ -15623,10 +15623,10 @@ msgstr "Pašalinti kanalų pasirinkimą"
 msgid "Remove the selected entry"
 msgstr "Pašalinti pasirinktą įrašą"
 
-#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:160
-#: enigma2-plugin-partnerbox/src/plugin.py:317
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1316
 #: enigma2-plugins/easyinfo/src/plugin.py:724
+#: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:160
+#: enigma2-plugin-partnerbox/src/plugin.py:317
 msgid "Remove timer"
 msgstr "Pašalinti laikmatį"
 
@@ -15642,8 +15642,8 @@ msgid "Removing directories is not supported."
 msgstr "Šalinamas katalogas nepalaikomas."
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:398
-#: enigma2-plugins/subsdownloader2/src/plugin.py:1075
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:202
+#: enigma2-plugins/subsdownloader2/src/plugin.py:1075
 msgid "Rename"
 msgstr "Pervardinti"
 
@@ -15779,14 +15779,14 @@ msgstr "Perskanuoti"
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugins/fritzcall/src/plugin.py:545
-#: enigma2-plugins/fritzcall/src/plugin.py:599
-#: enigma2-plugins/fritzcall/src/plugin.py:892
-#: enigma2-plugins/fritzcall/src/plugin.py:897
 #: enigma2-plugins/cec/src/CecConfig.py:37
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:697
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:59
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:180
+#: enigma2-plugins/fritzcall/src/plugin.py:545
+#: enigma2-plugins/fritzcall/src/plugin.py:599
+#: enigma2-plugins/fritzcall/src/plugin.py:892
+#: enigma2-plugins/fritzcall/src/plugin.py:897
 msgid "Reset"
 msgstr "Perjungti"
 
@@ -15840,17 +15840,17 @@ msgstr "Atsakas -> dainos žodžiai dėl: %s (%s)"
 msgid "Restart"
 msgstr "Paleisti iš naujo"
 
-#: enigma2-plugins/webadmin/src/WebChilds/PKG.py:61
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:80
+#: enigma2-plugins/webadmin/src/WebChilds/PKG.py:61
 msgid "Restart GUI"
 msgstr "Paleisti iš naujo GUI"
 
+#: enigma2-plugins/aihdcontroler/src/plugin.py:176
 #: enigma2-plugins/fancontrol2/src/plugin.py:606
-#: enigma2-plugins/virtualzap/src/plugin.py:745
+#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:697
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:924
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1774
-#: enigma2-plugins/aihdcontroler/src/plugin.py:176
-#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:697
+#: enigma2-plugins/virtualzap/src/plugin.py:745
 #: enigma2-plugins/satloader/src/plugin.py:104
 #: enigma2-plugins/satloader/src/plugin.py:202
 #: enigma2-plugins/satloader/src/plugin.py:326
@@ -16088,8 +16088,8 @@ msgstr "Sat>IP Imtuvas"
 msgid "Sat>IP Tuner Overview"
 msgstr "Sat>IP imtuvo apžvalga"
 
-#: enigma2-plugins/satipclient/src/plugin.py:14
 #: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:28
+#: enigma2-plugins/satipclient/src/plugin.py:14
 msgid "Sat>IP Tuner Setup"
 msgstr "Sat>IP Imtuvo valdymas"
 
@@ -16097,49 +16097,49 @@ msgstr "Sat>IP Imtuvo valdymas"
 msgid "Satellites"
 msgstr "Palydovai"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:13
+#: enigma2-plugins/elektro/src/plugin.py:134
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:46
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:446
-#: enigma2-plugins/elektro/src/plugin.py:134
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:46
-#: enigma2-plugins/kiddytimer/src/KTglob.py:13
 msgid "Saturday"
 msgstr "Šeštadienis"
 
 #. TRANSLATORS: keep it short, this is a button
-#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:31
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:324
+#: enigma2-plugin-pzyp4t/src/plugin.py:2621
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:270
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:693
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:131
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:458
-#: enigma2-plugin-pzyp4t/src/plugin.py:2621
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:31
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:324
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:69
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:270
+#: enigma2-plugins/mytube/src/MyTubeSettings.py:40
+#: enigma2-plugins/fancontrol2/src/plugin.py:687
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
+#: enigma2-plugins/podcast/src/plugin.py:543
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1826
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
+#: enigma2-plugins/kiddytimer/src/KTsetup.py:78
+#: enigma2-plugins/audiorestart/src/plugin.py:108
+#: enigma2-plugins/yttrailer/src/plugin.py:249
+#: enigma2-plugins/fritzcall/src/plugin.py:1572
+#: enigma2-plugins/satloader/src/plugin.py:165
+#: enigma2-plugins/satloader/src/plugin.py:409
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:560
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:620
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:649
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:70
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:228
-#: enigma2-plugins/fancontrol2/src/plugin.py:687
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:119
-#: enigma2-plugins/audiorestart/src/plugin.py:108
-#: enigma2-plugins/fritzcall/src/plugin.py:1572
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
-#: enigma2-plugins/podcast/src/plugin.py:543
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1826
-#: enigma2-plugins/mytube/src/MyTubeSettings.py:40
-#: enigma2-plugins/yttrailer/src/plugin.py:249
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:69
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:104
+#: enigma2-plugins/audiosync/src/AC3setup.py:59
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:128
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:383
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:986
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:270
-#: enigma2-plugins/kiddytimer/src/KTsetup.py:78
-#: enigma2-plugins/audiosync/src/AC3setup.py:59
-#: enigma2-plugins/satloader/src/plugin.py:165
-#: enigma2-plugins/satloader/src/plugin.py:409
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:104
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:119
 msgid "Save"
 msgstr "Saugoti"
 
@@ -16248,8 +16248,8 @@ msgstr "Išsaugoti reikšmes ir uždaryti papildomą programą"
 msgid "Save values and close screen"
 msgstr "Išsaugoti reikšmes ir uždaryti ekraną"
 
-#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:92
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:681
+#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:92
 msgid "Save/check labelled series in filter list (SeriesPlugin)"
 msgstr "Išsaugoti/patikrinti pažymėtą seriją filtrų sąraše (serijų priedas)"
 
@@ -16377,9 +16377,9 @@ msgstr "Paslinkti puslapio turinį aukštyn"
 #. TRANSLATORS: keep it short, this is a button
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:177
 #: enigma2-plugins/ncidclient/src/plugin.py:447
-#: enigma2-plugins/fritzcall/src/plugin.py:2145
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:845
+#: enigma2-plugins/fritzcall/src/plugin.py:2145
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
 msgid "Search"
 msgstr "Paieška"
@@ -16395,10 +16395,10 @@ msgstr "Ieškoti kodo"
 
 #. TRANSLATORS: description of EPGSearch in PluginBrowser
 #. TRANSLATORS: EPGSearch title in MovieList (does not require further user interaction)
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:24
 #: enigma2-plugins/epgsearch/src/plugin.py:58
 #: enigma2-plugins/epgsearch/src/plugin.py:70
 #: enigma2-plugins/epgsearch/src/plugin.py:81
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:24
 msgid "Search EPG"
 msgstr "Ieškoti EPG"
 
@@ -16954,9 +16954,9 @@ msgstr "Serijų priedo informacija"
 msgid "SeriesPlugin extension exception "
 msgstr "Serijų priedo išplėtimo išimtis "
 
+#: e2openplugin-SeriesPlugin/src/spChannelContextMenu.py:58
 #: e2openplugin-SeriesPlugin/src/plugin.py:130
 #: e2openplugin-SeriesPlugin/src/plugin.py:171
-#: e2openplugin-SeriesPlugin/src/spChannelContextMenu.py:58
 msgid "SeriesPlugin info exception "
 msgstr "Serijų priedo informacinė išimtis "
 
@@ -17052,10 +17052,10 @@ msgstr "Kanalo pavadinimas"
 msgid "Servicename Selected"
 msgstr "Pasirinkta paslauga"
 
-#: enigma2-plugins/pushservice/src/ConfigScreen.py:176
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:80
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:59
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:61
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:80
+#: enigma2-plugins/pushservice/src/ConfigScreen.py:176
 msgid "Services"
 msgstr "Kanalai"
 
@@ -17067,8 +17067,8 @@ msgstr "Kanalai:"
 msgid "Set Bitstream/PCM audio delays"
 msgstr "Nustatyti bitų srautą / PCM garso vėlavimus"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:455
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:603
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:455
 msgid "Set End Time"
 msgstr "Nustatyti pabaigos laiką"
 
@@ -17179,9 +17179,9 @@ msgstr "Nustatymai..."
 #: enigma2-plugin-curlytx/src/CurlyTx.py:54
 #: enigma2-plugin-curlytx/src/CurlyTx.py:129
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:38
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:91
 #: enigma2-plugins/dreamirc/src/plugin.py:112
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:91
 #: enigma2-plugins/remotetimer/src/plugin.py:102
 #: enigma2-plugins/filebrowser/src/plugin.py:62
 msgid "Settings"
@@ -17193,16 +17193,16 @@ msgstr "Nustatymai išsaugoti."
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:294
 #: e2openplugin-SeriesPlugin/src/plugin.py:295
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:322
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:192
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:322
+#: enigma2-plugins/imdb/src/plugin.py:405
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:394
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
 #: enigma2-plugins/twitchtv/src/plugin.py:666
 #: enigma2-plugins/simplerss/src/RSSScreens.py:456
 #: enigma2-plugins/simplerss/src/RSSScreens.py:461
-#: enigma2-plugins/imdb/src/plugin.py:405
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:394
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
 msgid "Setup"
 msgstr "Valdymas"
@@ -17338,10 +17338,10 @@ msgstr "Rodyti laikrodžio valdymą"
 msgid "Show Controllers"
 msgstr "Rodyti valdiklius"
 
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1935
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1951
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1967
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "Show Cover"
 msgstr "Rodyti viršelį"
 
@@ -17479,9 +17479,9 @@ msgstr "Rodyti kanalus"
 msgid "Show Setup in"
 msgstr "Rodyti valdymą"
 
+#: enigma2-plugins/webinterface/src/WebIfConfig.py:60
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:207
 #: enigma2-plugins/yttrailer/src/plugin.py:252
-#: enigma2-plugins/webinterface/src/WebIfConfig.py:60
 msgid "Show Setup in Extensions menu"
 msgstr "Rodyti nustatymus išplėtiniame meniu"
 
@@ -17624,8 +17624,8 @@ msgstr "Rodyti iDream išplėstiniame priedų meniu"
 msgid "Show iDream in mainmenu"
 msgstr "Rodyti iDream pagrindiniame meniu"
 
-#: enigma2-plugins/elektro/src/plugin.py:472
 #: enigma2-plugins/showclock/src/plugin.py:119
+#: enigma2-plugins/elektro/src/plugin.py:472
 msgid "Show in"
 msgstr "Rodyti į"
 
@@ -17653,8 +17653,8 @@ msgstr "Rodyti išplėstame meniu"
 msgid "Show in extension menu:"
 msgstr "Rodyti išplėstiniame meniu:"
 
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:70
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:200
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:70
 msgid "Show in extensions menu"
 msgstr "Rodyti išplėstiniame meniu"
 
@@ -17967,8 +17967,8 @@ msgstr "Rodo kanalo pavadinimą vietoj kanalo numerio, jungiant."
 msgid "Shows the watched services with some statistic"
 msgstr "Rodyti žiūrėtus kanalus su tam tikra statistika"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:681
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:104
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:681
 msgid "Shuffle All"
 msgstr "Sumaišyti"
 
@@ -18349,13 +18349,13 @@ msgstr ""
 msgid "Sorry, video is not available!"
 msgstr "Gaila, vaizdas nepasiekiamas!"
 
+#: enigma2-plugins/pluginsort/src/plugin.py:332
+#: enigma2-plugins/pluginsort/src/plugin.py:335
+#: enigma2-plugins/pluginsort/src/plugin.py:452
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:95
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:123
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:180
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:234
-#: enigma2-plugins/pluginsort/src/plugin.py:332
-#: enigma2-plugins/pluginsort/src/plugin.py:335
-#: enigma2-plugins/pluginsort/src/plugin.py:452
 msgid "Sort"
 msgstr "Rūšiuoti"
 
@@ -18525,15 +18525,15 @@ msgstr ""
 "Nurodykite, kiek laiko (sekundėmis) laikrodis turi būti rodomas prieš jam "
 "išnykstant. Nustačius \"0\" laikrodis rodys, kol paslėpsite rankiniu būdu."
 
-#: enigma2-plugins/elektro/src/plugin.py:477
 #: enigma2-plugins/showclock/src/plugin.py:124
+#: enigma2-plugins/elektro/src/plugin.py:477
 msgid "Specify plugin description to be used in menu (needs GUI restart)."
 msgstr ""
 "Nurodykite priedo aprašymą kad būtų naudojamas meniu (reikia GUI paleisti iš "
 "naujo)."
 
-#: enigma2-plugins/elektro/src/plugin.py:475
 #: enigma2-plugins/showclock/src/plugin.py:122
+#: enigma2-plugins/elektro/src/plugin.py:475
 msgid "Specify plugin name to be used in menu (needs GUI restart)."
 msgstr ""
 "Nurodykite priedo pavadinimą, kuris bus naudojamas meniu (reikia iš naujo "
@@ -18547,8 +18547,8 @@ msgstr ""
 "Nurodykite, ar laikrodis turi būti parodytas startuojant sistemai (bus "
 "paslėptas po pauzės, apibrėžtos aukščiau)"
 
-#: enigma2-plugins/elektro/src/plugin.py:473
 #: enigma2-plugins/showclock/src/plugin.py:120
+#: enigma2-plugins/elektro/src/plugin.py:473
 msgid ""
 "Specify whether plugin shall show up in plugin menu or extensions menu "
 "(needs GUI restart)"
@@ -18743,8 +18743,8 @@ msgstr "Paleisti standartinį pip po x sek (0 = išjungta)"
 msgid "Start time (HH:MM)"
 msgstr "Paleisties laikas (HH:MM)"
 
-#: enigma2-plugins/pushservice/src/Controller/OPKGUpdateNotification.py:46
 #: enigma2-plugins/pushservice/src/Controller/IPKGUpdateNotification.py:46
+#: enigma2-plugins/pushservice/src/Controller/OPKGUpdateNotification.py:46
 msgid "Start update check if not done yet"
 msgstr "Pradėti naujinimo patikrinimą, jei tai dar nedaryta"
 
@@ -18937,8 +18937,8 @@ msgstr "Sustabdyti įrašymą?\n"
 msgid "Stop playback"
 msgstr "Stabdyti atkūrimą"
 
-#: enigma2-plugins/podcast/src/plugin.py:46
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:288
+#: enigma2-plugins/podcast/src/plugin.py:46
 msgid "Stop playing this movie?"
 msgstr "Sustabdyti šio filmo žiūrėjimą ?"
 
@@ -19087,12 +19087,12 @@ msgstr "EPG sėkmingai perkelta ir įkelta"
 msgid "Sun"
 msgstr "Sek"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:7
+#: enigma2-plugins/elektro/src/plugin.py:135
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:47
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:447
-#: enigma2-plugins/elektro/src/plugin.py:135
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:47
-#: enigma2-plugins/kiddytimer/src/KTglob.py:7
 msgid "Sunday"
 msgstr "Sekmadienis"
 
@@ -19184,8 +19184,8 @@ msgstr "ŠIUKŠLIADĖŽĖ"
 msgid "TSID"
 msgstr "TSID"
 
-#: enigma2-plugins/cec/src/CecDeviceList.py:9
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:14
+#: enigma2-plugins/cec/src/CecDeviceList.py:9
 msgid "TV"
 msgstr "Televizija"
 
@@ -19233,12 +19233,12 @@ msgstr "Kortelė 2"
 msgid "Tag Filter"
 msgstr "Žymių filtras"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:466
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:62
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:408
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:48
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:62
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:228
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:671
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:466
 msgid "Tags"
 msgstr "Kortelės"
 
@@ -19808,8 +19808,8 @@ msgstr ""
 msgid "The password protection for '%s' was removed!"
 msgstr "Slaptažodžio '%s' apsauga buvo pašalinta!"
 
-#: enigma2-plugin-partnerbox/src/plugin.py:878
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:97
+#: enigma2-plugin-partnerbox/src/plugin.py:878
 msgid "The pin code you entered is wrong."
 msgstr "Surinktas pin kodas neteisingas."
 
@@ -19913,8 +19913,8 @@ msgstr ""
 msgid "There are no timer for tomorrow - %s"
 msgstr "Nėra rytojaus laikmačio - %s"
 
-#: enigma2-plugins/pushservice/src/Controller/OPKGUpdateNotification.py:34
 #: enigma2-plugins/pushservice/src/Controller/IPKGUpdateNotification.py:34
+#: enigma2-plugins/pushservice/src/Controller/OPKGUpdateNotification.py:34
 #, python-format
 msgid ""
 "There are updates available:\n"
@@ -20394,12 +20394,12 @@ msgstr ""
 msgid "Thu"
 msgstr "Ket"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:11
+#: enigma2-plugins/elektro/src/plugin.py:132
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:44
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:444
-#: enigma2-plugins/elektro/src/plugin.py:132
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:44
-#: enigma2-plugins/kiddytimer/src/KTglob.py:11
 msgid "Thursday"
 msgstr "Ketvirtadienis"
 
@@ -20463,10 +20463,10 @@ msgstr "Laikas minutėmis, kad pridėti prie įrašo."
 msgid "Time in minutes to prepend to recording."
 msgstr "Laikas minutėmis laukiant įrašymo."
 
-#: enigma2-plugins/pushservice/src/Services/PopUp.py:42
-#: enigma2-plugins/pushservice/src/Services/SMTP.py:52
-#: enigma2-plugins/pushservice/src/Services/GNTP.py:49
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:82
+#: enigma2-plugins/pushservice/src/Services/PopUp.py:42
+#: enigma2-plugins/pushservice/src/Services/GNTP.py:49
+#: enigma2-plugins/pushservice/src/Services/SMTP.py:52
 msgid "Timeout"
 msgstr "Pertrauka"
 
@@ -20496,13 +20496,13 @@ msgstr "Pertrauka įspėjantiems iššokantiems langams"
 msgid "Timeout for activation dialog"
 msgstr "Aktyvavimo dialogo pertrauka"
 
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:17
 #: enigma2-plugins/quickbutton/src/plugin.py:149
 #: enigma2-plugins/quickbutton/src/plugin.py:226
 #: enigma2-plugins/quickbutton/src/plugin.py:275
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:325
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1908
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:17
 #: enigma2-plugins/easymedia/src/plugin.py:386
 msgid "Timer"
 msgstr "Laikmatis"
@@ -20543,8 +20543,8 @@ msgid "Timer rename has been finished with %d errors:\n"
 msgstr "Laikmačio pervadinimas buvo baigtas su %d klaidomis:\n"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:40
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:153
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:600
 msgid "Timer type"
 msgstr "Laikmačio būdas"
@@ -20622,8 +20622,8 @@ msgstr "Išsaugoti laiko poslinkį, perjungiant kanalą"
 msgid "Timeshift-button"
 msgstr "Laiko poslinkio mygtukas"
 
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:210
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1028
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:210
 #: enigma2-plugins/movieretitle/src/plugin.py:61
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:377
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:346
@@ -20684,8 +20684,8 @@ msgstr ""
 "Norėdami mėgautis daugiau funkcijų savo FRITZ!Box, konfigūruokite "
 "programinės įrangos versiją!"
 
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:183
 #: enigma2-plugins/mytube/src/plugin.py:57
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:183
 msgid "Today"
 msgstr "Šiandien"
 
@@ -20856,8 +20856,8 @@ msgstr "Transponderio pasirinkimas"
 msgid "Trashcan"
 msgstr "Šiukšliadėžė"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3265
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:778
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3265
 msgid "Trashcan create failed. Check mounts and permissions."
 msgstr "Šiukšliadėžės sukurti nepavyko. Tikrinkite pajungimus ir leidimų lygį."
 
@@ -20905,17 +20905,17 @@ msgstr "Bandoma parsisiųsti Youtube pasieškos rezultatus. Prašome laukti..."
 msgid "Tue"
 msgstr "Ant"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:9
+#: enigma2-plugins/elektro/src/plugin.py:130
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:42
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:442
-#: enigma2-plugins/elektro/src/plugin.py:130
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:42
-#: enigma2-plugins/kiddytimer/src/KTglob.py:9
 msgid "Tuesday"
 msgstr "Antradienis"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:61
 #: enigma2-plugin-pzyp4t/src/plugin.py:3574
+#: e2openplugin-InfoBarTunerState/src/plugin.py:61
 #: enigma2-plugins/cec/src/CecDeviceList.py:12
 msgid "Tuner"
 msgstr "Imtuvas"
@@ -20999,10 +20999,10 @@ msgstr "TwitchTV - %s"
 msgid "TwitchTV - Channel Details"
 msgstr "TwitchTV - kanalo informacija"
 
-#: enigma2-plugins/eparted/src/eparted.py:314
-#: enigma2-plugins/growlee/src/plugin.py:168
-#: enigma2-plugins/podcast/src/plugin.py:288
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:83
+#: enigma2-plugins/podcast/src/plugin.py:288
+#: enigma2-plugins/growlee/src/plugin.py:168
+#: enigma2-plugins/eparted/src/eparted.py:314
 msgid "Type"
 msgstr "Tipas"
 
@@ -21036,6 +21036,7 @@ msgstr "UL: %d kb/s"
 #: enigma2-plugins/ncidclient/src/plugin.py:839
 #: enigma2-plugins/ncidclient/src/plugin.py:941
 #: enigma2-plugins/ncidclient/src/plugin.py:995
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:87
 #: enigma2-plugins/fritzcall/src/plugin.py:1477
 #: enigma2-plugins/fritzcall/src/plugin.py:2849
 #: enigma2-plugins/fritzcall/src/plugin.py:2852
@@ -21044,7 +21045,6 @@ msgstr "UL: %d kb/s"
 #: enigma2-plugins/fritzcall/src/plugin.py:3350
 #: enigma2-plugins/fritzcall/src/plugin.py:3355
 #: enigma2-plugins/fritzcall/src/plugin.py:3379
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:87
 msgid "UNKNOWN"
 msgstr "NEŽINOMA"
 
@@ -21477,11 +21477,11 @@ msgstr "Vartotojas: "
 msgid "Usermanager"
 msgstr "Vartotojo valdymas"
 
-#: enigma2-plugin-networkbrowser/src/UserDialog.py:117
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:133
+#: enigma2-plugin-networkbrowser/src/UserDialog.py:117
+#: enigma2-plugins/dyndns/src/plugin.py:36
 #: enigma2-plugins/emission/src/EmissionSetup.py:28
 #: enigma2-plugins/elektro/src/plugin.py:383
-#: enigma2-plugins/dyndns/src/plugin.py:36
 msgid "Username"
 msgstr "Vartotojas"
 
@@ -21654,16 +21654,16 @@ msgstr "Tuštumas"
 msgid "Variable field width"
 msgstr "Kintamasis lauko plotis"
 
-#: enigma2-plugins/movietagger/src/plugin.py:253
 #: enigma2-plugins/automaticcleanup/src/plugin.py:193
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:133
+#: enigma2-plugins/movietagger/src/plugin.py:253
+#: enigma2-plugins/showclock/src/plugin.py:167
+#: enigma2-plugins/showclock/src/plugin.py:391
+#: enigma2-plugins/showclock/src/plugin.py:399
 #: enigma2-plugins/elektro/src/plugin.py:205
 #: enigma2-plugins/elektro/src/plugin.py:216
 #: enigma2-plugins/elektro/src/plugin.py:224
 #: enigma2-plugins/elektro/src/plugin.py:517
-#: enigma2-plugins/showclock/src/plugin.py:167
-#: enigma2-plugins/showclock/src/plugin.py:391
-#: enigma2-plugins/showclock/src/plugin.py:399
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:133
 msgid "Ver."
 msgstr "Ver."
 
@@ -21684,8 +21684,8 @@ msgstr "Versija"
 msgid "Vertical offset in pixel"
 msgstr "Vertikalus poslinkis pikseliais"
 
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:313
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:182
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:313
 msgid "Video Bitrate"
 msgstr "Vaizdo sparta bitais"
 
@@ -21898,8 +21898,8 @@ msgstr ""
 msgid "WARNING: Cookies are required to store the settings!"
 msgstr "DĖMESIO: Slapukai reikalauja išsaugoti nustatymus!"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:98
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:173
+#: e2openplugin-InfoBarTunerState/src/plugin.py:98
 msgid "WD DD.MM. HH:MM"
 msgstr "WD DD.MM. HH:MM"
 
@@ -22102,12 +22102,12 @@ msgstr "Internetinė sąsaja: Svarbiausi nustatymai"
 msgid "Wed"
 msgstr "Tre"
 
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:10
+#: enigma2-plugins/elektro/src/plugin.py:131
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:43
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:399
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:443
-#: enigma2-plugins/elektro/src/plugin.py:131
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:43
-#: enigma2-plugins/kiddytimer/src/KTglob.py:10
 msgid "Wednesday"
 msgstr "Trečiadienis"
 
@@ -22115,8 +22115,8 @@ msgstr "Trečiadienis"
 msgid "Week"
 msgstr "Savaitė"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:438
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:49
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:438
 msgid "Weekday"
 msgstr "Savaitės diena"
 
@@ -22251,8 +22251,8 @@ msgstr "Vakarų Europa ir Turkija"
 msgid "Western and Central Europe"
 msgstr "Vakarų ir Rytų Europa"
 
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:270
 #: enigma2-plugins/emission/src/EmissionOverview.py:281
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:270
 msgid "What do you want to do?"
 msgstr "Ką norėtumėte daryti?"
 
@@ -22557,8 +22557,8 @@ msgstr "Y Pozicija [0-680]  reikia paleisti iš naujo"
 msgid "YYYY/MM/DD"
 msgstr "YYYY/MM/DD"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:93
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:178
+#: e2openplugin-InfoBarTunerState/src/plugin.py:93
 msgid "YYYY/MM/DD HH:MM"
 msgstr "YYYY/MM/DD HH:MM"
 
@@ -22575,34 +22575,34 @@ msgstr ""
 msgid "Yellow button function"
 msgstr "'GELTONO' mygtuko funkcija"
 
-#: enigma2-plugin-moviecut/src_py/plugin.py:95
-#: enigma2-plugin-vps/src_py/Modifications.py:140
 #: enigma2-plugin-vps/src_py/plugin.py:17
 #: enigma2-plugin-vps/src_py/plugin.py:18
 #: enigma2-plugin-vps/src_py/Vps_check.py:249
 #: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Modifications.py:140
+#: enigma2-plugin-pzyp4t/src/plugin.py:435
+#: enigma2-plugin-pzyp4t/src/plugin.py:467
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:31
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:32
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: enigma2-plugin-pzyp4t/src/plugin.py:435
-#: enigma2-plugin-pzyp4t/src/plugin.py:467
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:859
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1718
-#: enigma2-plugins/mytube/src/MyTubePlayer.py:282
 #: enigma2-plugins/mytube/src/plugin.py:622
 #: enigma2-plugins/mytube/src/plugin.py:628
+#: enigma2-plugins/mytube/src/MyTubePlayer.py:282
 #: enigma2-plugins/epgrefresh/src/plugin.py:53
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:859
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1718
+#: enigma2-plugin-moviecut/src_py/plugin.py:95
 #: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid "Yes"
 msgstr "Taip"
 
-#: enigma2-plugin-vps/src_py/Modifications.py:140
 #: enigma2-plugin-vps/src_py/plugin.py:17
 #: enigma2-plugin-vps/src_py/plugin.py:18
 #: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Modifications.py:140
 msgid "Yes (safe mode)"
 msgstr "Taip (saugi būsena)"
 
@@ -22968,8 +22968,8 @@ msgstr "Jūsų tinklo pajungimas pašalintas."
 msgid "Your network mount has been saved."
 msgstr "Jūsų tinklo pajungimas išsaugotas."
 
-#: e2openplugin-SeriesPlugin/src/FilePatterns.py:173
 #: e2openplugin-SeriesPlugin/src/DirectoryPatterns.py:78
+#: e2openplugin-SeriesPlugin/src/FilePatterns.py:173
 msgid "Your pattern file is corrupt"
 msgstr "Jūsų šablono failas yra sugadintas"
 
@@ -23165,8 +23165,8 @@ msgid "[sort by Name] "
 msgstr "[rūšiuoti pagal pavadinimą] "
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2160
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:155
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:981
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:155
 msgid "about to start"
 msgstr "ketina pradėti"
 
@@ -23203,8 +23203,8 @@ msgstr "aktyvus"
 msgid "active skin"
 msgstr "aktyvi tema"
 
-#: enigma2-plugins/eparted/src/eparted.py:327
 #: enigma2-plugins/emailclient/src/plugin.py:966
+#: enigma2-plugins/eparted/src/eparted.py:327
 msgid "add"
 msgstr "pridėti"
 
@@ -23343,8 +23343,8 @@ msgid "alphabetic sort  (quick toggle by key 0)"
 msgstr "rūšiuoti pagal abėcėlę  (greitas perjungimas su klavišu 0)"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
-#: enigma2-plugins/movieepg/src/plugin.py:18
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
+#: enigma2-plugins/movieepg/src/plugin.py:18
 msgid "always"
 msgstr "visada"
 
@@ -23433,12 +23433,12 @@ msgstr "priskirtas raudonam"
 msgid "assigned to yellow"
 msgstr "priskirtas geltonam"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 #: enigma2-plugins/fancontrol2/src/plugin.py:179
 #: enigma2-plugins/autoresolution/src/plugin.py:36
 #: enigma2-plugins/autoresolution/src/plugin.py:38
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:31
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:285
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 msgid "auto"
 msgstr "automatinis"
 
@@ -23526,18 +23526,18 @@ msgid "calls in mailbox"
 msgstr "skambučiai į pašto dėžutę"
 
 #
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
-#: enigma2-plugins/eparted/src/eparted.py:217
+#: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:22
+#: enigma2-plugins/dyndns/src/plugin.py:39
+#: enigma2-plugins/epgcopy/src/plugin.py:163
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
+#: enigma2-plugins/filebrowser/src/plugin.py:49
+#: enigma2-plugins/logomanager/src/plugin.py:221
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
 #: enigma2-plugins/emailclient/src/EmailConfig.py:39
 #: enigma2-plugins/emailclient/src/EmailConfig.py:102
-#: enigma2-plugins/epgcopy/src/plugin.py:163
-#: enigma2-plugins/logomanager/src/plugin.py:221
-#: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:22
-#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
-#: enigma2-plugins/dyndns/src/plugin.py:39
-#: enigma2-plugins/filebrowser/src/plugin.py:49
+#: enigma2-plugins/eparted/src/eparted.py:217
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid "cancel"
 msgstr "atšaukti"
 
@@ -23595,14 +23595,14 @@ msgstr "tikrinama"
 msgid "cleanup disabled"
 msgstr "valymas išjungtas"
 
-#: enigma2-plugins/emission/src/EmissionOverview.py:130
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:211
+#: enigma2-plugins/emission/src/EmissionOverview.py:130
 msgid "close"
 msgstr "uždaryti"
 
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid "close and save"
 msgstr "uždaryti ir išsaugoti"
 
@@ -23614,10 +23614,10 @@ msgstr "uždaryti pip langą..."
 msgid "close with saving and start searching"
 msgstr "uždarykite su išsaugojimu ir pradėkite ieškoti"
 
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid "close without saving"
 msgstr "uždaryti neišsaugant"
 
@@ -23625,10 +23625,10 @@ msgstr "uždaryti neišsaugant"
 msgid "config changed."
 msgstr "config pakeistas."
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:194
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
-#: enigma2-plugins/pushservice/src/plugin.py:109
+#: e2openplugin-InfoBarTunerState/src/plugin.py:194
 #: enigma2-plugins/podcast/src/plugin.py:613
+#: enigma2-plugins/pushservice/src/plugin.py:109
 msgid "configuration"
 msgstr "konfigūracija"
 
@@ -23746,22 +23746,22 @@ msgstr "dienos automatinis paleidimas"
 msgid "debug"
 msgstr "derinti"
 
-#: enigma2-plugins/autoresolution/src/plugin.py:136
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:47
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
+#: enigma2-plugins/autoresolution/src/plugin.py:136
 msgid "default"
 msgstr "numatytas"
 
-#: enigma2-plugins/webadmin/src/WebScreens/WebAdminScreen.py:24
-#: enigma2-plugins/eparted/src/eparted.py:332
-#: enigma2-plugins/emailclient/src/plugin.py:355
 #: enigma2-plugins/podcast/src/plugin.py:70
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
+#: enigma2-plugins/webadmin/src/WebScreens/WebAdminScreen.py:24
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1530
+#: enigma2-plugins/filebrowser/src/plugin.py:112
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:987
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1264
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
-#: enigma2-plugins/filebrowser/src/plugin.py:112
+#: enigma2-plugins/emailclient/src/plugin.py:355
+#: enigma2-plugins/eparted/src/eparted.py:332
 msgid "delete"
 msgstr "ištrinti"
 
@@ -23812,9 +23812,9 @@ msgstr "įrenginio pavadinimas: "
 msgid "devices active"
 msgstr "veikiantys įrenginiai"
 
-#: enigma2-plugin-reconstructapsc/src_py/plugin.py:49
 #: enigma2-plugins/dreamexplorer/src/plugin.py:487
 #: enigma2-plugins/dreamexplorer/src/plugin.py:514
+#: enigma2-plugin-reconstructapsc/src_py/plugin.py:49
 msgid "directory"
 msgstr "aplankas"
 
@@ -23832,14 +23832,14 @@ msgid "disable move mode"
 msgstr "išjungti perkėlimą"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2203
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:169
-#: enigma2-plugins/fancontrol2/src/plugin.py:161
-#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:33
-#: enigma2-plugins/audiorestart/src/plugin.py:15
-#: enigma2-plugins/zaphistorybrowser/src/plugin.py:21
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:1000
-#: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:60
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:181
+#: enigma2-plugins/fancontrol2/src/plugin.py:161
+#: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:60
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:1000
+#: enigma2-plugins/zaphistorybrowser/src/plugin.py:21
+#: enigma2-plugins/audiorestart/src/plugin.py:15
+#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:33
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:169
 msgid "disabled"
 msgstr "išjungtas"
 
@@ -23881,11 +23881,11 @@ msgstr "rodyti pertrauką (sekundėmis)"
 msgid "do not play a service on startup"
 msgstr "nenaudoti paleidžiant kanalą"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1177
 #: enigma2-plugins/fancontrol2/src/plugin.py:169
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:28
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:282
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 msgid "do nothing"
 msgstr "nieko nedaryti"
 
@@ -23899,10 +23899,10 @@ msgstr "baigta"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2185
 #: enigma2-plugin-pzyp4t/src/plugin.py:2196
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:162
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:166
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:990
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:996
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:162
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:166
 msgid "done!"
 msgstr "baigta!"
 
@@ -24218,15 +24218,15 @@ msgstr "gauti naujausią satellites.xml"
 msgid "getting message ..."
 msgstr "gaunamas pranešimas..."
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:29
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:284
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 msgid "go to deep standby"
 msgstr "eiti į visišką išjungimą"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:30
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:283
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:372
 msgid "go to standby"
 msgstr "eiti į išjungimą"
 
@@ -24291,9 +24291,9 @@ msgstr "slėpti pasirinktą priedą"
 msgid "hide the red real directories"
 msgstr "slėpti raudonus realius katalogus"
 
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:372
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:127
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:208
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:372
 #: enigma2-plugins/fritzcall/src/FritzLDIF.py:103
 #: enigma2-plugins/fritzcall/src/FritzLDIF.py:176
 msgid "home"
@@ -24622,13 +24622,13 @@ msgstr "mini TV"
 #: enigma2-plugin-pzyp4t/src/plugin.py:2125
 #: enigma2-plugin-pzyp4t/src/plugin.py:2134
 #: enigma2-plugin-pzyp4t/src/plugin.py:2136
+#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:83
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:137
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:139
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:145
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:147
 #: enigma2-plugin-partnerbox/src/plugin.py:542
 #: enigma2-plugin-partnerbox/src/plugin.py:782
-#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:83
 msgid "mins"
 msgstr "min (ių)"
 
@@ -24660,9 +24660,9 @@ msgstr ""
 msgid "missing parameter \"id\""
 msgstr "trūksta \"id\""
 
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:370
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:125
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:206
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:370
 #: enigma2-plugins/fritzcall/src/FritzLDIF.py:101
 #: enigma2-plugins/fritzcall/src/FritzLDIF.py:174
 msgid "mobile"
@@ -24768,19 +24768,19 @@ msgstr "sekantis puslapis / sugautas puslapis / perkelti"
 msgid "next sub page / move"
 msgstr "sekantis sub puslapis / perkelti"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:52
-#: e2openplugin-InfoBarTunerState/src/Handler/Records.py:20
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:381
-#: enigma2-plugins/emission/src/EmissionDetailview.py:193
-#: enigma2-plugins/emission/src/EmissionDetailview.py:260
+#: e2openplugin-InfoBarTunerState/src/Handler/Records.py:20
+#: e2openplugin-InfoBarTunerState/src/plugin.py:52
 #: enigma2-plugins/fancontrol2/src/plugin.py:162
 #: enigma2-plugins/fancontrol2/src/plugin.py:175
 #: enigma2-plugins/fancontrol2/src/plugin.py:179
 #: enigma2-plugins/pipzap/src/plugin.py:664
+#: enigma2-plugins/emission/src/EmissionDetailview.py:193
+#: enigma2-plugins/emission/src/EmissionDetailview.py:260
 #: enigma2-plugins/filebrowser/src/plugin.py:181
 #: enigma2-plugins/filebrowser/src/plugin.py:211
 #: enigma2-plugins/filebrowser/src/plugin.py:241
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:381
 msgid "no"
 msgstr "ne"
 
@@ -24857,8 +24857,8 @@ msgstr "nėra themes.xml"
 msgid "no user rating yet"
 msgstr "nė vienas vartotojas dar neįvertino"
 
-#: enigma2-plugins/simplerss/src/plugin.py:15
 #: enigma2-plugins/epgsearch/src/__init__.py:17
+#: enigma2-plugins/simplerss/src/plugin.py:15
 msgid "none"
 msgstr "joks"
 
@@ -24929,25 +24929,25 @@ msgid "of"
 msgstr "iš"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
-#: enigma2-plugins/autoresolution/src/plugin.py:36
-#: enigma2-plugins/autoresolution/src/plugin.py:38
-#: enigma2-plugins/fritzcall/src/plugin.py:150
+#: enigma2-plugins/3dsettings/src/plugin.py:84
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3270
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3281
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3774
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3793
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3812
-#: enigma2-plugins/3dsettings/src/plugin.py:84
+#: enigma2-plugins/fritzcall/src/plugin.py:150
+#: enigma2-plugins/autoresolution/src/plugin.py:36
+#: enigma2-plugins/autoresolution/src/plugin.py:38
 msgid "off"
 msgstr "išjungta"
 
-#: enigma2-plugins/eparted/src/eparted.py:218
-#: enigma2-plugins/emailclient/src/EmailConfig.py:40
-#: enigma2-plugins/emailclient/src/EmailConfig.py:103
-#: enigma2-plugins/logomanager/src/plugin.py:222
 #: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:23
 #: enigma2-plugins/dyndns/src/plugin.py:40
 #: enigma2-plugins/filebrowser/src/plugin.py:50
+#: enigma2-plugins/logomanager/src/plugin.py:222
+#: enigma2-plugins/emailclient/src/EmailConfig.py:40
+#: enigma2-plugins/emailclient/src/EmailConfig.py:103
+#: enigma2-plugins/eparted/src/eparted.py:218
 msgid "ok"
 msgstr "gerai"
 
@@ -24996,9 +24996,6 @@ msgstr "senesni nei 6 mėnesiai"
 msgid "older than 6 weeks"
 msgstr "senesni nei 6 savaitės"
 
-#: enigma2-plugins/autoresolution/src/plugin.py:36
-#: enigma2-plugins/autoresolution/src/plugin.py:38
-#: enigma2-plugins/fritzcall/src/plugin.py:150
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3268
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3279
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3285
@@ -25007,6 +25004,9 @@ msgstr "senesni nei 6 savaitės"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3798
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3800
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3810
+#: enigma2-plugins/fritzcall/src/plugin.py:150
+#: enigma2-plugins/autoresolution/src/plugin.py:36
+#: enigma2-plugins/autoresolution/src/plugin.py:38
 msgid "on"
 msgstr "įjungta"
 
@@ -25074,8 +25074,8 @@ msgstr "atidarykite 'EPG paieškos' paieškos filtrų sąrašą"
 msgid "open EPGSearch search list"
 msgstr "atidarykite 'EPG paieškos' paieškos sąrašą"
 
-#: enigma2-plugins/emission/src/EmissionDetailview.py:84
 #: enigma2-plugins/emission/src/EmissionOverview.py:135
+#: enigma2-plugins/emission/src/EmissionDetailview.py:84
 msgid "open bandwidth settings"
 msgstr "atidaryti juostos pločio nustatymus"
 
@@ -25137,9 +25137,9 @@ msgstr "praleisti num: "
 msgid "password"
 msgstr "slaptažodis"
 
-#: enigma2-plugins/emission/src/EmissionDetailview.py:176
 #: enigma2-plugins/webcamviewer/src/PictureScreen.py:193
 #: enigma2-plugins/webcamviewer/src/PictureScreen.py:219
+#: enigma2-plugins/emission/src/EmissionDetailview.py:176
 msgid "pause"
 msgstr "pauzė"
 
@@ -25240,10 +25240,10 @@ msgid "prev sub page / move"
 msgstr "ankstesnis submeniu puslapis / perkelti"
 
 #. TRANSLATORS: keep it short, this is a help text
-#: enigma2-plugins/eparted/src/eparted.py:582
-#: enigma2-plugins/eparted/src/eparted.py:588
 #: enigma2-plugins/fritzcall/src/plugin.py:2594
 #: enigma2-plugins/fritzcall/src/plugin.py:2604
+#: enigma2-plugins/eparted/src/eparted.py:582
+#: enigma2-plugins/eparted/src/eparted.py:588
 msgid "quit"
 msgstr "baigti"
 
@@ -25268,15 +25268,15 @@ msgstr "tikrai ištrinti paštą?"
 msgid "really undelete mail?"
 msgstr "tikrai atstatyti paštą?"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:368
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:368
 msgid "record"
 msgstr "įrašas"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2179
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:160
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:987
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:160
 msgid "recording..."
 msgstr "įrašoma..."
 
@@ -25832,9 +25832,9 @@ msgstr "thetvdb viršelių apimtis kūriniui:"
 msgid "thetvdb.com"
 msgstr "thetvdb.com"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:140
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:53
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:94
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:140
 msgid "this recording"
 msgstr "tai įrašyta"
 
@@ -25876,8 +25876,8 @@ msgstr "perjungti permatomumą"
 msgid "tolerated"
 msgstr "toleruojamas"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1497
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1094
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1497
 msgid "trashcan"
 msgstr "šiukšliadėžė"
 
@@ -26039,8 +26039,8 @@ msgid "wait..."
 msgstr "laukite..."
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2143
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:153
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:978
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:153
 msgid "waiting"
 msgstr "laukiama"
 
@@ -26065,9 +26065,9 @@ msgstr "su ilgu OK spaudimu"
 msgid "with short description"
 msgstr "su trumpu aprašymu"
 
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:374
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:97
 #: enigma2-plugins/fritzcall/src/FritzOutlookCSV.py:180
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:374
 msgid "work"
 msgstr "darbas"
 
@@ -26088,17 +26088,17 @@ msgstr "neteisingas vartotojas arba slaptažodis?"
 msgid "yellow teletext link"
 msgstr "geltona teleteksto nuoroda"
 
-#: e2openplugin-InfoBarTunerState/src/plugin.py:53
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:381
-#: enigma2-plugins/emission/src/EmissionDetailview.py:194
-#: enigma2-plugins/emission/src/EmissionDetailview.py:260
+#: e2openplugin-InfoBarTunerState/src/plugin.py:53
 #: enigma2-plugins/fancontrol2/src/plugin.py:162
 #: enigma2-plugins/fancontrol2/src/plugin.py:179
 #: enigma2-plugins/pipzap/src/plugin.py:664
+#: enigma2-plugins/emission/src/EmissionDetailview.py:194
+#: enigma2-plugins/emission/src/EmissionDetailview.py:260
 #: enigma2-plugins/filebrowser/src/plugin.py:181
 #: enigma2-plugins/filebrowser/src/plugin.py:211
 #: enigma2-plugins/filebrowser/src/plugin.py:241
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:381
 msgid "yes"
 msgstr "taip"
 
@@ -26118,9 +26118,9 @@ msgstr "taip, profilis 2"
 msgid "yes, including data"
 msgstr "taip, įskaitant duomenis"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:368
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:368
 msgid "zap"
 msgstr "perjungti"
 
@@ -26129,8 +26129,8 @@ msgid "zap in pip window..."
 msgstr "jungti pip lange..."
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:2167
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:158
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:985
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:158
 msgid "zapped"
 msgstr "įjungta"
 
@@ -26143,8 +26143,8 @@ msgstr "pakeisti vaizdo dydį / padidinti aukštį"
 msgid "{0}x {1}"
 msgstr "{0}x {1}"
 
-#: enigma2-plugins/pushservice/src/Services/SMTP.py:31
 #: enigma2-plugins/pushservice/src/Services/GNTP.py:33
+#: enigma2-plugins/pushservice/src/Services/SMTP.py:31
 msgid ""
 "{body:s}\n"
 "\n"
