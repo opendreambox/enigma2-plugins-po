@@ -1,3 +1,5 @@
+# This is a basic workflow to help you get started with Actions
+
 name: Import latest translatable strings
 
 # Controls when the action will run. 
@@ -36,15 +38,21 @@ jobs:
         run: | 
           wlc lock dreambox/plugins
           wlc push dreambox/plugins
-      
+
+      - name: Pull weblate changes
+        id: weblatepull
+        run: git pull
+
       - name: Update submodules and translations
         run: make -f Makefile.translations
         id: stringupdate
 
       - name: Commit
         id: commit
-        run: git commit -m "import translatable strings" -a
-
+        run: |
+          git config --local user.email "sreichholf@users.noreply.github.com"
+          git config --local user.name "reichi"
+          git commit -m "import translatable strings" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
