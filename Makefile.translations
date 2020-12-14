@@ -9,7 +9,7 @@ POTFILE:=$(PODIR)/$(DOMAIN).pot
 
 default: catalog
 
-catalog : template msgmerge merge
+catalog : update template msgmerge merge
 
 XMLPODIRS := enigma2-plugins/autotimer/src/ enigma2-plugins/epgrefresh/src/ enigma2-plugins/pipzap/src/ enigma2-plugins/pluginsort/src/
 
