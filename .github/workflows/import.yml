@@ -19,6 +19,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: Install gettext
+        run: sudo apt install gettext
+        id: gettext
+
       # Runs a single command using the runners shell
       - name: Update submodules and translations
         run: make -f Makefile.translations
