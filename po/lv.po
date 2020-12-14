@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-03 07:28+0100\n"
+"POT-Creation-Date: 2020-12-14 12:00+0100\n"
 "PO-Revision-Date: 2019-06-19 11:41+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: Ivo / enigma2 (c) <ivog@apolllo.lv>\n"
@@ -939,10 +939,6 @@ msgid ""
 "\n"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:849
-msgid ">>> ERROR - themes.xml in "
-msgstr ""
-
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:150
 msgid "?? kb/s"
 msgstr "?? kb/s"
@@ -1098,6 +1094,10 @@ msgid ""
 "Confirm this with the blue key followed by the green key."
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:843
+msgid "ATTENTION: skin_user.xml found"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:536
 msgid "AUDIO METADATA"
 msgstr ""
@@ -1191,6 +1191,10 @@ msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2944
 msgid "Activate screensaver"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:55
+msgid "Activate selected skin"
 msgstr ""
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:178
@@ -1949,7 +1953,11 @@ msgstr ""
 msgid "Apply"
 msgstr "Piemērot"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:879
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:66
+msgid "Apply selected theme"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:906
 msgid "Apply themes now?"
 msgstr ""
 
@@ -2626,6 +2634,11 @@ msgstr ""
 msgid "Blank"
 msgstr "Tukšs"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:57
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:68
+msgid "Blue"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "Blue button function"
 msgstr ""
@@ -2670,6 +2683,12 @@ msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:209
 msgid "Bootlogo-package:\n"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:776
+msgid ""
+"BorderSetTheme: A BorderSetTheme defines graphics used for windows and "
+"listboxes."
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:256
@@ -3274,7 +3293,7 @@ msgstr "Mainīt jūsu Dreambox hostvārdu."
 msgid "Change to %s"
 msgstr "Mainīt uz %s"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:893
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:927
 msgid "Changes to skin "
 msgstr ""
 
@@ -3660,11 +3679,18 @@ msgid "Close and save changes"
 msgstr "Aizvērt un saglabāt izmaiņas"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:133
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:627
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1620
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1627
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:810
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1830
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1837
 #: enigma2-plugins/zapstatistic/src/plugin.py:574
 msgid "Close plugin"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:52
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:54
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:62
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:65
+msgid "Close the plugin without saving changes"
 msgstr ""
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:108
@@ -3686,6 +3712,12 @@ msgstr ""
 msgid "Color space setup"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:774
+msgid ""
+"ColorTheme: A ColorTheme defines the set of colors. This allows to give a "
+"skin a completely different appearance."
+msgstr ""
+
 #
 #: enigma2-plugins/mytube/src/plugin.py:76
 msgid "Comedy"
@@ -3704,6 +3736,12 @@ msgstr ""
 msgid "Compact Flash"
 msgstr "Compact Flash"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:778
+msgid ""
+"ComponentTheme: A ComponentTheme defines the look and feel of components "
+"used in e.g. Movielist or Channel Selection."
+msgstr ""
+
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:217
 msgid "Composition of the recording filenames"
 msgstr "Ierakstu faila nosaukuma veidošana"
@@ -3720,11 +3758,6 @@ msgstr ""
 #: enigma2-plugins/webcamviewer/src/plugin.py:80
 #, python-format
 msgid "Config file %s not found."
-msgstr ""
-
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1089
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1091
-msgid "Configlist"
 msgstr ""
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:47
@@ -3994,6 +4027,10 @@ msgstr "Kopēt, pārsaukt, dzēst, pārvietot failus jūsu Dreamboxā."
 #: enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml./enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml
 msgid "Copy, rename, delete, move, show, play, install files."
 msgstr "Kopēt, pārsaukt, dzēst, pārvietot, rādīt, atskaņot, instalēt failus."
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:779
+msgid "CornerRadius: A CornerRadius defines the look and feel of corners."
+msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1767
 msgid ""
@@ -4296,6 +4333,10 @@ msgstr "Izveidot attālos taimerus"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:290
 #: enigma2-plugins/dreamexplorer/src/plugin.py:298
 msgid "Create softlink to selected"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:56
+msgid "Create themes.xml for selected skin"
 msgstr ""
 
 #: enigma2-plugins/remotetimer/meta/plugin_remotetimer.xml./enigma2-plugins/remotetimer/meta/plugin_remotetimer.xml
@@ -4857,6 +4898,14 @@ msgstr ""
 msgid "Delete Entry"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
+msgid "Delete MerlinSkinThemes screen from selected skin"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:933
+msgid "Delete MerlinSkinThemes screen from selected skin?"
+msgstr ""
+
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:44
 msgid "Delete Timer"
 msgstr ""
@@ -4940,10 +4989,6 @@ msgstr ""
 msgid "Delete permanently"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1409
-msgid "Delete screen to fix new MST version?"
-msgstr ""
-
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:93
 msgid "Delete selected page"
 msgstr ""
@@ -5004,6 +5049,19 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:86
 msgid "Description:"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:994
+msgid "Design already exists. Please choose a different name"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1333
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1503
+msgid "Design modified"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1058
+msgid "Design not deleted. Please select a design to be deleted."
 msgstr ""
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:76
@@ -5219,6 +5277,10 @@ msgstr ""
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1377
 msgid "Display all calls"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
+msgid "Display an information about impact of setting"
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2703
@@ -5511,7 +5573,7 @@ msgstr ""
 msgid "Do you really want to stop the recording?"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1568
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1773
 msgid "Do you want to Restart the GUI now to apply new skin settings?"
 msgstr ""
 
@@ -6997,7 +7059,7 @@ msgid ""
 msgstr ""
 
 #
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1118
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1371
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:39
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:41
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:47
@@ -7289,7 +7351,7 @@ msgstr ""
 #
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1071
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1615
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1825
 #: enigma2-plugins/imdb/src/plugin.py:216
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
@@ -7924,6 +7986,10 @@ msgstr ""
 msgid "Font size"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:775
+msgid "FontTheme: A FontTheme defines the font used in the skin."
+msgstr ""
+
 #: enigma2-plugins/fstabeditor/src/plugin.py:493
 msgid ""
 "Forbid an ordinary user to mount the filesystem. This is the default; it "
@@ -8138,8 +8204,7 @@ msgstr "Funkcijas"
 msgid "GENERAL"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:875
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:889
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:923
 msgid ""
 "GUI needs a restart to apply a new skin\n"
 "Do you want to Restart the GUI now?"
@@ -8375,6 +8440,12 @@ msgstr ""
 msgid "Global delay"
 msgstr "Vispārējā aizture"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:781
+msgid ""
+"GlobalsTheme: A GlobalsTheme defines values for variables that are reused in "
+"the skin and guarantee e.g. a consistent position of elements."
+msgstr ""
+
 #: enigma2-plugin-curlytx/src/CurlyTx.py:224
 msgid "Go and add a page in the settings"
 msgstr ""
@@ -8422,6 +8493,8 @@ msgid "Great Britain"
 msgstr "Lielbritānija"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:55
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:66
 msgid "Green"
 msgstr ""
 
@@ -9110,6 +9183,7 @@ msgstr "Žīdu / Arābu"
 #: enigma2-plugins/elektro/src/plugin.py:496
 #: enigma2-plugins/showclock/src/plugin.py:144
 #: enigma2-plugins/podcast/src/plugin.py:605
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
 #: enigma2-plugins/mytube/src/plugin.py:1522
 #: enigma2-plugins/pluginsort/src/plugin.py:420
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:297
@@ -9798,6 +9872,7 @@ msgstr "Indija"
 #: enigma2-plugin-partnerbox/src/plugin.py:308
 #: enigma2-plugin-partnerbox/src/plugin.py:1124
 #: enigma2-plugin-partnerbox/src/plugin.py:1261
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:84
 msgid "Info"
 msgstr "Info"
@@ -10197,6 +10272,12 @@ msgstr ""
 msgid "Latest Recordings directory use emc-noscan.cfg"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:780
+msgid ""
+"LayoutTheme: A LayoutTheme defines layouts that are reused in the skin and "
+"guarantee e.g. a consistent look and feel of buttons."
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:451
 msgid "Leave Movie with Exit"
 msgstr ""
@@ -10579,10 +10660,6 @@ msgstr ""
 msgid "MSN to show (separated by ,)"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1410
-msgid "MST screen found"
-msgstr ""
-
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:128
 msgid "Mac Address"
 msgstr "Mac Adrese"
@@ -10856,6 +10933,8 @@ msgid "Mediaplayer was not active"
 msgstr ""
 
 #
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:53
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:63
 #: enigma2-plugins/audiosync/src/AC3main.py:204
 msgid "Menu"
 msgstr "Izvēlne"
@@ -10912,8 +10991,16 @@ msgstr ""
 msgid "MerlinSkinThemes"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1432
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:48
 msgid "MerlinSkinThemes - Help"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1840
+msgid "MerlinSkinThemes - Settings"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:934
+msgid "MerlinSkinThemes screen found"
 msgstr ""
 
 #
@@ -11061,6 +11148,14 @@ msgstr ""
 msgid "Missing value for parameter dirname"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1750
+#, python-format
+msgid ""
+"Mod:\n"
+"Skin: %s by %s - Version: %s\n"
+"Support: %s"
+msgstr ""
+
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:70
 msgid "Mode:"
 msgstr "Režīms:"
@@ -11148,6 +11243,10 @@ msgstr ""
 #: enigma2-plugins/merlinepgcenter/src/plugin.py:178
 msgid "More than just an EPG..."
 msgstr "Vairāk nekā tikai EPG..."
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:771
+msgid "More..."
+msgstr ""
 
 #: enigma2-plugins/mosaic/src/plugin.py:365
 msgid "Mosaic"
@@ -11238,11 +11337,11 @@ msgid "Move clock"
 msgstr "Pārvietot pulksteni"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:703
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:619
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:802
 msgid "Move cursor down"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:620
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:803
 msgid "Move cursor left"
 msgstr ""
 
@@ -11254,7 +11353,7 @@ msgstr ""
 msgid "Move cursor page up"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:621
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:804
 msgid "Move cursor right"
 msgstr ""
 
@@ -11271,7 +11370,7 @@ msgid ""
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:702
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:618
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:801
 msgid "Move cursor up"
 msgstr ""
 
@@ -11911,9 +12010,8 @@ msgstr "Segvārds"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1449
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1454
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1459
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:859
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1716
 #: enigma2-plugins/mytube/src/plugin.py:61
 #: enigma2-plugins/mytube/src/plugin.py:623
 #: enigma2-plugins/mytube/src/plugin.py:629
@@ -11958,8 +12056,8 @@ msgstr "Nav atrasts vai nav inicializēts cietais disks!"
 msgid "No IMDb match."
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1412
-msgid "No MST screen found in this skin.xml!"
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:936
+msgid "No MerlinSkinThemes screen found in selected skin!"
 msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Message.py:33
@@ -11994,7 +12092,11 @@ msgstr ""
 msgid "No cast list found in the database."
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1527
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:971
+msgid "No changes to save"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1756
 msgid "No copyright info available"
 msgstr ""
 
@@ -12031,6 +12133,10 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1397
 msgid "No functionality set..."
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:833
+msgid "No help available"
 msgstr ""
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:592
@@ -12201,7 +12307,7 @@ msgstr "Šīm filmām nav pievienotas etiķetes."
 msgid "No teletext available."
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1118
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1371
 msgid ""
 "No themes.xml or skin.xml found.\n"
 "Please select a valid skin including themes.xml"
@@ -12560,7 +12666,6 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:165
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:185
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:194
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1547
 #: enigma2-plugins/internetradio/src/plugin.py:35
 #: enigma2-plugins/internetradio/src/plugin.py:37
 #: enigma2-plugins/internetradio/src/plugin.py:41
@@ -12603,7 +12708,6 @@ msgstr ""
 msgid "Old:  "
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1551
 #: enigma2-plugins/internetradio/src/plugin.py:35
 msgid "On"
 msgstr "Ieslēgts"
@@ -12741,6 +12845,17 @@ msgstr ""
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:733
 msgid "Open Timer Log"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:815
+msgid "Open context menu"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:53
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:57
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:63
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:68
+msgid "Open context menu to access functionality like help and settings"
 msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:134
@@ -12911,6 +13026,12 @@ msgstr ""
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:138
 msgid "PMT PID"
 msgstr "PMT PID"
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:782
+msgid ""
+"PNGTheme: A PNGTheme defines the values that are used to generate graphics "
+"that are used e.g. for progress bars."
+msgstr ""
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:839
 #, python-format
@@ -13462,6 +13583,14 @@ msgstr ""
 msgid "Please don't use PiP meanwhile!"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:973
+msgid "Please enter a name for design"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:977
+msgid "Please enter a name for design color"
+msgstr ""
+
 #: enigma2-plugins/setpasswd/src/plugin.py:44
 #, python-format
 msgid "Please enter a new password for %s"
@@ -13481,10 +13610,6 @@ msgstr "Lūdzu ievadiet derīgu pilsētas vietas kodu."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:326
 msgid "Please enter a value for every input field"
-msgstr ""
-
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:927
-msgid "Please enter designname!"
 msgstr ""
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:254
@@ -13526,6 +13651,10 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/SeriesPlugin.py:460
 msgid "Please open the channel editor (setup) and match them"
+msgstr ""
+
+#: enigma2-plugins/simpleradio/src/RadioScreen.py:132
+msgid "Please pick a radio stream..."
 msgstr ""
 
 #
@@ -13606,6 +13735,10 @@ msgstr ""
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:401
 msgid "Please select your KiddyTimer- option"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
+msgid "Please select..."
 msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/SeriesPlugin.py:123
@@ -14364,6 +14497,7 @@ msgstr "RTSP Ports"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:15
 #: enigma2-plugins/easymedia/src/plugin.py:401
+#: enigma2-plugins/simpleradio/src/RadioScreen.py:28
 msgid "Radio"
 msgstr "Radio"
 
@@ -14501,7 +14635,7 @@ msgstr "Vai tiešām iziet no MyTube atskaņotāja?"
 msgid "Reboot"
 msgstr "Pārstartēt"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1631
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1844
 msgid "Rebuild skin on boot"
 msgstr ""
 
@@ -14643,6 +14777,8 @@ msgid "Recording stream station"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:54
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:65
 msgid "Red"
 msgstr ""
 
@@ -15236,9 +15372,8 @@ msgstr "Pārstartēt GUI"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:606
 #: enigma2-plugins/virtualzap/src/plugin.py:745
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:876
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:890
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1569
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:924
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1774
 #: enigma2-plugins/aihdcontroler/src/plugin.py:176
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:697
 #: enigma2-plugins/satloader/src/plugin.py:104
@@ -15520,7 +15655,7 @@ msgstr "Sestdiena"
 #: enigma2-plugins/fritzcall/src/plugin.py:1572
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
 #: enigma2-plugins/podcast/src/plugin.py:543
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1616
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1826
 #: enigma2-plugins/mytube/src/MyTubeSettings.py:40
 #: enigma2-plugins/yttrailer/src/plugin.py:249
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
@@ -15578,6 +15713,10 @@ msgstr "Saglabāt un ierakstīt"
 msgid "Save and stop"
 msgstr "Saglabāt un apturēt"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:67
+msgid "Save configuration as design / Delete design"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:237
 msgid "Save current Playlist"
 msgstr ""
@@ -15599,8 +15738,8 @@ msgstr ""
 msgid "Save search as AutoTimer"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1621
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1626
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1831
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1836
 msgid "Save settings"
 msgstr ""
 
@@ -16074,6 +16213,10 @@ msgstr ""
 msgid "Select Text To Search For"
 msgstr ""
 
+#: enigma2-plugins/simpleradio/src/RadioScreen.py:97
+msgid "Select a country"
+msgstr ""
+
 #
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:61
 msgid "Select a timer to import"
@@ -16545,6 +16688,10 @@ msgid ""
 "Either abort or choose another limit to continue."
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:833
+msgid "Setting Info"
+msgstr ""
+
 #
 #: enigma2-plugins/audiosync/src/AC3main.py:251
 msgid "Setting key canceled"
@@ -16560,6 +16707,7 @@ msgstr ""
 #: enigma2-plugin-curlytx/src/CurlyTx.py:129
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:38
 #: enigma2-plugins/dreamirc/src/plugin.py:112
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:91
 #: enigma2-plugins/remotetimer/src/plugin.py:102
 #: enigma2-plugins/filebrowser/src/plugin.py:62
@@ -17069,6 +17217,10 @@ msgstr ""
 msgid "Show info screen"
 msgstr "Rādīt infologu"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:820
+msgid "Show info what setting does"
+msgstr ""
+
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:124
 msgid "Show last EPGRefresh - Time"
 msgstr ""
@@ -17153,6 +17305,10 @@ msgstr "Rādīt pikonas:"
 msgid "Show plugin config in extensions menu"
 msgstr ""
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1845
+msgid "Show plugin in extensions menu"
+msgstr ""
+
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:634
 msgid "Show plugin in extensions menu:"
 msgstr ""
@@ -17165,9 +17321,8 @@ msgstr ""
 msgid "Show popup when refresh starts and ends"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1547
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1551
-msgid "Show prev.png - "
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1843
+msgid "Show preview picture"
 msgstr ""
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:96
@@ -17404,9 +17559,23 @@ msgstr "Vienkārša RSS lasītāja iestatījumi"
 msgid "Simple RSS Reader: %s"
 msgstr "Vienkāršs RSS lasītājs: %s"
 
+#: enigma2-plugins/simpleradio/src/plugin.py:12
+#: enigma2-plugins/simpleradio/src/plugin.py:16
+#: enigma2-plugins/simpleradio/meta/plugin_simpleradio.xml./enigma2-plugins/simpleradio/meta/plugin_simpleradio.xml
+msgid "Simple Radio"
+msgstr ""
+
+#: enigma2-plugins/simpleradio/meta/plugin_simpleradio.xml./enigma2-plugins/simpleradio/meta/plugin_simpleradio.xml
+msgid "Simple player for Internet radio streams."
+msgstr ""
+
 #: enigma2-plugins/simplerss/meta/plugin_simplerss.xml./enigma2-plugins/simplerss/meta/plugin_simplerss.xml
 msgid "SimpleRSS allows reading RSS newsfeeds on your Dreambox."
 msgstr "SimpleRSS ļaus lasīt RSS ziņas uz jūsu Dreambox."
+
+#: enigma2-plugins/simpleradio/src/plugin.py:17
+msgid "Simply listen to internet radio"
+msgstr ""
 
 #
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
@@ -17434,29 +17603,45 @@ msgstr ""
 msgid "Size"
 msgstr "Izmērs"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1521
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:837
+msgid "Skin Configuration"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1752
 msgid "Skin MOD - No info available"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1496
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1741
 msgid "Skin ORGINAL - No info available"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/plugin.py:78
+#: enigma2-plugins/merlinskinthemes/src/plugin.py:79
 msgid "Skin could not be rebuilt due to missing themes.xml"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/plugin.py:75
+#: enigma2-plugins/merlinskinthemes/src/plugin.py:76
 msgid ""
 "Skin was rebuilt and a restart of enigma2 is required. Do you want to "
 "restart now?"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:587
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:589
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1124
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1126
-msgid "Skinlist"
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1739
+#, python-format
+msgid ""
+"Skin: %s by %s - Version: %s\n"
+"Support: %s\n"
+"\n"
+"License: %s"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:777
+msgid ""
+"SkinPathTheme: A SkinPathTheme define the path value in all elements of the "
+"skin. This allows to change graphics used."
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:839
+msgid "Skins"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:265
@@ -18452,6 +18637,11 @@ msgstr ""
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:105
 msgid "Switch to previous configured page URL"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:51
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:61
+msgid "Switch to themes/designs config screen for selected skin"
 msgstr ""
 
 #: enigma2-plugins/ncidclient/src/plugin.py:48
@@ -21589,6 +21779,11 @@ msgstr "YYYY/MM/DD HH:MM"
 msgid "Year:"
 msgstr "Gads:"
 
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:56
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:67
+msgid "Yellow"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "Yellow button function"
 msgstr ""
@@ -21608,10 +21803,8 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
 #: enigma2-plugin-pzyp4t/src/plugin.py:435
 #: enigma2-plugin-pzyp4t/src/plugin.py:467
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1438
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1441
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1444
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1447
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:859
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1718
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:282
 #: enigma2-plugins/mytube/src/plugin.py:622
 #: enigma2-plugins/mytube/src/plugin.py:628
@@ -22080,36 +22273,6 @@ msgstr ""
 msgid "[Media files] "
 msgstr "[Mediju faili] "
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1425
-msgid ""
-"[OK]\n"
-"switch to skin selection screen\n"
-"\n"
-"[apply themes] takes some time - please wait\n"
-"\n"
-"[delete design]\n"
-"delete selected design\n"
-"\n"
-"[save as design]\n"
-"selected themes/screens stored in new design\n"
-"\n"
-"choose Design: -none-\n"
-"to reset themes to active settings/themes"
-msgstr ""
-
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1417
-msgid ""
-"[OK]\n"
-"switch to themes/designs config screen for selected skin\n"
-"\n"
-"[create themes] and [delete]\n"
-"takes some time - please wait\n"
-"\n"
-"[menu]\n"
-"remove <screen name=\"MerlinSkinThemes\"...> from selected skin.This can fix "
-"a greenscreen if skin is not up to date for MST."
-msgstr ""
-
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1422
 msgid "[PTS-Plugin] Merging records failed!"
 msgstr ""
@@ -22118,7 +22281,7 @@ msgstr ""
 msgid "[PTS-Plugin] Restarting Timeshift!"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:878
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:905
 msgid ""
 "[apply themes] needs time to build new settings\n"
 "Do you want to do this now?"
@@ -22181,9 +22344,9 @@ msgstr "aktivizēt DynDNS"
 msgid "active"
 msgstr "aktīvs"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1268
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1699
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1712
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1521
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1916
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1929
 msgid "active skin"
 msgstr ""
 
@@ -22358,15 +22521,15 @@ msgstr ""
 msgid "any RC"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1099
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1102
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1105
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1156
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1159
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1162
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1175
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1178
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1181
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1352
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1355
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1358
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1404
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1407
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1410
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1423
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1426
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1429
 msgid "apply themes"
 msgstr ""
 
@@ -22678,7 +22841,7 @@ msgstr ""
 msgid "create partition %s"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1283
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1536
 msgid "create themes"
 msgstr ""
 
@@ -22749,7 +22912,7 @@ msgstr "noklusējuma"
 #: enigma2-plugins/eparted/src/eparted.py:332
 #: enigma2-plugins/emailclient/src/plugin.py:355
 #: enigma2-plugins/podcast/src/plugin.py:70
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1277
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1530
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:987
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1264
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
@@ -22757,9 +22920,9 @@ msgstr "noklusējuma"
 msgid "delete"
 msgstr "dzēst"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1100
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1157
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1176
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1353
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1405
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1424
 msgid "delete design"
 msgstr ""
 
@@ -23060,7 +23223,7 @@ msgstr "tieša sakritība"
 msgid "execute"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:598
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:768
 #: enigma2-plugins/teletext/src/plugin.py:216
 #: enigma2-plugins/teletext/src/plugin.py:235
 msgid "exit"
@@ -23317,7 +23480,7 @@ msgstr ""
 msgid "if no prefered audio language"
 msgstr ""
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:231
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:232
 msgid "illegal call"
 msgstr ""
 
@@ -23828,9 +23991,9 @@ msgstr ""
 msgid "no sender"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:917
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1273
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1693
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:960
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1526
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1912
 msgid "no skin.xml"
 msgstr ""
 
@@ -23839,9 +24002,9 @@ msgstr ""
 msgid "no subject"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:914
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1279
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1696
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:957
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1532
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1914
 msgid "no themes.xml"
 msgstr ""
 
@@ -23864,7 +24027,6 @@ msgid "not active"
 msgstr "nav aktīvs"
 
 #: e2-advancedaudiosettings/src/plugin.py:32
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:75
 msgid "not available"
 msgstr ""
 
@@ -23911,10 +24073,6 @@ msgstr "nekas"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:1013
 msgid "nothing playing..."
-msgstr ""
-
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1013
-msgid "nothing to delete"
 msgstr ""
 
 #: enigma2-plugins/ncidclient/src/plugin.py:1007
@@ -24079,10 +24237,6 @@ msgstr ""
 msgid "open bandwidth settings"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:601
-msgid "open config"
-msgstr ""
-
 #: enigma2-plugins/emission/src/EmissionOverview.py:142
 msgid "open context menu"
 msgstr "atvērt konteksta izvēlni"
@@ -24206,6 +24360,10 @@ msgstr "lūdzu gaidiet (līdz 3min)..."
 #: enigma2-plugins/elektro/src/plugin.py:346
 msgid "please wait..."
 msgstr "lūdzu gaidiet..."
+
+#: enigma2-plugins/simpleradio/src/RadioScreen.py:43
+msgid "powered by www.radio-browser.info"
+msgstr ""
 
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:59
 msgid "preferred"
@@ -24420,13 +24578,13 @@ msgstr ""
 msgid "save and quit"
 msgstr "saglabāt un iziet"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:600
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1103
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1106
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1160
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1163
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1179
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1182
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:770
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1356
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1359
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1408
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1411
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1427
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1430
 msgid "save as design"
 msgstr ""
 
@@ -24781,8 +24939,8 @@ msgstr ""
 msgid "switch 4:3 content display"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:599
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1130
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:769
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1380
 msgid "switch to skin"
 msgstr ""
 
