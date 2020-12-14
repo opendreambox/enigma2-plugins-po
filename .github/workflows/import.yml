@@ -35,7 +35,7 @@ jobs:
         id: wlclocknpush
         run: | 
           wlc lock dreambox/plugins
-          wlc push
+          wlc push dreambox/plugins
       
       - name: Update submodules and translations
         run: make -f Makefile.translations
