@@ -16,7 +16,7 @@ XMLPODIRS := enigma2-plugins/autotimer/src/ enigma2-plugins/epgrefresh/src/ enig
 update:
 	git pull
 	git submodule init
-	git submodule foreach git pull origin master
+	git submodule update --recursive --remote
 
 template:
 	mkdir -p $(PODIR)
