@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-14 12:53+0000\n"
-"PO-Revision-Date: 2020-12-13 02:41+0000\n"
+"PO-Revision-Date: 2020-12-25 12:27+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -201,7 +201,7 @@ msgstr " (bez výpočtu velikosti potisku)"
 
 #: MovieInfo.py:62 MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -1165,7 +1165,7 @@ msgstr ""
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:843
 msgid "ATTENTION: skin_user.xml found"
-msgstr ""
+msgstr "Upozornění : byl nalezený skin_user.xml"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:536
 msgid "AUDIO METADATA"
@@ -1262,7 +1262,7 @@ msgstr "aktivovat šetřič"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:55
 msgid "Activate selected skin"
-msgstr ""
+msgstr "aktivovat vybraný skin"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:178
 msgid ""
@@ -2040,7 +2040,7 @@ msgstr "použít"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:66
 msgid "Apply selected theme"
-msgstr ""
+msgstr "použít vybrané téma"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:906
 msgid "Apply themes now?"
@@ -2714,7 +2714,7 @@ msgstr "prázdné"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:57
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:68
 msgid "Blue"
-msgstr ""
+msgstr "modrá"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "Blue button function"
@@ -2765,7 +2765,7 @@ msgstr "Bootlogo-balíček :\n"
 msgid ""
 "BorderSetTheme: A BorderSetTheme defines graphics used for windows and "
 "listboxes."
-msgstr ""
+msgstr "BorderSetTheme : definuje grafiku používanou pro okna a seznamy."
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:256
 msgid "Both"
@@ -3042,6 +3042,10 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"Nelze zapsat info o filmu a soubor potisku :\n"
+"\n"
+"%s\n"
+"%s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
@@ -3791,7 +3795,7 @@ msgstr "zavřít modul"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:62
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:65
 msgid "Close the plugin without saving changes"
-msgstr ""
+msgstr "zavřít modul bez uložení změn"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:108
 #: enigma2-plugin-curlytx/src/CurlyTx.py:111
@@ -3817,6 +3821,7 @@ msgid ""
 "ColorTheme: A ColorTheme defines the set of colors. This allows to give a "
 "skin a completely different appearance."
 msgstr ""
+"ColorTheme : definuje sadu barev - díky tomu může skin vypadat úplně jinak."
 
 #: enigma2-plugins/mytube/src/plugin.py:76
 msgid "Comedy"
@@ -3841,6 +3846,8 @@ msgid ""
 "ComponentTheme: A ComponentTheme defines the look and feel of components "
 "used in e.g. Movielist or Channel Selection."
 msgstr ""
+"ComponentTheme : definuje vzhled a chování komponent, např. použitých ve "
+"výběru filmů nebo kanálů."
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:217
 msgid "Composition of the recording filenames"
@@ -4135,7 +4142,7 @@ msgstr ""
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:779
 msgid "CornerRadius: A CornerRadius defines the look and feel of corners."
-msgstr ""
+msgstr "CornerRadius : definuje vzhled a tvar rožků."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1767
 msgid ""
@@ -4450,7 +4457,7 @@ msgstr "založit odkaz do vybrané složky"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:56
 msgid "Create themes.xml for selected skin"
-msgstr ""
+msgstr "pro vybraný skin vytvořit nový themes.xml"
 
 #: enigma2-plugins/remotetimer/meta/plugin_remotetimer.xml./enigma2-plugins/remotetimer/meta/plugin_remotetimer.xml
 msgid "Create timers on remote Dreamboxes."
@@ -5008,11 +5015,11 @@ msgstr "odebrat položku"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:846
 msgid "Delete MerlinSkinThemes screen from selected skin"
-msgstr ""
+msgstr "odstranit obraz MerlinSkinThemes z vybraného skinu"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:933
 msgid "Delete MerlinSkinThemes screen from selected skin?"
-msgstr ""
+msgstr "Odstranit obraz MerlinSkinThemes z vybraného skinu ?"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:44
 msgid "Delete Timer"
@@ -5159,16 +5166,16 @@ msgstr "popis : "
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:994
 msgid "Design already exists. Please choose a different name"
-msgstr ""
+msgstr "Tento vzor již existuje. Vyberte jiný název"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1333
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1503
 msgid "Design modified"
-msgstr ""
+msgstr "Tento vzor byl upravený"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1058
 msgid "Design not deleted. Please select a design to be deleted."
-msgstr ""
+msgstr "Vzor nebyl odstraněný. Vyberte jiný, který chcete odstranit."
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:76
 msgid "Destination"
@@ -5388,7 +5395,7 @@ msgstr "zobrazit všechna volání"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
 msgid "Display an information about impact of setting"
-msgstr ""
+msgstr "zobrazit informace o výsledku nastavení"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2703
 msgid "Display connection infos"
@@ -5846,7 +5853,7 @@ msgstr "stáhnout info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "stáhnout balíček Mutagen pro audio metadata"
 
 #: enigma2-plugins/mytube/src/plugin.py:534
 msgid "Download Video"
