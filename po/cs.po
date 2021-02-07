@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-14 12:53+0000\n"
-"PO-Revision-Date: 2021-02-02 07:44+0000\n"
+"PO-Revision-Date: 2021-02-07 22:38+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -1468,7 +1468,7 @@ msgstr "přidat odkaz na složku do EMC záložek"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:126
 msgid "Add entry"
-msgstr "přidat zadání"
+msgstr "přidat záznam"
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a help text
@@ -1723,7 +1723,7 @@ msgstr "všechny žánry"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:459
 msgid "All I/O to the filesystem should be done asynchronously."
-msgstr "Všechny vst./výstupy do soub.systému by měly být asynchronní"
+msgstr "Všechny vst./výstupy do soub.systému by měly být asynchronní."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:491
 msgid ""
@@ -1731,9 +1731,8 @@ msgid ""
 "with a limited number of write cycles (e.g. some flash drives), sync may "
 "cause life-cycle shortening."
 msgstr ""
-"Všechny I/O do soub.systému by měly být asynchronní. V případě média s "
-"limitovaným počtem cyklů zápisů (např. flash disky), synchr. může zkrátit "
-"životnost."
+"Všechny I/O do soub.systému by měly být synchronní. U média s limit.počtem "
+"cyklů zápisů (např.flash disky) to může zkrátit životnost."
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2258
 msgid "All Songs"
@@ -1780,9 +1779,9 @@ msgid ""
 "nodev (unless overridden by subsequent options, as in the option line group,"
 "dev,suid)."
 msgstr ""
-"Povolit běžnému uživateli připojit soub.systém, pokud jeden z uživatelů "
-"skupiny odpovídá skupině zařízení. Tato volba zahrnuje příkazy nosuid a "
-"nodev (pokud zvolíte následující volby, jako ve skupině dev,suid)."
+"Povolí uživateli připojení soub.systému, pokud některá skupina zařízení "
+"uživatele obsahuje. Tato volba zahrnuje příkazy nosuid a nodev (pokud nejsou "
+"přepsány příkazy group,dev,suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:488
 msgid ""
@@ -1790,9 +1789,9 @@ msgid ""
 "the device. This option implies the options nosuid and nodev (unless "
 "overridden by subsequent options, as in the option line owner,dev,suid)."
 msgstr ""
-"Povolit běžnému uživateli připojit soub.systém, pokud uživatel má práva k "
-"zařízení. Tato volba zahrnuje příkazy nosuid a nodev (pokud zvolíte "
-"následující volby, jako ve skupině dev,suid)."
+"Povolí uživateli připojení soub.systému, pokud uživatel má práva k zařízení. "
+"Tato volba zahrnuje příkazy nosuid a nodev (pokud nejsou přepsány příkazy "
+"group,dev,suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:492
 msgid ""
@@ -1803,11 +1802,10 @@ msgid ""
 "nodev (unless overridden by subsequent options, as in the option line user,"
 "exec,dev,suid)."
 msgstr ""
-"Povolit běžnému uživateli připojit soub.systém. Jméno uživatele, který se "
-"připojuje, je zapsaný do mtab souboru (nebo do privátního souboru připojení "
-"v /run/mount u systémů s regulérním mtab), takže tento uživatel soub.systém "
-"i odpojit znovu. Tato volba zahrnuje příkazy noexec, nosuid a nodev (pokud "
-"zvolíte následující volby na řádku, jako user,exec,dev,suid). "
+"Povolí uživateli připojení soub.systému. Jméno uživatele, je zapsané do "
+"souboru mtab (nebo do privát.souboru libmount v /run/mount u systémů bez "
+"mtab). Tato volba zahrnuje příkazy noexec, nosuid a nodev (pokud nejsou "
+"přepsány příkazy user,exec,dev,suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:494
 msgid ""
@@ -1816,9 +1814,9 @@ msgid ""
 "and nodev (unless overridden by subsequent options, as in the option line "
 "users,exec,dev,suid)."
 msgstr ""
-"Povolit kterémukoliv uživateli připojit nebo odpojit soub.systém, i když jej "
-"připojil někdo jiný. Tato volba zahrnuje příkazy noexec, nosuid a nodev "
-"(pokud zvolíte následující volby, jako ve skupině users,exec,dev,suid)."
+"Povolí kterémukoliv uživateli připojit nebo odpojit soub.systém, i když jej "
+"připojil někdo jiný. Tato volba zahrnuje příkazy noexec, nosuid a nodev ("
+"pokud nejsou přepsány příkazy users,exec,dev,suid)."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:475
 msgid "Allow mandatory locks on this filesystem."
@@ -1830,7 +1828,7 @@ msgstr "povolit dálkové ovládání přes CEC"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:484
 msgid "Allow set-user-ID or set-group-ID bits to take effect."
-msgstr "Povolit nastavení ID uživatele nebo ID skupiny, aby to mělo efekt "
+msgstr "Povolí nastavení ID uživatele nebo ID skupiny bitů, aby to mělo efekt_"
 
 #: enigma2-plugins/moviesearch/meta/plugin_moviesearch.xml./enigma2-plugins/moviesearch/meta/plugin_moviesearch.xml
 msgid "Allow to search recordings"
@@ -3921,8 +3919,8 @@ msgid ""
 "Configure how long systemd should wait for a device to show up before giving "
 "up on an entry from /etc/fstab. Specify a time in seconds."
 msgstr ""
-"Konfigurace, jako by dlouho by měl systemd čekat na zobrazení zařízení z /"
-"etc/fstab v sek."
+"Konfigurace, jak dlouho (v sek.) by měl systemd čekat na zobrazení zařízení "
+"z /etc/fstab_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:372
 msgid "Configured directories at the top of movielist"
@@ -5205,10 +5203,10 @@ msgid ""
 "retransmissions have been sent, causing the NFS client to return an error to "
 "the calling application."
 msgstr ""
-"Určí režim NFS klienta po požadavku NFS na čas.prodlevu. Pokud není "
-"specifikovaná žádná volba (nebo je příliš tvrdá), bude požadovat opakování "
-"nového zadání. V případě měkké volby pak bude klientovi NFS po zpětném "
-"požadavku na přenos vráceno chybové hlášení od aplikace !"
+"Určí režim NFS klienta po vypršení času na požadavek NFS. Pokud není zadaná "
+"žádná volba (nebo je příliš tvrdá), bude NFS požadovat opakování zadání na "
+"neurčito. Pokud je softwarová možnost zadaná a požadavek klienta NFS selže, "
+"klient vrátí chybu volající aplikaci_"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:356
 msgid "Device"
@@ -10337,7 +10335,7 @@ msgstr "InternetRadio - seznam stanic pro kritéria hledání : %s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:465
 msgid "Interpret character or block special devices on the filesystem."
-msgstr "předložit znak nebo blok spec.zařízení pro soub.systém"
+msgstr "Interpretuje znak nebo blok spec.zařízení pro soub.systém_"
 
 #: enigma2-plugins/dyndns/src/plugin.py:34
 msgid "Interval to check IP-Adress"
@@ -13694,7 +13692,7 @@ msgstr "Odstranit všechny soubory z koše ?"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:470
 msgid "Permit execution of binaries."
-msgstr "aktivovat spouštění binárních souborů"
+msgstr "Povolí spouštění binárních souborů_"
 
 #: enigma2-plugins/mytube/src/plugin.py:71
 msgid "Pets & Animals"
@@ -16766,11 +16764,11 @@ msgid ""
 "other applications running on the same client. Remote applications are not "
 "affected by these locks."
 msgstr ""
-"Zvolte možnost použití NLM protokolu postranního pásma k uzamčení souborů "
-"serveru. Bez zadané hodnoty (nebo je-li specifikovaný zámek) NLM uzamyká "
-"tento použitý přípojný bod. Po volbě nezamykat mohou aplikace soubory "
-"uzamknout, ale takový zámek zablokuje pouze průběh jedné aplikace u jednoho "
-"klienta. Vzdálené aplikace to neovlivní."
+"Možnost použití NLM protokolu postranního pásma k uzamčení souborů na "
+"serveru. Bez zadané hodnoty (nebo je-li zadaný zámek), použije se pro tento "
+"přípojný bod uzamčení NLM. Po volbě nolock mohou aplikace soubory uzamknout, "
+"ale takový zámek zablokuje pouze aplikace spuštěné na stejném klientovi. "
+"Vzdálené aplikace to neovlivní_"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:87
 msgid "Send"
@@ -17055,9 +17053,9 @@ msgid ""
 "permissions. Add search permission to directories that have read permission. "
 "The value is given in octal."
 msgstr ""
-"Nastavení módu souborů na hodnotu & 0777 ignoruje orig.povolení. Přidejte "
-"povolení pro čtení pro vyhledávání ve složkách. Tato hodnota je osmičkové "
-"soustavě."
+"Nastavit mód souborů na hodnotu & 0777 a ignorovat orig.oprávnění. Přidejte "
+"povolení vyhledávat ve složkách určených pro čtení. Tato hodnota je "
+"osmičkové soustavě_"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:552
 msgid "Set this NO to disable this AutoTimer."
@@ -19449,9 +19447,9 @@ msgid ""
 "last."
 msgstr ""
 "Číslo verze protokolu NFS je použité pro kontakt na kanály NFS serveru. "
-"Pokud server nepodporuje požadovanou verzi požadavek na připojení selže. "
+"Pokud server nepodporuje požadovanou verzi, požadavek na připojení selže. "
 "Jestliže není tato volba specifikovaná, klient si se serverem dojedná "
-"vhodnou verzi. Zkouší verzi nejprve 4, pak 3 a pak 2 sek."
+"vhodnou verzi. Zkouší verzi nejprve 4, pak 3 a pak 2 jako poslední_"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:45
 #: enigma2-plugins/fritzcall/src/plugin.py:167
@@ -19670,11 +19668,10 @@ msgid ""
 "one week). If a value of zero is specified, the mount(8) command exits "
 "immediately after the first failure."
 msgstr ""
-"Počet minut, které jsou určené pro NFS příkaz připojení(8) na popředí nebo "
-"pozadí při předáním nahoru. Pokud není tato volba specifikovaná, budou to "
-"podle předvolby 2 min. Standardní hodnota pro připojení na pozadí je 10000 "
-"minut (80 min.v jednom týdnu). Hodnota nula připojení(8) po prvním selhání "
-"vše ukončí."
+"Počet minut, po které příkaz mount(8) zkouší připojení NFS na popředí nebo "
+"pozadí, než se vzdá. Pokud není tato volba zadána, bude použita předvolba 2 "
+"min.na popředí a pro připojení na pozadí 10000 minut (80 min.v jednom týdnu)"
+". Hodnota nula mount(8) po prvním selhání vše ukončí_"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:499
 msgid ""
@@ -19755,8 +19752,8 @@ msgid ""
 "The time in deciseconds (tenths of a second) the NFS client waits for a "
 "response before it retries an NFS request."
 msgstr ""
-"Čas v desetinách sek., kdy NFS klient čeká na odpověď před další žádostí na "
-"NFS."
+"Čas v desetinách sek., kdy NFS klient čeká na odpověď, před dalším "
+"požadavkem NFS_"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:95
 #, python-format
@@ -21106,9 +21103,11 @@ msgid ""
 "applications that need to know if a file has been read since the last time "
 "it was modified.)"
 msgstr ""
-"Aktualizační časy inode při modifikaci nebo změně času. Autualizace je "
-"platná pouze, je-li čas přístupu dřívější než úprava či změna. (Je to "
-"podobné noatime, ale aplikaci to nepřeruší."
+"Aktualizujte časy přístupu inode vzhledem ke změně nebo změně času. Čas "
+"přístupu se aktualizuje pouze v případě, že předchozí čas přístupu byl "
+"dřívější než aktuální čas úpravy nebo změny. (Podobně jako noatime, ale "
+"neporušuje mutt ani jiné aplikace, které potřebují vědět, zda byl soubor "
+"přečtený od poslední úpravy.)_"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:160
 msgid "Update interval for current service (min. 10 sec)"
@@ -21285,9 +21284,8 @@ msgid ""
 "that the real set of all default mount options depends on kernel and "
 "filesystem type."
 msgstr ""
-"Použije předvolené hodnoty : rw, suid, dev, exec, auto, nouser, a async. "
-"Reálné nastavení všech předvoleb připojení závisí na typu jádra a soub."
-"systému."
+"Předvolené hodnoty : rw, suid, dev, exec, auto, nouser, a async. Reálně to "
+"závisí na typu jádra a soub.systému."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:481
 msgid "Use the kernel's default behavior for inode access time updates."
@@ -23944,7 +23942,7 @@ msgstr "přípona souboru"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:313
 msgid "file system type: "
-msgstr "typ syst.souboru :"
+msgstr "typ soub.systému : "
 
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:37
 msgid "filesize was 0, not uploaded"
