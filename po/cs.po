@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-19 09:17+0000\n"
-"PO-Revision-Date: 2021-03-08 18:26+0000\n"
+"PO-Revision-Date: 2021-04-19 15:13+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.1\n"
+"X-Generator: Weblate 4.6\n"
 "X-POOTLE-MTIME: 1574591678.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1346
@@ -201,7 +201,7 @@ msgstr " (bez výpočtu velikosti potisku)"
 
 #: MovieInfo.py:62 MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -451,7 +451,7 @@ msgstr "%i ms"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1487
 #, python-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:229
 #, python-format
@@ -990,7 +990,7 @@ msgstr "-- klient pro www.dyndns.org"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:70
 msgid "A file explorer for DreamOS"
-msgstr ""
+msgstr "-- správce souborů pro DreamOS"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:536
 #, python-format
@@ -1121,7 +1121,7 @@ msgstr "API root"
 
 #: e2openplugin-PushService/src/Controller/APTUpdateNotification.py:35
 msgid "APT Update Notification"
-msgstr ""
+msgstr "upozornění na aktualizaci APT"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:381
 msgid ""
@@ -1287,23 +1287,23 @@ msgstr "převést aktivní časovač"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:75
 msgid "ActiveTimers: Skip begin < now"
-msgstr ""
+msgstr "aktivní čas : přeskočit začátek < nyní"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:71
 msgid "ActiveTimers: Skip disabled"
-msgstr ""
+msgstr "aktivní čas : zakázat přeskok"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:59
 msgid "ActiveTimers: Skip justplay"
-msgstr ""
+msgstr "aktivní čas : přeskočit přehrávku"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:63
 msgid "ActiveTimers: Skip serviceref"
-msgstr ""
+msgstr "aktivní čas : přeskočit ref.kanálu"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:67
 msgid "ActiveTimers: Skip tag"
-msgstr ""
+msgstr "aktivní čas : přeskočit značku"
 
 #
 #: enigma2-plugins/twitchtv/src/plugin.py:510
@@ -1427,7 +1427,7 @@ msgstr "přidat narozeniny"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:815
 msgid "Add bookmark"
-msgstr ""
+msgstr "přidat značku"
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:352
 msgid "Add channel (Yes) or replace it (No)"
@@ -1633,7 +1633,7 @@ msgstr "rozšířené nastavení pro střih"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:176
 msgid "After EPG refresh"
-msgstr ""
+msgstr "po obnovení EPG"
 
 #: enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml./enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml
 msgid ""
@@ -1675,7 +1675,7 @@ msgstr "Počet dnů od zhlédnutí videa - ve složce \"Movie\""
 
 #: enigma2-plugins/cec/src/CecConfig.py:99
 msgid "Aggressive Active-Source"
-msgstr ""
+msgstr "agresivní aktivní zdroj"
 
 #: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
 msgid "Ai.HD skin-style control plugin"
@@ -3041,6 +3041,10 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"Nelze zapsat info o filmu a potisk\n"
+"\n"
+"%s\n"
+"%s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
@@ -3348,7 +3352,7 @@ msgstr "Posunout předvolený čas nahrávání_"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:296
 #: enigma2-plugins/dreamexplorer/src/plugin.py:909
 msgid "Change directory"
-msgstr ""
+msgstr "změnit složku"
 
 #: enigma2-plugin-networkbrowser/src/MountManager.py:72
 msgid "Change hostname"
@@ -3381,7 +3385,7 @@ msgstr "změnit seřazení..."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1209
 msgid "Change symlink name"
-msgstr ""
+msgstr "změnit název odkazu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:237
 msgid "Change the filename to save current Playlist:"
@@ -4154,11 +4158,14 @@ msgid ""
 "%s\n"
 "to %s:"
 msgstr ""
+"kopie/přesun\n"
+"%s\n"
+"do %s:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1234
 #, python-format
 msgid "Copying %s to %s"
-msgstr ""
+msgstr "kopírovat %s do %s"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:780
 msgid "CornerRadius: A CornerRadius defines the look and feel of corners."
@@ -4390,12 +4397,12 @@ msgstr "Crashlog(s) je připojený"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:351
 #, python-format
 msgid "Create %s in %s with name:"
-msgstr ""
+msgstr "založit %s v %s pod názvem :"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:357
 #, python-format
 msgid "Create %s to %s with name:"
-msgstr ""
+msgstr "založit %s v %s pod názvem :"
 
 #: MovieSelectionMenu.py:293
 msgid "Create Link"
@@ -4441,12 +4448,12 @@ msgstr "založit složku"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 #, python-format
 msgid "Create directory in %s"
-msgstr ""
+msgstr "založit složku v %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 #, python-format
 msgid "Create file in %s"
-msgstr ""
+msgstr "založit soubor v %s"
 
 #: enigma2-plugins/dvdbackup/src/plugin.py:312
 msgid "Create iso:"
@@ -4475,7 +4482,7 @@ msgstr "-- modul pro sestavení vzdálených časovačů"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1208
 msgid "Create symlink"
-msgstr ""
+msgstr "založit odkaz"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1222
 #, python-format
@@ -4483,11 +4490,13 @@ msgid ""
 "Create symlink %s\n"
 "in %s to %s"
 msgstr ""
+"založit odkaz %s\n"
+"ve %s do %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 #, python-format
 msgid "Create symlink to %s"
-msgstr ""
+msgstr "založit odkaz do %s"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:56
 msgid "Create themes.xml for selected skin"
@@ -4513,17 +4522,17 @@ msgstr "...sestavuji seznam..."
 #: enigma2-plugins/dreamexplorer/src/plugin.py:377
 #, python-format
 msgid "Creation of directory %s"
-msgstr ""
+msgstr "založit složku %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:372
 #, python-format
 msgid "Creation of file %s"
-msgstr ""
+msgstr "založit sloubor %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1254
 #, python-format
 msgid "Creation of symlink %s in %s to %s"
-msgstr ""
+msgstr "založit odkaz %s ve %s do %s"
 
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:36
 msgid "Cross fade duration (seconds)"
@@ -4549,12 +4558,12 @@ msgstr "aktuální priorita : "
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1030
 #, python-format
 msgid "Current content: %s"
-msgstr ""
+msgstr "aktuální obsah : %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:617
 #, python-format
 msgid "Current name: %s"
-msgstr ""
+msgstr "aktuální název : %s"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:510
 #: enigma2-plugins/fancontrol2/src/plugin.py:764
@@ -4569,7 +4578,7 @@ msgstr "aktuální hodnota : %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1361
 msgid "Currently"
-msgstr ""
+msgstr "aktuální"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "Cursor predictive move after selection"
@@ -5094,7 +5103,7 @@ msgstr "odstranit všechny záložky..."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:814
 msgid "Delete bookmark"
-msgstr ""
+msgstr "odebrat značku"
 
 #: e2openplugin-PushService/src/Controller/CrashLog.py:47
 msgid "Delete crashlog(s)"
@@ -5205,7 +5214,7 @@ msgstr "potvrzovat vyprázdnění koše"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:598
 #, python-format
 msgid "Deletion of %s %s"
-msgstr ""
+msgstr "odebrat %s %s"
 
 #
 #: enigma2-plugins/elektro/src/plugin.py:476
@@ -5357,7 +5366,7 @@ msgstr "složka :"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:876
 msgid "Diretory is already in bookmarks"
-msgstr ""
+msgstr "Složka je již v záložkách"
 
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:42
@@ -5389,7 +5398,7 @@ msgstr "zakázat přihlášení založené na heslech"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1445
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1472
 msgid "Disable service"
-msgstr ""
+msgstr "vypnout službu"
 
 #
 #: enigma2-plugins/birthdayreminder/src/plugin.py:38
@@ -5825,6 +5834,9 @@ msgid ""
 "%s\n"
 "as start directory?"
 msgstr ""
+"Chcete nastavit\n"
+"%s\n"
+"jako startovací složku ?"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:244
 msgid "Do you want to start the kiddytimer- plugin now."
@@ -5921,7 +5933,7 @@ msgstr "stáhnout info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "stáhnout balíček Mutagen pro audio meta-data"
 
 #: enigma2-plugins/mytube/src/plugin.py:481
 msgid "Download Video"
@@ -6033,7 +6045,7 @@ msgstr "downmix"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:70
 #: enigma2-plugins/dreamexplorer/src/plugin.py:71
 msgid "Dream Explorer"
-msgstr ""
+msgstr "Dream Explorer"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:434
 #: enigma2-plugins/dreamexplorer/src/plugin.py:444
@@ -6050,12 +6062,12 @@ msgstr ""
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1145
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1259
 msgid "Dream Explorer 3"
-msgstr ""
+msgstr "Dream Explorer 3"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:589
 #, python-format
 msgid "Dream Explorer 3 - Delete %s..."
-msgstr ""
+msgstr "Dream Explorer 3 - odstranění %s..."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1242
 msgid "Dream-Explorer..."
@@ -6072,6 +6084,10 @@ msgid ""
 "\n"
 "Support: board.dreamboxtools.de"
 msgstr ""
+"Dreambox Explorer II vytvořený od Vali (2010)\n"
+"Dream Explorer 3 od Dre (2021)\n"
+"\n"
+"podpora : board.dreamboxtools.de"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3427
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3430
@@ -6089,6 +6105,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Dreambox model : %s\n"
+"\n"
+"%s"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:188
 msgid "Dreambox name"
@@ -6183,11 +6202,11 @@ msgstr "EMC - správa souborů"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:200
 msgid "EMC Help"
-msgstr ""
+msgstr "EMC nápověda"
 
 #: EMCPlayList.py:154
 msgid "EMC Playlist"
-msgstr ""
+msgstr "EMC seznam přehrávek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
@@ -6376,12 +6395,16 @@ msgid ""
 "EPGRefresh wants to set your\n"
 "Dreambox to idle. Do that now?"
 msgstr ""
+"EPGRefresh potřebuje Dreambox \n"
+"uspat. Chcete to udělat ?"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:543
 msgid ""
 "EPGRefresh wants to shut down\n"
 "your Dreambox. Shutdown now?"
 msgstr ""
+"EPGRefresh potřebuje Dreambox \n"
+"vypnout. Chcete to udělat ?"
 
 #: enigma2-plugins/epgrefresh/meta/plugin_epgrefresh.xml./enigma2-plugins/epgrefresh/meta/plugin_epgrefresh.xml
 msgid ""
@@ -6635,7 +6658,7 @@ msgstr "upravit vybranou stránku"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1370
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1373
 msgid "Edit service"
-msgstr ""
+msgstr "upravit službu"
 
 #: enigma2-plugins/tageditor/meta/plugin_tageditor.xml./enigma2-plugins/tageditor/meta/plugin_tageditor.xml
 msgid "Edit tags of recorded movies"
@@ -6938,7 +6961,7 @@ msgstr "Povolit vzdálené nahrávání"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1449
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1476
 msgid "Enable service"
-msgstr ""
+msgstr "aktivovat službu"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:178
 msgid "Enable support for EPGImport"
@@ -7607,7 +7630,7 @@ msgstr "expert"
 
 #: enigma2-plugins/cec/src/CecConfig.py:98
 msgid "Expert options"
-msgstr ""
+msgstr "rozšířené možnosti"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:269
 msgid "Export CSV file"
@@ -7674,7 +7697,7 @@ msgstr "Extra podpora pro jazyk"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:443
 msgid "Extract archive"
-msgstr ""
+msgstr "rozbalit archív"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:20
@@ -8101,6 +8124,11 @@ msgid ""
 "Files exists in current Playlist:\n"
 "%s"
 msgstr ""
+"Soubory přidané do aktuálního seznamu :\n"
+"%s\n"
+"\n"
+"Soubory existující v aktuálním seznamu :\n"
+"%s"
 
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
@@ -8238,7 +8266,7 @@ msgstr "složka :"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:812
 msgid "Folders"
-msgstr ""
+msgstr "složky"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:499
 msgid "Folge"
@@ -8246,7 +8274,7 @@ msgstr "výsledek"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:318
 msgid "Follow symlink"
-msgstr ""
+msgstr "sledovat odkaz"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:663
 msgid "Followed Channels"
@@ -8855,11 +8883,11 @@ msgstr "Informační modul_"
 
 #: EnhancedMovieCenter.py:488
 msgid "HELP_Advanced Skin options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů skinů_"
 
 #: EnhancedMovieCenter.py:492
 msgid "HELP_Advanced audio metadata options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů metadat audia_"
 
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
@@ -8976,7 +9004,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:498
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "Stahování balíčku Mutagen pro audio metadata_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
@@ -9142,7 +9170,7 @@ msgstr "Změna vzhledu boxu podle skinu nebo EMC_"
 
 #: EnhancedMovieCenter.py:391
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
@@ -9307,7 +9335,7 @@ msgstr "Zobrazení audio meta-dat v seznamu videa_"
 
 #: EnhancedMovieCenter.py:504
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr ""
+msgstr "Zobrazení metadat audia (nutná změna skinu)_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
@@ -9427,7 +9455,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:509
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
-msgstr ""
+msgstr "Stáhnout nebo aktualizovat Mutagen v1.28 (experiment)_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
@@ -10337,7 +10365,7 @@ msgstr "vložit soubor do akt.seznamu a přehrát další"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:996
 #, python-format
 msgid "Insert line after line %d"
-msgstr ""
+msgstr "vložit řádek po řádku %d"
 
 #: enigma2-plugins/satloader/src/plugin.py:54
 msgid "Install"
@@ -10345,7 +10373,7 @@ msgstr "instalovat >>"
 
 #: EnhancedMovieCenter.py:550 EnhancedMovieCenter.py:552
 msgid "Install Mutagen-package"
-msgstr ""
+msgstr "instalovat balíček Mutagen"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "Install Mutagen-package for audio metadata"
@@ -10353,12 +10381,12 @@ msgstr "instalovat balíček Mutagen pro audio meta-data"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:432
 msgid "Install bootlogo"
-msgstr ""
+msgstr "instalovat bootlogo"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:312
 #: enigma2-plugins/dreamexplorer/src/plugin.py:448
 msgid "Install package"
-msgstr ""
+msgstr "instalace balíčku z '/tmp'"
 
 #: enigma2-plugins/subsdownloader2/src/pluginOnlineContent.py:88
 msgid "Install plugin"
@@ -10852,7 +10880,7 @@ msgstr "načíst webové kanály pro sadu kanálů"
 
 #: EnhancedMovieCenter.py:391
 msgid "Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:644
 msgid "Load default settings will overwrite all settings, really load them?"
@@ -10990,7 +11018,7 @@ msgstr "soubor protokolu"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:199
 msgid "Log to shell"
-msgstr ""
+msgstr "protokol do schránky"
 
 #: e2openplugin-PushService/src/Controller/SendLog.py:33
 msgid "Log(s) are attached"
@@ -11012,7 +11040,7 @@ msgstr "složka pro zápis : %s"
 #: enigma2-plugins/cec/src/CecDeviceList.py:95
 #, python-format
 msgid "Logical address: %s\n"
-msgstr ""
+msgstr "logická adresa : %s\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "Long Blue button function"
@@ -12045,7 +12073,7 @@ msgstr "název videa :"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1245
 #, python-format
 msgid "Moving %s to %s"
-msgstr ""
+msgstr "přesun %s do %s"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:150
 #, python-format
@@ -12261,7 +12289,7 @@ msgstr "název :"
 #: enigma2-plugins/cec/src/CecDeviceList.py:92
 #, python-format
 msgid "Name: %s\n"
-msgstr ""
+msgstr "název : %s\n"
 
 #: enigma2-plugins/namezap/src/NamezapSetup.py:30
 #: enigma2-plugins/namezap/src/NamezapSetup.py:71
@@ -12374,7 +12402,7 @@ msgstr "nový soubor :"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:996
 msgid "New line:"
-msgstr ""
+msgstr "nový řádek :"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:121
 msgid "New location:"
@@ -13176,7 +13204,7 @@ msgstr "na stejném kanálu"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:31
 msgid "On to Standby"
-msgstr ""
+msgstr "do režimu spánku"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1075
 msgid "One DECT phone registered"
@@ -13212,7 +13240,7 @@ msgstr "časový interval x dnů, po který může být časovač přidaný"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:874
 msgid "Only directories can be bookmarked"
-msgstr ""
+msgstr "pouze složky mohou být záložkami"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:606
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:137
@@ -13309,7 +13337,7 @@ msgstr "otevřít protokol časovačů"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:819
 #: enigma2-plugins/dreamexplorer/src/plugin.py:916
 msgid "Open bookmark"
-msgstr ""
+msgstr "otevřít záložku"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:816
 msgid "Open context menu"
@@ -13330,7 +13358,7 @@ msgstr "otevřít editor"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:320
 msgid "Open in vEditor2"
-msgstr ""
+msgstr "otevřít ve vEditor2"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:684
 msgid "Open menu"
@@ -13835,7 +13863,7 @@ msgstr "Telefon.seznam"
 #: enigma2-plugins/cec/src/CecDeviceList.py:96
 #, python-format
 msgid "Physical address: %s\n"
-msgstr ""
+msgstr "fyzická adresa : %s\n"
 
 #: enigma2-plugins/epgrefresh/src/PipAdapter.py:82
 msgid "PiP available now."
@@ -13946,7 +13974,7 @@ msgstr "začít přehrávat poslední použitý seznam"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:310
 msgid "Play movie"
-msgstr ""
+msgstr "přehrát video"
 
 #: enigma2-plugins/mytube/src/plugin.py:116
 msgid "Play next video"
@@ -13962,7 +13990,7 @@ msgstr "přehrát vybrané video"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:304
 msgid "Play song"
-msgstr ""
+msgstr "přehrát audio"
 
 #: enigma2-plugins/mytube/src/plugin.py:116
 msgid "Play video again"
@@ -14194,10 +14222,12 @@ msgid ""
 "Please select action for\n"
 "%s?"
 msgstr ""
+"Vybrat akci pro :\n"
+"  %s ?"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 msgid "Please select action..."
-msgstr ""
+msgstr "Vyberte akci..."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:28
 msgid "Please select any bouquet"
@@ -14217,7 +14247,7 @@ msgstr "Vyberte alespoň jeden transpondér"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:251
 msgid "Please select new permissions..."
-msgstr ""
+msgstr "Vyberte nová oprávnění..."
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:509
 msgid "Please select tag to filter..."
@@ -14498,7 +14528,7 @@ msgstr ""
 #: enigma2-plugins/cec/src/CecDeviceList.py:97
 #, python-format
 msgid "Power state: %s\n"
-msgstr ""
+msgstr "stav napájení : %s\n"
 
 #: enigma2-plugins/movietagger/src/plugin.py:266
 msgid "Predefined Tag"
@@ -14979,11 +15009,11 @@ msgstr "načíst tel.seznam pro FRITZ!Box"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:251
 msgid "Read, write (644)"
-msgstr ""
+msgstr "čtení, zápis (644)"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:251
 msgid "Read, write, execute (755)"
-msgstr ""
+msgstr "čtení, zápis, spouštění (755)"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:255
 msgid "Read/write error (disk full?)"
@@ -15651,7 +15681,7 @@ msgstr "Přejmenování selhalo !"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:630
 #, python-format
 msgid "Renaming of %s to %s"
-msgstr ""
+msgstr "přejmenovat : %s na %s"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:414
 msgid "Repeat Type"
@@ -15939,7 +15969,7 @@ msgstr "spustit při nabootování"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:316
 msgid "Run script"
-msgstr ""
+msgstr "spustit skript"
 
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:48
@@ -16155,7 +16185,7 @@ msgstr "uložit a zastavit"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:817
 msgid "Save bookmarks"
-msgstr ""
+msgstr "uložit záložky"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:67
 msgid "Save configuration as design / Delete design"
@@ -16257,7 +16287,7 @@ msgstr "měřítko (zoom)"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:54
 msgid "Scan"
-msgstr ""
+msgstr "vyhledat"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:560
 msgid "Scan NFS share"
@@ -16732,11 +16762,11 @@ msgstr "zvolte mód pro rozdělení obrazovky"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1216
 msgid "Select target location..."
-msgstr ""
+msgstr "Vyberte cílovou složku..."
 
 #: enigma2-plugins/teletext/src/plugin.py:1131
 msgid "Select teletext"
-msgstr "zvolte teletext"
+msgstr "vybrat teletext"
 
 #: enigma2-plugins/teletext/src/plugin.py:81
 msgid "Select teletext version to use."
@@ -16850,7 +16880,7 @@ msgstr "odeslat"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:156
 msgid "Send \"long\" keypress"
-msgstr ""
+msgstr "dlouhý stisk tlačítka"
 
 #: enigma2-plugins/cec/src/CecConfig.py:82
 msgid "Send HDMI CEC Power Events"
@@ -17008,22 +17038,22 @@ msgstr "akt.kanál"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1466
 #, python-format
 msgid "Service %s could not be disabled"
-msgstr ""
+msgstr "Službu %s nelze zakázat !"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1463
 #, python-format
 msgid "Service %s could not be enabled"
-msgstr ""
+msgstr "službu %s nelze aktivovat"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1493
 #, python-format
 msgid "Service %s disabled"
-msgstr ""
+msgstr "Služba %s je vypnutá"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1490
 #, python-format
 msgid "Service %s enabled"
-msgstr ""
+msgstr "Služba %s je spuštěná"
 
 #: enigma2-plugins/namezap/src/plugin.py:15
 msgid "Service Name"
@@ -17087,7 +17117,7 @@ msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:478
 msgid "Set as start directory"
-msgstr ""
+msgstr "nastavit jako startovací složku"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:111
 msgid "Set aspect ratio on startup"
@@ -17120,7 +17150,7 @@ msgstr "předvolit aktuální seřazení"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:223
 #: enigma2-plugins/dreamexplorer/src/plugin.py:321
 msgid "Set permissions"
-msgstr ""
+msgstr "nastavit oprávnění"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:392
 msgid "Set remaining time"
@@ -17136,7 +17166,7 @@ msgstr "změnit délku"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1259
 msgid "Set symlink name:"
-msgstr ""
+msgstr "nastavit název odkazu :"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:495
 msgid ""
@@ -17523,7 +17553,7 @@ msgstr "zobrazit audio metadata"
 
 #: EnhancedMovieCenter.py:504
 msgid "Show audio metadata (needs skin-changes)"
-msgstr ""
+msgstr "zobrazit audio metadata (nutná změna skinu)"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:211
 msgid "Show begin/remain times:"
@@ -17771,7 +17801,7 @@ msgstr "zobrazit ikony : "
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:306
 msgid "Show picture"
-msgstr ""
+msgstr "zobrazit obrázek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:337
 msgid "Show plugin config in extensions menu"
@@ -17865,7 +17895,7 @@ msgstr "-- info o nahrávání ve vlastním panelu, stav tuneru"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:230
 #: enigma2-plugins/dreamexplorer/src/plugin.py:308
 msgid "Show thumbnails"
-msgstr ""
+msgstr "zobrazit miniatury"
 
 #: enigma2-plugins/3dsettings/src/plugin.py:220
 msgid "Show top/bottom option in extension menu"
@@ -18088,7 +18118,7 @@ msgstr "Skin MOD - není dostupné žádné info"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2087
 msgid "Skin ORIGINAL - No info available"
-msgstr ""
+msgstr "Skin ORIGINAL - info není k dispozici"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:71
 msgid "Skin could not be rebuilt due to missing themes.xml"
@@ -18096,7 +18126,7 @@ msgstr "Vzhled nebylo možné znovu sestavit kvůli chybějícímu topic.xml"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:75
 msgid "Skin could not be rebuilt due to unsupported version of theme"
-msgstr ""
+msgstr "Skin nemohl být přestavěný, verze tématu není podporovaná !"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:77
 msgid ""
@@ -18444,7 +18474,7 @@ msgstr "↑podle času"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:703
 #: enigma2-plugins/dreamexplorer/src/plugin.py:706
 msgid "Sort asc"
-msgstr ""
+msgstr "seřadit nahoru"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:633
 msgid "Sort birthdays by:"
@@ -18454,7 +18484,7 @@ msgstr "↕seřadit narozeniny podle :"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:684
 #: enigma2-plugins/dreamexplorer/src/plugin.py:689
 msgid "Sort by date"
-msgstr ""
+msgstr "seřadit podle datumu"
 
 #: enigma2-plugins/zapstatistic/src/plugin.py:570
 msgid "Sort by date (ascending)"
@@ -18467,7 +18497,7 @@ msgstr "↓podle data"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:674
 #: enigma2-plugins/dreamexplorer/src/plugin.py:679
 msgid "Sort by name"
-msgstr ""
+msgstr "seřadit podle názvu"
 
 #: enigma2-plugins/zapstatistic/src/plugin.py:568
 msgid "Sort by name (ascending)"
@@ -18481,7 +18511,7 @@ msgstr "↓podle názvu"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:697
 #: enigma2-plugins/dreamexplorer/src/plugin.py:700
 msgid "Sort desc"
-msgstr ""
+msgstr "seřadit dolů"
 
 #: enigma2-plugins/menusort/src/plugin.py:330
 msgid "Sort main menu"
@@ -18681,7 +18711,7 @@ msgstr "po manuálním nabootování přejít do režimu spánku"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:30
 msgid "Standby to On"
-msgstr ""
+msgstr "přepnout do režimu spánku"
 
 #
 #: enigma2-plugins/eparted/src/eparted.py:311
@@ -18727,7 +18757,7 @@ msgstr "start vždy na 1. kanálu"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1359
 msgid "Start at boot"
-msgstr ""
+msgstr "nabootovat"
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:99
 msgid "Start automatically with Enigma2"
@@ -19024,7 +19054,7 @@ msgstr "stream : %s"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:77
 msgid "Stream Client"
-msgstr "stream - klient"
+msgstr "stream klienta"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:78
 msgid "Stream Client with Port"
@@ -19159,7 +19189,7 @@ msgstr "Přepíná OSD mezi 2D a 3D"
 
 #: MovieInfo.py:723
 msgid "Switch complete to new Version"
-msgstr ""
+msgstr "přepnout na novou verzi"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:102
 msgid "Switch to next configured page URL"
@@ -19196,7 +19226,7 @@ msgstr "odebrat zálohy a časovače"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1376
 #, python-format
 msgid "SystemD Viewer - %s"
-msgstr ""
+msgstr "SystemD Viewer - %s"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "TMBD Info"
@@ -19906,6 +19936,8 @@ msgid ""
 "Theme version %s is not supported. Please check for updated version of "
 "MerlinSkinThemes."
 msgstr ""
+"Téma verze %s není podporováno. Zkontrolujte aktualizovanou verzi "
+"MerlinSkinThemes."
 
 #: enigma2-plugins/ftpbrowser/src/plugin.py:59
 msgid ""
@@ -20763,11 +20795,11 @@ msgstr "↕seřadit podle popisu / značek"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1371
 msgid "Toggle label"
-msgstr ""
+msgstr "přepnout označení"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:818
 msgid "Toggle list"
-msgstr ""
+msgstr "přepnout seznam"
 
 #: enigma2-plugins/pipzap/src/plugin.py:698
 msgid "Toggle pipzap status"
@@ -21023,7 +21055,7 @@ msgstr "Zadejte text a stiskněte OK pro odeslání :"
 #: enigma2-plugins/cec/src/CecDeviceList.py:93
 #, python-format
 msgid "Type: %s\n"
-msgstr ""
+msgstr "typ : %s\n"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:29
 msgid "UHD Progressive Mode"
@@ -21090,7 +21122,7 @@ msgstr "Nelze nastavit nové heslo pro '%s' !"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:314
 msgid "Uncompress archive"
-msgstr ""
+msgstr "nekomprimovaný archív"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1147
 msgid "Unconfigured storage devices found!"
@@ -21292,7 +21324,7 @@ msgstr "Aktualizuji, čekejte..."
 
 #: EnhancedMovieCenter.py:509
 msgid "Upgrade/Download Mutagen v1.28(experimental)"
-msgstr ""
+msgstr "stáhnout / aktualizovat Mutagen v1.28 (experimental)"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:204
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:286
@@ -21664,7 +21696,7 @@ msgstr "pole s proměnlivou šířkou"
 #: enigma2-plugins/cec/src/CecDeviceList.py:94
 #, python-format
 msgid "Vendor: %s\n"
-msgstr ""
+msgstr "operátor : %s\n"
 
 #: enigma2-plugins/elektro/src/plugin.py:205
 #: enigma2-plugins/elektro/src/plugin.py:216
@@ -21768,7 +21800,7 @@ msgstr "zobrazit vzdálené textové soubory"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:454
 msgid "View script"
-msgstr ""
+msgstr "zobrazit skript"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:949
 msgid "View this shell-script"
@@ -22707,7 +22739,7 @@ msgstr ""
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1013
 #, python-format
 msgid "You have changed %s. Do you want to save your changes?"
-msgstr ""
+msgstr "Provedli jste změnu %s. Chcete ji uložit ?"
 
 #: enigma2-plugins/pluginsort/src/mphelp.xml
 msgid ""
@@ -23048,7 +23080,7 @@ msgstr "Modul upraví obraz letterbox na anamorph"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:468
 msgid "[All files]"
-msgstr ""
+msgstr "[všechny soubory]"
 
 #: enigma2-plugins/emailclient/src/plugin.py:852
 #, python-format
@@ -23073,7 +23105,7 @@ msgstr "[FreeSpace] HDD je prázdný : "
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:470
 msgid "[Media files]"
-msgstr ""
+msgstr "[mediální soubory]"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1422
 msgid "[PTS-Plugin] Merging records failed!"
@@ -23626,7 +23658,7 @@ msgstr "...kopíruji soubor..."
 #: EMCCoverSearch.py:851 EMCCoverSearch.py:854 EMCCoverSearch.py:872
 #: EMCCoverSearch.py:895
 msgid "covers"
-msgstr ""
+msgstr "obaly"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:940
 msgid "covers in"
@@ -24040,6 +24072,8 @@ msgid ""
 "failed\n"
 "%s"
 msgstr ""
+"selhalo :\n"
+"  %s"
 
 #: enigma2-plugins/emailclient/src/plugin.py:810
 msgid "failed to load message"
@@ -24287,7 +24321,7 @@ msgstr "složka databáze iDream"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:46
 msgid "idle mode"
-msgstr ""
+msgstr "vypnutí"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
 msgid "if audio isn't first language"
@@ -25724,7 +25758,7 @@ msgstr "standardní potisk"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:46
 msgid "standby"
-msgstr ""
+msgstr "režim spánku"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:91
 #: enigma2-plugins/emission/src/EmissionDetailview.py:179
@@ -25810,7 +25844,7 @@ msgstr "příkaz není > 0"
 
 #: EMCCoverSearch.py:705
 msgid "themoviedb cover resolution:"
-msgstr ""
+msgstr "rozlišení obalu z themoviedb :"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "themoviedb.org"
