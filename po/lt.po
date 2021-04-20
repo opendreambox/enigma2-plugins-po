@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-19 09:17+0000\n"
+"POT-Creation-Date: 2021-04-20 05:34+0000\n"
 "PO-Revision-Date: 2020-12-15 16:40+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
@@ -1153,11 +1153,6 @@ msgstr "AUTO STARTAS"
 #: enigma2-plugin-partnerbox/src/plugin.py:1139
 msgid "Abort"
 msgstr "Nutraukti"
-
-#
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid "Abort this Wizard."
-msgstr "Nutraukti šį vedlį."
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:764
 msgid "Abort transfer"
@@ -2362,18 +2357,10 @@ msgstr "Auto laikmačio %s filtrų sąrašo įrašas"
 msgid "AutoTimer Editor"
 msgstr "Auto laikmačio redaktorius"
 
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid "AutoTimer FAQ"
-msgstr "Auto laikmačio klausimai"
-
 #
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:964
 msgid "AutoTimer Filters"
 msgstr "Auto laikmačio filtrai"
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid "AutoTimer Help"
-msgstr "Auto laikmačio pagalba"
 
 #
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1242
@@ -4031,13 +4018,6 @@ msgstr ""
 msgid "Conflicting Timer(s) detected! %s"
 msgstr "Aptikti prieštaringi laikmačiai(s)! %s"
 
-#: enigma2-plugins/autotimer/src/mphelp.xml
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-#: enigma2-plugins/pipzap/src/mphelp.xml
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid "Congratulations"
-msgstr "Sveikinimai"
-
 #: enigma2-plugins/dreamirc/src/plugin.py:110
 msgid "Connect"
 msgstr "Prisijungti"
@@ -4487,10 +4467,6 @@ msgstr "Kurkite atsarginę kopiją į savo vaizdo grotuvą"
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:56
 msgid "Create a directory for each stream"
 msgstr "Kurkite katalogą kiekvienam srautui"
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid "Create a new AutoTimer."
-msgstr "Sukurti naują auto laikmatį."
 
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:301
 msgid "Create a new timer using the classic editor"
@@ -5414,6 +5390,10 @@ msgstr "Virškatalogis"
 msgid "Directory forward"
 msgstr "Pakatalogis"
 
+#: enigma2-plugins/dreamexplorer/src/plugin.py:876
+msgid "Directory is already in bookmarks"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2723
 msgid "Directory is not empty! Do you really want to delete it?"
 msgstr "Katalogas netuščias! Ar tikrai norite jį pašalinti?"
@@ -5437,10 +5417,6 @@ msgstr "Katalogas - viršelių paieška"
 #: enigma2-plugins/dvdbackup/src/plugin.py:309
 msgid "Directory:"
 msgstr "Katalogas:"
-
-#: enigma2-plugins/dreamexplorer/src/plugin.py:876
-msgid "Diretory is already in bookmarks"
-msgstr ""
 
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:42
@@ -6449,10 +6425,6 @@ msgstr "EPG atnaujintojo konfigūravimo pagalba"
 msgid "EPGRefresh Functions"
 msgstr "EPG atnaujintojo funkcijos"
 
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid "EPGRefresh Help"
-msgstr "EPG atnaujintojo pagalba"
-
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
 msgid "EPGRefresh Services"
 msgstr "EPG atnaujintojo kanalai"
@@ -6769,10 +6741,6 @@ msgstr "Redaguoti / perkelti filtrų jungiklį"
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1322
 msgid "Editing"
 msgstr "Redagavimas"
-
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid "Editing the service list"
-msgstr "Redaguokite kanalų sąrašą"
 
 #: enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml./enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml
 msgid "Editor for fstab"
@@ -7797,10 +7765,6 @@ msgstr ""
 msgid "Extras"
 msgstr "Papildomai"
 
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid "FAQ"
-msgstr "DUK"
-
 #: enigma2-plugins/autoresolution/src/plugin.py:26
 msgid "FHD Progressive Mode"
 msgstr "FHD progresyvusis režimas"
@@ -8300,18 +8264,6 @@ msgstr "Filtruoti apribotą turinį:"
 msgid "Filter:"
 msgstr "Filtras:"
 
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"Filters are another powerful tool when matching events. An AutoTimer can be "
-"restricted to certain Weekdays or only match an event with a text inside eg "
-"it's Description.\n"
-"Press BLUE to add a new restriction and YELLOW to remove the selected one."
-msgstr ""
-"Filtrai yra dar vienas galingas įrankis, kaip tinkančių įvykių. Auto "
-"laikmatis gali būti apribotas tam tikromis dienomis.\n"
-"Paspauskite MĖLYNĄ, kad pridėti naują apribojimą ir GELTONĄ, kad pašalinti "
-"vieną, pasirinktą."
-
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:49
 msgid "Finished"
 msgstr "Baigta"
@@ -8548,10 +8500,6 @@ msgstr "Dažnis:"
 msgid "Frequently asked questions"
 msgstr "Dažnai užduodami klausimai"
 
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid "Frequently asked questions about the AutoTimer"
-msgstr "Dažniausiai užduodami klausimai apie auto laikmatį"
-
 #: enigma2-plugin-pzyp4t/src/plugin.py:2108
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:121
 #: enigma2-plugin-partnerbox/src/plugin.py:586
@@ -8705,10 +8653,6 @@ msgstr "Sukurkite atsitiktinį slaptažodį"
 msgid "Generates and Shows TV Charts of all users having this plugin installed"
 msgstr ""
 "Sukuria ir parodo TV laidas visiems vartotojams, turintiems įdiegtą šį priedą"
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid "Generic setup"
-msgstr "Bendrasis nustatymas"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2175
 #, python-format
@@ -10264,32 +10208,6 @@ msgstr ""
 "Netinkamai paleistas priedas.\n"
 "Nutraukiama!"
 
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid ""
-"In addition to just being able to change the order of installed plugins "
-"inside the PluginBrowser, if you press the MENU button you can also change "
-"the order of plugins inside the Extensionsmenu, the EventInfo-Menu (hold the "
-"INFO button when watching TV) or the MovieSelection-Menu (press MENU when "
-"inside the MovieSelection). \n"
-"\n"
-"Once you selected one of these options, you go to a modified PluginBrowser, "
-"which shows the respective plugins and you can change their order just as "
-"described on the previous page. \n"
-"The changes are applied when leaving the editor using the RED or EXIT button "
-"on your remote control."
-msgstr ""
-"Be to, tai galėtų pakeisti įdiegtų priedų tvarką Priedų naršyklėje, jeigu "
-"jūs paspausite MENU mygtuką taip pat galite pakeisti priedų tvarką "
-"išplėstame meniu, Įvykių info meniu (laikykite mygtuką INFO, kai žiūri "
-"televizorių) arba Filmų pasirinkimo meniu (paspauskite MENU, kai esate Filmų "
-"pasirinkime).\n"
-"\n"
-"Kai jūs pasirinkote vieną iš šių parinkčių, galite eiti į modifikuotą Priedų "
-"naršyklę, kuri rodo atitinkamus priedus ir jūs galite pakeisti savo tvarką, "
-"kaip aprašyta ankstesniame puslapyje. \n"
-"Pokyčiai būtų taikomi, kai redaktorius naudoja Raudoną arba EXIT mygtuką "
-"nuotolinio valdymo pulte."
-
 #: enigma2-plugin-vps/src_py/Vps.py:410
 msgid ""
 "In order to record a timer, the TV was switched to the recording service!\n"
@@ -10591,21 +10509,6 @@ msgstr "Ar RC dar veikia?"
 #: enigma2-plugins/mytube/src/plugin.py:94
 msgid "Israel"
 msgstr "Izraelis"
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"It's possible to restrict an AutoTimer to certain Services or Bouquets or to "
-"deny specific ones.\n"
-"An Event will only match this AutoTimer if it's on a specific and not denied "
-"Service (inside a Bouquet).\n"
-"Press BLUE to add a new restriction and YELLOW to remove the selected one."
-msgstr ""
-"Galima suvaržyti Auto laikmatį iki tam tikrų kanalų ar paketų ar panaikinti "
-"vieną.\n"
-"Atvejis kai atitiks šį Auto laikmatį, jei tai bus specifinis ir "
-"nepanaikintas kanalas (pakete).\n"
-"Spauskite MĖLYNĄ, kad pridėti naują apribojimą ir GELTONĄ, kad pašalinti "
-"vieną išsirinktą."
 
 #: enigma2-plugins/imdb/src/plugin.py:52
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
@@ -12601,7 +12504,6 @@ msgstr "Slapyvardis"
 #: enigma2-plugin-moviecut/src_py/plugin.py:95
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid "No"
 msgstr "Ne"
 
@@ -12927,10 +12829,6 @@ msgstr "Ne, bet perjungti į vaizdo įrašus."
 #: enigma2-plugins/mytube/src/plugin.py:577
 msgid "No, but switch to video search."
 msgstr "Ne, bet perjungti į vaizdo paiešką."
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid "No, remove them."
-msgstr "Ne, nepašalinti jų."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:370
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:401
@@ -14322,7 +14220,7 @@ msgstr "Prašome pasirinkti laikmačio tipą, kad pridėti:"
 #, python-format
 msgid ""
 "Please select action for\n"
-"%s?"
+"%s"
 msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
@@ -14484,10 +14382,6 @@ msgstr "Papildoma programa: %(plugin)s , Versija: %(version)s"
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:151
 msgid "PluginHider Setup"
 msgstr "PluginHider valdymas"
-
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid "PluginSort Help"
-msgstr "PluginSort pagalba"
 
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:81
 msgid "Pluginbrowser"
@@ -14941,80 +14835,6 @@ msgstr "Užklausa IMDb: %s"
 #: enigma2-plugins/imdb/src/plugin.py:799
 msgid "Query details from the Internet Movie Database"
 msgstr "Užklausos informacija iš interneto filmų duomenų bazės"
-
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid ""
-"Question: I found a problem with the AutoTimer, can you fix it? \n"
-"Answer: First try the AutoTimer version in a recent (experimental) Image to "
-"see if the problem was fixed. Then read the Help again and the upcoming FAQs "
-"to make sure that this is actually a problem and not expected behavior. \n"
-"If you still think there is something wrong with the AutoTimer, please visit "
-"https://dreambox.de/board/ and post your problem there. \n"
-"\n"
-"Q: The plugin only adds timers when leaving the configuration, not "
-"automatically. What can I do? \n"
-"A: From the Overview press MENU and enter the &quot;Setup&quot;. In this "
-"screen enable &quot;Poll automatically&quot; and you should be good to go."
-msgstr ""
-"Klausimas: Radau problemą su auto laikmačiu, galite ją išspręsti?\n"
-"Atsakymas: Pirmiausia pabandykite auto laikmačio versiją su neseniai "
-"išleistu (eksperimentiniu) atvaizdu, norėdami pamatyti ar problema buvo "
-"išspręsta. Tada skaitykite pagalbą ir einamus DUK, įsitikinkite kad iš "
-"tikrųjų tai yra problema, o ne elgsena.\n"
-"Jei vis dar manote, kad yra kažkas negerai su auto laikmačiu, apsilankykite "
-"https://dreambox.de/board/ ir parašykite savo problemą ten.\n"
-"\n"
-"Klausimas: priedas tik prideda laikmačius išeinant iš konfigūracijos, o ne "
-"automatiškai. Ką aš galiu padaryti?\n"
-"Atsakymas: Apžvalgai paspauskite Meniu ir įrašykite &quot;Setup&quot;. Šiame "
-"ekrane įjungs &quot;Poll automatically&quot; ir jums turėtų būti gerai eiti "
-"pirmyn."
-
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid ""
-"Question: My AutoTimer for &quot;Nachrichten&quot; does not record the &quot;"
-"Sptnachrichten&quot;. \n"
-"Answer: Check &quot;Search type&quot; and &quot;Search strictness&quot; for "
-"the given AutoTimer. \n"
-"\n"
-"Q: The show I'm trying to record contains umlauts in its title. AutoTimer "
-"does not find it. \n"
-"A: Check the &quot;EPG encoding&quot; for the given AutoTimer. For german "
-"stations &quot;ISO8859-15&quot; should be selected. \n"
-"\n"
-"Q: I seem to be unable to record two subsequent events. There is only a "
-"single timer created that spans (part of) both events. \n"
-"A: From the Overview press MENU and enter the &quot;Setup&quot;. In this "
-"screen disable &quot;Guess existing timer based on begin/end&quot;."
-msgstr ""
-"Klausimas: Mano auto laikmatis dėl &quot;Nachrichten&quot; neįrašo &quot;"
-"Sptnachrichten&quot;. \n"
-"Atsakymas: Patikrink &quot;Paieškos tipą&quot; and &quot;Paieškos "
-"griežtumą&quot; nurodytam auto laikmačiui. \n"
-"\n"
-"Kl: Laidos, kurią bandau įrašyti, pavadinime yra umlautai. Auto laikmatis jo "
-"neranda.\n"
-"At: Patikrink &quot;EPG kodavimą&quot; arba nurodytam auto laikmačiui. "
-"Vokietijos stotims &quot;ISO8859-15&quot; turėtų būti pasirinktas. \n"
-"\n"
-"Kl: Atrodo, kad negaliu užfiksuoti dviejų vėlesnių įvykių. Sukurtas tik "
-"vienas laikmatis, kuris apima abu įvykius (jų dalį). \n"
-"At: Apžvalgoje paspauskite MENU ir įveskite &quot;Sąranka&quot;. Šiame "
-"ekrane išjunkite &quot;Atspėk esamą laikmatį pagal pradžią/pabaigą&quot;."
-
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid ""
-"Question: You keep talking about help being provided for each parameter. I'm "
-"unable to read it (in part or in full). \n"
-"Answer: Try using the default skin and if it works ask the creator of your "
-"regular skin. If it still does not work your image might not provide the "
-"actual default skin so contact the creator of your image."
-msgstr ""
-"Klausimas: Jūs nuolat kalbate apie pagalbą, kuri teikiama kiekvienam "
-"parametrui. Aš negali jos skaityti (iš dalies ar visiškai).\n"
-"Atsakymas: Pabandykite naudoti numatytąją temą ir, jei ji veikia paprašykite "
-"jūsų normalios temos kūrėjo. Jei jis vis dar neveikia, jūsų atvaizdas gali "
-"netikti numatytajai temai, tada susisiekite su savo atvaizdo kūrėju."
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:280
 msgid "Queue Manager"
@@ -18423,10 +18243,6 @@ msgstr "Skaidrių rodymo laikas"
 msgid "Smiley"
 msgstr "Šypsenėlės"
 
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid "So that's all you can do?"
-msgstr "Taigi, tai viskas, ką gali padaryti?"
-
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:246
 msgid "Socket timeout"
 msgstr "Lizdo pauzė"
@@ -19110,11 +18926,6 @@ msgstr "Stabdyti įrašymą"
 msgid "Stop running refresh"
 msgstr "Stabdyti paleistą tnaujinimą"
 
-#: enigma2-plugins/pipzap/src/mphelp.xml
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid "Stop stalling! Tell me what to do already."
-msgstr "Stabdymas netenka pagreičio! Pasakyk man, ką daryti dabar."
-
 #: enigma2-plugins/werbezapper/src/WerbeZapper.py:141
 msgid "Stop timer"
 msgstr "Sustabdyti laikmatį"
@@ -19589,43 +19400,6 @@ msgstr "Tekstas, rodomas iš pradžių nežinomam failų skaičiui"
 msgid "Text spacing offset in pixel"
 msgstr "Teksto tarpų poslinkis pikseliais"
 
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"Thank you for using the wizard. Your new AutoTimer has been added to the "
-"List.\n"
-"Please press OK to continue."
-msgstr ""
-"Ačiū, kad naudojatės nustatymų vedliu. Jūsų Auto Laikmatis yra pridėtas į "
-"sąrašą.\n"
-"Prašome spausti OK, kad tęsti."
-
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid ""
-"That's the good part: besides not being able to select services under "
-"parental control, there is none. \n"
-"\n"
-"You might find helpful that by default the STOP key on your remote control "
-"can be used to quickly toggle pipzap when watching Live TV, but if you find "
-"this irritating you may disable this in the pipzap Setup. Among other "
-"things, you can also disable the &quot;indicator&quot; shown in the opposite "
-"corner of you picture in picture if pipzap is active. \n"
-"\n"
-"Just take a look, it won't take long and might help you to change he "
-"behavior of this plugin more to your liking."
-msgstr ""
-"Tai ir yra gera dalis: be to niekas negalės pasirinkti kanalų pagal tėvų "
-"kontrolę. \n"
-"\n"
-"Jūs galite rasti naudą, kad pagal nutylėjimą STOP mygtukas ant nuotolinio "
-"valdymo pulto gali būti naudojamas greitai perjungti pipzap kai žiūri "
-"tiesioginę TV, bet jei jus tai dirgina, galite išjungti tai per pizap "
-"valdymo nustatymą. Tarp kitų dalykų, jūs taip pat galite išjungti &quot; "
-"indikatorių &quot; rodomą priešingame paveikslėlio kampe, jei pipzap yra "
-"aktyvus.\n"
-"\n"
-"Tiesiog pažiūrėkite, tai ilgai neužtruks ir gali padėti jums pakeisti tai, "
-"apie šio priedo elgseną, daugiau pagal savo poreikius."
-
 #: enigma2-plugin-reconstructapsc/src_py/plugin.py:124
 #, python-format
 msgid "The %s \"%s\" is processed in the background."
@@ -19639,35 +19413,6 @@ msgid ""
 msgstr ""
 "Šis %s \"%s\" sėkmingai tvarkomas:\n"
 "%s"
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid "The &quot;Overview&quot;"
-msgstr "Šis &Quot;Apžvalga&quot;"
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid ""
-"The AutoTimer overview is the standard entry point to this plugin.\n"
-"\n"
-"If AutoTimers are configured you can choose them from a list to change them "
-"(OK button on your remove) or remove them (YELLOW button on your remote).\n"
-"New Timers can be added by pressing the BLUE button and the control menu can "
-"be opened using the MENU button.\n"
-"\n"
-"When leaving the plugin using the GREEN button it will search the EPG for "
-"matching events ONCE. To configure a regular search interval of the plugin "
-"to search for events open the control menu and enter the plugin setup."
-msgstr ""
-"Auto laikmačio apžvalga yra standartinis prieigos taškas į šį priedą.\n"
-"\n"
-"Jei auto laikmatis yra sukonfigūruotas, galite juos pasirinkti iš sąrašo, "
-"(OK mygtukas jų pašalinimui) pakeisti arba pašalinti (geltonas mygtukas ant "
-"nuotolinio valdymo pulto).\n"
-"Nauji laikmačiai gali būti pridėti paspaudus mėlyną mygtuką ir galima "
-"atidaryti naudojant MENU mygtuką valdymo meniu.\n"
-"\n"
-"Išeinant iš priedo su ŽALIU mygtuku, jis ieškos EPG atitikimo įvykių VIENĄ "
-"KARTĄ. Kad nustatyti reguliarų priedo paieškos intervalą dėl įvykių "
-"paieškos, reikia eiti į priedo nustatymų valdymą."
 
 #: enigma2-plugins/elektro/meta/plugin_elektro.xml./enigma2-plugins/elektro/meta/plugin_elektro.xml
 msgid ""
@@ -19716,14 +19461,6 @@ msgstr "Nyderlandų"
 msgid "The PopUp will be shown after all dialogs are closed."
 msgstr "Iššokantys aukštyn bus rodomi po visų dialogų uždarymo."
 
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"The Timer will not be added to the List.\n"
-"Please press OK to close this Wizard."
-msgstr ""
-"Laikmatis nebus pridėtas prie Sąrašo.\n"
-"Prašome spausti OK, kad uždarytumėte šį Vedlį."
-
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:725
 msgid ""
 "The Timeshift record was not saved yet!\n"
@@ -19731,16 +19468,6 @@ msgid ""
 msgstr ""
 "Laiko poslinkio įrašas dar neišsaugotas!\n"
 "Ką norite daryti dabar su laiko poslinkio failu?"
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"The Timespan of an AutoTimer is the first 'advanced' attribute. If a "
-"timespan is specified an event will only match this AutoTimer if it lies "
-"inside of this timespan."
-msgstr ""
-"Auto laikmačio laiko atkarpa yra pirmasis 'išplėstinis' atributas. Jei laiko "
-"atkarpoje yra nurodytas įvykis, tai bus tik atitikimas šio Auto laikamčio, "
-"jei ji yra viduje tai laiko atkarpos."
 
 #: enigma2-plugin-vps/meta/plugin_vps.xml./enigma2-plugin-vps/meta/plugin_vps.xml
 msgid ""
@@ -19779,52 +19506,6 @@ msgstr ""
 #: enigma2-plugins/twitchtv/src/plugin.py:539
 msgid "The channel wasn't found on Twitch"
 msgstr "Kanalas nebuvo rastas Twitch"
-
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid "The configuration menu"
-msgstr "Konfigūravimo meniu"
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid ""
-"The control menu hides less frequently used options of the plugin, including "
-"the configuration and default settings for new AutoTimers.\n"
-"\n"
-"While you can just open the menu and take a look for yourself, let's go "
-"through the available options:\n"
-" - Help:\n"
-"   What you are looking at right now\n"
-" - Preview:\n"
-"   Simulate EPG search, helps finding errors in your setup.\n"
-" - Import existing Timer:\n"
-"   Create a new AutoTimer based on an existing regular timer.\n"
-" - Import from EPG:\n"
-"   Create an AutoTimer based on an EPG event.\n"
-" - Setup:\n"
-"   Generic configuration of the plugin.\n"
-" - Edit new timer defaults:\n"
-"   Configure default values for new AutoTimers.\n"
-" - Create a new timer using the wizard/classic editor:\n"
-"   Use the non-default editor to create a new AutoTimer."
-msgstr ""
-"Valdymo meniu slepia rečiau naudojamų priedų nustatymus, įskaitant "
-"konfigūracijas ir numatytųjų nustatymų naujus auto laikmačius.\n"
-"\n"
-"Nors jūs galite tiesiog atidaryti meniu ir pažiūrėti sau išvaizdą, einant "
-"per galimas funkcijas:\n"
-" - Pagalba:\n"
-"   Ko jūs ieškote dabar\n"
-" - Peržiūra:\n"
-"   Imituoti EPG paiešką, padeda rasti klaidas savo nustatymuose.\n"
-" - Importuoti esamą laikmatį:\n"
-"   Sukurti naują auto laikmatį, remiantis esamais reguliariais laikmačiais.\n"
-" - Importuoti iš EPG:\n"
-"   Sukurti auto laikmačiu grindžiamą EPG įvykį.\n"
-" - Valdymas:\n"
-"   Bendroji priedo konfigūracija.\n"
-" - Redaguoti naują laikmatį pagal nutylėjimą:\n"
-"   Konfigūruoti numatytąsias reikšmes naujam auto laikmačiui.\n"
-" - Sukurti naują laikmatį naudojant vedlį/klasikinį redaktorių:\n"
-"   Naudokite ne numatytąjį redaktorių, kad sukurti naują auto laikmatį."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:577
 msgid ""
@@ -20172,26 +19853,6 @@ msgstr ""
 msgid "This Dreambox can't decode %s streams!"
 msgstr "Šis Dreambox negali iššifruoti %s srautų!"
 
-#: enigma2-plugins/autotimer/src/faq.xml
-msgid ""
-"This FAQ is supposed to help everyone unwilling to help themselves by "
-"reading all the provided help available, and those who did not find a "
-"solution to their problems within the provided documentation. \n"
-"\n"
-"To make these hints a little easier to read, they are split up on multiple "
-"pages. You can go to the next page using the BLUE button on your remote "
-"control and back using the YELLOW one. Pressing the RED button or EXIT will "
-"close the FAQ."
-msgstr ""
-"Tai DUK, kurie turėtų padėti visiems, norintiems padėti sau skaitant visą "
-"pateiktą prieinamą pagalbą, ir tiems, kurie nerado sprendimo savo problemoms "
-"su pateiktais dokumentais.\n"
-"\n"
-"Norėdami, kad šiuos patarimus būtų šiek tiek lengviau skaityti, jie yra "
-"padalinti ant kelių lapų. Jūs galite pereiti į kitą puslapį, naudojant "
-"MĖLYNĄ mygtuką ant nuotolinio valdymo pulto ir atgal naudojant GELTONĄ. "
-"Paspaudus RAUDONĄ mygtuką arba EXIT bus uždaryti DUK."
-
 #: enigma2-plugin-pzyp4t/src/plugin.py:3420
 #: enigma2-plugin-pzyp4t/src/plugin.py:3788
 msgid "This Is Your Current Color"
@@ -20241,106 +19902,6 @@ msgstr ""
 msgid "This function is yet not available!"
 msgstr "Ši funkcija nepasiekiama!"
 
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid ""
-"This guide is supposed to give you a quick look at how PluginSort works. \n"
-"\n"
-"You can abort it at any time by pressing the RED or EXIT button on your "
-"remote control or bring it up at a later point by selection it from the "
-"context menu of the PluginBrowser by pressing the MENU button. \n"
-"\n"
-"\n"
-"But you should really consider to take the few minutes it takes to read "
-"these help pages now instead of spending more on trying to find it out how "
-"to use this plugin afterwards."
-msgstr ""
-"Šis vadovas turėtų suteikti jums greitą apžvalgą, kaip Priedų rūšiuotojas "
-"veikia.\n"
-"\n"
-"Jūs galite nutraukti bet kuriuo metu, paspausdami RAUDONĄ arba EXIT mygtuką "
-"ant nuotolinio valdymo pulto arba jį vėliau pasirinkti iš kontekstinio "
-"meniu, priedų naršyklėje paspausdami MENU mygtuką.\n"
-"\n"
-"\n"
-"Jums tikrai turėtų būti galimybė užtrukti keletą minučių, kad perskaityti "
-"šiuos pagalbos puslapius jau dabar, užuot sugaišę daugiau laiko, kad bandyti "
-"sužinoti kaip naudotis šiuo priedu po to."
-
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid ""
-"This guide is supposed to give you a quick look at what pipzap can do. \n"
-"\n"
-"First: You either just activated pipzap or opened the help manually. If the "
-"former is the case, don't worry: this screen shows only once ;-) \n"
-"\n"
-"You can abort this help at any time by pressing the RED or EXIT button on "
-"your remote control or bring it up at a later point by pressing the BLUE "
-"button in the pizap setup inside the &quot;System&quot; settings. \n"
-"\n"
-"\n"
-"But you should really consider to take the few minutes it takes to read "
-"these help pages now instead of spending more on trying to find it out how "
-"to use this plugin afterwards."
-msgstr ""
-"Šis vadovas turėtų suteikti jums greitą apžvalgą, ką pipzap gali padaryti.\n"
-"\n"
-"Pirma: Jūs tiesiog turite aktyvuoti pizap arba atidaryti pagalbą rankiniu "
-"būdu. Jei ankstesnis atvejis, nesijaudinkite: šis ekranas rodo tik vieną "
-"kartą;-) \n"
-"\n"
-"Galite nutraukti šią pagalbą bet kuriuo metu, paspaudus RAUDONĄ arba EXIT "
-"mygtuką ant nuotolinio valdymo pulto, arba vėliau, paspaudus MĖLYNĄ mygtuką "
-"į pizap vidaus nustatymą &quot;Sistemos&quot; parametrus.\n"
-"\n"
-"\n"
-"Jums tikrai turėtų būti galimybė užtrukti keletą minučių, kad perskaityti "
-"šiuos pagalbos puslapius jau dabar, užuot sugaišę daugiau laiko, kad bandyti "
-"sužinoti kaip naudotis šiuo priedu po to."
-
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid ""
-"This help screen is supposed to give you a quick look at everything "
-"EPGRefresh has to offer.\n"
-"You can abort it at any time by pressing the RED or EXIT button on your "
-"remote control or bring it up at a later point by pressing the HELP button "
-"from the configuration menu (more on that later).\n"
-"\n"
-"\n"
-"But you really should consider to take the few minutes it takes to read "
-"these help pages."
-msgstr ""
-"Šis pagalbos ekranas leidžia jums greitai peržiūrėti EPG atnaujintoją.\n"
-"Jūs galite nutraukti bet kuriuo metu paspaudus RAUDONĄ arba EXIT mygtuką ant "
-"nuotolinio valdymo pulto, arba vėliau paspaudus mygtuką HELP iš "
-"konfigūracijos meniu (daugiau apie tai vėliau).\n"
-"\n"
-"\n"
-"Tačiau jūs tikrai turite apsvarstyti galimybę rasti keletą minučių, kad "
-"perskaityti šiuos pagalbos puslapius."
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid ""
-"This help screen is supposed to give you a quick look at everything the "
-"AutoTimer has to offer.\n"
-"You can abort it at any time by pressing the RED or EXIT button on your "
-"remote control or bring it up at a later point by selecting it from the "
-"control menu using the MENU button from the regular entry point of the "
-"plugin (more on that later).\n"
-"\n"
-"\n"
-"But you really should consider to take the few minutes it takes to read "
-"these help pages."
-msgstr ""
-"Šis pagalbos ekranas turėtų duoti jums greitą apžvalgą visko, ką Auto "
-"laikmatis turi pasiūlyti.\n"
-"Jūs galite tai nutraukti bet kuriuo metu, paspaudę RAUDONĄ arba EXIT mygtuką "
-"ant nuotolinio valdymo pulto, arba vėliau pasirinkdami iš valdymo meniu, "
-"naudojant mygtuką MENU (daugiau apie tai vėliau ).\n"
-"\n"
-"\n"
-"Bet jūs tikrai turėtumėte rasti galimybę užtrukti keletą minučių, kad "
-"perskaityti šiuos pagalbos puslapius."
-
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:553
 msgid ""
 "This is a name you can give the AutoTimer. It will be shown in the Overview "
@@ -20348,26 +19909,6 @@ msgid ""
 msgstr ""
 "Tai yra pavadinimas, kurį jūs galite duoti Auto laikmačiui. Tai bus rodoma "
 "bendroje peržiūroje."
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid ""
-"This is mostly a matter of taste.\n"
-"The Wizard provides you with a reduced set of options and presents them in "
-"smaller sets at a time. It is mostly aimed at users not very experienced "
-"with this plugin or the &quot;expert&quot; level features of enigma2.\n"
-"\n"
-"You can check out the &quot;classic&quot; editor by opening an existing "
-"timer from the overview and if you prefer this view over the wizard you can "
-"change the default editor in the setup dialog."
-msgstr ""
-"Tai daugiausia skonio reikalas.\n"
-"Vedlys suteikia jums su riboto rinkinio galimybes ir teikia juos mažesnių "
-"rinkinių metu. Tai dažniausiai skiriama vartotojams, kurie nėra labai "
-"patyrę. Su šiuo priedu arba &quot;specialistas&quot; enigma2 lygio bruožai.\n"
-"\n"
-"Galite patikrinti &quot;klasika&quot; redaguoti atidarant esamą laikmatį iš "
-"apžvalgos, ir jei norite šį vaizdą per vedlį galite pakeisti numatytuoju "
-"redaktoriumi valdymo dialoge."
 
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:99
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:116
@@ -20408,32 +19949,6 @@ msgstr ""
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:70
 msgid "This is the duration in minutes that the AutoTimer is allowed to run."
 msgstr "Tai laikas minutėmis, kad Auto laikmačiui bus leista startuoti."
-
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid ""
-"This is the entry point of EPGRefresh. From this menu you can configure "
-"every aspect of the plugin.\n"
-"The configuration options each have an explaination which is supposed to "
-"help you to understand their effects better. Please give reading them a try, "
-"they can save you a lot of time.\n"
-"\n"
-"Using the YELLOW button you can start a refresh manually. You also be able "
-"to enable the functionalities in the Extensionmenu. The INFO button brings "
-"up the date the last refresh was completed successfully. You will also find "
-"an Extensionmenu-Entry to stop a running Refresh.\n"
-"The BLUE key opens the service editor (next page)."
-msgstr ""
-"Tai įrašo vieta EPG atnaujinimas. Iš šio meniu galite konfigūruoti kiekvieną "
-"priedo aspektą.\n"
-" Konfigūracijos parinktys kiekvienam turi paaiškinimą, kuris turėtų padėti "
-"jums suprasti jų poveikį geriau. Prašome skaityti ir pabandyti, tai gali "
-"jums sutaupyti daug laiko.\n"
-"\n"
-"Naudojant GELTONĄ mygtuką galite pradėti atnaujinti rankiniu būdu. Jūs taip "
-"pat galite įjungti išplėsto meniu funkcijas. INFO mygtukas atidaro datą, "
-"kada paskutinis atnaujinimas buvo baigtas sėkmingai. Jūs taip pat rasite "
-"išplėstame meniu kaip sustabdyti veikiantį atnaujinimą.\n"
-"BLUE mygtukas atveria kanalų redaktorių (kitame puslapyje)."
 
 #: enigma2-plugins/mytube/src/plugin.py:1473
 msgid "This is the help screen. Feed me with something to display."
@@ -20486,25 +20001,6 @@ msgstr ""
 "\n"
 "Naudojimo informacija pateikiama su HELP klavišu, filmų sąraše"
 
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid ""
-"This screen should be pretty straight-forward. If the option name does not "
-"give its meaning away there should be an explanation for each of them when "
-"you select them. If there is no visible explanation this is most likely a "
-"skin issue and please try if the default skin fixes the issue.\n"
-"\n"
-"A lot of effort has been put in making the parameters as easy to understand "
-"as possible, so give reading them a try ;-)."
-msgstr ""
-"Šis ekranas turėtų būti gana tiesiogiai į priekį. Jei parinkties pavadinimas "
-"nesuteikia jam prasmės toli, ten turėtų būti apie kiekvieną iš jų "
-"paaiškinta, kai jūs pasirenkate juos. Jei nėra matomas paaiškinimas tai "
-"greičiausiai temos problema ir prašome pabandyti numatytąją temą, kuri "
-"išsprendžia šią problemą.\n"
-"\n"
-"Daug pastangų buvo įdėta į parametrų sukūrimą, kad lengviau suprasti kiek "
-"tai įmanoma, kad duoti skaityti ir pabandyti ;-)."
-
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:73
 msgid "This setting controls the behavior when a timer matches a found event."
 msgstr ""
@@ -20533,10 +20029,6 @@ msgid ""
 msgstr ""
 "Šis nustatymas kontroliuoja, ar imtuvas turi būti nustatomas į budėjimo "
 "režimą po baigto atnaujinimo."
-
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid "This sounds surprisingly easy, what's the catch?"
-msgstr "Tai garsas neįtikėtinai lengvas, kame reikalas?"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:77
 msgid ""
@@ -22308,18 +21800,6 @@ msgstr "Kas savaitę (sekmadienį)"
 msgid "Weeks"
 msgstr "Savaitės"
 
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid "Welcome to EPGRefresh"
-msgstr "Sveiki atvykę į EPG atnaujinimą"
-
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid "Welcome to PluginSort"
-msgstr "Sveiki atvykę į priedų rūšiavimą"
-
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid "Welcome to the AutoTimer-Plugin"
-msgstr "Sveiki atvykę į auto laikmačio priedą"
-
 #: enigma2-plugins/mytube/src/plugin.py:242
 msgid ""
 "Welcome to the MyTube Youtube Player.\n"
@@ -22371,18 +21851,6 @@ msgstr ""
 "\n"
 "Spauskite EXIT, kad grįžti į įvesties lauką."
 
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"Welcome.\n"
-"\n"
-"This Wizard will help you to create a new AutoTimer by providing "
-"descriptions for common settings."
-msgstr ""
-"Sveiki atvykę. \n"
-"\n"
-"Šis vedlys padės jums sukurti naują automatinį laikmatį, teikiantį bendrų "
-"nustatymų aprašymus."
-
 #: enigma2-plugins/werbezapper/src/WerbeZapper.py:279
 #, python-format
 msgid ""
@@ -22428,10 +21896,6 @@ msgstr "Vakarų ir Rytų Europa"
 msgid "What do you want to do?"
 msgstr "Ką norėtumėte daryti?"
 
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid "What is this &quot;control menu&quot; you keep talking about?"
-msgstr "Kas tai yra &quot;valdymo meniu&quot; jūs nuolat kalbate apie tai?"
-
 #: enigma2-plugins/simplerss/src/RSSScreens.py:468
 msgid "What to do?"
 msgstr "Ką daryti?"
@@ -22440,65 +21904,6 @@ msgstr "Ką daryti?"
 #, python-format
 msgid "What would you like to reconstruct?  (\"%s\")"
 msgstr "Ką norėtumėte rekonstruoti?  (\"%s\")"
-
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid ""
-"When inside the PluginBrowser, it behaves just as it normally would. Besides "
-"the fact that it is a whole lot different. \n"
-"\n"
-"If the SoftwareManager is installed, you can gain access to the so-called "
-"Move-Mode by pressing the GREEN button on your remote control. \n"
-"\n"
-"\n"
-"From now on pressing OK will not launch a plugin, but instead the entry you "
-"had selected is highlighted and you can move it around using the LEFT, "
-"RIGHT, UP and DOWN buttons of your remote control. \n"
-"Once you moved the plugin to a position of your liking, you can deselect it "
-"by pressing the OK button again."
-msgstr ""
-"Kai yra priedų naršyklėje, elgiasi lygiai taip pat paprastai. Nepaisant kad "
-"yra skirtumų.\n"
-"\n"
-"Jei programinės įrangos priedas yra įdiegtas, jūs galite gauti prieigą prie "
-"vadinamo perkėlimo režimo, spausdami ŽALIĄ mygtuką ant nuotolinio valdymo "
-"pulto.\n"
-"\n"
-"\n"
-"Nuo šiol spaudžiant OK nebus paleidžiamas priedas, bet vietoj to bus įrašas, "
-"kurį jūs pasirinkote paryškintą ir jūs galite perkelti jį naudodami KAIRĖN, "
-"DEŠINĖN, AUKŠTYN ir ŽEMYN mygtukus nuotolinio valdymo pulte.\n"
-"Kai perkėlėte priedą į padėtį pagal jūsų skonį, galite panaikinti jį dar "
-"kartą paspausdami mygtuką OK."
-
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid ""
-"When pipzap is activated, instead of the main picture you change the channel "
-"displayed as picture in picture. \n"
-"To do so just select another (playable) service from the ChannelSelection "
-"and watch magic happen. Channels under parental control are currently not "
-"selectable as picture in picture, this might change in a future version but "
-"for now you have been warned. \n"
-"\n"
-"Inside the context menu of the ChannelSelection (press MENU key while "
-"browsing) you can switch the service displayed as main picture without "
-"disabling pipzap. \n"
-"Please not that now only the ChannelSelection changes what is displayed "
-"inside the picture in picture, but also the LEFT / RIGHT keys on your remote "
-"control."
-msgstr ""
-"Kai pip jungėjas yra įjungtas, vietoj pagrindinio paveikslėlio galite "
-"pakeisti rodomą kanalą kaip paveikslėlį paveikslėlyje.\n"
-"Norėdami tai padaryti, tiesiog pasirinkite kitą (rodomą) kanalą iš kanalų "
-"pasirinkimo ir žiūrėkite magiškus įvykius. Kanalai, su tėvų kontrole šiuo "
-"metu nėra pasirenkami kaip paveikslėlis paveikslėlyje, tai galima pakeisti "
-"būsimoje versijoje, jūs jau buvote apie tai įspėti.\n"
-"\n"
-"Kontekstiniame kanalų pasirinkimo meniu (paspauskite MENU naršymo mygtuku) "
-"galite perjungti rodomą kanalą kaip pagrindinį vaizdą be pip jungėjo "
-"išjungimo.\n"
-"Prašome turėti mintyje, kad dabar tik kanalo pasirinkimas keičia tai, kas "
-"rodoma paveikslėlis paveikslėlyje, taip pat KAIRĖN / DEŠINĖN mygtukais "
-"nuotolinio valdymo pulte."
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:83
 msgid ""
@@ -22577,33 +21982,6 @@ msgstr "Prie kurio serverio norite prisijungti?"
 #: enigma2-plugins/emission/src/EmissionOverview.py:226
 msgid "Which sorting method do you prefer?"
 msgstr "Kuris rūšiavimo metodas jums labiau patinka?"
-
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid ""
-"While the screen does not immediately show it, it does have a lot to offer. "
-"The topmost line allows you to choose between the editor for channels and "
-"bouquets and the following lines contain the channels/bouquets you chose to "
-"refresh.\n"
-"\n"
-"You can use the BLUE button to add a new entry to the list or the YELLOW "
-"button to remove an existing one.\n"
-"\n"
-"\n"
-"For most people it should be sufficient to add the &quot;Favourites&quot; "
-"bouquet by selecting &quot;Bouquets&quot; in the first line and by adding it "
-"using the BLUE button."
-msgstr ""
-"Nors ekranas ne iš karto jį parodys, jis turi daug ką pasiūlyti. Viršutinė "
-"eilutė leidžia Jums pasirinkti tarp kanalų redaktoriaus ir paketų ir šios "
-"eilutės kanalų/paketų pasirinktų atnaujinti.\n"
-"\n"
-"Galite naudoti MĖLYNĄ mygtuką, kad pridėti naują įrašą į sąrašą arba GELTONĄ "
-"mygtuką, kad pašalinti esamą.\n"
-"\n"
-"\n"
-"Daugumai žmonių tai turėtų būti pakankama, kad įtraukti &quot;"
-"Mėgstamus&quot; paketą pasirinkimui&quot;Paketus&quot; pirmoje eilutėje ir "
-"pridėjimui naudoti MĖLYNĄ mygtuką."
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
@@ -22687,10 +22065,6 @@ msgstr ""
 msgid "Wizard"
 msgstr "Vedlys"
 
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid "Wizard or Classic Editor?"
-msgstr "Vedlys arba klasikinis redaktorius?"
-
 #: enigma2-plugins/imdb/src/plugin.py:738
 msgid "Words / phrases to ignore (comma separated)"
 msgstr "Žodžiai / ignoruotos frazės (atskirtos kableliais)"
@@ -22767,7 +22141,6 @@ msgstr "'GELTONO' mygtuko funkcija"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
 #: enigma2-plugin-moviecut/src_py/plugin.py:95
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
 msgid "Yes"
 msgstr "Taip"
 
@@ -22793,10 +22166,6 @@ msgstr "Taip, daugiau neklausti"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:363
 msgid "Yes, everything"
 msgstr "Taip, viskas"
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid "Yes, keep them."
-msgstr "Taip, juos saugoti."
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:363
 msgid "Yes, only extra title"
@@ -22847,16 +22216,6 @@ msgstr ""
 "būti pasirinkta pagal nutylėjimą, kad atkuriama medija atitiktų jūsų "
 "asmeninius pageidavimus."
 
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"You can set the basic properties of an AutoTimer here.\n"
-"While 'Name' is just a human-readable name displayed in the Overview, 'Match "
-"in title' is what is looked for in the EPG."
-msgstr ""
-"Jūs galite nustatyti pagrindines Auto laikmačio ypatybes čia.\n"
-"Tuo metu, kai 'Vardas' yra tik žmogaus lengvai skaitomas vardas, rodytas "
-"Peržiūroje, 'Pavadinime' yra tai, kas ieškoma EPG."
-
 #: enigma2-plugins/easyinfo/meta/plugin_easyinfo.xml./enigma2-plugins/easyinfo/meta/plugin_easyinfo.xml
 msgid ""
 "You can use the EasyInfo for manage your EPG plugins from info button. You "
@@ -22882,16 +22241,6 @@ msgstr ""
 msgid "You cannot delete this!"
 msgstr "Jūs negalite to ištrinti!"
 
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"You did not provide a valid 'Match in title' Attribute for your new "
-"AutoTimer.\n"
-"As this is a mandatory Attribute you cannot continue without doing so."
-msgstr ""
-"Jūs nepateikėte galiojančio 'Pavadinimo' požymių jūsų naujam Auto "
-"laikmačiui.\n"
-"Kadangi tai yra privalomas Požymis, jūs negalite tęsti, nedarydami taip."
-
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:269
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:796
 #, python-format
@@ -22906,63 +22255,6 @@ msgstr ""
 #, python-format
 msgid "You have changed %s. Do you want to save your changes?"
 msgstr ""
-
-#: enigma2-plugins/pluginsort/src/mphelp.xml
-msgid ""
-"You have reached the end of this short guide and should know by now how to "
-"rearrange your installed plugins to your liking. \n"
-"If you do not, you can bring these pages up at any later point by pressing "
-"the MENU button in the PluginBrowser and selecting the entry labeled &quot;"
-"Help&quot;. \n"
-"\n"
-"\n"
-"Before sending you off to try out the plugin first hand, I want to point you "
-"at the fact that you are also able to start the first 10 plugins in the "
-"PluginBrowser by pressing the buttons 1 (for the first plugin) to 0 (for the "
-"tenth plugin) on your remote control."
-msgstr ""
-"Jūs pasiekėte šios trumpos instrukcijos pabaigą ir turėtumėte žinoti kaip "
-"dabar tvarkyti savo įdiegtus priedus pagal savo skonį.\n"
-"Jeigu to nepadarėte, galite palikti šį puslapį, bet vėliau, pasirinkę "
-"tinkamą momentą ir paspaudę MENU mygtuką Priedų naršyklėje, pasirinkti "
-"paženklintą įrašą &quot;Pagalba&quot ;.\n"
-"\n"
-"\n"
-"Prieš siųsdami jums neišbandytus priedus iš pirmų rankų, aš noriu jums "
-"priminti tai, kad jūs taip pat gali pradėti pirmuosius 10 priedus Priedų "
-"naršyklėje spausdami mygtukus 1 (pirmas priedas) 0 (už dešimt priedų) "
-"nuotolinio valdymo pulte."
-
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid ""
-"You have reached the end of this short guide and should know by now how to "
-"use pipzap and change it's settings. \n"
-"If you do not, you can bring these pages up at any later point by entering "
-"the &quot;pipzap&quot; setup which can be found inside the &quot;"
-"System&quot; settings. \n"
-"\n"
-"\n"
-"Before sending you off to try out the plugin first hand, I need to tell you "
-"that the plugin currently is not fully compatible with &quot;Permanent "
-"Timeshift&quot;, which means that you are unable to toggle pipzap from "
-"within the PluginBrowser (ca be enabled from the plugin settings) or when "
-"watching a recording. \n"
-"This is supposed to change in the future, but for now this is unfortunately "
-"how things are."
-msgstr ""
-"Jūs pasiekėte šios trumpos instrukcijos pabaigą ir turėtumėte žinoti, dabar, "
-"kaip naudotis pipzap ir pakeisti jo nustatymus.\n"
-"Jeigu to nepadarėte, galite palikti šį puslapį, bet vėliau, pasirinkę "
-"tinkamą momentą įvesti &quot;pipzap&quot; valdyme, kurį galima rasti &quot; "
-"Sistema&quot; nustatymai.\n"
-"\n"
-"\n"
-"Prieš siųsdami jums neišbandytus priedus iš pirmų rankų, man reikia "
-"pasakyti, kad priedai šiuo metu nėra visiškai suderinti su &quot;Nuolatiniu "
-"laiko poslinkiu&quot;, o tai reiškia, kad jūs negalite perjungti pipzap per "
-"Priedų naršyklę (įjungta per priedų nustatymus), arba kai žiūrimas "
-"įrašymas.\n"
-"Tai turėtų pasikeisti ateityje, bet dabar tai deja, taip viskas yra."
 
 #: enigma2-plugin-partnerbox/src/plugin.py:165
 msgid ""
@@ -23016,53 +22308,6 @@ msgstr ""
 "\n"
 "Tai gali būti komunikacijos problema, tiesiog bandykite dar kartą."
 
-#: enigma2-plugins/autotimer/src/mphelp.xml
-msgid ""
-"You now know almost everything there is to know about the AutoTimer-Plugin.\n"
-"\n"
-"As a final hint I can't stress how important it is to take a look at the "
-"help texts that are shown in the setup dialogs as they cover the most "
-"frequently asked questions. Surprisingly even after the hints were added ;-)."
-msgstr ""
-"Dabar jūs žinote, beveik viską, ką galima žinoti apie Auto laikmačio "
-"priedą.\n"
-"\n"
-"Kaip galutinę užuominą, Aš negaliu nepabrėžti, kaip svarbu yra žiūrėti į "
-"mūsų pagalbos tekstus, kurie yra aprašyti valdymo dialogo languose, nes jie "
-"apima dažniausiai užduodamus klausimus, išvaizdą. Keista, net po to, kai "
-"užuominų buvo pridėta;-)."
-
-#: enigma2-plugins/epgrefresh/src/mphelp.xml
-msgid ""
-"You now know how to do your first steps in EPGRefresh.\n"
-"\n"
-"As a final note I want to hint you at the fact that this plugin will not do "
-"anything on its own without YOU telling it to. So if you want the refresh to "
-"happen automatically in the background you need to configure the plugin to "
-"do so.\n"
-"This was not done to cause you any inconvenience but rather to give you the "
-"freedom of choice."
-msgstr ""
-"Dabar jūs žinote, kaip daryti savo pirmuosius žingsnius EPG atnaujinime.\n"
-"\n"
-"Kaip baigiamą natą, noriu duoti užuominą jums apie tai, kad šis priedas bus "
-"niekas be Jūsų. Taigi, jei norite, kad atnaujinimas vyktų automatiškai fone, "
-"jums reikia sukonfigūruoti priedą.\n"
-"Tai nebuvo padaryta, kad nesukelti jums jokių nepatogumų, o kad turėtumėte "
-"pasirinkimo laisvę."
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"You successfully configured a new AutoTimer. Do you want to add it to the "
-"list?\n"
-"\n"
-"You can go back a step by pressing EXIT on your remote."
-msgstr ""
-"Jūs sėkmingai sukonfigūravote naują Auto laikmatį. Jūs norite pridėti tai "
-"prie sąrašo?\n"
-"\n"
-"Jeigu norite grįžti žingsnį atgal, spauskite EXIT ant valdymo pulto."
-
 #: enigma2-plugins/easymedia/src/plugin.py:202
 msgid "YouTube player:"
 msgstr "YouTube grotuvas:"
@@ -23071,14 +22316,6 @@ msgstr "YouTube grotuvas:"
 #: enigma2-plugins/yttrailer/src/plugin.py:57
 msgid "YouTube-Trailer Setup"
 msgstr "YouTube anonsų valdymas"
-
-#: enigma2-plugins/autotimer/src/autotimerwizard.xml
-msgid ""
-"Your 'Match in title' Attribute ends with a Whitespace.\n"
-"Please confirm if this was intentional, if not they will be removed."
-msgstr ""
-"Jūsų 'Pasirinktame pavadinime' požymio pabaiga su tuščiais tarpais.\n"
-"Prašome patvirtinti, jei tai buvo padaryta tyčia, jei ne jie bus pašalinti."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCTasker.py:217
 msgid ""
@@ -25315,17 +24552,9 @@ msgstr "pauzė"
 msgid "picture and teletext"
 msgstr "vaizdas ir teletekstas"
 
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid "pipzap Help"
-msgstr "pip jungimo pagalba"
-
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:34
 msgid "pipzap Setup"
 msgstr "pip jungimo valdymas"
-
-#: enigma2-plugins/pipzap/src/mphelp.xml
-msgid "pipzap in four pages"
-msgstr "pip jungimas keturiuose puslapiuose"
 
 #: enigma2-plugins/pipzap/src/plugin.py:681
 msgid ""
