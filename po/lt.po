@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 05:14+0000\n"
-"PO-Revision-Date: 2020-12-15 16:40+0000\n"
+"PO-Revision-Date: 2021-04-23 05:14+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/lt/>\n"
@@ -15,10 +15,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
-"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
-"1 : 2);\n"
-"X-Generator: Weblate 4.3.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 4.6\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-POOTLE-MTIME: 1560959649.000000\n"
 
@@ -451,7 +450,7 @@ msgstr "%i msek"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1487
 #, python-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:229
 #, python-format
@@ -984,7 +983,7 @@ msgstr "Klientas dėl www.dyndns.org"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:70
 msgid "A file explorer for DreamOS"
-msgstr ""
+msgstr "DreamOS failų naršyklė"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:536
 #, python-format
@@ -1116,7 +1115,7 @@ msgstr "API šaknis"
 
 #: e2openplugin-PushService/src/Controller/APTUpdateNotification.py:35
 msgid "APT Update Notification"
-msgstr ""
+msgstr "APT atnaujinimo perspėjimas"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:381
 msgid ""
@@ -1285,23 +1284,23 @@ msgstr "Aktyvaus laikmačio pastūmimas"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:75
 msgid "ActiveTimers: Skip begin < now"
-msgstr ""
+msgstr "Aktyvūs laikmačiai: praleisti pradėti < dabar"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:71
 msgid "ActiveTimers: Skip disabled"
-msgstr ""
+msgstr "Aktyvūs laikmačiai: praleisti neleidžiama"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:59
 msgid "ActiveTimers: Skip justplay"
-msgstr ""
+msgstr "Aktyvūs laikmačiai: praleiskite tiesioginį atkūrimą"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:63
 msgid "ActiveTimers: Skip serviceref"
-msgstr ""
+msgstr "Aktyvūs laikmačiai: praleisti paslaugos nuorodą"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:67
 msgid "ActiveTimers: Skip tag"
-msgstr ""
+msgstr "Aktyvūs laikmačiai: praleisti žymą"
 
 #
 #: enigma2-plugins/twitchtv/src/plugin.py:510
@@ -1425,7 +1424,7 @@ msgstr "Pridėti gimtadienio dieną"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:815
 msgid "Add bookmark"
-msgstr ""
+msgstr "Pridėti žymę"
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:352
 msgid "Add channel (Yes) or replace it (No)"
@@ -1636,7 +1635,7 @@ msgstr "Sudėtingesnis iškirpimo detalizavimas..."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:176
 msgid "After EPG refresh"
-msgstr ""
+msgstr "Po EPG atnaujinimo"
 
 #: enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml./enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml
 msgid ""
@@ -1682,7 +1681,7 @@ msgstr "Baigtų filmų, esančių filmų kataloge, amžius (dienomis)"
 
 #: enigma2-plugins/cec/src/CecConfig.py:99
 msgid "Aggressive Active-Source"
-msgstr ""
+msgstr "Agresyvus aktyvusis šaltinis"
 
 #: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
 msgid "Ai.HD skin-style control plugin"
@@ -3394,7 +3393,7 @@ msgstr "Keiskite numatytąjį įrašymą (pabaigos laiką)"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:296
 #: enigma2-plugins/dreamexplorer/src/plugin.py:909
 msgid "Change directory"
-msgstr ""
+msgstr "Keisti katalogą"
 
 #: enigma2-plugin-networkbrowser/src/MountManager.py:72
 msgid "Change hostname"
@@ -3426,7 +3425,7 @@ msgstr "Keiskite rūšiavimą"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1209
 msgid "Change symlink name"
-msgstr ""
+msgstr "Keisti sym nuorodos pavadinimą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:237
 msgid "Change the filename to save current Playlist:"
@@ -4205,11 +4204,14 @@ msgid ""
 "%s\n"
 "to %s:"
 msgstr ""
+"Kopijuoti/perkelti\n"
+"%s\n"
+"į %s:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1234
 #, python-format
 msgid "Copying %s to %s"
-msgstr ""
+msgstr "Kopijuojama %s į %s"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:780
 msgid "CornerRadius: A CornerRadius defines the look and feel of corners."
@@ -4441,7 +4443,7 @@ msgstr "Žurnalai pridėti"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:351
 #, python-format
 msgid "Create %s in %s with name:"
-msgstr ""
+msgstr "Sukurkite %s iš %s su pavadinimu:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:357
 #, python-format
