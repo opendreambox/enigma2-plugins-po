@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-24 05:14+0000\n"
-"PO-Revision-Date: 2021-04-23 05:14+0000\n"
+"POT-Creation-Date: 2021-04-22 05:14+0000\n"
+"PO-Revision-Date: 2021-04-24 22:59+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/lt/>\n"
@@ -4448,7 +4448,7 @@ msgstr "Sukurkite %s iš %s su pavadinimu:"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:357
 #, python-format
 msgid "Create %s to %s with name:"
-msgstr ""
+msgstr "Sukurti %s į %s su pavadinimu:"
 
 #: MovieSelectionMenu.py:294
 msgid "Create Link"
@@ -4490,12 +4490,12 @@ msgstr "Sukurti katalogą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 #, python-format
 msgid "Create directory in %s"
-msgstr ""
+msgstr "Sukurti katalogą %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 #, python-format
 msgid "Create file in %s"
-msgstr ""
+msgstr "Sukurti failą %s"
 
 #: enigma2-plugins/dvdbackup/src/plugin.py:312
 msgid "Create iso:"
@@ -4524,7 +4524,7 @@ msgstr "Sukurti nuotolinius laikmačius"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1208
 msgid "Create symlink"
-msgstr ""
+msgstr "Sukurti nuorodą"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1222
 #, python-format
@@ -4532,11 +4532,13 @@ msgid ""
 "Create symlink %s\n"
 "in %s to %s"
 msgstr ""
+"Sukurti nuorodą %s\n"
+"į %s į %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 #, python-format
 msgid "Create symlink to %s"
-msgstr ""
+msgstr "Sukurkite nuorodą į %s"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:56
 msgid "Create themes.xml for selected skin"
@@ -4562,17 +4564,17 @@ msgstr "Kuriamas paieškos sąrašas..."
 #: enigma2-plugins/dreamexplorer/src/plugin.py:377
 #, python-format
 msgid "Creation of directory %s"
-msgstr ""
+msgstr "Katalogo kūrimas %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:372
 #, python-format
 msgid "Creation of file %s"
-msgstr ""
+msgstr "Failo kūrimas %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1254
 #, python-format
 msgid "Creation of symlink %s in %s to %s"
-msgstr ""
+msgstr "Sukurti nuorodą %s į %s į %s"
 
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:36
 msgid "Cross fade duration (seconds)"
@@ -4598,12 +4600,12 @@ msgstr "Dabartinis prioritetas:"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1030
 #, python-format
 msgid "Current content: %s"
-msgstr ""
+msgstr "Dabartinis turinys: %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:617
 #, python-format
 msgid "Current name: %s"
-msgstr ""
+msgstr "Dabartinis pavadinimas %s"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:510
 #: enigma2-plugins/fancontrol2/src/plugin.py:764
@@ -4618,7 +4620,7 @@ msgstr "Dabartinė reikšmė: %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1361
 msgid "Currently"
-msgstr ""
+msgstr "Šiuo metu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "Cursor predictive move after selection"
@@ -5150,7 +5152,7 @@ msgstr "Trinti visas žymes..."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:814
 msgid "Delete bookmark"
-msgstr ""
+msgstr "Ištrinti žymą"
 
 #: e2openplugin-PushService/src/Controller/CrashLog.py:47
 msgid "Delete crashlog(s)"
@@ -5264,7 +5266,7 @@ msgstr "Pašalinimo patvirtinimas"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:598
 #, python-format
 msgid "Deletion of %s %s"
-msgstr ""
+msgstr "Ištrinti iš %s %s"
 
 #
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:411
@@ -5394,7 +5396,7 @@ msgstr "Pakatalogis"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:876
 msgid "Directory is already in bookmarks"
-msgstr ""
+msgstr "Katalogas jau yra žymėse"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2723
 msgid "Directory is not empty! Do you really want to delete it?"
@@ -5450,7 +5452,7 @@ msgstr "Išjungti slaptažodžiu pagrįstą prisijungimą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1445
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1472
 msgid "Disable service"
-msgstr ""
+msgstr "Išjungti paslaugą"
 
 #
 #: enigma2-plugins/easyinfo/src/plugin.py:54
@@ -5897,6 +5899,9 @@ msgid ""
 "%s\n"
 "as start directory?"
 msgstr ""
+"Ar norite nustatyti\n"
+"%s\n"
+"kaip pradinį katalogą?"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:244
 msgid "Do you want to start the kiddytimer- plugin now."
@@ -6109,7 +6114,7 @@ msgstr "Kanalų suliejimas"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:70
 #: enigma2-plugins/dreamexplorer/src/plugin.py:71
 msgid "Dream Explorer"
-msgstr ""
+msgstr "Dream naršyklė"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:434
 #: enigma2-plugins/dreamexplorer/src/plugin.py:444
@@ -6126,12 +6131,12 @@ msgstr ""
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1145
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1259
 msgid "Dream Explorer 3"
-msgstr ""
+msgstr "Dream naršyklė 3"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:589
 #, python-format
 msgid "Dream Explorer 3 - Delete %s..."
-msgstr ""
+msgstr "Dream naršyklė 3 - ištrinti %s..."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1242
 msgid "Dream-Explorer..."
@@ -6148,6 +6153,10 @@ msgid ""
 "\n"
 "Support: board.dreamboxtools.de"
 msgstr ""
+"Dreambox naršyklę II sukūrė Vali (2010)\n"
+"Dream naršyklę 3 Dre (2021)\n"
+"\n"
+"Palaikymas: board.dreamboxtools.de"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3427
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3430
@@ -6165,6 +6174,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Dreambox modelis: %s\n"
+"\n"
+"%s"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:188
 msgid "Dreambox name"
@@ -6260,7 +6272,7 @@ msgstr "EMC failų naršyklė"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:200
 msgid "EMC Help"
-msgstr ""
+msgstr "EMC pagalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
@@ -6445,12 +6457,16 @@ msgid ""
 "EPGRefresh wants to set your\n"
 "Dreambox to idle. Do that now?"
 msgstr ""
+"EPG atnaujintojas nori nustatyti jūsų\n"
+"Dreambox į tuščią eigą. Ar tai padaryti dabar?"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:543
 msgid ""
 "EPGRefresh wants to shut down\n"
 "your Dreambox. Shutdown now?"
 msgstr ""
+"EPG atnaujintojas nori išjungti\n"
+"jūsų Dreambox. Išjungti dabar?"
 
 #: enigma2-plugins/epgrefresh/meta/plugin_epgrefresh.xml./enigma2-plugins/epgrefresh/meta/plugin_epgrefresh.xml
 msgid ""
@@ -6716,7 +6732,7 @@ msgstr "Redaguokite pasirinktą puslapį"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1370
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1373
 msgid "Edit service"
-msgstr ""
+msgstr "Redaguoti paslaugą"
 
 #: enigma2-plugins/tageditor/meta/plugin_tageditor.xml./enigma2-plugins/tageditor/meta/plugin_tageditor.xml
 msgid "Edit tags of recorded movies"
@@ -7024,7 +7040,7 @@ msgstr "Atpažinti nutolusį įrašymą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1449
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1476
 msgid "Enable service"
-msgstr ""
+msgstr "Įjungti paslaugą"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:178
 msgid "Enable support for EPGImport"
@@ -7694,7 +7710,7 @@ msgstr "Išplėstinis"
 
 #: enigma2-plugins/cec/src/CecConfig.py:98
 msgid "Expert options"
-msgstr ""
+msgstr "Ekspertiniai nustatymai"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:269
 msgid "Export CSV file"
@@ -7760,7 +7776,7 @@ msgstr "Išplėstinis kalbos palaikymas"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:443
 msgid "Extract archive"
-msgstr ""
+msgstr "Išskleisti archyvą"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:20
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
@@ -8313,7 +8329,7 @@ msgstr "Katalogo pavadinimas:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:812
 msgid "Folders"
-msgstr ""
+msgstr "Aplankai"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:499
 msgid "Folge"
@@ -8321,7 +8337,7 @@ msgstr "Folge"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:318
 msgid "Follow symlink"
-msgstr ""
+msgstr "Sekite nuorodą"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:663
 msgid "Followed Channels"
@@ -10386,7 +10402,7 @@ msgstr "Įterpkite failą į dabartinį dainų grojaraštį ir grokite kitą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:996
 #, python-format
 msgid "Insert line after line %d"
-msgstr ""
+msgstr "Įterpti eilutę po eilutės %d"
 
 #: enigma2-plugins/satloader/src/plugin.py:54
 msgid "Install"
@@ -10402,12 +10418,12 @@ msgstr "Įdiekite Mutagen paketą garso meta duomenims"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:432
 msgid "Install bootlogo"
-msgstr ""
+msgstr "Įdiekite įkrovos logotipą"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:312
 #: enigma2-plugins/dreamexplorer/src/plugin.py:448
 msgid "Install package"
-msgstr ""
+msgstr "Įdiekite paketą"
 
 #: enigma2-plugins/subsdownloader2/src/pluginOnlineContent.py:88
 msgid "Install plugin"
@@ -11025,7 +11041,7 @@ msgstr "Žurnalas į failą"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:199
 msgid "Log to shell"
-msgstr ""
+msgstr "Prisijungti prie apvalkalo"
 
 #: e2openplugin-PushService/src/Controller/SendLog.py:33
 msgid "Log(s) are attached"
@@ -11047,7 +11063,7 @@ msgstr "Žurnalo kelias: %s"
 #: enigma2-plugins/cec/src/CecDeviceList.py:95
 #, python-format
 msgid "Logical address: %s\n"
-msgstr ""
+msgstr "Loginis adresas: %s\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "Long Blue button function"
@@ -12095,7 +12111,7 @@ msgstr "Filmo pavadinimas:"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1245
 #, python-format
 msgid "Moving %s to %s"
-msgstr ""
+msgstr "Perkelti %s į %s"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:150
 #, python-format
@@ -12307,7 +12323,7 @@ msgstr "Pavadinimas:"
 #: enigma2-plugins/cec/src/CecDeviceList.py:92
 #, python-format
 msgid "Name: %s\n"
-msgstr ""
+msgstr "Pavadinimas: %s\n"
 
 #: enigma2-plugins/namezap/src/NamezapSetup.py:30
 #: enigma2-plugins/namezap/src/NamezapSetup.py:71
@@ -12416,7 +12432,7 @@ msgstr "Naujas failo pavadinimas:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:996
 msgid "New line:"
-msgstr ""
+msgstr "Nauja linija:"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:121
 msgid "New location:"
@@ -13211,7 +13227,7 @@ msgstr "Ant to pačio kanalo"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:31
 msgid "On to Standby"
-msgstr ""
+msgstr "Į budėjimo režimą"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1075
 msgid "One DECT phone registered"
@@ -13247,7 +13263,7 @@ msgstr "Tik pridėti laikmatį ateinančias x dienų"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:874
 msgid "Only directories can be bookmarked"
-msgstr ""
+msgstr "Pažymėti galima tik katalogus"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:606
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:137
@@ -13343,7 +13359,7 @@ msgstr "Atidaryti laikmačio žurnalą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:819
 #: enigma2-plugins/dreamexplorer/src/plugin.py:916
 msgid "Open bookmark"
-msgstr ""
+msgstr "Atidaryti žymę"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:816
 msgid "Open context menu"
@@ -13364,7 +13380,7 @@ msgstr "Atidaryti redaktorių"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:320
 msgid "Open in vEditor2"
-msgstr ""
+msgstr "Atidarykite redaktoriuje 2"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:684
 msgid "Open menu"
@@ -13868,7 +13884,7 @@ msgstr "Telefonų knyga"
 #: enigma2-plugins/cec/src/CecDeviceList.py:96
 #, python-format
 msgid "Physical address: %s\n"
-msgstr ""
+msgstr "Fizinis adresas: %s\n"
 
 #: enigma2-plugins/epgrefresh/src/PipAdapter.py:82
 msgid "PiP available now."
@@ -13977,7 +13993,7 @@ msgstr "Groti paskutinį naudotą dainų sąrašą, po paleidimo"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:310
 msgid "Play movie"
-msgstr ""
+msgstr "Žiūrėti filmą"
 
 #: enigma2-plugins/mytube/src/plugin.py:116
 msgid "Play next video"
@@ -13993,7 +14009,7 @@ msgstr "Atkurti pasirinktus filmus"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:304
 msgid "Play song"
-msgstr ""
+msgstr "Groti dainą"
 
 #: enigma2-plugins/mytube/src/plugin.py:116
 msgid "Play video again"
@@ -14224,10 +14240,12 @@ msgid ""
 "Please select action for\n"
 "%s"
 msgstr ""
+"Pasirinkite veiksmą, skirtą\n"
+"%s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:340
 msgid "Please select action..."
-msgstr ""
+msgstr "Pasirinkite veiksmą..."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:28
 msgid "Please select any bouquet"
@@ -14247,7 +14265,7 @@ msgstr "Prašome pasirinkti bent vieną transponderį"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:251
 msgid "Please select new permissions..."
-msgstr ""
+msgstr "Pasirinkite naujus leidimus..."
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:509
 msgid "Please select tag to filter..."
@@ -14522,7 +14540,7 @@ msgstr ""
 #: enigma2-plugins/cec/src/CecDeviceList.py:97
 #, python-format
 msgid "Power state: %s\n"
-msgstr ""
+msgstr "Maitinimo būsena:%s\n"
 
 #: enigma2-plugins/movietagger/src/plugin.py:266
 msgid "Predefined Tag"
@@ -14933,11 +14951,11 @@ msgstr "Skaityti telefonų knygą iš FRITZ!Box"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:251
 msgid "Read, write (644)"
-msgstr ""
+msgstr "Skaityti, rašyti (644)"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:251
 msgid "Read, write, execute (755)"
-msgstr ""
+msgstr "Skaityti, rašyti, vykdyti (755)"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:255
 msgid "Read/write error (disk full?)"
@@ -15603,7 +15621,7 @@ msgstr "Pervadinimas nesėkmingas"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:630
 #, python-format
 msgid "Renaming of %s to %s"
-msgstr ""
+msgstr "Pervardyti %s į %s"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:414
 msgid "Repeat Type"
@@ -15888,7 +15906,7 @@ msgstr "Paleisti užkraunant"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:316
 msgid "Run script"
-msgstr ""
+msgstr "Paleisti scenarijų"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:48
 msgid "Running"
@@ -16099,7 +16117,7 @@ msgstr "Išsaugoti ir stabdyti"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:817
 msgid "Save bookmarks"
-msgstr ""
+msgstr "Išsaugoti žymes"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:67
 msgid "Save configuration as design / Delete design"
@@ -16201,7 +16219,7 @@ msgstr "Priartinimo skalės filtras"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:54
 msgid "Scan"
-msgstr ""
+msgstr "Paieška"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:560
 msgid "Scan NFS share"
@@ -16673,7 +16691,7 @@ msgstr "Pasirinkite skaidymo būseną."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1216
 msgid "Select target location..."
-msgstr ""
+msgstr "Pasirinkite tikslinę vietą..."
 
 #: enigma2-plugins/teletext/src/plugin.py:1131
 msgid "Select teletext"
@@ -16797,7 +16815,7 @@ msgstr "Siųsti"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:156
 msgid "Send \"long\" keypress"
-msgstr ""
+msgstr "Siųsti „ilgą“ klavišo paspaudimą"
 
 #: enigma2-plugins/cec/src/CecConfig.py:82
 msgid "Send HDMI CEC Power Events"
@@ -16954,22 +16972,22 @@ msgstr "Apie kanalą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1466
 #, python-format
 msgid "Service %s could not be disabled"
-msgstr ""
+msgstr "Paslauga %s negalėjo būti išjungta"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1463
 #, python-format
 msgid "Service %s could not be enabled"
-msgstr ""
+msgstr "Paslauga %s negalėjo būti įjungta"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1493
 #, python-format
 msgid "Service %s disabled"
-msgstr ""
+msgstr "Paslauga %s išjungta"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1490
 #, python-format
 msgid "Service %s enabled"
-msgstr ""
+msgstr "Paslauga %s įjungta"
 
 #: enigma2-plugins/namezap/src/plugin.py:15
 msgid "Service Name"
@@ -17033,7 +17051,7 @@ msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:478
 msgid "Set as start directory"
-msgstr ""
+msgstr "Nustatyti kaip pradžios katalogą"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:111
 msgid "Set aspect ratio on startup"
@@ -17066,7 +17084,7 @@ msgstr "Nustatyti pastovų rūšiavimą"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:223
 #: enigma2-plugins/dreamexplorer/src/plugin.py:321
 msgid "Set permissions"
-msgstr ""
+msgstr "Nustatykite leidimus"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:392
 msgid "Set remaining time"
@@ -17082,7 +17100,7 @@ msgstr "Nustatykite dydį"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1259
 msgid "Set symlink name:"
-msgstr ""
+msgstr "Nustatykite nuorodos pavadinimą:"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:495
 msgid ""
@@ -17719,7 +17737,7 @@ msgstr "Rodyti logotipus:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:306
 msgid "Show picture"
-msgstr ""
+msgstr "Rodyti paveikslėlį"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:337
 msgid "Show plugin config in extensions menu"
@@ -17813,7 +17831,7 @@ msgstr "Rodyti imtuvo būklę su iššokančia infojuosta"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:230
 #: enigma2-plugins/dreamexplorer/src/plugin.py:308
 msgid "Show thumbnails"
-msgstr ""
+msgstr "Rodyti miniatiūras"
 
 #: enigma2-plugins/3dsettings/src/plugin.py:220
 msgid "Show top/bottom option in extension menu"
@@ -18034,7 +18052,7 @@ msgstr "Skin MOD - informacijos nėra"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2087
 msgid "Skin ORIGINAL - No info available"
-msgstr ""
+msgstr "ORIGINALI Tema - informacijos nėra"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:71
 msgid "Skin could not be rebuilt due to missing themes.xml"
@@ -18042,7 +18060,7 @@ msgstr "Temos nepavyko atkurti dėl trūkstamo themes.xml"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:75
 msgid "Skin could not be rebuilt due to unsupported version of theme"
-msgstr ""
+msgstr "Temos nepavyko atkurti dėl nepalaikomos temos versijos"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:77
 msgid ""
@@ -18384,7 +18402,7 @@ msgstr "Rūšiuoti laiką"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:703
 #: enigma2-plugins/dreamexplorer/src/plugin.py:706
 msgid "Sort asc"
-msgstr ""
+msgstr "Rūšiuoti asc"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:633
 msgid "Sort birthdays by:"
@@ -18394,7 +18412,7 @@ msgstr "Rūšiuoti gimtadienius pagal:"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:684
 #: enigma2-plugins/dreamexplorer/src/plugin.py:689
 msgid "Sort by date"
-msgstr ""
+msgstr "Rūšiuoti pagal datą"
 
 #: enigma2-plugins/zapstatistic/src/plugin.py:570
 msgid "Sort by date (ascending)"
@@ -18407,7 +18425,7 @@ msgstr "Rūšiuoti pagal datą (mažėjimo tvarka)"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:674
 #: enigma2-plugins/dreamexplorer/src/plugin.py:679
 msgid "Sort by name"
-msgstr ""
+msgstr "Rūšiuoti pagal pavadinimą"
 
 #: enigma2-plugins/zapstatistic/src/plugin.py:568
 msgid "Sort by name (ascending)"
@@ -18421,7 +18439,7 @@ msgstr "Rūšiuoti pagal vardą (atvirkštine abėcėlės tvarka)"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:697
 #: enigma2-plugins/dreamexplorer/src/plugin.py:700
 msgid "Sort desc"
-msgstr ""
+msgstr "Rūšiuoti aprašymą"
 
 #: enigma2-plugins/menusort/src/plugin.py:330
 msgid "Sort main menu"
@@ -18626,7 +18644,7 @@ msgstr "Budėjimo režimas paleidžiant rankiniu būdu"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:30
 msgid "Standby to On"
-msgstr ""
+msgstr "Budėjimo režimas įjungtas"
 
 #: enigma2-plugins/eparted/src/eparted.py:311
 #: enigma2-plugins/eparted/src/eparted.py:521
@@ -18671,7 +18689,7 @@ msgstr "Paleisti visada su kanalu 1:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1359
 msgid "Start at boot"
-msgstr ""
+msgstr "Pradėkite nuo įkrovos"
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:99
 msgid "Start automatically with Enigma2"
@@ -19131,7 +19149,7 @@ msgstr "Sistemos valymas"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1376
 #, python-format
 msgid "SystemD Viewer - %s"
-msgstr ""
+msgstr "D sistemos peržiūros priemonė - %s"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:476
 msgid "TMBD Info"
@@ -19730,6 +19748,8 @@ msgid ""
 "Theme version %s is not supported. Please check for updated version of "
 "MerlinSkinThemes."
 msgstr ""
+"Temos versija %s nepalaikoma. Patikrinkite atnaujintą Merlin Skin Themes "
+"versiją."
 
 #: enigma2-plugins/ftpbrowser/src/plugin.py:59
 msgid ""
@@ -20435,11 +20455,11 @@ msgstr "Perjungti aprašymą / žymos rodymą"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1371
 msgid "Toggle label"
-msgstr ""
+msgstr "Perjungti etiketę"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:818
 msgid "Toggle list"
-msgstr ""
+msgstr "Perjungti sąrašą"
 
 #: enigma2-plugins/pipzap/src/plugin.py:698
 msgid "Toggle pipzap status"
@@ -20691,7 +20711,7 @@ msgstr "Čia įrašykite tekstą ir paspauskite OK, norėdami išsiųsti:"
 #: enigma2-plugins/cec/src/CecDeviceList.py:93
 #, python-format
 msgid "Type: %s\n"
-msgstr ""
+msgstr "Tipas: %s\n"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:29
 msgid "UHD Progressive Mode"
@@ -20758,7 +20778,7 @@ msgstr "Nepavyko nustatyti naujo '%s' slaptažodžio"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:314
 msgid "Uncompress archive"
-msgstr ""
+msgstr "Nesuspausti archyvo"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1147
 msgid "Unconfigured storage devices found!"
@@ -21335,7 +21355,7 @@ msgstr "Kintamasis lauko plotis"
 #: enigma2-plugins/cec/src/CecDeviceList.py:94
 #, python-format
 msgid "Vendor: %s\n"
-msgstr ""
+msgstr "Pardavėjas: %s\n"
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:193
 #: enigma2-plugins/elektro/src/plugin.py:205
@@ -21439,7 +21459,7 @@ msgstr "Peržiūrėti tekstinius failus nuotoliniu būdu"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:454
 msgid "View script"
-msgstr ""
+msgstr "Peržiūrėti scenarijų"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:949
 msgid "View this shell-script"
@@ -22256,7 +22276,7 @@ msgstr ""
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1013
 #, python-format
 msgid "You have changed %s. Do you want to save your changes?"
-msgstr ""
+msgstr "Jūs pakeitėte %s. Ar norite išsaugoti pakeitimus?"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:165
 msgid ""
@@ -22504,7 +22524,7 @@ msgstr "Padidinti į letterboxed/anamorfa filmus."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:468
 msgid "[All files]"
-msgstr ""
+msgstr "[Visi failai]"
 
 #: enigma2-plugins/emailclient/src/plugin.py:852
 #, python-format
@@ -22529,7 +22549,7 @@ msgstr "[Laisva vieta] HDD yra laukimo būsenoje: "
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:470
 msgid "[Media files]"
-msgstr ""
+msgstr "[Medijos failai]"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1422
 msgid "[PTS-Plugin] Merging records failed!"
@@ -23474,6 +23494,8 @@ msgid ""
 "failed\n"
 "%s"
 msgstr ""
+"nepavykęs\n"
+"%s"
 
 #: enigma2-plugins/emailclient/src/plugin.py:810
 msgid "failed to load message"
@@ -23719,7 +23741,7 @@ msgstr "iDream duomenų bazės kelias"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:46
 msgid "idle mode"
-msgstr ""
+msgstr "laukimo režimas"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
 msgid "if audio isn't first language"
@@ -25123,7 +25145,7 @@ msgstr "paprastas viršelis"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:46
 msgid "standby"
-msgstr ""
+msgstr "laukimo režimas"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:91
 #: enigma2-plugins/emission/src/EmissionDetailview.py:179
