@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 - AC3lipsync\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-23 05:15+0000\n"
+"POT-Creation-Date: 2021-04-25 06:30+0000\n"
 "PO-Revision-Date: 2019-06-19 11:44+0000\n"
 "Last-Translator: Anonymous Pootle User\n"
 "Language-Team: veselin & majevica CRNABERZA <jovanovic@gmx.ch>\n"
@@ -495,6 +495,11 @@ msgstr ""
 #: enigma2-plugins/twitchtv/src/plugin.py:712
 #, python-format
 msgid "%s folllows %s channels"
+msgstr ""
+
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:181
+#, python-format
+msgid "%s is already configured for EPGRefresh"
 msgstr ""
 
 #: enigma2-plugins/twitchtv/src/TwitchMiddleware.py:72
@@ -2649,6 +2654,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/satloader/src/plugin.py:55
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 msgid "Bouquet"
 msgstr ""
 
@@ -2662,8 +2668,7 @@ msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1253
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:26
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:89
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:227
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 msgid "Bouquets"
 msgstr "Buketi"
 
@@ -3068,7 +3073,7 @@ msgstr "Kanada"
 #: enigma2-plugins/pipservicerelation/src/plugin.py:188
 #: enigma2-plugins/fritzcall/src/plugin.py:2339
 #: enigma2-plugins/fritzcall/src/plugin.py:2575
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:98
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:77
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
@@ -3257,6 +3262,7 @@ msgstr "Timer '%s' konnte nich geändert werden!"
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:58
 #: enigma2-plugins/merlinepg/src/plugin.py:782
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 msgid "Channel"
 msgstr "Kanal"
 
@@ -3340,7 +3346,7 @@ msgid "Channellist red"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1252
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:88
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 msgid "Channels"
 msgstr "Kanali"
 
@@ -6098,7 +6104,7 @@ msgstr ""
 msgid "EPGRefresh Functions"
 msgstr ""
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:60
 msgid "EPGRefresh Services"
 msgstr "EPG osvežavanje kanala"
 
@@ -6307,7 +6313,7 @@ msgstr ""
 msgid "Edit Services"
 msgstr "Uredi kanale"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:188
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:100
 msgid "Edit Services to refresh"
 msgstr "Uredi kanale za osvežavanje"
 
@@ -6389,7 +6395,6 @@ msgid "Edit/Move Filter Toggle"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1322
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:208
 msgid "Editing"
 msgstr "Uređivanje"
 
@@ -11704,7 +11709,7 @@ msgstr ""
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:56
 #: enigma2-plugins/growlee/src/plugin.py:101
 #: enigma2-plugins/fritzcall/src/plugin.py:2147
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:101
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:80
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:51
 msgid "New"
 msgstr "Novi"
@@ -12404,7 +12409,7 @@ msgstr ""
 #: enigma2-plugins/pipservicerelation/src/plugin.py:189
 #: enigma2-plugins/fritzcall/src/plugin.py:2341
 #: enigma2-plugins/fritzcall/src/plugin.py:2577
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:99
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
 #: enigma2-plugin-moviecut/src_py/plugin.py:86
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:26
@@ -13561,6 +13566,10 @@ msgstr "Molim izaberite putanju filma..."
 msgid "Please select the type of tuner you want to add!"
 msgstr ""
 
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
+msgid "Please select what to add"
+msgstr ""
+
 #: enigma2-plugins/kiddytimer/src/KTmain.py:401
 msgid "Please select your KiddyTimer- option"
 msgstr ""
@@ -14253,6 +14262,7 @@ msgstr ""
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1421
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:421
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:86
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:198
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
 #: enigma2-plugin-vps/src_py/Vps_setup.py:110
 msgid "Really close without saving settings?"
@@ -14507,8 +14517,7 @@ msgstr "Osveži sada"
 msgid "Refresh status"
 msgstr "Stanje osvežavanja"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:217
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:276
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:112
 msgid "Refreshing"
 msgstr "Osvežavanje"
 
@@ -15900,7 +15909,7 @@ msgstr ""
 msgid "Select bouquet to record on"
 msgstr "Izaberi buket za snimanje"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:269
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:171
 msgid "Select bouquet to refresh"
 msgstr "Izaberi buket za osvežavanje"
 
@@ -15912,7 +15921,7 @@ msgstr ""
 msgid "Select channel to record on"
 msgstr "Izaberi kanal za snimanje"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:263
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:165
 msgid "Select channel to refresh"
 msgstr "Izaberi kanal za osvežavanje"
 
@@ -16262,7 +16271,6 @@ msgstr ""
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:59
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:61
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:80
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:222
 msgid "Services"
 msgstr "Kanali"
 
@@ -22146,7 +22154,7 @@ msgstr "standardni"
 #: enigma2-plugins/eparted/src/eparted.py:332
 #: enigma2-plugins/filebrowser/src/plugin.py:112
 #: enigma2-plugins/podcast/src/plugin.py:70
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:100
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
 #: enigma2-plugins/webadmin/src/WebScreens/WebAdminScreen.py:24
 msgid "delete"
 msgstr "obriši"

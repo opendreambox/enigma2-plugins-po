@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-22 05:14+0000\n"
+"POT-Creation-Date: 2021-04-25 06:30+0000\n"
 "PO-Revision-Date: 2021-04-24 08:57+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
@@ -201,7 +201,7 @@ msgstr " (bez výpočtu velikosti potisku)"
 
 #: MovieInfo.py:62 MovieInfo.py:66
 msgid " - "
-msgstr " - "
+msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -543,6 +543,11 @@ msgstr "%s nenásleduje žádný kanál"
 #, python-format
 msgid "%s folllows %s channels"
 msgstr "%s následujících %s kanálů"
+
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:181
+#, python-format
+msgid "%s is already configured for EPGRefresh"
+msgstr ""
 
 #: enigma2-plugins/twitchtv/src/TwitchMiddleware.py:72
 #, python-format
@@ -2768,6 +2773,7 @@ msgstr ""
 "povoleny 2 cykly za den. Nepřekrývejte časy !"
 
 #: enigma2-plugins/satloader/src/plugin.py:55
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 msgid "Bouquet"
 msgstr "sada kanálů"
 
@@ -2781,8 +2787,7 @@ msgstr "chování tlačítka \"kanály + / -\""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1253
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:26
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:89
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:227
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 msgid "Bouquets"
 msgstr "sady kanálů"
 
@@ -3029,10 +3034,6 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
-"Nelze zapsat info o videu a potisk !\n"
-"\n"
-"%s\n"
-"%s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
@@ -3217,7 +3218,7 @@ msgstr "Kanada"
 #: enigma2-plugins/pipservicerelation/src/plugin.py:188
 #: enigma2-plugins/fritzcall/src/plugin.py:2339
 #: enigma2-plugins/fritzcall/src/plugin.py:2575
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:98
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:77
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
@@ -3407,6 +3408,7 @@ msgstr "Změna časovače '%s' selhala !"
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:58
 #: enigma2-plugins/merlinepg/src/plugin.py:782
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 msgid "Channel"
 msgstr "kanál"
 
@@ -3491,7 +3493,7 @@ msgid "Channellist red"
 msgstr "červený seznam kanálů"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1252
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:88
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 msgid "Channels"
 msgstr ">>kanály..."
 
@@ -5912,7 +5914,7 @@ msgstr "stáhnout info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
-msgstr "stáhnout balíček Mutagen pro audio meta-data"
+msgstr ""
 
 #: enigma2-plugins/mytube/src/plugin.py:481
 msgid "Download Video"
@@ -6185,7 +6187,7 @@ msgstr "EMC nápověda"
 
 #: EMCPlayList.py:154
 msgid "EMC Playlist"
-msgstr "EMC seznam přehrávek"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
@@ -6351,7 +6353,7 @@ msgstr "EPGRefresh - nápověda..."
 msgid "EPGRefresh Functions"
 msgstr "EPGRefresh - příkaz..."
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:60
 msgid "EPGRefresh Services"
 msgstr "Aktualizované kanály"
 
@@ -6574,7 +6576,7 @@ msgstr "odemknout"
 msgid "Edit Services"
 msgstr "kanály k aktualizaci"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:188
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:100
 msgid "Edit Services to refresh"
 msgstr "Kanály pro stažení programů..."
 
@@ -6656,7 +6658,6 @@ msgid "Edit/Move Filter Toggle"
 msgstr "upravit / přesunout přepínač filtru"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1322
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:208
 msgid "Editing"
 msgstr ">>příkaz..."
 
@@ -8091,11 +8092,6 @@ msgid ""
 "Files exists in current Playlist:\n"
 "%s"
 msgstr ""
-"Soubory přidané do akt.seznamu :\n"
-"%s\n"
-"\n"
-"Soubory existující v seznamu :\n"
-"%s"
 
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
@@ -8830,11 +8826,11 @@ msgstr "Informační modul_"
 
 #: EnhancedMovieCenter.py:488
 msgid "HELP_Advanced Skin options separator"
-msgstr "Rozšířené možnosti oddělovačů skinů_"
+msgstr ""
 
 #: EnhancedMovieCenter.py:492
 msgid "HELP_Advanced audio metadata options separator"
-msgstr "Rozšířené možnosti oddělovačů metadat audia_"
+msgstr ""
 
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
@@ -8951,7 +8947,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:498
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr "Stahování balíčku Mutagen pro audio metadata_"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
@@ -9117,7 +9113,7 @@ msgstr "Změna vzhledu boxu podle skinu nebo EMC_"
 
 #: EnhancedMovieCenter.py:391
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
@@ -9282,7 +9278,7 @@ msgstr "Zobrazení audio meta-dat v seznamu videa_"
 
 #: EnhancedMovieCenter.py:504
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr "Zobrazení metadat audia (nutná změna skinu)_"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
@@ -9402,7 +9398,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:509
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
-msgstr "Stáhnout nebo aktualizovat Mutagen v1.28 (experiment)_"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
@@ -10297,7 +10293,7 @@ msgstr "instalovat >>"
 
 #: EnhancedMovieCenter.py:550 EnhancedMovieCenter.py:552
 msgid "Install Mutagen-package"
-msgstr "instalovat balíček Mutagen"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "Install Mutagen-package for audio metadata"
@@ -10791,7 +10787,7 @@ msgstr "načíst webové kanály pro sadu kanálů"
 
 #: EnhancedMovieCenter.py:391
 msgid "Load all for non showing titles from .meta files"
-msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:644
 msgid "Load default settings will overwrite all settings, really load them?"
@@ -12262,7 +12258,7 @@ msgstr ""
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:56
 #: enigma2-plugins/growlee/src/plugin.py:101
 #: enigma2-plugins/fritzcall/src/plugin.py:2147
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:101
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:80
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:51
 msgid "New"
 msgstr "nový"
@@ -12983,7 +12979,7 @@ msgstr "vyp."
 #: enigma2-plugins/pipservicerelation/src/plugin.py:189
 #: enigma2-plugins/fritzcall/src/plugin.py:2341
 #: enigma2-plugins/fritzcall/src/plugin.py:2577
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:99
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
 #: enigma2-plugin-moviecut/src_py/plugin.py:86
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:26
@@ -14172,6 +14168,10 @@ msgstr "Vyberte složku pro video..."
 msgid "Please select the type of tuner you want to add!"
 msgstr "Vyberte typ tuneru, který chcete přidat !"
 
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
+msgid "Please select what to add"
+msgstr ""
+
 #: enigma2-plugins/kiddytimer/src/KTmain.py:401
 msgid "Please select your KiddyTimer- option"
 msgstr "Vyberte příkaz pro KiddyTimer"
@@ -14876,6 +14876,7 @@ msgstr "rychlost čtení [80-450] slov/min."
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1421
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:421
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:86
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:198
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
 #: enigma2-plugin-vps/src_py/Vps_setup.py:110
 msgid "Really close without saving settings?"
@@ -15134,8 +15135,7 @@ msgstr "start aktualizace >>"
 msgid "Refresh status"
 msgstr "stav obnovy"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:217
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:276
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:112
 msgid "Refreshing"
 msgstr "...aktualizuji..."
 
@@ -16549,7 +16549,7 @@ msgstr "Výběr záložky..."
 msgid "Select bouquet to record on"
 msgstr "vybrat sadu kanálů pro záznam na "
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:269
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:171
 msgid "Select bouquet to refresh"
 msgstr "vybrat seznam kanálů pro stažení programů"
 
@@ -16561,7 +16561,7 @@ msgstr "nastavit jas"
 msgid "Select channel to record on"
 msgstr "Vybrat kanál pro záznam na..."
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:263
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:165
 msgid "Select channel to refresh"
 msgstr "Vyberte kanál pro stažení programů...  "
 
@@ -16915,7 +16915,6 @@ msgstr "název kanálu byl vybraný"
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:59
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:61
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:80
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:222
 msgid "Services"
 msgstr ">>kanály..."
 
@@ -17386,7 +17385,7 @@ msgstr "zobrazit audio metadata"
 
 #: EnhancedMovieCenter.py:504
 msgid "Show audio metadata (needs skin-changes)"
-msgstr "zobrazit audio metadata (nutná změna skinu)"
+msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:211
 msgid "Show begin/remain times:"
@@ -19013,7 +19012,7 @@ msgstr "Přepíná OSD mezi 2D a 3D"
 
 #: MovieInfo.py:723
 msgid "Switch complete to new Version"
-msgstr "přepnout na novou verzi"
+msgstr ""
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:102
 msgid "Switch to next configured page URL"
@@ -20864,7 +20863,7 @@ msgstr "Aktualizuji, čekejte..."
 
 #: EnhancedMovieCenter.py:509
 msgid "Upgrade/Download Mutagen v1.28(experimental)"
-msgstr "stáhnout / aktualizovat Mutagen v1.28 (experimental)"
+msgstr ""
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:204
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:286
@@ -22971,7 +22970,7 @@ msgstr "...kopíruji soubor..."
 #: EMCCoverSearch.py:851 EMCCoverSearch.py:854 EMCCoverSearch.py:872
 #: EMCCoverSearch.py:895
 msgid "covers"
-msgstr "obaly"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:940
 msgid "covers in"
@@ -23055,7 +23054,7 @@ msgstr "předvolba"
 #: enigma2-plugins/eparted/src/eparted.py:332
 #: enigma2-plugins/filebrowser/src/plugin.py:112
 #: enigma2-plugins/podcast/src/plugin.py:70
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:100
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
 #: enigma2-plugins/webadmin/src/WebScreens/WebAdminScreen.py:24
 msgid "delete"
 msgstr "odstranit"
@@ -25149,7 +25148,7 @@ msgstr "příkaz není > 0"
 
 #: EMCCoverSearch.py:705
 msgid "themoviedb cover resolution:"
-msgstr "rozlišení obalu z themoviedb :"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "themoviedb.org"
