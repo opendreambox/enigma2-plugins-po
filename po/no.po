@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-25 06:30+0000\n"
+"POT-Creation-Date: 2021-04-26 05:23+0000\n"
 "PO-Revision-Date: 2021-03-27 08:00+0000\n"
 "Last-Translator: Kurt Normand <kurt@normand.no>\n"
 "Language-Team: Norwegian Bokmål <https://dreambox.de/translate/projects/"
@@ -435,14 +435,14 @@ msgstr ""
 msgid "%i ms"
 msgstr "%i ms"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1443
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1456
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1445
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1458
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1460
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1470
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1483
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1462
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1472
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1485
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1487
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1489
 #, python-format
 msgid "%s"
 msgstr ""
@@ -3344,7 +3344,7 @@ msgstr "Endre standard innspillingstidspunkt?"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:222
 #: enigma2-plugins/dreamexplorer/src/plugin.py:296
-#: enigma2-plugins/dreamexplorer/src/plugin.py:909
+#: enigma2-plugins/dreamexplorer/src/plugin.py:911
 msgid "Change directory"
 msgstr ""
 
@@ -3376,7 +3376,7 @@ msgstr "Endre seriens navn"
 msgid "Change sorting"
 msgstr "Endre sortering"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1209
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1211
 msgid "Change symlink name"
 msgstr ""
 
@@ -3752,7 +3752,7 @@ msgstr "Dupliser valg timer"
 #: enigma2-plugins/emission/src/EmissionOverview.py:145
 #: enigma2-plugins/emission/src/EmissionDetailview.py:88
 #: enigma2-plugins/dreamexplorer/src/plugin.py:820
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1374
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1376
 #: enigma2-plugins/mphelp/src/MPHelp.py:43
 #: enigma2-plugins/pipservicerelation/src/plugin.py:86
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:38
@@ -4106,7 +4106,7 @@ msgid "CoolTVGuide is not installed!"
 msgstr "CoolTVGuide er ikke installert!"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1073
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1205
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1207
 msgid "Copy"
 msgstr "Kopier"
 
@@ -4137,7 +4137,7 @@ msgstr "Kopier, slett, flytt eller endre navn på lokale filer i din Dreambox."
 msgid "Copy, rename, delete, move, show, play, install files."
 msgstr "Kopier, omdøp, slett, flytt, vis, spill, installer filer."
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1220
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1222
 #, python-format
 msgid ""
 "Copy/move\n"
@@ -4145,7 +4145,7 @@ msgid ""
 "to %s:"
 msgstr ""
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1234
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1236
 #, python-format
 msgid "Copying %s to %s"
 msgstr ""
@@ -4455,11 +4455,11 @@ msgstr "Lag en forhåndsvisning av dine filmer"
 msgid "Create remote timers"
 msgstr "Lag fjernkontrollerte timere"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1208
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1210
 msgid "Create symlink"
 msgstr ""
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1222
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1224
 #, python-format
 msgid ""
 "Create symlink %s\n"
@@ -4502,7 +4502,7 @@ msgstr ""
 msgid "Creation of file %s"
 msgstr ""
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1254
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1256
 #, python-format
 msgid "Creation of symlink %s in %s to %s"
 msgstr ""
@@ -4528,7 +4528,7 @@ msgstr "Nåværende spilleliste lagret!"
 msgid "Current Priority:"
 msgstr "Nåværende prioritet:"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1030
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1032
 #, python-format
 msgid "Current content: %s"
 msgstr ""
@@ -4549,7 +4549,7 @@ msgstr "Nåværende rpm  %4d"
 msgid "Current value: %s"
 msgstr "Nåværende verdi: %s"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1361
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1363
 msgid "Currently"
 msgstr ""
 
@@ -5367,8 +5367,8 @@ msgstr "Deaktiver mediafilter"
 msgid "Disable password-based login"
 msgstr "Deaktiver passordbasert pålogging"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1445
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1472
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1447
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1474
 msgid "Disable service"
 msgstr ""
 
@@ -6021,10 +6021,10 @@ msgstr ""
 #: enigma2-plugins/dreamexplorer/src/plugin.py:574
 #: enigma2-plugins/dreamexplorer/src/plugin.py:603
 #: enigma2-plugins/dreamexplorer/src/plugin.py:635
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1013
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1135
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1145
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1259
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1015
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1137
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1147
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1261
 msgid "Dream Explorer 3"
 msgstr ""
 
@@ -6575,7 +6575,7 @@ msgstr "Rediger fødselsdager"
 msgid "Edit line "
 msgstr "Rediger linje "
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1030
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1032
 #, python-format
 msgid "Edit line: %d"
 msgstr "Rediger linje: %d"
@@ -6599,8 +6599,8 @@ msgstr "Rediger valgt oppføring"
 msgid "Edit selected page"
 msgstr "Rediger valgt side"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1370
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1373
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1372
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1375
 msgid "Edit service"
 msgstr ""
 
@@ -6896,8 +6896,8 @@ msgstr "Aktiver feilsøking ved innspilling (timerlogg)"
 msgid "Enable remote recordings"
 msgstr "Aktiver fjerninnspilling"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1449
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1476
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1451
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1478
 msgid "Enable service"
 msgstr ""
 
@@ -10159,7 +10159,7 @@ msgstr "Legg til fil i nåværende spilleliste og spill neste"
 msgid "Insert file to current songlist and play next"
 msgstr "Legg til fil i nåværende spileliste og spill neste"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:996
+#: enigma2-plugins/dreamexplorer/src/plugin.py:998
 #, python-format
 msgid "Insert line after line %d"
 msgstr ""
@@ -11544,7 +11544,7 @@ msgstr "Monteringseditor"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3016
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1074
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1204
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1206
 msgid "Move"
 msgstr "Flytt"
 
@@ -11848,7 +11848,7 @@ msgstr "Filmer"
 msgid "Movietitle:"
 msgstr "Filmtittel:"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1245
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1247
 #, python-format
 msgid "Moving %s to %s"
 msgstr ""
@@ -12171,7 +12171,7 @@ msgstr "Ny beskrivelse:"
 msgid "New filename:"
 msgstr "Nytt filnavn:"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:996
+#: enigma2-plugins/dreamexplorer/src/plugin.py:998
 msgid "New line:"
 msgstr ""
 
@@ -12445,8 +12445,8 @@ msgstr "Ingen flere bildefiler."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1548
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1558
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1135
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1145
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1137
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1147
 msgid "No more playable files."
 msgstr "Ingen flere spillbare filer."
 
@@ -13093,7 +13093,7 @@ msgid "Open Timer Log"
 msgstr "Åpne timerlogg"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:819
-#: enigma2-plugins/dreamexplorer/src/plugin.py:916
+#: enigma2-plugins/dreamexplorer/src/plugin.py:918
 msgid "Open bookmark"
 msgstr ""
 
@@ -16423,7 +16423,7 @@ msgstr "Velg en kanal etter oppstart:"
 msgid "Select splitting mode."
 msgstr "Velg splitting modus."
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1216
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1218
 msgid "Select target location..."
 msgstr ""
 
@@ -16704,22 +16704,22 @@ msgstr "Serverliste"
 msgid "Service"
 msgstr "Kanal"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1466
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1468
 #, python-format
 msgid "Service %s could not be disabled"
 msgstr ""
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1463
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1465
 #, python-format
 msgid "Service %s could not be enabled"
 msgstr ""
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1493
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1495
 #, python-format
 msgid "Service %s disabled"
 msgstr ""
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1490
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1492
 #, python-format
 msgid "Service %s enabled"
 msgstr ""
@@ -16833,7 +16833,7 @@ msgstr "Oppgi søkeord"
 msgid "Set size"
 msgstr "Sett størrelse"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1259
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1261
 msgid "Set symlink name:"
 msgstr ""
 
@@ -18414,7 +18414,7 @@ msgstr "Start WebInterface"
 msgid "Start allways on channel 1:"
 msgstr "Start alltid på kanal 1:"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1359
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1361
 msgid "Start at boot"
 msgstr ""
 
@@ -18508,7 +18508,7 @@ msgid "StartupToStandby Configuration"
 msgstr "StartupToStandby konfigurasjon"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Volume.py:17
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1363
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1365
 msgid "State"
 msgstr "Tilstand"
 
@@ -18870,7 +18870,7 @@ msgstr "System"
 msgid "System cleanup"
 msgstr "Systemopprydding"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1376
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1378
 #, python-format
 msgid "SystemD Viewer - %s"
 msgstr ""
@@ -20181,7 +20181,7 @@ msgstr "Veksle mellom dato / alfabetisk modus"
 msgid "Toggle description / tags display"
 msgstr "Veksle mellom beskrivelse / kategori visning"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1371
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1373
 msgid "Toggle label"
 msgstr ""
 
@@ -21998,7 +21998,7 @@ msgstr ""
 "Du tastet inn \"%s\" som 'Text to match'.\n"
 "Ønsker du å fjerne åpenrom etter navnet?"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1013
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1015
 #, python-format
 msgid "You have changed %s. Do you want to save your changes?"
 msgstr ""
