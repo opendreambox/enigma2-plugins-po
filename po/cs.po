@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-05 05:38+0000\n"
+"POT-Creation-Date: 2021-05-05 06:01+0000\n"
 "PO-Revision-Date: 2021-05-04 23:11+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
@@ -759,10 +759,12 @@ msgid "01:00"
 msgstr "01:00"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:110
+#: enigma2-plugin-fritzcall/src/plugin.py:110
 msgid "05.29 until below 6.35"
 msgstr "05.29 až do 6.35"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:110
+#: enigma2-plugin-fritzcall/src/plugin.py:110
 msgid "06.35 and newer"
 msgstr "06.35 a novější"
 
@@ -1178,9 +1180,15 @@ msgstr "BoxInfo"
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
+#. TRANSLATORS: this is a window title.
+#. TRANSLATORS: keep it short, this is a button
+#. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:361
 #: enigma2-plugins/fritzcall/src/plugin.py:2075
 #: enigma2-plugins/fritzcall/src/plugin.py:2106
+#: enigma2-plugin-fritzcall/src/plugin.py:361
+#: enigma2-plugin-fritzcall/src/plugin.py:2075
+#: enigma2-plugin-fritzcall/src/plugin.py:2106
 msgid "About FritzCall"
 msgstr "FritzCall modul"
 
@@ -1226,6 +1234,8 @@ msgstr "aktivovat VPS"
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:786
 #: enigma2-plugins/fritzcall/src/plugin.py:999
+#: enigma2-plugin-fritzcall/src/plugin.py:786
+#: enigma2-plugin-fritzcall/src/plugin.py:999
 msgid "Activate WLAN guest access"
 msgstr "aktivovat přístup WLAN hosta"
 
@@ -1471,9 +1481,13 @@ msgstr "přidat záznam"
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: this is a window title.
+#. TRANSLATORS: keep it short, this is a help text
+#. TRANSLATORS: this is a window title.
 #: enigma2-plugins/ncidclient/src/plugin.py:601
 #: enigma2-plugins/fritzcall/src/plugin.py:1740
 #: enigma2-plugins/fritzcall/src/plugin.py:1906
+#: enigma2-plugin-fritzcall/src/plugin.py:1740
+#: enigma2-plugin-fritzcall/src/plugin.py:1906
 msgid "Add entry to phonebook"
 msgstr "přidat položku do telefonního seznamu"
 
@@ -1712,6 +1726,7 @@ msgstr "seznam alb"
 #: enigma2-plugins/fritzcall/src/plugin.py:1166
 #: enigma2-plugin-stalkerclient/StalkerClient/api.py:195
 #: enigma2-plugin-stalkerclient/StalkerClient/api.py:196
+#: enigma2-plugin-fritzcall/src/plugin.py:1166
 msgid "All"
 msgstr "všechno"
 
@@ -1753,6 +1768,7 @@ msgid "All Timers"
 msgstr "všechny časovače"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:184
+#: enigma2-plugin-fritzcall/src/plugin.py:184
 msgid "All calls"
 msgstr "všechna volání"
 
@@ -2026,14 +2042,17 @@ msgid "Append file to current songlist"
 msgstr "přidat soubor do akt.seznamu"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2181
+#: enigma2-plugin-fritzcall/src/plugin.py:2181
 msgid "Append shortcut number"
 msgstr "přidat číslo horké klávesy "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2180
+#: enigma2-plugin-fritzcall/src/plugin.py:2180
 msgid "Append type of number"
 msgstr "přidat číslo typu "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2182
+#: enigma2-plugin-fritzcall/src/plugin.py:2182
 msgid "Append vanity name"
 msgstr "přidat číslo pravděpodobnosti"
 
@@ -2072,6 +2091,7 @@ msgstr "Chcete odstranit %s ?"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:739
 #: enigma2-plugins/fritzcall/src/plugin.py:2155
+#: enigma2-plugin-fritzcall/src/plugin.py:2155
 msgid "Areacode to add to calls without one (if necessary)"
 msgstr "předvolba pro volání bez jedné (pokud je to nutné)"
 
@@ -2256,6 +2276,7 @@ msgstr "Austrálie"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:49
 #: enigma2-plugins/fritzcall/src/plugin.py:171
+#: enigma2-plugin-fritzcall/src/plugin.py:171
 msgid "Austria"
 msgstr "Rakousko"
 
@@ -2450,6 +2471,7 @@ msgstr "aut.nastavení hlasitosti pro stanice s AC3/DTS"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:763
 #: enigma2-plugins/fritzcall/src/plugin.py:2189
+#: enigma2-plugin-fritzcall/src/plugin.py:2189
 msgid "Automatically add new Caller to PhoneBook"
 msgstr "volání aut.přidáno do telefonu"
 
@@ -2940,28 +2962,34 @@ msgstr "kabel"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:1356
+#: enigma2-plugin-fritzcall/src/plugin.py:1356
 msgid "Call"
 msgstr "volat"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:617
+#: enigma2-plugin-fritzcall/src/plugin.py:617
 msgid "Call diversion"
 msgstr "vyvolaná odchylka"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:975
+#: enigma2-plugin-fritzcall/src/plugin.py:975
 msgid "Call diversion active"
 msgstr "aktivní vyvolaná odchylka"
 
 #
 #: enigma2-plugins/ncidclient/src/plugin.py:731
 #: enigma2-plugins/fritzcall/src/plugin.py:2137
+#: enigma2-plugin-fritzcall/src/plugin.py:2137
 msgid "Call monitoring"
 msgstr "monitorovat volání"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:821
+#: enigma2-plugin-fritzcall/src/plugin.py:821
 msgid "Call redirection"
 msgstr "přesměrovat volání"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1428
+#: enigma2-plugin-fritzcall/src/plugin.py:1428
 #, python-format
 msgid "Calling %s"
 msgstr "volat %s na "
@@ -2971,6 +2999,7 @@ msgid "Callmonitor for NCID-based call notification"
 msgstr "-- monitor volaní NCID a hlášení"
 
 #: enigma2-plugins/fritzcall/meta/plugin_fritzcall.xml./enigma2-plugins/fritzcall/meta/plugin_fritzcall.xml
+#: enigma2-plugin-fritzcall/meta/plugin_fritzcall.xml./enigma2-plugin-fritzcall/meta/plugin_fritzcall.xml
 msgid "Callmonitor for the Fritz!Box routers"
 msgstr "-- monitor volaní pro směrovače FritzBox"
 
@@ -3224,6 +3253,8 @@ msgstr "Kanada"
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
 #: enigma2-plugin-moviecut/src_py/plugin.py:87
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:25
+#: enigma2-plugin-fritzcall/src/plugin.py:1877
+#: enigma2-plugin-fritzcall/src/plugin.py:2067
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:87
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
@@ -3244,6 +3275,8 @@ msgstr "Nadřazenou složku nelze odstranit!"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2271
 #: enigma2-plugins/fritzcall/src/plugin.py:2940
+#: enigma2-plugin-fritzcall/src/plugin.py:2271
+#: enigma2-plugin-fritzcall/src/plugin.py:2940
 msgid "Cannot get calls from FRITZ!Box"
 msgstr "Nelze volat z FRITZ!Box !"
 
@@ -3255,6 +3288,14 @@ msgstr "Nelze volat z FRITZ!Box !"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4327
 #: enigma2-plugins/fritzcall/src/plugin.py:2292
 #: enigma2-plugins/fritzcall/src/plugin.py:2958
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3925
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4160
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4180
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4221
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4301
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4327
+#: enigma2-plugin-fritzcall/src/plugin.py:2292
+#: enigma2-plugin-fritzcall/src/plugin.py:2958
 msgid ""
 "Cannot get infos from FRITZ!Box yet\n"
 "Still initialising or wrong firmware version"
@@ -3960,10 +4001,13 @@ msgstr "Připojeno přes FTP..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:866
 #: enigma2-plugins/fritzcall/src/plugin.py:872
+#: enigma2-plugin-fritzcall/src/plugin.py:866
+#: enigma2-plugin-fritzcall/src/plugin.py:872
 msgid "Connected since"
 msgstr "připojeno na "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2858
+#: enigma2-plugin-fritzcall/src/plugin.py:2858
 msgid "Connected to FRITZ!Box!"
 msgstr "Připojeno na FRITZ!Box!"
 
@@ -3976,6 +4020,7 @@ msgid "Connected to NCID Server"
 msgstr "Připojeno na NCID server"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2908
+#: enigma2-plugin-fritzcall/src/plugin.py:2908
 #, python-format
 msgid ""
 "Connecting to FRITZ!Box failed\n"
@@ -3987,6 +4032,7 @@ msgstr ""
 "...opakuji..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2852
+#: enigma2-plugin-fritzcall/src/plugin.py:2852
 msgid "Connecting to FRITZ!Box..."
 msgstr "Připojeno na FRITZ!Box..."
 
@@ -4010,6 +4056,7 @@ msgid "Connection Error"
 msgstr "chyba připojení"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2901
+#: enigma2-plugin-fritzcall/src/plugin.py:2901
 #, python-format
 msgid ""
 "Connection to FRITZ!Box! lost\n"
@@ -4196,12 +4243,16 @@ msgid "Could not find timer '%s' with given start and end time!"
 msgstr "Nelze najít časovač '%s' podle času začátku a konce ! "
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:527
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:527
 msgid "Could not get call list; wrong version?"
 msgstr "Nelze stáhnout seznam volání; chybná verze Firmware ?"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4061
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4078
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4229
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4061
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4078
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4229
 msgid "Could not load phonebook: "
 msgstr "Nelze načíst telefonní seznam : "
 
@@ -4212,6 +4263,13 @@ msgstr "Nelze načíst telefonní seznam : "
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4084
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4235
 #: enigma2-plugins/fritzcall/src/plugin.py:1484
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:432
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1406
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2076
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2846
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4084
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4235
+#: enigma2-plugin-fritzcall/src/plugin.py:1484
 #, python-format
 msgid "Could not load phonebook: %s"
 msgstr "Nelze načíst telefonní seznam : %s"
@@ -4227,6 +4285,8 @@ msgstr "Nelze otevřít PIP !"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1402
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2071
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1402
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2071
 msgid "Could not parse FRITZ!Box Phonebook entry"
 msgstr "Nelze načíst položky z telefon.seznamu FRITZ!Box"
 
@@ -4237,6 +4297,7 @@ msgid "Could not read AutoTimer timer list: %s"
 msgstr "Nelze načíst seznam časovačů z AutoTimer : %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:428
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:428
 msgid "Could not read FRITZ!Box phonebook; wrong version?"
 msgstr "Nelze načíst telefon.seznam pro FRITZ!Box; chybná verze Firmware ?"
 
@@ -4312,10 +4373,12 @@ msgstr "země"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:743
 #: enigma2-plugins/fritzcall/src/plugin.py:2158
+#: enigma2-plugin-fritzcall/src/plugin.py:2158
 msgid "Country"
 msgstr "země"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2163
+#: enigma2-plugin-fritzcall/src/plugin.py:2163
 msgid "Countrycode (e.g. 0044 for UK, 0034 for Spain, etc.)"
 msgstr "Kód země (např. 0044 pro Spojené království, 0034 pro Španělsko atd.)"
 
@@ -4662,10 +4725,12 @@ msgid "DEBUG"
 msgstr "odladění"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:960
+#: enigma2-plugin-fritzcall/src/plugin.py:960
 msgid "DECT inactive"
 msgstr "Neaktivní bezdr.telefon"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:956
+#: enigma2-plugin-fritzcall/src/plugin.py:956
 msgid "DECT phones registered"
 msgstr "Zaregistrován bezdrátový telefon"
 
@@ -4821,6 +4886,7 @@ msgstr "deaktivovat Movielist Preview"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:996
+#: enigma2-plugin-fritzcall/src/plugin.py:996
 msgid "Deactivate WLAN guest access"
 msgstr "deaktivovat přístup WLAN hosta"
 
@@ -5039,6 +5105,7 @@ msgstr "zpoždění x sekund po spuštění kanálu"
 #: enigma2-plugins/teletext/src/plugin.py:1734
 #: enigma2-plugins/pipservicerelation/src/plugin.py:85
 #: enigma2-plugins/fritzcall/src/plugin.py:1716
+#: enigma2-plugin-fritzcall/src/plugin.py:1716
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:52
 msgid "Delete"
 msgstr "odstranit"
@@ -5104,6 +5171,7 @@ msgstr "odstranit soubor střih.značek.cut"
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/zapstatistic/src/plugin.py:566
 #: enigma2-plugins/fritzcall/src/plugin.py:1738
+#: enigma2-plugin-fritzcall/src/plugin.py:1738
 msgid "Delete entry"
 msgstr "odstranit položku"
 
@@ -5438,6 +5506,7 @@ msgid "Display 4:3 content as"
 msgstr "obraz 4:3 zobrazit jako..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2985
+#: enigma2-plugin-fritzcall/src/plugin.py:2985
 msgid "Display FRITZ!box-Fon calls on screen"
 msgstr "zobrazit volání FRITZ!Box "
 
@@ -5447,6 +5516,7 @@ msgstr "zobrazit volání telefonu"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1188
+#: enigma2-plugin-fritzcall/src/plugin.py:1188
 msgid "Display all calls"
 msgstr "zobrazit všechna volání"
 
@@ -5455,6 +5525,7 @@ msgid "Display an information about impact of setting"
 msgstr "zobrazit informace o výsledku nastavení"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2201
+#: enigma2-plugin-fritzcall/src/plugin.py:2201
 msgid "Display connection infos"
 msgstr "zobrazit info spojení"
 
@@ -5472,11 +5543,13 @@ msgstr "zobrazit první a poslední sloupec"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1192
+#: enigma2-plugin-fritzcall/src/plugin.py:1192
 msgid "Display incoming calls"
 msgstr "zobrazit příchozí volání"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1190
+#: enigma2-plugin-fritzcall/src/plugin.py:1190
 msgid "Display missed calls"
 msgstr "zobrazit zmeškaná volání"
 
@@ -5486,6 +5559,7 @@ msgstr "Další parametry modulu_"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1194
+#: enigma2-plugin-fritzcall/src/plugin.py:1194
 msgid "Display outgoing calls"
 msgstr "zobrazit odchozí volání"
 
@@ -5608,6 +5682,7 @@ msgstr "aut.nebudit na konci dalšího intervalu vypínání "
 
 #. TRANSLATORS: this is a window title.
 #: enigma2-plugins/fritzcall/src/plugin.py:1386
+#: enigma2-plugin-fritzcall/src/plugin.py:1386
 msgid "Do what?"
 msgstr "...jak dál ?"
 
@@ -5659,6 +5734,7 @@ msgstr ""
 
 #: enigma2-plugins/ncidclient/src/plugin.py:521
 #: enigma2-plugins/fritzcall/src/plugin.py:1800
+#: enigma2-plugin-fritzcall/src/plugin.py:1800
 #, python-format
 msgid ""
 "Do you really want to delete entry for\n"
@@ -6532,6 +6608,7 @@ msgstr "EasySelection"
 #: enigma2-plugins/teletext/src/plugin.py:1736
 #: enigma2-plugins/pipservicerelation/src/plugin.py:88
 #: enigma2-plugins/fritzcall/src/plugin.py:1720
+#: enigma2-plugin-fritzcall/src/plugin.py:1720
 msgid "Edit"
 msgstr "upravit položku"
 
@@ -6623,8 +6700,12 @@ msgstr "upravit vybraný časovač"
 
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: this is a window title.
+#. TRANSLATORS: keep it short, this is a help text
+#. TRANSLATORS: this is a window title.
 #: enigma2-plugins/fritzcall/src/plugin.py:1742
 #: enigma2-plugins/fritzcall/src/plugin.py:1903
+#: enigma2-plugin-fritzcall/src/plugin.py:1742
+#: enigma2-plugin-fritzcall/src/plugin.py:1903
 msgid "Edit selected entry"
 msgstr "upravit vybrané zadání"
 
@@ -7255,6 +7336,7 @@ msgstr "položky %s/%s"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:609
 #: enigma2-plugins/fritzcall/src/plugin.py:1914
+#: enigma2-plugin-fritzcall/src/plugin.py:1914
 msgid "Entry incomplete."
 msgstr "Zadání je neúplné !"
 
@@ -7625,10 +7707,12 @@ msgid "Extended Control Range"
 msgstr "rozšířit rozsah regulace"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2197
+#: enigma2-plugin-fritzcall/src/plugin.py:2197
 msgid "Extended Search for faces"
 msgstr "rozšířit hledání o obličeje"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2196
+#: enigma2-plugin-fritzcall/src/plugin.py:2196
 msgid "Extended Search for names"
 msgstr "rozšířit hledání o názvy"
 
@@ -7645,6 +7729,7 @@ msgid "Extended timerlist with EPG-Lookups and more"
 msgstr "Rozšířený seznam časovačů EPG a další"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2169
+#: enigma2-plugin-fritzcall/src/plugin.py:2169
 msgid "Extension number to initiate call on"
 msgstr "Rozšířit počet volání"
 
@@ -7689,6 +7774,15 @@ msgstr "progresivní mód FHD"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4084
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4229
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4235
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:432
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1406
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2076
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2846
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4061
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4078
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4084
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4229
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4235
 msgid "FRITZ!Box - "
 msgstr "FRITZ!Box - "
 
@@ -7697,6 +7791,11 @@ msgstr "FRITZ!Box - "
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2180
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2947
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3931
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:576
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1496
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2180
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2947
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3931
 #, python-format
 msgid "FRITZ!Box - Could not load calls: %s"
 msgstr "FRITZ!Box - nelze načíst volání : %s"
@@ -7704,6 +7803,9 @@ msgstr "FRITZ!Box - nelze načíst volání : %s"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:620
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1540
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2218
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:620
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1540
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2218
 #, python-format
 msgid "FRITZ!Box - Dialling failed: %s"
 msgstr "FRITZ!Box - vytáčení selhalo : %s"
@@ -7713,11 +7815,17 @@ msgstr "FRITZ!Box - vytáčení selhalo : %s"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2621
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3473
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4274
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1117
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1816
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2621
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3473
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4274
 #, python-format
 msgid "FRITZ!Box - Error getting blacklist: %s"
 msgstr "FRITZ!Box - chyba při načtení seznamu : %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3555
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3555
 msgid "FRITZ!Box - Error getting status: "
 msgstr "FRITZ!Box - chyba při načtení stavu : "
 
@@ -7725,6 +7833,10 @@ msgstr "FRITZ!Box - chyba při načtení stavu : "
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1734
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2532
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3383
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1019
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1734
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2532
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3383
 #, python-format
 msgid "FRITZ!Box - Error getting status: %s"
 msgstr "FRITZ!Box - chyba při načtení stavu : %s"
@@ -7733,6 +7845,10 @@ msgstr "FRITZ!Box - chyba při načtení stavu : %s"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1240
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1928
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2734
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:232
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1240
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1928
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2734
 msgid ""
 "FRITZ!Box - Error logging in\n"
 "\n"
@@ -7743,6 +7859,9 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:485
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4200
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4209
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:485
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4200
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4209
 #, python-format
 msgid "FRITZ!Box - Error logging in: %s"
 msgstr "FRITZ!Box - chyba při přihlášení : %s"
@@ -7751,6 +7870,10 @@ msgstr "FRITZ!Box - chyba při přihlášení : %s"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1261
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1943
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2749
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:246
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1261
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1943
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2749
 #, python-format
 msgid ""
 "FRITZ!Box - Error logging in: %s\n"
@@ -7763,6 +7886,10 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1282
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1963
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2768
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:267
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1282
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1963
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2768
 #, python-format
 msgid "FRITZ!Box - Error logging out: %s"
 msgstr "FRITZ!Box - chyba při odhlášení : %s"
@@ -7771,18 +7898,26 @@ msgstr "FRITZ!Box - chyba při odhlášení : %s"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1780
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2571
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3422
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1067
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1780
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2571
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3422
 #, python-format
 msgid "FRITZ!Box - Error resetting: %s"
 msgstr "FRITZ!Box - chyba při resetu : %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2338
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3088
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2338
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3088
 #, python-format
 msgid "FRITZ!Box - Failed changing GuestAccess: %s"
 msgstr "FRITZ!Box - chyba při změně uživatele : %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:735
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1605
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:735
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1605
 #, python-format
 msgid "FRITZ!Box - Failed changing Mailbox: %s"
 msgstr "FRITZ!Box - chyba při změně schránky : %s"
@@ -7791,18 +7926,27 @@ msgstr "FRITZ!Box - chyba při změně schránky : %s"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1588
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2274
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3018
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:667
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1588
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2274
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3018
 #, python-format
 msgid "FRITZ!Box - Failed changing WLAN: %s"
 msgstr "FRITZ!Box - chyba při změně WLAN : %s"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2139
+#: enigma2-plugin-fritzcall/src/plugin.py:2139
 msgid "FRITZ!Box FON address (Name or IP)"
 msgstr "FRITZ!Box FON adresa (název nebo IP-adresa)"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2140
+#: enigma2-plugin-fritzcall/src/plugin.py:2140
 msgid "FRITZ!Box FON firmware version"
 msgstr "FRITZ!Box FON firmware-verze"
 
+#. TRANSLATORS: this is a window title.
+#. TRANSLATORS: keep it short, this is a button
+#. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
@@ -7810,15 +7954,22 @@ msgstr "FRITZ!Box FON firmware-verze"
 #: enigma2-plugins/fritzcall/src/plugin.py:2077
 #: enigma2-plugins/fritzcall/src/plugin.py:2104
 #: enigma2-plugins/fritzcall/src/plugin.py:2988
+#: enigma2-plugin-fritzcall/src/plugin.py:839
+#: enigma2-plugin-fritzcall/src/plugin.py:2077
+#: enigma2-plugin-fritzcall/src/plugin.py:2104
+#: enigma2-plugin-fritzcall/src/plugin.py:2988
 msgid "FRITZ!Box Fon Status"
 msgstr "FRITZ!Box Fon stav"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2177
+#: enigma2-plugin-fritzcall/src/plugin.py:2177
 msgid "FRITZ!Box PhoneBook to read"
 msgstr "FRITZ!Box - pro čtení z telefonu"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2241
 #: enigma2-plugins/fritzcall/src/plugin.py:2893
+#: enigma2-plugin-fritzcall/src/plugin.py:2241
+#: enigma2-plugin-fritzcall/src/plugin.py:2893
 msgid ""
 "FRITZ!Box firmware version not configured! Please set it in the "
 "configuration."
@@ -7827,6 +7978,7 @@ msgstr ""
 "konfiguraci..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1432
+#: enigma2-plugin-fritzcall/src/plugin.py:1432
 msgid "FRITZ!Box not available for calling"
 msgstr "FRITZ!Box - není použitelné pro volání"
 
@@ -8159,6 +8311,7 @@ msgid "Filter Services"
 msgstr "filtr kanálů"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2147
+#: enigma2-plugin-fritzcall/src/plugin.py:2147
 msgid "Filter also list of calls"
 msgstr "filtr také na seznam volání"
 
@@ -8341,6 +8494,8 @@ msgstr "Není co zobrazit, dodatky nebyly nalezeny..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1394
 #: enigma2-plugins/fritzcall/src/plugin.py:2496
+#: enigma2-plugin-fritzcall/src/plugin.py:1394
+#: enigma2-plugin-fritzcall/src/plugin.py:2496
 #, python-format
 msgid ""
 "Found picture\n"
@@ -8366,6 +8521,7 @@ msgstr ""
 #: enigma2-plugins/mytube/src/plugin.py:86
 #: enigma2-plugins/ncidclient/src/plugin.py:46
 #: enigma2-plugins/fritzcall/src/plugin.py:168
+#: enigma2-plugin-fritzcall/src/plugin.py:168
 msgid "France"
 msgstr "Francie"
 
@@ -8426,10 +8582,12 @@ msgstr "pátek"
 
 #. TRANSLATORS: this is a window title.
 #: enigma2-plugins/fritzcall/src/plugin.py:2125
+#: enigma2-plugin-fritzcall/src/plugin.py:2125
 msgid "FritzCall Setup"
 msgstr "FritzCall - nastavení"
 
 #: enigma2-plugins/fritzcall/meta/plugin_fritzcall.xml./enigma2-plugins/fritzcall/meta/plugin_fritzcall.xml
+#: enigma2-plugin-fritzcall/meta/plugin_fritzcall.xml./enigma2-plugin-fritzcall/meta/plugin_fritzcall.xml
 msgid "FritzCall shows incoming calls to your Fritz!Box on your Dreambox."
 msgstr "Modul zobrazuje volání přicházející od Fritz!Boxu."
 
@@ -8615,6 +8773,7 @@ msgstr "-- počasí nad Německem"
 #: enigma2-plugins/mytube/src/plugin.py:87
 #: enigma2-plugins/ncidclient/src/plugin.py:44
 #: enigma2-plugins/fritzcall/src/plugin.py:166
+#: enigma2-plugin-fritzcall/src/plugin.py:166
 msgid "Germany"
 msgstr "Německo"
 
@@ -8655,11 +8814,15 @@ msgstr "Stahuji informace z Partnerboxu..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1196
 #: enigma2-plugins/fritzcall/src/plugin.py:1258
+#: enigma2-plugin-fritzcall/src/plugin.py:1196
+#: enigma2-plugin-fritzcall/src/plugin.py:1258
 msgid "Getting calls from FRITZ!Box..."
 msgstr "Stáhnout volání z FRITZ!Boxu..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:584
 #: enigma2-plugins/fritzcall/src/plugin.py:788
+#: enigma2-plugin-fritzcall/src/plugin.py:584
+#: enigma2-plugin-fritzcall/src/plugin.py:788
 msgid "Getting status from FRITZ!Box Fon..."
 msgstr "Stáhnout stav FRITZ!Boxu..."
 
@@ -8785,14 +8948,18 @@ msgstr "určit čas podle začátku a konce pořadu"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:827
 #: enigma2-plugins/fritzcall/src/plugin.py:1026
+#: enigma2-plugin-fritzcall/src/plugin.py:827
+#: enigma2-plugin-fritzcall/src/plugin.py:1026
 msgid "Guest access"
 msgstr "přístup Guest "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:992
+#: enigma2-plugin-fritzcall/src/plugin.py:992
 msgid "Guest access not active"
 msgstr "přístup Guest není aktivní"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:988
+#: enigma2-plugin-fritzcall/src/plugin.py:988
 msgid "Guest access on "
 msgstr "přístup Guest je aktivovaný"
 
@@ -9826,6 +9993,8 @@ msgstr "IP adresa"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:866
 #: enigma2-plugins/fritzcall/src/plugin.py:868
+#: enigma2-plugin-fritzcall/src/plugin.py:866
+#: enigma2-plugin-fritzcall/src/plugin.py:868
 msgid "IP Address:"
 msgstr "IP adresa :"
 
@@ -10027,6 +10196,7 @@ msgstr ""
 " napodobením nahrávání, jako PiP či na plné obrazovce_"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2202
+#: enigma2-plugin-fritzcall/src/plugin.py:2202
 msgid "Ignore callers with no phone number"
 msgstr "Ignorovat volání bez tel.čísla"
 
@@ -10148,10 +10318,12 @@ msgstr "Započtené dny : "
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:1170
+#: enigma2-plugin-fritzcall/src/plugin.py:1170
 msgid "Incoming"
 msgstr "Příchozí"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2599
+#: enigma2-plugin-fritzcall/src/plugin.py:2599
 #, python-format
 msgid ""
 "Incoming Call on %(date)s at %(time)s from\n"
@@ -10184,6 +10356,7 @@ msgstr ""
 "---------------------------------------------"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:185
+#: enigma2-plugin-fritzcall/src/plugin.py:185
 msgid "Incoming calls"
 msgstr "Příchozí volání"
 
@@ -10421,6 +10594,7 @@ msgstr "italsky"
 #: enigma2-plugins/mytube/src/plugin.py:95
 #: enigma2-plugins/ncidclient/src/plugin.py:47
 #: enigma2-plugins/fritzcall/src/plugin.py:169
+#: enigma2-plugin-fritzcall/src/plugin.py:169
 msgid "Italy"
 msgstr "Itálie"
 
@@ -10555,6 +10729,7 @@ msgstr "jazyk :"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:828
 #: enigma2-plugins/fritzcall/src/plugin.py:2325
+#: enigma2-plugin-fritzcall/src/plugin.py:2325
 msgid "Last 10 calls:\n"
 msgstr "posledních 10 hovorů v režimu spánku :\n"
 
@@ -10915,6 +11090,7 @@ msgid "Log file path and name"
 msgstr "umístění a název protokolu"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2203
+#: enigma2-plugin-fritzcall/src/plugin.py:2203
 msgid "Log level"
 msgstr "log.úroveň"
 
@@ -10968,6 +11144,7 @@ msgstr "funkce pod tl.: Info dlouhé"
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/imdb/src/plugin.py:92
 #: enigma2-plugins/fritzcall/src/plugin.py:1354
+#: enigma2-plugin-fritzcall/src/plugin.py:1354
 msgid "Lookup"
 msgstr "hledání"
 
@@ -11007,6 +11184,7 @@ msgid "MSN location search result"
 msgstr "vyhledat MSN kód města"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2146
+#: enigma2-plugin-fritzcall/src/plugin.py:2146
 msgid "MSN to show (separated by ,)"
 msgstr "zobrazit MSN (oddělovač)"
 
@@ -11023,6 +11201,7 @@ msgid "Mail to or leave empty (From will be used)"
 msgstr "Mail pro... nebo povolit prázdný (podle použití)"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:559
+#: enigma2-plugin-fritzcall/src/plugin.py:559
 msgid "Mailbox"
 msgstr "poštovní složka"
 
@@ -11428,10 +11607,12 @@ msgstr ""
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:1168
+#: enigma2-plugin-fritzcall/src/plugin.py:1168
 msgid "Missed"
 msgstr "zmeškané"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:186
+#: enigma2-plugin-fritzcall/src/plugin.py:186
 msgid "Missed calls"
 msgstr "zmeškané hovory"
 
@@ -12023,10 +12204,12 @@ msgid "Mute button remote control"
 msgstr "tlačítko Mute na dálkovém ovladači"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2149
+#: enigma2-plugin-fritzcall/src/plugin.py:2149
 msgid "Mute on incoming call"
 msgstr "umlčet příchozí volání"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2150
+#: enigma2-plugin-fritzcall/src/plugin.py:2150
 msgid "Mute on outgoing calls"
 msgstr "umlčet odchozí volání"
 
@@ -12171,6 +12354,7 @@ msgstr "NFS sdílení"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:359
 #: enigma2-plugins/showclock/src/plugin.py:121
 #: enigma2-plugins/fritzcall/src/plugin.py:1894
+#: enigma2-plugin-fritzcall/src/plugin.py:1894
 msgid "Name"
 msgstr "název"
 
@@ -12255,6 +12439,7 @@ msgstr ""
 #: enigma2-plugins/growlee/src/plugin.py:101
 #: enigma2-plugins/fritzcall/src/plugin.py:1718
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:80
+#: enigma2-plugin-fritzcall/src/plugin.py:1718
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:51
 msgid "New"
 msgstr "nový"
@@ -12288,6 +12473,7 @@ msgid "New Zealand"
 msgstr "Nový Zéland"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2491
+#: enigma2-plugin-fritzcall/src/plugin.py:2491
 msgid "New call"
 msgstr "nové volání"
 
@@ -12411,6 +12597,7 @@ msgid "No Cover: %s"
 msgstr "chybí potisk : %s"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:951
+#: enigma2-plugin-fritzcall/src/plugin.py:951
 msgid "No DECT phone registered"
 msgstr "Žádný mobil není registrovaný"
 
@@ -12466,6 +12653,7 @@ msgid "No Timeshift found to save as recording!"
 msgstr "Soubor Timeshiftu pro uložení nebyl nalezený !"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:983
+#: enigma2-plugin-fritzcall/src/plugin.py:983
 msgid "No call diversion active"
 msgstr "Přeposlání hovoru není aktivní"
 
@@ -12505,6 +12693,9 @@ msgstr "popis není dostupný"
 #: enigma2-plugins/fritzcall/src/plugin.py:1804
 #: enigma2-plugins/fritzcall/src/plugin.py:1821
 #: enigma2-plugins/fritzcall/src/plugin.py:1953
+#: enigma2-plugin-fritzcall/src/plugin.py:1804
+#: enigma2-plugin-fritzcall/src/plugin.py:1821
+#: enigma2-plugin-fritzcall/src/plugin.py:1953
 msgid "No entry selected"
 msgstr "Nic není vybráno"
 
@@ -12553,6 +12744,7 @@ msgid "No lyrics found"
 msgstr "Texty nejsou dostupné !"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:931
+#: enigma2-plugin-fritzcall/src/plugin.py:931
 msgid "No mailbox active"
 msgstr "Poštovní schránka není aktivní"
 
@@ -12610,6 +12802,8 @@ msgstr "Stránka zásobníku na webu není definována !"
 #: enigma2-plugins/ncidclient/src/plugin.py:798
 #: enigma2-plugins/fritzcall/src/plugin.py:2282
 #: enigma2-plugins/fritzcall/src/plugin.py:2951
+#: enigma2-plugin-fritzcall/src/plugin.py:2282
+#: enigma2-plugin-fritzcall/src/plugin.py:2951
 msgid "No phonebook"
 msgstr "Chybí tel.seznam"
 
@@ -12627,6 +12821,7 @@ msgid "No previous file in this directory"
 msgstr "Předchozí soubor ve složce chybí !"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1418
+#: enigma2-plugin-fritzcall/src/plugin.py:1418
 msgid "No result from reverse lookup"
 msgstr "Chybí výsledek od zpětné smyčky"
 
@@ -12744,6 +12939,7 @@ msgid "Not before"
 msgstr "ne před..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:162
+#: enigma2-plugin-fritzcall/src/plugin.py:162
 msgid "Not deactivating after time"
 msgstr "Nedeaktivovat po času"
 
@@ -12851,6 +13047,7 @@ msgstr "číslo"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:594
 #: enigma2-plugins/fritzcall/src/plugin.py:1895
+#: enigma2-plugin-fritzcall/src/plugin.py:1895
 msgid "Number"
 msgstr "počet"
 
@@ -12969,6 +13166,8 @@ msgstr "vyp."
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
 #: enigma2-plugin-moviecut/src_py/plugin.py:86
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:26
+#: enigma2-plugin-fritzcall/src/plugin.py:1879
+#: enigma2-plugin-fritzcall/src/plugin.py:2069
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
 #: enigma2-plugin-vps/src_py/Vps_setup.py:55
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:50
@@ -13095,14 +13294,17 @@ msgid "On to Standby"
 msgstr "do režimu spánku"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:954
+#: enigma2-plugin-fritzcall/src/plugin.py:954
 msgid "One DECT phone registered"
 msgstr "Registrovaný jeden bezdrátový telefon"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:977
+#: enigma2-plugin-fritzcall/src/plugin.py:977
 msgid "One call diversion active"
 msgstr "Je aktivní jedno přeposlané volání "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:943
+#: enigma2-plugin-fritzcall/src/plugin.py:943
 msgid "One mailbox active"
 msgstr "aktivní jeden tel.záznamník"
 
@@ -13321,6 +13523,7 @@ msgid "Other"
 msgstr "ostatní---"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:172
+#: enigma2-plugin-fritzcall/src/plugin.py:172
 msgid "Others"
 msgstr "další"
 
@@ -13338,10 +13541,12 @@ msgstr "-- vnější hranice (+/-)"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:1172
+#: enigma2-plugin-fritzcall/src/plugin.py:1172
 msgid "Outgoing"
 msgstr "odchozí"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2601
+#: enigma2-plugin-fritzcall/src/plugin.py:2601
 #, python-format
 msgid ""
 "Outgoing Call on %(date)s at %(time)s to\n"
@@ -13359,6 +13564,7 @@ msgstr ""
 "z : %(phone)s"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:187
+#: enigma2-plugin-fritzcall/src/plugin.py:187
 msgid "Outgoing calls"
 msgstr "odchozí volání"
 
@@ -13578,6 +13784,7 @@ msgid "Password"
 msgstr "heslo boxu pro FTP,SSH"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2168
+#: enigma2-plugin-fritzcall/src/plugin.py:2168
 msgid "Password Accessing FRITZ!Box"
 msgstr "heslo pro přístup do FRITZ!Box"
 
@@ -13723,9 +13930,14 @@ msgstr "příroda"
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
+#. TRANSLATORS: this is a window title.
+#. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:1211
 #: enigma2-plugins/fritzcall/src/plugin.py:2071
 #: enigma2-plugins/fritzcall/src/plugin.py:2986
+#: enigma2-plugin-fritzcall/src/plugin.py:1211
+#: enigma2-plugin-fritzcall/src/plugin.py:2071
+#: enigma2-plugin-fritzcall/src/plugin.py:2986
 msgid "Phone calls"
 msgstr "Telefon.volání"
 
@@ -13735,9 +13947,13 @@ msgstr "PhoneBook umístění"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2190
 #: enigma2-plugins/fritzcall/src/plugin.py:2213
+#: enigma2-plugin-fritzcall/src/plugin.py:2190
+#: enigma2-plugin-fritzcall/src/plugin.py:2213
 msgid "PhoneBook and Faces Location"
 msgstr "Telefon.seznam a obrázky"
 
+#. TRANSLATORS: this is a window title.
+#. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/ncidclient/src/plugin.py:467
@@ -13745,6 +13961,10 @@ msgstr "Telefon.seznam a obrázky"
 #: enigma2-plugins/fritzcall/src/plugin.py:1755
 #: enigma2-plugins/fritzcall/src/plugin.py:2073
 #: enigma2-plugins/fritzcall/src/plugin.py:2987
+#: enigma2-plugin-fritzcall/src/plugin.py:137
+#: enigma2-plugin-fritzcall/src/plugin.py:1755
+#: enigma2-plugin-fritzcall/src/plugin.py:2073
+#: enigma2-plugin-fritzcall/src/plugin.py:2987
 msgid "Phonebook"
 msgstr "Telefon.seznam"
 
@@ -14256,6 +14476,12 @@ msgstr "Modul není aktivní"
 #: enigma2-plugins/fritzcall/src/plugin.py:2942
 #: enigma2-plugins/fritzcall/src/plugin.py:2949
 #: enigma2-plugins/fritzcall/src/plugin.py:2960
+#: enigma2-plugin-fritzcall/src/plugin.py:2273
+#: enigma2-plugin-fritzcall/src/plugin.py:2280
+#: enigma2-plugin-fritzcall/src/plugin.py:2294
+#: enigma2-plugin-fritzcall/src/plugin.py:2942
+#: enigma2-plugin-fritzcall/src/plugin.py:2949
+#: enigma2-plugin-fritzcall/src/plugin.py:2960
 msgid "Plugin not enabled"
 msgstr "Modul není aktivovaný"
 
@@ -14761,6 +14987,12 @@ msgstr "tlačítko \"Quick\""
 #: enigma2-plugins/fritzcall/src/plugin.py:771
 #: enigma2-plugins/fritzcall/src/plugin.py:1186
 #: enigma2-plugins/fritzcall/src/plugin.py:1736
+#: enigma2-plugin-fritzcall/src/plugin.py:574
+#: enigma2-plugin-fritzcall/src/plugin.py:576
+#: enigma2-plugin-fritzcall/src/plugin.py:769
+#: enigma2-plugin-fritzcall/src/plugin.py:771
+#: enigma2-plugin-fritzcall/src/plugin.py:1186
+#: enigma2-plugin-fritzcall/src/plugin.py:1736
 msgid "Quit"
 msgstr "konec"
 
@@ -14823,6 +15055,7 @@ msgid "Re-Query IMDb: %s..."
 msgstr "nový dotaz na IMDb : %s..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2175
+#: enigma2-plugin-fritzcall/src/plugin.py:2175
 msgid "Read PhoneBook from FRITZ!Box"
 msgstr "načíst tel.seznam pro FRITZ!Box"
 
@@ -15118,6 +15351,8 @@ msgstr "start aktualizace >>"
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:582
 #: enigma2-plugins/fritzcall/src/plugin.py:779
+#: enigma2-plugin-fritzcall/src/plugin.py:582
+#: enigma2-plugin-fritzcall/src/plugin.py:779
 msgid "Refresh status"
 msgstr "stav obnovy"
 
@@ -15126,6 +15361,7 @@ msgid "Refreshing"
 msgstr "...aktualizuji..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:857
+#: enigma2-plugin-fritzcall/src/plugin.py:857
 msgid "Refreshing..."
 msgstr "...obnovuji..."
 
@@ -15176,6 +15412,7 @@ msgid "Reload current page URL"
 msgstr "obnovit aktuální stránku"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2193
+#: enigma2-plugin-fritzcall/src/plugin.py:2193
 msgid "Reload interval for phonebooks (hours)"
 msgstr "obnovovat tel.seznam po hodině"
 
@@ -15588,6 +15825,8 @@ msgstr "znovu prohledat"
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: keep it short, this is a button
+#. TRANSLATORS: keep it short, this is a help text
+#. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/cec/src/CecConfig.py:40
 #: enigma2-plugins/fritzcall/src/plugin.py:526
 #: enigma2-plugins/fritzcall/src/plugin.py:580
@@ -15596,6 +15835,10 @@ msgstr "znovu prohledat"
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:59
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:180
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
+#: enigma2-plugin-fritzcall/src/plugin.py:526
+#: enigma2-plugin-fritzcall/src/plugin.py:580
+#: enigma2-plugin-fritzcall/src/plugin.py:777
+#: enigma2-plugin-fritzcall/src/plugin.py:782
 msgid "Reset"
 msgstr "reset"
 
@@ -15742,6 +15985,7 @@ msgid "Reusable Help-component for other plugins."
 msgstr "další *tube-komponenty pro další moduly"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2160
+#: enigma2-plugin-fritzcall/src/plugin.py:2160
 msgid "Reverse Lookup Caller ID"
 msgstr "zpětně vyhledat volané ID"
 
@@ -15750,6 +15994,7 @@ msgid "Reverse Lookup Caller ID (select country below)"
 msgstr "zpětně vyhledat ID volání (vyberte zemi dole)"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1412
+#: enigma2-plugin-fritzcall/src/plugin.py:1412
 msgid "Reverse searching..."
 msgstr "Obrácené hledání ..."
 
@@ -15958,6 +16203,7 @@ msgstr "sobota"
 #: enigma2-plugins/audiosync/src/AC3setup.py:59
 #: enigma2-plugins/podcast/src/plugin.py:543
 #: enigma2-plugins/fritzcall/src/plugin.py:1358
+#: enigma2-plugin-fritzcall/src/plugin.py:1358
 msgid "Save"
 msgstr "uložit"
 
@@ -16208,11 +16454,13 @@ msgstr "o stránku obsahu nahoru"
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:845
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 #: enigma2-plugins/fritzcall/src/plugin.py:1722
+#: enigma2-plugin-fritzcall/src/plugin.py:1722
 msgid "Search"
 msgstr "hledat další >>"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1744
+#: enigma2-plugin-fritzcall/src/plugin.py:1744
 msgid "Search (case insensitive)"
 msgstr "hledat text (nerozlišovat velikost)"
 
@@ -16314,6 +16562,7 @@ msgstr "hledat v seznamu"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:643
 #: enigma2-plugins/fritzcall/src/plugin.py:1962
+#: enigma2-plugin-fritzcall/src/plugin.py:1962
 msgid "Search phonebook"
 msgstr "tel.seznam"
 
@@ -17010,6 +17259,8 @@ msgstr "Nastavení tlačítka bylo zrušeno !"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1005
 #: enigma2-plugins/fritzcall/src/plugin.py:1026
+#: enigma2-plugin-fritzcall/src/plugin.py:1005
+#: enigma2-plugin-fritzcall/src/plugin.py:1026
 msgid "Setting..."
 msgstr "nastavit..."
 
@@ -17094,6 +17345,12 @@ msgstr "Barva pro \"sledované video\" (modrá) v %"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2062
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2834
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4135
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:382
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:409
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1394
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2062
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2834
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4135
 msgid "Shortcut"
 msgstr "rychlé tl."
 
@@ -17153,6 +17410,7 @@ msgid "Show AutoTimer filters"
 msgstr "zobrazit filtry časovačů"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2152
+#: enigma2-plugin-fritzcall/src/plugin.py:2152
 msgid "Show Blocked Calls"
 msgstr "zobrazit blokovaná tel.čísla"
 
@@ -17271,6 +17529,7 @@ msgid "Show Orbital"
 msgstr "zobrazit orbitu"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2153
+#: enigma2-plugin-fritzcall/src/plugin.py:2153
 msgid "Show Outgoing Calls"
 msgstr "zobrazit odchozí volání"
 
@@ -17346,6 +17605,7 @@ msgstr "-- předpověď počasí podle místa (std)"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:736
 #: enigma2-plugins/fritzcall/src/plugin.py:2142
+#: enigma2-plugin-fritzcall/src/plugin.py:2142
 msgid "Show after Standby"
 msgstr "zobrazit po režimu spánku"
 
@@ -17354,6 +17614,7 @@ msgid "Show all Plugins in MoviePlayer?"
 msgstr "Zobrazit všechny moduly v MoviePlayeru ?"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2179
+#: enigma2-plugin-fritzcall/src/plugin.py:2179
 msgid "Show also internal numbers"
 msgstr "zobrazit také interní čísla"
 
@@ -17404,6 +17665,8 @@ msgstr "zobrazit akt.seznam vybraného videa"
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:1184
 #: enigma2-plugins/fritzcall/src/plugin.py:1734
+#: enigma2-plugin-fritzcall/src/plugin.py:1184
+#: enigma2-plugin-fritzcall/src/plugin.py:1734
 msgid "Show details of entry"
 msgstr "zobrazit detaily zadání"
 
@@ -17598,6 +17861,7 @@ msgid "Show notification on similars"
 msgstr "zobrazit hlášení o alternativních časovačích"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2144
+#: enigma2-plugin-fritzcall/src/plugin.py:2144
 msgid "Show only calls for specific MSN"
 msgstr "zobrazit hovory pouze od určitých čísel"
 
@@ -18145,10 +18409,12 @@ msgid "Socket timeout"
 msgstr "časový limit na dotazy Proxy (sek.)"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:965
+#: enigma2-plugin-fritzcall/src/plugin.py:965
 msgid "Software fax active"
 msgstr "software Fax - aktivní"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:969
+#: enigma2-plugin-fritzcall/src/plugin.py:969
 msgid "Software fax inactive"
 msgstr "software Fax - neaktivní"
 
@@ -18736,6 +19002,9 @@ msgstr "stanice"
 #: enigma2-plugins/fritzcall/src/plugin.py:862
 #: enigma2-plugins/fritzcall/src/plugin.py:894
 #: enigma2-plugins/fritzcall/src/plugin.py:922
+#: enigma2-plugin-fritzcall/src/plugin.py:862
+#: enigma2-plugin-fritzcall/src/plugin.py:894
+#: enigma2-plugin-fritzcall/src/plugin.py:922
 msgid "Status not available"
 msgstr "stav není dostupný"
 
@@ -18875,6 +19144,7 @@ msgstr "striktní"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:765
 #: enigma2-plugins/fritzcall/src/plugin.py:2199
+#: enigma2-plugin-fritzcall/src/plugin.py:2199
 msgid "Strip Leading 0"
 msgstr "úvodní \"0\" odebrat"
 
@@ -19007,6 +19277,7 @@ msgstr "Přepnout na konfigurační obrazovku motivů / návrhů pro vybraný sk
 
 #: enigma2-plugins/ncidclient/src/plugin.py:48
 #: enigma2-plugins/fritzcall/src/plugin.py:170
+#: enigma2-plugin-fritzcall/src/plugin.py:170
 msgid "Switzerland"
 msgstr "Švýcarsko"
 
@@ -19351,6 +19622,7 @@ msgstr ""
 
 #: enigma2-plugins/ncidclient/src/plugin.py:45
 #: enigma2-plugins/fritzcall/src/plugin.py:167
+#: enigma2-plugin-fritzcall/src/plugin.py:167
 msgid "The Netherlands"
 msgstr "Nizozemí"
 
@@ -19719,6 +19991,8 @@ msgstr "Aktualizace ještě běží. Akci zatím nelze spustit..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2867
 #: enigma2-plugins/fritzcall/src/plugin.py:2873
+#: enigma2-plugin-fritzcall/src/plugin.py:2867
+#: enigma2-plugin-fritzcall/src/plugin.py:2873
 #, python-format
 msgid ""
 "There might be a problem with your FritzCall %spassword.\n"
@@ -20022,6 +20296,7 @@ msgstr "časový limit spuštění (v min.)"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:740
 #: enigma2-plugins/fritzcall/src/plugin.py:2156
+#: enigma2-plugin-fritzcall/src/plugin.py:2156
 msgid "Timeout for Call Notifications (seconds)"
 msgstr "doba zobrazení v sek."
 
@@ -20225,6 +20500,8 @@ msgstr "Modul pro jednoduché stahování aplikací z Internetu."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2227
 #: enigma2-plugins/fritzcall/src/plugin.py:2878
+#: enigma2-plugin-fritzcall/src/plugin.py:2227
+#: enigma2-plugin-fritzcall/src/plugin.py:2878
 msgid ""
 "To enjoy more functionalities of your FRITZ!Box, configure the firmware "
 "version!"
@@ -20249,26 +20526,31 @@ msgstr ""
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:550
+#: enigma2-plugin-fritzcall/src/plugin.py:550
 msgid "Toggle 1. mailbox"
 msgstr "přepnout na 1. mail.schránku"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:552
+#: enigma2-plugin-fritzcall/src/plugin.py:552
 msgid "Toggle 2. mailbox"
 msgstr "přepnout na 2. mail.schránku"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:554
+#: enigma2-plugin-fritzcall/src/plugin.py:554
 msgid "Toggle 3. mailbox"
 msgstr "přepnout na 3. mail.schránku"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:556
+#: enigma2-plugin-fritzcall/src/plugin.py:556
 msgid "Toggle 4. mailbox"
 msgstr "přepnout na 4. mail.schránku"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:558
+#: enigma2-plugin-fritzcall/src/plugin.py:558
 msgid "Toggle 5. mailbox"
 msgstr "přepnout na 5. mail.schránku"
 
@@ -20287,9 +20569,12 @@ msgstr "změnit seznam"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugins/fritzcall/src/plugin.py:532
+#: enigma2-plugin-fritzcall/src/plugin.py:532
 msgid "Toggle Mailbox"
 msgstr "přepnout mail.schránku"
 
+#. TRANSLATORS: keep it short, this is a button
+#. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: keep it short, this is a help text
 #. TRANSLATORS: keep it short, this is a button
@@ -20297,16 +20582,22 @@ msgstr "přepnout mail.schránku"
 #: enigma2-plugins/fritzcall/src/plugin.py:578
 #: enigma2-plugins/fritzcall/src/plugin.py:773
 #: enigma2-plugins/fritzcall/src/plugin.py:784
+#: enigma2-plugin-fritzcall/src/plugin.py:528
+#: enigma2-plugin-fritzcall/src/plugin.py:578
+#: enigma2-plugin-fritzcall/src/plugin.py:773
+#: enigma2-plugin-fritzcall/src/plugin.py:784
 msgid "Toggle WLAN"
 msgstr "přepnout WLAN"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:775
+#: enigma2-plugin-fritzcall/src/plugin.py:775
 msgid "Toggle WLAN guest access"
 msgstr "přepnout přístup hosta WLAN "
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:548
+#: enigma2-plugin-fritzcall/src/plugin.py:548
 msgid "Toggle all mailboxes"
 msgstr "přepnout všechny mail.schránky"
 
@@ -20609,6 +20900,15 @@ msgstr "UL: %d kb/s"
 #: enigma2-plugins/fritzcall/src/plugin.py:2799
 #: enigma2-plugins/fritzcall/src/plugin.py:2804
 #: enigma2-plugins/fritzcall/src/plugin.py:2832
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:92
+#: enigma2-plugin-fritzcall/src/plugin.py:1286
+#: enigma2-plugin-fritzcall/src/plugin.py:2346
+#: enigma2-plugin-fritzcall/src/plugin.py:2349
+#: enigma2-plugin-fritzcall/src/plugin.py:2388
+#: enigma2-plugin-fritzcall/src/plugin.py:2677
+#: enigma2-plugin-fritzcall/src/plugin.py:2799
+#: enigma2-plugin-fritzcall/src/plugin.py:2804
+#: enigma2-plugin-fritzcall/src/plugin.py:2832
 msgid "UNKNOWN"
 msgstr "neznámé"
 
@@ -20662,6 +20962,8 @@ msgstr "Spojené státy"
 #: enigma2-plugins/cec/src/CecDeviceList.py:104
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3628
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3985
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3628
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3985
 msgid "Unknown"
 msgstr "neurčeno"
 
@@ -20777,6 +21079,8 @@ msgstr "interval aktualizace (min.)"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3151
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3612
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3151
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3612
 msgid "Update available"
 msgstr "dostupná aktualizace "
 
@@ -20891,6 +21195,7 @@ msgid "Use \"guessFileData\" method for movie filname:"
 msgstr "Použít metodu \"guessFileData\" pro název videa :"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2204
+#: enigma2-plugin-fritzcall/src/plugin.py:2204
 msgid "Use HTTPS to communicate with FRITZ!Box"
 msgstr "použít HTTPS pro komunikaci s FRITZ!Box"
 
@@ -20938,6 +21243,7 @@ msgstr "použít hardware-dekoder pro MP3"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:745
 #: enigma2-plugins/fritzcall/src/plugin.py:2186
+#: enigma2-plugin-fritzcall/src/plugin.py:2186
 msgid "Use internal PhoneBook"
 msgstr "použít interní tel.seznam"
 
@@ -21025,6 +21331,7 @@ msgid "User name"
 msgstr "přihlášený uživatel..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2167
+#: enigma2-plugin-fritzcall/src/plugin.py:2167
 msgid "User name Accessing FRITZ!Box"
 msgstr "přihlášený uživatel pro FRITZ!Box"
 
@@ -21211,6 +21518,12 @@ msgstr "VPS-čas (čas)"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2064
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2836
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4137
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:384
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:411
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1396
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2064
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2836
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4137
 msgid "Vanity"
 msgstr "marnost"
 
@@ -21483,6 +21796,7 @@ msgid "WD, DD.MM. HH:MM"
 msgstr "WD, DD.MM. HH:MM"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1028
+#: enigma2-plugin-fritzcall/src/plugin.py:1028
 msgid "WLAN not active"
 msgstr "WLAN není aktivní !"
 
@@ -22158,6 +22472,7 @@ msgstr ""
 "Chcete Enigmu2 restartovat ?"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2062
+#: enigma2-plugin-fritzcall/src/plugin.py:2062
 msgid "You need to enable the monitoring on your FRITZ!Box by dialing #96*5*!"
 msgstr "Potřebujete povolit monitoring FRITZ!Box, bude vytáčet  #96*5* !"
 
@@ -22174,6 +22489,7 @@ msgid "You need to include at least %d aspect ratio modes!"
 msgstr "Je třeba přidat alespoň  %d  typy poměru stran !"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:512
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:512
 msgid ""
 "You need to set the password of the FRITZ!Box\n"
 "in the configuration dialog to display calls\n"
@@ -22736,6 +23052,7 @@ msgid "autotimers need a match attribute"
 msgstr "AutoTimer potřebuje text pro hledání"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:110
+#: enigma2-plugin-fritzcall/src/plugin.py:110
 msgid "before 05.27"
 msgstr "před 05.27"
 
@@ -22789,11 +23106,14 @@ msgid "c3voc stream bouquet updater"
 msgstr "-- aktualizace C3VOC stream ze sady kanálů"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:979
+#: enigma2-plugin-fritzcall/src/plugin.py:979
 msgid "call diversions active"
 msgstr "aktivní přesměrování volání"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3159
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3620
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3159
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3620
 msgid "calls in mailbox"
 msgstr "volat přes mailbox"
 
@@ -23085,6 +23405,7 @@ msgid "device name: "
 msgstr "zařízení :"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:913
+#: enigma2-plugin-fritzcall/src/plugin.py:913
 msgid "devices active"
 msgstr "WLAN - aktivní stanice"
 
@@ -23132,6 +23453,7 @@ msgstr "zobrazit Info"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:2096
+#: enigma2-plugin-fritzcall/src/plugin.py:2096
 msgid "display calls"
 msgstr "zobrazit volání"
 
@@ -23141,6 +23463,7 @@ msgstr "zobrazit chyby spojení"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:2098
+#: enigma2-plugin-fritzcall/src/plugin.py:2098
 msgid "display phonebook"
 msgstr "zobrazit telefon"
 
@@ -23176,6 +23499,7 @@ msgid "don't record"
 msgstr "-nenahrávat-"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:510
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:510
 msgid "done"
 msgstr "hotovo"
 
@@ -23190,6 +23514,7 @@ msgid "done!"
 msgstr "-hotovo-"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:523
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:523
 msgid "done, using last list"
 msgstr "hotovo, používám poslední seznam"
 
@@ -23272,6 +23597,7 @@ msgid "encoder service not seekable"
 msgstr "kódování kanálu nelze vyhledávat"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:906
+#: enigma2-plugin-fritzcall/src/plugin.py:906
 msgid "encrypted"
 msgstr "zakódováno"
 
@@ -23377,10 +23703,12 @@ msgid "favorites / decrease height"
 msgstr "Oblíbené / snížené množství"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4124
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4124
 msgid "fax_home"
 msgstr "fax_domů"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4124
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4124
 msgid "fax_work"
 msgstr "fax_pracovní"
 
@@ -23440,6 +23768,11 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2102
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2870
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3950
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:500
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1417
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2102
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2870
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3950
 msgid "finishing"
 msgstr "Dokončuji..."
 
@@ -23537,6 +23870,7 @@ msgid "group movies of a series to virtual directories"
 msgstr "přidání skupiny videa k virtuálním složkám"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2873
+#: enigma2-plugin-fritzcall/src/plugin.py:2873
 msgid "guest "
 msgstr "host "
 
@@ -23590,6 +23924,7 @@ msgid "hide the red real directories"
 msgstr "skrýt červené reálné složky"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:377
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:377
 msgid "home"
 msgstr "privat"
 
@@ -23853,6 +24188,8 @@ msgstr "...načítám..."
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:145
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1164
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:145
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1164
 msgid "login"
 msgstr "přihlášení"
 
@@ -23860,6 +24197,10 @@ msgstr "přihlášení"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1244
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1932
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2738
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:236
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1244
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1932
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2738
 msgid "login ok"
 msgstr "přihlášení OK"
 
@@ -23867,6 +24208,10 @@ msgstr "přihlášení OK"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1235
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1914
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2720
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:227
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1235
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1914
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2720
 msgid "login verification"
 msgstr "Přihlášení bylo ověřeno"
 
@@ -23875,6 +24220,7 @@ msgid "mail check interval (minutes)"
 msgstr "kontrola pošty - interval (min.)"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:945
+#: enigma2-plugin-fritzcall/src/plugin.py:945
 msgid "mailboxes active"
 msgstr "mail.schránka - aktivní"
 
@@ -23966,6 +24312,7 @@ msgid "missing parameter \"id\""
 msgstr "chybí parametr: \"id\""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:375
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:375
 msgid "mobile"
 msgstr "mobilní"
 
@@ -24107,6 +24454,7 @@ msgstr "Není zvolený účet"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:825
 #: enigma2-plugins/fritzcall/src/plugin.py:2320
+#: enigma2-plugin-fritzcall/src/plugin.py:2320
 msgid "no calls"
 msgstr "žádné volání"
 
@@ -24116,6 +24464,7 @@ msgid "no date"
 msgstr "bez datumu"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:909
+#: enigma2-plugin-fritzcall/src/plugin.py:909
 msgid "no device active"
 msgstr "žádné WLAN zařízení není aktivní"
 
@@ -24185,10 +24534,16 @@ msgstr "-není dostupné-"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2345
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2960
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3101
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1546
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1595
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2345
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2960
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3101
 msgid "not available with this firmware version"
 msgstr "v této verzi Firmware to není dostupné"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:110
+#: enigma2-plugin-fritzcall/src/plugin.py:110
 msgid "not configured"
 msgstr "nenastaveno"
 
@@ -24197,6 +24552,7 @@ msgid "not configured yet. please do so in the settings."
 msgstr "Není ještě nastaveno. "
 
 #: enigma2-plugins/fritzcall/src/plugin.py:904
+#: enigma2-plugin-fritzcall/src/plugin.py:904
 msgid "not encrypted"
 msgstr "není kódováno"
 
@@ -24213,10 +24569,20 @@ msgstr "není k dispozici"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4409
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4419
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4426
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4314
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4362
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4369
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4379
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4389
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4399
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4409
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4419
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4426
 msgid "not yet implemented"
 msgstr "není ještě implementováno"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:114
+#: enigma2-plugin-fritzcall/src/plugin.py:114
 msgid "nothing"
 msgstr "-nic-"
 
@@ -24226,6 +24592,7 @@ msgstr "Nic nelze přehrát..."
 
 #: enigma2-plugins/ncidclient/src/plugin.py:1007
 #: enigma2-plugins/fritzcall/src/plugin.py:2803
+#: enigma2-plugin-fritzcall/src/plugin.py:2803
 msgid "number suppressed"
 msgstr "Počet potlačených"
 
@@ -24244,6 +24611,12 @@ msgstr "od "
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3801
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3820
 #: enigma2-plugins/fritzcall/src/plugin.py:151
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3272
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3283
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3782
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3801
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3820
+#: enigma2-plugin-fritzcall/src/plugin.py:151
 msgid "off"
 msgstr "vyp."
 
@@ -24314,6 +24687,15 @@ msgstr "starší než 6 týdnů"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3808
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3818
 #: enigma2-plugins/fritzcall/src/plugin.py:151
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3270
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3281
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3287
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3780
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3799
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3806
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3808
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3818
+#: enigma2-plugin-fritzcall/src/plugin.py:151
 msgid "on"
 msgstr "zap."
 
@@ -24334,6 +24716,7 @@ msgid "once"
 msgstr "jednou"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:911
+#: enigma2-plugin-fritzcall/src/plugin.py:911
 msgid "one device active"
 msgstr "Aktivní jedno WLAN zařízení"
 
@@ -24358,6 +24741,7 @@ msgid "only close and save (without searching)"
 msgstr "pouze zavřít a uložit (bez hledání)"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:151
+#: enigma2-plugin-fritzcall/src/plugin.py:151
 msgid "only failed"
 msgstr "pouze neúspěšné"
 
@@ -24417,6 +24801,7 @@ msgid "overall"
 msgstr "celkem"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4124
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4124
 msgid "pager"
 msgstr "pager"
 
@@ -24516,6 +24901,11 @@ msgstr "preferovaný"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2092
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2860
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3937
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:489
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1427
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2092
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2860
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3937
 msgid "preparing"
 msgstr "Připravuje se "
 
@@ -24544,6 +24934,8 @@ msgstr "předchozí kanál / pozice"
 #: enigma2-plugins/eparted/src/eparted.py:588
 #: enigma2-plugins/fritzcall/src/plugin.py:2092
 #: enigma2-plugins/fritzcall/src/plugin.py:2102
+#: enigma2-plugin-fritzcall/src/plugin.py:2092
+#: enigma2-plugin-fritzcall/src/plugin.py:2102
 msgid "quit"
 msgstr "ukončit"
 
@@ -24719,6 +25111,8 @@ msgstr "uložit pozici soub.systému po ukončení"
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugins/fritzcall/src/plugin.py:2094
 #: enigma2-plugins/fritzcall/src/plugin.py:2100
+#: enigma2-plugin-fritzcall/src/plugin.py:2094
+#: enigma2-plugin-fritzcall/src/plugin.py:2100
 msgid "save and quit"
 msgstr "uložit a ukončit"
 
@@ -24917,6 +25311,7 @@ msgstr "zobrazit vše"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:109
 #: enigma2-plugins/fritzcall/src/plugin.py:126
+#: enigma2-plugin-fritzcall/src/plugin.py:126
 msgid "show as list"
 msgstr "zobrazit jako seznam"
 
@@ -24934,6 +25329,7 @@ msgstr "zobrazit délku spuštění"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:109
 #: enigma2-plugins/fritzcall/src/plugin.py:126
+#: enigma2-plugin-fritzcall/src/plugin.py:126
 msgid "show each call"
 msgstr "zobrazit každé volání"
 
@@ -24956,6 +25352,7 @@ msgstr "zobrazit další seznam"
 
 #: enigma2-plugins/ncidclient/src/plugin.py:109
 #: enigma2-plugins/fritzcall/src/plugin.py:126
+#: enigma2-plugin-fritzcall/src/plugin.py:126
 msgid "show nothing"
 msgstr "žádná zpráva"
 
@@ -25364,6 +25761,8 @@ msgstr "týdně"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3245
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3748
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3245
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3748
 msgid "with"
 msgstr "s "
 
@@ -25380,6 +25779,7 @@ msgid "with short description"
 msgstr "se zkráceným popisem"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:379
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:379
 msgid "work"
 msgstr "pracovní"
 
@@ -25393,6 +25793,16 @@ msgstr "pracovní"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4209
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4229
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4274
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1928
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2734
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3555
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3931
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4061
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4078
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4200
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4209
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4229
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4274
 msgid "wrong user or password?"
 msgstr "chybný uživatel nebo heslo ?"
 
