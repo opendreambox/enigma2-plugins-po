@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-07 23:11+0000\n"
-"PO-Revision-Date: 2021-05-23 20:00+0000\n"
+"POT-Creation-Date: 2021-05-19 23:15+0000\n"
+"PO-Revision-Date: 2021-07-08 23:11+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:44
 msgid "  Feel free to donate. \n"
-msgstr "  Příspěvek neodmítnu...\n"
+msgstr "  Menší podporu neodmítnu... \n"
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:42
 msgid ""
@@ -5163,7 +5163,7 @@ msgstr "odstranit všechny záložky..."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:813
 msgid "Delete bookmark"
-msgstr "odebrat značku"
+msgstr "odebrat záložku"
 
 #: e2openplugin-PushService/src/Controller/CrashLog.py:47
 msgid "Delete crashlog(s)"
@@ -5171,7 +5171,7 @@ msgstr "odstranit chybový protokol"
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:134
 msgid "Delete crashlogs"
-msgstr "odstranit chybové protokoly"
+msgstr "Chybový protokol byl odstraněný !"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:225
 msgid "Delete current Playlist"
@@ -5275,7 +5275,7 @@ msgstr "potvrzovat vyprázdnění koše"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:597
 #, python-format
 msgid "Deletion of %s %s"
-msgstr "odebrat %s %s"
+msgstr "odstraněno : %s %s"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
@@ -5364,7 +5364,7 @@ msgstr "název sat.přijímače"
 
 #: enigma2-plugins/dvdbackup/src/plugin.py:308
 msgid "Device:"
-msgstr "zařízení :"
+msgstr "sdílené zařízení :"
 
 #: enigma2-plugins/cec/src/CecConfig.py:41
 msgid "Devices"
@@ -5403,7 +5403,7 @@ msgstr "O složku dopředu"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:875
 msgid "Directory is already in bookmarks"
-msgstr "Složka je již v záložkách"
+msgstr "Složka v záložkách již existuje !"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2723
 msgid "Directory is not empty! Do you really want to delete it?"
@@ -7764,7 +7764,7 @@ msgstr "rozšířené info"
 
 #: EnhancedMovieCenter.py:469
 msgid "Extra support for language"
-msgstr "Extra podpora pro jazyk"
+msgstr "rozšířená jazyková podpora"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:442
 msgid "Extract archive"
@@ -9021,7 +9021,7 @@ msgstr ""
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
 msgid "HELP_Advanced options separator"
-msgstr "Nápověda - rozšířené možnosti"
+msgstr "Rozšířené možnosti oddělovačů_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
@@ -9255,7 +9255,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:326
 msgid "HELP_Key assignment Separator"
-msgstr "Nápověda - přiřazení oddělovače"
+msgstr "Přiřazení oddělovače_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:473
 msgid "HELP_Key period value (50-900)"
@@ -9267,7 +9267,7 @@ msgstr "Rychlost opakování při přidržení tlačítka (250-900)_"
 
 #: EnhancedMovieCenter.py:467
 msgid "HELP_Language Separator"
-msgstr "Nápověda - výběr oddělovače"
+msgstr "Výběr oddělovače jazyka_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "HELP_Latest Recordings directory limit"
@@ -9646,11 +9646,11 @@ msgstr "Kontrola struktury odkazů, např. DVD_"
 
 #: EnhancedMovieCenter.py:440
 msgid "HELP_separator_Trashcan settings"
-msgstr "Nápověda - nastavení pro automatické vyprázdňování koše"
+msgstr "Nastavení vyprázdnění koše_"
 
 #: EnhancedMovieCenter.py:380
 msgid "HELP_separator_hide&performance"
-msgstr "Nápověda - nastavení pro skrývání souborů a složek "
+msgstr "Skrývání souborů a složek_"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:88
 msgid "HH:MM"
@@ -16997,7 +16997,7 @@ msgstr "odeslat hlášení  před vypnutím"
 
 #: e2openplugin-PushService/src/Controller/StandbyNotification.py:44
 msgid "Send notification before standby"
-msgstr "odeslat hlášení pře přepnutím do režimu spánku"
+msgstr "odeslat hlášení před přepnutím do režimu spánku"
 
 #: e2openplugin-PushService/src/Controller/RecordNotification.py:52
 msgid "Send notification on record end"
@@ -17266,7 +17266,7 @@ msgid ""
 "Either abort or choose another limit to continue."
 msgstr ""
 "Nastavení na \"neomezený\" není podporované přes RPC.\n"
-"Buď to zruště nebo vyberte jiné limity."
+"Buď to zrušte nebo vyberte jiné limity."
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:834
 msgid "Setting Info"
@@ -17781,7 +17781,7 @@ msgstr "zobrazit v hlavním menu"
 
 #: enigma2-plugins/imdb/src/plugin.py:737
 msgid "Show in plugin browser"
-msgstr "zobrazit v seznamu modulů"
+msgstr "zobrazit balíček v seznamu modulů"
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:85
 msgid "Show indicator label if zapping PiP"
@@ -18016,7 +18016,7 @@ msgstr "zobrazit info o stavu koše"
 
 #: enigma2-plugins/easymedia/src/plugin.py:201
 msgid "Show tv/radio switch:"
-msgstr "přepínač TV / Radio"
+msgstr "zobrazit přepínač TV / Radio"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:52
 msgid "Show undefined service(s)"
@@ -20471,7 +20471,7 @@ msgstr "tlačítko \"časovače\""
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:346
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:210
 msgid "Title"
-msgstr "titulků"
+msgstr "v názvu"
 
 #: enigma2-plugins/imdb/src/plugin.py:358
 msgid "Title Menu"
@@ -21979,7 +21979,7 @@ msgstr "Verze webového rozhraní"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:96
 msgid "Webinterface: Main Setup"
-msgstr "Webové rozhraní..."
+msgstr "Webové rozhraní - nastavení..."
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2108
@@ -23264,7 +23264,7 @@ msgstr "ovládání přes HDMI"
 #: e2-advancedaudiosettings/src/plugin.py:22
 #: e2-advancedaudiosettings/src/plugin.py:27
 msgid "convert to multi-channel PCM"
-msgstr "převod na více-kanálů PCM"
+msgstr "konvertovat na vícekanálový PCM"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:114
 msgid "copy"
