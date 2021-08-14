@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AudioSync\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-29 23:11+0000\n"
+"POT-Creation-Date: 2021-08-14 23:11+0000\n"
 "PO-Revision-Date: 2021-04-21 05:14+0000\n"
 "Last-Translator: thomas sjøgren <thomas.sjogren67@gmail.com>\n"
 "Language-Team: Swedish <https://dreambox.de/translate/projects/dreambox/"
@@ -405,10 +405,10 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/audiosync/src/AC3main.py:57
-#: enigma2-plugins/audiosync/src/AC3main.py:139
-#: enigma2-plugins/audiosync/src/AC3main.py:226
-#: enigma2-plugins/audiosync/src/AC3main.py:230
-#: enigma2-plugins/audiosync/src/AC3main.py:231
+#: enigma2-plugins/audiosync/src/AC3main.py:140
+#: enigma2-plugins/audiosync/src/AC3main.py:227
+#: enigma2-plugins/audiosync/src/AC3main.py:232
+#: enigma2-plugins/audiosync/src/AC3main.py:233
 #, python-format
 msgid "%i ms"
 msgstr "%i mS"
@@ -2141,11 +2141,11 @@ msgstr "Audio Samplingshastighet"
 msgid "Audio Settings"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/plugin.py:36
+#: enigma2-plugins/audiosync/src/plugin.py:41
 msgid "Audio Sync"
 msgstr "Ljudsynkronisering"
 
-#: enigma2-plugins/audiosync/src/plugin.py:35
+#: enigma2-plugins/audiosync/src/plugin.py:40
 msgid "Audio Sync Setup"
 msgstr "Audio Sync Inställning"
 
@@ -3052,7 +3052,7 @@ msgstr "Kanada"
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
-#: enigma2-plugins/audiosync/src/AC3main.py:65
+#: enigma2-plugins/audiosync/src/AC3main.py:66
 #: enigma2-plugins/audiosync/src/AC3setup.py:58
 #: enigma2-plugins/yttrailer/src/plugin.py:244
 #: enigma2-plugins/virtualzap/src/plugin.py:724
@@ -3238,8 +3238,8 @@ msgstr ""
 msgid "Change Password"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:75
 #: enigma2-plugins/audiosync/src/AC3main.py:76
+#: enigma2-plugins/audiosync/src/AC3main.py:77
 msgid "Change active delay"
 msgstr "Ändra aktiverad fördröjning"
 
@@ -4771,13 +4771,13 @@ msgstr ""
 msgid "Debug: Write Log"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:78
+#: enigma2-plugins/audiosync/src/AC3main.py:79
 msgid "Decrease delay"
 msgstr "Minska fördröjning"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:82
-#: enigma2-plugins/audiosync/src/AC3main.py:84
-#: enigma2-plugins/audiosync/src/AC3main.py:86
+#: enigma2-plugins/audiosync/src/AC3main.py:83
+#: enigma2-plugins/audiosync/src/AC3main.py:85
+#: enigma2-plugins/audiosync/src/AC3main.py:87
 #, python-format
 msgid "Decrease delay by %i ms (can be set)"
 msgstr "Minska fördröjning med %i mS (kan sättas)"
@@ -5307,8 +5307,8 @@ msgstr ""
 msgid "Disabled"
 msgstr "Inaktivera"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:74
-#: enigma2-plugins/audiosync/src/AC3main.py:79
+#: enigma2-plugins/audiosync/src/AC3main.py:75
+#: enigma2-plugins/audiosync/src/AC3main.py:80
 msgid "Discard changes and close plugin"
 msgstr "Spara inte ändringarna och stäng plugin"
 
@@ -9934,13 +9934,13 @@ msgstr ""
 msgid "Incompatible MerlinMusicPlayer version!"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:77
+#: enigma2-plugins/audiosync/src/AC3main.py:78
 msgid "Increase delay"
 msgstr "Öka fördröjning"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:83
-#: enigma2-plugins/audiosync/src/AC3main.py:85
-#: enigma2-plugins/audiosync/src/AC3main.py:87
+#: enigma2-plugins/audiosync/src/AC3main.py:84
+#: enigma2-plugins/audiosync/src/AC3main.py:86
+#: enigma2-plugins/audiosync/src/AC3main.py:88
 #, python-format
 msgid "Increase delay by %i ms (can be set)"
 msgstr "Öka fördröjning med %i mS (kan sättas)"
@@ -10141,8 +10141,8 @@ msgstr "Ogiltig respons från server."
 msgid "Invalid response from server. Please report: %s"
 msgstr "Ogiltig respons från server. Vänligen rapportera: %s"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:211
-#: enigma2-plugins/audiosync/src/AC3main.py:265
+#: enigma2-plugins/audiosync/src/AC3main.py:212
+#: enigma2-plugins/audiosync/src/AC3main.py:267
 #: enigma2-plugins/kiddytimer/src/KTmain.py:417
 msgid "Invalid selection"
 msgstr "Ogiltigt val"
@@ -10226,12 +10226,12 @@ msgstr ""
 msgid "Keep running in background"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:263
+#: enigma2-plugins/audiosync/src/AC3main.py:265
 #, python-format
 msgid "Key %(Key)s successfully set to %(delay)i ms"
 msgstr "Knapp %(Key)s sattes till %(delay)i mS"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:246
+#: enigma2-plugins/audiosync/src/AC3main.py:248
 #, python-format
 msgid "Key %(key)s (current value: %(value)i ms)"
 msgstr "Knapp %(key)s (nuvarande värde: %(value)i mS)"
@@ -11021,7 +11021,7 @@ msgstr ""
 msgid "Mediaplayer was not active"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:204
+#: enigma2-plugins/audiosync/src/AC3main.py:205
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:53
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:63
 msgid "Menu"
@@ -11474,7 +11474,7 @@ msgstr ""
 msgid "Move page up"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:201
+#: enigma2-plugins/audiosync/src/AC3main.py:202
 msgid "Move plugin screen"
 msgstr "Flytta pluginfönstret"
 
@@ -12161,6 +12161,12 @@ msgstr ""
 msgid "No Timeshift found to save as recording!"
 msgstr ""
 
+#: enigma2-plugins/audiosync/src/plugin.py:35
+msgid ""
+"No audio track available (yet). Please try again once an audio track is "
+"available."
+msgstr ""
+
 #: enigma2-plugin-fritzcall/src/plugin.py:984
 #: enigma2-plugins/fritzcall/src/plugin.py:983
 msgid "No call diversion active"
@@ -12613,7 +12619,7 @@ msgstr ""
 #: enigma2-plugins/ncidclient/src/plugin.py:700
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
-#: enigma2-plugins/audiosync/src/AC3main.py:66
+#: enigma2-plugins/audiosync/src/AC3main.py:67
 #: enigma2-plugins/virtualzap/src/plugin.py:725
 #: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:28
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:62
@@ -12947,7 +12953,7 @@ msgstr ""
 msgid "Open menu"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:72
+#: enigma2-plugins/audiosync/src/AC3main.py:73
 msgid "Open plugin menu"
 msgstr "Öppna plugin meny"
 
@@ -15734,7 +15740,7 @@ msgstr ""
 msgid "Save current Playlist"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:81
+#: enigma2-plugins/audiosync/src/AC3main.py:82
 msgid "Save current delay to key"
 msgstr "Spara nuvarande fördröjning till knapp"
 
@@ -15771,12 +15777,12 @@ msgid ""
 "future timer searches (only with SeriesPlugin)"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:67
+#: enigma2-plugins/audiosync/src/AC3main.py:68
 msgid "Save to key"
 msgstr "Spara till knapp"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:73
-#: enigma2-plugins/audiosync/src/AC3main.py:80
+#: enigma2-plugins/audiosync/src/AC3main.py:74
+#: enigma2-plugins/audiosync/src/AC3main.py:81
 msgid "Save values and close plugin"
 msgstr "Spara inställningar och stäng plugin"
 
@@ -16313,7 +16319,7 @@ msgid ""
 "necessary)."
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:240
+#: enigma2-plugins/audiosync/src/AC3main.py:242
 #, python-format
 msgid "Select the key you want to set to %i ms"
 msgstr "Välj knapp som du vill sätta till %i mS"
@@ -16645,10 +16651,10 @@ msgstr ""
 msgid "Set default"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:88
 #: enigma2-plugins/audiosync/src/AC3main.py:89
 #: enigma2-plugins/audiosync/src/AC3main.py:90
 #: enigma2-plugins/audiosync/src/AC3main.py:91
+#: enigma2-plugins/audiosync/src/AC3main.py:92
 #, python-format
 msgid "Set delay to %i ms (can be set)"
 msgstr "Ange fördröjning till %i mS (kan sättas)"
@@ -16708,7 +16714,7 @@ msgstr ""
 msgid "Setting Info"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/AC3main.py:251
+#: enigma2-plugins/audiosync/src/AC3main.py:253
 msgid "Setting key canceled"
 msgstr "Inställning knapp avbruten"
 
@@ -16774,7 +16780,7 @@ msgstr ""
 msgid "Setup for MovieSelection QuickButton"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/plugin.py:35
+#: enigma2-plugins/audiosync/src/plugin.py:40
 msgid "Setup for the Audio Sync Plugin"
 msgstr "Inställning för Audio Sync Plugin"
 
@@ -24491,7 +24497,7 @@ msgstr "sätt enigma2 till standby läge efter uppstart"
 msgid "set intro time"
 msgstr ""
 
-#: enigma2-plugins/audiosync/src/plugin.py:36
+#: enigma2-plugins/audiosync/src/plugin.py:41
 msgid "sets the Audio Delay (LipSync)"
 msgstr "sätter ljudfrödröjning (LipSync)"
 

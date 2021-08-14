@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-13 23:11+0000\n"
+"POT-Creation-Date: 2021-08-14 23:11+0000\n"
 "PO-Revision-Date: 2021-07-12 22:48+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
@@ -432,10 +432,10 @@ msgstr ""
 " Prašome padaryti vietos keitimą (ilgai spausti TEXT)."
 
 #: enigma2-plugins/audiosync/src/AC3main.py:57
-#: enigma2-plugins/audiosync/src/AC3main.py:139
-#: enigma2-plugins/audiosync/src/AC3main.py:226
-#: enigma2-plugins/audiosync/src/AC3main.py:230
-#: enigma2-plugins/audiosync/src/AC3main.py:231
+#: enigma2-plugins/audiosync/src/AC3main.py:140
+#: enigma2-plugins/audiosync/src/AC3main.py:227
+#: enigma2-plugins/audiosync/src/AC3main.py:232
+#: enigma2-plugins/audiosync/src/AC3main.py:233
 #, python-format
 msgid "%i ms"
 msgstr "%i msek"
@@ -2265,12 +2265,12 @@ msgstr "Garso pavyzdžio norma"
 msgid "Audio Settings"
 msgstr "Garso nustatymai"
 
-#: enigma2-plugins/audiosync/src/plugin.py:36
+#: enigma2-plugins/audiosync/src/plugin.py:41
 msgid "Audio Sync"
 msgstr "Garso sinchronizavimas"
 
 #
-#: enigma2-plugins/audiosync/src/plugin.py:35
+#: enigma2-plugins/audiosync/src/plugin.py:40
 msgid "Audio Sync Setup"
 msgstr "Garso sinchronizavimo nustatymai"
 
@@ -3235,7 +3235,7 @@ msgstr "Kanados"
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
-#: enigma2-plugins/audiosync/src/AC3main.py:65
+#: enigma2-plugins/audiosync/src/AC3main.py:66
 #: enigma2-plugins/audiosync/src/AC3setup.py:58
 #: enigma2-plugins/yttrailer/src/plugin.py:244
 #: enigma2-plugins/virtualzap/src/plugin.py:724
@@ -3425,8 +3425,8 @@ msgstr "Keiskite filmų sąrašo peržiūros poziciją"
 msgid "Change Password"
 msgstr "Pakeisti slaptažodį"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:75
 #: enigma2-plugins/audiosync/src/AC3main.py:76
+#: enigma2-plugins/audiosync/src/AC3main.py:77
 msgid "Change active delay"
 msgstr "Keiskite aktyvią delsą"
 
@@ -5013,14 +5013,14 @@ msgstr "Derinti: spausdinti derinimo pranešimus (grafinė aplinka)"
 msgid "Debug: Write Log"
 msgstr "Derinti: rašyti žurnalą"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:78
+#: enigma2-plugins/audiosync/src/AC3main.py:79
 msgid "Decrease delay"
 msgstr "Trumpinti delsą"
 
 #
-#: enigma2-plugins/audiosync/src/AC3main.py:82
-#: enigma2-plugins/audiosync/src/AC3main.py:84
-#: enigma2-plugins/audiosync/src/AC3main.py:86
+#: enigma2-plugins/audiosync/src/AC3main.py:83
+#: enigma2-plugins/audiosync/src/AC3main.py:85
+#: enigma2-plugins/audiosync/src/AC3main.py:87
 #, python-format
 msgid "Decrease delay by %i ms (can be set)"
 msgstr "Trumpinti delsą %i ms (galima nustatyti)"
@@ -5565,8 +5565,8 @@ msgid "Disabled"
 msgstr "Išjungtas"
 
 #
-#: enigma2-plugins/audiosync/src/AC3main.py:74
-#: enigma2-plugins/audiosync/src/AC3main.py:79
+#: enigma2-plugins/audiosync/src/AC3main.py:75
+#: enigma2-plugins/audiosync/src/AC3main.py:80
 msgid "Discard changes and close plugin"
 msgstr "Atmesti pakeitimus ir uždaryti priedą"
 
@@ -10504,13 +10504,13 @@ msgstr "Gaunami skambučiai"
 msgid "Incompatible MerlinMusicPlayer version!"
 msgstr "Nesuderinama Merlin muzikos grotuvo versija!"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:77
+#: enigma2-plugins/audiosync/src/AC3main.py:78
 msgid "Increase delay"
 msgstr "Padidinti delsą"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:83
-#: enigma2-plugins/audiosync/src/AC3main.py:85
-#: enigma2-plugins/audiosync/src/AC3main.py:87
+#: enigma2-plugins/audiosync/src/AC3main.py:84
+#: enigma2-plugins/audiosync/src/AC3main.py:86
+#: enigma2-plugins/audiosync/src/AC3main.py:88
 #, python-format
 msgid "Increase delay by %i ms (can be set)"
 msgstr "Padidinti delsą prie %i ms (gali būti nustatyta)"
@@ -10707,8 +10707,8 @@ msgstr "Neteisingas atsakymas iš serverio."
 msgid "Invalid response from server. Please report: %s"
 msgstr "Neteisingas atsakymas iš serverio. Prašome pranešti: %s"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:211
-#: enigma2-plugins/audiosync/src/AC3main.py:265
+#: enigma2-plugins/audiosync/src/AC3main.py:212
+#: enigma2-plugins/audiosync/src/AC3main.py:267
 #: enigma2-plugins/kiddytimer/src/KTmain.py:417
 msgid "Invalid selection"
 msgstr "Neteisingas pasirinkimas"
@@ -10790,12 +10790,12 @@ msgstr "KLAVIATŪROS IŠDĖSTYMAS"
 msgid "Keep running in background"
 msgstr "Nuolat veikia fone"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:263
+#: enigma2-plugins/audiosync/src/AC3main.py:265
 #, python-format
 msgid "Key %(Key)s successfully set to %(delay)i ms"
 msgstr "Mygtukas %(Key)s sėkmingai pasirinktas %(delay)i ms"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:246
+#: enigma2-plugins/audiosync/src/AC3main.py:248
 #, python-format
 msgid "Key %(key)s (current value: %(value)i ms)"
 msgstr "Mygtukas %(key)s (dabartinė reikšmė: %(value)i ms)"
@@ -11610,7 +11610,7 @@ msgstr "Medijos grotuvas neįdiegtas"
 msgid "Mediaplayer was not active"
 msgstr "Medija grotuvas neaktyvus"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:204
+#: enigma2-plugins/audiosync/src/AC3main.py:205
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:53
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:63
 msgid "Menu"
@@ -12079,7 +12079,7 @@ msgstr "Perkelti puslapį žemyn"
 msgid "Move page up"
 msgstr "Perkelti puslapį aukštyn"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:201
+#: enigma2-plugins/audiosync/src/AC3main.py:202
 msgid "Move plugin screen"
 msgstr "Perkelti papildomos programos ekraną"
 
@@ -12795,6 +12795,12 @@ msgstr "Nėra laikamčio!"
 msgid "No Timeshift found to save as recording!"
 msgstr "Laiko poslinkio nerasta, kad išsaugoti kaip įrašą!"
 
+#: enigma2-plugins/audiosync/src/plugin.py:35
+msgid ""
+"No audio track available (yet). Please try again once an audio track is "
+"available."
+msgstr ""
+
 #: enigma2-plugin-fritzcall/src/plugin.py:984
 #: enigma2-plugins/fritzcall/src/plugin.py:983
 msgid "No call diversion active"
@@ -13266,7 +13272,7 @@ msgstr "IŠJUNGTA"
 #: enigma2-plugins/ncidclient/src/plugin.py:700
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
-#: enigma2-plugins/audiosync/src/AC3main.py:66
+#: enigma2-plugins/audiosync/src/AC3main.py:67
 #: enigma2-plugins/virtualzap/src/plugin.py:725
 #: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:28
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:62
@@ -13598,7 +13604,7 @@ msgstr "Atidarykite redaktoriuje 2"
 msgid "Open menu"
 msgstr "Atverti meniu"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:72
+#: enigma2-plugins/audiosync/src/AC3main.py:73
 msgid "Open plugin menu"
 msgstr "Atidaryti papildomų programų meniu"
 
@@ -16387,7 +16393,7 @@ msgstr "Išsaugoti konfigūraciją kaip dizainą"
 msgid "Save current Playlist"
 msgstr "Išsaugoti šį grojaraštį"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:81
+#: enigma2-plugins/audiosync/src/AC3main.py:82
 msgid "Save current delay to key"
 msgstr "Išsaugoti dabartinį užlaikymą mygtukui"
 
@@ -16428,12 +16434,12 @@ msgstr ""
 "Išsaugokite laikmačio pavadinimą, kurį sukūrė serijos priedas filtrų sąraše, "
 "kad galėtumėte naudoti būsimų laikmačio paieškų filtrą (tik su serijų priedu)"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:67
+#: enigma2-plugins/audiosync/src/AC3main.py:68
 msgid "Save to key"
 msgstr "Išsaugoti mygtuke"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:73
-#: enigma2-plugins/audiosync/src/AC3main.py:80
+#: enigma2-plugins/audiosync/src/AC3main.py:74
+#: enigma2-plugins/audiosync/src/AC3main.py:81
 msgid "Save values and close plugin"
 msgstr "Išsaugoti reikšmes ir uždaryti papildomą programą"
 
@@ -16975,7 +16981,7 @@ msgstr ""
 "Pasirinkite mygtukus, kurie parodo šį meniu elementą (keičiant grafinę "
 "aplinką reikia paleisti iš naujo)."
 
-#: enigma2-plugins/audiosync/src/AC3main.py:240
+#: enigma2-plugins/audiosync/src/AC3main.py:242
 #, python-format
 msgid "Select the key you want to set to %i ms"
 msgstr "Išsirinkite mygtuką, kurį norite nustatyti į %i ms"
@@ -17315,10 +17321,10 @@ msgstr "Nustatykite kraštinių santykį paleidžiant"
 msgid "Set default"
 msgstr "Nustatykite numatytuoju"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:88
 #: enigma2-plugins/audiosync/src/AC3main.py:89
 #: enigma2-plugins/audiosync/src/AC3main.py:90
 #: enigma2-plugins/audiosync/src/AC3main.py:91
+#: enigma2-plugins/audiosync/src/AC3main.py:92
 #, python-format
 msgid "Set delay to %i ms (can be set)"
 msgstr "Nustatyti vėlavimą %i ms (galima nustatyti)"
@@ -17382,7 +17388,7 @@ msgstr ""
 msgid "Setting Info"
 msgstr "Nustatymų informacija"
 
-#: enigma2-plugins/audiosync/src/AC3main.py:251
+#: enigma2-plugins/audiosync/src/AC3main.py:253
 msgid "Setting key canceled"
 msgstr "Nustatymų mygtukas panaikintas"
 
@@ -17448,7 +17454,7 @@ msgstr "Nustatykite spalvų erdvę vaizdui"
 msgid "Setup for MovieSelection QuickButton"
 msgstr "Filmų pasirinkimo Greito mygtuko valdymas"
 
-#: enigma2-plugins/audiosync/src/plugin.py:35
+#: enigma2-plugins/audiosync/src/plugin.py:40
 msgid "Setup for the Audio Sync Plugin"
 msgstr "Garso Sinchronizavimo papildomos programos valdymas"
 
@@ -25391,7 +25397,7 @@ msgstr "nustatyti į budėjimo būseną po enigma2 paleidimo"
 msgid "set intro time"
 msgstr "nustatyti įvado laiką"
 
-#: enigma2-plugins/audiosync/src/plugin.py:36
+#: enigma2-plugins/audiosync/src/plugin.py:41
 msgid "sets the Audio Delay (LipSync)"
 msgstr "nustatyti garso delsą (LipSync)"
 
