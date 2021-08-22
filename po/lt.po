@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-21 23:11+0000\n"
+"POT-Creation-Date: 2021-08-22 23:11+0000\n"
 "PO-Revision-Date: 2021-07-12 22:48+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
@@ -246,7 +246,7 @@ msgstr ""
 " visus pasirinktus vaizdo failus? Šiuo metu demonstruojamas įrašas taip pat "
 "tarp pasirinktų ir jo atkūrimas bus nutrauktas."
 
-#: enigma2-plugins/imdb/src/plugin.py:681
+#: enigma2-plugins/imdb/src/plugin.py:677
 msgid " as "
 msgstr ""
 
@@ -920,6 +920,15 @@ msgstr "5 min."
 #: enigma2-plugins/dyndns/src/plugin.py:17
 msgid "60 min."
 msgstr "60 min."
+
+#: enigma2-plugins/imdb/src/plugin.py:648
+#: enigma2-plugins/imdb/src/plugin.py:697
+#: enigma2-plugins/imdb/src/plugin.py:699
+#: enigma2-plugins/imdb/src/plugin.py:730
+#: enigma2-plugins/imdb/src/plugin.py:761
+#: enigma2-plugins/imdb/src/plugin.py:774
+msgid ":"
+msgstr ""
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:49
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:31
@@ -1979,6 +1988,14 @@ msgstr "Alfa rūšiuoja meta"
 msgid "Alpha sort meta date newest"
 msgstr "Alfa rūšiuoja pagal meta datos naujumą"
 
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Also known as:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Alternate versions:"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:447
 msgid "Always save current Playlist"
 msgstr "Visada įrašyti dabartinį grojaraštį"
@@ -2187,6 +2204,10 @@ msgstr ""
 "   %s\n"
 "į: \n"
 "   %s"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Aspect ratio:"
+msgstr ""
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:103
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:133
@@ -2632,6 +2653,10 @@ msgstr ""
 msgid "Avoid deep standby when HDD is active, e.g. for FTP"
 msgstr "Išvengti giliaus budėjimo kai HDD yra aktyvus, pvz., FTP"
 
+#: enigma2-plugins/imdb/src/plugin.py:748
+msgid "Awards:"
+msgstr ""
+
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:87
 msgid "BUTTONS"
 msgstr "MYGTUKAI"
@@ -2873,6 +2898,10 @@ msgstr "Imtuvo išjungimas"
 msgid "Box has no fancontrol hardware -> FC2 deactivated"
 msgstr ""
 "Imtuvas neturi ventiliatoriaus valdymo techninės įrangos -> FC2 išjungtas"
+
+#: enigma2-plugins/imdb/src/plugin.py:753
+msgid "Box office:"
+msgstr ""
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:543
 msgid "Box shutdown at Temperature (C)"
@@ -3253,7 +3282,7 @@ msgstr "Kanados"
 #: enigma2-plugins/automaticcleanup/src/plugin.py:170
 #: enigma2-plugins/movieretitle/src/plugin.py:41
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
-#: enigma2-plugins/imdb/src/plugin.py:821
+#: enigma2-plugins/imdb/src/plugin.py:839
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
 #: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
@@ -3383,7 +3412,7 @@ msgstr "Talpa"
 msgid "Case Insensitive:"
 msgstr "Didžiosios ir mažosios raidės:"
 
-#: enigma2-plugins/imdb/src/plugin.py:691
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Cast:"
 msgstr ""
 
@@ -3400,6 +3429,10 @@ msgstr "Ekrano centras viršutiniame krašte"
 #: enigma2-plugins/teletext/src/plugin.py:70
 msgid "Central and Southeast Europe"
 msgstr "Vidurio ir Pietryčių Europa"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Certificate:"
+msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/TPMChallenge.py:37
 msgid "Challenge executed, please verify the result!"
@@ -3554,7 +3587,7 @@ msgstr "Kanalo numeris"
 #: enigma2-plugin-pzyp4t/src/plugin.py:3319
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:817
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
-#: enigma2-plugins/imdb/src/plugin.py:74
+#: enigma2-plugins/imdb/src/plugin.py:71
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:121
 #: enigma2-plugins/pipservicerelation/src/plugin.py:211
 msgid "Channel Selection"
@@ -3933,6 +3966,10 @@ msgstr "Rinkinys"
 msgid "Color space setup"
 msgstr "Spalvų erdvės nustatymas"
 
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Color:"
+msgstr ""
+
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:775
 msgid ""
 "ColorTheme: A ColorTheme defines the set of colors. This allows to give a "
@@ -4157,6 +4194,10 @@ msgstr ""
 "Prisijungimas prie NCID prarastas\n"
 " (%s)\n"
 "bandome iš naujo..."
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Connections:"
+msgstr ""
 
 #: e2openplugin-PushService/src/Controller/SendLog.py:48
 msgid "Content pattern (RegExp)"
@@ -4411,7 +4452,7 @@ msgstr "Nepavyko paleisti priedo:"
 msgid "Could start only from the movie-menu."
 msgstr "Gali prasidėti tik iš filmo meniu."
 
-#: enigma2-plugins/imdb/src/plugin.py:519
+#: enigma2-plugins/imdb/src/plugin.py:520
 msgid "Couldn't get Eventname"
 msgstr "Nepavyko gauti įvykio aprašymo"
 
@@ -4467,6 +4508,10 @@ msgstr "Šalys"
 #: enigma2-plugins/fritzcall/src/plugin.py:2158
 msgid "Country"
 msgstr "Šalis"
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Country of origin:"
+msgstr ""
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2176
 #: enigma2-plugins/fritzcall/src/plugin.py:2163
@@ -4529,6 +4574,10 @@ msgstr "Viršelio dydis"
 #: e2openplugin-PushService/src/Controller/CrashLog.py:34
 msgid "Crashlog(s) are attached"
 msgstr "Žurnalai pridėti"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Crazy credits:"
+msgstr ""
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:347
 #: enigma2-plugins/dreamexplorer/src/plugin.py:351
@@ -4666,6 +4715,14 @@ msgstr "Failo kūrimas %s"
 #, python-format
 msgid "Creation of symlink %s in %s to %s"
 msgstr "Sukurti nuorodą %s į %s į %s"
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Creator:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Creators:"
+msgstr ""
 
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:36
 msgid "Cross fade duration (seconds)"
@@ -5043,7 +5100,7 @@ msgstr "Išjungti"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:176
-#: enigma2-plugins/imdb/src/plugin.py:63
+#: enigma2-plugins/imdb/src/plugin.py:60
 #: enigma2-plugins/teletext/src/plugin.py:1296
 msgid "Default"
 msgstr "Numatytasis"
@@ -5411,8 +5468,8 @@ msgstr "Paskirtis / klientas"
 msgid "Destination dir '%s' does not exist."
 msgstr "Paskirties katalogo '%s' nėra."
 
-#: enigma2-plugins/imdb/src/plugin.py:375
-#: enigma2-plugins/imdb/src/plugin.py:617
+#: enigma2-plugins/imdb/src/plugin.py:376
+#: enigma2-plugins/imdb/src/plugin.py:618
 #: enigma2-plugins/twitchtv/src/plugin.py:241
 #: enigma2-plugins/twitchtv/src/plugin.py:482
 msgid "Details"
@@ -5465,6 +5522,14 @@ msgstr "Kat:"
 #: enigma2-plugins/mytube/meta/plugin_mytube.xml./enigma2-plugins/mytube/meta/plugin_mytube.xml
 msgid "Direct playback of Youtube videos"
 msgstr "Tiesioginis Youtube vaizdo rodymas"
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Director:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Directors:"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2663
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2674
@@ -6165,7 +6230,7 @@ msgstr "Atsisiųsta %d ir įkelta %d MB"
 msgid "Downloaded %d of %d MB (%d%%)"
 msgstr "Atsisiųsta %d iš %d MB (%d %%)"
 
-#: enigma2-plugins/imdb/src/plugin.py:710
+#: enigma2-plugins/imdb/src/plugin.py:707
 #, python-format
 msgid "Downloading Movie Poster: %s..."
 msgstr "Atsisiųsta filmo plakatų: %s..."
@@ -7273,7 +7338,7 @@ msgstr "Baigiasi"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:63
+#: enigma2-plugins/imdb/src/plugin.py:60
 msgid "English"
 msgstr "Anglų"
 
@@ -7378,7 +7443,7 @@ msgstr "Įrašykite slaptažodį:"
 msgid "Enter pin code"
 msgstr "Įrašykite pin kodą"
 
-#: enigma2-plugins/imdb/src/plugin.py:419
+#: enigma2-plugins/imdb/src/plugin.py:420
 msgid "Enter search"
 msgstr "Įrašykite paieškos užklausą"
 
@@ -7404,7 +7469,7 @@ msgid "Enter text for page %s"
 msgstr "Įrašykite puslapio tekstą %s"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:324
-#: enigma2-plugins/imdb/src/plugin.py:465
+#: enigma2-plugins/imdb/src/plugin.py:466
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
 #: enigma2-plugins/moviesearch/src/plugin.py:85
 msgid "Enter text to search for"
@@ -7792,7 +7857,7 @@ msgstr "Yra"
 msgid "Exist: %s"
 msgstr "Yra: %s"
 
-#: enigma2-plugins/imdb/src/plugin.py:231
+#: enigma2-plugins/imdb/src/plugin.py:229
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2171
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
@@ -7878,7 +7943,7 @@ msgstr "Išplėtimai"
 msgid "Extensions menu"
 msgstr "Išplėtimų meniu"
 
-#: enigma2-plugins/imdb/src/plugin.py:763
+#: enigma2-plugins/imdb/src/plugin.py:781
 msgid "Extra Info"
 msgstr "Papildoma informacija"
 
@@ -8422,6 +8487,14 @@ msgstr "Failų sistemos pozicijos sąrašas dešinėje"
 msgid "Film & Animation"
 msgstr "Filmai ir animacija"
 
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Filming location:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Filming locations:"
+msgstr ""
+
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1072
 msgid "Filter"
 msgstr "Filtras"
@@ -8694,7 +8767,7 @@ msgstr "Laisva: "
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:63
+#: enigma2-plugins/imdb/src/plugin.py:60
 msgid "French"
 msgstr "Prancūzų"
 
@@ -8875,7 +8948,7 @@ msgstr "Žanrų sąrašas"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:404
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:395
-#: enigma2-plugins/imdb/src/plugin.py:631
+#: enigma2-plugins/imdb/src/plugin.py:632
 msgid "Genre:"
 msgstr "Žanras:"
 
@@ -8902,7 +8975,7 @@ msgstr "Dreambox originalumo patikra"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:63
+#: enigma2-plugins/imdb/src/plugin.py:60
 msgid "German"
 msgstr "Vokiečių"
 
@@ -9022,6 +9095,10 @@ msgstr "Užmigti dabar?"
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:125
 msgid "Go to trashcan"
 msgstr "Į šiukšliadėžę"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Goofs:"
+msgstr ""
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:116
 msgid "Google Password"
@@ -10062,38 +10139,38 @@ msgstr "IMDB paieška / EMC-TMDB info / TMDB info / TMBD info / CSFD info"
 msgid "IMDb"
 msgstr "IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:218
+#: enigma2-plugins/imdb/src/plugin.py:216
 msgid "IMDb - Internet Movie Database"
 msgstr "IMDb - Interneto kino filmų duomenų bazė"
 
-#: enigma2-plugins/imdb/src/plugin.py:880
-#: enigma2-plugins/imdb/src/plugin.py:898
-#: enigma2-plugins/imdb/src/plugin.py:901
+#: enigma2-plugins/imdb/src/plugin.py:899
+#: enigma2-plugins/imdb/src/plugin.py:917
+#: enigma2-plugins/imdb/src/plugin.py:920
 msgid "IMDb Details"
 msgstr "IMDb detaliau"
 
-#: enigma2-plugins/imdb/src/plugin.py:618
-#: enigma2-plugins/imdb/src/plugin.py:770
+#: enigma2-plugins/imdb/src/plugin.py:619
+#: enigma2-plugins/imdb/src/plugin.py:788
 msgid "IMDb Details parsed"
 msgstr "IMDb informacija apdorota"
 
-#: enigma2-plugins/imdb/src/plugin.py:557
+#: enigma2-plugins/imdb/src/plugin.py:558
 msgid "IMDb Download completed"
 msgstr "IMDb atsiuntimas baigtas"
 
-#: enigma2-plugins/imdb/src/plugin.py:602
+#: enigma2-plugins/imdb/src/plugin.py:603
 msgid "IMDb Download failed"
 msgstr "IMDb atsisiųsti nepavyko"
 
-#: enigma2-plugins/imdb/src/plugin.py:433
+#: enigma2-plugins/imdb/src/plugin.py:434
 msgid "IMDb Menu"
 msgstr "IMDb meniu"
 
-#: enigma2-plugins/imdb/src/plugin.py:810
+#: enigma2-plugins/imdb/src/plugin.py:828
 msgid "IMDb Plugin"
 msgstr "IMDb priedas"
 
-#: enigma2-plugins/imdb/src/plugin.py:608
+#: enigma2-plugins/imdb/src/plugin.py:609
 msgid "IMDb Re-Download completed"
 msgstr "IMDb pakartotinis atsiuntimas baigtas"
 
@@ -10101,7 +10178,7 @@ msgstr "IMDb pakartotinis atsiuntimas baigtas"
 msgid "IMDb Search"
 msgstr "IMDb paieška"
 
-#: enigma2-plugins/imdb/src/plugin.py:817
+#: enigma2-plugins/imdb/src/plugin.py:835
 msgid "IMDb Setup"
 msgstr "IMDb valdymas"
 
@@ -10109,11 +10186,11 @@ msgstr "IMDb valdymas"
 msgid "IMDb info"
 msgstr "IMDb informacija"
 
-#: enigma2-plugins/imdb/src/plugin.py:599
+#: enigma2-plugins/imdb/src/plugin.py:600
 msgid "IMDb query failed!"
 msgstr "IMDb užklausa nepavyko!"
 
-#: enigma2-plugins/imdb/src/plugin.py:838
+#: enigma2-plugins/imdb/src/plugin.py:856
 msgid "IMDb query language"
 msgstr "IMDb kalbos užklausos"
 
@@ -10736,7 +10813,7 @@ msgstr "Izraelis"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:63
+#: enigma2-plugins/imdb/src/plugin.py:60
 msgid "Italian"
 msgstr "Italų"
 
@@ -10837,6 +10914,10 @@ msgstr "Klaviatūra"
 msgid "Keys"
 msgstr "Klavišai"
 
+#: enigma2-plugins/imdb/src/plugin.py:741
+msgid "Keywords:"
+msgstr ""
+
 #: enigma2-plugins/kiddytimer/src/plugin.py:53
 #: enigma2-plugins/kiddytimer/src/plugin.py:54
 msgid "KiddyTimer"
@@ -10874,8 +10955,13 @@ msgstr "Kalba"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:703
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
+#: enigma2-plugins/imdb/src/plugin.py:756
 msgid "Language:"
 msgstr "Kalba:"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Languages:"
+msgstr ""
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2339
 #: enigma2-plugins/ncidclient/src/plugin.py:828
@@ -11292,7 +11378,7 @@ msgstr "'INFO' mygtuko ilgas paspaudimas"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-fritzcall/src/plugin.py:1365
-#: enigma2-plugins/imdb/src/plugin.py:103
+#: enigma2-plugins/imdb/src/plugin.py:100
 #: enigma2-plugins/fritzcall/src/plugin.py:1354
 msgid "Lookup"
 msgstr "Paieška"
@@ -11950,6 +12036,10 @@ msgstr "Daugiau..."
 #: enigma2-plugins/mosaic/src/plugin.py:365
 msgid "Mosaic"
 msgstr "Mozaika"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Motion Picture Rating (MPAA):"
+msgstr ""
 
 #: enigma2-plugin-networkbrowser/src/plugin.py:33
 #: enigma2-plugin-networkbrowser/src/plugin.py:42
@@ -12772,7 +12862,7 @@ msgstr "Failų valdytojas neįdiegtas!"
 msgid "No HDD found or HDD not initialized!"
 msgstr "Kietas diskas nerastas arba neinicializuotas!"
 
-#: enigma2-plugins/imdb/src/plugin.py:583
+#: enigma2-plugins/imdb/src/plugin.py:584
 msgid "No IMDb match."
 msgstr "Nėra IMDb atitikimo."
 
@@ -12815,7 +12905,7 @@ msgstr ""
 msgid "No call diversion active"
 msgstr "Neveikia skambučių nukreipimas"
 
-#: enigma2-plugins/imdb/src/plugin.py:693
+#: enigma2-plugins/imdb/src/plugin.py:689
 msgid "No cast list found in the database."
 msgstr "Aktorių sąrašas duomenų bazėje nerastas."
 
@@ -12841,7 +12931,7 @@ msgstr "Nėra datos"
 msgid "No default storage device found!"
 msgstr "Pagal nutylėjimą saugojimo įrenginio nerasta!"
 
-#: enigma2-plugins/imdb/src/plugin.py:615
+#: enigma2-plugins/imdb/src/plugin.py:616
 msgid "No details found."
 msgstr "Išsamiau nėra."
 
@@ -13291,7 +13381,7 @@ msgstr "IŠJUNGTA"
 #: enigma2-plugins/automaticcleanup/src/plugin.py:171
 #: enigma2-plugins/movieretitle/src/plugin.py:40
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
-#: enigma2-plugins/imdb/src/plugin.py:820
+#: enigma2-plugins/imdb/src/plugin.py:838
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:47
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:138
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
@@ -13664,6 +13754,10 @@ msgstr "Orbitinė padėtis"
 #: enigma2-plugin-pzyp4t/src/plugin.py:3577
 msgid "Orbital Position Selected"
 msgstr "Pasirinkta orbitinė pozicija"
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Original title:"
+msgstr ""
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:398
 #, python-format
@@ -14206,7 +14300,7 @@ msgstr "Atkurti viską"
 msgid "Play All starting"
 msgstr "Pradedami rodyti visi filmai"
 
-#: enigma2-plugins/imdb/src/plugin.py:426
+#: enigma2-plugins/imdb/src/plugin.py:427
 msgid "Play Trailer"
 msgstr "Groti anonsą"
 
@@ -14516,7 +14610,7 @@ msgstr "Pasirinkite naujus leidimus..."
 msgid "Please select tag to filter..."
 msgstr "Prašome išsirinkti kortelę filtravimui..."
 
-#: enigma2-plugins/imdb/src/plugin.py:372
+#: enigma2-plugins/imdb/src/plugin.py:373
 msgid "Please select the matching entry"
 msgstr "Prašome pasirinkti sutampantį įrašą"
 
@@ -14603,8 +14697,8 @@ msgstr "Prašome laukti..."
 msgid "Please wait... Loading list..."
 msgstr "Prašome laukti... Užkraunamas sąrašas..."
 
-#: enigma2-plugins/imdb/src/plugin.py:740
-msgid "Plot Outline"
+#: enigma2-plugins/imdb/src/plugin.py:728
+msgid "Plot outline:"
 msgstr ""
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1182
@@ -15007,6 +15101,14 @@ msgstr ""
 msgid "Production Countries:"
 msgstr "Šalys gamintojos:"
 
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Production companies:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Production company:"
+msgstr ""
+
 #: enigma2-plugins/dvdbackup/src/plugin.py:299
 msgid "Progress"
 msgstr "Eiga"
@@ -15105,13 +15207,13 @@ msgstr "Perveda imtuvą į budėjimo būseną po paleidimo."
 msgid "PzyP4T"
 msgstr "PzyP4T"
 
-#: enigma2-plugins/imdb/src/plugin.py:514
+#: enigma2-plugins/imdb/src/plugin.py:515
 #, python-format
 msgid "Query IMDb: %s"
 msgstr "Užklausa IMDb: %s"
 
-#: enigma2-plugins/imdb/src/plugin.py:898
-#: enigma2-plugins/imdb/src/plugin.py:902
+#: enigma2-plugins/imdb/src/plugin.py:917
+#: enigma2-plugins/imdb/src/plugin.py:921
 msgid "Query details from the Internet Movie Database"
 msgstr "Užklausos informacija iš interneto filmų duomenų bazės"
 
@@ -15152,6 +15254,10 @@ msgstr "Greitasis mygtukas"
 #: enigma2-plugins/fritzcall/src/plugin.py:1736
 msgid "Quit"
 msgstr "Baigti"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Quotes:"
+msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/RemoteControl.py:85
 #, python-format
@@ -15202,10 +15308,10 @@ msgstr "Įvertinimai: "
 msgid "Ratio: %.2f"
 msgstr "Santykis: %.2f"
 
-#: enigma2-plugins/imdb/src/plugin.py:387
-#: enigma2-plugins/imdb/src/plugin.py:575
-#: enigma2-plugins/imdb/src/plugin.py:588
-#: enigma2-plugins/imdb/src/plugin.py:595
+#: enigma2-plugins/imdb/src/plugin.py:388
+#: enigma2-plugins/imdb/src/plugin.py:576
+#: enigma2-plugins/imdb/src/plugin.py:589
+#: enigma2-plugins/imdb/src/plugin.py:596
 #, python-format
 msgid "Re-Query IMDb: %s..."
 msgstr "Iš naujo užklausti IMDb: %s..."
@@ -15545,6 +15651,10 @@ msgstr "Susiję vaizdo įrašai"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:406
 msgid "Release Date:"
 msgstr "Išleidimo data:"
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Release date:"
+msgstr ""
 
 #: enigma2-plugins/mytube/src/plugin.py:42
 msgid "Relevance"
@@ -16202,6 +16312,7 @@ msgstr "Paleisti procesus: "
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:403
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:397
+#: enigma2-plugins/imdb/src/plugin.py:635
 msgid "Runtime:"
 msgstr "Darbo trukmė:"
 
@@ -16673,7 +16784,7 @@ msgstr "Ieškoti svetainėje:"
 msgid "Search Term(s)"
 msgstr "Paieškos žodis (-iai)"
 
-#: enigma2-plugins/imdb/src/plugin.py:427
+#: enigma2-plugins/imdb/src/plugin.py:428
 msgid "Search Trailer"
 msgstr "Paieškos platforma"
 
@@ -16810,7 +16921,7 @@ msgstr ""
 "Sezonas: {rawseason:s}  Episode: {rawepisode:s}\n"
 "{title:s}"
 
-#: enigma2-plugins/imdb/src/plugin.py:645
+#: enigma2-plugins/imdb/src/plugin.py:650
 msgid "Seasons:"
 msgstr ""
 
@@ -16943,7 +17054,7 @@ msgstr "Pasirinkite kanalą, kad atnaujinti"
 msgid "Select contrast."
 msgstr "Pasirinkite kontrastą."
 
-#: enigma2-plugins/imdb/src/plugin.py:420
+#: enigma2-plugins/imdb/src/plugin.py:421
 msgid "Select from EPG"
 msgstr "Pasirinkite iš EPG"
 
@@ -17438,7 +17549,7 @@ msgstr "Nustatymai išsaugoti."
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:394
-#: enigma2-plugins/imdb/src/plugin.py:421
+#: enigma2-plugins/imdb/src/plugin.py:422
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
 #: enigma2-plugins/twitchtv/src/plugin.py:666
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
@@ -17848,7 +17959,7 @@ msgstr "Rodyti trukmės langą"
 msgid "Show duration:"
 msgstr "Rodyti trukmę:"
 
-#: enigma2-plugins/imdb/src/plugin.py:841
+#: enigma2-plugins/imdb/src/plugin.py:859
 msgid "Show episode and year information in cast list"
 msgstr ""
 
@@ -17918,7 +18029,7 @@ msgstr "Rodyti išplėstiniame meniu"
 msgid "Show in main menu"
 msgstr "Rodyti pagrindiniame meniu"
 
-#: enigma2-plugins/imdb/src/plugin.py:839
+#: enigma2-plugins/imdb/src/plugin.py:857
 msgid "Show in plugin browser"
 msgstr "Rodyti priedų naršyklėje"
 
@@ -18768,6 +18879,14 @@ msgstr "Rūšiuoti į priekį"
 msgid "Sorting previous"
 msgstr "Rūšiuoti atgal"
 
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Sound mix:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Soundtracks:"
+msgstr ""
+
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:99
 msgid "Source and destination folders are the same."
 msgstr "Šaltinio ir paskirties aplankas yra toks pat."
@@ -18790,7 +18909,7 @@ msgstr "Ispanija"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:63
+#: enigma2-plugins/imdb/src/plugin.py:60
 msgid "Spanish"
 msgstr "Ispanų"
 
@@ -19266,6 +19385,10 @@ msgstr ""
 " %s.\n"
 "Intro trukmė: %s sekundės"
 
+#: enigma2-plugins/imdb/src/plugin.py:694
+msgid "Storyline:"
+msgstr ""
+
 #: enigma2-plugin-pzyp4t/src/plugin.py:1977
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:97
 msgid "Stream"
@@ -19526,6 +19649,14 @@ msgstr "Kortelė 2"
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:32
 msgid "Tag Filter"
 msgstr "Žymių filtras"
+
+#: enigma2-plugins/imdb/src/plugin.py:720
+msgid "Tagline:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:720
+msgid "Taglines:"
+msgstr ""
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:458
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:48
@@ -20627,7 +20758,7 @@ msgstr "Laiko poslinkio mygtukas"
 msgid "Title"
 msgstr "Antraštė"
 
-#: enigma2-plugins/imdb/src/plugin.py:374
+#: enigma2-plugins/imdb/src/plugin.py:375
 msgid "Title Menu"
 msgstr "Pavadinimų meniu"
 
@@ -20894,6 +21025,10 @@ msgstr "Kelias į šiukšliadėžę"
 msgid "Travel & Events"
 msgstr "Kelionės ir Įvykiai"
 
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "Trivia:"
+msgstr ""
+
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:126
 #, python-format
 msgid "Try to find infos for %s"
@@ -21151,10 +21286,6 @@ msgstr "Nežinomas kanalas"
 #, python-format
 msgid "Unknown Volume command %s"
 msgstr "Nežinoma kiekio komanda %s"
-
-#: enigma2-plugins/imdb/src/plugin.py:744
-msgid "Unknown category"
-msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/MP.py:20
 #, python-format
@@ -21435,6 +21566,10 @@ msgstr "Naudokite medijos modelio filtrą failų sąraše:"
 msgid "Use original EMC-skin (needs reopen)"
 msgstr "Naudoti originalią EMC aplinkos temą (reikės paleisti iš naujo)"
 
+#: enigma2-plugins/imdb/src/plugin.py:858
+msgid "Use original IMDb skin:"
+msgstr ""
+
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:206
 msgid "Use picons (50x30) from:"
 msgstr "Naudokite logotipus (50x30) iš:"
@@ -21497,7 +21632,7 @@ msgstr "Naudojamas nežinomo kanalo"
 msgid "User Online"
 msgstr "Prisijungę vartotojai"
 
-#: enigma2-plugins/imdb/src/plugin.py:666
+#: enigma2-plugins/imdb/src/plugin.py:662
 msgid "User Rating"
 msgstr "Vartotojo reitingas"
 
@@ -21513,6 +21648,10 @@ msgstr "Vartotojo vardas"
 #: enigma2-plugins/fritzcall/src/plugin.py:2167
 msgid "User name Accessing FRITZ!Box"
 msgstr "Vartotojo vardas prieigai FRITZ!Box"
+
+#: enigma2-plugins/imdb/src/plugin.py:756
+msgid "User reviews:"
+msgstr ""
 
 #: enigma2-plugins/movietagger/src/plugin.py:265
 msgid "User-specific Tag"
@@ -22445,7 +22584,7 @@ msgstr ""
 msgid "Wizard"
 msgstr "Vedlys"
 
-#: enigma2-plugins/imdb/src/plugin.py:840
+#: enigma2-plugins/imdb/src/plugin.py:860
 msgid "Words / phrases to ignore (comma separated)"
 msgstr "Žodžiai / ignoruotos frazės (atskirtos kableliais)"
 
@@ -22460,6 +22599,14 @@ msgid ""
 msgstr ""
 "Parašykite config failą po kiekvieno pakeitimo, kur vartotojas baigia darbą "
 "išsaugant."
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Writer:"
+msgstr ""
+
+#: enigma2-plugins/imdb/src/plugin.py:635
+msgid "Writers:"
+msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Volume.py:39
 #, python-format
@@ -24662,7 +24809,7 @@ msgstr "be temos"
 msgid "no themes.xml"
 msgstr "nėra themes.xml"
 
-#: enigma2-plugins/imdb/src/plugin.py:660
+#: enigma2-plugins/imdb/src/plugin.py:656
 msgid "no user rating yet"
 msgstr "nė vienas vartotojas dar neįvertino"
 
@@ -25882,7 +26029,7 @@ msgstr "virtuali klaviatūra"
 msgid "void"
 msgstr "niekinis"
 
-#: enigma2-plugins/imdb/src/plugin.py:665
+#: enigma2-plugins/imdb/src/plugin.py:661
 msgid "votes"
 msgstr "balsų"
 
