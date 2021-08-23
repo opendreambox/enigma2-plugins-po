@@ -39,6 +39,7 @@ jobs:
         id: wlclocknpush
         run: | 
           wlc lock dreambox/plugins
+          wlc commit dreambox/plugins
           wlc push dreambox/plugins
 
       - name: Pull weblate changes
