@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-24 06:19+0000\n"
+"POT-Creation-Date: 2021-08-24 23:12+0000\n"
 "PO-Revision-Date: 2021-08-23 13:04+0000\n"
 "Last-Translator: dhwz <dhwz@gmx.net>\n"
 "Language-Team: Russian <https://dreambox.de/translate/projects/dreambox/"
@@ -224,7 +224,7 @@ msgstr ""
 " Все выбранные файлы? Просматриваемая запись также будет удалена, а ее "
 "воспроизведение остановлено."
 
-#: enigma2-plugins/imdb/src/plugin.py:681
+#: enigma2-plugins/imdb/src/plugin.py:609
 msgid " as "
 msgstr ""
 
@@ -871,13 +871,13 @@ msgstr ""
 msgid "60 min."
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:624
-#: enigma2-plugins/imdb/src/plugin.py:653
-#: enigma2-plugins/imdb/src/plugin.py:698
-#: enigma2-plugins/imdb/src/plugin.py:702
-#: enigma2-plugins/imdb/src/plugin.py:733
-#: enigma2-plugins/imdb/src/plugin.py:764
-#: enigma2-plugins/imdb/src/plugin.py:778
+#: enigma2-plugins/imdb/src/plugin.py:552
+#: enigma2-plugins/imdb/src/plugin.py:581
+#: enigma2-plugins/imdb/src/plugin.py:626
+#: enigma2-plugins/imdb/src/plugin.py:630
+#: enigma2-plugins/imdb/src/plugin.py:661
+#: enigma2-plugins/imdb/src/plugin.py:692
+#: enigma2-plugins/imdb/src/plugin.py:706
 msgid ":"
 msgstr ""
 
@@ -1866,11 +1866,11 @@ msgstr "А-Я+МЕТА"
 msgid "Alpha sort meta date newest"
 msgstr "А-Я+МЕТА+ДАТА-"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Also known as:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Alternate versions:"
 msgstr ""
 
@@ -2072,7 +2072,7 @@ msgstr ""
 "в:\n"
 "   %s"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Aspect ratio:"
 msgstr ""
 
@@ -2502,7 +2502,7 @@ msgstr "Избегать глубокого ожидания при работе
 msgid "Avoid deep standby when HDD is active, e.g. for FTP"
 msgstr "Избегать глубокого ожидания, когда HDD активен, например, для FTP"
 
-#: enigma2-plugins/imdb/src/plugin.py:751
+#: enigma2-plugins/imdb/src/plugin.py:679
 msgid "Awards:"
 msgstr ""
 
@@ -2741,7 +2741,7 @@ msgid "Box has no fancontrol hardware -> FC2 deactivated"
 msgstr ""
 "Ресивер не имеет аппаратного контроллера вентилятора -> Плагин деактивирован."
 
-#: enigma2-plugins/imdb/src/plugin.py:756
+#: enigma2-plugins/imdb/src/plugin.py:684
 msgid "Box office:"
 msgstr ""
 
@@ -3085,7 +3085,7 @@ msgstr "Канада"
 #: enigma2-plugins/automaticcleanup/src/plugin.py:170
 #: enigma2-plugins/movieretitle/src/plugin.py:41
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
-#: enigma2-plugins/imdb/src/plugin.py:843
+#: enigma2-plugins/imdb/src/plugin.py:771
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
 #: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
@@ -3211,7 +3211,7 @@ msgstr ""
 msgid "Case Insensitive:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:688
+#: enigma2-plugins/imdb/src/plugin.py:616
 msgid "Cast:"
 msgstr ""
 
@@ -3229,7 +3229,7 @@ msgstr ""
 msgid "Central and Southeast Europe"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Certificate:"
 msgstr ""
 
@@ -3386,7 +3386,6 @@ msgstr ""
 #: enigma2-plugin-pzyp4t/src/plugin.py:3319
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:817
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
-#: enigma2-plugins/imdb/src/plugin.py:59
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:121
 #: enigma2-plugins/pipservicerelation/src/plugin.py:211
 msgid "Channel Selection"
@@ -3741,7 +3740,7 @@ msgstr "Коллекция"
 msgid "Color space setup"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Color:"
 msgstr ""
 
@@ -3948,7 +3947,7 @@ msgid ""
 "retrying..."
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Connections:"
 msgstr ""
 
@@ -4199,7 +4198,7 @@ msgstr ""
 msgid "Could start only from the movie-menu."
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:509
+#: enigma2-plugins/imdb/src/plugin.py:437
 msgid "Couldn't get Eventname"
 msgstr "Не удалось получить описание события"
 
@@ -4251,7 +4250,7 @@ msgstr ""
 msgid "Countries"
 msgstr "Страны"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Countries of origin:"
 msgstr ""
 
@@ -4261,7 +4260,7 @@ msgstr ""
 msgid "Country"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Country of origin:"
 msgstr ""
 
@@ -4327,7 +4326,7 @@ msgstr "Размер обложки"
 msgid "Crashlog(s) are attached"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Crazy credits:"
 msgstr ""
 
@@ -4462,11 +4461,11 @@ msgstr ""
 msgid "Creation of symlink %s in %s to %s"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Creator:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Creators:"
 msgstr ""
 
@@ -4839,7 +4838,7 @@ msgid "DeepStandby"
 msgstr "Выключить"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:176
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 #: enigma2-plugins/teletext/src/plugin.py:1296
 msgid "Default"
 msgstr "По-умолчанию"
@@ -5198,8 +5197,7 @@ msgstr ""
 msgid "Destination dir '%s' does not exist."
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:365
-#: enigma2-plugins/imdb/src/plugin.py:609
+#: enigma2-plugins/imdb/src/plugin.py:537
 #: enigma2-plugins/twitchtv/src/plugin.py:241
 #: enigma2-plugins/twitchtv/src/plugin.py:482
 msgid "Details"
@@ -5248,11 +5246,11 @@ msgstr ""
 msgid "Direct playback of Youtube videos"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Director:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Directors:"
 msgstr ""
 
@@ -5903,7 +5901,7 @@ msgstr ""
 msgid "Downloaded %d of %d MB (%d%%)"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:710
+#: enigma2-plugins/imdb/src/plugin.py:638
 #, python-format
 msgid "Downloading Movie Poster: %s..."
 msgstr "Загрузка постера: %s..."
@@ -6963,7 +6961,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "English"
 msgstr "Английский"
 
@@ -7065,10 +7063,6 @@ msgstr ""
 msgid "Enter pin code"
 msgstr "Введите PIN код"
 
-#: enigma2-plugins/imdb/src/plugin.py:409
-msgid "Enter search"
-msgstr "Введите условия поиска"
-
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1982
 msgid "Enter search-text"
 msgstr ""
@@ -7091,7 +7085,7 @@ msgid "Enter text for page %s"
 msgstr ""
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:324
-#: enigma2-plugins/imdb/src/plugin.py:455
+#: enigma2-plugins/imdb/src/plugin.py:391
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
 #: enigma2-plugins/moviesearch/src/plugin.py:85
 msgid "Enter text to search for"
@@ -7175,7 +7169,7 @@ msgid ""
 "{title:s}"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Episodes:"
 msgstr ""
 
@@ -7453,7 +7447,6 @@ msgstr "Существует"
 msgid "Exist: %s"
 msgstr "Существует: %s"
 
-#: enigma2-plugins/imdb/src/plugin.py:217
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2171
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
@@ -7539,7 +7532,7 @@ msgstr "Расширения"
 msgid "Extensions menu"
 msgstr "Меню Расширений"
 
-#: enigma2-plugins/imdb/src/plugin.py:785
+#: enigma2-plugins/imdb/src/plugin.py:713
 msgid "Extra Info"
 msgstr "Дополнительно"
 
@@ -8046,11 +8039,11 @@ msgstr ""
 msgid "Film & Animation"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Filming location:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Filming locations:"
 msgstr ""
 
@@ -8310,7 +8303,7 @@ msgstr "Свободно: "
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "French"
 msgstr "Французский"
 
@@ -8488,7 +8481,7 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:404
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:395
-#: enigma2-plugins/imdb/src/plugin.py:619
+#: enigma2-plugins/imdb/src/plugin.py:547
 msgid "Genre:"
 msgstr "Жанр:"
 
@@ -8504,7 +8497,7 @@ msgstr "Жанры"
 msgid "Genres (%d)"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:619
+#: enigma2-plugins/imdb/src/plugin.py:547
 msgid "Genres:"
 msgstr ""
 
@@ -8519,7 +8512,7 @@ msgstr "Проверка Dreambox на подлинность"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "German"
 msgstr "Немецкий"
 
@@ -8638,7 +8631,7 @@ msgstr ""
 msgid "Go to trashcan"
 msgstr "Перейти в корзину"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Goofs:"
 msgstr ""
 
@@ -9733,38 +9726,38 @@ msgstr "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 msgid "IMDb"
 msgstr "IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:204
+#: enigma2-plugins/imdb/src/plugin.py:143
 msgid "IMDb - Internet Movie Database"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:903
-#: enigma2-plugins/imdb/src/plugin.py:921
-#: enigma2-plugins/imdb/src/plugin.py:924
+#: enigma2-plugins/imdb/src/plugin.py:831
+#: enigma2-plugins/imdb/src/plugin.py:851
+#: enigma2-plugins/imdb/src/plugin.py:854
 msgid "IMDb Details"
 msgstr "Данные IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:610
-#: enigma2-plugins/imdb/src/plugin.py:792
+#: enigma2-plugins/imdb/src/plugin.py:538
+#: enigma2-plugins/imdb/src/plugin.py:720
 msgid "IMDb Details parsed"
 msgstr "Подробное описание из IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:550
+#: enigma2-plugins/imdb/src/plugin.py:478
 msgid "IMDb Download completed"
 msgstr "Загрузка данных IMDb выполнена"
 
-#: enigma2-plugins/imdb/src/plugin.py:594
+#: enigma2-plugins/imdb/src/plugin.py:522
 msgid "IMDb Download failed"
 msgstr "Загрузка данных IMDb неудачна"
 
-#: enigma2-plugins/imdb/src/plugin.py:423
+#: enigma2-plugins/imdb/src/plugin.py:358
 msgid "IMDb Menu"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:832
+#: enigma2-plugins/imdb/src/plugin.py:760
 msgid "IMDb Plugin"
 msgstr "Плагин IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:600
+#: enigma2-plugins/imdb/src/plugin.py:528
 msgid "IMDb Re-Download completed"
 msgstr "Повторная загрузка данных IMDb выполнена"
 
@@ -9772,7 +9765,7 @@ msgstr "Повторная загрузка данных IMDb выполнена
 msgid "IMDb Search"
 msgstr "IMDb поиск"
 
-#: enigma2-plugins/imdb/src/plugin.py:839
+#: enigma2-plugins/imdb/src/plugin.py:767
 msgid "IMDb Setup"
 msgstr "Настройка IMDb"
 
@@ -9780,11 +9773,11 @@ msgstr "Настройка IMDb"
 msgid "IMDb info"
 msgstr "IMDb инфо"
 
-#: enigma2-plugins/imdb/src/plugin.py:591
+#: enigma2-plugins/imdb/src/plugin.py:519
 msgid "IMDb query failed!"
 msgstr "Запрос в IMDb не удался!"
 
-#: enigma2-plugins/imdb/src/plugin.py:860
+#: enigma2-plugins/imdb/src/plugin.py:788
 msgid "IMDb query language"
 msgstr ""
 
@@ -10357,7 +10350,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "Italian"
 msgstr "Итальянский"
 
@@ -10458,7 +10451,7 @@ msgstr "Клавиатура"
 msgid "Keys"
 msgstr "Кнопки"
 
-#: enigma2-plugins/imdb/src/plugin.py:744
+#: enigma2-plugins/imdb/src/plugin.py:672
 msgid "Keywords:"
 msgstr ""
 
@@ -10496,11 +10489,11 @@ msgstr "Язык"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:703
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Language:"
 msgstr "Язык:"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Languages:"
 msgstr ""
 
@@ -10910,7 +10903,6 @@ msgstr "Кнопка 'Инфо' (долгое нажатие)"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-fritzcall/src/plugin.py:1365
-#: enigma2-plugins/imdb/src/plugin.py:88
 #: enigma2-plugins/fritzcall/src/plugin.py:1354
 msgid "Lookup"
 msgstr "Искать"
@@ -11536,7 +11528,7 @@ msgstr ""
 msgid "Mosaic"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Motion Picture Rating (MPAA):"
 msgstr ""
 
@@ -12327,7 +12319,7 @@ msgstr ""
 "HDD не найден или \n"
 "не установлен!"
 
-#: enigma2-plugins/imdb/src/plugin.py:575
+#: enigma2-plugins/imdb/src/plugin.py:503
 msgid "No IMDb match."
 msgstr "Описание не найдено в IMDb!"
 
@@ -12370,7 +12362,7 @@ msgstr ""
 msgid "No call diversion active"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:690
+#: enigma2-plugins/imdb/src/plugin.py:618
 msgid "No cast list found in the database."
 msgstr "Список исполнителей не найден."
 
@@ -12396,7 +12388,7 @@ msgstr ""
 msgid "No default storage device found!"
 msgstr "Устройство хранения по умолчанию, не найдено!"
 
-#: enigma2-plugins/imdb/src/plugin.py:607
+#: enigma2-plugins/imdb/src/plugin.py:535
 msgid "No details found."
 msgstr "Подробностей не найдено."
 
@@ -12826,7 +12818,7 @@ msgstr "Выкл."
 #: enigma2-plugins/automaticcleanup/src/plugin.py:171
 #: enigma2-plugins/movieretitle/src/plugin.py:40
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
-#: enigma2-plugins/imdb/src/plugin.py:842
+#: enigma2-plugins/imdb/src/plugin.py:770
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:47
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:138
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
@@ -13194,7 +13186,7 @@ msgstr ""
 msgid "Orbital Position Selected"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Original title:"
 msgstr ""
 
@@ -13725,7 +13717,7 @@ msgstr "Воспроизвести все"
 msgid "Play All starting"
 msgstr "Воспроизвести все"
 
-#: enigma2-plugins/imdb/src/plugin.py:416
+#: enigma2-plugins/imdb/src/plugin.py:355
 msgid "Play Trailer"
 msgstr "Воспроизвести трейлер"
 
@@ -14027,7 +14019,7 @@ msgstr ""
 msgid "Please select tag to filter..."
 msgstr "Пожалуйста, выберите тэг для фильтра..."
 
-#: enigma2-plugins/imdb/src/plugin.py:362
+#: enigma2-plugins/imdb/src/plugin.py:305
 msgid "Please select the matching entry"
 msgstr "Пожалуйста, выберите соответствующую запись"
 
@@ -14114,7 +14106,7 @@ msgstr "Пожалуйста, подождите..."
 msgid "Please wait... Loading list..."
 msgstr "Пожалуйста, ждите...Загружается список..."
 
-#: enigma2-plugins/imdb/src/plugin.py:731
+#: enigma2-plugins/imdb/src/plugin.py:659
 msgid "Plot outline:"
 msgstr ""
 
@@ -14511,11 +14503,11 @@ msgstr ""
 msgid "Production Countries:"
 msgstr "Страна-производитель:"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Production companies:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Production company:"
 msgstr ""
 
@@ -14611,13 +14603,13 @@ msgstr "Переводит ресивер в режим ожидания пос�
 msgid "PzyP4T"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:504
+#: enigma2-plugins/imdb/src/plugin.py:432
 #, python-format
 msgid "Query IMDb: %s"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:921
-#: enigma2-plugins/imdb/src/plugin.py:925
+#: enigma2-plugins/imdb/src/plugin.py:851
+#: enigma2-plugins/imdb/src/plugin.py:854
 msgid "Query details from the Internet Movie Database"
 msgstr "Запрос подробностей в IMDb"
 
@@ -14660,7 +14652,7 @@ msgstr "Быстрого доступа"
 msgid "Quit"
 msgstr "Выход"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Quotes:"
 msgstr ""
 
@@ -14713,10 +14705,10 @@ msgstr ""
 msgid "Ratio: %.2f"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:377
-#: enigma2-plugins/imdb/src/plugin.py:567
-#: enigma2-plugins/imdb/src/plugin.py:580
-#: enigma2-plugins/imdb/src/plugin.py:587
+#: enigma2-plugins/imdb/src/plugin.py:322
+#: enigma2-plugins/imdb/src/plugin.py:495
+#: enigma2-plugins/imdb/src/plugin.py:508
+#: enigma2-plugins/imdb/src/plugin.py:515
 #, python-format
 msgid "Re-Query IMDb: %s..."
 msgstr "Повторный запрос в IMDb: %s..."
@@ -15050,7 +15042,7 @@ msgstr "Похожие видео"
 msgid "Release Date:"
 msgstr "Дата выхода:"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Release date:"
 msgstr ""
 
@@ -15703,7 +15695,7 @@ msgstr "Выполняемый процесс: "
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:403
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:397
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Runtime:"
 msgstr "Длительность:"
 
@@ -16091,6 +16083,7 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:179
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:845
 #: enigma2-plugins/ncidclient/src/plugin.py:447
+#: enigma2-plugins/imdb/src/plugin.py:156
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 #: enigma2-plugins/fritzcall/src/plugin.py:1722
@@ -16166,7 +16159,7 @@ msgstr "Поиск по сайту:"
 msgid "Search Term(s)"
 msgstr "Условие(я) для поиска"
 
-#: enigma2-plugins/imdb/src/plugin.py:417
+#: enigma2-plugins/imdb/src/plugin.py:356
 msgid "Search Trailer"
 msgstr "Поиск трейлера"
 
@@ -16300,7 +16293,7 @@ msgid ""
 "{title:s}"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:655
+#: enigma2-plugins/imdb/src/plugin.py:583
 msgid "Seasons:"
 msgstr ""
 
@@ -16428,10 +16421,6 @@ msgstr "Выбрать каналы для обновления"
 #: enigma2-plugins/teletext/src/plugin.py:77
 msgid "Select contrast."
 msgstr "Настройте Контрастность."
-
-#: enigma2-plugins/imdb/src/plugin.py:410
-msgid "Select from EPG"
-msgstr "Выбор из EPG"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:217
 msgid "Select local file list"
@@ -16907,7 +16896,7 @@ msgstr "Настройки сохранены."
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:394
-#: enigma2-plugins/imdb/src/plugin.py:411
+#: enigma2-plugins/imdb/src/plugin.py:352
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
 #: enigma2-plugins/twitchtv/src/plugin.py:666
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
@@ -17312,7 +17301,7 @@ msgstr "Показать окно продолжительности"
 msgid "Show duration:"
 msgstr "Показать продолжительность:"
 
-#: enigma2-plugins/imdb/src/plugin.py:863
+#: enigma2-plugins/imdb/src/plugin.py:791
 msgid "Show episode and year information in cast list"
 msgstr ""
 
@@ -17382,7 +17371,7 @@ msgstr ""
 msgid "Show in main menu"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:861
+#: enigma2-plugins/imdb/src/plugin.py:789
 msgid "Show in plugin browser"
 msgstr "Показать в меню плагинов"
 
@@ -18218,11 +18207,11 @@ msgstr ""
 msgid "Sorting previous"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Sound mix:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Soundtracks:"
 msgstr ""
 
@@ -18248,7 +18237,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "Spanish"
 msgstr "Испанский"
 
@@ -18709,7 +18698,7 @@ msgid ""
 "Intro duration: %s seconds"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:695
+#: enigma2-plugins/imdb/src/plugin.py:623
 msgid "Storyline:"
 msgstr ""
 
@@ -18967,11 +18956,11 @@ msgstr "Тэг 2"
 msgid "Tag Filter"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:723
+#: enigma2-plugins/imdb/src/plugin.py:651
 msgid "Tagline:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:723
+#: enigma2-plugins/imdb/src/plugin.py:651
 msgid "Taglines:"
 msgstr ""
 
@@ -19957,7 +19946,7 @@ msgstr "Таймшифт"
 msgid "Title"
 msgstr "Название"
 
-#: enigma2-plugins/imdb/src/plugin.py:364
+#: enigma2-plugins/imdb/src/plugin.py:307
 msgid "Title Menu"
 msgstr "Основное меню"
 
@@ -20216,7 +20205,7 @@ msgstr "Каталог \"Корзина\""
 msgid "Travel & Events"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Trivia:"
 msgstr ""
 
@@ -20742,7 +20731,7 @@ msgstr ""
 msgid "Use original EMC-skin (needs reopen)"
 msgstr "Использовать оригинальный скин EMC"
 
-#: enigma2-plugins/imdb/src/plugin.py:862
+#: enigma2-plugins/imdb/src/plugin.py:790
 msgid "Use original IMDb skin:"
 msgstr ""
 
@@ -20801,7 +20790,7 @@ msgstr ""
 msgid "User Online"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:667
+#: enigma2-plugins/imdb/src/plugin.py:595
 msgid "User Rating"
 msgstr "Рейтинг пользователей"
 
@@ -20818,7 +20807,7 @@ msgstr ""
 msgid "User name Accessing FRITZ!Box"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "User reviews:"
 msgstr ""
 
@@ -21673,7 +21662,7 @@ msgstr ""
 msgid "Wizard"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:864
+#: enigma2-plugins/imdb/src/plugin.py:792
 msgid "Words / phrases to ignore (comma separated)"
 msgstr ""
 
@@ -21687,11 +21676,11 @@ msgid ""
 "Write the config file after every change which the user quits by saving."
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Writer:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Writers:"
 msgstr ""
 
@@ -23005,7 +22994,7 @@ msgstr ""
 msgid "enter page number / rezap"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:684
+#: enigma2-plugins/imdb/src/plugin.py:612
 msgid "episodes"
 msgstr ""
 
@@ -23838,7 +23827,7 @@ msgstr ""
 msgid "no themes.xml"
 msgstr "Нет файла themes.xml"
 
-#: enigma2-plugins/imdb/src/plugin.py:661
+#: enigma2-plugins/imdb/src/plugin.py:589
 msgid "no user rating yet"
 msgstr "рейтинг отсутствует"
 
@@ -25055,7 +25044,7 @@ msgstr ""
 msgid "void"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:666
+#: enigma2-plugins/imdb/src/plugin.py:594
 msgid "votes"
 msgstr ""
 

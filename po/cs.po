@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-24 06:19+0000\n"
+"POT-Creation-Date: 2021-08-24 23:12+0000\n"
 "PO-Revision-Date: 2021-08-09 23:11+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
@@ -245,7 +245,7 @@ msgstr ""
 " všechna vybraná videa ? Momentálně přehrávané video je jedním z vybraných - "
 "jeho přehrávání bude zastaveno !"
 
-#: enigma2-plugins/imdb/src/plugin.py:681
+#: enigma2-plugins/imdb/src/plugin.py:609
 msgid " as "
 msgstr ""
 
@@ -928,13 +928,13 @@ msgstr "5 min."
 msgid "60 min."
 msgstr "60 min."
 
-#: enigma2-plugins/imdb/src/plugin.py:624
-#: enigma2-plugins/imdb/src/plugin.py:653
-#: enigma2-plugins/imdb/src/plugin.py:698
-#: enigma2-plugins/imdb/src/plugin.py:702
-#: enigma2-plugins/imdb/src/plugin.py:733
-#: enigma2-plugins/imdb/src/plugin.py:764
-#: enigma2-plugins/imdb/src/plugin.py:778
+#: enigma2-plugins/imdb/src/plugin.py:552
+#: enigma2-plugins/imdb/src/plugin.py:581
+#: enigma2-plugins/imdb/src/plugin.py:626
+#: enigma2-plugins/imdb/src/plugin.py:630
+#: enigma2-plugins/imdb/src/plugin.py:661
+#: enigma2-plugins/imdb/src/plugin.py:692
+#: enigma2-plugins/imdb/src/plugin.py:706
 msgid ":"
 msgstr ""
 
@@ -1962,11 +1962,11 @@ msgstr "↑A-Z_M"
 msgid "Alpha sort meta date newest"
 msgstr "↑A-Z_M_↑datum"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Also known as:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Alternate versions:"
 msgstr ""
 
@@ -2178,7 +2178,7 @@ msgstr ""
 "na :\n"
 "   %s"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Aspect ratio:"
 msgstr ""
 
@@ -2615,7 +2615,7 @@ msgstr ""
 msgid "Avoid deep standby when HDD is active, e.g. for FTP"
 msgstr "Pozastavit vypnutí, pokud je HDD aktivní, např. pro FTP"
 
-#: enigma2-plugins/imdb/src/plugin.py:751
+#: enigma2-plugins/imdb/src/plugin.py:679
 msgid "Awards:"
 msgstr ""
 
@@ -2854,7 +2854,7 @@ msgstr "vypnout box "
 msgid "Box has no fancontrol hardware -> FC2 deactivated"
 msgstr "Box nemá ventilátor -> FC2 bude deaktivovaný"
 
-#: enigma2-plugins/imdb/src/plugin.py:756
+#: enigma2-plugins/imdb/src/plugin.py:684
 msgid "Box office:"
 msgstr ""
 
@@ -3226,7 +3226,7 @@ msgstr "Kanada"
 #: enigma2-plugins/automaticcleanup/src/plugin.py:170
 #: enigma2-plugins/movieretitle/src/plugin.py:41
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
-#: enigma2-plugins/imdb/src/plugin.py:843
+#: enigma2-plugins/imdb/src/plugin.py:771
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
 #: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
@@ -3356,7 +3356,7 @@ msgstr "kapacita"
 msgid "Case Insensitive:"
 msgstr "nerozlišovat velikost písma"
 
-#: enigma2-plugins/imdb/src/plugin.py:688
+#: enigma2-plugins/imdb/src/plugin.py:616
 msgid "Cast:"
 msgstr ""
 
@@ -3374,7 +3374,7 @@ msgstr "na střed obrazovky a horní hranu"
 msgid "Central and Southeast Europe"
 msgstr "centrální a jihovýchodní Evropa"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Certificate:"
 msgstr ""
 
@@ -3534,7 +3534,6 @@ msgstr "číslo kanálu"
 #: enigma2-plugin-pzyp4t/src/plugin.py:3319
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:817
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
-#: enigma2-plugins/imdb/src/plugin.py:59
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:121
 #: enigma2-plugins/pipservicerelation/src/plugin.py:211
 msgid "Channel Selection"
@@ -3898,7 +3897,7 @@ msgstr "sbírka"
 msgid "Color space setup"
 msgstr "nastavit barevný prostor"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Color:"
 msgstr ""
 
@@ -4123,7 +4122,7 @@ msgstr ""
 " (%s)\n"
 "...opakuji..."
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Connections:"
 msgstr ""
 
@@ -4384,7 +4383,7 @@ msgstr "Nelze spustit modul :"
 msgid "Could start only from the movie-menu."
 msgstr "Spustit lze pouze z menu videa !"
 
-#: enigma2-plugins/imdb/src/plugin.py:509
+#: enigma2-plugins/imdb/src/plugin.py:437
 msgid "Couldn't get Eventname"
 msgstr "Nelze načíst název kanálu !"
 
@@ -4435,7 +4434,7 @@ msgstr "odpočet :"
 msgid "Countries"
 msgstr "země"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Countries of origin:"
 msgstr ""
 
@@ -4445,7 +4444,7 @@ msgstr ""
 msgid "Country"
 msgstr "země"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Country of origin:"
 msgstr ""
 
@@ -4511,7 +4510,7 @@ msgstr "velikost potisku"
 msgid "Crashlog(s) are attached"
 msgstr "Crashlog je připojený"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Crazy credits:"
 msgstr ""
 
@@ -4652,11 +4651,11 @@ msgstr "založit sloubor %s"
 msgid "Creation of symlink %s in %s to %s"
 msgstr "založit odkaz %s ve %s do %s"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Creator:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Creators:"
 msgstr ""
 
@@ -5033,7 +5032,7 @@ msgid "DeepStandby"
 msgstr ">hluboký spánek - vypnutí"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:176
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 #: enigma2-plugins/teletext/src/plugin.py:1296
 msgid "Default"
 msgstr "předvoleno"
@@ -5394,8 +5393,7 @@ msgstr "cílová složka / klient"
 msgid "Destination dir '%s' does not exist."
 msgstr "Cílová složka '%s' neexistuje !"
 
-#: enigma2-plugins/imdb/src/plugin.py:365
-#: enigma2-plugins/imdb/src/plugin.py:609
+#: enigma2-plugins/imdb/src/plugin.py:537
 #: enigma2-plugins/twitchtv/src/plugin.py:241
 #: enigma2-plugins/twitchtv/src/plugin.py:482
 msgid "Details"
@@ -5448,11 +5446,11 @@ msgstr "složka : "
 msgid "Direct playback of Youtube videos"
 msgstr "-- přímé přehrávání videa z Youtube"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Director:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Directors:"
 msgstr ""
 
@@ -6142,7 +6140,7 @@ msgstr "staženo %d a aktualizováno %d MB"
 msgid "Downloaded %d of %d MB (%d%%)"
 msgstr "staženo %d z %d MB (%d%%) "
 
-#: enigma2-plugins/imdb/src/plugin.py:710
+#: enigma2-plugins/imdb/src/plugin.py:638
 #, python-format
 msgid "Downloading Movie Poster: %s..."
 msgstr "stažený obal :  %s..."
@@ -7232,7 +7230,7 @@ msgstr "konec "
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "English"
 msgstr "anglicky,"
 
@@ -7336,10 +7334,6 @@ msgstr "zadejte heslo :"
 msgid "Enter pin code"
 msgstr "vložit PIN"
 
-#: enigma2-plugins/imdb/src/plugin.py:409
-msgid "Enter search"
-msgstr "hledat další"
-
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1982
 msgid "Enter search-text"
 msgstr "-zadejte text pro hledání-"
@@ -7362,7 +7356,7 @@ msgid "Enter text for page %s"
 msgstr "text pro stránku : %s "
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:324
-#: enigma2-plugins/imdb/src/plugin.py:455
+#: enigma2-plugins/imdb/src/plugin.py:391
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
 #: enigma2-plugins/moviesearch/src/plugin.py:85
 msgid "Enter text to search for"
@@ -7449,7 +7443,7 @@ msgstr ""
 "Epizoda : {rawepisode:s}\n"
 "{title:s}"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Episodes:"
 msgstr ""
 
@@ -7752,7 +7746,6 @@ msgid "Exist: %s"
 msgstr "již existuje  : %s"
 
 #
-#: enigma2-plugins/imdb/src/plugin.py:217
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2171
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
@@ -7840,7 +7833,7 @@ msgstr "rozšířené"
 msgid "Extensions menu"
 msgstr "rozšířeném menu"
 
-#: enigma2-plugins/imdb/src/plugin.py:785
+#: enigma2-plugins/imdb/src/plugin.py:713
 msgid "Extra Info"
 msgstr "rozšířené info"
 
@@ -8379,11 +8372,11 @@ msgstr "pozice seznamu soub.systému vpravo"
 msgid "Film & Animation"
 msgstr "video a animace"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Filming location:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Filming locations:"
 msgstr ""
 
@@ -8660,7 +8653,7 @@ msgstr "volné : "
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "French"
 msgstr "francouzsky"
 
@@ -8844,7 +8837,7 @@ msgstr "seznam žánrů"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:404
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:395
-#: enigma2-plugins/imdb/src/plugin.py:619
+#: enigma2-plugins/imdb/src/plugin.py:547
 msgid "Genre:"
 msgstr "žánr :"
 
@@ -8860,7 +8853,7 @@ msgstr "kategorie"
 msgid "Genres (%d)"
 msgstr "žánry (%d)"
 
-#: enigma2-plugins/imdb/src/plugin.py:619
+#: enigma2-plugins/imdb/src/plugin.py:547
 msgid "Genres:"
 msgstr ""
 
@@ -8876,7 +8869,7 @@ msgstr "-- ověření pravosti Dreamboxu"
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "German"
 msgstr "německy"
 
@@ -8997,7 +8990,7 @@ msgstr "uspat ?"
 msgid "Go to trashcan"
 msgstr "otevřít koš"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Goofs:"
 msgstr ""
 
@@ -10042,38 +10035,38 @@ msgstr "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 msgid "IMDb"
 msgstr "IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:204
+#: enigma2-plugins/imdb/src/plugin.py:143
 msgid "IMDb - Internet Movie Database"
 msgstr "IMDb - internet.databáze videa"
 
-#: enigma2-plugins/imdb/src/plugin.py:903
-#: enigma2-plugins/imdb/src/plugin.py:921
-#: enigma2-plugins/imdb/src/plugin.py:924
+#: enigma2-plugins/imdb/src/plugin.py:831
+#: enigma2-plugins/imdb/src/plugin.py:851
+#: enigma2-plugins/imdb/src/plugin.py:854
 msgid "IMDb Details"
 msgstr "IMDb databáze"
 
-#: enigma2-plugins/imdb/src/plugin.py:610
-#: enigma2-plugins/imdb/src/plugin.py:792
+#: enigma2-plugins/imdb/src/plugin.py:538
+#: enigma2-plugins/imdb/src/plugin.py:720
 msgid "IMDb Details parsed"
 msgstr "...popis z IMDb..."
 
-#: enigma2-plugins/imdb/src/plugin.py:550
+#: enigma2-plugins/imdb/src/plugin.py:478
 msgid "IMDb Download completed"
 msgstr "Stažení z IMDb je kompletní"
 
-#: enigma2-plugins/imdb/src/plugin.py:594
+#: enigma2-plugins/imdb/src/plugin.py:522
 msgid "IMDb Download failed"
 msgstr "Stažení z IMDb se nepovedlo !"
 
-#: enigma2-plugins/imdb/src/plugin.py:423
+#: enigma2-plugins/imdb/src/plugin.py:358
 msgid "IMDb Menu"
 msgstr "IMDb menu"
 
-#: enigma2-plugins/imdb/src/plugin.py:832
+#: enigma2-plugins/imdb/src/plugin.py:760
 msgid "IMDb Plugin"
 msgstr "IMDb modul"
 
-#: enigma2-plugins/imdb/src/plugin.py:600
+#: enigma2-plugins/imdb/src/plugin.py:528
 msgid "IMDb Re-Download completed"
 msgstr "Nové stažení z IMDb bylo dokončeno"
 
@@ -10081,7 +10074,7 @@ msgstr "Nové stažení z IMDb bylo dokončeno"
 msgid "IMDb Search"
 msgstr "hledat v IMDb"
 
-#: enigma2-plugins/imdb/src/plugin.py:839
+#: enigma2-plugins/imdb/src/plugin.py:767
 msgid "IMDb Setup"
 msgstr "IMDb - nastavení"
 
@@ -10089,11 +10082,11 @@ msgstr "IMDb - nastavení"
 msgid "IMDb info"
 msgstr "IMDb - info"
 
-#: enigma2-plugins/imdb/src/plugin.py:591
+#: enigma2-plugins/imdb/src/plugin.py:519
 msgid "IMDb query failed!"
 msgstr "Dotaz do IMDb neprošel !"
 
-#: enigma2-plugins/imdb/src/plugin.py:860
+#: enigma2-plugins/imdb/src/plugin.py:788
 msgid "IMDb query language"
 msgstr "IMDb - dotazovací jazyk"
 
@@ -10705,7 +10698,7 @@ msgstr "Izrael"
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "Italian"
 msgstr "italsky"
 
@@ -10807,7 +10800,7 @@ msgstr "klávesnice"
 msgid "Keys"
 msgstr "tlačítka"
 
-#: enigma2-plugins/imdb/src/plugin.py:744
+#: enigma2-plugins/imdb/src/plugin.py:672
 msgid "Keywords:"
 msgstr ""
 
@@ -10846,11 +10839,11 @@ msgstr "jazyk dialogu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:703
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Language:"
 msgstr "jazyk :"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Languages:"
 msgstr ""
 
@@ -11270,7 +11263,6 @@ msgstr "funkce pod tl.: Info dlouhé"
 
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-fritzcall/src/plugin.py:1365
-#: enigma2-plugins/imdb/src/plugin.py:88
 #: enigma2-plugins/fritzcall/src/plugin.py:1354
 msgid "Lookup"
 msgstr "hledání"
@@ -11924,7 +11916,7 @@ msgstr "další..."
 msgid "Mosaic"
 msgstr "mozaika"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Motion Picture Rating (MPAA):"
 msgstr ""
 
@@ -12751,7 +12743,7 @@ msgstr ""
 "Harddisk nebyl nalezený\n"
 "nebo není inicializovaný !"
 
-#: enigma2-plugins/imdb/src/plugin.py:575
+#: enigma2-plugins/imdb/src/plugin.py:503
 msgid "No IMDb match."
 msgstr "IMDb-žádná shoda"
 
@@ -12794,7 +12786,7 @@ msgstr ""
 msgid "No call diversion active"
 msgstr "Přeposlání hovoru není aktivní"
 
-#: enigma2-plugins/imdb/src/plugin.py:690
+#: enigma2-plugins/imdb/src/plugin.py:618
 msgid "No cast list found in the database."
 msgstr "Seznam obsazení v databázi není k dispozici !"
 
@@ -12820,7 +12812,7 @@ msgstr "Datum není k dispozici"
 msgid "No default storage device found!"
 msgstr "Chybí předvolený úložný disk !"
 
-#: enigma2-plugins/imdb/src/plugin.py:607
+#: enigma2-plugins/imdb/src/plugin.py:535
 msgid "No details found."
 msgstr "popis není dostupný"
 
@@ -13266,7 +13258,7 @@ msgstr "vyp."
 #: enigma2-plugins/automaticcleanup/src/plugin.py:171
 #: enigma2-plugins/movieretitle/src/plugin.py:40
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
-#: enigma2-plugins/imdb/src/plugin.py:842
+#: enigma2-plugins/imdb/src/plugin.py:770
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:47
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:138
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
@@ -13643,7 +13635,7 @@ msgstr "pozice na orbitě "
 msgid "Orbital Position Selected"
 msgstr "vybraná pozice na orbitě :"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Original title:"
 msgstr ""
 
@@ -14191,7 +14183,7 @@ msgstr "přehrát vše"
 msgid "Play All starting"
 msgstr "spustit vše"
 
-#: enigma2-plugins/imdb/src/plugin.py:416
+#: enigma2-plugins/imdb/src/plugin.py:355
 msgid "Play Trailer"
 msgstr "přehrát upoutávku"
 
@@ -14502,7 +14494,7 @@ msgstr "Vyberte nová oprávnění..."
 msgid "Please select tag to filter..."
 msgstr "Vyberte značku pro filtr..."
 
-#: enigma2-plugins/imdb/src/plugin.py:362
+#: enigma2-plugins/imdb/src/plugin.py:305
 msgid "Please select the matching entry"
 msgstr "...vyberte odpovídající položku..."
 
@@ -14590,7 +14582,7 @@ msgstr "...čekejte..."
 msgid "Please wait... Loading list..."
 msgstr "...čekejte, načítám seznam..."
 
-#: enigma2-plugins/imdb/src/plugin.py:731
+#: enigma2-plugins/imdb/src/plugin.py:659
 msgid "Plot outline:"
 msgstr ""
 
@@ -14997,11 +14989,11 @@ msgstr ""
 msgid "Production Countries:"
 msgstr "země původu :"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Production companies:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Production company:"
 msgstr ""
 
@@ -15101,13 +15093,13 @@ msgstr "Přepnout sat.přijímač po nabootování do režimu spánku"
 msgid "PzyP4T"
 msgstr "PzyP4T"
 
-#: enigma2-plugins/imdb/src/plugin.py:504
+#: enigma2-plugins/imdb/src/plugin.py:432
 #, python-format
 msgid "Query IMDb: %s"
 msgstr "dotaz do IMDb: %s..."
 
-#: enigma2-plugins/imdb/src/plugin.py:921
-#: enigma2-plugins/imdb/src/plugin.py:925
+#: enigma2-plugins/imdb/src/plugin.py:851
+#: enigma2-plugins/imdb/src/plugin.py:854
 msgid "Query details from the Internet Movie Database"
 msgstr "-- internet.dbáze videa, obaly a info"
 
@@ -15149,7 +15141,7 @@ msgstr "tlačítko \"Quick\""
 msgid "Quit"
 msgstr "konec"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Quotes:"
 msgstr ""
 
@@ -15203,10 +15195,10 @@ msgstr "hodnocení :"
 msgid "Ratio: %.2f"
 msgstr "poměr : %.2f"
 
-#: enigma2-plugins/imdb/src/plugin.py:377
-#: enigma2-plugins/imdb/src/plugin.py:567
-#: enigma2-plugins/imdb/src/plugin.py:580
-#: enigma2-plugins/imdb/src/plugin.py:587
+#: enigma2-plugins/imdb/src/plugin.py:322
+#: enigma2-plugins/imdb/src/plugin.py:495
+#: enigma2-plugins/imdb/src/plugin.py:508
+#: enigma2-plugins/imdb/src/plugin.py:515
 #, python-format
 msgid "Re-Query IMDb: %s..."
 msgstr "nový dotaz na IMDb : %s..."
@@ -15549,7 +15541,7 @@ msgstr "odpovídající video"
 msgid "Release Date:"
 msgstr "datum edice :"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Release date:"
 msgstr ""
 
@@ -16213,7 +16205,7 @@ msgstr "běží procesy : "
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:403
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:397
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Runtime:"
 msgstr "délka videa :"
 
@@ -16614,6 +16606,7 @@ msgstr "o stránku obsahu nahoru"
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:179
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:845
 #: enigma2-plugins/ncidclient/src/plugin.py:447
+#: enigma2-plugins/imdb/src/plugin.py:156
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 #: enigma2-plugins/fritzcall/src/plugin.py:1722
@@ -16689,7 +16682,7 @@ msgstr "Vyhledávat přes :"
 msgid "Search Term(s)"
 msgstr "vyhledat výraz..."
 
-#: enigma2-plugins/imdb/src/plugin.py:417
+#: enigma2-plugins/imdb/src/plugin.py:356
 msgid "Search Trailer"
 msgstr "vyhledat upoutávky"
 
@@ -16831,7 +16824,7 @@ msgstr ""
 "série : {rawseason:s},  epizoda : {rawepisode:s}\n"
 "{title:s}"
 
-#: enigma2-plugins/imdb/src/plugin.py:655
+#: enigma2-plugins/imdb/src/plugin.py:583
 msgid "Seasons:"
 msgstr ""
 
@@ -16961,10 +16954,6 @@ msgstr "Vyberte kanál pro stažení programů...  "
 #: enigma2-plugins/teletext/src/plugin.py:77
 msgid "Select contrast."
 msgstr "zvolte kontrast"
-
-#: enigma2-plugins/imdb/src/plugin.py:410
-msgid "Select from EPG"
-msgstr "vybrat z EPG"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:217
 msgid "Select local file list"
@@ -17454,7 +17443,7 @@ msgstr "nastavení bylo uloženo..."
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:394
-#: enigma2-plugins/imdb/src/plugin.py:411
+#: enigma2-plugins/imdb/src/plugin.py:352
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
 #: enigma2-plugins/twitchtv/src/plugin.py:666
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
@@ -17860,7 +17849,7 @@ msgstr "zobrazit okno s délkou"
 msgid "Show duration:"
 msgstr "zobrazit dobu běhu : "
 
-#: enigma2-plugins/imdb/src/plugin.py:863
+#: enigma2-plugins/imdb/src/plugin.py:791
 msgid "Show episode and year information in cast list"
 msgstr ""
 
@@ -17930,7 +17919,7 @@ msgstr "zobrazit balíček v rozšířeném menu"
 msgid "Show in main menu"
 msgstr "zobrazit v hlavním menu"
 
-#: enigma2-plugins/imdb/src/plugin.py:861
+#: enigma2-plugins/imdb/src/plugin.py:789
 msgid "Show in plugin browser"
 msgstr "zobrazit balíček v seznamu modulů"
 
@@ -18784,11 +18773,11 @@ msgstr "seřadit další "
 msgid "Sorting previous"
 msgstr "seřadit předchozí "
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Sound mix:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Soundtracks:"
 msgstr ""
 
@@ -18815,7 +18804,7 @@ msgstr "Španělsko"
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
-#: enigma2-plugins/imdb/src/plugin.py:45
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "Spanish"
 msgstr "španělsky"
 
@@ -19290,7 +19279,7 @@ msgstr ""
 "%s.\n"
 "Délka upoutávky : %s sek."
 
-#: enigma2-plugins/imdb/src/plugin.py:695
+#: enigma2-plugins/imdb/src/plugin.py:623
 msgid "Storyline:"
 msgstr ""
 
@@ -19555,11 +19544,11 @@ msgstr "značka 2"
 msgid "Tag Filter"
 msgstr "filtr žánru "
 
-#: enigma2-plugins/imdb/src/plugin.py:723
+#: enigma2-plugins/imdb/src/plugin.py:651
 msgid "Tagline:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:723
+#: enigma2-plugins/imdb/src/plugin.py:651
 msgid "Taglines:"
 msgstr ""
 
@@ -20644,7 +20633,7 @@ msgstr "tlačítko \"časovače\""
 msgid "Title"
 msgstr "v názvu"
 
-#: enigma2-plugins/imdb/src/plugin.py:364
+#: enigma2-plugins/imdb/src/plugin.py:307
 msgid "Title Menu"
 msgstr "výběr titulků"
 
@@ -20910,7 +20899,7 @@ msgstr "umístění koše"
 msgid "Travel & Events"
 msgstr "cestování"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "Trivia:"
 msgstr ""
 
@@ -21453,7 +21442,7 @@ msgstr "použít v seznamu filtr rodič.kontroly :"
 msgid "Use original EMC-skin (needs reopen)"
 msgstr "použít orig. EMC-skin (nutný restart EMC)"
 
-#: enigma2-plugins/imdb/src/plugin.py:862
+#: enigma2-plugins/imdb/src/plugin.py:790
 msgid "Use original IMDb skin:"
 msgstr ""
 
@@ -21516,7 +21505,7 @@ msgstr "Použitý neznámý kanál !"
 msgid "User Online"
 msgstr "uživatel je připojený"
 
-#: enigma2-plugins/imdb/src/plugin.py:667
+#: enigma2-plugins/imdb/src/plugin.py:595
 msgid "User Rating"
 msgstr "uživatelské hodnocení"
 
@@ -21533,7 +21522,7 @@ msgstr "přihlášený uživatel..."
 msgid "User name Accessing FRITZ!Box"
 msgstr "přihlášený uživatel pro FRITZ!Box"
 
-#: enigma2-plugins/imdb/src/plugin.py:759
+#: enigma2-plugins/imdb/src/plugin.py:687
 msgid "User reviews:"
 msgstr ""
 
@@ -22460,7 +22449,7 @@ msgstr ""
 msgid "Wizard"
 msgstr "průvodce "
 
-#: enigma2-plugins/imdb/src/plugin.py:864
+#: enigma2-plugins/imdb/src/plugin.py:792
 msgid "Words / phrases to ignore (comma separated)"
 msgstr "ignorovat slova / fráze  (oddělené čárkou)"
 
@@ -22476,11 +22465,11 @@ msgstr ""
 "Zapsat konfig.soubor po každé změně, \n"
 "kterou uživatel dokončí_"
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Writer:"
 msgstr ""
 
-#: enigma2-plugins/imdb/src/plugin.py:627
+#: enigma2-plugins/imdb/src/plugin.py:555
 msgid "Writers:"
 msgstr ""
 
@@ -23850,7 +23839,7 @@ msgstr "zadejte číslo stránky / stránka 100"
 msgid "enter page number / rezap"
 msgstr "zadejte číslo stránky / znovu"
 
-#: enigma2-plugins/imdb/src/plugin.py:684
+#: enigma2-plugins/imdb/src/plugin.py:612
 msgid "episodes"
 msgstr ""
 
@@ -24720,7 +24709,7 @@ msgstr "není subjekt"
 msgid "no themes.xml"
 msgstr "chybí themes.xml"
 
-#: enigma2-plugins/imdb/src/plugin.py:661
+#: enigma2-plugins/imdb/src/plugin.py:589
 msgid "no user rating yet"
 msgstr "zatím neohodnoceno..."
 
@@ -25952,7 +25941,7 @@ msgstr "virtuální klávesnice"
 msgid "void"
 msgstr "-nelze-"
 
-#: enigma2-plugins/imdb/src/plugin.py:666
+#: enigma2-plugins/imdb/src/plugin.py:594
 msgid "votes"
 msgstr "hodnocení"
 
