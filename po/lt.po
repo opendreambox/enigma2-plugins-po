@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-24 23:12+0000\n"
+"POT-Creation-Date: 2021-09-25 23:11+0000\n"
 "PO-Revision-Date: 2021-09-07 23:11+0000\n"
 "Last-Translator: Adga <adga45@gmail.com>\n"
 "Language-Team: Lithuanian <https://dreambox.de/translate/projects/dreambox/"
@@ -3137,19 +3137,6 @@ msgstr ""
 "%(info)s\n"
 "%(file)s"
 
-#: MovieInfo.py:582
-#, python-format
-msgid ""
-"Can not write Movie Information and Cover File\n"
-"\n"
-"%s\n"
-"%s"
-msgstr ""
-"Nepavyksta įrašyti filmo informacijos ir viršelio failo\n"
-"\n"
-"%s\n"
-"%s"
-
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
 "Can only be mounted explicitly (i.e., the -a option will not cause the "
@@ -6169,10 +6156,6 @@ msgstr "Parsisiųsti informaciją apie filmą"
 msgid "Download Movie Information"
 msgstr "Parsisiųsti informaciją apie filmą"
 
-#: EnhancedMovieCenter.py:532
-msgid "Download Mutagen-package for audio metadata"
-msgstr "Parsisiųsti garso metaduomenų paketą Mutagen"
-
 #
 #: enigma2-plugins/mytube/src/plugin.py:481
 msgid "Download Video"
@@ -8441,21 +8424,6 @@ msgstr ""
 "Failai yra dabartiniame grojaraštyje:\n"
 "%(exist)s"
 
-#: MovieSelection.py:2084
-#, python-format
-msgid ""
-"Files added to current Playlist:\n"
-"%s\n"
-"\n"
-"Files exists in current Playlist:\n"
-"%s"
-msgstr ""
-"Failai, įtraukti į šį grojaraštį:\n"
-"%s\n"
-"\n"
-"Failai jau yra šiame grojaraštyje:\n"
-"%s"
-
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
 msgstr "Failų naršyklė:"
@@ -9329,12 +9297,6 @@ msgid "HELP_Don't auto scan size of dirs from emc-noscan.cfg"
 msgstr ""
 "PAGALBA-Netikrinti automatiškai dydžio katalogų, įtrauktų į emc-noscan.cfg"
 
-#: EnhancedMovieCenter.py:532
-msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
-"Galima parsisiųsti garso metaduomenų paketą Mutagen.\n"
-"Parsisiuntę, turėsite jį įsidiegti."
-
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
 msgstr "PAGALBA-atsisiųsti iškarpų sąrašą iš Cutlist.at"
@@ -9387,15 +9349,6 @@ msgstr "PAGALBA-įjunkite automatinį subtitrų kalbos parinkimą"
 msgid "HELP_Enable remote recordings"
 msgstr "PAGALBA-įjungti nuotolinius įrašus"
 
-msgid "HELP_Enigma auto-restart window begin"
-msgstr "Enigma2 automatinio paleidimo iš naujo laikotarpio pradžia."
-
-msgid "HELP_Enigma auto-restart window end"
-msgstr "Enigma2 automatinio paleidimo iš naujo laikotarpio pabaiga."
-
-msgid "HELP_Enigma daily auto-restart"
-msgstr "Enigma2 kas nurodytą laiko tarpą bus paleidžiama iš naujo."
-
 #: EnhancedMovieCenter.py:503
 msgid "HELP_Extra support for selected language"
 msgstr "Čia galite įjungti pasirinktos papildomos kalbos palaikymą."
@@ -9404,19 +9357,9 @@ msgstr "Čia galite įjungti pasirinktos papildomos kalbos palaikymą."
 msgid "HELP_Fallback Cover"
 msgstr "PAGALBA-atvirkštinis viršelis"
 
-msgid "HELP_File order reverse"
-msgstr ""
-"Filmų sąrašas bus surūšiuotas atvirkštine tvarka.\n"
-"Nesvarbu, ar pasirinkta rodyti pagal chronologiją, ar pagal abėcėlę."
-
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "HELP_Finished watching percent"
 msgstr "PAGALBA-baigtų peržiūrų procentas"
-
-msgid "HELP_Force standby after auto-restart"
-msgstr ""
-"Po Enigma2 automatinio paleidimo iš naujo Vu+ bus perjungtas į budėjimo "
-"būseną."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:357
 msgid "HELP_Force standby after auto-start"
@@ -9592,11 +9535,6 @@ msgstr "PAGALBA-Atsukti baigtus filmus prieš juos rodant"
 msgid "HELP_Scan for DVD structures"
 msgstr "PAGALBA-Nuskaityti DVD struktūrą"
 
-msgid "HELP_Scan for Movie Structures"
-msgstr ""
-"Leidžia išjungti filmų struktūros nuskaitymą visuose kataloguose.\n"
-"Išjungus, išvengiama nepageidaujamų (tinklo) diskų prižadinimų."
-
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:398
 msgid "HELP_Scan for bluray structures"
 msgstr "PAGALBA-Nuskaityti Blu-ray struktūrą"
@@ -9633,10 +9571,6 @@ msgstr "PAGALBA-Rodyti viršelį"
 msgid "HELP_Show Cut-Nr if exist"
 msgstr "PAGALBA-Jei yra, rodyti kirpimo Nr"
 
-msgid "HELP_Show E2 Bookmarks in movielist"
-msgstr ""
-"'Filmų namuose' rodyti virtualius katalogus, atitinkančius Enigma2 žymes."
-
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:339
 msgid "HELP_Show EMC in extensions menu"
 msgstr "PAGALBA-rodyti EMC tarp plėtinių meniu"
@@ -9664,13 +9598,6 @@ msgstr "PAGALBA-rodyti VLC katalogą"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "HELP_Show audio metadata"
 msgstr "PAGALBA-Rodyti garso meta duomenis"
-
-#: EnhancedMovieCenter.py:538
-msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr ""
-"Rodyti garso metaduomenis filmų sąraše.\n"
-"Kad jie būtų korektiškai atvaizduojami, reikės atlikti pakeitimus EMC "
-"aplinkos temoje."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
@@ -9731,9 +9658,6 @@ msgstr "PAGALBA-rodyti nuorodas"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:435
 msgid "HELP_Show trashcan directory"
 msgstr "PAGALBA-Rodyti šiukšliadėžės katalogą"
-
-msgid "HELP_Sort file A to Z at startup"
-msgstr "Atveriant, filmų sąrašas bus surūšiuotas pagal abėcėlę."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:361
 msgid "HELP_Sort mode at startup"
@@ -9849,7 +9773,7 @@ msgstr "PAGALBA-skenavimas susietas"
 
 #: EnhancedMovieCenter.py:474
 msgid "HELP_separator_Trashcan settings"
-msgstr "Šiukšliadėžės ir jos automatinio išvalymo funkcijų nuostatos."
+msgstr "Šiukšliadėžės ir automatinio išvalymo funkcijų nuostatos."
 
 #: EnhancedMovieCenter.py:404
 msgid "HELP_separator_hide&performance"
@@ -10696,10 +10620,6 @@ msgstr "Įterpti eilutę po eilutės %d"
 #: enigma2-plugins/satloader/src/plugin.py:54
 msgid "Install"
 msgstr "Įdiegti"
-
-#: EnhancedMovieCenter.py:584 EnhancedMovieCenter.py:586
-msgid "Install Mutagen-package"
-msgstr "Įdiegti Mutagen paketą"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "Install Mutagen-package for audio metadata"
@@ -12286,7 +12206,7 @@ msgstr "Filmo informacija"
 
 #: MovieInfo.py:283
 msgid "Movie Information Download (TMDb)"
-msgstr "Filmo informacijos parsiuntimas iš TMDb"
+msgstr "Filmo informacijos parsiuntimas (TMDb)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:642
 msgid "Movie Information Download Setup"
@@ -13225,12 +13145,6 @@ msgstr "Ne perdavimo įėjimų nustatymas"
 #: enigma2-plugins/subsdownloader2/src/pluginOnlineContent.py:89
 msgid "Not now"
 msgstr "Ne dabar"
-
-#: MovieSelection.py:2205
-msgid "Not stopping any repeating timers. Modify them with the timer editor."
-msgstr ""
-"Pasikartojantys laikmačiai nestabdomi. Redaguokite juos laikmačių "
-"redaktoriuje."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:54
 msgid "Note: For one-time events the days don't have to be specified."
@@ -16784,7 +16698,7 @@ msgstr "Paieškos žurnalas"
 msgid "Search Results per Search Site%s:"
 msgstr "Paieškos rezultatai svetainėje %s:"
 
-#: EMCCoverSearch.py:717
+#: src/EMCCoverSearch.py:710
 msgid "Search Site:"
 msgstr "Ieškoti svetainėje:"
 
@@ -17890,10 +17804,6 @@ msgstr "Rodyti ir vidinius numerius"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "Show audio metadata"
 msgstr "Rodyti garso meta duomenis"
-
-#: EnhancedMovieCenter.py:538
-msgid "Show audio metadata (needs skin-changes)"
-msgstr "Rodyti garso metaduomenis (reikės pakeitimų temoje)"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:211
 msgid "Show begin/remain times:"
@@ -19539,7 +19449,6 @@ msgstr "Automatiškai persijungia OSD"
 msgid "Switch OSD from 2D to 3D and vice versa"
 msgstr "Perjungti OSD iš 2D į 3D ir atvirkščiai"
 
-# MovieInfo.py
 #: MovieInfo.py:723
 msgid "Switch complete to new Version"
 msgstr "Pilnai pereiti į naują versiją"
@@ -23629,7 +23538,7 @@ msgstr "iš įrašytų epizodų kuria virtualius serijų aplankus"
 msgid "creating and manipulating partition tables"
 msgstr "kuria ir manipuliuoja disko skaidinio lenteles"
 
-#: EMCCoverSearch.py:52
+#: src/EMCCoverSearch.py:51
 msgid "csfd.cz"
 msgstr "csfd.cz"
 
@@ -25819,11 +25728,11 @@ msgstr "themoviedb.org"
 msgid "themoviedb.org + thetvdb.com"
 msgstr "themoviedb.org + thetvdb.com"
 
-#: EMCCoverSearch.py:52
+#: src/EMCCoverSearch.py:51
 msgid "themoviedb.org + thetvdb.com + imdb.com"
 msgstr "themoviedb.org + thetvdb.com + imdb.com"
 
-#: EMCCoverSearch.py:48
+#: src/EMCCoverSearch.py:47
 msgid ""
 "themoviedb.org for movies + thetvdb.com for series (e.g. 'S01E01' in title)"
 msgstr ""
@@ -26204,3 +26113,35 @@ msgstr ""
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:306
 msgid "{title:s}"
 msgstr "{title:s}"
+
+#~ msgid "HELP_Enigma auto-restart window begin"
+#~ msgstr "Start of the time frame for the automatic Enigma2 restart."
+
+#~ msgid "HELP_Enigma auto-restart window end"
+#~ msgstr "End of the time frame for the automatic Enigma2 restart."
+
+#~ msgid "HELP_Enigma daily auto-restart"
+#~ msgstr "Enigma2 will be restarted daily during the defined time frame."
+
+#~ msgid "HELP_File order reverse"
+#~ msgstr ""
+#~ "Filmų sąrašas bus surūšiuotas atvirkštine tvarka.\n"
+#~ "Nesvarbu, ar pasirinkta rodyti pagal chronologiją, ar pagal abėcėlę."
+
+#~ msgid "HELP_Force standby after auto-restart"
+#~ msgstr ""
+#~ "After the automatic Enigma2 restart, the Dreambox will be switched to "
+#~ "Standby."
+
+#~ msgid "HELP_Scan for Movie Structures"
+#~ msgstr ""
+#~ "Disable the parsing for Movie-structures in all directories.\n"
+#~ "This avoids unwanted wake up of (network)disks."
+
+#~ msgid "HELP_Show E2 Bookmarks in movielist"
+#~ msgstr ""
+#~ "Display virtual folders in your \"Movie home\" representing your Enigma2 "
+#~ "Bookmarks."
+
+#~ msgid "HELP_Sort file A to Z at startup"
+#~ msgstr "Atveriant, filmų sąrašas bus surūšiuotas pagal abėcėlę"
