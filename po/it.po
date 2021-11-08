@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-07 23:12+0000\n"
-"PO-Revision-Date: 2021-11-07 23:12+0000\n"
+"PO-Revision-Date: 2021-11-08 16:56+0000\n"
 "Last-Translator: Dario Croci <spaeleus@gmail.com>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -5700,7 +5700,6 @@ msgstr ""
 "salvato un salto temporale per la serie."
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:87
-#, fuzzy
 msgid ""
 "Displays the channelname in a label directly under the PiP - instead of "
 "indicator label."
@@ -11361,7 +11360,7 @@ msgstr "Percorso log: %s"
 #: enigma2-plugins/cec/src/CecDeviceList.py:95
 #, python-format
 msgid "Logical address: %s\n"
-msgstr ""
+msgstr "Indirizzo logico: %s\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "Long Blue button function"
@@ -11528,6 +11527,8 @@ msgid ""
 "Match Timespan: %(begin_hour)02d:%(begin_minutes)02d - %(end_hour)02d:"
 "%(end_minutes)02d"
 msgstr ""
+"Concordanza arco di tempo: %(begin_hour)02d:%(begin_minutes)02d - "
+"%(end_hour)02d:%(end_minutes)02d"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:95
 msgid ""
@@ -11610,7 +11611,7 @@ msgstr "Max voci Elenco Timer"
 
 #: enigma2-plugins/tvcharts/src/plugin.py:415
 msgid "Max Toplist Entries"
-msgstr ""
+msgstr "Numero max voci Toplist"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:98
 msgid "Max number of retained search logs"
@@ -11753,7 +11754,7 @@ msgstr "Plugin Merlin Music Player e iDream"
 
 #: enigma2-plugins/easymedia/src/plugin.py:560
 msgid "Merlin iDream2 is not installed!"
-msgstr ""
+msgstr "Merlin iDream2 non installato."
 
 #: enigma2-plugins/easyinfo/src/plugin.py:603
 msgid "MerlinEPG is not installed!"
@@ -11761,7 +11762,7 @@ msgstr "MerlinEPG non è installato !"
 
 #: enigma2-plugins/easymedia/src/plugin.py:49
 msgid "MerlinMusicPlayer2"
-msgstr ""
+msgstr "MerlinMusicPlayer2"
 
 #: enigma2-plugins/merlinskinthemes/src/plugin.py:39
 msgid "MerlinSkinThemes"
@@ -11769,15 +11770,15 @@ msgstr "Temi MerlinSkin"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:48
 msgid "MerlinSkinThemes - Help"
-msgstr ""
+msgstr "MerlinSkinThemes - Help"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2186
 msgid "MerlinSkinThemes - Settings"
-msgstr ""
+msgstr "MerlinSkinThemes - Impostazioni"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:959
 msgid "MerlinSkinThemes screen found"
-msgstr ""
+msgstr "Rilevata schermata MerlinSkinThemes"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:81
 msgid "Message"
@@ -11934,6 +11935,9 @@ msgid ""
 "Skin: %s by %s - Version: %s\n"
 "Support: %s"
 msgstr ""
+"Mod:\n"
+"Skin: %s by %s - Versione: %s\n"
+"Supporto: %s"
 
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:70
 msgid "Mode:"
@@ -12032,7 +12036,7 @@ msgstr "Più di un semplice EPG..."
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:772
 msgid "More..."
-msgstr ""
+msgstr "Altro..."
 
 #: enigma2-plugins/mosaic/src/plugin.py:365
 msgid "Mosaic"
@@ -12040,7 +12044,7 @@ msgstr "Mosaic"
 
 #: enigma2-plugins/imdb/src/plugin.py:688
 msgid "Motion Picture Rating (MPAA):"
-msgstr ""
+msgstr "Motion Picture Rating (MPAA):"
 
 #: enigma2-plugin-networkbrowser/src/plugin.py:33
 #: enigma2-plugin-networkbrowser/src/plugin.py:42
@@ -12413,7 +12417,7 @@ msgstr "Titolo Film:"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1240
 #, python-format
 msgid "Moving %s to %s"
-msgstr ""
+msgstr "Spostamento di %s in %s"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:150
 #, python-format
@@ -12460,12 +12464,12 @@ msgstr "Tasto mute"
 #: enigma2-plugins/fritzcall/src/plugin.py:2149
 #: enigma2-plugin-fritzcall/src/plugin.py:2162
 msgid "Mute on incoming call"
-msgstr ""
+msgstr "Silenziare su chiamata in ingresso"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2150
 #: enigma2-plugin-fritzcall/src/plugin.py:2163
 msgid "Mute on outgoing calls"
-msgstr ""
+msgstr "Silenziare su chiamata in uscita"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Volume.py:26
 msgid "Mute toggled"
@@ -12628,7 +12632,7 @@ msgstr "Nome:"
 #: enigma2-plugins/cec/src/CecDeviceList.py:92
 #, python-format
 msgid "Name: %s\n"
-msgstr ""
+msgstr "Nome: %s\n"
 
 #: enigma2-plugins/namezap/src/NamezapSetup.py:30
 #: enigma2-plugins/namezap/src/NamezapSetup.py:71
@@ -12739,7 +12743,7 @@ msgstr "Nuovo nome file:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:997
 msgid "New line:"
-msgstr ""
+msgstr "Nuova riga:"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:121
 msgid "New location:"
