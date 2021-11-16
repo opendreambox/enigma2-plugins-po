@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-15 23:12+0000\n"
-"PO-Revision-Date: 2021-11-16 09:43+0000\n"
+"PO-Revision-Date: 2021-11-16 23:12+0000\n"
 "Last-Translator: Dario Croci <spaeleus@gmail.com>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "\n"
 "Un errore di input/output generalmente indica un filesystem corrotto. "
-"Verificare il filesystem in uso per Timeshift."
+"Verificare il filesystem del supporto in uso per Timeshift."
 
 #: enigma2-plugins/autotimer/src/ShowLogScreen.py:59
 #: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:60
@@ -46,7 +46,7 @@ msgid ""
 "Intro duration will be saved with season."
 msgstr ""
 "\n"
-"La durata introduzione verrà savata con la stagione."
+"La durata dell'introduzione verrà salvata con la stagione."
 
 #: enigma2-plugins/audiorestart/src/plugin.py:109
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:229
@@ -67,41 +67,42 @@ msgstr "   Numero di timer in attesa"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:137
 msgid "   Show Energy shedule timers"
-msgstr "   Mostrare i timer energetici programmati"
+msgstr "   Mostrare i timer di programmazione dell'energia"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Records.py:68
 msgid "   Show events of record(s)"
-msgstr "   Mostrare eventi registrazioni"
+msgstr "   Mostrare gli eventi per le registrazioni"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/StreamOpenWebIf.py:79
 msgid "   Show events of transcoded stream(s) (OpenWebIf)"
-msgstr "   Visualizzare eventi per flusso transcodificato (OpenWebIf)"
+msgstr "   Mostrare gli eventi per stream transcodificato (OpenWebIf)"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/StreamServer.py:81
 msgid "   Show events of transcoded stream(s) (StreamServer)"
-msgstr "   Visualizzare eventi per flusso transcodificato (StreamServer)"
+msgstr "   Mostrare gli eventi per stream transcodificato (StreamServer)"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/StreamWebIf.py:80
 msgid "   Show events of transcoded stream(s) (WebIf)"
-msgstr "   Visualizzare eventi per flusso transcodificato (WebIf)"
+msgstr "   Mostrare gli eventi per stream transcodificato (WebIf)"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Unknown.py:55
 msgid "   Show events of undefined service(s)"
-msgstr "   Visualizzare eventi per canali sconosciuti"
+msgstr "   Mostrare gli eventi di canali non definiti"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Records.py:70
+#, fuzzy
 msgid "   Show finished records only for x hour(s)"
 msgstr "   Mostrare le registrazioni terminate solo per x ore"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:136
 msgid "   Show pending records only within x hour(s)"
-msgstr "   Mostrare le registrazioni in attesa previste entro x ore"
+msgstr "   Mostrare solo le registrazioni in attesa previste entro x ore"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1953
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1955
 msgid "   select default answer for zap-warning-question"
 msgstr ""
-"   Selezionare la risposta predefinita per gli avvisi riguardanti lo zap"
+"   selezionare la risposta predefinita per gli avvisi inerenti lo zapping"
 
 #: e2openplugin-PushService/src/plugin.py:39
 #: e2openplugin-InfoBarTunerState/src/plugin.py:44
@@ -115,20 +116,20 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:44
 msgid "  Feel free to donate. \n"
-msgstr "  Fai una donazione. \n"
+msgstr "  Eventuali donazioni saranno gradite. \n"
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:42
 msgid ""
 "  How much time have You saved?\n"
 "\n"
 msgstr ""
-"  Quanto tempo è stato risparmiato?\n"
+"  Quanto tempo si è risparmiato?\n"
 "\n"
 
 #: e2openplugin-PushService/src/plugin.py:40
 #: e2openplugin-InfoBarTunerState/src/plugin.py:45
 msgid "  If You like this plugin and want to support it,\n"
-msgstr "  Se questo plugin piace e si desiderasse supportarlo,\n"
+msgstr "  Se questo plugin piace e si desidera supportarlo,\n"
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:83
 msgid "  Open/Close PiP with Exit-Key"
@@ -144,7 +145,7 @@ msgstr "  SUPPORTO: "
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:87
 msgid "  Show label with channelname under PiP"
-msgstr "  Mostrare etichetta canale sotto la PiP"
+msgstr "  Mostrare etichetta nome canale sotto la PiP"
 
 #: e2openplugin-PushService/src/plugin.py:44
 #: e2openplugin-SeriesPlugin/src/plugin.py:43
@@ -153,7 +154,7 @@ msgstr "  Supporto: "
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:40
 msgid "  Terms: "
-msgstr "  Termini: "
+msgstr "  Condizioni: "
 
 #: e2openplugin-PushService/src/plugin.py:43
 #: e2openplugin-InfoBarTunerState/src/plugin.py:48
@@ -170,7 +171,7 @@ msgid ""
 "  feel free to donate via PayPal. \n"
 "\n"
 msgstr ""
-"  è possibile contribuire con PayPal.\n"
+"  è possibile donare tramite PayPal. \n"
 "\n"
 
 #: e2openplugin-PushService/src/plugin.py:41
@@ -186,7 +187,7 @@ msgstr "  {lookups:d} ricerche eseguite correttamente.\n"
 #: enigma2-plugins/skipintro/src/plugin.py:128
 #, python-format
 msgid " (-%s seconds)."
-msgstr " (-%s seconds)."
+msgstr " (-%s secondi)."
 
 #: enigma2-plugins/twitchtv/src/plugin.py:413
 msgid " (Live VOD)"
@@ -198,10 +199,10 @@ msgstr " (filtro di ricerca)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:713
 msgid " (without counting cover range)"
-msgstr " (senza contare il range delle cover)"
+msgstr " (senza contare la selezione della cover)"
 
 msgid " - "
-msgstr "-"
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -3020,7 +3021,7 @@ msgstr "Cavo"
 #: enigma2-plugins/fritzcall/src/plugin.py:1356
 #: enigma2-plugin-fritzcall/src/plugin.py:1367
 msgid "Call"
-msgstr "Chiam."
+msgstr "Chiamare"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:617
 #: enigma2-plugin-fritzcall/src/plugin.py:627
@@ -3159,10 +3160,10 @@ msgid ""
 " - subtitle server availability,\n"
 " - storage device access."
 msgstr ""
-"Nessun sottotitolo trovato sulla periferica.\n"
-" Controlla :\n"
-"-connessione di rete,\n"
-"- disponibilità del server dei sottitoli,\n"
+"Nessun sottotitolo trovato sul dispositivo di archiviazione.\n"
+" Controllare :\n"
+"- connessione di rete,\n"
+"- disponibilità del server sottitoli,\n"
 "- accesso alle periferiche."
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:468
@@ -3621,7 +3622,7 @@ msgstr ""
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:688
 msgid "Check"
-msgstr "Verif."
+msgstr "Verificare"
 
 #: enigma2-plugins/elektro/src/plugin.py:464
 msgid "Check IPs (press OK to edit)"
@@ -5112,7 +5113,7 @@ msgstr "Ordinamento predefinito"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1157
 msgid "Default storage device is not available!"
-msgstr "Dispositivo di memorizzazione predefinito non disponibile."
+msgstr "dispositivo di archiviazione predefinito non disponibile."
 
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:78
 msgid "Default volume adjustment value for AC3/DTS"
@@ -10193,7 +10194,7 @@ msgid "IMDb query language"
 msgstr "IMDb ricerca per lingua"
 
 msgid "IMDb search..."
-msgstr "Ricerca IMDb"
+msgstr "Ricerca IMDb..."
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:157
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:307
@@ -11124,7 +11125,7 @@ msgstr "Elenco plugin letto"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:475
 #: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:205
 msgid "List of Storage Devices"
-msgstr "Elenco supporti memorizzazione"
+msgstr "Elenco dispositivi di archiviazione"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:70
 msgid "List of Timers has been cleaned"
@@ -11458,7 +11459,7 @@ msgid "Main bouquet for channel editor"
 msgstr "Bouquet principale per editor"
 
 msgid "Make it more skin friendly"
-msgstr ""
+msgstr "Semplificare l'utilizzo di skin"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:193
 msgid "Manage Cover"
@@ -12940,7 +12941,7 @@ msgstr "Nessun dato disponibile"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1151
 msgid "No default storage device found!"
-msgstr "Nessun dispositivo di memorizzazione predefinito trovato."
+msgstr "Nessun dispositivo di archiviazione predefinito trovato."
 
 #: enigma2-plugins/imdb/src/plugin.py:536
 msgid "No details found."
@@ -13083,7 +13084,7 @@ msgid "No result from LDIF"
 msgstr "Ricerca in LDIF: nessun risultato!"
 
 msgid "No result from Outlook export"
-msgstr "Ricerca in Outlook  export: nessun risultato!"
+msgstr "Ricerca in Outlook export: nessun risultato!"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1418
 #: enigma2-plugin-fritzcall/src/plugin.py:1429
@@ -13340,7 +13341,7 @@ msgstr "Numero di voci completate nell'elenco"
 
 #: locale/plugin/Handler/Timers.py:125
 msgid "Number of pending timer(s)"
-msgstr ""
+msgstr "Numero di timer in attesa"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:576
 msgid "Number of scheduled recordings left."
@@ -14518,16 +14519,16 @@ msgid ""
 "Please make sure to set up your default storage device in menu -> setup -> "
 "system -> recording paths."
 msgstr ""
-"Impostare le periferiche di memoria predefinite in: Menu >> Impostazioni >> "
-"Sistema >> Percorso registrazioni."
+"Impostare i dispositivi di archiviazione predefinitei in: Menu >> "
+"Impostazioni >> Sistema >> Percorso registrazioni."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1148
 msgid ""
 "Please make sure to set up your storage devices with the storage management "
 "in menu -> setup -> system -> storage devices."
 msgstr ""
-"Impostare la periferica di memoria in: Menu >> Impostazioni >> Sistema >> "
-"Periferiche di memoria."
+"Impostare il dispositivo di archiviazione in: Menu >> Impostazioni >> "
+"Sistema >> Dispositivi di archiviazione."
 
 #: e2openplugin-SeriesPlugin/src/Identifiers/SerienServer.py:76
 msgid "Please open the Channel Editor and add the channel manually."
@@ -14671,8 +14672,8 @@ msgid ""
 "Please verify if your default storage device is attached or set up your "
 "default storage device in menu -> setup -> system -> recording paths."
 msgstr ""
-"Verificare che la periferica di memoria sia collegata o impostarla in: Menu "
-">> Impostazioni >> Sistema >> Percorso registrazioni."
+"Verificare che il dispositivo di archiviazione sia collegato o impostarlo in:"
+" Menu >> Impostazioni >> Sistema >> Percorso registrazioni."
 
 #: enigma2-plugins/mytube/src/plugin.py:433
 #, python-format
@@ -16932,7 +16933,7 @@ msgid "Searching in LDIF..."
 msgstr "Ricerca in LDIF..."
 
 msgid "Searching in Outlook export..."
-msgstr "Ricerca in Outlook  export..."
+msgstr "Ricerca in Outlook export..."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:236
 msgid "Searching your network. Please wait..."
@@ -18184,7 +18185,7 @@ msgstr "Mostrare su eventi"
 
 #: IBTSConfiguration.py:89 locale/plugin/IBTSConfiguration.py:89
 msgid "Show on key press"
-msgstr ""
+msgstr "Mostrare su pressione tasto"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2144
 #: enigma2-plugin-fritzcall/src/plugin.py:2157
@@ -18193,7 +18194,7 @@ msgstr "Mostrare solo le chiamate per MSN specifico"
 
 #: locale/plugin/Handler/Timers.py:126
 msgid "Show pending records only within x hour(s)"
-msgstr ""
+msgstr "Mostrare solo le registrazioni previste entro le prossime x ore"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:132
 msgid "Show pending timer(s)"
@@ -18270,7 +18271,7 @@ msgstr "Mostrare l'opzione \"Affiancato\" nel menu estensioni"
 
 #: locale/plugin/Handler/StreamWebIf.py:69
 msgid "Show stream(s) (WebIf)"
-msgstr ""
+msgstr "Mostrare stream (Webif)"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:108
 msgid "Show switch message"
@@ -18467,7 +18468,7 @@ msgstr "Lettore Simple RSS"
 #: enigma2-plugins/simplerss/src/RSSSetup.py:37
 #: enigma2-plugins/simplerss/src/RSSSetup.py:88
 msgid "Simple RSS Reader Setup"
-msgstr "Configurazione Simple RSS Reader"
+msgstr "Impostazioni Simple RSS Reader"
 
 #: enigma2-plugins/simplerss/src/RSSScreens.py:143
 #: enigma2-plugins/simplerss/src/RSSScreens.py:305
@@ -18870,7 +18871,7 @@ msgstr "Commutare ordinamento Priorità/Titolo"
 
 #: enigma2-plugins/autotimer/src/AutoTimerPreview.py:111
 msgid "Sort Time"
-msgstr "Ord. per ora"
+msgstr "Ord. per orario"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:702
 #: enigma2-plugins/dreamexplorer/src/plugin.py:705
@@ -21336,7 +21337,7 @@ msgstr "Scompattare l'archivio"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1147
 msgid "Unconfigured storage devices found!"
-msgstr "Rilevati dispostitivi di memorizzazione non configurati."
+msgstr "Rilevati dispositivi di archiviazione non configurati."
 
 #: enigma2-plugins/mytube/src/plugin.py:105
 msgid "United States"
@@ -22392,7 +22393,7 @@ msgstr "Settimana"
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:49
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:429
 msgid "Weekday"
-msgstr "Giorno della settimana"
+msgstr "Giorno feriale"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:48
 msgid "Weekend"
@@ -24083,7 +24084,7 @@ msgid "exact match"
 msgstr "Corrispondenza esatta"
 
 msgid "exception "
-msgstr "eccezione"
+msgstr "eccezione "
 
 #: enigma2-plugins/eparted/src/eparted.py:486
 #: enigma2-plugins/eparted/src/eparted.py:519
@@ -24175,8 +24176,8 @@ msgid ""
 msgstr ""
 "aggiunte a elenco filtri terminate con %s eventi:\n"
 "\n"
-" %s eventi aggiunti \n"
-" %s eventi ignorati"
+"eventi aggiunti: %s \n"
+"eventi ignorati: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:500
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1417
