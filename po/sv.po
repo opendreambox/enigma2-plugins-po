@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: AudioSync\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-03 23:12+0000\n"
-"PO-Revision-Date: 2021-04-21 05:14+0000\n"
+"PO-Revision-Date: 2021-11-17 23:12+0000\n"
 "Last-Translator: thomas sjøgren <thomas.sjogren67@gmail.com>\n"
 "Language-Team: Swedish <https://dreambox.de/translate/projects/dreambox/"
 "plugins/sv/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.8\n"
 "X-Poedit-Basepath: D:\\Dreambox\\Eclipse\\ac3lipsync\\po\n"
 "X-Poedit-SearchPath-0: ..\\src\n"
 "X-POOTLE-MTIME: 1560944684.000000\n"
@@ -132,24 +132,24 @@ msgstr "  Öppna / stäng PiP med Exit-Knappen"
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:45
 msgid "  PayPal: "
-msgstr ""
+msgstr "  PayPal: "
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:49
 msgid "  SUPPORT: "
-msgstr ""
+msgstr "  SUPPORT: "
 
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:87
 msgid "  Show label with channelname under PiP"
-msgstr ""
+msgstr "  Vis etikett med kanalnummer under PIP"
 
 #: e2openplugin-PushService/src/plugin.py:44
 #: e2openplugin-SeriesPlugin/src/plugin.py:43
 msgid "  Support: "
-msgstr ""
+msgstr "  Support: "
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:40
 msgid "  Terms: "
-msgstr ""
+msgstr "  Villkår: "
 
 #: e2openplugin-PushService/src/plugin.py:43
 #: e2openplugin-InfoBarTunerState/src/plugin.py:48
@@ -157,6 +157,8 @@ msgid ""
 "  Thanks a lot ! \n"
 "  PayPal: "
 msgstr ""
+"  Tack så mycket \n"
+"  PayPal: "
 
 #: e2openplugin-PushService/src/plugin.py:42
 #: e2openplugin-InfoBarTunerState/src/plugin.py:47
@@ -164,43 +166,49 @@ msgid ""
 "  feel free to donate via PayPal. \n"
 "\n"
 msgstr ""
+"  donera gärna via PayPal. \n"
+"\n"
 
 #: e2openplugin-PushService/src/plugin.py:41
 #: e2openplugin-InfoBarTunerState/src/plugin.py:46
 msgid "  or if just want to say ''thanks'',\n"
-msgstr ""
+msgstr "  eller om du bara vill säga \"tack\",\n"
 
 #: e2openplugin-SeriesPlugin/src/plugin.py:41
 #, python-brace-format
 msgid "  {lookups:d} successful lookups.\n"
-msgstr ""
+msgstr "  {lookups:d} lyckad sökning.\n"
 
 #: enigma2-plugins/skipintro/src/plugin.py:128
 #, python-format
 msgid " (-%s seconds)."
-msgstr ""
+msgstr " (-%s sekunder)."
 
 #: enigma2-plugins/twitchtv/src/plugin.py:413
 msgid " (Live VOD)"
-msgstr ""
+msgstr " (Live VOD)"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:580
 msgid " (search filter)"
-msgstr ""
+msgstr " (sökfilter)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:713
 msgid " (without counting cover range)"
-msgstr ""
+msgstr " (utan att räkna täckningsområde)"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
 msgstr ""
+" ==Varning: det globala alternativet 'spara/kontrollera filterlistan är "
+"fortfarande aktiv!! =="
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2476
 msgid ""
 " Deleting remotely recorded and it will display an rec-error dialog on the "
 "other DB."
 msgstr ""
+" Tar bort fjärrinspelade och det kommer att visa en Inspelnings "
+"felsdialogruta på din andra DB."
 
 #: enigma2-plugins/subsdownloader2/src/SourceCode/xbmc_subtitles/services/Itasa/service.py:133
 #: enigma2-plugins/subsdownloader2/src/SourceCode/xbmc_subtitles/services/Itasa/service.py:203
@@ -208,6 +216,8 @@ msgid ""
 " Login to Itasa failed. Check your username/password at the configuration "
 "menu."
 msgstr ""
+" Inloggningen till Itasa misslyckades. Kontrollera ditt användarnamn/"
+"lösenord i konfigurationsmenyn."
 
 #: enigma2-plugins/mytube/src/MyTubeSearch.py:226
 msgid " Results"
@@ -215,37 +225,39 @@ msgstr " Resultat"
 
 #: enigma2-plugins/easymedia/src/plugin.py:282
 msgid " added to EasyMedia"
-msgstr ""
+msgstr " lagt till i EasyMedia"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2522
 msgid " all selected video files?"
-msgstr ""
+msgstr " alla valda video filer?"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2531
 msgid ""
 " all selected video files? The currently playing movie is also one of the "
 "selections and its playback will be stopped."
 msgstr ""
+" alla valda videofiler? Den film som spelas för närvarande är också ett av "
+"alternativen och uppspelningen av den stoppas."
 
 #: enigma2-plugins/imdb/src/plugin.py:610
 msgid " as "
-msgstr ""
+msgstr " som "
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2501
 msgid " currently played?"
-msgstr ""
+msgstr " spelas just nu?"
 
 #: e2openplugin-EnhancedMovieCenter/src/RogueFileCheck.py:42
 msgid " files\n"
-msgstr ""
+msgstr " filer\n"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2482
 msgid " permanently"
-msgstr ""
+msgstr " permanent"
 
 #: enigma2-plugins/easymedia/src/plugin.py:288
 msgid " removed from EasyMedia"
-msgstr ""
+msgstr " ta bort från EasyMedia"
 
 #: enigma2-plugins/autotimer/src/AutoPoller.py:47
 #, python-format
