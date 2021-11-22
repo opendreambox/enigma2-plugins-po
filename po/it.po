@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-21 23:12+0000\n"
+"POT-Creation-Date: 2021-11-22 23:12+0000\n"
 "PO-Revision-Date: 2021-11-22 23:12+0000\n"
 "Last-Translator: Dario Croci <spaeleus@gmail.com>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
@@ -6427,6 +6427,7 @@ msgstr "EMC: riaprire elenco su pressione STOP"
 msgid "EMC-TMDB Info"
 msgstr "Info EMC-TMDB"
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:116
 msgid ""
 "EMC: Skipping Trashcan Cleanup\n"
 "Movie Home Path is equal to or a subfolder of the Trashcan"
@@ -7870,7 +7871,7 @@ msgid "Extra Info"
 msgstr "Info Extra"
 
 msgid "Extra support for language"
-msgstr "Supporto extra per la lingua"
+msgstr "Supporto extra per la lingua selezionata"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:442
 msgid "Extract archive"
@@ -8343,6 +8344,8 @@ msgstr "File"
 msgid "Files added to current Playlist."
 msgstr "File aggiunti alla Playlist corrente."
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2189
+#, python-format
 msgid ""
 "Files added to current Playlist:\n"
 "%(add)s\n"
@@ -9123,37 +9126,34 @@ msgstr "HDMI CEC: dispositivi"
 msgid "HELP_About"
 msgstr "Aprire la finestra di dialogo Informazioni"
 
-#, fuzzy
 msgid "HELP_Advanced Skin options separator"
 msgstr "Impostazioni avanzate Skin"
 
-#, fuzzy
 msgid "HELP_Advanced audio metadata options separator"
 msgstr "Opzioni audio metadata avanzate"
 
-#, fuzzy
 msgid "HELP_Advanced options separator"
 msgstr "Impostazioni Avanzate"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
 msgstr ""
-"Dopo aver eseguito un'operazione sui file (copiare, spostare, rimuovere ecc.)"
-" rieseguire la ricerca solo delle directory interessate dall'operazione"
+"Dopo aver eseguito un'operazione sui file (copiare, spostare, rimuovere "
+"ecc.) rieseguire la ricerca solo delle directory interessate dall'operazione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:443
 msgid "HELP_Age of finished movies in movie folder (days)"
 msgstr ""
-"Tempo di permanenza delle registrazioni con lo stato \"riproduzione "
-"terminata\" nella home video prima di essere spostate nel cestino (in giorni)"
+"Tempo di permanenza delle registrazioni con lo stato \"riproduzione terminata"
+"\" nella home video prima di essere spostate nel cestino (in giorni)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:421
 msgid "HELP_Always save last played progress as marker"
 msgstr ""
 "Definire l'impostazione di un contrassegno nella posizione di arresto ogni "
 "volta che si ferma la riproduzione. Riavviando la riproduzione, i tasti < > "
-"potranno essere utilizzati per saltare direttamente al contrassegno ("
-"indipendentemente dalla funzione di ripresa utilizzata)"
+"potranno essere utilizzati per saltare direttamente al contrassegno "
+"(indipendentemente dalla funzione di ripresa utilizzata)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:457
 msgid "HELP_Automatic timers list cleaning"
@@ -9209,7 +9209,8 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "HELP_Date format"
-msgstr "Definire il formato della data che verrà visualizzate nell'elenco video"
+msgstr ""
+"Definire il formato della data che verrà visualizzate nell'elenco video"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:559
 msgid "HELP_Debug output file name"
@@ -9269,7 +9270,7 @@ msgstr ""
 "Non eseguire la scansione automatica dimensioni directory da emc-noscan.cfg"
 
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr "Scaricare il pacchetto Mutagen per i metadata audio"
+msgstr "Scarica il pacchetto Mutagen per i metadata audio"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
