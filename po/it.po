@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-27 23:39+0000\n"
-"PO-Revision-Date: 2021-11-28 11:45+0000\n"
+"PO-Revision-Date: 2021-11-28 23:12+0000\n"
 "Last-Translator: Dario Croci <spaeleus@gmail.com>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -9351,12 +9351,14 @@ msgstr "Abilitare il supporto aggiuntivo per la lingua selezionata"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:506
 msgid "HELP_Fallback Cover"
-msgstr "Mostrare Cover di reserva"
+msgstr ""
+"Determinare la visualizzazione di una cover di default in caso di mancanza "
+"di cover specifica. 'NO' non visualizzerà nulla"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "HELP_Finished watching percent"
 msgstr ""
-"Definisce la percentuale di progresso nella riproduzione alla quale i video "
+"Definire la percentuale di progresso nella riproduzione alla quale i video "
 "verranno classificati come 'visti'. Il colore della barra di avanzamento "
 "cambierà in verde"
 
@@ -9369,13 +9371,13 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:454
 msgid "HELP_Hide movies being deleted"
 msgstr ""
-"Definisce se le registrazioni in fase di rimozione debbano essere nascoste "
+"Definire se le registrazioni in fase di rimozione debbano essere nascoste "
 "nell'elenco video. L'eliminazione avverrà comunque in background"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:453
 msgid "HELP_Hide movies being moved"
 msgstr ""
-"Definisce se le registrazioni in fase di spostamento debbano essere nascoste "
+"Definire se le registrazioni in fase di spostamento debbano essere nascoste "
 "nell'elenco video. Lo spostamento avverrà comunque in background"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:484
@@ -9392,407 +9394,438 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:441
 msgid "HELP_How many days files may remain in trashcan"
 msgstr ""
-"Definisce la permanenza nel cestino dei file cancellati (in giorni) prima di "
+"Definire la permanenza nel cestino dei file cancellati (in giorni) prima di "
 "EMC li elimini definitivamente. Se impostato a '0' i file verranno eliminati "
 "immediatamente"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:377
 msgid "HELP_Icon shown for initially unknown count / size"
 msgstr ""
-"Indicare se visualizzare l'icona per conteggio / dimensione inizialmente "
-"sconosciuto"
+"Definire se visualizzare un'icona nel caso in cui inizialmente il numero di "
+"file e/o lo spazio\n"
+"di archiviazione occupato sono sconosciuti."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "HELP_Install Mutagen-package for audio metadata"
-msgstr "Installa il pacchetto Mutagen per i metadati audio"
+msgstr "Installare il pacchetto Mutagen per i metadati audio"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:419
 msgid "HELP_Jump to first mark when playing movie"
 msgstr ""
-"Salta automaticamente al primo contrassegno disponibile dall'inizio della "
+"Saltare automaticamente al primo contrassegno disponibile dall'inizio della "
 "registrazione. Può aiutare a raggiungere direttamente il punto iniziale del "
 "video"
 
+#, fuzzy
 msgid "HELP_Key assignment Separator"
 msgstr "Assegnazione tasti"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:473
 msgid "HELP_Key period value (50-900)"
 msgstr ""
-"Ritardo in ms ripetizione azione quando il tasto rimane premuto (50-900)"
+"Definire il ritardo dell'inizio ripetizione quando si mantiene premuto un "
+"tasto, in ms (50-900)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:474
 msgid "HELP_Key repeat value (250-900)"
-msgstr "Velocità di ripetizione azione quando un tasto rimane premuto"
+msgstr ""
+"Definire la velocità di ripetizione quando si mantiene premuto un tasto, in "
+"ms (250-900)"
 
 msgid "HELP_Language Separator"
-msgstr "Impostazioni lingue"
+msgstr "Definire il separatore lingue"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "HELP_Latest Recordings directory limit"
-msgstr "Limite directory Ultime Registrazioni"
+msgstr ""
+"Definire un limite di tempo per le registrazioni tale da\n"
+"visualizzarle nella directory come 'Registrazioni recenti'"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:382
 msgid "HELP_Latest Recordings directory use emc-noscan.cfg"
-msgstr "Usa emc-noscan.cfg per la directory Ultime Registrazioni"
+msgstr ""
+"Definire l'utilizzo di emc-noscan.cfg per la directory 'Registrazioni "
+"recenti'"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:451
 msgid "HELP_Leave Movie with Exit"
-msgstr "La riproduzione può essere interrotta con i tasti EXIT o STOP"
+msgstr ""
+"Definire se la riproduzione può essere interrotta con i tasti EXIT o STOP"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:389
 msgid "HELP_Limit file operations in dirs from emc-noscan.cfg"
-msgstr "Limita le operazioni su file nelle directory in emc-noscan.cfg"
+msgstr ""
+"Definire se il limite per le operazioni sui file debba essere\n"
+"determinato da '/etc/enigma2/emc-noscan.cfg'"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:343
 msgid "HELP_List entries to skip"
-msgstr "Elenco elementi da saltare"
+msgstr "Definire l'elenco di voci da saltare"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:480
 msgid "HELP_Listbox is skin able"
 msgstr ""
-"Definisce se debbano essere usate le impostazioni della skin in uso (se "
-"disponibili) per la visualizzazione dell'elenco video (solo <widget name="
-"\"list\"). Se non presenti saranno applicate le impostazioni EMC"
+"Definire se debbano essere usate le impostazioni della skin in uso (se "
+"disponibili) per la visualizzazione dell'elenco video\n"
+"(solo <widget name=\"list\"). Se non presenti saranno applicate le "
+"impostazioni EMC"
 
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr "Carica tutto per i titoli mancanti dal file .meta"
+msgstr ""
+"Definire se, in assenza di titolo, questo possa essere desunto dai file .meta"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
-msgstr "Selezionare una funzione da assegnare al tasto Blu prolungato"
+msgstr "Definire una funzione da assegnare al tasto Blu (pressione prolungata)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:345
 msgid "HELP_Long Red button function"
-msgstr "Selezionare una funzione da assegnare al tasto Rosso prolungato"
+msgstr ""
+"Definire una funzione da assegnare al tasto Rosso (pressione prolungata)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:348
 msgid "HELP_Long Yellow button function"
-msgstr "Selezionare una funzione da assegnare al tasto Giallo prolungato"
+msgstr ""
+"Definire una funzione da assegnare al tasto Giallo (pressione prolungata)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:351
 msgid "HELP_LongInfo Button"
-msgstr "Funzione per tasto Info prolungato"
+msgstr "Definire una funzione da assegnare al tasto Info (pressione prolungata)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:502
 msgid "HELP_Mark new recordings with a star"
-msgstr "Marca le nuove registrazioni con una stella"
+msgstr "Definire se marcare le nuove registrazioni con una stella"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:386
 msgid "HELP_Minimum file cache limit"
-msgstr "Limite minimo file cache (0=cache tutto)"
+msgstr "Definire il limite minimo cache file (0=tutto)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:442
 msgid "HELP_Move finished movies in trashcan"
 msgstr ""
-"Sposta tutte le registrazioni finite (viste) dalla \"home\" dei film nel "
-"cestino, quando raggiungono il limite di scadenza impostato nella voce "
-"successiva"
+"Definire se spostare tutte le registrazioni riprodotte dalla \"home\" dei "
+"film nel cestino, quando raggiungono il limite di scadenza impostato nella "
+"voce successiva"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:360
 msgid "HELP_Movie home at start"
 msgstr ""
-"Definisce l'avvio di EMC sempre dalla directory \"home\" delle "
-"registrazioni, che potrà essere personalizzata nelle voci successive di "
-"configurazione"
+"Definire l'avvio di EMC sempre dalla directory \"home\" delle registrazioni, "
+"che potrà essere personalizzata nelle voci successive di configurazione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:363
 msgid "HELP_Movie home home path"
-msgstr "Imposta il percorso della directory \"home\" delle registrazioni"
+msgstr "Definire il percorso della directory \"home\" delle registrazioni"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:520
 msgid "HELP_Movie preview delay in ms"
-msgstr "Ritardo dell'anteprima dei film in ms"
+msgstr "Definire il ritardo dell'anteprima dei film in ms"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:521
 msgid "HELP_Movie preview offset in seconds"
-msgstr "Offset dell'anteprima dei film in secondi"
+msgstr ""
+"Definire l'offset dell'anteprima dei film in secondi.\n"
+"La riproduzione dell'anteprima inizierà x secondi prima dell'ultima "
+"posizione di riproduzione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:418
 msgid "HELP_No resume below 10 seconds"
 msgstr ""
-"Definisce se ignorare un contrassegno di avvio quando il tempo di "
-"riproduzione è inferiore a 10 secondi. Se la riproduzione viene interrotta "
-"durante i primi 10 secondi, nessuna punto di ripresa verrà proposto alla "
-"prossimo avvio del video"
+"Definire se ignorare un contrassegno di avvio quando il tempo di "
+"riproduzione è inferiore a 10 secondi.\n"
+"Se la riproduzione viene interrotta durante i primi 10 secondi, nessuna "
+"punto di ripresa verrà proposto alla prossimo avvio del video"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:491
 msgid "HELP_Own Path to movie picons"
-msgstr ""
-"Permette di definire se i picon video utilizzino un percorso personalizzato"
+msgstr "Definire se i picon video utilizzino un percorso personalizzato"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:492
 msgid "HELP_Path to movie picons"
-msgstr "Definisce il percorso per i picon video"
+msgstr "Definire il percorso per i picon video"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:490
 msgid "HELP_Position movie picons"
-msgstr "Posizione picons dei film"
+msgstr ""
+"Definire la posizione in cui i picon del film debbano essere visualizzati"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:460
 msgid "HELP_Preferred EPG language"
-msgstr "Specificare la lingua preferita per l'EPG"
+msgstr "Definire la lingua preferita per l'EPG"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:467
 msgid "HELP_Primary playback audio language"
 msgstr ""
-"La prima traccia audio che dovrà essere selezionata prioritariamente se "
+"Definire la traccia audio che dovrà essere selezionata di default, se "
 "disponibile"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:462
 msgid "HELP_Primary playback subtitle language"
 msgstr ""
-"La lingua per i sottotitoli che dovrà essere selezionata prioritariamente, "
+"Definire la lingua dei sottotitoli che dovrà essere selezionata di default, "
 "se disponibile"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:344
 msgid "HELP_Red button function"
-msgstr "Selezionare una funzione da assegnare al tasto Rosso"
+msgstr "Definire una funzione da assegnare al tasto Rosso"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:407
 msgid "HELP_Replace special chars in title"
-msgstr "Sostituisci underscores e punti nel titolo con spazi"
+msgstr "Definire se sostituire underscore e punti nel titolo con spazi"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:410
 msgid "HELP_Resolve links and show real path"
 msgstr ""
-"Definisce se risolvere il percorso dei collegamenti. In caso di problemi con "
+"Definire se risolvere il percorso dei collegamenti. In caso di problemi con "
 "lo spinner o la riattivazione di un NAS, disabilitare questa opzione: il "
 "percorso verrà mostrato in 'Descrizione Estesa'"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:420
 msgid "HELP_Rewind finished movies before playing"
 msgstr ""
-"Se una registrazione con lo stato di \"visto\" viene riavviata, il film "
-"verrà riprodotto dall'inizio"
+"Definire se riavviando una registrazione con lo stato di \"visto\" il film "
+"debba essere riprodotto dall'inizio"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:396
 msgid "HELP_Scan for DVD structures"
 msgstr ""
-"Disattivare l'analisi delle strutture DVD in tutte le directory per evitare "
-"risvegli inaspettati di dischi di rete"
+"Definire se disattivare l'analisi delle strutture DVD in tutte le directory "
+"per evitare risvegli inaspettati di dischi di rete"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:398
 msgid "HELP_Scan for bluray structures"
-msgstr "Scansiona le strutture bluray"
+msgstr "Definire se scansionare le strutture bluray"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:399
 msgid "HELP_Scan for bluray structures in .iso"
-msgstr "Scansiona le strutture bluray in .iso"
+msgstr "Definire se scansionare le strutture bluray in .iso"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:397
 msgid "HELP_Scan for movie structures"
-msgstr "Scansiona le strutture del film"
+msgstr "Definire se scansionare le strutture dei film"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:468
 msgid "HELP_Secondary playback audio language"
 msgstr ""
-"Indica la traccia audio che dovrà essere selezionata, se disponibile, come "
+"Definire la traccia audio che dovrà essere selezionata, se disponibile, come "
 "seconda opzione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:463
 msgid "HELP_Secondary playback subtitle language"
 msgstr ""
-"La lingua per i sottotitoli che dovrà essere selezionata, se disponibile, "
-"come seconda opzione"
+"Definire la lingua dei sottotitoli che dovrà essere selezionata, se "
+"disponibile, come seconda opzione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:495
 msgid "HELP_Short watching percent"
 msgstr ""
-"Specificare a che percentuale di progresso il film verrà classificato come "
-"\"in visione\": la barra di avanzamento si colorerà di blu"
+"Definire a che percentuale di progresso il film verrà classificato come \"in "
+"visione\": la barra di avanzamento si colorerà di blu"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:384
 msgid "HELP_Show Bookmarks in movielist"
-msgstr "Mostrare i segnalibri in elenco video"
+msgstr "Definire se mostrare i segnalibri in elenco video"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "HELP_Show Cover"
-msgstr "Mostrare Cover"
+msgstr "Definire se mostrare le Cover"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:409
 msgid "HELP_Show Cut-Nr if exist"
 msgstr ""
-"Nel caso in cui enigma2 venga riavviato con una registrazione in corso, la "
-"registrazione riprenderà automaticamente al riavvio inserendo un numero "
-"progressivo in coda al nome del file. Il numero inserito verrà aggiunto al "
-"titolo"
+"Definire se, nel caso in cui enigma2 venga riavviato con una registrazione "
+"in corso, la registrazione dovrà riprendere automaticamente al riavvio "
+"inserendo un numero progressivo in coda al nome del file. Il numero inserito "
+"verrà aggiunto al titolo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:339
 msgid "HELP_Show EMC in extensions menu"
 msgstr ""
-"Definisce se Mostrare/Nascondere EMC nel menu estensioni, normalmente "
+"Definire se Mostrare/Nascondere EMC nel menu estensioni, normalmente "
 "accessibile tramite il tasto BLU"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:338
 msgid "HELP_Show EMC in main menu"
-msgstr "Mostrare/Nascondere EMC nel Menu Principale"
+msgstr "Definire se Mostrare/Nascondere EMC nel Menu Principale"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "HELP_Show Latest Recordings directory"
-msgstr "Mostrare l'ultima directory registrazioni"
+msgstr "Definire se mostrare l'ultima directory registrazioni"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:408
 msgid "HELP_Show Movie Format"
-msgstr "L'estensione del file (formato file) sarà aggiunto al titolo"
+msgstr ""
+"Definire se l'estensione del file (formato file) sarà aggiunto al titolo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:411
 msgid "HELP_Show Path if no extended description available"
-msgstr "Mostrare il percorso se non è disponibile una descrizione estesa"
+msgstr ""
+"Definire se mostrare il percorso quando non è disponibile una descrizione "
+"estesa"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:383
 msgid "HELP_Show VLC directory"
 msgstr ""
-"Mostrare/Nascondere la directory VLC, se il Plugin VlcPlayerExtended è "
-"installato"
+"Definire se Mostrare/Nascondere la directory VLC, se il Plugin "
+"VlcPlayerExtended è installato"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "HELP_Show audio metadata"
-msgstr "Mostrare i metadati audio"
+msgstr "Definire se mostrare i metadati audio"
 
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr "Mostra i metadati audio (la skin richiede modifiche)"
+msgstr "Definire se mostrare i metadati audio (richieste modifiche alla skin)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
-msgstr "Mostrare/Nascondere le directory"
+msgstr "Definire se mostrare/Nascondere le directory"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:373
 msgid "HELP_Show directories information"
-msgstr "Mostrare il numero delle registrazioni e/o lo spazio su disco occupato"
+msgstr ""
+"Definire se visualizzare il numero delle registrazioni presenti, lo spazio "
+"occupato su disco o entrambi"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:371
 msgid "HELP_Show directories within movielist"
 msgstr ""
-"Se abilitato, le directory non vengono visualizzate all'inizio dell'elenco "
-"video ma ordinate al suo interno"
+"Definire se visualizzre le directory a inizio elenco o ordinate al suo "
+"interno"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:378
 msgid "HELP_Show directory size in skin"
-msgstr "Mostrare la dimensione delle directory nella skin"
+msgstr "Definire se mostrare la dimensione delle directory nella skin"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:387
 msgid "HELP_Show experimental options"
-msgstr "Mostrare le opzioni sperimentali"
+msgstr "Definire se mostrare le opzioni sperimentali"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:487
 msgid "HELP_Show link arrow"
-msgstr "Mostrare la freccia sui link simbolici"
+msgstr "Definire se mostrare la freccia sui link simbolici"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:417
 msgid "HELP_Show message if file added to playlist"
-msgstr "Mostrare un messaggio quando un file viene aggiunto alla playlist"
+msgstr ""
+"Definire se mostrare un messaggio quando un file viene aggiunto alla playlist"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:486
 msgid "HELP_Show movie icons"
-msgstr "Nell'elenco filmati verrà visualizzata un'icona corrispondente"
+msgstr ""
+"Definire se nell'elenco video ogni registrazione debba essere preceduta da "
+"un'icona appropriata"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "HELP_Show movie picons"
-msgstr "Mostrare picon video"
+msgstr "Definire se mostrare i picon video"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:519
 msgid "HELP_Show movie preview"
-msgstr "Mostrare anteprima registrazione"
+msgstr ""
+"Definire se riprodurre automaticamente le registrazioni dopo un tempo di "
+"permanenza del cursore sulla voce"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:494
 msgid "HELP_Show movie progress"
 msgstr ""
-"Una barra di avanzamento davanti ai film viene visualizzata nell'elenco dei "
-"filmati"
+"Definire se visualizzare una barra di avanzamento davanti alle voci in "
+"elenco filmati"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:337
 msgid "HELP_Show plugin config in extensions menu"
 msgstr ""
-"Definisce se Mostrare/Nascondere le impostazioni EMC nel menu estensioni, "
+"Definire se Mostrare/Nascondere le impostazioni EMC nel menu estensioni, "
 "normalmente accessibile tramite il tasto BLU"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:423
 msgid "HELP_Show real length of running records"
-msgstr "Mostra la lunghezza reale delle registrazioni in riproduzione"
+msgstr ""
+"Definire se mostrare la durata reale delle registrazioni in fase di "
+"riproduzione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:369
 msgid "HELP_Show symlinks"
-msgstr "Mostra o nasconde i link simbolici"
+msgstr "Definire se Mostrare/Nascondere i link simbolici"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:435
 msgid "HELP_Show trashcan directory"
 msgstr ""
-"Definisce se Mostrare/Nascondere la directory del cestino in EMC. Se "
+"Definire se Mostrare/Nascondere la directory del cestino in EMC. Se "
 "nascosto, sarà comunque possibile accedere al cestino attraverso il Menu EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:361
 msgid "HELP_Sort mode at startup"
-msgstr "Tipo ordinamento all'avvio"
+msgstr "Definire il tipo di ordinamento all'avvio"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:336
 msgid "HELP_Start EMC with"
-msgstr "Impostare il tasto diretto per aprire EMC"
+msgstr "Definire se impostare un tasto diretto per aprire EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:478
 msgid "HELP_Style for original EMC-skin (needs reopen)"
-msgstr ""
-"Stile per la skin EMC originale*** ATTENZIONE: serve un riavvio della GUI"
+msgstr "Definire lo stile per la skin EMC. Necessario un riavvio di EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:469
 msgid "HELP_Tertiary playback audio language"
 msgstr ""
-"Indica la traccia audio che dovrà essere selezionata, se disponibile, come "
+"Definire la traccia audio che dovrà essere selezionata, se disponibile, come "
 "terza opzione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:464
 msgid "HELP_Tertiary playback subtitle language"
 msgstr ""
-"La lingua per i sottotitoli che dovrà essere selezionata, se disponibile, "
-"come terza opzione"
+"Definire la lingua dei sottotitoli che dovrà essere selezionata, se "
+"disponibile, come terza opzione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:375
 msgid "HELP_Text shown for initially unknown count and size"
 msgstr ""
-"Indicare il testo visualizzato per conteggio e dimensione inizialmente "
-"sconosciuti"
+"Definire il testo visualizzato quando il numero di file e la quantità di "
+"spazio utilizzato sono inizialmente sconosciuti"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:376
 msgid "HELP_Text shown for initially unknown directory size"
 msgstr ""
-"Indicare il testo visualizzato per le directory le cui dimensioni "
+"Definire il testo visualizzato per le directory le cui dimensioni "
 "risulterebbero inizialmente sconosciute"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:374
 msgid "HELP_Text shown for initially unknown file count"
 msgstr ""
-"Indicare il testo visualizzato per conteggio file inizialmente sconosciuto"
+"Definire il testo visualizzato quando il numero di file risulta inizialmente "
+"sconosciuto"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:433
 msgid "HELP_Trashcan enable"
 msgstr ""
-"Abilita le funzionalità Cestino. Alla eliminazione, tutti i files vengono "
-"prima spostati nella directory del cestino"
+"Definire se Abilitare/Disabilitare il cestino.\n"
+"Se il cestino è disattivato, le rimozioni vengono effettuate direttamente\n"
+"dopo la richiesta di conferma e non sarà possibile recuperare i dati rimossi"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:434
 msgid "HELP_Trashcan path"
 msgstr ""
-"Definisce il percorso del cestino. Selezionando \"Eliminare\" dal menu, le "
+"Definire il percorso del cestino. Selezionando \"Rimuovere\" dal menu, le "
 "registrazioni verranno spostate nel cestino (se attivo) invece di essere "
 "eliminate immediatamente"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:405
 msgid "HELP_Try to load extra title and more from .meta files"
-msgstr "Prova a ottenere informazioni aggiuntive dai file .meta"
+msgstr "Definire se tentare di ottenere informazioni aggiuntive dai file .meta"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:406
 msgid "HELP_Try to load titles from .eit files"
 msgstr ""
-"I Titoli saranno caricati dai file .eit se disponibili. In caso contrario il "
-"titolo sarà ricavato dal nome del file. Se attivi sia .meta che .eit, il "
-"file .meta avrà la precedenza"
+"Definire se i titoli dovranno essere caricati dai file .eit, se disponibili. "
+"In caso contrario il titolo sarà ricavato dal nome del file.\n"
+"Se risulteranno attivi sia .meta che .eit, il file .meta avrà la precedenza"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:404
 msgid "HELP_Try to load titles from .meta files"
 msgstr ""
-"I Titoli saranno caricati dai file .meta se disponibili. In caso contrario "
-"il titolo sarà ricavato dal nome del file. Se attivi sia .meta che .eit, il "
-"file .meta avrà la precedenza"
+"Definire se i titoli dovranno essere caricati dai file .meta, se "
+"disponibili. In caso contrario il titolo sarà ricavato dal nome del file.\n"
+"Se risulteranno attivi sia .meta che .eit, il file .meta avrà la precedenza"
 
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
 msgstr "Aggiorna/scarica Mutagen v1.28 (sperimentale)"
