@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-30 23:12+0000\n"
-"PO-Revision-Date: 2021-11-28 23:12+0000\n"
+"PO-Revision-Date: 2021-12-01 23:12+0000\n"
 "Last-Translator: Dario Croci <spaeleus@gmail.com>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -9126,14 +9126,16 @@ msgstr "HDMI CEC: dispositivi"
 msgid "HELP_About"
 msgstr "Aprire la finestra di dialogo Informazioni"
 
+#, fuzzy
 msgid "HELP_Advanced Skin options separator"
 msgstr "Impostazioni avanzate Skin"
 
+#, fuzzy
 msgid "HELP_Advanced audio metadata options separator"
 msgstr "Opzioni audio metadata avanzate"
 
 msgid "HELP_Advanced options separator"
-msgstr "Impostazioni Avanzate"
+msgstr "Separatore opzioni avanzate"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
@@ -9150,16 +9152,14 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:421
 msgid "HELP_Always save last played progress as marker"
 msgstr ""
-"Definire l'impostazione di un contrassegno nella posizione di arresto ogni "
-"volta che si ferma la riproduzione. Riavviando la riproduzione, i tasti < > "
-"potranno essere utilizzati per saltare direttamente al contrassegno "
-"(indipendentemente dalla funzione di ripresa utilizzata)"
+"Impostare un contrassegno nella posizione di arresto ogni volta che si ferma "
+"una riproduzione. Riavviando la riproduzione, i tasti < > potranno essere "
+"utilizzati per saltare direttamente al contrassegno (indipendentemente dalla "
+"funzione di ripresa utilizzata)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:457
 msgid "HELP_Automatic timers list cleaning"
-msgstr ""
-"Definire se i timer conclusi debbano essere rimossi automaticamente "
-"dall'elenco timer"
+msgstr "Rimuovere automaticamente i timer conclusi dall'elenco timer"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "HELP_Blue button function"
@@ -9186,9 +9186,9 @@ msgstr "Impostare lo sfondo delle cover"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 msgid "HELP_Cover delay in ms"
 msgstr ""
-"Se mostrare cover è abilitato, è possibile impostare un ritardo per il loro "
-"caricamento, per evitare che le cover vengano caricate durante lo zapping "
-"attraverso l'elenco video"
+"Se la visualizzazione delle cover è abilitata è opportuno impostare un "
+"ritardo per il loro caricamento, per evitare che le cover vengano caricate "
+"durante lo zapping attraverso l'elenco video"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "HELP_Cursor predictive move after selection"
@@ -9204,8 +9204,8 @@ msgstr "Impostare l'avvio giornaliero automatico"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:440
 msgid "HELP_Daily cleanup time"
 msgstr ""
-"Definire l'ora in cui EMC elimina tutti i file presenti nel cestino se è "
-"stato superato il loro limite di scadenza"
+"Definire l'ora in cui EMC eliminerà tutti i file presenti nel cestino "
+"qualora sia stato superato il loro limite di scadenza"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:482
 msgid "HELP_Date format"
@@ -9827,45 +9827,49 @@ msgstr ""
 "Se risulteranno attivi sia .meta che .eit, il file .meta avrà la precedenza"
 
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
-msgstr "Aggiorna/scarica Mutagen v1.28 (sperimentale)"
+msgstr "Definire se Aggiornare/Scaricare Mutagen v1.28 (sperimentale)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
-msgstr "Usa la cache per files e directory"
+msgstr "Definire se usare la cache per files e directory"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:477
 msgid "HELP_Use original EMC-skin (needs reopen)"
 msgstr ""
-"Usa la skin integrata di EMC e non quella della skin dell'immagine corrente"
+"Definire se usare la skin integrata di EMC e non quella dell'immagine "
+"corrente (necessario riavvio di EMC)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:391
+#, fuzzy
 msgid "HELP_Wake device when entering dir from emc-noscan.cfg"
-msgstr "Sveglia il dispositivo quando entra in una dir in emc-noscan.cfg"
+msgstr ""
+"Definire se veglia il dispositivo quando entra in una dir in emc-noscan.cfg"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "HELP_Yellow button function"
-msgstr "Selezionare una funzione da assegnare al tasto Giallo"
+msgstr "Definire una funzione da assegnare al tasto Giallo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:422
+#, fuzzy
 msgid "HELP_Zap to channel after record EOF"
 msgstr ""
 "Se il player raggiunge la fine di una registrazione, a causa "
-"dell'avanzamento veloce o salto avanti, chiude EMC e si sposta direttamente "
-"sul canale live della registrazione"
+"dell'avanzamento veloce o salto avanti, EMC verrà chiuso e si sposta "
+"direttamente sul canale live della registrazione"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:355
 msgid "HELP_auto-start window begin"
-msgstr "Orario minimo di partenza dell'operazione di auto-start"
+msgstr "Inizio della finestra temporale per il riavvio automatico di Enigma2"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:356
 msgid "HELP_auto-start window end"
-msgstr "Orario massimo in cui eseguire l'operazione di auto-start"
+msgstr "Fine della finestra temporale per il riavvio automatico di Enigma2"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:395
 msgid "HELP_cfghide_enable"
 msgstr ""
-"Definisce se nascondere file e directory indicate in '/etc/enigma2/emc-hide."
-"cfg'. La modifica di questa impostazione richiede il riavvio di enigma2"
+"Definire se nascondere file e directory indicate in '/etc/enigma2/emc-"
+"hide.cfg'. La modifica di questa impostazione richiede il riavvio di enigma2"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:400
 msgid "HELP_cfgscan_suppress"
@@ -9877,7 +9881,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:522
 msgid "HELP_hide_MiniTV"
-msgstr "Nascondi MiniTV"
+msgstr "Nascondere la MiniTV"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:523
 msgid "HELP_hide_MiniTV cover"
