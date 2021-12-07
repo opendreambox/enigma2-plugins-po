@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-06 23:13+0000\n"
-"PO-Revision-Date: 2021-12-07 13:48+0000\n"
+"PO-Revision-Date: 2021-12-07 18:09+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -1790,9 +1790,9 @@ msgid ""
 "This affects the following system calls: creat, link, unlink, symlink, "
 "mkdir, rmdir, mknod and rename."
 msgstr ""
-"Všechny aktualizace složek uvnitř soub.systému by měly být asynchronní ! Má "
-"to vliv na následující volání : založení, linky, unlinky, symlinky, mkdir, "
-"mknod a přejmenování."
+"Všechny aktualizace složek uvnitř soub.systému by měly být synchronní ! Má "
+"to vliv na volání : creat, link, unlink, symlink, mkdir, rmdir, mknod a "
+"rename."
 
 #: enigma2-plugins/autotimer/src/__init__.py:15
 msgid "All non-repeating timers"
@@ -2363,7 +2363,7 @@ msgstr "aut.redukovat vypočítaný čas (v sek.)"
 #: enigma2-plugins/merlinepg/src/plugin.py:922
 #: enigma2-plugins/autotimer/src/plugin.py:39
 msgid "AutoTimer"
-msgstr "AutoTimer"
+msgstr "aut.časovače"
 
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:406
 #, python-format
@@ -4181,7 +4181,7 @@ msgstr "ovladače"
 
 #: enigma2-plugins/namezap/src/NamezapSetup.py:36
 msgid "Controls the visual appearance of the number zap dialog."
-msgstr "nastavení NameZap dialogu - zobrazení čísla kanálu"
+msgstr "Obsah panelu při přepnutí kanálu tl.s číslem_"
 
 #: enigma2-plugins/growlee/src/plugin.py:57
 msgid "Converted connection"
@@ -4647,7 +4647,7 @@ msgstr "založit složku %s"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:372
 #, python-format
 msgid "Creation of file %s"
-msgstr "založit sloubor %s"
+msgstr "založit soubor %s"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1249
 #, python-format
@@ -4656,11 +4656,11 @@ msgstr "založit odkaz %s ve %s do %s"
 
 #: enigma2-plugins/imdb/src/plugin.py:556
 msgid "Creator:"
-msgstr "zakladatel :"
+msgstr "autor :"
 
 #: enigma2-plugins/imdb/src/plugin.py:556
 msgid "Creators:"
-msgstr "zakladatelé :"
+msgstr "autoři :"
 
 #: enigma2-plugins/screensaver/src/ScreensaverSetup.py:36
 msgid "Cross fade duration (seconds)"
@@ -5243,7 +5243,7 @@ msgstr "odstranit chybový protokol"
 
 #: enigma2-plugins/automaticcleanup/src/plugin.py:134
 msgid "Delete crashlogs"
-msgstr "odstranit chybové protokoly"
+msgstr "Chybový protokol byl odstraněný !"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:225
 msgid "Delete current Playlist"
@@ -6075,11 +6075,11 @@ msgstr "- stahování"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:210
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:231
 msgid "Download Movie Info"
-msgstr "stáhnout info k videu"
+msgstr "info k videu"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:150
 msgid "Download Movie Information"
-msgstr "stáhnout info k videu"
+msgstr "info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
@@ -9121,7 +9121,7 @@ msgstr "Rozšířené možnosti oddělovačů metadat audia_"
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
 msgid "HELP_Advanced options separator"
-msgstr "Nápověda - rozšířené možnosti"
+msgstr "Rozšířené možnosti oddělovačů_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
@@ -9301,7 +9301,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:469
 msgid "HELP_Extra support for selected language"
-msgstr "Extra podpora pro vybraný jazyk"
+msgstr "Rozšířená jazyková podpora_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:506
 msgid "HELP_Fallback Cover"
@@ -9355,7 +9355,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:326
 msgid "HELP_Key assignment Separator"
-msgstr "Nápověda - přiřazení oddělovače"
+msgstr "Přiřazení oddělovače_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:473
 msgid "HELP_Key period value (50-900)"
@@ -9367,7 +9367,7 @@ msgstr "Rychlost opakování při přidržení tlačítka (250-900)_"
 
 #: EnhancedMovieCenter.py:467
 msgid "HELP_Language Separator"
-msgstr "Nápověda - výběr oddělovače"
+msgstr "Výběr oddělovače jazyka_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "HELP_Latest Recordings directory limit"
@@ -9600,11 +9600,11 @@ msgstr "Zobrazení ikon v seznamu podle stavu videa_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:489
 msgid "HELP_Show movie picons"
-msgstr "Zobrazit ikony videa_"
+msgstr "Zobrazit ikony filmu_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:519
 msgid "HELP_Show movie preview"
-msgstr "Zobrazení náhledu videa_"
+msgstr "Zobrazení náhledu filmu_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:494
 msgid "HELP_Show movie progress"
@@ -9746,11 +9746,11 @@ msgstr "Kontrola struktury odkazů, např. DVD_"
 
 #: EnhancedMovieCenter.py:440
 msgid "HELP_separator_Trashcan settings"
-msgstr "Nápověda - nastavení pro automatické vyprázdňování koše"
+msgstr "Nastavení vyprázdnění koše_"
 
 #: EnhancedMovieCenter.py:380
 msgid "HELP_separator_hide&performance"
-msgstr "Nápověda - nastavení pro skrývání souborů a složek "
+msgstr "Skrývání souborů a složek_"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:88
 msgid "HH:MM"
@@ -10014,7 +10014,7 @@ msgstr "IMAP server"
 
 #: enigma2-plugins/emailclient/meta/plugin_emailclient.xml./enigma2-plugins/emailclient/meta/plugin_emailclient.xml
 msgid "IMAP4 e-mail viewer for the Dreambox"
-msgstr "-- prohlížeč e-mailů IMAP4 na Dreambox"
+msgstr "-- prohlížeč e-mailů IMAP4 na Dreamboxu"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:104
 msgid "IMDB"
@@ -10296,10 +10296,7 @@ msgid ""
 "If you want to login to your Dreambox using SSH, FTP or a remote web "
 "browser, you need to configure a password first.\n"
 "The username will be '%s'."
-msgstr ""
-"Pro přihlášení do boxu pomocí SSH, FTP nebo přes web, musíte nastavit "
-"heslo !\n"
-"Uživ.jméno bude '%s'_"
+msgstr "Heslo do boxu (SSH,FTP,web) pro uživatele: '%s'_"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:166
 msgid ""
@@ -11006,7 +11003,7 @@ msgstr "Seznam modulů byl načtený"
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:341
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:596
 msgid "List of Storage Devices"
-msgstr "úložná zařízení"
+msgstr "<<nahoru>>"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:70
 msgid "List of Timers has been cleaned"
