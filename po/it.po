@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-08 23:13+0000\n"
-"PO-Revision-Date: 2021-12-08 19:41+0000\n"
+"PO-Revision-Date: 2021-12-09 15:54+0000\n"
 "Last-Translator: Dario Croci <spaeleus@gmail.com>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -90,9 +90,8 @@ msgid "   Show events of undefined service(s)"
 msgstr "   Mostrare gli eventi di canali non definiti"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Records.py:70
-#, fuzzy
 msgid "   Show finished records only for x hour(s)"
-msgstr "   Mostrare le registrazioni terminate solo per x ore"
+msgstr "   Mostrare le registrazioni terminate solo per le prossime x ore"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:136
 msgid "   Show pending records only within x hour(s)"
@@ -202,7 +201,7 @@ msgid " (without counting cover range)"
 msgstr " (senza contare la selezione della cover)"
 
 msgid " - "
-msgstr "-"
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -295,7 +294,7 @@ msgid "%(sname)s - %(tname)s: %(name)s at %(begin)s"
 msgstr "%(sname)s - %(tname)s: %(name)s in %(begin)s"
 
 #: enigma2-plugins/autotimer/src/AutoPoller.py:57
-#, fuzzy, python-format
+#, python-format
 msgid "%(tname)s: %(name)s at %(begin)s"
 msgstr "%(tname)s: %(name)s a %(begin)s"
 
@@ -1303,7 +1302,6 @@ msgstr ""
 "Inattivo"
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:35
-#, fuzzy
 msgid "ActiveTimerPushed"
 msgstr "ActiveTimerPushed"
 
@@ -2165,11 +2163,11 @@ msgstr "Elenco Artisti"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:64
 msgid "Ask default No"
-msgstr ""
+msgstr "Chiedere. Default no"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:63
 msgid "Ask default Yes"
-msgstr ""
+msgstr "Chiedere. Default sì"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:12
 #: enigma2-plugins/epgsearch/src/__init__.py:29
@@ -3648,7 +3646,6 @@ msgid "Check for dead links"
 msgstr "Controllare i link inattivi"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:664
-#, fuzzy
 msgid "Check for uniqueness in"
 msgstr "Verificare corrispondenze univoche in"
 
@@ -6320,9 +6317,8 @@ msgid "Duration: "
 msgstr "Durata: "
 
 #: enigma2-plugins/zapstatistic/src/plugin.py:438
-#, fuzzy
 msgid "Durations"
-msgstr "Durate"
+msgstr "Durata"
 
 #: enigma2-plugins/dyndns/src/plugin.py:142
 msgid "DynDNS"
@@ -8839,7 +8835,6 @@ msgid "Generate a random password"
 msgstr "Generare una password casuale"
 
 #: enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml./enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml
-#, fuzzy
 msgid "Generates and Shows TV Charts of all users having this plugin installed"
 msgstr ""
 "Plugin per generare e mostrare classifiche TV tra tutti gli utenti che lo "
@@ -10242,7 +10237,7 @@ msgid "IMDb query failed!"
 msgstr "Ricerca IMDb fallita!"
 
 msgid "IMDb search..."
-msgstr "Ricerca IMDb"
+msgstr "Ricerca IMDb..."
 
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:157
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:307
@@ -11507,7 +11502,7 @@ msgid "Main bouquet for channel editor"
 msgstr "Bouquet principale per editor"
 
 msgid "Make it more skin friendly"
-msgstr ""
+msgstr "Favorire l'utilizzo delle skin"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:193
 msgid "Manage Cover"
@@ -12096,7 +12091,7 @@ msgstr "Mosaic"
 
 #: enigma2-plugins/imdb/src/plugin.py:689
 msgid "Motion Picture Rating (MPAA):"
-msgstr "Motion Picture Rating (MPAA):"
+msgstr "Valutazione del film (MPAA):"
 
 #: enigma2-plugin-networkbrowser/src/plugin.py:33
 #: enigma2-plugin-networkbrowser/src/plugin.py:42
@@ -12141,7 +12136,7 @@ msgstr "Gestione mount point"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:146
 msgid "Mounts"
-msgstr "Mounts"
+msgstr "Mount"
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:67
 msgid "Mounts editor"
@@ -13089,7 +13084,7 @@ msgstr "Nessuna registrazione da mostrare..."
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3219
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3256
 msgid "No music files found!"
-msgstr "Nessun file musicale."
+msgstr "Nessun file musicale trovato."
 
 #: e2openplugin-PushService/src/Controller/IPKGUpdateNotification.py:85
 msgid "No network connection available."
@@ -13129,10 +13124,10 @@ msgid "No previous file in this directory"
 msgstr "Nessun file precedente nella directory"
 
 msgid "No result from LDIF"
-msgstr "Ricerca in LDIF: nessun risultato!"
+msgstr "Nessun risultato in LDIF"
 
 msgid "No result from Outlook export"
-msgstr "Ricerca in Outlook  export: nessun risultato!"
+msgstr "Nessun risultato in Outlook export"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1418
 #: enigma2-plugin-fritzcall/src/plugin.py:1429
@@ -13285,7 +13280,7 @@ msgid "Not now"
 msgstr "Non ora"
 
 msgid "Not stopping any repeating timers. Modify them with the timer editor."
-msgstr "Non arrestare i timer ripetuti. Modificarli attraverso l'editor timer"
+msgstr "Non arrestare i timer ripetuti. Modificarli attraverso l'editor timer."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:54
 msgid "Note: For one-time events the days don't have to be specified."
@@ -13389,7 +13384,7 @@ msgstr "Numero di voci completate nell'elenco"
 
 #: locale/plugin/Handler/Timers.py:125
 msgid "Number of pending timer(s)"
-msgstr ""
+msgstr "Numero di timer in attesa"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:576
 msgid "Number of scheduled recordings left."
@@ -13905,7 +13900,7 @@ msgstr "Sovrascrivere il tasto rosso HBBTV"
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:137
 msgid "Overwrite Infobar timeout"
-msgstr "Sovrascrivere timeout barra inf."
+msgstr "Sovrascrivere timeout infobar"
 
 #: enigma2-plugins/seekbar/src/plugin.py:76
 msgid "Overwrite left and right buttons:"
@@ -15018,7 +15013,7 @@ msgstr "OK >> Modificare le impostazioni."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:463
 msgid "Press OK to expand this host"
-msgstr "OK >> Espandere l'host."
+msgstr "OK >> Espandere l'host"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:465
 msgid "Press OK to mount this share!"
@@ -16982,7 +16977,7 @@ msgid "Searching in LDIF..."
 msgstr "Ricerca in LDIF..."
 
 msgid "Searching in Outlook export..."
-msgstr "Ricerca in Outlook  export..."
+msgstr "Ricerca in Outlook export..."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:236
 msgid "Searching your network. Please wait..."
@@ -18234,7 +18229,7 @@ msgstr "Mostrare su eventi"
 
 #: IBTSConfiguration.py:89 locale/plugin/IBTSConfiguration.py:89
 msgid "Show on key press"
-msgstr ""
+msgstr "Mostrare su pressione tasto"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2144
 #: enigma2-plugin-fritzcall/src/plugin.py:2157
@@ -18243,7 +18238,7 @@ msgstr "Mostrare solo le chiamate per MSN specifico"
 
 #: locale/plugin/Handler/Timers.py:126
 msgid "Show pending records only within x hour(s)"
-msgstr ""
+msgstr "Mostrare solo le registrazioni in attesa entro x ore"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:132
 msgid "Show pending timer(s)"
@@ -18320,7 +18315,7 @@ msgstr "Mostrare l'opzione \"Affiancato\" nel menu estensioni"
 
 #: locale/plugin/Handler/StreamWebIf.py:69
 msgid "Show stream(s) (WebIf)"
-msgstr ""
+msgstr "Mostrare stream (Webif)"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:108
 msgid "Show switch message"
@@ -20868,7 +20863,7 @@ msgstr "Timeshift salvato su harddisk."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1197
 msgid "Timeshift will get saved at end of event!"
-msgstr "Il timeshift sarà salvato al ternine dell'evento."
+msgstr "Il timeshift sarà salvato al termine dell'evento."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1946
 msgid "Timeshift-Save Action on zap"
@@ -24133,7 +24128,7 @@ msgid "exact match"
 msgstr "Corrispondenza esatta"
 
 msgid "exception "
-msgstr "eccezione"
+msgstr "eccezione "
 
 #: enigma2-plugins/eparted/src/eparted.py:486
 #: enigma2-plugins/eparted/src/eparted.py:519
@@ -25600,7 +25595,7 @@ msgid "search EPG"
 msgstr "Ricerca EPG"
 
 msgid "search EPG from history..."
-msgstr "Ricerca EPG dalla Cronologia"
+msgstr "Ricerca EPG dalla Cronologia..."
 
 #. TRANSLATORS: EPGSearch title in EventInfo dialog (requires the user to select an event to search for)
 #: enigma2-plugins/epgsearch/src/plugin.py:64
