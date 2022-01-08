@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-07 23:13+0000\n"
+"POT-Creation-Date: 2022-01-08 23:12+0000\n"
 "PO-Revision-Date: 2021-12-15 19:39+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
@@ -648,6 +648,11 @@ msgstr "( # / GB )"
 msgid "( GB )"
 msgstr "( GB )"
 
+#: enigma2-plugins/elektro/src/plugin.py:856
+#: enigma2-plugins/elektro/src/plugin.py:921
+msgid "(Press Exit to cancel)"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:135
 msgid "(Un-)Lock Directory"
 msgstr "zamknout / odemknout složku"
@@ -683,6 +688,10 @@ msgstr "(nastavit bod)"
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:195
 msgid "(show optional DVD audio menu)"
 msgstr "(zobrazit volitelné audio menu DVD)"
+
+#: enigma2-plugins/elektro/src/plugin.py:448
+msgid "(tcp/udp)"
+msgstr ""
 
 #: enigma2-plugins/webcamviewer/src/plugin.py:512
 msgid "*"
@@ -993,7 +1002,7 @@ msgstr "?? kb/s"
 msgid "??:??"
 msgstr "??:??"
 
-#: enigma2-plugins/elektro/src/plugin.py:467
+#: enigma2-plugins/elektro/src/plugin.py:454
 msgid "A NAS/Server can be shut down. Is required activated Telnet."
 msgstr "NAS/server může být mimo provoz. Je třeba aktivní Telnet."
 
@@ -1276,7 +1285,7 @@ msgstr "Aktivovat toto nastavení po manuálním přerušení aut.obnovy"
 msgid "Active"
 msgstr "aktivní-"
 
-#: enigma2-plugins/elektro/src/plugin.py:445
+#: enigma2-plugins/elektro/src/plugin.py:430
 msgid "Active Time Profile"
 msgstr "aktivace časového profilu"
 
@@ -2539,7 +2548,7 @@ msgstr ""
 msgid "Automatically select Audio- and Subtitle tracks"
 msgstr "-- vybrat zvukovou stopu a titulky"
 
-#: enigma2-plugins/elektro/src/plugin.py:104
+#: enigma2-plugins/elektro/src/plugin.py:79
 msgid "Automatically shut down to deep standby"
 msgstr "Elektro Power - aut.vypínání boxu"
 
@@ -2601,17 +2610,17 @@ msgstr "aut.zápis časovače"
 msgid "Available plugins menu"
 msgstr "seznam dostupných modulů"
 
-#: enigma2-plugins/elektro/src/plugin.py:460
+#: enigma2-plugins/elektro/src/plugin.py:447
 msgid "Avoid deep standby on network activity, e.g. for Streaming"
 msgstr "Zabránit vypnutí, pokud je aktivní síť, např. při sdílení."
 
-#: enigma2-plugins/elektro/src/plugin.py:462
+#: enigma2-plugins/elektro/src/plugin.py:449
 msgid "Avoid deep standby on nfs-read activity, e.g. for Streaming"
 msgstr ""
 "Vyhněte se hlubokému spánku - vypnutí při aktivním čtení NFS, např. při "
 "sdílení !"
 
-#: enigma2-plugins/elektro/src/plugin.py:458
+#: enigma2-plugins/elektro/src/plugin.py:445
 msgid "Avoid deep standby when HDD is active, e.g. for FTP"
 msgstr "Pozastavit vypnutí, pokud je HDD aktivní, např. pro FTP"
 
@@ -2815,7 +2824,7 @@ msgstr "BorderSetTheme : definuje grafiku používanou pro okna a seznamy."
 msgid "Both"
 msgstr "oba EMC+E2"
 
-#: enigma2-plugins/elektro/src/plugin.py:450
+#: enigma2-plugins/elektro/src/plugin.py:435
 msgid ""
 "Both profiles are used alternately. When shutting down the other profile is "
 "enabled. This allows two time cycles per day. Do not overlap the times."
@@ -3249,10 +3258,10 @@ msgstr "Kanada"
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:227
 #: enigma2-plugins/tageditor/src/plugin.py:60
 #: enigma2-plugins/movieepg/src/MovieEpgSetup.py:56
-#: enigma2-plugins/elektro/src/plugin.py:268
-#: enigma2-plugins/elektro/src/plugin.py:313
-#: enigma2-plugins/elektro/src/plugin.py:391
-#: enigma2-plugins/elektro/src/plugin.py:494
+#: enigma2-plugins/elektro/src/plugin.py:255
+#: enigma2-plugins/elektro/src/plugin.py:299
+#: enigma2-plugins/elektro/src/plugin.py:377
+#: enigma2-plugins/elektro/src/plugin.py:481
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:61
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:257
 #: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
@@ -3609,7 +3618,7 @@ msgstr ""
 msgid "Check"
 msgstr "zkontrolovat"
 
-#: enigma2-plugins/elektro/src/plugin.py:464
+#: enigma2-plugins/elektro/src/plugin.py:451
 msgid "Check IPs (press OK to edit)"
 msgstr "test IP (OK -> upravit)"
 
@@ -3624,6 +3633,12 @@ msgstr "kontrola běžícího procesu"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:392
 msgid "Check for dead links"
 msgstr "prověřit mrtvé odkazy"
+
+#: enigma2-plugins/elektro/src/plugin.py:442
+msgid ""
+"Check for sleep directly on going to idle mode and show a message if want to "
+"go to sleep."
+msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:664
 msgid "Check for uniqueness in"
@@ -3917,7 +3932,7 @@ msgstr "komedie"
 msgid "Command '%s' executed"
 msgstr "příkaz '%s' byl provedený"
 
-#: enigma2-plugins/elektro/src/plugin.py:385
+#: enigma2-plugins/elektro/src/plugin.py:371
 msgid "Command [poweroff, shutdown -h,...]"
 msgstr "Příkaz [poweroff, shutdown -h,...]"
 
@@ -4095,7 +4110,7 @@ msgstr ""
 msgid "Connecting to NCID Server..."
 msgstr "Připojeno na NCID server..."
 
-#: enigma2-plugins/elektro/src/plugin.py:146
+#: enigma2-plugins/elektro/src/plugin.py:119
 msgid "Connection Error"
 msgstr "chyba připojení"
 
@@ -5351,7 +5366,7 @@ msgstr "odstraněno : %s %s"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:411
 #: enigma2-plugins/showclock/src/plugin.py:123
 #: enigma2-plugins/movieretitle/src/plugin.py:62
-#: enigma2-plugins/elektro/src/plugin.py:476
+#: enigma2-plugins/elektro/src/plugin.py:463
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:593
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:151
@@ -5766,7 +5781,7 @@ msgstr ""
 msgid "Do not use the relatime feature."
 msgstr "nepoužívat vlastnosti relatime"
 
-#: enigma2-plugins/elektro/src/plugin.py:469
+#: enigma2-plugins/elektro/src/plugin.py:456
 msgid "Do not wake up at the end of next deep standby interval."
 msgstr "aut.nebudit na konci dalšího intervalu vypínání "
 
@@ -6042,7 +6057,7 @@ msgstr "Nevypínejte po ručním přerušení automatické obnovování"
 msgid "Don't stop current event but disable coming events"
 msgstr "Aktuální nahrávání nelze přerušit, ale lze deaktivovat další !"
 
-#: enigma2-plugins/elektro/src/plugin.py:468
+#: enigma2-plugins/elektro/src/plugin.py:455
 msgid "Don't wake up"
 msgstr "nebudit"
 
@@ -6848,9 +6863,14 @@ msgstr "instruktáž"
 msgid "Eject DVD?"
 msgstr "Vysunout DVD ?"
 
-#: enigma2-plugins/elektro/src/plugin.py:103
+#: enigma2-plugins/elektro/src/plugin.py:78
 msgid "Elektro Power Save"
 msgstr "uložit Elektro Power"
+
+#: enigma2-plugins/elektro/src/plugin.py:856
+#: enigma2-plugins/elektro/src/plugin.py:921
+msgid "Elektro-Plugin has checked and want to go to sleep."
+msgstr ""
 
 #: enigma2-plugins/emailclient/src/plugin.py:1147
 msgid "Email Client"
@@ -6963,7 +6983,7 @@ msgstr "povolit nastavení"
 msgid "Enable EMC debug output"
 msgstr "povolit nastavení výstupu EMC"
 
-#: enigma2-plugins/elektro/src/plugin.py:447
+#: enigma2-plugins/elektro/src/plugin.py:432
 msgid "Enable Elektro Power Save"
 msgstr "povolit modulu Elektro Power uložit data"
 
@@ -7828,7 +7848,7 @@ msgid "Extensions"
 msgstr "rozšířené"
 
 #: enigma2-plugins/showclock/src/plugin.py:72
-#: enigma2-plugins/elektro/src/plugin.py:105
+#: enigma2-plugins/elektro/src/plugin.py:80
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
 msgid "Extensions menu"
 msgstr "rozšířeném menu"
@@ -8515,7 +8535,7 @@ msgstr "...vždy uložit data do EPG.db databáze"
 msgid "Force scan even if receiver is in use"
 msgstr "...vynucená aktualizace za provozu"
 
-#: enigma2-plugins/elektro/src/plugin.py:456
+#: enigma2-plugins/elektro/src/plugin.py:443
 msgid "Force sleep (even when not in standby)"
 msgstr "Vynutit vypnutí, i když není v režimu spánku "
 
@@ -8523,7 +8543,7 @@ msgstr "Vynutit vypnutí, i když není v režimu spánku "
 msgid "Force standby after auto-restart"
 msgstr "Přepnout po aut.restartu do režimu spánku"
 
-#: enigma2-plugins/elektro/src/plugin.py:457
+#: enigma2-plugins/elektro/src/plugin.py:444
 msgid ""
 "Forces deep standby, even when not in standby mode. Scheduled recordings "
 "remain unaffected."
@@ -8676,7 +8696,7 @@ msgstr "pátek"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:436
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:133
+#: enigma2-plugins/elektro/src/plugin.py:109
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:45
 #: enigma2-plugins/kiddytimer/src/KTglob.py:12
 msgid "Friday"
@@ -8982,7 +9002,8 @@ msgstr "přejít a přidat stránku v nastavení"
 msgid "Go to position:"
 msgstr "skok na pozici : "
 
-#: enigma2-plugins/elektro/src/plugin.py:851
+#: enigma2-plugins/elektro/src/plugin.py:856
+#: enigma2-plugins/elektro/src/plugin.py:921
 msgid "Go to sleep now?"
 msgstr "uspat ?"
 
@@ -9810,7 +9831,7 @@ msgstr "hebrejsky / arabsky"
 #: enigma2-plugins/pluginsort/src/plugin.py:426
 #: enigma2-plugins/showclock/src/plugin.py:144
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:43
-#: enigma2-plugins/elektro/src/plugin.py:496
+#: enigma2-plugins/elektro/src/plugin.py:483
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:847
 #: enigma2-plugins/fancontrol2/src/plugin.py:689
 #: enigma2-plugins/podcast/src/plugin.py:605
@@ -9885,7 +9906,7 @@ msgstr "hlavní téma"
 msgid "History"
 msgstr "historie"
 
-#: enigma2-plugins/elektro/src/plugin.py:470
+#: enigma2-plugins/elektro/src/plugin.py:457
 msgid "Holiday mode (experimental)"
 msgstr "Mód pro dovolenou (experimentální)"
 
@@ -10093,7 +10114,7 @@ msgstr "IP"
 
 #
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:575
-#: enigma2-plugins/elektro/src/plugin.py:309
+#: enigma2-plugins/elektro/src/plugin.py:295
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:130
 msgid "IP Address"
 msgstr "IP adresa"
@@ -10207,7 +10228,7 @@ msgstr ""
 "Spouští záznam o \"x\" minut před skutečným začátkem (0 deaktivuje tuto "
 "možnost)_"
 
-#: enigma2-plugins/elektro/src/plugin.py:455
+#: enigma2-plugins/elektro/src/plugin.py:440
 msgid ""
 "If set to 'yes' the box will check to deepstandby directly after manual boot "
 "if sleep time is already reached. If set to 'no' (default) the box will "
@@ -10219,8 +10240,8 @@ msgstr ""
 "'ne' (výchozí), box zkontroluje pouze následující interval po dalším "
 "probuzení_"
 
-#: enigma2-plugins/elektro/src/plugin.py:259
-#: enigma2-plugins/elektro/src/plugin.py:264
+#: enigma2-plugins/elektro/src/plugin.py:246
+#: enigma2-plugins/elektro/src/plugin.py:251
 msgid ""
 "If the box is supposed to enter deep standby e.g. monday night at 1 AM, it "
 "actually is already tuesday. To enable this anyway, differing next day start "
@@ -11647,6 +11668,7 @@ msgid "MerlinSkinThemes screen found"
 msgstr "Nalezena obrazovka MerlinSkinThemes"
 
 #
+#: enigma2-plugins/elektro/src/plugin.py:940
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:81
 msgid "Message"
 msgstr "- hlášení -"
@@ -11865,7 +11887,7 @@ msgstr "Po - Pá"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:432
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:129
+#: enigma2-plugins/elektro/src/plugin.py:105
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:41
 #: enigma2-plugins/kiddytimer/src/KTglob.py:8
 msgid "Monday"
@@ -12423,11 +12445,11 @@ msgstr ""
 "\n"
 "Zadejte název pro vyhledání videa."
 
-#: enigma2-plugins/elektro/src/plugin.py:466
+#: enigma2-plugins/elektro/src/plugin.py:453
 msgid "NAS Poweroff (press OK to edit)"
 msgstr "vypnutí NAS úložiště (OK -> upravit)"
 
-#: enigma2-plugins/elektro/src/plugin.py:382
+#: enigma2-plugins/elektro/src/plugin.py:368
 msgid "NAS/Server Name or IP"
 msgstr "NAS/Server - název nebo IP"
 
@@ -12465,7 +12487,7 @@ msgstr "NFS sdílení"
 #: enigma2-plugins/showclock/src/plugin.py:121
 #: enigma2-plugins/birthdayreminder/src/plugin.py:43
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:218
-#: enigma2-plugins/elektro/src/plugin.py:474
+#: enigma2-plugins/elektro/src/plugin.py:461
 #: enigma2-plugins/dreamexplorer/src/plugin.py:359
 #: enigma2-plugins/growlee/src/plugin.py:167
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:59
@@ -12653,8 +12675,8 @@ msgstr "další narozeniny"
 msgid "Next bouquet"
 msgstr "nová sada kanálů"
 
-#: enigma2-plugins/elektro/src/plugin.py:258
-#: enigma2-plugins/elektro/src/plugin.py:263
+#: enigma2-plugins/elektro/src/plugin.py:245
+#: enigma2-plugins/elektro/src/plugin.py:250
 msgid "Next day starts at"
 msgstr "další den začíná v "
 
@@ -13386,10 +13408,10 @@ msgstr "čas.rezerva po záznamu (min.)"
 msgid "Offset before recording (in m)"
 msgstr "čas.rezerva před záznamem (min.)"
 
-#: enigma2-plugins/elektro/src/plugin.py:269
-#: enigma2-plugins/elektro/src/plugin.py:314
-#: enigma2-plugins/elektro/src/plugin.py:392
-#: enigma2-plugins/elektro/src/plugin.py:495
+#: enigma2-plugins/elektro/src/plugin.py:256
+#: enigma2-plugins/elektro/src/plugin.py:300
+#: enigma2-plugins/elektro/src/plugin.py:378
+#: enigma2-plugins/elektro/src/plugin.py:482
 msgid "Ok"
 msgstr "OK"
 
@@ -13903,7 +13925,7 @@ msgstr "heslo"
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:309
 #: enigma2-plugins/emission/src/EmissionSetup.py:29
 #: enigma2-plugins/setpasswd/src/plugin.py:100
-#: enigma2-plugins/elektro/src/plugin.py:384
+#: enigma2-plugins/elektro/src/plugin.py:370
 #: enigma2-plugins/dyndns/src/plugin.py:37
 #: enigma2-plugins/growlee/src/plugin.py:182
 msgid "Password"
@@ -14591,7 +14613,7 @@ msgid "Plugin browser"
 msgstr "Nainstalované std.moduly..."
 
 #: enigma2-plugins/showclock/src/plugin.py:72
-#: enigma2-plugins/elektro/src/plugin.py:105
+#: enigma2-plugins/elektro/src/plugin.py:80
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
 msgid "Plugin menu"
 msgstr "sezn.modulů"
@@ -15078,7 +15100,7 @@ msgstr "PushService - test vyjímky :"
 msgid "PushService controller run() exception"
 msgstr "PushService controller run() vyjímky"
 
-#: enigma2-plugins/elektro/src/plugin.py:452
+#: enigma2-plugins/elektro/src/plugin.py:437
 msgid "Puts the box in standby mode after boot."
 msgstr "Přepnout sat.přijímač po nabootování do režimu spánku"
 
@@ -16157,7 +16179,7 @@ msgid "Rip to single file, name is timestamped"
 msgstr "stažené uložit do jednoho souboru, název s časem"
 
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:80
-#: enigma2-plugins/elektro/src/plugin.py:393
+#: enigma2-plugins/elektro/src/plugin.py:379
 msgid "Run"
 msgstr "spustit modul"
 
@@ -16310,7 +16332,7 @@ msgstr "satelity"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:437
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:134
+#: enigma2-plugins/elektro/src/plugin.py:110
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:46
 #: enigma2-plugins/kiddytimer/src/KTglob.py:13
 msgid "Saturday"
@@ -17879,7 +17901,7 @@ msgid "Show iDream in mainmenu"
 msgstr "zobrazit v hl.menu - iDream "
 
 #: enigma2-plugins/showclock/src/plugin.py:119
-#: enigma2-plugins/elektro/src/plugin.py:472
+#: enigma2-plugins/elektro/src/plugin.py:459
 msgid "Show in"
 msgstr "Zobrazit modul v... "
 
@@ -18183,7 +18205,7 @@ msgstr "zobrazit s info-panelem (MoviePlayer) :"
 msgid "Show zap-warning on active timeshifting?"
 msgstr "Zobrazit varování při aktivním časovém posunu ?"
 
-#: enigma2-plugins/elektro/src/plugin.py:545
+#: enigma2-plugins/elektro/src/plugin.py:532
 msgid "Showing Elektro readme.txt"
 msgstr "Zobrazit Elektro Readme.txt"
 
@@ -18522,8 +18544,8 @@ msgstr "přeskočit časovač, protože by se měl spustit za méně než 60 sek
 msgid "Skipping timer because no event was found"
 msgstr "přeskočit časovač, protože nebyla událost nalezena"
 
-#: enigma2-plugins/elektro/src/plugin.py:257
-#: enigma2-plugins/elektro/src/plugin.py:262
+#: enigma2-plugins/elektro/src/plugin.py:244
+#: enigma2-plugins/elektro/src/plugin.py:249
 msgid "Sleep"
 msgstr "režim spánku"
 
@@ -18818,12 +18840,12 @@ msgstr ""
 "na \"0\" časování zastaví. Přepínat je lze tl. EXIT dlouhé..."
 
 #: enigma2-plugins/showclock/src/plugin.py:124
-#: enigma2-plugins/elektro/src/plugin.py:477
+#: enigma2-plugins/elektro/src/plugin.py:464
 msgid "Specify plugin description to be used in menu (needs GUI restart)."
 msgstr "Popis modulu použitý v menu (nutný restart Enigmy2)"
 
 #: enigma2-plugins/showclock/src/plugin.py:122
-#: enigma2-plugins/elektro/src/plugin.py:475
+#: enigma2-plugins/elektro/src/plugin.py:462
 msgid "Specify plugin name to be used in menu (needs GUI restart)."
 msgstr "Název modulu použitého v menu (nutný restart Enigmy2)"
 
@@ -18835,7 +18857,7 @@ msgstr ""
 "Nastavení, zda budou zobrazeny syst.hodiny. Skryjí se po def.časovém limitu."
 
 #: enigma2-plugins/showclock/src/plugin.py:120
-#: enigma2-plugins/elektro/src/plugin.py:473
+#: enigma2-plugins/elektro/src/plugin.py:460
 msgid ""
 "Specify whether plugin shall show up in plugin menu or extensions menu "
 "(needs GUI restart)"
@@ -18936,12 +18958,12 @@ msgstr ">vypnout"
 msgid "Standby Notification"
 msgstr "oznámení při režimu spánku"
 
-#: enigma2-plugins/elektro/src/plugin.py:451
-#: enigma2-plugins/elektro/src/plugin.py:603
+#: enigma2-plugins/elektro/src/plugin.py:436
+#: enigma2-plugins/elektro/src/plugin.py:594
 msgid "Standby on boot"
 msgstr "po nabootování přejít do režimu spánku"
 
-#: enigma2-plugins/elektro/src/plugin.py:453
+#: enigma2-plugins/elektro/src/plugin.py:438
 msgid "Standby on manual boot"
 msgstr "po manuálním nabootování přejít do režimu spánku"
 
@@ -19396,7 +19418,7 @@ msgstr "neděle"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:438
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:135
+#: enigma2-plugins/elektro/src/plugin.py:111
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:47
 #: enigma2-plugins/kiddytimer/src/KTglob.py:7
 msgid "Sunday"
@@ -19606,7 +19628,7 @@ msgstr "Teletext s ukládáním stránek na pozadí"
 msgid "Teletext with caching pages."
 msgstr "-- teletext s pamětí stránek"
 
-#: enigma2-plugins/elektro/src/plugin.py:386
+#: enigma2-plugins/elektro/src/plugin.py:372
 msgid "Telnet Port"
 msgstr "telnet port"
 
@@ -19830,11 +19852,11 @@ msgstr ""
 "programované časovače!\n"
 " Chcete skutečně povolit VPS?"
 
-#: enigma2-plugins/elektro/src/plugin.py:446
+#: enigma2-plugins/elektro/src/plugin.py:431
 msgid "The active Time Profile is (1 or 2)."
 msgstr "Je aktivní profil 1 nebo 2"
 
-#: enigma2-plugins/elektro/src/plugin.py:471
+#: enigma2-plugins/elektro/src/plugin.py:458
 msgid "The box always enters deep standby mode, except for recording."
 msgstr ""
 "Sat. přijímač se vždy přechází do hlubokého spánku, vypnutí - s výjimkou "
@@ -20308,7 +20330,7 @@ msgstr ""
 msgid "This line is not editable!"
 msgstr "Tento řádek nelze změnit !"
 
-#: enigma2-plugins/elektro/src/plugin.py:465
+#: enigma2-plugins/elektro/src/plugin.py:452
 msgid ""
 "This list of IP addresses is checked. Elektro waits until addresses no "
 "longer responds to ping."
@@ -20392,7 +20414,7 @@ msgstr "čtvrtek"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:435
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:132
+#: enigma2-plugins/elektro/src/plugin.py:108
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:44
 #: enigma2-plugins/kiddytimer/src/KTglob.py:11
 msgid "Thursday"
@@ -20584,7 +20606,7 @@ msgstr ""
 msgid "Timers"
 msgstr "časovače---"
 
-#: enigma2-plugins/elektro/src/plugin.py:497
+#: enigma2-plugins/elektro/src/plugin.py:484
 msgid "Times"
 msgstr "časy"
 
@@ -20937,7 +20959,7 @@ msgstr "úterý"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:433
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:130
+#: enigma2-plugins/elektro/src/plugin.py:106
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:42
 #: enigma2-plugins/kiddytimer/src/KTglob.py:9
 msgid "Tuesday"
@@ -21203,7 +21225,7 @@ msgstr ""
 "Doplnění programů kanálů lze spustit\n"
 " i manuálně žlutým tlačítkem_"
 
-#: enigma2-plugins/elektro/src/plugin.py:448
+#: enigma2-plugins/elektro/src/plugin.py:433
 msgid "Unless this is enabled, this plugin won't run automatically."
 msgstr "aktivovat modul Elektro Power Save"
 
@@ -21405,7 +21427,7 @@ msgstr "použít uživatelské umístění"
 msgid "Use and control multiple Dreamboxes with different RCs."
 msgstr "Modul MultiRC umožní nastavit ovladače pro více Dreamboxů samostatně"
 
-#: enigma2-plugins/elektro/src/plugin.py:449
+#: enigma2-plugins/elektro/src/plugin.py:434
 msgid "Use both profiles alternately"
 msgstr "Použít oba profily střídavě"
 
@@ -21538,7 +21560,7 @@ msgstr "Správa uživatelů..."
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:133
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:117
 #: enigma2-plugins/emission/src/EmissionSetup.py:28
-#: enigma2-plugins/elektro/src/plugin.py:383
+#: enigma2-plugins/elektro/src/plugin.py:369
 #: enigma2-plugins/dyndns/src/plugin.py:36
 msgid "Username"
 msgstr "uživatel"
@@ -21728,10 +21750,10 @@ msgstr "operátor : %s\n"
 #: enigma2-plugins/showclock/src/plugin.py:167
 #: enigma2-plugins/showclock/src/plugin.py:391
 #: enigma2-plugins/showclock/src/plugin.py:399
-#: enigma2-plugins/elektro/src/plugin.py:205
-#: enigma2-plugins/elektro/src/plugin.py:216
-#: enigma2-plugins/elektro/src/plugin.py:224
-#: enigma2-plugins/elektro/src/plugin.py:517
+#: enigma2-plugins/elektro/src/plugin.py:201
+#: enigma2-plugins/elektro/src/plugin.py:209
+#: enigma2-plugins/elektro/src/plugin.py:217
+#: enigma2-plugins/elektro/src/plugin.py:504
 #: enigma2-plugins/movietagger/src/plugin.py:261
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:133
 msgid "Ver."
@@ -21988,7 +22010,7 @@ msgstr "WD, DD.MM. HH:MM"
 msgid "WLAN not active"
 msgstr "WLAN není aktivní !"
 
-#: enigma2-plugins/elektro/src/plugin.py:463
+#: enigma2-plugins/elektro/src/plugin.py:450
 msgid "Wait for no nfs-read-activity to enter sleep mode."
 msgstr "počkat na ukončení čtení NFS a přejít do režimu spánku"
 
@@ -21996,7 +22018,7 @@ msgstr "počkat na ukončení čtení NFS a přejít do režimu spánku"
 msgid "Wait for screensaver (in min)"
 msgstr "čekat na šetřič (min.)"
 
-#: enigma2-plugins/elektro/src/plugin.py:459
+#: enigma2-plugins/elektro/src/plugin.py:446
 msgid ""
 "Wait for the HDD to enter sleep mode. Depending on the configuration this "
 "can prevent the box entirely from entering deep standby mode."
@@ -22004,7 +22026,7 @@ msgstr ""
 "Čekání, než přejde harddisk do režimu spánku.  Podle konfigurace lze "
 "zabránit vypnutí boxu."
 
-#: enigma2-plugins/elektro/src/plugin.py:461
+#: enigma2-plugins/elektro/src/plugin.py:448
 msgid "Wait for the network to enter sleep mode."
 msgstr "počkat až síť přejde do režimu spánku"
 
@@ -22017,7 +22039,7 @@ msgstr "prodleva před aktivací (ms) :"
 msgid "Waiting"
 msgstr "...čekám..."
 
-#: enigma2-plugins/elektro/src/plugin.py:387
+#: enigma2-plugins/elektro/src/plugin.py:373
 msgid "Waiting until poweroff"
 msgstr "čekat na vypnutí"
 
@@ -22033,8 +22055,8 @@ msgstr "vzbudit zařízení podle zadání z : /etc/enigma2/emc-noscan.cfg"
 msgid "Wake up from standby for EPG refresh"
 msgstr "...vzbudit při startu aktualizace EPG z režimu spánku"
 
-#: enigma2-plugins/elektro/src/plugin.py:256
-#: enigma2-plugins/elektro/src/plugin.py:261
+#: enigma2-plugins/elektro/src/plugin.py:243
+#: enigma2-plugins/elektro/src/plugin.py:248
 msgid "Wakeup"
 msgstr "vzbudit"
 
@@ -22161,7 +22183,7 @@ msgstr "středa"
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:434
 #: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/elektro/src/plugin.py:131
+#: enigma2-plugins/elektro/src/plugin.py:107
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:43
 #: enigma2-plugins/kiddytimer/src/KTglob.py:10
 msgid "Wednesday"
@@ -22340,7 +22362,7 @@ msgstr "Kam to uložit ?"
 msgid "Where to search for '%s'?"
 msgstr "Kde vyhledat '%s' ?"
 
-#: enigma2-plugins/elektro/src/plugin.py:454
+#: enigma2-plugins/elektro/src/plugin.py:439
 msgid ""
 "Whether to put the box in standby when booted manually. On manual boot the "
 "box will not go to standby before the next deep standby interval starts, "
@@ -23367,9 +23389,13 @@ msgstr "změnit - dobu nahrávání"
 msgid "change recording (endtime)"
 msgstr "změnit - čas ukončení nahrávání"
 
-#: enigma2-plugins/elektro/src/plugin.py:455
+#: enigma2-plugins/elektro/src/plugin.py:440
 msgid "check for sleep directly after manual boot"
 msgstr "kontrola, zda uspání proběhne ihned po manuálním nabootování"
+
+#: enigma2-plugins/elektro/src/plugin.py:441
+msgid "check for sleep directly on going to idle mode"
+msgstr ""
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:238
 msgid "check pending"
@@ -24639,7 +24665,7 @@ msgstr "ne"
 msgid "no Image"
 msgstr "chybí Image"
 
-#: enigma2-plugins/elektro/src/plugin.py:145
+#: enigma2-plugins/elektro/src/plugin.py:118
 msgid "no Name"
 msgstr "chybí název"
 
@@ -25084,7 +25110,7 @@ msgstr "nastavte typ ventilátoru (3-pin nebo 4-pin)"
 msgid "please wait (until 3min)..."
 msgstr "Čekejte, prosím... (do 3min)..."
 
-#: enigma2-plugins/elektro/src/plugin.py:346
+#: enigma2-plugins/elektro/src/plugin.py:331
 msgid "please wait..."
 msgstr "Čekejte ..."
 
@@ -25143,7 +25169,7 @@ msgstr "ukončit"
 msgid "read HDD-Temperature in HDD-Standby-Mode"
 msgstr "načíst teplotu HDD v režimu spánku"
 
-#: enigma2-plugins/elektro/src/plugin.py:545
+#: enigma2-plugins/elektro/src/plugin.py:532
 #: enigma2-plugins/fancontrol2/src/plugin.py:801
 msgid "readme.txt"
 msgstr "readme.txt"
@@ -26032,11 +26058,11 @@ msgstr "-ano-"
 msgid "yes, Except for Recording or HDD"
 msgstr "vypnout (ne při nahrávání)"
 
-#: enigma2-plugins/elektro/src/plugin.py:120
+#: enigma2-plugins/elektro/src/plugin.py:96
 msgid "yes, Profile 1"
 msgstr "ano, profil 1"
 
-#: enigma2-plugins/elektro/src/plugin.py:120
+#: enigma2-plugins/elektro/src/plugin.py:96
 msgid "yes, Profile 2"
 msgstr "ano, profil 2"
 
