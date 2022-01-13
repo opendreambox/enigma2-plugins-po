@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-12 23:13+0000\n"
-"PO-Revision-Date: 2022-01-12 23:12+0000\n"
+"PO-Revision-Date: 2022-01-13 14:31+0000\n"
 "Last-Translator: Dario Croci <spaeleus@croci.org>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -67,7 +67,7 @@ msgstr "   Numero di timer in attesa"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Timers.py:137
 msgid "   Show Energy shedule timers"
-msgstr "   Mostrare i timer di programmazione dell'energia"
+msgstr "   Mostrare i timer energetici programmati"
 
 #: e2openplugin-InfoBarTunerState/src/Handler/Records.py:68
 msgid "   Show events of record(s)"
@@ -649,7 +649,7 @@ msgstr "( GB )"
 #: enigma2-plugins/elektro/src/plugin.py:856
 #: enigma2-plugins/elektro/src/plugin.py:921
 msgid "(Press Exit to cancel)"
-msgstr ""
+msgstr "(Premere EXIT per annullare)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:135
 msgid "(Un-)Lock Directory"
@@ -688,7 +688,7 @@ msgstr "(Mostrare il menu opzionale audio DVD)"
 
 #: enigma2-plugins/elektro/src/plugin.py:448
 msgid "(tcp/udp)"
-msgstr ""
+msgstr "(tcp/udp)"
 
 #: enigma2-plugins/webcamviewer/src/plugin.py:512
 msgid "*"
@@ -3660,6 +3660,8 @@ msgid ""
 "Check for sleep directly on going to idle mode and show a message if want to "
 "go to sleep."
 msgstr ""
+"Verificare lo spegnimento direttamente entrando in modalità idle e mostrare "
+"un messaggio se previsto spegnere."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:664
 msgid "Check for uniqueness in"
@@ -6640,7 +6642,7 @@ msgstr ""
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/SleepTimer.py:110
 msgid "ERROR: Cannot set SleepTimer while device is in Standby-Mode"
 msgstr ""
-"ERRORE: impossibile configurare uno Sleep timer con l'apparato in standby"
+"ERRORE: impossibile configurare uno sleep timer con l'apparato in standby"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/SleepTimer.py:104
 #, python-format
@@ -6893,7 +6895,7 @@ msgstr "Elektro Power Save"
 #: enigma2-plugins/elektro/src/plugin.py:856
 #: enigma2-plugins/elektro/src/plugin.py:921
 msgid "Elektro-Plugin has checked and want to go to sleep."
-msgstr ""
+msgstr "Elektro-Plugin ha effettuato le verifiche e vuole spegnere."
 
 #: enigma2-plugins/emailclient/src/plugin.py:1147
 msgid "Email Client"
@@ -11528,7 +11530,7 @@ msgid "Main bouquet for channel editor"
 msgstr "Bouquet principale per editor"
 
 msgid "Make it more skin friendly"
-msgstr ""
+msgstr "Favorire l'utilizzo delle skin"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:193
 msgid "Manage Cover"
@@ -13147,10 +13149,10 @@ msgid "No previous file in this directory"
 msgstr "Nessun file precedente nella directory"
 
 msgid "No result from LDIF"
-msgstr "Ricerca in LDIF: nessun risultato!"
+msgstr "Nessun risultato da LDIF"
 
 msgid "No result from Outlook export"
-msgstr "Ricerca in Outlook  export: nessun risultato!"
+msgstr "Nessun risultato da Outlook export"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1418
 #: enigma2-plugin-fritzcall/src/plugin.py:1429
@@ -16296,7 +16298,7 @@ msgstr "Riprendere dalla posizione %s"
 
 #: e2openplugin-EnhancedMovieCenter/src/InfoBarSupport.py:178
 msgid "Resuming playback"
-msgstr "Ripresa riproduzione..."
+msgstr "Ripresa playback"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:277
 msgid "Retrieving Season, Episode and Title..."
@@ -16989,7 +16991,7 @@ msgid "Searching in LDIF..."
 msgstr "Ricerca in LDIF..."
 
 msgid "Searching in Outlook export..."
-msgstr "Ricerca in Outlook  export..."
+msgstr "Ricerca in Outlook export..."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:236
 msgid "Searching your network. Please wait..."
@@ -23644,7 +23646,7 @@ msgstr "Controllare la modalità sleep direttamente dopo un avvio manuale"
 
 #: enigma2-plugins/elektro/src/plugin.py:441
 msgid "check for sleep directly on going to idle mode"
-msgstr ""
+msgstr "Verificare lo spegnimento direttamente entrando in modalità idle"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:238
 msgid "check pending"
@@ -24814,7 +24816,7 @@ msgid "movie manipulation list"
 msgstr "Elenco gestione registrazioni"
 
 msgid "movies found!"
-msgstr "Trovati filmati."
+msgstr "Video rilevati."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:419
 msgid "movies in"
@@ -25591,7 +25593,7 @@ msgid "search EPG"
 msgstr "Ricerca EPG"
 
 msgid "search EPG from history..."
-msgstr "Ricerca EPG nella cronologia"
+msgstr "Ricerca EPG nella cronologia..."
 
 #. TRANSLATORS: EPGSearch title in EventInfo dialog (requires the user to select an event to search for)
 #: enigma2-plugins/epgsearch/src/plugin.py:64
