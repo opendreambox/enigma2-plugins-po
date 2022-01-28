@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-27 23:14+0000\n"
-"PO-Revision-Date: 2021-12-15 19:39+0000\n"
+"PO-Revision-Date: 2022-01-28 10:40+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -201,7 +201,7 @@ msgstr " (bez výpočtu velikosti potisku)"
 
 #: MovieInfo.py:62 MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -651,7 +651,7 @@ msgstr "( GB )"
 #: enigma2-plugins/elektro/src/plugin.py:856
 #: enigma2-plugins/elektro/src/plugin.py:921
 msgid "(Press Exit to cancel)"
-msgstr ""
+msgstr "Exit -> storno..."
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:135
 msgid "(Un-)Lock Directory"
@@ -691,7 +691,7 @@ msgstr "(zobrazit volitelné audio menu DVD)"
 
 #: enigma2-plugins/elektro/src/plugin.py:448
 msgid "(tcp/udp)"
-msgstr ""
+msgstr "(tcp/udp)"
 
 #: enigma2-plugins/webcamviewer/src/plugin.py:512
 msgid "*"
@@ -3104,6 +3104,10 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"Nelze uložit info o filmu a potisk :\n"
+"\n"
+"%s\n"
+"%s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
@@ -3637,7 +3641,7 @@ msgstr "prověřit mrtvé odkazy"
 msgid ""
 "Check for sleep directly on going to idle mode and show a message if want to "
 "go to sleep."
-msgstr ""
+msgstr "Zkontrolujte režim spánku a zobrazení zprávy, pokud to chcete uspat."
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:664
 msgid "Check for uniqueness in"
@@ -6094,7 +6098,7 @@ msgstr "info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "stáhnout balíček Mutagen pro audio meta-data"
 
 #: enigma2-plugins/mytube/src/plugin.py:481
 msgid "Download Video"
@@ -6367,7 +6371,7 @@ msgstr "EMC nápověda"
 
 #: EMCPlayList.py:154
 msgid "EMC Playlist"
-msgstr ""
+msgstr "EMC seznam přehrávek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
@@ -6869,7 +6873,7 @@ msgstr "uložit Elektro Power"
 #: enigma2-plugins/elektro/src/plugin.py:856
 #: enigma2-plugins/elektro/src/plugin.py:921
 msgid "Elektro-Plugin has checked and want to go to sleep."
-msgstr ""
+msgstr "Ovládání modulu Elektro, pokud chcete do režimu spánku."
 
 #: enigma2-plugins/emailclient/src/plugin.py:1147
 msgid "Email Client"
@@ -8357,6 +8361,11 @@ msgid ""
 "Files exists in current Playlist:\n"
 "%s"
 msgstr ""
+"Soubory přidané do akt.seznamu :\n"
+"%s\n"
+"\n"
+"Soubory existující v seznamu :\n"
+"%s"
 
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
@@ -9124,11 +9133,11 @@ msgstr "Informační modul_"
 
 #: EnhancedMovieCenter.py:488
 msgid "HELP_Advanced Skin options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů skinů_"
 
 #: EnhancedMovieCenter.py:492
 msgid "HELP_Advanced audio metadata options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů metadat audia_"
 
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
@@ -9245,7 +9254,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:498
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "Stahování balíčku Mutagen pro audio metadata_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
@@ -9411,7 +9420,7 @@ msgstr "Změna vzhledu boxu podle skinu nebo EMC_"
 
 #: EnhancedMovieCenter.py:391
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
