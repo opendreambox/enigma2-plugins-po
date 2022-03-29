@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FanControl2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-29 05:21+0000\n"
+"POT-Creation-Date: 2022-03-29 23:14+0000\n"
 "PO-Revision-Date: 2021-08-23 13:04+0000\n"
 "Last-Translator: dhwz <dhwz@gmx.net>\n"
 "Language-Team: Polish <https://dreambox.de/translate/projects/dreambox/"
@@ -1447,6 +1447,10 @@ msgstr "Dodaj Timer"
 msgid "Add Timer From EPG / Filters With 'Info/EPG'-Key"
 msgstr "Dodaj Timer z EPG / Filtry z 'Info/EPG'"
 
+#: enigma2-plugin-vps/src_py/Vps_setup.py:50
+msgid "Add VPS-check to channellist context menu"
+msgstr ""
+
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:328
 msgid "Add Web Channel"
 msgstr "Dodaj Kanał Web"
@@ -2078,6 +2082,12 @@ msgstr ""
 #: enigma2-plugins/fstabeditor/src/plugin.py:509
 msgid "An automount unit will be created for the file system."
 msgstr "Automatyczne mountowanie zostanie utworzone dla systemu plików."
+
+#: enigma2-plugin-vps/src_py/Vps_setup.py:108
+msgid ""
+"An entry to check whether channel/channels in bouquet support VPS will be "
+"shown in context menu of channel list when activated"
+msgstr ""
 
 #
 #: enigma2-plugins/mytube/src/plugin.py:419
@@ -3371,7 +3381,7 @@ msgstr "Kanada"
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:542
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:684
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:269
-#: enigma2-plugin-vps/src_py/Vps_setup.py:54
+#: enigma2-plugin-vps/src_py/Vps_setup.py:66
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:87
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
@@ -3576,6 +3586,7 @@ msgstr "Zmiana Timera dla '%s' nieudana!"
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
 #: enigma2-plugins/merlinepg/src/plugin.py:782
+#: enigma2-plugin-vps/src_py/Vps_setup.py:185
 msgid "Channel"
 msgstr "Kanał"
 
@@ -3669,6 +3680,10 @@ msgstr "Kanały"
 msgid "Channels are not matched"
 msgstr "Kanały nie są dopasowane"
 
+#: enigma2-plugin-vps/src_py/Vps_setup.py:68
+msgid "Channels with VPS"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1026
 msgid "Chap."
 msgstr "Roz."
@@ -3702,6 +3717,11 @@ msgstr "Sprawdź IP (naciśnij OK, aby edytować)"
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:243
 msgid "Check Timer for corresponding EPG events"
 msgstr "Sprawdź Timer dla odpowiednich wydarzeń EPG."
+
+#: enigma2-plugin-vps/src_py/plugin.py:137
+#: enigma2-plugin-vps/src_py/plugin.py:138
+msgid "Check VPS support"
+msgstr ""
 
 #: enigma2-plugin-reconstructapsc/src_py/plugin.py:36
 msgid "Check any running reconstruct process"
@@ -7203,15 +7223,15 @@ msgstr "Włącz korzystanie z Wątku"
 msgid "Enable VPS"
 msgstr "Włącz VPS"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:83
+#: enigma2-plugin-vps/src_py/Vps_setup.py:100
 msgid "Enable VPS by default (new timers)"
 msgstr "Włącz VPS jako domyślnie (nowe Timery)"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:39
+#: enigma2-plugin-vps/src_py/Vps_setup.py:49
 msgid "Enable VPS on instant records"
 msgstr "Włącz VPS przy Nagrywaniu Natychmiastowym"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:33
+#: enigma2-plugin-vps/src_py/Vps_setup.py:43
 msgid "Enable VPS-Plugin"
 msgstr "Włącz Wtyczkę VPS"
 
@@ -8597,6 +8617,7 @@ msgstr "Filtr:"
 
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:49
+#: enigma2-plugin-vps/src_py/Vps_check.py:195
 msgid "Finished"
 msgstr "Skończone"
 
@@ -10362,7 +10383,7 @@ msgstr ""
 msgid "If You can see this, Your configuration is correct."
 msgstr "Jeśli możesz to zobaczyć, Twoja konfiguracja jest poprawna."
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:87
+#: enigma2-plugin-vps/src_py/Vps_setup.py:104
 msgid ""
 "If a programme is interrupted and divided into separate events, the plugin "
 "will search for the connected events."
@@ -10386,7 +10407,7 @@ msgstr ""
 "Gdy cache jest wyłączony, każda strona będzie otwierana gdy wpiszesz jej "
 "numer"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:85
+#: enigma2-plugin-vps/src_py/Vps_setup.py:102
 msgid ""
 "If enabled and necessary, the plugin will wake up the Dreambox from Deep-"
 "Standby for the defined starting time to control whether the programme "
@@ -10424,7 +10445,7 @@ msgstr ""
 "Ta wtyczka pozwala modyfikować kolejność wpisów w menu. Można je zmieniać "
 "poprzez funkcję \"Sortowanie Menu\" , włączalne spod listy wtyczek"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:79
+#: enigma2-plugin-vps/src_py/Vps_setup.py:96
 msgid ""
 "If possible, x minutes before a timer starts VPS-Plugin will control whether "
 "the programme begins earlier. (0 disables feature)"
@@ -10775,7 +10796,7 @@ msgstr "Czas wyświetlania paska info"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:801
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:178
-#: enigma2-plugin-vps/src_py/Vps_setup.py:56
+#: enigma2-plugin-vps/src_py/Vps_setup.py:69
 msgid "Information"
 msgstr "Informacja"
 
@@ -11093,6 +11114,10 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/plugin.py:2325
 msgid "Last 10 calls:\n"
 msgstr "Ostanie 10 rozmów:\n"
+
+#: enigma2-plugin-vps/src_py/Vps_setup.py:185
+msgid "Last checked on"
+msgstr ""
 
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:74
 #, python-format
@@ -11628,7 +11653,7 @@ msgstr ""
 msgid "Manual specification"
 msgstr "Instrukcja Obsługi"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:35
+#: enigma2-plugin-vps/src_py/Vps_setup.py:45
 msgid "Margin after record (in seconds)"
 msgstr "Margines po nagraniu (w sekundach)"
 
@@ -12963,11 +12988,11 @@ msgstr "Pseudonim"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: enigma2-plugin-vps/src_py/plugin.py:17
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/Vps_check.py:249
-#: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
 msgid "No"
 msgstr "Nie"
@@ -13570,7 +13595,7 @@ msgstr "WYŁ"
 #: e2openplugin-PushService/src/ConfigScreen.py:172
 #: e2-advancedaudiosettings/src/plugin.py:53
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:638
-#: enigma2-plugin-vps/src_py/Vps_setup.py:55
+#: enigma2-plugin-vps/src_py/Vps_setup.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
 msgid "OK"
 msgstr "OK"
@@ -15545,7 +15570,7 @@ msgstr ""
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
 #: e2openplugin-PushService/src/ConfigScreen.py:346
 #: e2openplugin-EnhancedMovieCenter/src/configlistext.py:324
-#: enigma2-plugin-vps/src_py/Vps_setup.py:110
+#: enigma2-plugin-vps/src_py/Vps_setup.py:129
 msgid "Really close without saving settings?"
 msgstr "Wyjść bez zapisywania ustawień?"
 
@@ -17185,7 +17210,7 @@ msgstr "Przeszukaj wstecz"
 msgid "Seek forward"
 msgstr "Przeszukaj do przodu"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:37
+#: enigma2-plugin-vps/src_py/Vps_setup.py:47
 msgid "Seeking connected events"
 msgstr "Poszukiwanie powiązanych wydarzeń"
 
@@ -19381,7 +19406,7 @@ msgstr "Czas rozpoczęcia"
 msgid "Starting on"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:34
+#: enigma2-plugin-vps/src_py/Vps_setup.py:44
 msgid "Starting time"
 msgstr "Czas rozpoczęcia"
 
@@ -20140,7 +20165,7 @@ msgstr ""
 "Wtyczka VPS może określić czy dany program zacznie się prędzej czy skończy "
 "później"
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:244
+#: enigma2-plugin-vps/src_py/Vps_check.py:340
 msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for "
 "manually programmed timers!\n"
@@ -20159,7 +20184,7 @@ msgid "The box always enters deep standby mode, except for recording."
 msgstr ""
 "Dreambox zawsze wejdzie w tryb głębokiego czuwania, z wyjątkiem gdy nagrywa."
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:285
+#: enigma2-plugin-vps/src_py/Vps_check.py:381
 msgid ""
 "The channel may support VPS\n"
 " Do you want to enable VPS?"
@@ -20297,7 +20322,7 @@ msgstr "Wpisany kod PIN jest zły."
 msgid "The python-mutagen package is not available on the feed."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:81
+#: enigma2-plugin-vps/src_py/Vps_setup.py:98
 msgid ""
 "The recording will last n seconds longer after the channel sent the stop "
 "signal."
@@ -20305,7 +20330,7 @@ msgstr ""
 "Nagranie będzie trwało n sekund dłużej po tym jak kanał wysłał sygnał do "
 "zatrzymania."
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:242
+#: enigma2-plugin-vps/src_py/Vps_check.py:338
 msgid ""
 "The selected channel doesn't support VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -20654,7 +20679,7 @@ msgstr ""
 " Potwierdź do za pomocą niebieskiego klawisza, a następnie zielonego "
 "klawisza."
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:77
+#: enigma2-plugin-vps/src_py/Vps_setup.py:94
 msgid ""
 "This plugin can determine whether a programme begins earlier or lasts "
 "longer. The channel has to provide reliable data."
@@ -21935,17 +21960,17 @@ msgstr ""
 msgid "VLC-Server"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/plugin.py:83
-#: enigma2-plugin-vps/src_py/plugin.py:106
+#: enigma2-plugin-vps/src_py/plugin.py:86
+#: enigma2-plugin-vps/src_py/plugin.py:131
 msgid "VPS Settings"
 msgstr "Ustawienia VPS"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:31
+#: enigma2-plugin-vps/src_py/Vps_setup.py:41
 #, python-format
 msgid "VPS Setup Version %s"
 msgstr "Konfiguracja VPS wersja %s"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:38
+#: enigma2-plugin-vps/src_py/Vps_setup.py:48
 msgid "VPS enabled by default"
 msgstr "VPS domyślnie włączony"
 
@@ -21954,11 +21979,11 @@ msgstr "VPS domyślnie włączony"
 msgid "VPS-Plugin"
 msgstr "Wtyczka VPS"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:132
+#: enigma2-plugin-vps/src_py/Vps_setup.py:225
 msgid "VPS-Plugin Information"
 msgstr "Wtyczka VPS Informacje"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:134
+#: enigma2-plugin-vps/src_py/Vps_setup.py:227
 msgid ""
 "VPS-Plugin can react on delays arising in the startTime or endTime of a "
 "programme. VPS is only supported by certain channels!\n"
@@ -22021,11 +22046,11 @@ msgstr ""
 "opublikowanym czasem rozpoczęcia programu, np podany w prasie. Jeśli "
 "ustawisz czas VPS, musisz zostawić nazwę timera pustą."
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:111
+#: enigma2-plugin-vps/src_py/Vps_check.py:136
 msgid "VPS-Plugin checks if the channel supports VPS ..."
 msgstr "Wtyczka VPS sprawdza, czy kanał obsługuje VPS ..."
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:287
+#: enigma2-plugin-vps/src_py/Vps_check.py:383
 msgid ""
 "VPS-Plugin couldn't check if the channel supports VPS.\n"
 " Do you want to enable VPS anyway?"
@@ -22033,7 +22058,7 @@ msgstr ""
 "Wtyczka VPS nie mogła sprawdzić, czy kanał obsługuje VPS.\n"
 " Czy mimo to chcesz włączyć VPS?"
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:250
+#: enigma2-plugin-vps/src_py/Vps_check.py:346
 msgid ""
 "VPS-Plugin couldn't check if the selected channel supports VPS.\n"
 " Do you really want to enable VPS?"
@@ -22386,7 +22411,7 @@ msgstr "Wybudź z trybu czuwania, aby odświeżyć EPG"
 msgid "Wakeup"
 msgstr "Wybudź"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:36
+#: enigma2-plugin-vps/src_py/Vps_setup.py:46
 msgid "Wakeup from Deep-Standby is allowed"
 msgstr "Zezwól na wybudzenie z trybu głębokiego czuwania"
 
@@ -22671,7 +22696,7 @@ msgstr ""
 msgid "When to Zap back?"
 msgstr "Kiedy Przełączyć spowrotem?"
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:89
+#: enigma2-plugin-vps/src_py/Vps_setup.py:106
 msgid ""
 "When yes, VPS will be enabled on instant records (stop after current event), "
 "if the channel supports VPS."
@@ -22895,18 +22920,18 @@ msgstr "Funkcja żółtego przycisku"
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: enigma2-plugin-vps/src_py/plugin.py:17
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/Vps_check.py:249
-#: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
 msgid "Yes"
 msgstr "Tak"
 
-#: enigma2-plugin-vps/src_py/plugin.py:17
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
 msgid "Yes (safe mode)"
 msgstr "Tak (tryb bezpieczny)"
 
@@ -22918,7 +22943,7 @@ msgstr "Tak, ale odtwórz następny film"
 msgid "Yes, but play previous video"
 msgstr "Tak, ale odtwórz poprzedni film"
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:249
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
 msgid "Yes, don't ask again"
 msgstr "Tak, nie pytaj ponownie"
 
@@ -23501,7 +23526,7 @@ msgstr "Sortowanie alfabetycznie  (szybkie przełączanie przyciskiem 0)"
 msgid "always"
 msgstr "zawsze"
 
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:20
 msgid "always ask"
 msgstr "zawsze pytaj"
 
@@ -24312,6 +24337,10 @@ msgstr "filtr włączony"
 msgid "finish fetching remote data..."
 msgstr "zakończ zdalne pobieranie danych ..."
 
+#: enigma2-plugin-vps/src_py/Vps_check.py:296
+msgid "finished"
+msgstr ""
+
 #: enigma2-plugins/autotimer/src/AutoTimer.py:728
 #, python-format
 msgid ""
@@ -25119,6 +25148,10 @@ msgstr "bez szyfrowania"
 #: enigma2-plugins/eibox/src/plugin.py:549
 msgid "not found"
 msgstr "nie znaleziony"
+
+#: enigma2-plugin-vps/src_py/Vps_check.py:285
+msgid "not supported"
+msgstr ""
 
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4406
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4454
@@ -26045,6 +26078,10 @@ msgstr "język napisów i audio mogą być takie same"
 msgid "successful"
 msgstr ""
 
+#: enigma2-plugin-vps/src_py/Vps_check.py:283
+msgid "supported"
+msgstr ""
+
 #: enigma2-plugins/quickbutton/src/plugin.py:140
 #: enigma2-plugins/quickbutton/src/plugin.py:225
 #: enigma2-plugins/quickbutton/src/plugin.py:273
@@ -26217,6 +26254,7 @@ msgstr "pod WLAN"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:153
+#: enigma2-plugin-vps/src_py/Vps_check.py:287
 msgid "unknown"
 msgstr "nieznane"
 

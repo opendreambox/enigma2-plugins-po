@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-29 05:21+0000\n"
+"POT-Creation-Date: 2022-03-29 23:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1271,6 +1271,10 @@ msgstr ""
 msgid "Add Timer From EPG / Filters With 'Info/EPG'-Key"
 msgstr ""
 
+#: enigma2-plugin-vps/src_py/Vps_setup.py:50
+msgid "Add VPS-check to channellist context menu"
+msgstr ""
+
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:328
 msgid "Add Web Channel"
 msgstr ""
@@ -1777,6 +1781,12 @@ msgstr ""
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:509
 msgid "An automount unit will be created for the file system."
+msgstr ""
+
+#: enigma2-plugin-vps/src_py/Vps_setup.py:108
+msgid ""
+"An entry to check whether channel/channels in bouquet support VPS will be "
+"shown in context menu of channel list when activated"
 msgstr ""
 
 #: enigma2-plugins/mytube/src/plugin.py:419
@@ -2898,7 +2908,7 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:542
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:684
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:269
-#: enigma2-plugin-vps/src_py/Vps_setup.py:54
+#: enigma2-plugin-vps/src_py/Vps_setup.py:66
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:87
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
@@ -3093,6 +3103,7 @@ msgstr ""
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
 #: enigma2-plugins/merlinepg/src/plugin.py:782
+#: enigma2-plugin-vps/src_py/Vps_setup.py:185
 msgid "Channel"
 msgstr ""
 
@@ -3183,6 +3194,10 @@ msgstr ""
 msgid "Channels are not matched"
 msgstr ""
 
+#: enigma2-plugin-vps/src_py/Vps_setup.py:68
+msgid "Channels with VPS"
+msgstr ""
+
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1026
 msgid "Chap."
 msgstr ""
@@ -3212,6 +3227,11 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:243
 msgid "Check Timer for corresponding EPG events"
+msgstr ""
+
+#: enigma2-plugin-vps/src_py/plugin.py:137
+#: enigma2-plugin-vps/src_py/plugin.py:138
+msgid "Check VPS support"
 msgstr ""
 
 #: enigma2-plugin-reconstructapsc/src_py/plugin.py:36
@@ -6359,15 +6379,15 @@ msgstr ""
 msgid "Enable VPS"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:83
+#: enigma2-plugin-vps/src_py/Vps_setup.py:100
 msgid "Enable VPS by default (new timers)"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:39
+#: enigma2-plugin-vps/src_py/Vps_setup.py:49
 msgid "Enable VPS on instant records"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:33
+#: enigma2-plugin-vps/src_py/Vps_setup.py:43
 msgid "Enable VPS-Plugin"
 msgstr ""
 
@@ -7630,6 +7650,7 @@ msgid "Filter:"
 msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:49
+#: enigma2-plugin-vps/src_py/Vps_check.py:195
 msgid "Finished"
 msgstr ""
 
@@ -9151,7 +9172,7 @@ msgstr ""
 msgid "If You can see this, Your configuration is correct."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:87
+#: enigma2-plugin-vps/src_py/Vps_setup.py:104
 msgid ""
 "If a programme is interrupted and divided into separate events, the plugin "
 "will search for the connected events."
@@ -9169,7 +9190,7 @@ msgid ""
 "its number."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:85
+#: enigma2-plugin-vps/src_py/Vps_setup.py:102
 msgid ""
 "If enabled and necessary, the plugin will wake up the Dreambox from Deep-"
 "Standby for the defined starting time to control whether the programme "
@@ -9191,7 +9212,7 @@ msgstr ""
 msgid "If enabled, the polling will be skipped if the Dreambox is recording."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:79
+#: enigma2-plugin-vps/src_py/Vps_setup.py:96
 msgid ""
 "If possible, x minutes before a timer starts VPS-Plugin will control whether "
 "the programme begins earlier. (0 disables feature)"
@@ -9488,7 +9509,7 @@ msgstr ""
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:801
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:178
-#: enigma2-plugin-vps/src_py/Vps_setup.py:56
+#: enigma2-plugin-vps/src_py/Vps_setup.py:69
 msgid "Information"
 msgstr ""
 
@@ -9785,6 +9806,10 @@ msgstr ""
 #: enigma2-plugins/ncidclient/src/plugin.py:828
 #: enigma2-plugins/fritzcall/src/plugin.py:2325
 msgid "Last 10 calls:\n"
+msgstr ""
+
+#: enigma2-plugin-vps/src_py/Vps_setup.py:185
+msgid "Last checked on"
 msgstr ""
 
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:74
@@ -10282,7 +10307,7 @@ msgstr ""
 msgid "Manual specification"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:35
+#: enigma2-plugin-vps/src_py/Vps_setup.py:45
 msgid "Margin after record (in seconds)"
 msgstr ""
 
@@ -11487,11 +11512,11 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: enigma2-plugin-vps/src_py/plugin.py:17
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/Vps_check.py:249
-#: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
 msgid "No"
 msgstr ""
@@ -12066,7 +12091,7 @@ msgstr ""
 #: e2openplugin-PushService/src/ConfigScreen.py:172
 #: e2-advancedaudiosettings/src/plugin.py:53
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:638
-#: enigma2-plugin-vps/src_py/Vps_setup.py:55
+#: enigma2-plugin-vps/src_py/Vps_setup.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
 msgid "OK"
 msgstr ""
@@ -13881,7 +13906,7 @@ msgstr ""
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
 #: e2openplugin-PushService/src/ConfigScreen.py:346
 #: e2openplugin-EnhancedMovieCenter/src/configlistext.py:324
-#: enigma2-plugin-vps/src_py/Vps_setup.py:110
+#: enigma2-plugin-vps/src_py/Vps_setup.py:129
 msgid "Really close without saving settings?"
 msgstr ""
 
@@ -15378,7 +15403,7 @@ msgstr ""
 msgid "Seek forward"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:37
+#: enigma2-plugin-vps/src_py/Vps_setup.py:47
 msgid "Seeking connected events"
 msgstr ""
 
@@ -17411,7 +17436,7 @@ msgstr ""
 msgid "Starting on"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:34
+#: enigma2-plugin-vps/src_py/Vps_setup.py:44
 msgid "Starting time"
 msgstr ""
 
@@ -18082,7 +18107,7 @@ msgid ""
 "What do you want to do now with the timeshift file?"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:244
+#: enigma2-plugin-vps/src_py/Vps_check.py:340
 msgid ""
 "The VPS-Plugin couldn't check if the selected channel supports VPS for "
 "manually programmed timers!\n"
@@ -18097,7 +18122,7 @@ msgstr ""
 msgid "The box always enters deep standby mode, except for recording."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:285
+#: enigma2-plugin-vps/src_py/Vps_check.py:381
 msgid ""
 "The channel may support VPS\n"
 " Do you want to enable VPS?"
@@ -18224,13 +18249,13 @@ msgstr ""
 msgid "The python-mutagen package is not available on the feed."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:81
+#: enigma2-plugin-vps/src_py/Vps_setup.py:98
 msgid ""
 "The recording will last n seconds longer after the channel sent the stop "
 "signal."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:242
+#: enigma2-plugin-vps/src_py/Vps_check.py:338
 msgid ""
 "The selected channel doesn't support VPS for manually programmed timers!\n"
 " Do you really want to enable VPS?"
@@ -18499,7 +18524,7 @@ msgid ""
 "compatibility with other operating systems."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:77
+#: enigma2-plugin-vps/src_py/Vps_setup.py:94
 msgid ""
 "This plugin can determine whether a programme begins earlier or lasts "
 "longer. The channel has to provide reliable data."
@@ -19677,25 +19702,25 @@ msgstr ""
 msgid "VLC-Server"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/plugin.py:83
-#: enigma2-plugin-vps/src_py/plugin.py:106
+#: enigma2-plugin-vps/src_py/plugin.py:86
+#: enigma2-plugin-vps/src_py/plugin.py:131
 msgid "VPS Settings"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:31
+#: enigma2-plugin-vps/src_py/Vps_setup.py:41
 #, python-format
 msgid "VPS Setup Version %s"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:38
+#: enigma2-plugin-vps/src_py/Vps_setup.py:48
 msgid "VPS enabled by default"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:132
+#: enigma2-plugin-vps/src_py/Vps_setup.py:225
 msgid "VPS-Plugin Information"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:134
+#: enigma2-plugin-vps/src_py/Vps_setup.py:227
 msgid ""
 "VPS-Plugin can react on delays arising in the startTime or endTime of a "
 "programme. VPS is only supported by certain channels!\n"
@@ -19728,17 +19753,17 @@ msgid ""
 "leave timer name empty."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:111
+#: enigma2-plugin-vps/src_py/Vps_check.py:136
 msgid "VPS-Plugin checks if the channel supports VPS ..."
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:287
+#: enigma2-plugin-vps/src_py/Vps_check.py:383
 msgid ""
 "VPS-Plugin couldn't check if the channel supports VPS.\n"
 " Do you want to enable VPS anyway?"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:250
+#: enigma2-plugin-vps/src_py/Vps_check.py:346
 msgid ""
 "VPS-Plugin couldn't check if the selected channel supports VPS.\n"
 " Do you really want to enable VPS?"
@@ -20064,7 +20089,7 @@ msgstr ""
 msgid "Wakeup"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:36
+#: enigma2-plugin-vps/src_py/Vps_setup.py:46
 msgid "Wakeup from Deep-Standby is allowed"
 msgstr ""
 
@@ -20272,7 +20297,7 @@ msgstr ""
 msgid "When to Zap back?"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:89
+#: enigma2-plugin-vps/src_py/Vps_setup.py:106
 msgid ""
 "When yes, VPS will be enabled on instant records (stop after current event), "
 "if the channel supports VPS."
@@ -20429,18 +20454,18 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: enigma2-plugin-vps/src_py/plugin.py:17
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/Vps_check.py:249
-#: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
 msgid "Yes"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/plugin.py:17
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/Vps_check.py:277
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
 msgid "Yes (safe mode)"
 msgstr ""
 
@@ -20452,7 +20477,7 @@ msgstr ""
 msgid "Yes, but play previous video"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:249
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
 msgid "Yes, don't ask again"
 msgstr ""
 
@@ -20953,7 +20978,7 @@ msgstr ""
 msgid "always"
 msgstr ""
 
-#: enigma2-plugin-vps/src_py/plugin.py:18
+#: enigma2-plugin-vps/src_py/plugin.py:20
 msgid "always ask"
 msgstr ""
 
@@ -21705,6 +21730,10 @@ msgstr ""
 
 #: enigma2-plugins/remotetimer/src/plugin.py:125
 msgid "finish fetching remote data..."
+msgstr ""
+
+#: enigma2-plugin-vps/src_py/Vps_check.py:296
+msgid "finished"
 msgstr ""
 
 #: enigma2-plugins/autotimer/src/AutoTimer.py:728
@@ -22474,6 +22503,10 @@ msgstr ""
 
 #: enigma2-plugins/eibox/src/plugin.py:549
 msgid "not found"
+msgstr ""
+
+#: enigma2-plugin-vps/src_py/Vps_check.py:285
+msgid "not supported"
 msgstr ""
 
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4406
@@ -23366,6 +23399,10 @@ msgstr ""
 msgid "successful"
 msgstr ""
 
+#: enigma2-plugin-vps/src_py/Vps_check.py:283
+msgid "supported"
+msgstr ""
+
 #: enigma2-plugins/quickbutton/src/plugin.py:140
 #: enigma2-plugins/quickbutton/src/plugin.py:225
 #: enigma2-plugins/quickbutton/src/plugin.py:273
@@ -23536,6 +23573,7 @@ msgid "under the WLAN"
 msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:153
+#: enigma2-plugin-vps/src_py/Vps_check.py:287
 msgid "unknown"
 msgstr ""
 
@@ -23781,13 +23819,13 @@ msgid "{title:s}"
 msgstr ""
 
 #: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
-msgid "Add season and episode information to Your recordings."
-msgstr ""
-
-#: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
 msgid ""
 "Automatically search and add season and episode information to Your timer "
 "and recordings."
+msgstr ""
+
+#: e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml./e2openplugin-SeriesPlugin/meta/plugin_seriesplugin.xml
+msgid "Add season and episode information to Your recordings."
 msgstr ""
 
 #: enigma2-plugin-partnerbox/meta/plugin_partnerbox.xml./enigma2-plugin-partnerbox/meta/plugin_partnerbox.xml
@@ -23821,29 +23859,29 @@ msgid "A native client for the Stalker Middleware streaming server"
 msgstr ""
 
 #: enigma2-plugin-vlcplayer/meta/plugin_vlcplayer.xml./enigma2-plugin-vlcplayer/meta/plugin_vlcplayer.xml
-msgid "Play videos from PC on your Dreambox"
-msgstr ""
-
-#: enigma2-plugin-vlcplayer/meta/plugin_vlcplayer.xml./enigma2-plugin-vlcplayer/meta/plugin_vlcplayer.xml
 msgid ""
 "Enigma2 Plugin to play AVI/DIVX/WMV/etc. videos from PC on your Dreambox. "
 "Needs a running VLC from www.videolan.org on your pc."
 msgstr ""
 
-#: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
-msgid "Fetch and display remote text files via HTTP"
+#: enigma2-plugin-vlcplayer/meta/plugin_vlcplayer.xml./enigma2-plugin-vlcplayer/meta/plugin_vlcplayer.xml
+msgid "Play videos from PC on your Dreambox"
 msgstr ""
 
 #: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
 msgid "Remote file display"
 msgstr ""
 
-#: enigma2-plugin-babelzapper/meta/plugin_babelzapper.xml./enigma2-plugin-babelzapper/meta/plugin_babelzapper.xml
-msgid "Control your dreambox with only the MUTE button."
+#: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
+msgid "Fetch and display remote text files via HTTP"
 msgstr ""
 
 #: enigma2-plugin-babelzapper/meta/plugin_babelzapper.xml./enigma2-plugin-babelzapper/meta/plugin_babelzapper.xml
 msgid "Control your dreambox with only the MUTE button"
+msgstr ""
+
+#: enigma2-plugin-babelzapper/meta/plugin_babelzapper.xml./enigma2-plugin-babelzapper/meta/plugin_babelzapper.xml
+msgid "Control your dreambox with only the MUTE button."
 msgstr ""
 
 #: enigma2-plugin-bitrateviewer/meta/plugin_bitrateviewer.xml./enigma2-plugin-bitrateviewer/meta/plugin_bitrateviewer.xml
@@ -23901,11 +23939,11 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/dvdbackup/meta/plugin_dvdbackup.xml./enigma2-plugins/dvdbackup/meta/plugin_dvdbackup.xml
-msgid "Create a backup of your Video-DVD"
+msgid "Create a backup of your Video DVD on your DreamBox hard drive."
 msgstr ""
 
 #: enigma2-plugins/dvdbackup/meta/plugin_dvdbackup.xml./enigma2-plugins/dvdbackup/meta/plugin_dvdbackup.xml
-msgid "Create a backup of your Video DVD on your DreamBox hard drive."
+msgid "Create a backup of your Video-DVD"
 msgstr ""
 
 #: enigma2-plugins/dyndns/meta/plugin_dyndns.xml./enigma2-plugins/dyndns/meta/plugin_dyndns.xml
@@ -23923,35 +23961,35 @@ msgid "Displays Movie Information from the InternetMovieDatabase"
 msgstr ""
 
 #: enigma2-plugins/webinterface/meta/plugin_webinterface.xml./enigma2-plugins/webinterface/meta/plugin_webinterface.xml
-msgid "Control your Dreambox with your Web browser."
-msgstr ""
-
-#: enigma2-plugins/webinterface/meta/plugin_webinterface.xml./enigma2-plugins/webinterface/meta/plugin_webinterface.xml
 msgid "Control your Dreambox with your browser"
 msgstr ""
 
-#: enigma2-plugins/virtualzap/meta/plugin_virtualzap.xml./enigma2-plugins/virtualzap/meta/plugin_virtualzap.xml
-msgid "See service-epg (and PiP) from other channels in an infobar."
+#: enigma2-plugins/webinterface/meta/plugin_webinterface.xml./enigma2-plugins/webinterface/meta/plugin_webinterface.xml
+msgid "Control your Dreambox with your Web browser."
 msgstr ""
 
 #: enigma2-plugins/virtualzap/meta/plugin_virtualzap.xml./enigma2-plugins/virtualzap/meta/plugin_virtualzap.xml
 msgid "see service-epg (and PiP) from channels in an infobar"
 msgstr ""
 
-#: enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml./enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml
-msgid "ZapStatistic shows the watched services with some statistics."
+#: enigma2-plugins/virtualzap/meta/plugin_virtualzap.xml./enigma2-plugins/virtualzap/meta/plugin_virtualzap.xml
+msgid "See service-epg (and PiP) from other channels in an infobar."
 msgstr ""
 
 #: enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml./enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml
 msgid "Shows statistics of watched services"
 msgstr ""
 
-#: enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml./enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml
-msgid "Select your skin theme."
+#: enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml./enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml
+msgid "ZapStatistic shows the watched services with some statistics."
 msgstr ""
 
 #: enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml./enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml
 msgid "Select your skin theme"
+msgstr ""
+
+#: enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml./enigma2-plugins/merlinskinthemes/meta/plugin_merlinskinthemes.xml
+msgid "Select your skin theme."
 msgstr ""
 
 #: enigma2-plugins/weatherplugin/meta/plugin_weatherplugin.xml./enigma2-plugins/weatherplugin/meta/plugin_weatherplugin.xml
@@ -23974,10 +24012,6 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/elektro/meta/plugin_elektro.xml./enigma2-plugins/elektro/meta/plugin_elektro.xml
-msgid "Shuts down your Dreambox into Deep Standby (Power Save Mode)"
-msgstr ""
-
-#: enigma2-plugins/elektro/meta/plugin_elektro.xml./enigma2-plugins/elektro/meta/plugin_elektro.xml
 msgid ""
 "The Elektro Power Save Plugin puts the box from Standby to sleep mode (Deep "
 "Standby) at specified times.\n"
@@ -23985,6 +24019,10 @@ msgid ""
 "scheduled during the next 20 minutes.\n"
 "The box automatically wakes up for recordings or at the end of the specified "
 "sleep time. Hence you needn't wait for it to boot-up."
+msgstr ""
+
+#: enigma2-plugins/elektro/meta/plugin_elektro.xml./enigma2-plugins/elektro/meta/plugin_elektro.xml
+msgid "Shuts down your Dreambox into Deep Standby (Power Save Mode)"
 msgstr ""
 
 #: enigma2-plugins/audiosync/meta/plugin_audiosync.xml./enigma2-plugins/audiosync/meta/plugin_audiosync.xml
@@ -23998,11 +24036,11 @@ msgid "Set Bitstream/PCM audio delays"
 msgstr ""
 
 #: enigma2-plugins/letterbox/meta/plugin_letterbox.xml./enigma2-plugins/letterbox/meta/plugin_letterbox.xml
-msgid "Zoom into letterboxed/anamorph movies."
+msgid "Zoom into letterboxed/anamorph movies"
 msgstr ""
 
 #: enigma2-plugins/letterbox/meta/plugin_letterbox.xml./enigma2-plugins/letterbox/meta/plugin_letterbox.xml
-msgid "Zoom into letterboxed/anamorph movies"
+msgid "Zoom into letterboxed/anamorph movies."
 msgstr ""
 
 #: enigma2-plugins/internetradio/meta/plugin_internetradio.xml./enigma2-plugins/internetradio/meta/plugin_internetradio.xml
@@ -24018,13 +24056,17 @@ msgid "KiddyTimer allows to control your kids's daily tv usage."
 msgstr ""
 
 #: enigma2-plugins/autotimer/meta/plugin_autotimer.xml./enigma2-plugins/autotimer/meta/plugin_autotimer.xml
-msgid "Automatically create timer events based on keywords"
-msgstr ""
-
-#: enigma2-plugins/autotimer/meta/plugin_autotimer.xml./enigma2-plugins/autotimer/meta/plugin_autotimer.xml
 msgid ""
 "AutoTimer scans the EPG and creates Timers depending on user-defined search  "
 "criteria."
+msgstr ""
+
+#: enigma2-plugins/autotimer/meta/plugin_autotimer.xml./enigma2-plugins/autotimer/meta/plugin_autotimer.xml
+msgid "Automatically create timer events based on keywords"
+msgstr ""
+
+#: enigma2-plugins/pluginhider/meta/plugin_pluginhider.xml./enigma2-plugins/pluginhider/meta/plugin_pluginhider.xml
+msgid "Hide Plugin from Plugin or Extensionsmenu."
 msgstr ""
 
 #: enigma2-plugins/pluginhider/meta/plugin_pluginhider.xml./enigma2-plugins/pluginhider/meta/plugin_pluginhider.xml
@@ -24033,10 +24075,6 @@ msgid ""
 "Extensions- or Pluginmenu without having to modify the source code of the "
 "respective plugin.After installation you find the settings as \"Hide Plugins"
 "\" under Setup / System."
-msgstr ""
-
-#: enigma2-plugins/pluginhider/meta/plugin_pluginhider.xml./enigma2-plugins/pluginhider/meta/plugin_pluginhider.xml
-msgid "Hide Plugin from Plugin or Extensionsmenu."
 msgstr ""
 
 #: enigma2-plugins/emailclient/meta/plugin_emailclient.xml./enigma2-plugins/emailclient/meta/plugin_emailclient.xml
@@ -24048,11 +24086,11 @@ msgid "Emailclient is an IMAP4 e-mail viewer for the Dreambox."
 msgstr ""
 
 #: enigma2-plugins/mediadownloader/meta/plugin_mediadownloader.xml./enigma2-plugins/mediadownloader/meta/plugin_mediadownloader.xml
-msgid "To be used as simple downloading application by other Plugins."
+msgid "A simple downloading application for other plugins"
 msgstr ""
 
 #: enigma2-plugins/mediadownloader/meta/plugin_mediadownloader.xml./enigma2-plugins/mediadownloader/meta/plugin_mediadownloader.xml
-msgid "A simple downloading application for other plugins"
+msgid "To be used as simple downloading application by other Plugins."
 msgstr ""
 
 #: enigma2-plugins/streamserverseek/meta/plugin_streamserverseek.xml./enigma2-plugins/streamserverseek/meta/plugin_streamserverseek.xml
@@ -24074,19 +24112,19 @@ msgid "Skip intro"
 msgstr ""
 
 #: enigma2-plugins/pipservicerelation/meta/plugin_pipservicerelation.xml./enigma2-plugins/pipservicerelation/meta/plugin_pipservicerelation.xml
-msgid "Define a related pip service"
-msgstr ""
-
-#: enigma2-plugins/pipservicerelation/meta/plugin_pipservicerelation.xml./enigma2-plugins/pipservicerelation/meta/plugin_pipservicerelation.xml
 msgid "Define a related pip service "
 msgstr ""
 
-#: enigma2-plugins/mosaic/meta/plugin_mosaic.xml./enigma2-plugins/mosaic/meta/plugin_mosaic.xml
-msgid "Preview screenshots of running tv shows"
+#: enigma2-plugins/pipservicerelation/meta/plugin_pipservicerelation.xml./enigma2-plugins/pipservicerelation/meta/plugin_pipservicerelation.xml
+msgid "Define a related pip service"
 msgstr ""
 
 #: enigma2-plugins/mosaic/meta/plugin_mosaic.xml./enigma2-plugins/mosaic/meta/plugin_mosaic.xml
 msgid "Preview screenshots of running tv shows."
+msgstr ""
+
+#: enigma2-plugins/mosaic/meta/plugin_mosaic.xml./enigma2-plugins/mosaic/meta/plugin_mosaic.xml
+msgid "Preview screenshots of running tv shows"
 msgstr ""
 
 #: enigma2-plugins/podcast/meta/plugin_podcast.xml./enigma2-plugins/podcast/meta/plugin_podcast.xml
@@ -24108,11 +24146,11 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/seekbar/meta/plugin_seekbar.xml./enigma2-plugins/seekbar/meta/plugin_seekbar.xml
-msgid "Replace the minute input for the seek functions with a seekbar."
+msgid "Replace the rewind  input with a seekbar"
 msgstr ""
 
 #: enigma2-plugins/seekbar/meta/plugin_seekbar.xml./enigma2-plugins/seekbar/meta/plugin_seekbar.xml
-msgid "Replace the rewind  input with a seekbar"
+msgid "Replace the minute input for the seek functions with a seekbar."
 msgstr ""
 
 #: enigma2-plugins/emission/meta/plugin_emission.xml./enigma2-plugins/emission/meta/plugin_emission.xml
@@ -24130,12 +24168,16 @@ msgid "A simple screensaver showing random photos"
 msgstr ""
 
 #: enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml./enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml
+msgid "Watch trailer out of EPG list/event view"
+msgstr ""
+
+#: enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml./enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml
 msgid ""
 "Watch movie trailers on YouTube, easily started out of EPG list/event view"
 msgstr ""
 
-#: enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml./enigma2-plugins/yttrailer/meta/plugin_yttrailer.xml
-msgid "Watch trailer out of EPG list/event view"
+#: enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml./enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml
+msgid "Download subtitle to any movie."
 msgstr ""
 
 #: enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml./enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml
@@ -24144,19 +24186,15 @@ msgid ""
 "best subtitle to video file (avi, mkv, mp4, mov, 3gp, other)."
 msgstr ""
 
-#: enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml./enigma2-plugins/subsdownloader2/meta/plugin_subsdownloader2.xml
-msgid "Download subtitle to any movie."
+#: enigma2-plugins/automaticcleanup/meta/plugin_automaticcleanup.xml./enigma2-plugins/automaticcleanup/meta/plugin_automaticcleanup.xml
+msgid ""
+"Cleanup timerlist, orphaned movie files and setting backups automatically."
 msgstr ""
 
 #: enigma2-plugins/automaticcleanup/meta/plugin_automaticcleanup.xml./enigma2-plugins/automaticcleanup/meta/plugin_automaticcleanup.xml
 msgid ""
 "Cleanup timerlist, orphaned movie files and setting backups automatically "
 "according to specfied rules."
-msgstr ""
-
-#: enigma2-plugins/automaticcleanup/meta/plugin_automaticcleanup.xml./enigma2-plugins/automaticcleanup/meta/plugin_automaticcleanup.xml
-msgid ""
-"Cleanup timerlist, orphaned movie files and setting backups automatically."
 msgstr ""
 
 #: enigma2-plugins/satipclient/meta/plugin_satipclient.xml./enigma2-plugins/satipclient/meta/plugin_satipclient.xml
@@ -24213,35 +24251,35 @@ msgid "Bonjour/Avahi control plugin."
 msgstr ""
 
 #: enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml./enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml
-msgid "Copy, rename, delete, move, show, play, install files."
-msgstr ""
-
-#: enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml./enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml
 msgid "Manage files on your Dreambox"
 msgstr ""
 
-#: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
-msgid "Ai.HD skin-style control plugin"
+#: enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml./enigma2-plugins/dreamexplorer/meta/plugin_dreamexplorer.xml
+msgid "Copy, rename, delete, move, show, play, install files."
 msgstr ""
 
 #: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
 msgid "First generate your skin-style with the Ai.HD-Control plugin."
 msgstr ""
 
-#: enigma2-plugins/webcamviewer/meta/plugin_webcamviewer.xml./enigma2-plugins/webcamviewer/meta/plugin_webcamviewer.xml
-msgid "With WebcamViewer you can watch webcams on your TV Screen."
+#: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
+msgid "Ai.HD skin-style control plugin"
 msgstr ""
 
 #: enigma2-plugins/webcamviewer/meta/plugin_webcamviewer.xml./enigma2-plugins/webcamviewer/meta/plugin_webcamviewer.xml
 msgid "Show webcam pictures on your TV Screen"
 msgstr ""
 
-#: enigma2-plugins/videocolorspace/meta/plugin_videocolorspace.xml./enigma2-plugins/videocolorspace/meta/plugin_videocolorspace.xml
-msgid "Setup color space"
+#: enigma2-plugins/webcamviewer/meta/plugin_webcamviewer.xml./enigma2-plugins/webcamviewer/meta/plugin_webcamviewer.xml
+msgid "With WebcamViewer you can watch webcams on your TV Screen."
 msgstr ""
 
 #: enigma2-plugins/videocolorspace/meta/plugin_videocolorspace.xml./enigma2-plugins/videocolorspace/meta/plugin_videocolorspace.xml
 msgid "Setup color space for hdmi video output"
+msgstr ""
+
+#: enigma2-plugins/videocolorspace/meta/plugin_videocolorspace.xml./enigma2-plugins/videocolorspace/meta/plugin_videocolorspace.xml
+msgid "Setup color space"
 msgstr ""
 
 #: enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml./enigma2-plugins/twitchtv/meta/plugin_twitchtv.xml
@@ -24270,13 +24308,13 @@ msgid "Reminds you of birthdays"
 msgstr ""
 
 #: enigma2-plugins/ncidclient/meta/plugin_ncidclient.xml./enigma2-plugins/ncidclient/meta/plugin_ncidclient.xml
-msgid "Callmonitor for NCID-based call notification"
-msgstr ""
-
-#: enigma2-plugins/ncidclient/meta/plugin_ncidclient.xml./enigma2-plugins/ncidclient/meta/plugin_ncidclient.xml
 msgid ""
 "NCID Client shows incoming voice calls promoted by any NCID server (e.g. "
 "Vodafone Easybox) on your Dreambox."
+msgstr ""
+
+#: enigma2-plugins/ncidclient/meta/plugin_ncidclient.xml./enigma2-plugins/ncidclient/meta/plugin_ncidclient.xml
+msgid "Callmonitor for NCID-based call notification"
 msgstr ""
 
 #: enigma2-plugins/3dsettings/meta/plugin_3dsettings.xml./enigma2-plugins/3dsettings/meta/plugin_3dsettings.xml
@@ -24288,12 +24326,12 @@ msgid "Switch OSD from 2D to 3D and vice versa"
 msgstr ""
 
 #: enigma2-plugins/mytube/meta/plugin_mytube.xml./enigma2-plugins/mytube/meta/plugin_mytube.xml
-msgid ""
-"With MyTube you can play YouTube videos directly on your TV without a PC."
+msgid "Direct playback of Youtube videos"
 msgstr ""
 
 #: enigma2-plugins/mytube/meta/plugin_mytube.xml./enigma2-plugins/mytube/meta/plugin_mytube.xml
-msgid "Direct playback of Youtube videos"
+msgid ""
+"With MyTube you can play YouTube videos directly on your TV without a PC."
 msgstr ""
 
 #: enigma2-plugins/startupservice/meta/plugin_startupservice.xml./enigma2-plugins/startupservice/meta/plugin_startupservice.xml
@@ -24325,10 +24363,6 @@ msgid "A python based HDMI-CEC plugin"
 msgstr ""
 
 #: enigma2-plugins/showclock/meta/plugin_showclock.xml./enigma2-plugins/showclock/meta/plugin_showclock.xml
-msgid "Push key \"Exit long\" to show the clock while watching TV."
-msgstr ""
-
-#: enigma2-plugins/showclock/meta/plugin_showclock.xml./enigma2-plugins/showclock/meta/plugin_showclock.xml
 msgid ""
 "Push key \"Exit long\" to show the clock while watching TV. Clock will "
 "disappear after the specified timeout or by pushing key \"Exit long\" "
@@ -24337,8 +24371,8 @@ msgid ""
 "select \"Move clock\" and relocate."
 msgstr ""
 
-#: enigma2-plugins/svdrp/meta/plugin_svdrp.xml./enigma2-plugins/svdrp/meta/plugin_svdrp.xml
-msgid "SVDRP server for Enigma2"
+#: enigma2-plugins/showclock/meta/plugin_showclock.xml./enigma2-plugins/showclock/meta/plugin_showclock.xml
+msgid "Push key \"Exit long\" to show the clock while watching TV."
 msgstr ""
 
 #: enigma2-plugins/svdrp/meta/plugin_svdrp.xml./enigma2-plugins/svdrp/meta/plugin_svdrp.xml
@@ -24352,8 +24386,8 @@ msgid ""
 "for Enigma2 instead."
 msgstr ""
 
-#: enigma2-plugins/movielistpreview/meta/plugin_movielistpreview.xml./enigma2-plugins/movielistpreview/meta/plugin_movielistpreview.xml
-msgid "Create preview pictures of your Movies"
+#: enigma2-plugins/svdrp/meta/plugin_svdrp.xml./enigma2-plugins/svdrp/meta/plugin_svdrp.xml
+msgid "SVDRP server for Enigma2"
 msgstr ""
 
 #: enigma2-plugins/movielistpreview/meta/plugin_movielistpreview.xml./enigma2-plugins/movielistpreview/meta/plugin_movielistpreview.xml
@@ -24362,8 +24396,16 @@ msgid ""
 "the movielist."
 msgstr ""
 
+#: enigma2-plugins/movielistpreview/meta/plugin_movielistpreview.xml./enigma2-plugins/movielistpreview/meta/plugin_movielistpreview.xml
+msgid "Create preview pictures of your Movies"
+msgstr ""
+
 #: enigma2-plugins/mphelp/meta/plugin_mphelp.xml./enigma2-plugins/mphelp/meta/plugin_mphelp.xml
 msgid "Reusable Help-component for other plugins."
+msgstr ""
+
+#: enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml./enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml
+msgid "set enigma2 to standby-mode after startup"
 msgstr ""
 
 #: enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml./enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml
@@ -24372,20 +24414,12 @@ msgid ""
 "standby-mode."
 msgstr ""
 
-#: enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml./enigma2-plugins/startuptostandby/meta/plugin_startuptostandby.xml
-msgid "set enigma2 to standby-mode after startup"
-msgstr ""
-
-#: enigma2-plugins/tageditor/meta/plugin_tageditor.xml./enigma2-plugins/tageditor/meta/plugin_tageditor.xml
-msgid "Edit tags of recorded movies"
-msgstr ""
-
 #: enigma2-plugins/tageditor/meta/plugin_tageditor.xml./enigma2-plugins/tageditor/meta/plugin_tageditor.xml
 msgid "Edit tags of recorded movies."
 msgstr ""
 
-#: enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml./enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml
-msgid "Get AudioCD info from CDDB and CD-Text"
+#: enigma2-plugins/tageditor/meta/plugin_tageditor.xml./enigma2-plugins/tageditor/meta/plugin_tageditor.xml
+msgid "Edit tags of recorded movies"
 msgstr ""
 
 #: enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml./enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml
@@ -24394,14 +24428,22 @@ msgid ""
 "playing Audio CDs in Mediaplayer."
 msgstr ""
 
+#: enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml./enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml
+msgid "Get AudioCD info from CDDB and CD-Text"
+msgstr ""
+
+#: enigma2-plugins/zaphistorybrowser/meta/plugin_zaphistorybrowser.xml./enigma2-plugins/zaphistorybrowser/meta/plugin_zaphistorybrowser.xml
+msgid "Shows a list of recent zap entries"
+msgstr ""
+
 #: enigma2-plugins/zaphistorybrowser/meta/plugin_zaphistorybrowser.xml./enigma2-plugins/zaphistorybrowser/meta/plugin_zaphistorybrowser.xml
 msgid ""
 "Shows a list containing the zapping-history and allows user to zap to the "
 "entries or to modify them."
 msgstr ""
 
-#: enigma2-plugins/zaphistorybrowser/meta/plugin_zaphistorybrowser.xml./enigma2-plugins/zaphistorybrowser/meta/plugin_zaphistorybrowser.xml
-msgid "Shows a list of recent zap entries"
+#: enigma2-plugins/growlee/meta/plugin_growlee.xml./enigma2-plugins/growlee/meta/plugin_growlee.xml
+msgid "Redirect notifications to Growl, Snarl, Prowl or Syslog"
 msgstr ""
 
 #: enigma2-plugins/growlee/meta/plugin_growlee.xml./enigma2-plugins/growlee/meta/plugin_growlee.xml
@@ -24411,29 +24453,25 @@ msgid ""
 "iPhone using prowl."
 msgstr ""
 
-#: enigma2-plugins/growlee/meta/plugin_growlee.xml./enigma2-plugins/growlee/meta/plugin_growlee.xml
-msgid "Redirect notifications to Growl, Snarl, Prowl or Syslog"
-msgstr ""
-
 #: enigma2-plugins/aspectratioswitch/meta/plugin_aspectratioswitch.xml./enigma2-plugins/aspectratioswitch/meta/plugin_aspectratioswitch.xml
 msgid "Setup Quickbuttons on your remote control to switch aspect ratio modes."
-msgstr ""
-
-#: enigma2-plugins/teletext/meta/plugin_teletext.xml./enigma2-plugins/teletext/meta/plugin_teletext.xml
-msgid "Teletext with caching pages."
 msgstr ""
 
 #: enigma2-plugins/teletext/meta/plugin_teletext.xml./enigma2-plugins/teletext/meta/plugin_teletext.xml
 msgid "Teletext with caching pages in the background."
 msgstr ""
 
-#: enigma2-plugins/quickbutton/meta/plugin_quickbutton.xml./enigma2-plugins/quickbutton/meta/plugin_quickbutton.xml
-msgid "assign long key-press on color buttons to plugins or E2 functions"
+#: enigma2-plugins/teletext/meta/plugin_teletext.xml./enigma2-plugins/teletext/meta/plugin_teletext.xml
+msgid "Teletext with caching pages."
 msgstr ""
 
 #: enigma2-plugins/quickbutton/meta/plugin_quickbutton.xml./enigma2-plugins/quickbutton/meta/plugin_quickbutton.xml
 msgid ""
 "assign long key-press (red/green/yellow/blue) to plugins or E2 functions."
+msgstr ""
+
+#: enigma2-plugins/quickbutton/meta/plugin_quickbutton.xml./enigma2-plugins/quickbutton/meta/plugin_quickbutton.xml
+msgid "assign long key-press on color buttons to plugins or E2 functions"
 msgstr ""
 
 #: enigma2-plugins/audiorestart/meta/plugin_audiorestart.xml./enigma2-plugins/audiorestart/meta/plugin_audiorestart.xml
@@ -24447,19 +24485,19 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/serienfilm/meta/plugin_serienfilm.xml./enigma2-plugins/serienfilm/meta/plugin_serienfilm.xml
-msgid "creates virtual series folders from episodes"
-msgstr ""
-
-#: enigma2-plugins/serienfilm/meta/plugin_serienfilm.xml./enigma2-plugins/serienfilm/meta/plugin_serienfilm.xml
 msgid "creates virtual series folders from sets of recorded episodes"
 msgstr ""
 
-#: enigma2-plugins/simplerss/meta/plugin_simplerss.xml./enigma2-plugins/simplerss/meta/plugin_simplerss.xml
-msgid "RSS viewer"
+#: enigma2-plugins/serienfilm/meta/plugin_serienfilm.xml./enigma2-plugins/serienfilm/meta/plugin_serienfilm.xml
+msgid "creates virtual series folders from episodes"
 msgstr ""
 
 #: enigma2-plugins/simplerss/meta/plugin_simplerss.xml./enigma2-plugins/simplerss/meta/plugin_simplerss.xml
 msgid "SimpleRSS allows reading RSS newsfeeds on your Dreambox."
+msgstr ""
+
+#: enigma2-plugins/simplerss/meta/plugin_simplerss.xml./enigma2-plugins/simplerss/meta/plugin_simplerss.xml
+msgid "RSS viewer"
 msgstr ""
 
 #: enigma2-plugins/movieretitle/meta/plugin_movieretitle.xml./enigma2-plugins/movieretitle/meta/plugin_movieretitle.xml
@@ -24492,37 +24530,37 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/permanentclock/meta/plugin_permanentclock.xml./enigma2-plugins/permanentclock/meta/plugin_permanentclock.xml
-msgid "PermanentClock shows the clock permanently on the screen."
-msgstr ""
-
-#: enigma2-plugins/permanentclock/meta/plugin_permanentclock.xml./enigma2-plugins/permanentclock/meta/plugin_permanentclock.xml
 msgid "Shows the clock permanently on the screen"
 msgstr ""
 
-#: enigma2-plugins/epgsearch/meta/plugin_epgsearch.xml./enigma2-plugins/epgsearch/meta/plugin_epgsearch.xml
-msgid "With EPGSearch you can search through the EPG and create timers."
+#: enigma2-plugins/permanentclock/meta/plugin_permanentclock.xml./enigma2-plugins/permanentclock/meta/plugin_permanentclock.xml
+msgid "PermanentClock shows the clock permanently on the screen."
 msgstr ""
 
 #: enigma2-plugins/epgsearch/meta/plugin_epgsearch.xml./enigma2-plugins/epgsearch/meta/plugin_epgsearch.xml
 msgid "Search through the EPG"
 msgstr ""
 
-#: enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml./enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml
-msgid "Copy, rename, delete, move local files on your Dreambox."
+#: enigma2-plugins/epgsearch/meta/plugin_epgsearch.xml./enigma2-plugins/epgsearch/meta/plugin_epgsearch.xml
+msgid "With EPGSearch you can search through the EPG and create timers."
 msgstr ""
 
 #: enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml./enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml
 msgid "Manage local files"
 msgstr ""
 
-#: enigma2-plugins/pluginsort/meta/plugin_pluginsort.xml./enigma2-plugins/pluginsort/meta/plugin_pluginsort.xml
-msgid "Sort Plugins in the PluginBrowser."
+#: enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml./enigma2-plugins/filebrowser/meta/plugin_filebrowser.xml
+msgid "Copy, rename, delete, move local files on your Dreambox."
 msgstr ""
 
 #: enigma2-plugins/pluginsort/meta/plugin_pluginsort.xml./enigma2-plugins/pluginsort/meta/plugin_pluginsort.xml
 msgid ""
 "This Plugin modifies the original PluginBrowser so you can move Plugins "
 "around."
+msgstr ""
+
+#: enigma2-plugins/pluginsort/meta/plugin_pluginsort.xml./enigma2-plugins/pluginsort/meta/plugin_pluginsort.xml
+msgid "Sort Plugins in the PluginBrowser."
 msgstr ""
 
 #: enigma2-plugins/ftpbrowser/meta/plugin_ftpbrowser.xml./enigma2-plugins/ftpbrowser/meta/plugin_ftpbrowser.xml
@@ -24546,21 +24584,21 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/autoresolution/meta/plugin_autoresolution.xml./enigma2-plugins/autoresolution/meta/plugin_autoresolution.xml
+msgid "Automatically change video resolution"
+msgstr ""
+
+#: enigma2-plugins/autoresolution/meta/plugin_autoresolution.xml./enigma2-plugins/autoresolution/meta/plugin_autoresolution.xml
 msgid ""
 "Automatically changes the output resolution depending on the video "
 "resolution you are watching."
 msgstr ""
 
-#: enigma2-plugins/autoresolution/meta/plugin_autoresolution.xml./enigma2-plugins/autoresolution/meta/plugin_autoresolution.xml
-msgid "Automatically change video resolution"
+#: enigma2-plugins/eparted/meta/plugin_eparted.xml./enigma2-plugins/eparted/meta/plugin_eparted.xml
+msgid "eParted manipulates partition tables"
 msgstr ""
 
 #: enigma2-plugins/eparted/meta/plugin_eparted.xml./enigma2-plugins/eparted/meta/plugin_eparted.xml
 msgid "Partition tool"
-msgstr ""
-
-#: enigma2-plugins/eparted/meta/plugin_eparted.xml./enigma2-plugins/eparted/meta/plugin_eparted.xml
-msgid "eParted manipulates partition tables"
 msgstr ""
 
 #: enigma2-plugins/satloader/meta/plugin_satloader.xml./enigma2-plugins/satloader/meta/plugin_satloader.xml
@@ -24600,16 +24638,16 @@ msgid "Allows to zap using the picture in picture."
 msgstr ""
 
 #: enigma2-plugins/movieepg/meta/plugin_movieepg.xml./enigma2-plugins/movieepg/meta/plugin_movieepg.xml
-msgid "Access the EPG from within the Movie Player"
-msgstr ""
-
-#: enigma2-plugins/movieepg/meta/plugin_movieepg.xml./enigma2-plugins/movieepg/meta/plugin_movieepg.xml
 msgid ""
 "Allows you to access the service list and plugins requiring access to the "
 "service list (e.g. Graphical Multi EPG) from within the standard movie "
 "player.DO NOT install this plugin if you're using a nonstandard movie "
 "player, e.g. EMC. It will probably break and you might end up with a "
 "unusable movie player until you uninstall one of the conflicting plugins."
+msgstr ""
+
+#: enigma2-plugins/movieepg/meta/plugin_movieepg.xml./enigma2-plugins/movieepg/meta/plugin_movieepg.xml
+msgid "Access the EPG from within the Movie Player"
 msgstr ""
 
 #: enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml./enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml
@@ -24621,11 +24659,11 @@ msgid "TV Charts of all users"
 msgstr ""
 
 #: enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml./enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml
-msgid "GUI that allows user to change the ftp- / telnet password."
+msgid "GUI to change the ftp and telnet-password"
 msgstr ""
 
 #: enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml./enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml
-msgid "GUI to change the ftp and telnet-password"
+msgid "GUI that allows user to change the ftp- / telnet password."
 msgstr ""
 
 #: enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml./enigma2-plugins/fstabeditor/meta/plugin_fstabeditor.xml
@@ -24637,11 +24675,11 @@ msgid "Editor for fstab"
 msgstr ""
 
 #: enigma2-plugins/multirc/meta/plugin_multirc.xml./enigma2-plugins/multirc/meta/plugin_multirc.xml
-msgid "control multiple Dreamboxes with different RCs"
+msgid "Use and control multiple Dreamboxes with different RCs."
 msgstr ""
 
 #: enigma2-plugins/multirc/meta/plugin_multirc.xml./enigma2-plugins/multirc/meta/plugin_multirc.xml
-msgid "Use and control multiple Dreamboxes with different RCs."
+msgid "control multiple Dreamboxes with different RCs"
 msgstr ""
 
 #: enigma2-plugins/c3vocupdater/meta/plugin_c3vocupdater.xml./enigma2-plugins/c3vocupdater/meta/plugin_c3vocupdater.xml
@@ -24653,11 +24691,11 @@ msgid "Create and update c3voc stream bouquet for current events"
 msgstr ""
 
 #: enigma2-plugins/merlinepg/meta/plugin_merlinepg.xml./enigma2-plugins/merlinepg/meta/plugin_merlinepg.xml
-msgid "A graphical EPG interface."
+msgid "A graphical EPG interface"
 msgstr ""
 
 #: enigma2-plugins/merlinepg/meta/plugin_merlinepg.xml./enigma2-plugins/merlinepg/meta/plugin_merlinepg.xml
-msgid "A graphical EPG interface"
+msgid "A graphical EPG interface."
 msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/meta/plugin_merlinepgcenter.xml./enigma2-plugins/merlinepgcenter/meta/plugin_merlinepgcenter.xml
@@ -24669,12 +24707,12 @@ msgid "Web-Ipkg-Admin for PC"
 msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/meta/plugin_merlinmusicplayer.xml./enigma2-plugin-merlinmusicplayer/meta/plugin_merlinmusicplayer.xml
-msgid ""
-"Manage your music files in a database, play it with Merlin Music Player."
+msgid "Merlin Music Player and iDream"
 msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/meta/plugin_merlinmusicplayer.xml./enigma2-plugin-merlinmusicplayer/meta/plugin_merlinmusicplayer.xml
-msgid "Merlin Music Player and iDream"
+msgid ""
+"Manage your music files in a database, play it with Merlin Music Player."
 msgstr ""
 
 #: enigma2-plugin-moviecut/meta/plugin_moviecut.xml./enigma2-plugin-moviecut/meta/plugin_moviecut.xml
@@ -24714,11 +24752,11 @@ msgid "Browse for nfs/cifs shares and connect to them."
 msgstr ""
 
 #: enigma2-plugin-reconstructapsc/meta/plugin_reconstructapsc.xml./enigma2-plugin-reconstructapsc/meta/plugin_reconstructapsc.xml
-msgid "Reconstruct .ap and .sc files"
+msgid "Reconstruct missing or corrupt .ap and .sc files of recorded movies."
 msgstr ""
 
 #: enigma2-plugin-reconstructapsc/meta/plugin_reconstructapsc.xml./enigma2-plugin-reconstructapsc/meta/plugin_reconstructapsc.xml
-msgid "Reconstruct missing or corrupt .ap and .sc files of recorded movies."
+msgid "Reconstruct .ap and .sc files"
 msgstr ""
 
 #: enigma2-plugin-vps/meta/plugin_vps.xml./enigma2-plugin-vps/meta/plugin_vps.xml
