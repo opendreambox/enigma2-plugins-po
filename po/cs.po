@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-29 23:14+0000\n"
-"PO-Revision-Date: 2022-02-02 23:12+0000\n"
+"PO-Revision-Date: 2022-03-30 19:41+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
 "plugins/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 "X-POOTLE-MTIME: 1574591678.000000\n"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1346
@@ -201,7 +201,7 @@ msgstr " (bez výpočtu velikosti potisku)"
 
 #: MovieInfo.py:62 MovieInfo.py:66
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:683
 msgid " == Warning: global option 'save/check filter list is still active!! =="
@@ -1426,7 +1426,7 @@ msgstr "přidat časovač z EPG / filtru přes 'Info / EPG'"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:50
 msgid "Add VPS-check to channellist context menu"
-msgstr ""
+msgstr "přidat VPS kontrolu do kontext.menu seznamu kanálů"
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:328
 msgid "Add Web Channel"
@@ -2027,6 +2027,8 @@ msgid ""
 "An entry to check whether channel/channels in bouquet support VPS will be "
 "shown in context menu of channel list when activated"
 msgstr ""
+"Zadání kontroluje, zda kanál v sadě kanálů podporuje VPS, bude zobrazený v "
+"kontext.menu seznamu kanálů"
 
 #: MovieInfo.py:280 MovieInfo.py:303 MovieInfo.py:335
 msgid "An error occured! Internet connection broken?"
@@ -3112,6 +3114,10 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"Nelze uložit info o filmu a potisk :\n"
+"\n"
+"%s\n"
+"%s"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:463
 msgid ""
@@ -3601,7 +3607,7 @@ msgstr "kanály neodpovídají !"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:68
 msgid "Channels with VPS"
-msgstr ""
+msgstr "kanály s VPS"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1026
 msgid "Chap."
@@ -3641,7 +3647,7 @@ msgstr "kontrola časovače zda koresponduje s programy kanálů"
 #: enigma2-plugin-vps/src_py/plugin.py:137
 #: enigma2-plugin-vps/src_py/plugin.py:138
 msgid "Check VPS support"
-msgstr ""
+msgstr "kontrola podpory VPS"
 
 #: enigma2-plugin-reconstructapsc/src_py/plugin.py:36
 msgid "Check any running reconstruct process"
@@ -6112,7 +6118,7 @@ msgstr "info k videu"
 
 #: EnhancedMovieCenter.py:498
 msgid "Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "stáhnout balíček Mutagen pro audio meta-data"
 
 #: enigma2-plugins/mytube/src/plugin.py:481
 msgid "Download Video"
@@ -6385,7 +6391,7 @@ msgstr "EMC nápověda"
 
 #: EMCPlayList.py:154
 msgid "EMC Playlist"
-msgstr ""
+msgstr "EMC seznam přehrávek"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:154
 msgid "EMC Playlist - current playlist"
@@ -8375,6 +8381,11 @@ msgid ""
 "Files exists in current Playlist:\n"
 "%s"
 msgstr ""
+"Soubory přidané do akt.seznamu :\n"
+"%s\n"
+"\n"
+"Soubory existující v seznamu :\n"
+"%s"
 
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
@@ -9142,11 +9153,11 @@ msgstr "Informační modul_"
 
 #: EnhancedMovieCenter.py:488
 msgid "HELP_Advanced Skin options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů skinů_"
 
 #: EnhancedMovieCenter.py:492
 msgid "HELP_Advanced audio metadata options separator"
-msgstr ""
+msgstr "Rozšířené možnosti oddělovačů metadat audia_"
 
 #: EnhancedMovieCenter.py:480 EnhancedMovieCenter.py:485
 #: EnhancedMovieCenter.py:511
@@ -9263,7 +9274,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:498
 msgid "HELP_Download Mutagen-package for audio metadata"
-msgstr ""
+msgstr "Stahování balíčku Mutagen pro audio metadata_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
@@ -9429,7 +9440,7 @@ msgstr "Změna vzhledu boxu podle skinu nebo EMC_"
 
 #: EnhancedMovieCenter.py:391
 msgid "HELP_Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:350
 msgid "HELP_Long Blue button function"
@@ -9594,7 +9605,7 @@ msgstr "Zobrazení audio meta-dat v seznamu videa_"
 
 #: EnhancedMovieCenter.py:504
 msgid "HELP_Show audio metadata (needs skin-changes)"
-msgstr ""
+msgstr "Zobrazení metadat audia (nutná změna skinu)_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:370
 msgid "HELP_Show directories"
@@ -9714,7 +9725,7 @@ msgstr ""
 
 #: EnhancedMovieCenter.py:509
 msgid "HELP_Upgrade/Download Mutagen v1.28(experimental)"
-msgstr ""
+msgstr "Stáhnout nebo aktualizovat Mutagen v1.28 (experiment)_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:385
 msgid "HELP_Use cache for files and directories"
@@ -10607,7 +10618,7 @@ msgstr "instalovat >>"
 
 #: EnhancedMovieCenter.py:550 EnhancedMovieCenter.py:552
 msgid "Install Mutagen-package"
-msgstr ""
+msgstr "instalovat balíček Mutagen"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "Install Mutagen-package for audio metadata"
@@ -10885,7 +10896,7 @@ msgstr "posledních 10 hovorů v režimu spánku :\n"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:185
 msgid "Last checked on"
-msgstr ""
+msgstr "naposledy zkontrolováno"
 
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:74
 #, python-format
@@ -11116,7 +11127,7 @@ msgstr "načíst webové kanály pro sadu kanálů"
 
 #: EnhancedMovieCenter.py:391
 msgid "Load all for non showing titles from .meta files"
-msgstr ""
+msgstr "Načíst všechny nezobrazené tituly ze souboru.meta_"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:644
 msgid "Load default settings will overwrite all settings, really load them?"
@@ -13166,7 +13177,7 @@ msgstr "-nic-"
 
 #: enigma2-plugins/c3vocupdater/src/plugin.py:62
 msgid "Nothing changed or no streams available. Please retry later!"
-msgstr ""
+msgstr "Nic nezměnilo ani žádné streamy. Opakujte později !"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:708
 #, python-format
@@ -17822,7 +17833,7 @@ msgstr "zobrazit audio metadata"
 
 #: EnhancedMovieCenter.py:504
 msgid "Show audio metadata (needs skin-changes)"
-msgstr ""
+msgstr "zobrazit audio metadata (nutná změna skinu)"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:211
 msgid "Show begin/remain times:"
@@ -19472,7 +19483,7 @@ msgstr "Přepíná OSD mezi 2D a 3D"
 
 #: MovieInfo.py:723
 msgid "Switch complete to new Version"
-msgstr ""
+msgstr "přepnout na novou verzi"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:102
 msgid "Switch to next configured page URL"
@@ -21374,7 +21385,7 @@ msgstr "Aktualizuji, čekejte..."
 
 #: EnhancedMovieCenter.py:509
 msgid "Upgrade/Download Mutagen v1.28(experimental)"
-msgstr ""
+msgstr "stáhnout/aktualizovat Mutagen v1.28 (experimental)"
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:204
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:286
@@ -23511,7 +23522,7 @@ msgstr "...kopíruji soubor..."
 #: EMCCoverSearch.py:851 EMCCoverSearch.py:854 EMCCoverSearch.py:872
 #: EMCCoverSearch.py:895
 msgid "covers"
-msgstr ""
+msgstr "obaly"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:940
 msgid "covers in"
@@ -23996,7 +24007,7 @@ msgstr "Dokončení vyvolání vzdálených dat..."
 
 #: enigma2-plugin-vps/src_py/Vps_check.py:296
 msgid "finished"
-msgstr ""
+msgstr "dokončeno"
 
 #: enigma2-plugins/autotimer/src/AutoTimer.py:728
 #, python-format
@@ -24810,7 +24821,7 @@ msgstr "není k dispozici"
 
 #: enigma2-plugin-vps/src_py/Vps_check.py:285
 msgid "not supported"
-msgstr ""
+msgstr "není podporováno"
 
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4406
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4454
@@ -25731,7 +25742,7 @@ msgstr "...úspěšné..."
 
 #: enigma2-plugin-vps/src_py/Vps_check.py:283
 msgid "supported"
-msgstr ""
+msgstr "podporováno"
 
 #: enigma2-plugins/quickbutton/src/plugin.py:140
 #: enigma2-plugins/quickbutton/src/plugin.py:225
@@ -25774,7 +25785,7 @@ msgstr "příkaz není > 0"
 
 #: EMCCoverSearch.py:705
 msgid "themoviedb cover resolution:"
-msgstr ""
+msgstr "rozlišení potisku z themoviedb :"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "themoviedb.org"
