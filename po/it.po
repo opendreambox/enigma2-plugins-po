@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-01 23:13+0000\n"
-"PO-Revision-Date: 2022-03-28 19:37+0000\n"
+"PO-Revision-Date: 2022-04-02 18:59+0000\n"
 "Last-Translator: Dario Croci <spaeleus@croci.org>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .../enigma2-plugins/3dsettings\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -1421,7 +1421,7 @@ msgstr "Aggiungere timer da EPG / Filtrare con il tasto 'Info/EPG'"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:50
 msgid "Add VPS-check to channellist context menu"
-msgstr ""
+msgstr "Aggiungere il controllo VPS al menu contestuale di elenco canali"
 
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:328
 msgid "Add Web Channel"
@@ -2046,6 +2046,8 @@ msgid ""
 "An entry to check whether channel/channels in bouquet support VPS will be "
 "shown in context menu of channel list when activated"
 msgstr ""
+"Se attivato, nel menu contestuale elenco canali verrà mostrata una voce per "
+"verificare se i canali del bouquet supportano VPS"
 
 msgid "An error occured! Internet connection broken?"
 msgstr "Si è verificato un errore: connessione internet assente?"
@@ -3625,7 +3627,7 @@ msgstr "I canali non sono abbinati"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:68
 msgid "Channels with VPS"
-msgstr ""
+msgstr "Canale con VPS"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1026
 msgid "Chap."
@@ -3664,7 +3666,7 @@ msgstr "Controllare i Timer per gli eventi EPG corrispondenti"
 #: enigma2-plugin-vps/src_py/plugin.py:137
 #: enigma2-plugin-vps/src_py/plugin.py:138
 msgid "Check VPS support"
-msgstr ""
+msgstr "Verificare il supporto VPS"
 
 #: enigma2-plugin-reconstructapsc/src_py/plugin.py:36
 msgid "Check any running reconstruct process"
@@ -11067,7 +11069,7 @@ msgstr "Ultime 10 chiamate:\n"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:185
 msgid "Last checked on"
-msgstr ""
+msgstr "Ultima verifica il"
 
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:74
 #, python-format
@@ -11554,7 +11556,7 @@ msgid "Main bouquet for channel editor"
 msgstr "Bouquet principale per editor"
 
 msgid "Make it more skin friendly"
-msgstr ""
+msgstr "Favorire l'utilizzo delle skin"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:193
 msgid "Manage Cover"
@@ -12199,7 +12201,7 @@ msgstr "Editor mount"
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1074
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1199
 msgid "Move"
-msgstr "Sposta"
+msgstr "Spostare"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1037
 msgid "Move Cover to:"
@@ -23325,11 +23327,11 @@ msgstr "Aggiungere canale Partnerbox"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:43
 msgid "add Plugin to Extensionmenu"
-msgstr "aggiungere il plugin al menu estensioni"
+msgstr "Aggiungere il plugin al menu estensioni"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:42
 msgid "add Plugin to Mainmenu"
-msgstr "aggiungere il plugin al menu principale"
+msgstr "Aggiungere il plugin al menu principale"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:521
 msgid "add filters"
@@ -24238,7 +24240,7 @@ msgstr "termine recupero dati remoti..."
 
 #: enigma2-plugin-vps/src_py/Vps_check.py:296
 msgid "finished"
-msgstr ""
+msgstr "Terminata"
 
 #: enigma2-plugins/autotimer/src/AutoTimer.py:728
 #, python-format
@@ -25037,7 +25039,7 @@ msgstr "Non trovato"
 
 #: enigma2-plugin-vps/src_py/Vps_check.py:285
 msgid "not supported"
-msgstr ""
+msgstr "Non supportato"
 
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4406
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4454
@@ -25581,7 +25583,7 @@ msgstr "salvare"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:44
 msgid "save Filesystemposition on exit"
-msgstr "salvare posizione filesystem all'uscita"
+msgstr "Salvare posizione filesystem all'uscita"
 
 #. TRANSLATORS: keep it short, this is a help text
 #: enigma2-plugin-fritzcall/src/plugin.py:2107
@@ -25953,7 +25955,7 @@ msgstr "con successo"
 
 #: enigma2-plugin-vps/src_py/Vps_check.py:283
 msgid "supported"
-msgstr ""
+msgstr "Supportato"
 
 #: enigma2-plugins/quickbutton/src/plugin.py:140
 #: enigma2-plugins/quickbutton/src/plugin.py:225
