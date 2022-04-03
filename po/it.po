@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-02 23:13+0000\n"
-"PO-Revision-Date: 2022-04-02 18:59+0000\n"
+"PO-Revision-Date: 2022-04-03 09:13+0000\n"
 "Last-Translator: Dario Croci <spaeleus@croci.org>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
 "plugins/it/>\n"
@@ -371,7 +371,7 @@ msgid ""
 "Press OK to close."
 msgstr ""
 "File aggiunti al database: %d.\n"
-"OK >> chiudere."
+"Premete OK per chiudere."
 
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:217
 #: enigma2-plugins/emission/src/EmissionDetailview.py:231
@@ -3657,7 +3657,7 @@ msgstr "Verificare"
 
 #: enigma2-plugins/elektro/src/plugin.py:451
 msgid "Check IPs (press OK to edit)"
-msgstr "Verificare IP (Ok >> Modificare)"
+msgstr "Verificare IP (Premere OK per modificare)"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:243
 msgid "Check Timer for corresponding EPG events"
@@ -7839,7 +7839,7 @@ msgstr "Uscire senza salvare"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:148
 msgid "Expert"
-msgstr "Avanzata"
+msgstr "Ricerca avanzata"
 
 #: enigma2-plugins/cec/src/CecConfig.py:103
 msgid "Expert options"
@@ -9334,7 +9334,7 @@ msgstr "Determinare la directory di output del debug di EMC"
 msgid "HELP_EMC path access limit"
 msgstr ""
 "Limitare la possibilità di navigare all'indietro nelle directory, a partire "
-"dalla home video. Tuttavia, tramite 'MENU' >> 'Directory superiore' sarà "
+"dalla home video. Tuttavia, tramite \"MENU\" >> \"Directory superiore\" sarà "
 "possibile continuare a navigare all'indietro, superando questo limite"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:449
@@ -10415,7 +10415,7 @@ msgid ""
 "the programme begins earlier. (0 disables feature)"
 msgstr ""
 "Se possibile, VPS verificherà X minuti prima dell'avvio di un timer se il "
-"programma inizi in anticipo (0 >> disabilitare la funzione)"
+"programma inizi in anticipo (0 = disabilitare la funzione)"
 
 #: enigma2-plugins/elektro/src/plugin.py:440
 msgid ""
@@ -10985,7 +10985,7 @@ msgstr "Tasto %(key)s (valore corrente: %(value)i ms)"
 
 #: enigma2-plugins/serienfilm/src/SerienFilm.py:112
 msgid "Key 0 provides special chracters, key 1 blank"
-msgstr "0 >> caratteri speciali, 1 >> spazio"
+msgstr "Tasto 0 = caratteri speciali, tasto 1 = spazio"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:39
 msgid "Key Help"
@@ -11556,7 +11556,7 @@ msgid "Main bouquet for channel editor"
 msgstr "Bouquet principale per editor"
 
 msgid "Make it more skin friendly"
-msgstr ""
+msgstr "Fevorire l'utilizzo delle skin"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:193
 msgid "Manage Cover"
@@ -12664,7 +12664,7 @@ msgstr ""
 
 #: enigma2-plugins/elektro/src/plugin.py:453
 msgid "NAS Poweroff (press OK to edit)"
-msgstr "Spegnimento NAS (Ok >> modificare)"
+msgstr "Spegnimento NAS (Premere OK per modificare)"
 
 #: enigma2-plugins/elektro/src/plugin.py:368
 msgid "NAS/Server Name or IP"
@@ -13175,10 +13175,10 @@ msgid "No previous file in this directory"
 msgstr "Nessun file precedente nella directory"
 
 msgid "No result from LDIF"
-msgstr "Ricerca in LDIF: nessun risultato!"
+msgstr "Nessun risultato in LDIF"
 
 msgid "No result from Outlook export"
-msgstr "Ricerca in Outlook  export: nessun risultato!"
+msgstr "Nessun risultato in Outlook exports"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:1429
 #: enigma2-plugins/fritzcall/src/plugin.py:1418
@@ -14238,7 +14238,7 @@ msgstr "Prestazione"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:192
 msgid "Period in hours (0=disabled)"
-msgstr "Periodo in ore (0 >> disabilitare)"
+msgstr "Periodo in ore (0 = disabilitato)"
 
 #: enigma2-plugins/permanentclock/src/plugin.py:27
 #: enigma2-plugins/permanentclock/src/plugin.py:141
@@ -14614,16 +14614,16 @@ msgid ""
 "Please make sure to set up your default storage device in menu -> setup -> "
 "system -> recording paths."
 msgstr ""
-"Impostare i dispositivi di archiviazione predefiniti in: Menu >> "
-"Impostazioni >> Sistema >> Percorso registrazioni."
+"Impostare i dispositivi di archiviazione predefiniti in: \"Menu\" >> "
+"\"Impostazioni\" >> \"Sistema\" >> \"Percorso registrazioni\"."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1148
 msgid ""
 "Please make sure to set up your storage devices with the storage management "
 "in menu -> setup -> system -> storage devices."
 msgstr ""
-"Impostare il dispositivo di archiviazione in: Menu >> Impostazioni >> "
-"Sistema >> Dispositivi di archiviazione."
+"Impostare il dispositivo di archiviazione in: \"Menu\" >> \"Impostazioni\" "
+">> \"Sistema\" >> \"Dispositivi di archiviazione\"."
 
 #: e2openplugin-SeriesPlugin/src/Identifiers/SerienServer.py:76
 msgid "Please open the Channel Editor and add the channel manually."
@@ -14768,8 +14768,8 @@ msgid ""
 "Please verify if your default storage device is attached or set up your "
 "default storage device in menu -> setup -> system -> recording paths."
 msgstr ""
-"Verificare che il dispositivo di archiviazione sia collegato o impostarlo "
-"in: Menu >> Impostazioni >> Sistema >> Percorso registrazioni."
+"Verificare che il dispositivo di archiviazione sia collegato o impostarlo in:"
+" \"Menu\" >> \"Impostazioni\" >> \"Sistema\" >> \"Percorso registrazioni\"."
 
 #: enigma2-plugins/mytube/src/plugin.py:433
 #, python-format
@@ -15041,15 +15041,15 @@ msgstr "Risoluzione preferita per le cover (se possibile):"
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:62
 msgid "Press OK to activate the settings."
-msgstr "Ok >> Attivare le impostazioni."
+msgstr "Premere OK per attivare le impostazioni."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:461
 msgid "Press OK to collapse this host"
-msgstr "OK >> Collassare l'host"
+msgstr "Premere OK per collassare l'host"
 
 #: enigma2-plugin-networkbrowser/src/UserManager.py:50
 msgid "Press OK to edit selected settings."
-msgstr "Ok >> Modificare la voce selezionata."
+msgstr "Premere OK per modificare l'impostazione selezionata."
 
 #: enigma2-plugin-networkbrowser/src/MountView.py:60
 msgid "Press OK to edit the settings."
@@ -15057,32 +15057,32 @@ msgstr "Premere OK per modificare le impostazioni."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:463
 msgid "Press OK to expand this host"
-msgstr "OK >> Espandere l'host"
+msgstr "Premere OK per espandere l'host"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:465
 msgid "Press OK to mount this share!"
-msgstr "Ok >> Eseguire il mount della condivisione."
+msgstr "Premere OK per eseguire il mount della condivisione."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:149
 msgid "Press OK to mount!"
-msgstr "Ok >> Eseguire il mount."
+msgstr "Premere OK per eseguire il mount."
 
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:81
 msgid "Press OK to save settings."
-msgstr "Ok >> Salvare impostazioni."
+msgstr "Premere OK per salvare le impostazioni."
 
 #: enigma2-plugins/pipservicerelation/src/plugin.py:195
 msgid "Press OK to select a related PiP service"
-msgstr "OK >> Associare canale alla PiP"
+msgstr "Premere OK per associare il canale alla PiP"
 
 #: enigma2-plugins/pipservicerelation/src/plugin.py:194
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentConfig.py:88
 msgid "Press OK to select a service"
-msgstr "OK >> Selezionare un canale"
+msgstr "Premere OK per selezionare un canale"
 
 #: enigma2-plugin-networkbrowser/src/MountManager.py:52
 msgid "Press OK to select."
-msgstr "Ok >> Selezionare."
+msgstr "Premere OK per selezionare."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:191
 msgid "Press green button to start search"
@@ -15090,15 +15090,15 @@ msgstr "Premere il tasto verde per avviare la ricerca"
 
 #: enigma2-plugins/satloader/src/plugin.py:231
 msgid "Press ok button to select bouquet"
-msgstr "Ok >> Selezionare un bouquet"
+msgstr "Premere OK per selezionare un bouquet"
 
 #: enigma2-plugins/satloader/src/plugin.py:360
 msgid "Press ok button to select satellite"
-msgstr "Ok >> Selezionare un satellite"
+msgstr "Premere OK per selezionare un satellite"
 
 #: enigma2-plugins/satloader/src/plugin.py:76
 msgid "Press ok or green button to install satellites.xml"
-msgstr "Verde o Ok >> Installare satellite.xml"
+msgstr "Premere VERDE/OK per installare satellites.xml"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:56
 #: enigma2-plugin-curlytx/src/CurlyTx.py:125
@@ -15196,7 +15196,7 @@ msgid ""
 msgstr ""
 "Processo interrotto.\n"
 " 0 file aggiunti al database.\n"
-"OK >> Chiudere."
+"Premere OK per chiudere."
 
 #: enigma2-plugin-reconstructapsc/src_py/plugin.py:104
 #, python-format
@@ -15271,7 +15271,7 @@ msgstr "Pubblicato"
 
 #: enigma2-plugins/showclock/src/plugin.py:71
 msgid "Push \"Exit\" long to show/hide clock"
-msgstr "Press. prolungata tasto EXIT >> Mostrare/Nascondere l'orologio"
+msgstr "Tasto EXIT (lungo) = Mostrare/Nascondere l'orologio"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:197
 msgid "Push errors"
@@ -17021,7 +17021,7 @@ msgid "Searching in LDIF..."
 msgstr "Ricerca in LDIF..."
 
 msgid "Searching in Outlook export..."
-msgstr "Ricerca in Outlook  export..."
+msgstr "Ricerca in Outlook export..."
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:236
 msgid "Searching your network. Please wait..."
@@ -22497,16 +22497,16 @@ msgid ""
 msgstr ""
 "Benvenuti in MyTube Youtube Player.\n"
 "\n"
-"BOUQUET+    >> Portare il fuoco sul campo ricerca -- BOUQUET-    >> Navigare "
+"BOUQUET+    = Portare il fuoco sul campo ricerca -- BOUQUET-    = Navigare "
 "tra le voci in elenco.\n"
 "\n"
-"Ok       >> riprodurre un filmato.\n"
+"Ok       = riprodurre un filmato.\n"
 "\n"
-"INFO   >> mostrare la descrizione del filmato.\n"
+"INFO   = mostrare la descrizione del filmato.\n"
 "\n"
-"MENU >> Informazioni aggiuntive.\n"
+"MENU = Informazioni aggiuntive.\n"
 "\n"
-"HELP   >> Mostrare di nuovo puesta pagina di aiuto."
+"HELP   = Mostrare di nuovo questa pagina di aiuto."
 
 #: enigma2-plugins/mytube/src/plugin.py:241
 msgid ""
@@ -22895,7 +22895,7 @@ msgid ""
 "You can control for how many days in the future timers are added. Set this "
 "to 0 to disable this feature."
 msgstr ""
-"Impostare per quanti giorni a venire i timer verranno aggiunti. 0 >> "
+"Impostare per quanti giorni a venire i timer verranno aggiunti. 0 = "
 "Disabilitare la funzione."
 
 #: enigma2-plugins/trackautoselect/meta/plugin_trackautoselect.xml./enigma2-plugins/trackautoselect/meta/plugin_trackautoselect.xml
@@ -23432,7 +23432,7 @@ msgstr "Ordine alfabetico"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:71
 msgid "alphabetic sort  (quick toggle by key 0)"
-msgstr "Ordine alfabetico (0 >> comm. rapida)"
+msgstr "Ordine alfabetico (0 = comm. rapida)"
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
 #: enigma2-plugins/movieepg/src/plugin.py:18
@@ -24618,11 +24618,11 @@ msgstr "Info elenco ed eventi: semplice"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:75
 msgid "list style compact with service  (quick toggle by key 8)"
-msgstr "Elenco compatto con canale (8 >> comm. rapida)"
+msgstr "Elenco compatto con canale (8 = comm. rapida)"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:76
 msgid "list style compact with tags  (quick toggle by key 8)"
-msgstr "Elenco compatto con etichette (8 >> comm. rapida)"
+msgstr "Elenco compatto con etichette (8 = comm. rapida)"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:74
 msgid "list style elaborately"
@@ -24630,7 +24630,7 @@ msgstr "Elenco standard"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:77
 msgid "list style single line  (key = service, 8 = tags)"
-msgstr "Elenco linea singola (5 >> canale, 8>> etich.)"
+msgstr "Elenco linea singola (5 = canale, 8 = etich.)"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:110
 msgid "list: off, event info: four parts"
@@ -25631,7 +25631,7 @@ msgid "search EPG"
 msgstr "Ricerca EPG"
 
 msgid "search EPG from history..."
-msgstr "Ricerca EPG nella cronologia"
+msgstr "Ricerca EPG nella cronologia..."
 
 #. TRANSLATORS: EPGSearch title in EventInfo dialog (requires the user to select an event to search for)
 #: enigma2-plugins/epgsearch/src/plugin.py:64
@@ -25893,7 +25893,7 @@ msgstr "Ordinare per data"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:69
 msgid "sort by date  (quick toggle by key 0)"
-msgstr "Ordine per data (0 >> commut. rapida)"
+msgstr "Ordine per data (0 = commut. rapida)"
 
 #: enigma2-plugins/teletext/src/plugin.py:234
 msgid "split screen"
