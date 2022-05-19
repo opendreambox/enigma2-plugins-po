@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 23:14+0000\n"
+"POT-Creation-Date: 2022-05-19 23:15+0000\n"
 "PO-Revision-Date: 2022-05-01 17:46+0000\n"
 "Last-Translator: Roxy1139 <vro@wo.cz>\n"
 "Language-Team: Czech <https://dreambox.de/translate/projects/dreambox/"
@@ -30,8 +30,8 @@ msgstr ""
 "Vstupní/výstupní chyba obvykle signalizuje poškozený systém. Zkontrolujte "
 "soubor.systém pro Timeshift !"
 
-#: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:60
 #: enigma2-plugins/autotimer/src/ShowLogScreen.py:59
+#: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:60
 msgid ""
 "\n"
 "Cancel?"
@@ -49,11 +49,11 @@ msgstr ""
 
 #
 #: enigma2-plugins/audiosync/src/AC3setup.py:60
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:229
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:230
 #: enigma2-plugins/audiorestart/src/plugin.py:109
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:384
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:385
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:229
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:230
 msgid " "
 msgstr " "
 
@@ -103,8 +103,8 @@ msgid "   select default answer for zap-warning-question"
 msgstr "   vyberte std. odpověď na dotaz varování"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:44
-#: e2openplugin-SeriesPlugin/src/plugin.py:39
 #: e2openplugin-PushService/src/plugin.py:39
+#: e2openplugin-SeriesPlugin/src/plugin.py:39
 msgid ""
 "  (C) 2012 by betonme @ IHAD \n"
 "\n"
@@ -145,8 +145,8 @@ msgstr "  podpora : "
 msgid "  Show label with channelname under PiP"
 msgstr "  zobrazit název kanálu pod PiP oknem"
 
-#: e2openplugin-SeriesPlugin/src/plugin.py:43
 #: e2openplugin-PushService/src/plugin.py:44
+#: e2openplugin-SeriesPlugin/src/plugin.py:43
 msgid "  Support: "
 msgstr "  podpora : "
 
@@ -299,12 +299,12 @@ msgid "%(tname)s: %(name)s at %(begin)s"
 msgstr "%(tname)s: %(name)s ve %(begin)s"
 
 #
-#: e2openplugin-PushService/src/Controller/ActiveTimers.py:81
 #: e2openplugin-PushService/src/Controller/FreeSpace.py:60
 #: e2openplugin-PushService/src/Controller/DeactivatedTimers.py:61
-#: e2openplugin-PushService/src/Controller/RecordSummary.py:72
 #: e2openplugin-PushService/src/Controller/RecordNotification.py:104
 #: e2openplugin-PushService/src/Controller/RecordNotification.py:118
+#: e2openplugin-PushService/src/Controller/RecordSummary.py:72
+#: e2openplugin-PushService/src/Controller/ActiveTimers.py:81
 msgid "%H:%M"
 msgstr "%H:%M"
 
@@ -312,12 +312,12 @@ msgstr "%H:%M"
 msgid "%Y.%m.%d"
 msgstr "%Y.%m.%d"
 
-#: e2openplugin-PushService/src/Controller/ActiveTimers.py:80
 #: e2openplugin-PushService/src/Controller/FreeSpace.py:59
 #: e2openplugin-PushService/src/Controller/DeactivatedTimers.py:60
-#: e2openplugin-PushService/src/Controller/RecordSummary.py:71
 #: e2openplugin-PushService/src/Controller/RecordNotification.py:103
 #: e2openplugin-PushService/src/Controller/RecordNotification.py:117
+#: e2openplugin-PushService/src/Controller/RecordSummary.py:71
+#: e2openplugin-PushService/src/Controller/ActiveTimers.py:80
 msgid "%Y.%m.%d %H:%M"
 msgstr "%Y.%m.%d %H:%M"
 
@@ -374,17 +374,17 @@ msgstr ""
 "%d souborů přidáno do databáze !\n"
 " OK -> zavřít..."
 
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:727
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:217
 #: enigma2-plugins/emission/src/EmissionDetailview.py:231
 #: enigma2-plugins/emission/src/EmissionDetailview.py:232
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:727
 #, python-format
 msgid "%d kb/s"
 msgstr "%d kb/s"
 
 #
-#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:352
 #: enigma2-plugins/easyinfo/src/plugin.py:713
+#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:352
 #, python-format
 msgid "%d min"
 msgstr "%d min."
@@ -412,14 +412,14 @@ msgstr[2] "%d sekund"
 msgid "%d timer renamed successfully"
 msgstr "%d časovačů bylo úspěšně přejmenováno"
 
-#: enigma2-plugin-vps/src_py/Modifications.py:143
-#: enigma2-plugin-vps/src_py/Modifications.py:146
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:366
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:370
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:252
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:253
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:370
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:389
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:252
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:253
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:366
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:370
+#: enigma2-plugin-vps/src_py/Modifications.py:143
+#: enigma2-plugin-vps/src_py/Modifications.py:146
 msgid "%d.%B %Y"
 msgstr "%d.%B %Y"
 
@@ -762,9 +762,9 @@ msgstr "/etc/Enigma2"
 msgid "/tmp"
 msgstr "/tmp"
 
+#: enigma2-plugins/kiddytimer/src/KTmain.py:46
 #: enigma2-plugins/kiddytimer/src/KTpositioner.py:18
 #: enigma2-plugins/kiddytimer/src/KTpositioner.py:20
-#: enigma2-plugins/kiddytimer/src/KTmain.py:46
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:150
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:152
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:154
@@ -947,8 +947,8 @@ msgstr "60 min."
 msgid ":"
 msgstr ":"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:49
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:31
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:49
 msgid ": "
 msgstr ": "
 
@@ -964,8 +964,8 @@ msgstr "<prázdné>"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2191
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:993
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:164
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:993
 msgid "<unknown>"
 msgstr "<neurčeno>"
 
@@ -1182,8 +1182,8 @@ msgstr "audio metadata ---"
 msgid "AUTOSTART"
 msgstr "aut.start ---"
 
-#: enigma2-plugins/dvdbackup/src/plugin.py:226
 #: enigma2-plugin-partnerbox/src/plugin.py:1139
+#: enigma2-plugins/dvdbackup/src/plugin.py:226
 msgid "Abort"
 msgstr "přerušit"
 
@@ -1192,11 +1192,11 @@ msgid "Abort transfer"
 msgstr "přerušit transfer"
 
 #
-#: enigma2-plugin-babelzapper/src/plugin.py:116
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:334
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:93
 #: enigma2-plugins/satloader/src/plugin.py:119
 #: enigma2-plugins/dreamexplorer/src/plugin.py:480
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:334
+#: enigma2-plugin-babelzapper/src/plugin.py:116
 msgid "About"
 msgstr "BoxInfo"
 
@@ -1339,22 +1339,22 @@ msgid "ActiveTimers: Skip tag"
 msgstr "aktivní čas : přeskočit značku"
 
 #
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:268
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:159
 #: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:31
+#: enigma2-plugins/twitchtv/src/plugin.py:510
 #: enigma2-plugins/teletext/src/plugin.py:1732
-#: enigma2-plugins/pipservicerelation/src/plugin.py:87
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1296
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:213
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:39
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:51
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:87
-#: enigma2-plugins/weatherplugin/src/setup.py:76
-#: enigma2-plugins/twitchtv/src/plugin.py:510
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:140
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:157
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:130
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:106
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:159
+#: enigma2-plugins/pipservicerelation/src/plugin.py:87
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:140
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1296
+#: enigma2-plugins/weatherplugin/src/setup.py:76
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:157
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:268
 msgid "Add"
 msgstr "přidat >>"
 
@@ -1510,9 +1510,9 @@ msgstr "přidat záznam"
 #. TRANSLATORS: this is a window title.
 #: enigma2-plugin-fritzcall/src/plugin.py:1759
 #: enigma2-plugin-fritzcall/src/plugin.py:1925
+#: enigma2-plugins/ncidclient/src/plugin.py:601
 #: enigma2-plugins/fritzcall/src/plugin.py:1740
 #: enigma2-plugins/fritzcall/src/plugin.py:1906
-#: enigma2-plugins/ncidclient/src/plugin.py:601
 msgid "Add entry to phonebook"
 msgstr "přidat položku do telefonního seznamu"
 
@@ -1582,12 +1582,12 @@ msgid "Add the short description of the event to the search result."
 msgstr "Přidá krátký popis programu k výsledku hledání_"
 
 #
+#: enigma2-plugin-partnerbox/src/plugin.py:262
+#: enigma2-plugin-partnerbox/src/plugin.py:329
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:204
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1319
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1327
 #: enigma2-plugins/easyinfo/src/plugin.py:727
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:204
-#: enigma2-plugin-partnerbox/src/plugin.py:262
-#: enigma2-plugin-partnerbox/src/plugin.py:329
 msgid "Add timer"
 msgstr "načasovat >>"
 
@@ -1692,11 +1692,11 @@ msgid ""
 msgstr "Po úspěšném obnovení vyhledá nové aut.časovače programů_"
 
 #
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:63
-#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:44
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:201
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:640
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:465
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:44
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:63
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:640
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:201
 msgid "After event"
 msgstr "po dokončení"
 
@@ -1704,8 +1704,8 @@ msgstr "po dokončení"
 msgid "After file OPs only re-scan affected dirs"
 msgstr "Pro operační data skenovat pouze určené složky_"
 
-#: enigma2-plugins/birthdayreminder/src/plugin.py:45
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:220
+#: enigma2-plugins/birthdayreminder/src/plugin.py:45
 msgid "Age"
 msgstr "věk"
 
@@ -1741,15 +1741,15 @@ msgstr "seznam alb"
 
 #
 #. TRANSLATORS: keep it short, this is a button
+#: enigma2-plugin-partnerbox/src/plugin.py:1062
 #: enigma2-plugin-fritzcall/src/plugin.py:1184
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:31
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:252
-#: enigma2-plugins/fritzcall/src/plugin.py:1166
 #: enigma2-plugins/mytube/src/plugin.py:62
 #: enigma2-plugins/emission/src/EmissionOverview.py:150
 #: enigma2-plugins/emission/src/EmissionOverview.py:303
 #: enigma2-plugins/emission/src/EmissionOverview.py:310
-#: enigma2-plugin-partnerbox/src/plugin.py:1062
+#: enigma2-plugins/fritzcall/src/plugin.py:1166
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:252
 #: enigma2-plugin-stalkerclient/StalkerClient/api.py:195
 #: enigma2-plugin-stalkerclient/StalkerClient/api.py:196
 msgid "All"
@@ -2131,8 +2131,8 @@ msgid "Are you sure you want to delete %s?"
 msgstr "Chcete odstranit %s ?"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2175
-#: enigma2-plugins/fritzcall/src/plugin.py:2155
 #: enigma2-plugins/ncidclient/src/plugin.py:739
+#: enigma2-plugins/fritzcall/src/plugin.py:2155
 msgid "Areacode to add to calls without one (if necessary)"
 msgstr "předvolba pro volání bez jedné (pokud je to nutné)"
 
@@ -2258,8 +2258,8 @@ msgstr "vybrané značky"
 msgid "Attachments"
 msgstr "přílohy"
 
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:321
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:183
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:321
 msgid "Audio Bitrate"
 msgstr "bit.tok audia"
 
@@ -2320,8 +2320,8 @@ msgid "Australia"
 msgstr "Austrálie"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:184
-#: enigma2-plugins/fritzcall/src/plugin.py:171
 #: enigma2-plugins/ncidclient/src/plugin.py:49
+#: enigma2-plugins/fritzcall/src/plugin.py:171
 msgid "Austria"
 msgstr "Rakousko"
 
@@ -2380,9 +2380,9 @@ msgstr "povolit automatické titulky"
 msgid "Auto-reduce calculated skip time (in seconds)"
 msgstr "aut.redukovat vypočítaný čas (v sek.)"
 
+#: enigma2-plugins/autotimer/src/plugin.py:39
 #: enigma2-plugins/merlinepg/src/plugin.py:605
 #: enigma2-plugins/merlinepg/src/plugin.py:922
-#: enigma2-plugins/autotimer/src/plugin.py:39
 msgid "AutoTimer"
 msgstr "aut.časovače"
 
@@ -2407,8 +2407,8 @@ msgstr "kanály aut.časovače"
 msgid "AutoTimer Settings"
 msgstr "nastavení časovačů"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:486
 #: enigma2-plugins/autotimer/src/AutoTimerResource.py:108
+#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:486
 #, python-format
 msgid "AutoTimer failed with error %s"
 msgstr "AutoTimer skončil s chybou : %s"
@@ -2417,8 +2417,8 @@ msgstr "AutoTimer skončil s chybou : %s"
 msgid "AutoTimer independent mode"
 msgstr "AutoTimer - nezávislý mód"
 
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:182
 #: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:145
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:182
 msgid "AutoTimer overview"
 msgstr "Přehled aut.časovačů"
 
@@ -2515,8 +2515,8 @@ msgid "Automatic volume adjustment for ac3/dts services."
 msgstr "aut.nastavení hlasitosti pro stanice s AC3/DTS"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2209
-#: enigma2-plugins/fritzcall/src/plugin.py:2189
 #: enigma2-plugins/ncidclient/src/plugin.py:763
+#: enigma2-plugins/fritzcall/src/plugin.py:2189
 msgid "Automatically add new Caller to PhoneBook"
 msgstr "volání aut.přidáno do telefonu"
 
@@ -2704,8 +2704,8 @@ msgid "Bad arguments"
 msgstr "chybný parametr"
 
 #
-#: enigma2-plugins/emission/src/EmissionOverview.py:146
 #: enigma2-plugins/emission/src/EmissionDetailview.py:89
+#: enigma2-plugins/emission/src/EmissionOverview.py:146
 msgid "Bandwidth"
 msgstr "šířka pásma"
 
@@ -2841,8 +2841,8 @@ msgstr ""
 "Oba profily se používají střídavě po vypnutí, 2 cykly za den. Nepřekrývejte "
 "časy!_"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 #: enigma2-plugins/satloader/src/plugin.py:55
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 msgid "Bouquet"
 msgstr "sada kanálů"
 
@@ -2855,8 +2855,8 @@ msgid "Bouquet buttons behaviour"
 msgstr "chování tlačítka \"kanály + / -\""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:26
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1253
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 msgid "Bouquets"
 msgstr "sady kanálů"
 
@@ -2929,11 +2929,11 @@ msgstr "buffer :"
 msgid "Build Clean Timerlist"
 msgstr "založit čistý seznam časovačů"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:214
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:235
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1937
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1953
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1969
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:214
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:235
 msgid "Button disabled"
 msgstr "bez funkce"
 
@@ -3029,8 +3029,8 @@ msgstr "aktivní vyvolaná odchylka"
 
 #
 #: enigma2-plugin-fritzcall/src/plugin.py:2157
-#: enigma2-plugins/fritzcall/src/plugin.py:2137
 #: enigma2-plugins/ncidclient/src/plugin.py:731
+#: enigma2-plugins/fritzcall/src/plugin.py:2137
 msgid "Call monitoring"
 msgstr "monitorovat volání"
 
@@ -3184,40 +3184,48 @@ msgid "Canada"
 msgstr "Kanada"
 
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugin-moviecut/src_py/plugin.py:87
-#: enigma2-plugin-fritzcall/src/plugin.py:1896
-#: enigma2-plugin-fritzcall/src/plugin.py:2087
-#: enigma2-plugin-babelzapper/src/plugin.py:113
-#: enigma2-plugin-vps/src_py/Vps_setup.py:66
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:296
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:51
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:91
-#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:154
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:279
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2808
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2929
 #: enigma2-plugin-pzyp4t/src/plugin.py:3416
 #: enigma2-plugin-pzyp4t/src/plugin.py:3784
-#: e2-advancedaudiosettings/src/plugin.py:52
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:765
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:684
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:637
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:32
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:269
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:132
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:457
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:542
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:85
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:288
+#: enigma2-plugin-fritzcall/src/plugin.py:1896
+#: enigma2-plugin-fritzcall/src/plugin.py:2087
+#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:49
+#: enigma2-plugins/virtualzap/src/plugin.py:724
+#: enigma2-plugins/ncidclient/src/plugin.py:576
+#: enigma2-plugins/ncidclient/src/plugin.py:698
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:781
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:59
+#: enigma2-plugins/webinterface/src/WebIfConfig.py:30
+#: enigma2-plugins/imdb/src/plugin.py:783
+#: enigma2-plugins/growlee/src/plugin.py:99
+#: enigma2-plugins/remotetimer/src/plugin.py:105
+#: enigma2-plugins/remotetimer/src/plugin.py:232
+#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:27
+#: enigma2-plugins/emission/src/EmissionBandwidth.py:72
+#: enigma2-plugins/emission/src/EmissionSetup.py:39
+#: enigma2-plugins/pipzap/src/PipzapSetup.py:39
+#: enigma2-plugins/cdinfo/src/plugin.py:56
+#: enigma2-plugins/audiosync/src/AC3main.py:66
+#: enigma2-plugins/audiosync/src/AC3setup.py:58
+#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:78
+#: enigma2-plugins/yttrailer/src/plugin.py:244
+#: enigma2-plugins/tageditor/src/plugin.py:60
+#: enigma2-plugins/audiorestart/src/plugin.py:107
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:118
+#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
+#: enigma2-plugins/fritzcall/src/plugin.py:1877
+#: enigma2-plugins/fritzcall/src/plugin.py:2067
 #: enigma2-plugins/teletext/src/plugin.py:1149
 #: enigma2-plugins/teletext/src/plugin.py:1295
-#: enigma2-plugins/movieretitle/src/plugin.py:41
-#: enigma2-plugins/cec/src/CecConfig.py:39
-#: enigma2-plugins/cec/src/CecDeviceList.py:52
-#: enigma2-plugins/pipservicerelation/src/plugin.py:188
-#: enigma2-plugins/growlee/src/plugin.py:99
-#: enigma2-plugins/audiosync/src/AC3setup.py:58
-#: enigma2-plugins/audiosync/src/AC3main.py:66
-#: enigma2-plugins/imdb/src/plugin.py:783
-#: enigma2-plugins/virtualzap/src/plugin.py:724
-#: enigma2-plugins/autoresolution/src/plugin.py:346
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:71
-#: enigma2-plugins/cdinfo/src/plugin.py:56
-#: enigma2-plugins/elektro/src/plugin.py:255
-#: enigma2-plugins/elektro/src/plugin.py:299
-#: enigma2-plugins/elektro/src/plugin.py:377
-#: enigma2-plugins/elektro/src/plugin.py:481
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:559
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:579
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:584
@@ -3225,93 +3233,85 @@ msgstr "Kanada"
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:642
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:648
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:726
-#: enigma2-plugins/webinterface/src/WebIfConfig.py:30
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:77
-#: enigma2-plugins/weatherplugin/src/setup.py:195
-#: enigma2-plugins/showclock/src/plugin.py:142
-#: enigma2-plugins/tageditor/src/plugin.py:60
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
-#: enigma2-plugins/fritzcall/src/plugin.py:1877
-#: enigma2-plugins/fritzcall/src/plugin.py:2067
-#: enigma2-plugins/fancontrol2/src/plugin.py:686
+#: enigma2-plugins/autoresolution/src/plugin.py:346
+#: enigma2-plugins/tvcharts/src/plugin.py:403
 #: enigma2-plugins/simplerss/src/RSSSetup.py:23
 #: enigma2-plugins/simplerss/src/RSSSetup.py:70
-#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:46
-#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:121
-#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:49
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:118
-#: enigma2-plugins/ncidclient/src/plugin.py:576
-#: enigma2-plugins/ncidclient/src/plugin.py:698
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:69
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:227
-#: enigma2-plugins/quickbutton/src/plugin.py:196
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:61
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:257
-#: enigma2-plugins/genuinedreambox/src/plugin.py:81
-#: enigma2-plugins/satloader/src/plugin.py:53
-#: enigma2-plugins/satloader/src/plugin.py:164
-#: enigma2-plugins/satloader/src/plugin.py:284
-#: enigma2-plugins/satloader/src/plugin.py:408
-#: enigma2-plugins/antiscrollbar/src/plugin.py:125
-#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:79
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:781
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:59
-#: enigma2-plugins/c3vocupdater/src/plugin.py:43
-#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:27
-#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:174
-#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:56
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:36
-#: enigma2-plugins/automaticcleanup/src/plugin.py:170
-#: enigma2-plugins/namezap/src/NamezapSetup.py:54
-#: enigma2-plugins/screensaver/src/ScreensaverSetup.py:15
-#: enigma2-plugins/yttrailer/src/plugin.py:244
-#: enigma2-plugins/pipzap/src/PipzapSetup.py:39
-#: enigma2-plugins/audiorestart/src/plugin.py:107
-#: enigma2-plugins/3dsettings/src/plugin.py:184
-#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:78
-#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:137
-#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:116
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:485
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:985
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1262
-#: enigma2-plugins/dreamexplorer/src/plugin.py:431
-#: enigma2-plugins/dreamexplorer/src/plugin.py:442
-#: enigma2-plugins/dreamexplorer/src/plugin.py:447
-#: enigma2-plugins/dreamexplorer/src/plugin.py:453
-#: enigma2-plugins/kiddytimer/src/KTsetup.py:77
-#: enigma2-plugins/emission/src/EmissionSetup.py:39
-#: enigma2-plugins/emission/src/EmissionBandwidth.py:72
-#: enigma2-plugins/remotetimer/src/plugin.py:105
-#: enigma2-plugins/remotetimer/src/plugin.py:232
 #: enigma2-plugins/subsdownloader2/src/plugin.py:931
 #: enigma2-plugins/subsdownloader2/src/plugin.py:936
 #: enigma2-plugins/subsdownloader2/src/plugin.py:944
 #: enigma2-plugins/subsdownloader2/src/plugin.py:949
-#: enigma2-plugins/tvcharts/src/plugin.py:403
-#: enigma2-plugin-networkbrowser/src/MountEdit.py:63
-#: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:559
-#: e2openplugin-PushService/src/ConfigScreen.py:171
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:85
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:288
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:269
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:637
-#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:32
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:684
-#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:132
-#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:457
-#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:542
+#: enigma2-plugins/showclock/src/plugin.py:142
+#: enigma2-plugins/quickbutton/src/plugin.py:196
+#: enigma2-plugins/cec/src/CecConfig.py:39
+#: enigma2-plugins/cec/src/CecDeviceList.py:52
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:485
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:985
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1262
+#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:90
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:46
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:137
+#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:116
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:382
+#: enigma2-plugins/pipservicerelation/src/plugin.py:188
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:71
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:69
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:227
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:61
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:257
+#: enigma2-plugins/automaticcleanup/src/plugin.py:170
+#: enigma2-plugins/movieretitle/src/plugin.py:41
+#: enigma2-plugins/antiscrollbar/src/plugin.py:125
+#: enigma2-plugins/3dsettings/src/plugin.py:184
+#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:56
+#: enigma2-plugins/c3vocupdater/src/plugin.py:43
+#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:46
+#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:121
+#: enigma2-plugins/namezap/src/NamezapSetup.py:54
+#: enigma2-plugins/screensaver/src/ScreensaverSetup.py:15
+#: enigma2-plugins/genuinedreambox/src/plugin.py:81
+#: enigma2-plugins/kiddytimer/src/KTsetup.py:77
+#: enigma2-plugins/weatherplugin/src/setup.py:195
+#: enigma2-plugins/elektro/src/plugin.py:255
+#: enigma2-plugins/elektro/src/plugin.py:299
+#: enigma2-plugins/elektro/src/plugin.py:377
+#: enigma2-plugins/elektro/src/plugin.py:481
+#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:174
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:36
+#: enigma2-plugins/satloader/src/plugin.py:53
+#: enigma2-plugins/satloader/src/plugin.py:164
+#: enigma2-plugins/satloader/src/plugin.py:284
+#: enigma2-plugins/satloader/src/plugin.py:408
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:77
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:40
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:62
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:108
+#: enigma2-plugins/dreamexplorer/src/plugin.py:431
+#: enigma2-plugins/dreamexplorer/src/plugin.py:442
+#: enigma2-plugins/dreamexplorer/src/plugin.py:447
+#: enigma2-plugins/dreamexplorer/src/plugin.py:453
+#: enigma2-plugins/fancontrol2/src/plugin.py:686
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:765
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:25
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:49
-#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:197
+#: enigma2-plugin-moviecut/src_py/plugin.py:87
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:67
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:87
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1931
+#: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:559
+#: enigma2-plugin-networkbrowser/src/MountEdit.py:63
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:49
+#: enigma2-plugin-curlytx/src/CurlyTxSettings.py:197
+#: enigma2-plugin-babelzapper/src/plugin.py:113
+#: e2openplugin-PushService/src/ConfigScreen.py:171
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:279
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2808
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2929
+#: enigma2-plugin-vps/src_py/Vps_setup.py:66
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:91
+#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:154
+#: e2-advancedaudiosettings/src/plugin.py:52
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:296
 msgid "Cancel"
 msgstr "storno"
 
@@ -3331,22 +3331,22 @@ msgstr "Nadřazenou složku nelze odstranit!"
 msgid "Cannot get calls from FRITZ!Box"
 msgstr "Nelze volat z FRITZ!Box !"
 
+#: enigma2-plugin-fritzcall/src/plugin.py:2312
+#: enigma2-plugin-fritzcall/src/plugin.py:2982
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4005
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4240
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4260
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4301
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4473
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4498
-#: enigma2-plugin-fritzcall/src/plugin.py:2312
-#: enigma2-plugin-fritzcall/src/plugin.py:2982
+#: enigma2-plugins/fritzcall/src/plugin.py:2292
+#: enigma2-plugins/fritzcall/src/plugin.py:2958
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3925
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4160
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4180
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4221
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4301
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4327
-#: enigma2-plugins/fritzcall/src/plugin.py:2292
-#: enigma2-plugins/fritzcall/src/plugin.py:2958
 msgid ""
 "Cannot get infos from FRITZ!Box yet\n"
 "Still initialising or wrong firmware version"
@@ -3504,12 +3504,12 @@ msgid "Changing the timer for '%s' failed!"
 msgstr "Změna časovače '%s' selhala !"
 
 #
-#: enigma2-plugin-vps/src_py/Vps_setup.py:185
-#: enigma2-plugins/merlinepg/src/plugin.py:782
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:58
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:455
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:58
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:67
+#: enigma2-plugins/merlinepg/src/plugin.py:782
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:97
+#: enigma2-plugin-vps/src_py/Vps_setup.py:185
 msgid "Channel"
 msgstr "kanál"
 
@@ -3551,10 +3551,10 @@ msgstr "číslo kanálu"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:3319
-#: enigma2-plugins/pipservicerelation/src/plugin.py:211
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:819
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:121
+#: enigma2-plugins/pipservicerelation/src/plugin.py:211
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:280
 msgid "Channel Selection"
 msgstr "sada kanálů---"
 
@@ -3592,8 +3592,8 @@ msgstr "kanál : "
 msgid "Channellist red"
 msgstr "červený seznam kanálů"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1252
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:108
 msgid "Channels"
 msgstr ">>kanály..."
 
@@ -3694,15 +3694,15 @@ msgstr "zvolte metodu hledání pro Napisy24 :"
 msgid "Choose bookmark"
 msgstr "vybrat záložku"
 
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:752
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1038
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3057
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3099
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3133
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3175
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3202
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:1038
-#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:470
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:302
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:752
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:470
 msgid "Choose directory"
 msgstr "Výběr složek na disku, USB, v síti..."
 
@@ -3727,10 +3727,10 @@ msgid "Choose subtitle server:"
 msgstr "server pro titulky :"
 
 #
-#: enigma2-plugin-moviecut/src_py/plugin.py:178
-#: enigma2-plugins/movieretitle/src/plugin.py:86
 #: enigma2-plugins/mytube/src/MyTubeSettings.py:98
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:393
+#: enigma2-plugins/movieretitle/src/plugin.py:86
+#: enigma2-plugin-moviecut/src_py/plugin.py:178
 msgid "Choose target folder"
 msgstr "zvolit cílovou složku"
 
@@ -3842,31 +3842,31 @@ msgid "Clone selected timer"
 msgstr "klonovat vybraný časovač"
 
 #
-#: enigma2-plugins/pipservicerelation/src/plugin.py:86
+#: enigma2-plugins/mphelp/src/MPHelp.py:43
 #: enigma2-plugins/fstabeditor/src/dirSelect.py:40
+#: enigma2-plugins/mytube/src/plugin.py:251
+#: enigma2-plugins/mytube/src/plugin.py:1275
+#: enigma2-plugins/mytube/src/plugin.py:1451
+#: enigma2-plugins/mytube/src/MyTubeSettings.py:39
+#: enigma2-plugins/mytube/src/MyTubeSearch.py:314
+#: enigma2-plugins/emission/src/EmissionDetailview.py:88
+#: enigma2-plugins/emission/src/EmissionOverview.py:145
+#: enigma2-plugins/simplerss/src/RSSScreens.py:457
+#: enigma2-plugins/simplerss/src/RSSScreens.py:462
 #: enigma2-plugins/webadmin/src/WebChilds/UploadText.py:93
 #: enigma2-plugins/webadmin/src/WebChilds/PKG.py:61
 #: enigma2-plugins/webadmin/src/WebChilds/PKG.py:69
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:38
 #: enigma2-plugins/webadmin/src/WebChilds/UploadPkg.py:51
-#: enigma2-plugins/mphelp/src/MPHelp.py:43
-#: enigma2-plugins/simplerss/src/RSSScreens.py:457
-#: enigma2-plugins/simplerss/src/RSSScreens.py:462
-#: enigma2-plugins/internetradio/src/InternetRadioInformationScreen.py:69
-#: enigma2-plugins/mytube/src/MyTubeSearch.py:314
-#: enigma2-plugins/mytube/src/plugin.py:251
-#: enigma2-plugins/mytube/src/plugin.py:1275
-#: enigma2-plugins/mytube/src/plugin.py:1451
-#: enigma2-plugins/mytube/src/MyTubeSettings.py:39
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:131
+#: enigma2-plugins/pipservicerelation/src/plugin.py:86
+#: enigma2-plugins/internetradio/src/InternetRadioInformationScreen.py:69
 #: enigma2-plugins/dreamexplorer/src/plugin.py:819
 #: enigma2-plugins/dreamexplorer/src/plugin.py:1370
-#: enigma2-plugins/emission/src/EmissionOverview.py:145
-#: enigma2-plugins/emission/src/EmissionDetailview.py:88
-#: enigma2-plugin-networkbrowser/src/MountManager.py:51
-#: enigma2-plugin-networkbrowser/src/UserDialog.py:82
 #: enigma2-plugin-networkbrowser/src/MountView.py:61
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:145
+#: enigma2-plugin-networkbrowser/src/UserDialog.py:82
+#: enigma2-plugin-networkbrowser/src/MountManager.py:51
 #: enigma2-plugin-networkbrowser/src/UserManager.py:49
 msgid "Close"
 msgstr "zavřít"
@@ -3887,21 +3887,21 @@ msgstr "zavřít Mediaplayer "
 msgid "Close Player with exit-key"
 msgstr "zavřít přehrávač tlačítkem Exit"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:140
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:120
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:140
 msgid "Close and forget changes"
 msgstr "zavřít kanály a změny neukládat"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:141
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:145
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:141
 msgid "Close and save changes"
 msgstr "zavřít kanály a změny uložit"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:133
+#: enigma2-plugins/zapstatistic/src/plugin.py:574
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:811
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2176
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2183
-#: enigma2-plugins/zapstatistic/src/plugin.py:574
 msgid "Close plugin"
 msgstr "zavřít modul"
 
@@ -3925,9 +3925,9 @@ msgstr "kodeky---"
 msgid "Collection"
 msgstr "sbírka"
 
+#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:85
 #: enigma2-plugins/videocolorspace/src/plugin.py:41
 #: enigma2-plugins/videocolorspace/src/plugin.py:42
-#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:85
 msgid "Color space setup"
 msgstr "nastavit barevný prostor"
 
@@ -3987,10 +3987,10 @@ msgid "Config file %s not found."
 msgstr "Konfigurační soubor %s nebyl nalezený !"
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:47
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:84
+#: e2openplugin-PushService/src/ConfigScreen.py:67
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1831
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3264
-#: e2openplugin-PushService/src/ConfigScreen.py:67
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:84
 msgid "Configuration"
 msgstr "konfigurace"
 
@@ -3999,8 +3999,8 @@ msgstr "konfigurace"
 msgid "Configuration for the Webinterface"
 msgstr "Konfigurace rozhraní Webinterface_"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:46
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:87
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:46
 msgid "Configuration of the title:episode separator"
 msgstr "konfigurace titulku : oddělovač epizody"
 
@@ -4227,8 +4227,8 @@ msgstr "Cool-TV"
 msgid "CoolTVGuide is not installed!"
 msgstr "CoolTVGuide není nainstalovaný !"
 
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1200
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1073
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1200
 msgid "Copy"
 msgstr "kopie"
 
@@ -4352,6 +4352,7 @@ msgstr "Nelze načíst seznam odchylek : "
 msgid "Could not load phonebook: "
 msgstr "Nelze načíst telefonní seznam : "
 
+#: enigma2-plugin-fritzcall/src/plugin.py:1503
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:433
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1407
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2077
@@ -4359,14 +4360,13 @@ msgstr "Nelze načíst telefonní seznam : "
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4164
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4336
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4407
-#: enigma2-plugin-fritzcall/src/plugin.py:1503
+#: enigma2-plugins/fritzcall/src/plugin.py:1484
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:432
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1406
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2076
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2846
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4084
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4235
-#: enigma2-plugins/fritzcall/src/plugin.py:1484
 #, python-format
 msgid "Could not load phonebook: %s"
 msgstr "Nelze načíst telefonní seznam : %s"
@@ -4457,6 +4457,7 @@ msgstr "počet - typ (Host)"
 msgid "Countdown:"
 msgstr "odpočet :"
 
+#: enigma2-plugins/internetradio/src/plugin.py:33
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:302
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:571
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:606
@@ -4464,7 +4465,6 @@ msgstr "odpočet :"
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:784
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:856
 #: enigma2-plugins/internetradio/src/InternetRadioList.py:48
-#: enigma2-plugins/internetradio/src/plugin.py:33
 msgid "Countries"
 msgstr "země"
 
@@ -4473,8 +4473,8 @@ msgid "Countries of origin:"
 msgstr "země původu :"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2178
-#: enigma2-plugins/fritzcall/src/plugin.py:2158
 #: enigma2-plugins/ncidclient/src/plugin.py:743
+#: enigma2-plugins/fritzcall/src/plugin.py:2158
 msgid "Country"
 msgstr "země"
 
@@ -4507,8 +4507,8 @@ msgstr "vyhledat potisk"
 msgid "Cover background"
 msgstr "pozadí potisku"
 
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:628
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 msgid "Cover delay in ms"
 msgstr "zpoždění v ms pro zobrazení potisku"
 
@@ -4743,10 +4743,10 @@ msgstr "aktuální"
 msgid "Cursor predictive move after selection"
 msgstr "předvolený posun kurzoru po výběru"
 
-#: enigma2-plugins/werbezapper/src/WerbeZapper.py:110
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:175
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:197
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
+#: enigma2-plugins/werbezapper/src/WerbeZapper.py:110
 msgid "Custom"
 msgstr "uživatelský"
 
@@ -4952,9 +4952,9 @@ msgid "Dark red"
 msgstr "tm.červená"
 
 #
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:440
 #: enigma2-plugins/emailclient/src/plugin.py:346
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:375
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:440
 msgid "Date"
 msgstr "datum"
 
@@ -4988,8 +4988,8 @@ msgstr "den"
 msgid "Day:"
 msgstr "den :"
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:57
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:424
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:57
 msgid "Days"
 msgstr "dnů "
 
@@ -5065,9 +5065,9 @@ msgstr "zkrátit zbývající čas"
 msgid "DeepStandby"
 msgstr ">hluboký spánek - vypnutí"
 
-#: enigma2-plugins/teletext/src/plugin.py:1296
-#: enigma2-plugins/imdb/src/plugin.py:38
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:176
+#: enigma2-plugins/imdb/src/plugin.py:38
+#: enigma2-plugins/teletext/src/plugin.py:1296
 msgid "Default"
 msgstr "předvoleno"
 
@@ -5185,44 +5185,44 @@ msgstr "zpoždění x sekund po spuštění kanálu"
 
 #
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugin-fritzcall/src/plugin.py:1735
 #: enigma2-plugin-pzyp4t/src/plugin.py:641
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:203
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:267
-#: enigma2-plugins/teletext/src/plugin.py:1734
-#: enigma2-plugins/pipservicerelation/src/plugin.py:85
-#: enigma2-plugins/growlee/src/plugin.py:102
-#: enigma2-plugins/zaphistorybrowser/src/plugin.py:173
-#: enigma2-plugins/zapstatistic/src/plugin.py:435
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:43
-#: enigma2-plugins/weatherplugin/src/setup.py:78
-#: enigma2-plugins/weatherplugin/src/setup.py:197
-#: enigma2-plugins/fritzcall/src/plugin.py:1716
-#: enigma2-plugins/fancontrol2/src/FC2webSite.py:176
-#: enigma2-plugins/fancontrol2/src/FC2webSite.py:212
-#: enigma2-plugins/simplerss/src/RSSSetup.py:73
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:181
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2482
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:114
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:116
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:161
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:290
+#: enigma2-plugin-fritzcall/src/plugin.py:1735
 #: enigma2-plugins/ncidclient/src/plugin.py:441
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:43
+#: enigma2-plugins/growlee/src/plugin.py:102
+#: enigma2-plugins/remotetimer/src/plugin.py:104
+#: enigma2-plugins/zapstatistic/src/plugin.py:435
+#: enigma2-plugins/fritzcall/src/plugin.py:1716
+#: enigma2-plugins/teletext/src/plugin.py:1734
+#: enigma2-plugins/zaphistorybrowser/src/plugin.py:173
+#: enigma2-plugins/simplerss/src/RSSSetup.py:73
+#: enigma2-plugins/subsdownloader2/src/plugin.py:1072
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:129
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:105
+#: enigma2-plugins/pipservicerelation/src/plugin.py:85
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:71
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:143
+#: enigma2-plugins/weatherplugin/src/setup.py:78
+#: enigma2-plugins/weatherplugin/src/setup.py:197
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:36
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:91
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:92
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:116
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:178
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:230
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:129
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:105
-#: enigma2-plugins/remotetimer/src/plugin.py:104
-#: enigma2-plugins/subsdownloader2/src/plugin.py:1072
+#: enigma2-plugins/fancontrol2/src/FC2webSite.py:176
+#: enigma2-plugins/fancontrol2/src/FC2webSite.py:212
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:267
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:203
 #: enigma2-plugin-networkbrowser/src/UserManager.py:51
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:161
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:290
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2482
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:205
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:226
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:181
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:114
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:116
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:52
 msgid "Delete"
 msgstr "odstranit"
@@ -5303,9 +5303,9 @@ msgid ""
 msgstr "Odstranění selhalo, koš neexistuje! Má se vytvořit nový ?"
 
 #
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:184
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2810
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2893
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:184
 msgid "Delete failed!"
 msgstr "Odstranění selhalo !"
 
@@ -5381,15 +5381,15 @@ msgid "Deletion of %s %s"
 msgstr "odstraněno : %s %s"
 
 #
-#: enigma2-plugins/movieretitle/src/plugin.py:62
-#: enigma2-plugins/elektro/src/plugin.py:463
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:411
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:60
 #: enigma2-plugins/showclock/src/plugin.py:123
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:593
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:151
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:411
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:186
+#: enigma2-plugins/movieretitle/src/plugin.py:62
+#: enigma2-plugins/elektro/src/plugin.py:463
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:44
 msgid "Description"
 msgstr "popis"
 
@@ -5572,11 +5572,6 @@ msgid "Disable service"
 msgstr "vypnout službu"
 
 #
-#: enigma2-plugins/teletext/src/plugin.py:71
-#: enigma2-plugins/birthdayreminder/src/plugin.py:38
-#: enigma2-plugins/easyinfo/src/plugin.py:54
-#: enigma2-plugins/easyinfo/src/plugin.py:93
-#: enigma2-plugins/skipintro/src/__init__.py:15
 #: enigma2-plugins/easymedia/src/plugin.py:49
 #: enigma2-plugins/easymedia/src/plugin.py:50
 #: enigma2-plugins/easymedia/src/plugin.py:51
@@ -5590,6 +5585,11 @@ msgstr "vypnout službu"
 #: enigma2-plugins/easymedia/src/plugin.py:59
 #: enigma2-plugins/easymedia/src/plugin.py:60
 #: enigma2-plugins/easymedia/src/plugin.py:61
+#: enigma2-plugins/teletext/src/plugin.py:71
+#: enigma2-plugins/birthdayreminder/src/plugin.py:38
+#: enigma2-plugins/skipintro/src/__init__.py:15
+#: enigma2-plugins/easyinfo/src/plugin.py:54
+#: enigma2-plugins/easyinfo/src/plugin.py:93
 msgid "Disabled"
 msgstr "vypnuto"
 
@@ -5624,8 +5624,8 @@ msgid "Dismiss all setting changes"
 msgstr "zrušit všechny nastavené změny"
 
 #
-#: enigma2-plugins/quickbutton/src/plugin.py:147
 #: enigma2-plugins/letterbox/src/plugin.py:41
+#: enigma2-plugins/quickbutton/src/plugin.py:147
 msgid "Display 4:3 content as"
 msgstr "obraz 4:3 zobrazit jako..."
 
@@ -5836,12 +5836,12 @@ msgstr ""
 "  %s ?"
 
 #
-#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:459
-#: enigma2-plugins/merlinepg/src/plugin.py:622
-#: enigma2-plugins/merlinepg/src/plugin.py:939
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:261
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:275
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:255
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:261
+#: enigma2-plugins/merlinepg/src/plugin.py:622
+#: enigma2-plugins/merlinepg/src/plugin.py:939
+#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:459
 #, python-format
 msgid "Do you really want to delete %s?"
 msgstr ""
@@ -5857,8 +5857,8 @@ msgstr ""
 "('storno' zde nejde !)"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:1819
-#: enigma2-plugins/fritzcall/src/plugin.py:1800
 #: enigma2-plugins/ncidclient/src/plugin.py:521
+#: enigma2-plugins/fritzcall/src/plugin.py:1800
 #, python-format
 msgid ""
 "Do you really want to delete entry for\n"
@@ -5919,9 +5919,9 @@ msgstr ""
 msgid "Do you really want to delete the entry for %s?"
 msgstr "Chcete odstranit zadání pro %s ?"
 
-#: enigma2-plugins/remotetimer/src/plugin.py:145
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:115
 #: enigma2-plugin-partnerbox/src/plugin.py:440
+#: enigma2-plugins/remotetimer/src/plugin.py:145
 #, python-format
 msgid ""
 "Do you really want to delete the timer \n"
@@ -6039,9 +6039,9 @@ msgstr "aut.nenačítat velikost složek z emc-noscan.cfg"
 msgid "Don't cut"
 msgstr "nestříhat"
 
+#: e2openplugin-PushService/src/PushServiceBase.py:221
 #: e2openplugin-SeriesPlugin/src/Channels.py:308
 #: e2openplugin-SeriesPlugin/src/XMLTVBase.py:87
-#: e2openplugin-PushService/src/PushServiceBase.py:221
 msgid "Don't edit this manually unless you really know what you are doing"
 msgstr "Neupravujte manuálně, pokud si nejste opravdu jistý !"
 
@@ -6094,12 +6094,12 @@ msgstr "dolů"
 msgid "Downlad %s"
 msgstr "stáhnout : %s "
 
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:290
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:147
-#: enigma2-plugins/fancontrol2/src/FC2webSite.py:172
-#: enigma2-plugins/fancontrol2/src/FC2webSite.py:208
 #: enigma2-plugins/emission/src/EmissionOverview.py:298
 #: enigma2-plugins/emission/src/EmissionOverview.py:309
+#: enigma2-plugins/fancontrol2/src/FC2webSite.py:172
+#: enigma2-plugins/fancontrol2/src/FC2webSite.py:208
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:290
 msgid "Download"
 msgstr "- stahování"
 
@@ -6318,9 +6318,9 @@ msgstr "...doba setrvání na kanálu (sek.)"
 msgid "Duration:"
 msgstr "délka : "
 
-#: enigma2-plugins/webcamviewer/src/WebcamTravel.py:250
 #: enigma2-plugins/mytube/src/plugin.py:1102
 #: enigma2-plugins/mytube/src/plugin.py:1324
+#: enigma2-plugins/webcamviewer/src/WebcamTravel.py:250
 msgid "Duration: "
 msgstr "délka : "
 
@@ -6492,8 +6492,8 @@ msgstr "aut.obnovit data kanálů od ... (čas : hh:mm)"
 msgid "EPG refresh auto-start latest (hh:mm)"
 msgstr "aut.obnovit data kanálů do ... (čas : hh:mm)"
 
-#: enigma2-plugins/epgrefresh/src/PipAdapter.py:82
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:519
+#: enigma2-plugins/epgrefresh/src/PipAdapter.py:82
 msgid "EPG refresh finished."
 msgstr "Stahování EPG programů bylo dokončeno..."
 
@@ -6530,9 +6530,9 @@ msgstr "Kopie EPG programů.db přes FTP."
 msgid "EPG-Search"
 msgstr "-podobné prg..."
 
+#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:59
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:180
-#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
 msgid "EPG.db"
 msgstr "EPG.db databáze"
 
@@ -6616,12 +6616,12 @@ msgstr "Menu EPGSearch..."
 msgid "EPGSearch search filter overview"
 msgstr "přehled vyhledávacích filtrů EPGSearch"
 
+#: enigma2-plugins/easyinfo/src/plugin.py:620
+#: enigma2-plugins/easyinfo/src/plugin.py:1027
 #: enigma2-plugins/merlinepg/src/plugin.py:707
 #: enigma2-plugins/merlinepg/src/plugin.py:716
 #: enigma2-plugins/merlinepg/src/plugin.py:1004
 #: enigma2-plugins/merlinepg/src/plugin.py:1013
-#: enigma2-plugins/easyinfo/src/plugin.py:620
-#: enigma2-plugins/easyinfo/src/plugin.py:1027
 msgid "EPGsearch is not installed!"
 msgstr "Modul EPGSearch není nainstalovaný !"
 
@@ -6656,8 +6656,8 @@ msgstr "Chyba : Povinný parametr 'enabled' [True,False] nemá definovaný '%s'"
 msgid "ERROR: Obligatory parameter 'time' [0-999] is missing"
 msgstr "Chyba : povinný parametr  'time' [0-999] chybí !"
 
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:726
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:216
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:726
 #, python-format
 msgid "ETA %d:%02d min"
 msgstr "ETA %d:%02d min."
@@ -6720,19 +6720,19 @@ msgid "EasySelection"
 msgstr "EasySelection"
 
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugin-fritzcall/src/plugin.py:1739
 #: enigma2-plugin-pzyp4t/src/plugin.py:3018
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:269
-#: enigma2-plugins/teletext/src/plugin.py:1736
-#: enigma2-plugins/pipservicerelation/src/plugin.py:88
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:264
-#: enigma2-plugins/weatherplugin/src/setup.py:77
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
-#: enigma2-plugins/fritzcall/src/plugin.py:1720
-#: enigma2-plugins/ncidclient/src/plugin.py:445
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:142
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:39
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:160
+#: enigma2-plugin-fritzcall/src/plugin.py:1739
+#: enigma2-plugins/ncidclient/src/plugin.py:445
+#: enigma2-plugins/fritzcall/src/plugin.py:1720
+#: enigma2-plugins/teletext/src/plugin.py:1736
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:264
+#: enigma2-plugins/pipservicerelation/src/plugin.py:88
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:142
+#: enigma2-plugins/weatherplugin/src/setup.py:77
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:39
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:269
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
 msgid "Edit"
 msgstr "upravit položku"
 
@@ -7202,9 +7202,9 @@ msgstr "aktivovat historii :"
 #: enigma2-plugins/easymedia/src/plugin.py:59
 #: enigma2-plugins/easymedia/src/plugin.py:60
 #: enigma2-plugins/easymedia/src/plugin.py:61
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:148
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:592
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:150
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:148
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:51
 msgid "Enabled"
 msgstr "zapnuto"
@@ -7267,9 +7267,9 @@ msgid "Ends"
 msgstr "konec "
 
 #
-#: enigma2-plugins/imdb/src/plugin.py:38
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "English"
 msgstr "anglicky,"
 
@@ -7394,9 +7394,9 @@ msgstr "zadejte označení pro sdílení :"
 msgid "Enter text for page %s"
 msgstr "text pro stránku : %s "
 
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:322
 #: enigma2-plugins/imdb/src/plugin.py:391
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:322
 #: enigma2-plugins/moviesearch/src/plugin.py:85
 msgid "Enter text to search for"
 msgstr "-zadejte text pro vyhledání-"
@@ -7460,8 +7460,8 @@ msgid "Entry %s/%s"
 msgstr "položky %s/%s"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:1933
-#: enigma2-plugins/fritzcall/src/plugin.py:1914
 #: enigma2-plugins/ncidclient/src/plugin.py:609
+#: enigma2-plugins/fritzcall/src/plugin.py:1914
 msgid "Entry incomplete."
 msgstr "Zadání je neúplné !"
 
@@ -7487,13 +7487,13 @@ msgid "Episodes:"
 msgstr "epizody :"
 
 #
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:132
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:136
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1632
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:39
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:41
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:47
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:86
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1632
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:132
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:136
 msgid "Error"
 msgstr "chyba"
 
@@ -7507,17 +7507,17 @@ msgstr "Chyba kontroly souboru protokolu "
 msgid "Error command '%s'"
 msgstr "chybný příkaz '%s'"
 
+#: enigma2-plugins/emission/src/EmissionDetailview.py:120
+#: enigma2-plugins/emission/src/EmissionDetailview.py:136
+#: enigma2-plugins/emission/src/EmissionDetailview.py:183
+#: enigma2-plugins/emission/src/EmissionDetailview.py:211
+#: enigma2-plugins/emission/src/EmissionDetailview.py:312
 #: enigma2-plugins/emission/src/EmissionOverview.py:178
 #: enigma2-plugins/emission/src/EmissionOverview.py:194
 #: enigma2-plugins/emission/src/EmissionOverview.py:250
 #: enigma2-plugins/emission/src/EmissionOverview.py:264
 #: enigma2-plugins/emission/src/EmissionOverview.py:358
 #: enigma2-plugins/emission/src/EmissionOverview.py:385
-#: enigma2-plugins/emission/src/EmissionDetailview.py:120
-#: enigma2-plugins/emission/src/EmissionDetailview.py:136
-#: enigma2-plugins/emission/src/EmissionDetailview.py:183
-#: enigma2-plugins/emission/src/EmissionDetailview.py:211
-#: enigma2-plugins/emission/src/EmissionDetailview.py:312
 #, python-format
 msgid "Error communicating with transmission-daemon: %s."
 msgstr "Chyba při komunikaci s démonem přenosu : %s "
@@ -7785,11 +7785,11 @@ msgid "Exist: %s"
 msgstr "již existuje  : %s"
 
 #
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2171
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1071
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:149
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:55
 msgid "Exit"
 msgstr "konec"
 
@@ -7866,9 +7866,9 @@ msgstr "Rozšířit počet volání"
 msgid "Extensions"
 msgstr "rozšířené"
 
-#: enigma2-plugins/elektro/src/plugin.py:80
-#: enigma2-plugins/showclock/src/plugin.py:72
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
+#: enigma2-plugins/showclock/src/plugin.py:72
+#: enigma2-plugins/elektro/src/plugin.py:80
 msgid "Extensions menu"
 msgstr "rozšířeném menu"
 
@@ -7884,8 +7884,8 @@ msgstr "Extra podpora pro jazyk"
 msgid "Extract archive"
 msgstr "rozbalit archív"
 
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:20
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
 msgid "Extras"
 msgstr "-nástroje-"
 
@@ -8181,8 +8181,8 @@ msgstr "Selhalo přihlášení na Google Reader !"
 msgid "Failed to move the movie %s to %s in the background"
 msgstr "Přesun videa na pozadí z %s do %s selhal !"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:294
 #: e2openplugin-SeriesPlugin/src/SeriesPluginBare.py:48
+#: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:294
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:165
 #, python-format
 msgid "Failed: %s."
@@ -8216,9 +8216,9 @@ msgstr "FanControl2 je ve stavu nouze, vypnout Box ?"
 msgid "Favorite list"
 msgstr "-seznam oblíbených-"
 
-#: enigma2-plugins/internetradio/src/InternetRadioScreen.py:244
 #: enigma2-plugins/twitchtv/src/plugin.py:477
 #: enigma2-plugins/twitchtv/src/plugin.py:660
+#: enigma2-plugins/internetradio/src/InternetRadioScreen.py:244
 msgid "Favorites"
 msgstr "oblíbené"
 
@@ -8344,8 +8344,8 @@ msgstr "vzor souboru (ne RegExp)"
 msgid "Filename:"
 msgstr "Soubor :"
 
-#: enigma2-plugins/easymedia/src/plugin.py:410
 #: enigma2-plugins/emission/src/EmissionDetailview.py:100
+#: enigma2-plugins/easymedia/src/plugin.py:410
 msgid "Files"
 msgstr "Správa souborů"
 
@@ -8465,8 +8465,8 @@ msgid "Filter:"
 msgstr "filtr :"
 
 #
-#: enigma2-plugin-vps/src_py/Vps_check.py:195
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:49
+#: enigma2-plugin-vps/src_py/Vps_check.py:195
 msgid "Finished"
 msgstr "...dokončeno..."
 
@@ -8660,9 +8660,9 @@ msgstr ""
 "\n"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:181
-#: enigma2-plugins/fritzcall/src/plugin.py:168
 #: enigma2-plugins/ncidclient/src/plugin.py:46
 #: enigma2-plugins/mytube/src/plugin.py:86
+#: enigma2-plugins/fritzcall/src/plugin.py:168
 msgid "France"
 msgstr "Francie"
 
@@ -8690,9 +8690,9 @@ msgid "Free: "
 msgstr "volné : "
 
 #
-#: enigma2-plugins/imdb/src/plugin.py:38
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "French"
 msgstr "francouzsky"
 
@@ -8712,12 +8712,12 @@ msgid "Fri"
 msgstr "pátek"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:109
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:45
-#: enigma2-plugins/kiddytimer/src/KTglob.py:12
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:436
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:45
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:12
+#: enigma2-plugins/elektro/src/plugin.py:109
 msgid "Friday"
 msgstr "pátek"
 
@@ -8837,9 +8837,9 @@ msgstr "hry"
 msgid "Gateway"
 msgstr "brána :  "
 
-#: e2-advancedaudiosettings/src/plugin.py:63
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:59
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
+#: e2-advancedaudiosettings/src/plugin.py:63
 msgid "General"
 msgstr "obecné---"
 
@@ -8872,11 +8872,11 @@ msgstr "Žánr (%s) -> seznam skladeb"
 msgid "Genre List"
 msgstr "seznam žánrů"
 
-#: enigma2-plugins/imdb/src/plugin.py:551
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:395
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:136
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:404
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:395
+#: enigma2-plugins/imdb/src/plugin.py:551
 msgid "Genre:"
 msgstr "žánr :"
 
@@ -8906,9 +8906,9 @@ msgid "Genuine Dreambox verification"
 msgstr "-- ověření pravosti Dreamboxu"
 
 #
-#: enigma2-plugins/imdb/src/plugin.py:38
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "German"
 msgstr "německy"
 
@@ -8917,9 +8917,9 @@ msgid "German storm information"
 msgstr "-- počasí nad Německem"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:179
-#: enigma2-plugins/fritzcall/src/plugin.py:166
 #: enigma2-plugins/ncidclient/src/plugin.py:44
 #: enigma2-plugins/mytube/src/plugin.py:87
+#: enigma2-plugins/fritzcall/src/plugin.py:166
 msgid "Germany"
 msgstr "Německo"
 
@@ -9063,9 +9063,9 @@ msgstr "programy kanálů - vše"
 msgid "Great Britain"
 msgstr "Velká Británie"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:55
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:66
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:406
 msgid "Green"
 msgstr "zelená"
 
@@ -9812,8 +9812,8 @@ msgstr "HTTP--"
 msgid "HTTP Password"
 msgstr "heslo HTTP"
 
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:306
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:71
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:306
 msgid "HTTP Port"
 msgstr "port HTTP"
 
@@ -9845,16 +9845,16 @@ msgstr "aplikace HbbTV"
 msgid "Hebrew / Arabic"
 msgstr "hebrejsky / arabsky"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:847
-#: enigma2-plugins/elektro/src/plugin.py:483
-#: enigma2-plugins/podcast/src/plugin.py:605
-#: enigma2-plugins/showclock/src/plugin.py:144
-#: enigma2-plugins/fancontrol2/src/plugin.py:689
-#: enigma2-plugins/pluginsort/src/plugin.py:426
-#: enigma2-plugins/automaticcleanup/src/plugin.py:172
 #: enigma2-plugins/mytube/src/plugin.py:1469
 #: enigma2-plugins/pipzap/src/PipzapSetup.py:43
+#: enigma2-plugins/podcast/src/plugin.py:605
+#: enigma2-plugins/pluginsort/src/plugin.py:426
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:847
+#: enigma2-plugins/showclock/src/plugin.py:144
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:297
+#: enigma2-plugins/automaticcleanup/src/plugin.py:172
+#: enigma2-plugins/elektro/src/plugin.py:483
+#: enigma2-plugins/fancontrol2/src/plugin.py:689
 msgid "Help"
 msgstr "nápověda"
 
@@ -10069,9 +10069,9 @@ msgstr "IMDB - název souboru videa"
 msgid "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 msgstr "IMDBSearch / EMC-TMDBInfo / TMDBInfo / TMBDInfo / CSFDInfo"
 
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1290
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3275
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3281
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1290
 msgid "IMDb"
 msgstr "IMDb"
 
@@ -10132,8 +10132,8 @@ msgid "IP"
 msgstr "IP"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:295
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:130
+#: enigma2-plugins/elektro/src/plugin.py:295
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:575
 msgid "IP Address"
 msgstr "IP adresa"
@@ -10450,8 +10450,8 @@ msgstr "použít :  %s"
 msgid "Include AutoTimer name in tags"
 msgstr "zahrnout název do časovače"
 
-#: e2openplugin-PushService/src/Controller/RecordSummary.py:48
 #: e2openplugin-PushService/src/Controller/RecordNotification.py:53
+#: e2openplugin-PushService/src/Controller/RecordSummary.py:48
 msgid "Include timer description"
 msgstr "včetně popisu časovače"
 
@@ -10534,14 +10534,14 @@ msgstr "Vyjímka časovače pro nezávislý mód"
 msgid "India"
 msgstr "Indie"
 
-#: enigma2-plugin-babelzapper/src/plugin.py:115
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:84
-#: enigma2-plugins/dreamexplorer/src/plugin.py:500
 #: enigma2-plugin-partnerbox/src/plugin.py:267
 #: enigma2-plugin-partnerbox/src/plugin.py:324
 #: enigma2-plugin-partnerbox/src/plugin.py:1140
 #: enigma2-plugin-partnerbox/src/plugin.py:1277
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:84
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:64
+#: enigma2-plugins/dreamexplorer/src/plugin.py:500
+#: enigma2-plugin-babelzapper/src/plugin.py:115
 msgid "Info"
 msgstr "-info ->"
 
@@ -10572,9 +10572,9 @@ msgstr "info-panel a styl oken : "
 msgid "Infobar timeout"
 msgstr "hl.info-panel se schová za..."
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:69
-#: enigma2-plugins/fancontrol2/src/plugin.py:801
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:178
+#: enigma2-plugins/fancontrol2/src/plugin.py:801
+#: enigma2-plugin-vps/src_py/Vps_setup.py:69
 msgid "Information"
 msgstr "informace  >>"
 
@@ -10639,9 +10639,9 @@ msgstr "nainstalovat tento balíček"
 msgid "Installing Mutagen-package"
 msgstr "instalovat balíček Mutagen"
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:98
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:104
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:139
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:98
 msgid "Instant Record"
 msgstr "okamžité nahrávání..."
 
@@ -10682,9 +10682,9 @@ msgid "Interval to check IP-Adress"
 msgstr "interval pro kontrolu IP adres"
 
 #
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2843
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:761
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:156
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2843
 msgid "Invalid Location"
 msgstr "-chybné umístění-"
 
@@ -10728,16 +10728,16 @@ msgid "Israel"
 msgstr "Izrael"
 
 #
-#: enigma2-plugins/imdb/src/plugin.py:38
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "Italian"
 msgstr "italsky"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:182
-#: enigma2-plugins/fritzcall/src/plugin.py:169
 #: enigma2-plugins/ncidclient/src/plugin.py:47
 #: enigma2-plugins/mytube/src/plugin.py:95
+#: enigma2-plugins/fritzcall/src/plugin.py:169
 msgid "Italy"
 msgstr "Itálie"
 
@@ -10869,9 +10869,9 @@ msgstr "Označení časovačů podle epizody a titulku série Pluginu"
 msgid "Language"
 msgstr "jazyk dialogu"
 
-#: enigma2-plugins/imdb/src/plugin.py:699
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:703
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Language:"
 msgstr "jazyk :"
 
@@ -10880,8 +10880,8 @@ msgid "Languages:"
 msgstr "jazyky :"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2346
-#: enigma2-plugins/fritzcall/src/plugin.py:2325
 #: enigma2-plugins/ncidclient/src/plugin.py:828
+#: enigma2-plugins/fritzcall/src/plugin.py:2325
 msgid "Last 10 calls:\n"
 msgstr "posledních 10 hovorů v režimu spánku :\n"
 
@@ -10918,8 +10918,8 @@ msgstr "poslední aktualizace :"
 msgid "Latest"
 msgstr "poslední"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1105
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1496
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1105
 msgid "Latest Recordings"
 msgstr "poslední nahrávky"
 
@@ -11032,11 +11032,11 @@ msgid "List of Plugins has been read"
 msgstr "Seznam modulů byl načtený"
 
 #
+#: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:205
+#: enigma2-plugins/dreamexplorer/src/plugin.py:475
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:235
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:341
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:596
-#: enigma2-plugins/dreamexplorer/src/plugin.py:475
-#: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:205
 msgid "List of Storage Devices"
 msgstr "<<nahoru>>"
 
@@ -11162,8 +11162,8 @@ msgstr "...načítám..."
 msgid "Local"
 msgstr "lokální"
 
-#: enigma2-plugins/tubelib/src/twitch/TwitchChannelListServiceProvider.py:20
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:20
+#: enigma2-plugins/tubelib/src/twitch/TwitchChannelListServiceProvider.py:20
 msgid "Local channel name"
 msgstr "lokální název kanálu"
 
@@ -11189,11 +11189,11 @@ msgstr ""
 "(...natrvalo, pokud není aktivní koš)"
 
 #
-#: enigma2-plugins/movieretitle/src/plugin.py:58
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:457
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:61
 #: enigma2-plugins/dvdbackup/src/plugin.py:302
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:219
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:457
+#: enigma2-plugins/movieretitle/src/plugin.py:58
 msgid "Location"
 msgstr "- uložit do složky"
 
@@ -11217,8 +11217,8 @@ msgstr "umístění '%s' již existuje"
 msgid "Location '%s' removed successfully"
 msgstr "umístění '%s' bylo odstraněno"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:281
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:91
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:281
 msgid "Location and name of log file"
 msgstr "složka a název souboru protokolu_"
 
@@ -11230,9 +11230,9 @@ msgstr "kód lokace..."
 msgid "Location of autotimer_search.log"
 msgstr "složka pro umístění protokolu autotimer_search.log"
 
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1081
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:27
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:63
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1081
 msgid "Location:"
 msgstr "umístění : "
 
@@ -11594,10 +11594,10 @@ msgid "Media directory"
 msgstr "složka pro videa"
 
 #
+#: enigma2-plugins/easymedia/src/plugin.py:49
 #: enigma2-plugins/quickbutton/src/plugin.py:129
 #: enigma2-plugins/quickbutton/src/plugin.py:223
 #: enigma2-plugins/quickbutton/src/plugin.py:269
-#: enigma2-plugins/easymedia/src/plugin.py:49
 msgid "MediaPlayer"
 msgstr "MediaPlayer"
 
@@ -11690,8 +11690,8 @@ msgid "MerlinSkinThemes screen found"
 msgstr "Nalezena obrazovka MerlinSkinThemes"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:940
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:81
+#: enigma2-plugins/elektro/src/plugin.py:940
 msgid "Message"
 msgstr "- hlášení -"
 
@@ -11906,12 +11906,12 @@ msgid "Mon-Fri"
 msgstr "Po - Pá"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:105
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:41
-#: enigma2-plugins/kiddytimer/src/KTglob.py:8
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:432
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:41
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:8
+#: enigma2-plugins/elektro/src/plugin.py:105
 msgid "Monday"
 msgstr "pondělí"
 
@@ -12005,8 +12005,8 @@ msgid "Mounts editor"
 msgstr "Editor přípojných bodů..."
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3016
-#: enigma2-plugins/dreamexplorer/src/plugin.py:1199
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1074
+#: enigma2-plugins/dreamexplorer/src/plugin.py:1199
 msgid "Move"
 msgstr "přesun"
 
@@ -12033,8 +12033,8 @@ msgstr "přesunout soubory"
 msgid "Move clock"
 msgstr "posun hodin"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:803
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:703
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:803
 msgid "Move cursor down"
 msgstr "přesunout kurzor dolů"
 
@@ -12066,8 +12066,8 @@ msgid ""
 "Home (up)"
 msgstr "přesunout kurzor \"nahoru\" / o x řádků / přepnout složky"
 
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:802
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:702
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:802
 msgid "Move cursor up"
 msgstr "přesunout kurzor nahoru"
 
@@ -12250,10 +12250,10 @@ msgstr "značka videa"
 msgid "Movie Tagger..."
 msgstr "Přesunout značku..."
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:721
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1498
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:204
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:225
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:721
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1498
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:90
 msgid "Movie home"
 msgstr "výchozí složka videa"
@@ -12302,11 +12302,11 @@ msgid ""
 "the movielist."
 msgstr "Sestavuje snímky nahrávek a zobrazuje je uvnitř seznamu videa."
 
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:51
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:16
-#: enigma2-plugins/serienfilm/src/MovieList.py:597
 #: enigma2-plugins/easymedia/src/plugin.py:323
 #: enigma2-plugins/easymedia/src/plugin.py:380
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:51
+#: enigma2-plugins/serienfilm/src/MovieList.py:597
 msgid "Movies"
 msgstr "videa, filmy"
 
@@ -12329,11 +12329,11 @@ msgid "Multi Dreambox RC layer setup"
 msgstr "-- nastavení dálk.ovladače při více přijímačích"
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:57
-#: enigma2-plugins/easyinfo/src/plugin.py:72
 #: enigma2-plugins/quickbutton/src/plugin.py:124
 #: enigma2-plugins/quickbutton/src/plugin.py:222
 #: enigma2-plugins/quickbutton/src/plugin.py:267
+#: enigma2-plugins/easyinfo/src/plugin.py:57
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 msgid "Multi EPG"
 msgstr "akt.programy_2"
 
@@ -12423,13 +12423,13 @@ msgid "MyTubeVideohelpScreen"
 msgstr "MyTubeVideo - info okno"
 
 #
-#: enigma2-plugins/webinterface/src/WebComponents/Converter/HddInfo.py:32
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:245
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:252
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:376
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:388
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:404
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:625
+#: enigma2-plugins/webinterface/src/WebComponents/Converter/HddInfo.py:32
 msgid "N/A"
 msgstr "-není-"
 
@@ -12501,20 +12501,20 @@ msgid "NFS share"
 msgstr "NFS sdílení"
 
 #
-#: enigma2-plugin-fritzcall/src/plugin.py:1913
 #: e2openplugin-InfoBarTunerState/src/plugin.py:66
-#: enigma2-plugins/growlee/src/plugin.py:167
-#: enigma2-plugins/elektro/src/plugin.py:461
-#: enigma2-plugins/birthdayreminder/src/plugin.py:43
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:218
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:59
-#: enigma2-plugins/showclock/src/plugin.py:121
-#: enigma2-plugins/fritzcall/src/plugin.py:1894
-#: enigma2-plugins/ncidclient/src/plugin.py:593
-#: enigma2-plugins/dreamexplorer/src/plugin.py:359
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:410
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:156
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:306
+#: enigma2-plugin-fritzcall/src/plugin.py:1913
+#: enigma2-plugins/ncidclient/src/plugin.py:593
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:59
+#: enigma2-plugins/growlee/src/plugin.py:167
+#: enigma2-plugins/fritzcall/src/plugin.py:1894
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:218
+#: enigma2-plugins/birthdayreminder/src/plugin.py:43
+#: enigma2-plugins/showclock/src/plugin.py:121
+#: enigma2-plugins/elektro/src/plugin.py:461
+#: enigma2-plugins/dreamexplorer/src/plugin.py:359
 msgid "Name"
 msgstr "název"
 
@@ -12527,9 +12527,9 @@ msgstr "zadání názvu a popisu"
 msgid "Name of DVD"
 msgstr "název DVD"
 
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:155
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:565
 #: enigma2-plugins/dvdbackup/src/plugin.py:310
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:565
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:155
 msgid "Name:"
 msgstr "název :"
 
@@ -12538,9 +12538,9 @@ msgstr "název :"
 msgid "Name: %s\n"
 msgstr "název : %s\n"
 
+#: enigma2-plugins/namezap/src/plugin.py:104
 #: enigma2-plugins/namezap/src/NamezapSetup.py:30
 #: enigma2-plugins/namezap/src/NamezapSetup.py:71
-#: enigma2-plugins/namezap/src/plugin.py:104
 msgid "NameZAP Setup"
 msgstr "NameZAP - nastavení"
 
@@ -12577,8 +12577,8 @@ msgstr "procházení sítě"
 msgid "Networking port (default: 7374):"
 msgstr "síťový port (standardně: 7374) : "
 
-#: enigma2-plugins/movieepg/src/plugin.py:16
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:329
+#: enigma2-plugins/movieepg/src/plugin.py:16
 msgid "Never"
 msgstr "nikdy"
 
@@ -12591,15 +12591,15 @@ msgstr ""
 #
 #. TRANSLATORS: keep it short, this is a button
 #: enigma2-plugin-fritzcall/src/plugin.py:1737
+#: enigma2-plugins/ncidclient/src/plugin.py:443
 #: enigma2-plugins/growlee/src/plugin.py:101
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:80
 #: enigma2-plugins/tageditor/src/plugin.py:62
 #: enigma2-plugins/fritzcall/src/plugin.py:1718
 #: enigma2-plugins/simplerss/src/RSSSetup.py:72
-#: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:56
-#: enigma2-plugins/ncidclient/src/plugin.py:443
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:988
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1265
+#: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:56
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:80
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:51
 msgid "New"
 msgstr "nový"
@@ -12617,8 +12617,8 @@ msgstr "nové položky od poslední aut.aktualizace"
 msgid "New Password"
 msgstr "nové heslo"
 
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1300
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:188
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1300
 msgid "New Search"
 msgstr "znovu vyhledat"
 
@@ -12714,34 +12714,34 @@ msgstr "další časovač :"
 msgid "Nickname"
 msgstr "přezdívka"
 
-#: enigma2-plugin-moviecut/src_py/plugin.py:95
-#: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/plugin.py:19
-#: enigma2-plugin-vps/src_py/plugin.py:20
-#: enigma2-plugin-vps/src_py/Vps_check.py:345
-#: enigma2-plugin-vps/src_py/Vps_check.py:373
 #: enigma2-plugin-pzyp4t/src/plugin.py:436
 #: enigma2-plugin-pzyp4t/src/plugin.py:468
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:860
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2062
-#: enigma2-plugins/epgrefresh/src/plugin.py:61
-#: enigma2-plugins/mytube/src/plugin.py:56
-#: enigma2-plugins/mytube/src/plugin.py:570
-#: enigma2-plugins/mytube/src/plugin.py:576
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:336
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:31
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:32
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:253
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:258
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:359
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:363
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:31
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:32
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:159
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:44
+#: enigma2-plugins/mytube/src/plugin.py:56
+#: enigma2-plugins/mytube/src/plugin.py:570
+#: enigma2-plugins/mytube/src/plugin.py:576
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:860
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2062
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:336
+#: enigma2-plugins/epgrefresh/src/plugin.py:61
+#: enigma2-plugin-moviecut/src_py/plugin.py:95
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:65
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
+#: enigma2-plugin-vps/src_py/Modifications.py:140
 msgid "No"
 msgstr "-ne-"
 
@@ -12839,8 +12839,8 @@ msgstr "Informace o autorských právech nejsou k dispozici"
 msgid "No cuts specified"
 msgstr "Střih není specifikovaný"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:299
 #: e2openplugin-SeriesPlugin/src/SeriesPluginBare.py:54
+#: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:299
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:173
 msgid "No data available"
 msgstr "Datum není k dispozici"
@@ -12856,12 +12856,12 @@ msgstr "popis není dostupný"
 #: enigma2-plugin-fritzcall/src/plugin.py:1823
 #: enigma2-plugin-fritzcall/src/plugin.py:1840
 #: enigma2-plugin-fritzcall/src/plugin.py:1972
-#: enigma2-plugins/fritzcall/src/plugin.py:1804
-#: enigma2-plugins/fritzcall/src/plugin.py:1821
-#: enigma2-plugins/fritzcall/src/plugin.py:1953
 #: enigma2-plugins/ncidclient/src/plugin.py:525
 #: enigma2-plugins/ncidclient/src/plugin.py:542
 #: enigma2-plugins/ncidclient/src/plugin.py:634
+#: enigma2-plugins/fritzcall/src/plugin.py:1804
+#: enigma2-plugins/fritzcall/src/plugin.py:1821
+#: enigma2-plugins/fritzcall/src/plugin.py:1953
 msgid "No entry selected"
 msgstr "Nic není vybráno"
 
@@ -12967,9 +12967,9 @@ msgstr "Stránka zásobníku na webu není definována !"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2302
 #: enigma2-plugin-fritzcall/src/plugin.py:2975
+#: enigma2-plugins/ncidclient/src/plugin.py:798
 #: enigma2-plugins/fritzcall/src/plugin.py:2282
 #: enigma2-plugins/fritzcall/src/plugin.py:2951
-#: enigma2-plugins/ncidclient/src/plugin.py:798
 msgid "No phonebook"
 msgstr "Chybí tel.seznam"
 
@@ -13077,9 +13077,9 @@ msgstr "ne   - ale přepnout na vyhledávání videa"
 
 #
 #: e2openplugin-InfoBarTunerState/src/plugin.py:84
-#: enigma2-plugins/autotimer/src/__init__.py:13
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:370
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:401
+#: enigma2-plugins/autotimer/src/__init__.py:13
 msgid "None"
 msgstr "-žádný-"
 
@@ -13149,6 +13149,7 @@ msgstr "Pro jednorázové časovače se dny zadávat nemusí..."
 msgid "Note: For recurring events dates are not mandatory."
 msgstr "Pro opakující se události není datum povinný..."
 
+#: enigma2-plugins/easymedia/src/plugin.py:486
 #: enigma2-plugins/quickbutton/src/plugin.py:33
 #: enigma2-plugins/quickbutton/src/plugin.py:34
 #: enigma2-plugins/quickbutton/src/plugin.py:35
@@ -13162,7 +13163,6 @@ msgstr "Pro opakující se události není datum povinný..."
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:90
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:115
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:177
-#: enigma2-plugins/easymedia/src/plugin.py:486
 msgid "Nothing"
 msgstr "-nic-"
 
@@ -13216,8 +13216,8 @@ msgid "Nr"
 msgstr "číslo"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:1914
-#: enigma2-plugins/fritzcall/src/plugin.py:1895
 #: enigma2-plugins/ncidclient/src/plugin.py:594
+#: enigma2-plugins/fritzcall/src/plugin.py:1895
 msgid "Number"
 msgstr "počet"
 
@@ -13260,88 +13260,88 @@ msgid "OFF"
 msgstr "vyp."
 
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugin-moviecut/src_py/plugin.py:86
-#: enigma2-plugin-fritzcall/src/plugin.py:1898
-#: enigma2-plugin-fritzcall/src/plugin.py:2089
-#: enigma2-plugin-babelzapper/src/plugin.py:114
-#: enigma2-plugin-vps/src_py/Vps_setup.py:67
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:297
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:52
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:92
-#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:155
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2809
-#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2930
 #: enigma2-plugin-pzyp4t/src/plugin.py:3415
 #: enigma2-plugin-pzyp4t/src/plugin.py:3783
-#: e2-advancedaudiosettings/src/plugin.py:53
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:150
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:638
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:86
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:289
+#: enigma2-plugin-fritzcall/src/plugin.py:1898
+#: enigma2-plugin-fritzcall/src/plugin.py:2089
+#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:50
+#: enigma2-plugins/virtualzap/src/plugin.py:725
+#: enigma2-plugins/ncidclient/src/plugin.py:578
+#: enigma2-plugins/ncidclient/src/plugin.py:700
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:782
+#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:58
+#: enigma2-plugins/webinterface/src/WebIfConfig.py:31
+#: enigma2-plugins/imdb/src/plugin.py:782
+#: enigma2-plugins/growlee/src/plugin.py:100
+#: enigma2-plugins/remotetimer/src/plugin.py:233
+#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:28
+#: enigma2-plugins/emission/src/EmissionBandwidth.py:71
+#: enigma2-plugins/emission/src/EmissionSetup.py:38
+#: enigma2-plugins/pipzap/src/PipzapSetup.py:38
+#: enigma2-plugins/cdinfo/src/plugin.py:57
+#: enigma2-plugins/audiosync/src/AC3main.py:67
+#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:77
+#: enigma2-plugins/tageditor/src/plugin.py:61
+#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
+#: enigma2-plugins/fritzcall/src/plugin.py:1879
+#: enigma2-plugins/fritzcall/src/plugin.py:2069
 #: enigma2-plugins/teletext/src/plugin.py:1150
 #: enigma2-plugins/teletext/src/plugin.py:1171
 #: enigma2-plugins/teletext/src/plugin.py:1297
-#: enigma2-plugins/movieretitle/src/plugin.py:40
-#: enigma2-plugins/cec/src/CecConfig.py:40
-#: enigma2-plugins/pipservicerelation/src/plugin.py:189
-#: enigma2-plugins/growlee/src/plugin.py:100
-#: enigma2-plugins/audiosync/src/AC3main.py:67
-#: enigma2-plugins/imdb/src/plugin.py:782
-#: enigma2-plugins/virtualzap/src/plugin.py:725
-#: enigma2-plugins/autoresolution/src/plugin.py:345
-#: enigma2-plugins/cdinfo/src/plugin.py:57
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1299
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:727
-#: enigma2-plugins/webinterface/src/WebIfConfig.py:31
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
-#: enigma2-plugins/weatherplugin/src/setup.py:196
-#: enigma2-plugins/weatherplugin/src/setup.py:300
-#: enigma2-plugins/showclock/src/plugin.py:143
-#: enigma2-plugins/tageditor/src/plugin.py:61
-#: enigma2-plugins/fritzcall/src/plugin.py:1879
-#: enigma2-plugins/fritzcall/src/plugin.py:2069
+#: enigma2-plugins/autoresolution/src/plugin.py:345
+#: enigma2-plugins/tvcharts/src/plugin.py:402
 #: enigma2-plugins/simplerss/src/RSSSetup.py:24
 #: enigma2-plugins/simplerss/src/RSSSetup.py:71
-#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:47
-#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:122
-#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:50
-#: enigma2-plugins/ncidclient/src/plugin.py:578
-#: enigma2-plugins/ncidclient/src/plugin.py:700
+#: enigma2-plugins/showclock/src/plugin.py:143
 #: enigma2-plugins/quickbutton/src/plugin.py:197
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:62
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:141
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:258
-#: enigma2-plugins/satloader/src/plugin.py:285
-#: enigma2-plugins/antiscrollbar/src/plugin.py:126
-#: enigma2-plugins/videocolorspace/src/VideoColorSpace.py:80
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:782
-#: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:58
-#: enigma2-plugins/c3vocupdater/src/plugin.py:44
-#: enigma2-plugins/startuptostandby/src/StartupToStandbyConfiguration.py:28
-#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:175
-#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:55
-#: enigma2-plugins/automaticcleanup/src/plugin.py:171
-#: enigma2-plugins/movielistpreview/src/plugin.py:123
-#: enigma2-plugins/namezap/src/NamezapSetup.py:53
-#: enigma2-plugins/screensaver/src/ScreensaverSetup.py:16
-#: enigma2-plugins/pipzap/src/PipzapSetup.py:38
-#: enigma2-plugins/3dsettings/src/plugin.py:185
-#: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:77
+#: enigma2-plugins/cec/src/CecConfig.py:40
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1263
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:47
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:138
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:115
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:486
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1263
-#: enigma2-plugins/emission/src/EmissionSetup.py:38
-#: enigma2-plugins/emission/src/EmissionBandwidth.py:71
-#: enigma2-plugins/remotetimer/src/plugin.py:233
-#: enigma2-plugins/tvcharts/src/plugin.py:402
-#: e2openplugin-PushService/src/ConfigScreen.py:172
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:86
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:289
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:638
+#: enigma2-plugins/pipservicerelation/src/plugin.py:189
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:62
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:141
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:258
+#: enigma2-plugins/automaticcleanup/src/plugin.py:171
+#: enigma2-plugins/movieretitle/src/plugin.py:40
+#: enigma2-plugins/antiscrollbar/src/plugin.py:126
+#: enigma2-plugins/3dsettings/src/plugin.py:185
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1299
+#: enigma2-plugins/movieepg/src/MovieEpgSetup.py:55
+#: enigma2-plugins/c3vocupdater/src/plugin.py:44
+#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:47
+#: enigma2-plugins/internetradio/src/InternetRadioSetup.py:122
+#: enigma2-plugins/namezap/src/NamezapSetup.py:53
+#: enigma2-plugins/screensaver/src/ScreensaverSetup.py:16
+#: enigma2-plugins/weatherplugin/src/setup.py:196
+#: enigma2-plugins/weatherplugin/src/setup.py:300
+#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:175
+#: enigma2-plugins/satloader/src/plugin.py:285
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:78
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:109
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:150
+#: enigma2-plugins/movielistpreview/src/plugin.py:123
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:26
+#: enigma2-plugin-moviecut/src_py/plugin.py:86
+#: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:50
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:198
-#: enigma2-plugin-permanenttimeshift/src/plugin.py:1930
+#: enigma2-plugin-babelzapper/src/plugin.py:114
+#: e2openplugin-PushService/src/ConfigScreen.py:172
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2809
+#: enigma2-plugin-merlinmusicplayer/src/plugin.py:2930
+#: enigma2-plugin-vps/src_py/Vps_setup.py:67
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:92
+#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:155
+#: e2-advancedaudiosettings/src/plugin.py:53
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:297
 msgid "OK"
 msgstr "OK"
 
@@ -13413,12 +13413,12 @@ msgid "Observation time: %s"
 msgstr "čas měření : %s"
 
 #
-#: enigma2-plugins/internetradio/src/plugin.py:35
-#: enigma2-plugins/internetradio/src/plugin.py:37
-#: enigma2-plugins/internetradio/src/plugin.py:41
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:165
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:185
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:194
+#: enigma2-plugins/internetradio/src/plugin.py:35
+#: enigma2-plugins/internetradio/src/plugin.py:37
+#: enigma2-plugins/internetradio/src/plugin.py:41
 msgid "Off"
 msgstr "vyp."
 
@@ -13844,17 +13844,17 @@ msgid "Page: "
 msgstr "stránka : "
 
 #
-#: enigma2-plugins/quickbutton/src/plugin.py:142
 #: enigma2-plugins/letterbox/src/plugin.py:40
+#: enigma2-plugins/quickbutton/src/plugin.py:142
 msgid "Pan&Scan"
 msgstr "panscan"
 
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:109
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:131
+#: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:207
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:235
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:343
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:596
-#: enigma2-plugins/subsdownloader2/src/SourceCode/myFileList.py:207
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:109
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:131
 msgid "Parent Directory"
 msgstr "<<nahoru>>"
 
@@ -13879,14 +13879,14 @@ msgstr "částečná shoda v titulku nebo popisu"
 msgid "Partition tool"
 msgstr "-- nástroje pro diskové oddíly"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:195
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:148
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:178
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:195
 msgid "Partnerbox"
 msgstr "Partnerbox"
 
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:555
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:157
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:555
 #, python-format
 msgid ""
 "Partnerbox Answer: \n"
@@ -13944,16 +13944,16 @@ msgstr "průběžně"
 msgid "Passwd"
 msgstr "heslo"
 
+#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:309
 #: enigma2-plugins/growlee/src/plugin.py:182
-#: enigma2-plugins/setpasswd/src/plugin.py:100
-#: enigma2-plugins/elektro/src/plugin.py:370
 #: enigma2-plugins/dyndns/src/plugin.py:37
 #: enigma2-plugins/emission/src/EmissionSetup.py:29
+#: enigma2-plugins/setpasswd/src/plugin.py:100
+#: enigma2-plugins/elektro/src/plugin.py:370
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:134
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:119
 #: e2openplugin-PushService/src/Services/GNTP.py:51
 #: e2openplugin-PushService/src/Services/SMTP.py:57
-#: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:309
 msgid "Password"
 msgstr "heslo boxu pro FTP,SSH"
 
@@ -14029,8 +14029,8 @@ msgstr "všechno pozastavit"
 msgid "Pause shown"
 msgstr "Zobrazit pozastavené"
 
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:55
 #: enigma2-plugins/epgrefresh/src/plugin.py:254
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:55
 msgid "Pending Services"
 msgstr "pro neplacené kanály"
 
@@ -14130,16 +14130,15 @@ msgstr "Telefon.seznam a obrázky"
 #. TRANSLATORS: keep it short, this is a button
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
-#. TRANSLATORS: this is a window title.
 #: enigma2-plugin-fritzcall/src/plugin.py:150
 #: enigma2-plugin-fritzcall/src/plugin.py:1774
 #: enigma2-plugin-fritzcall/src/plugin.py:2093
 #: enigma2-plugin-fritzcall/src/plugin.py:3012
+#: enigma2-plugins/ncidclient/src/plugin.py:467
 #: enigma2-plugins/fritzcall/src/plugin.py:137
 #: enigma2-plugins/fritzcall/src/plugin.py:1755
 #: enigma2-plugins/fritzcall/src/plugin.py:2073
 #: enigma2-plugins/fritzcall/src/plugin.py:2987
-#: enigma2-plugins/ncidclient/src/plugin.py:467
 msgid "Phonebook"
 msgstr "Telefon.seznam"
 
@@ -14185,8 +14184,8 @@ msgid "Pictures"
 msgstr "obrázky, fotografie"
 
 #
-#: enigma2-plugins/quickbutton/src/plugin.py:141
 #: enigma2-plugins/letterbox/src/plugin.py:40
+#: enigma2-plugins/quickbutton/src/plugin.py:141
 msgid "Pillarbox"
 msgstr "pillarbox"
 
@@ -14300,8 +14299,8 @@ msgstr "přehrávací zařízení 3"
 msgid "Playback of '%s' started"
 msgstr "přehrávání '%s' je spuštěno"
 
-#: enigma2-plugin-vlcplayer/src/VlcMediaList.py:60
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:174
+#: enigma2-plugin-vlcplayer/src/VlcMediaList.py:60
 msgid "Playlist"
 msgstr "seznam vybraného videa"
 
@@ -14463,8 +14462,8 @@ msgstr "Zajistěte vazbu na kanál-/uživ.název"
 msgid "Please provide a YouTube Channel-/Username"
 msgstr "zadejte kanál YouTube a uživatele"
 
-#: enigma2-plugins/tubelib/src/twitch/TwitchChannelListServiceProvider.py:20
 #: enigma2-plugins/tubelib/src/youtube/YTChannelListServiceProvider.py:20
+#: enigma2-plugins/tubelib/src/twitch/TwitchChannelListServiceProvider.py:20
 msgid "Please provide a channel name for your local channel list"
 msgstr "zadejte název kanálu pro lokální seznam kanálů"
 
@@ -14639,9 +14638,9 @@ msgstr "modul pro aut.aktualizaci : "
 msgid "Plugin browser"
 msgstr "Nainstalované std.moduly..."
 
-#: enigma2-plugins/elektro/src/plugin.py:80
-#: enigma2-plugins/showclock/src/plugin.py:72
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
+#: enigma2-plugins/showclock/src/plugin.py:72
+#: enigma2-plugins/elektro/src/plugin.py:80
 msgid "Plugin menu"
 msgstr "sezn.modulů"
 
@@ -14710,13 +14709,13 @@ msgstr "Podcasts - převod textu na audio v Dreamboxu."
 msgid "Poland"
 msgstr "Polsko"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:265
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:69
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:265
 msgid "Poll Interval (in h)"
 msgstr "interval kontroly (hod.)"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:263
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:66
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:263
 msgid "Poll automatically"
 msgstr "aut.kontrola"
 
@@ -14724,11 +14723,11 @@ msgstr "aut.kontrola"
 msgid "Popup timeout in seconds"
 msgstr "zobrazit hlášení na dobu (sek.)"
 
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:66
-#: enigma2-plugins/emission/src/EmissionSetup.py:30
-#: enigma2-plugins/emission/src/EmissionBandwidth.py:103
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:158
 #: enigma2-plugin-partnerbox/src/PartnerboxSetup.py:308
+#: enigma2-plugins/emission/src/EmissionBandwidth.py:103
+#: enigma2-plugins/emission/src/EmissionSetup.py:30
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:66
 msgid "Port"
 msgstr "port"
 
@@ -14736,8 +14735,8 @@ msgstr "port"
 msgid "Port:"
 msgstr "port :"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 msgid "Portuguese"
 msgstr "portugalsky"
 
@@ -15267,8 +15266,8 @@ msgstr "načíst / zapsat chyby (disk plný?)"
 msgid "Reading directory..."
 msgstr "Načítám složky..."
 
-#: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:60
 #: enigma2-plugins/autotimer/src/ShowLogScreen.py:59
+#: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:60
 msgid "Reading log file...\n"
 msgstr "načíst protokol... \n"
 
@@ -15276,26 +15275,26 @@ msgstr "načíst protokol... \n"
 msgid "Reading speed [80-450] words/min"
 msgstr "rychlost čtení [80-450] slov/min."
 
-#: enigma2-plugin-vps/src_py/Vps_setup.py:129
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:382
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:198
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:86
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:421
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:254
+#: e2openplugin-EnhancedMovieCenter/src/configlistext.py:324
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:770
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1187
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1421
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:254
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:421
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:198
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:86
 #: e2openplugin-PushService/src/ConfigScreen.py:346
-#: e2openplugin-EnhancedMovieCenter/src/configlistext.py:324
+#: enigma2-plugin-vps/src_py/Vps_setup.py:129
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:382
 msgid "Really close without saving settings?"
 msgstr "Zavřít bez uložení nastavení ?"
 
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid ""
 "Really close without saving settings?\n"
 "What do you want to do?"
@@ -15322,9 +15321,9 @@ msgstr "Odstranit server ?"
 msgid "Really delete this WeatherPlugin Entry?"
 msgstr "Chcete odebrat záznamy z WeatherPlugin  ?"
 
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:323
 #: enigma2-plugins/growlee/src/plugin.py:137
 #: enigma2-plugins/simplerss/src/RSSSetup.py:142
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:323
 msgid ""
 "Really delete this entry?\n"
 "It cannot be recovered!"
@@ -15348,8 +15347,8 @@ msgstr "Odstranit torrent ?"
 msgid "Really quit MyTube Player?"
 msgstr "Ukončit MyTube Player ?"
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:79
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:261
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:79
 msgid "Reboot"
 msgstr ">restart systému"
 
@@ -15387,11 +15386,11 @@ msgid "Reconstruct the .ap and .sc files of the selected movie"
 msgstr "Obnovit .ap- a .sc soubory pro vybrané video"
 
 #
-#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:406
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:51
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:241
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:505
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:766
+#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:406
 msgid "Record"
 msgstr "nahrát"
 
@@ -15493,9 +15492,9 @@ msgstr "složka pro záznamy..."
 msgid "Recording stream station"
 msgstr "nahrát stream ze stanice"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:54
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:65
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
 msgid "Red"
 msgstr "červená"
 
@@ -15507,9 +15506,9 @@ msgstr "funkce pod tl.: červené"
 msgid "Redirect notifications to Growl, Snarl, Prowl or Syslog"
 msgstr "-- přesměrování zpráv na Growl, Snarl, Prowl, Syslog"
 
-#: enigma2-plugins/cec/src/CecDeviceList.py:53
 #: enigma2-plugins/twitchtv/src/plugin.py:244
 #: enigma2-plugins/twitchtv/src/plugin.py:372
+#: enigma2-plugins/cec/src/CecDeviceList.py:53
 msgid "Refresh"
 msgstr "obnovit"
 
@@ -15533,9 +15532,9 @@ msgstr "obnovovací frekvence"
 msgid "Refresh Screenshot"
 msgstr "sejmout..."
 
+#: enigma2-plugins/epgrefresh/src/plugin.py:252
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:58
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:61
-#: enigma2-plugins/epgrefresh/src/plugin.py:252
 msgid "Refresh now"
 msgstr "start aktualizace >>"
 
@@ -15669,8 +15668,8 @@ msgstr "vzdálený"
 msgid "Remote (not connected)"
 msgstr "FTP (není připojeno)"
 
-#: enigma2-plugins/remotetimer/src/plugin.py:266
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:235
+#: enigma2-plugins/remotetimer/src/plugin.py:266
 msgid "Remote Timer"
 msgstr "vzdálený časovač"
 
@@ -15722,13 +15721,13 @@ msgstr "-- ovládání a časování vzdáleného TV z Dreamboxu"
 msgid "Remote-Control for the Transmission BitTorrent client."
 msgstr "-- dálkové ovládání klienta Transmission Bit Torrent"
 
-#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:156
 #: enigma2-plugin-pzyp4t/src/plugin.py:2620
 #: enigma2-plugins/satipclient/src/SatIPTunerSetup.py:30
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1298
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:265
 #: enigma2-plugins/twitchtv/src/plugin.py:511
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:265
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1298
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:158
+#: e2openplugin-SeriesPlugin/src/ChannelEditor.py:156
 msgid "Remove"
 msgstr "odebrat"
 
@@ -15865,10 +15864,10 @@ msgstr "zrušit výběr"
 msgid "Remove the selected entry"
 msgstr "odstranit zadání"
 
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1316
-#: enigma2-plugins/easyinfo/src/plugin.py:724
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:160
 #: enigma2-plugin-partnerbox/src/plugin.py:333
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1316
+#: enigma2-plugins/easyinfo/src/plugin.py:724
 msgid "Remove timer"
 msgstr "odebrat časovač"
 
@@ -15884,9 +15883,9 @@ msgid "Removing directories is not supported."
 msgstr "Odstranění složky není podporováno !"
 
 #
-#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:398
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:202
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1075
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:202
+#: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:398
 msgid "Rename"
 msgstr "přejmenovat"
 
@@ -16026,14 +16025,14 @@ msgstr "znovu prohledat"
 #: enigma2-plugin-fritzcall/src/plugin.py:596
 #: enigma2-plugin-fritzcall/src/plugin.py:793
 #: enigma2-plugin-fritzcall/src/plugin.py:798
-#: enigma2-plugins/cec/src/CecConfig.py:42
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:59
-#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:180
-#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
 #: enigma2-plugins/fritzcall/src/plugin.py:526
 #: enigma2-plugins/fritzcall/src/plugin.py:580
 #: enigma2-plugins/fritzcall/src/plugin.py:777
 #: enigma2-plugins/fritzcall/src/plugin.py:782
+#: enigma2-plugins/cec/src/CecConfig.py:42
+#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:59
+#: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:180
 msgid "Reset"
 msgstr "reset"
 
@@ -16095,15 +16094,15 @@ msgid "Restart GUI"
 msgstr ">restart grafiky"
 
 #
+#: enigma2-plugins/virtualzap/src/plugin.py:745
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:949
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2120
-#: enigma2-plugins/virtualzap/src/plugin.py:745
-#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
-#: enigma2-plugins/fancontrol2/src/plugin.py:606
 #: enigma2-plugins/satloader/src/plugin.py:104
 #: enigma2-plugins/satloader/src/plugin.py:202
 #: enigma2-plugins/satloader/src/plugin.py:326
 #: enigma2-plugins/aihdcontroler/src/plugin.py:176
+#: enigma2-plugins/epgrefresh/src/EPGRefresh.py:713
+#: enigma2-plugins/fancontrol2/src/plugin.py:606
 msgid "Restart GUI now?"
 msgstr "Restartovat grafiku ?"
 
@@ -16205,8 +16204,8 @@ msgstr "vrátit zap."
 msgid "Rip to single file, name is timestamped"
 msgstr "stažené uložit do jednoho souboru, název s časem"
 
-#: enigma2-plugins/elektro/src/plugin.py:379
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:80
+#: enigma2-plugins/elektro/src/plugin.py:379
 msgid "Run"
 msgstr "spustit modul"
 
@@ -16243,11 +16242,11 @@ msgstr "spustit v testovacím módu"
 msgid "Running processes: "
 msgstr "běží procesy : "
 
-#: enigma2-plugins/imdb/src/plugin.py:560
-#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:397
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:136
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:403
+#: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:397
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Runtime:"
 msgstr "délka videa :"
 
@@ -16356,50 +16355,50 @@ msgid "Satellites"
 msgstr "satelity"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:110
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:46
-#: enigma2-plugins/kiddytimer/src/KTglob.py:13
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:437
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:46
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:13
+#: enigma2-plugins/elektro/src/plugin.py:110
 msgid "Saturday"
 msgstr "sobota"
 
 #. TRANSLATORS: keep it short, this is a button
-#: enigma2-plugin-fritzcall/src/plugin.py:1376
 #: enigma2-plugin-pzyp4t/src/plugin.py:2621
-#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:270
-#: enigma2-plugins/audiosync/src/AC3setup.py:59
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2172
-#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:685
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:324
+#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:31
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:270
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:131
+#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:458
+#: enigma2-plugin-fritzcall/src/plugin.py:1376
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:69
+#: enigma2-plugins/mytube/src/MyTubeSettings.py:40
 #: enigma2-plugins/podcast/src/plugin.py:543
+#: enigma2-plugins/audiosync/src/AC3setup.py:59
+#: enigma2-plugins/yttrailer/src/plugin.py:245
+#: enigma2-plugins/audiorestart/src/plugin.py:108
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:119
+#: enigma2-plugins/fritzcall/src/plugin.py:1358
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:560
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:620
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:649
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:69
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
-#: enigma2-plugins/fritzcall/src/plugin.py:1358
-#: enigma2-plugins/fancontrol2/src/plugin.py:687
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:119
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:70
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:228
-#: enigma2-plugins/satloader/src/plugin.py:165
-#: enigma2-plugins/satloader/src/plugin.py:409
-#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
-#: enigma2-plugins/mytube/src/MyTubeSettings.py:40
-#: enigma2-plugins/yttrailer/src/plugin.py:245
-#: enigma2-plugins/audiorestart/src/plugin.py:108
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2172
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:986
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:128
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:383
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:104
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:986
+#: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:70
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:228
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:78
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:270
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:324
-#: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:31
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:685
-#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:131
-#: e2openplugin-EnhancedMovieCenter/src/EMCPlayList.py:458
+#: enigma2-plugins/trackautoselect/src/TrackAutoselectSetup.py:37
+#: enigma2-plugins/satloader/src/plugin.py:165
+#: enigma2-plugins/satloader/src/plugin.py:409
+#: enigma2-plugins/fancontrol2/src/plugin.py:687
+#: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:270
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
 msgid "Save"
 msgstr "uložit"
 
@@ -16513,8 +16512,8 @@ msgstr "uložit data a zavřít modul"
 msgid "Save values and close screen"
 msgstr "uložit a zavřít okno"
 
-#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:92
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:681
+#: enigma2-plugins/autotimer/src/AutoTimerSettings.py:92
 msgid "Save/check labelled series in filter list (SeriesPlugin)"
 msgstr "uložit / kontrolovat označení série v seznamu filtrů (SeriesPlugin)"
 
@@ -16644,14 +16643,14 @@ msgid "Scroll page contents up"
 msgstr "o stránku obsahu nahoru"
 
 #. TRANSLATORS: keep it short, this is a button
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:179
 #: enigma2-plugin-fritzcall/src/plugin.py:1741
-#: enigma2-plugins/imdb/src/plugin.py:156
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
-#: enigma2-plugins/fritzcall/src/plugin.py:1722
-#: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
 #: enigma2-plugins/ncidclient/src/plugin.py:447
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:847
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:179
+#: enigma2-plugins/imdb/src/plugin.py:156
+#: enigma2-plugins/fritzcall/src/plugin.py:1722
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
+#: enigma2-plugins/internetradio/src/InternetRadioScreen.py:805
 msgid "Search"
 msgstr "hledat další >>"
 
@@ -16667,10 +16666,10 @@ msgstr ",vyhledat kód>"
 
 #. TRANSLATORS: description of EPGSearch in PluginBrowser
 #. TRANSLATORS: EPGSearch title in MovieList (does not require further user interaction)
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:24
 #: enigma2-plugins/epgsearch/src/plugin.py:58
 #: enigma2-plugins/epgsearch/src/plugin.py:70
 #: enigma2-plugins/epgsearch/src/plugin.py:81
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:24
 msgid "Search EPG"
 msgstr "-- další termíny akt.programu"
 
@@ -16758,8 +16757,8 @@ msgid "Search list"
 msgstr "hledat v seznamu"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:1981
-#: enigma2-plugins/fritzcall/src/plugin.py:1962
 #: enigma2-plugins/ncidclient/src/plugin.py:643
+#: enigma2-plugins/fritzcall/src/plugin.py:1962
 msgid "Search phonebook"
 msgstr "tel.seznam"
 
@@ -16921,8 +16920,8 @@ msgstr "Rychle dopředu"
 msgid "Seeking connected events"
 msgstr "vyhledat napojené událostí"
 
-#: enigma2-plugins/teletext/src/plugin.py:1735
 #: enigma2-plugins/podcast/src/plugin.py:490
+#: enigma2-plugins/teletext/src/plugin.py:1735
 msgid "Select"
 msgstr "zvolit"
 
@@ -17156,8 +17155,8 @@ msgstr "Odeslat zprávu ?"
 msgid "Send as sticky"
 msgstr "odeslat jako špatný "
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:278
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:89
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:278
 msgid "Send debug messages to shell"
 msgstr "odeslat hlášení po odladění (shell)_"
 
@@ -17209,8 +17208,8 @@ msgstr "SerienServer API"
 msgid "Series"
 msgstr "série"
 
-#: e2openplugin-SeriesPlugin/src/plugin.py:31
 #: enigma2-plugins/merlinepg/src/plugin.py:574
+#: e2openplugin-SeriesPlugin/src/plugin.py:31
 msgid "SeriesPlugin"
 msgstr "SeriesPlugin"
 
@@ -17339,9 +17338,9 @@ msgid "Servicename Selected"
 msgstr "název kanálu byl vybraný"
 
 #
+#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:80
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:59
 #: enigma2-plugins/webbouqueteditor/src/WebComponents/Sources/SatellitesList.py:61
-#: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:80
 #: e2openplugin-PushService/src/ConfigScreen.py:177
 msgid "Services"
 msgstr ">>kanály..."
@@ -17354,8 +17353,8 @@ msgstr "kanálů :"
 msgid "Set Bitstream/PCM audio delays"
 msgstr "-- volba zpoždění audia přes Bitstreams/PCM"
 
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:603
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:446
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:603
 msgid "Set End Time"
 msgstr "nastavit konec čas.úseku"
 
@@ -17466,11 +17465,11 @@ msgid "Setting..."
 msgstr "nastavit..."
 
 #
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:91
+#: enigma2-plugins/remotetimer/src/plugin.py:102
+#: enigma2-plugins/filebrowser/src/plugin.py:62
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:847
 #: enigma2-plugins/dreamirc/src/plugin.py:112
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:91
-#: enigma2-plugins/filebrowser/src/plugin.py:62
-#: enigma2-plugins/remotetimer/src/plugin.py:102
 #: enigma2-plugin-curlytx/src/CurlyTx.py:54
 #: enigma2-plugin-curlytx/src/CurlyTx.py:129
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:38
@@ -17482,19 +17481,19 @@ msgid "Settings have been Saved."
 msgstr "nastavení bylo uloženo..."
 
 #
-#: e2openplugin-SeriesPlugin/src/plugin.py:294
-#: e2openplugin-SeriesPlugin/src/plugin.py:295
-#: enigma2-plugins/imdb/src/plugin.py:352
-#: enigma2-plugins/simplerss/src/RSSScreens.py:456
-#: enigma2-plugins/simplerss/src/RSSScreens.py:461
-#: enigma2-plugins/twitchtv/src/plugin.py:666
-#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
-#: enigma2-plugins/epgsearch/src/EPGSearch.py:392
-#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:322
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:194
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:322
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:253
+#: enigma2-plugins/epgsearch/src/EPGSearch.py:392
+#: enigma2-plugins/imdb/src/plugin.py:352
+#: enigma2-plugins/twitchtv/src/plugin.py:666
+#: enigma2-plugins/simplerss/src/RSSScreens.py:456
+#: enigma2-plugins/simplerss/src/RSSScreens.py:461
+#: enigma2-plugins/autotimer/src/AutoTimerOverview.py:290
+#: enigma2-plugins/skipintro/src/SkipIntroSetup.py:72
+#: e2openplugin-SeriesPlugin/src/plugin.py:294
+#: e2openplugin-SeriesPlugin/src/plugin.py:295
 msgid "Setup"
 msgstr "nastavení E2 >>"
 
@@ -17632,10 +17631,10 @@ msgstr "zobrazit nastavení hodin"
 msgid "Show Controllers"
 msgstr "zobrazit ovladače"
 
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1935
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1951
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1967
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:503
 msgid "Show Cover"
 msgstr "zobrazit potisk"
 
@@ -17696,8 +17695,8 @@ msgstr "zobrazit složku s \"posledním záznamem\""
 msgid "Show Log"
 msgstr "zobrazit protokol"
 
-#: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:59
 #: enigma2-plugins/autotimer/src/ShowLogScreen.py:58
+#: e2openplugin-SeriesPlugin/src/ShowLogScreen.py:59
 msgid "Show Log file"
 msgstr "zobrazit soubor protokolu"
 
@@ -17775,8 +17774,8 @@ msgid "Show Setup in"
 msgstr "zobrazit nastavení v ..."
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:60
-#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:207
 #: enigma2-plugins/yttrailer/src/plugin.py:248
+#: enigma2-plugins/movieselectionquickbutton/src/plugin.py:207
 msgid "Show Setup in Extensions menu"
 msgstr "zobrazit nastavení EPG v rozšířeném mo_menu"
 
@@ -17805,8 +17804,8 @@ msgid "Show Weather Forecast"
 msgstr "-- předpověď počasí podle místa (std)"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2162
-#: enigma2-plugins/fritzcall/src/plugin.py:2142
 #: enigma2-plugins/ncidclient/src/plugin.py:736
+#: enigma2-plugins/fritzcall/src/plugin.py:2142
 msgid "Show after Standby"
 msgstr "zobrazit po režimu spánku"
 
@@ -17927,8 +17926,8 @@ msgstr "zobrazit iDream v rozšířeném mo-menu"
 msgid "Show iDream in mainmenu"
 msgstr "zobrazit v hl.menu - iDream "
 
-#: enigma2-plugins/elektro/src/plugin.py:459
 #: enigma2-plugins/showclock/src/plugin.py:119
+#: enigma2-plugins/elektro/src/plugin.py:459
 msgid "Show in"
 msgstr "zobrazit modul v..."
 
@@ -17956,8 +17955,8 @@ msgstr "zobrazit balíček v rozšířeném menu"
 msgid "Show in extension menu:"
 msgstr "zobrazit balíček v rozšířeném menu :"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:200
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:70
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:200
 msgid "Show in extensions menu"
 msgstr "zobrazit balíček v rozšířeném menu"
 
@@ -18122,8 +18121,8 @@ msgstr "Ukázat reálný zbývající čas při časovém posunu ?"
 msgid "Show record(s)"
 msgstr "zobrazit panel při nahrávání"
 
-#: e2openplugin-SeriesPlugin/src/plugin.py:32
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:380
+#: e2openplugin-SeriesPlugin/src/plugin.py:32
 msgid "Show series info (SP)"
 msgstr "zobrazit info série (SP)"
 
@@ -18367,11 +18366,11 @@ msgid "Single"
 msgstr "aktuální kanál"
 
 #
-#: enigma2-plugins/easyinfo/src/plugin.py:56
-#: enigma2-plugins/easyinfo/src/plugin.py:72
 #: enigma2-plugins/quickbutton/src/plugin.py:119
 #: enigma2-plugins/quickbutton/src/plugin.py:221
 #: enigma2-plugins/quickbutton/src/plugin.py:265
+#: enigma2-plugins/easyinfo/src/plugin.py:56
+#: enigma2-plugins/easyinfo/src/plugin.py:72
 msgid "Single EPG"
 msgstr "akt.programy"
 
@@ -18848,9 +18847,9 @@ msgid "Spain"
 msgstr "Španělsko"
 
 #
-#: enigma2-plugins/imdb/src/plugin.py:38
-#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
+#: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:30
+#: enigma2-plugins/imdb/src/plugin.py:38
 msgid "Spanish"
 msgstr "španělsky"
 
@@ -18866,13 +18865,13 @@ msgstr ""
 "Specifikujte, jak dlouho (sek.) budou hodiny zobrazené, než zmizí. Nastavení "
 "na \"0\" časování zastaví. Přepínat je lze tl. EXIT dlouhé..."
 
-#: enigma2-plugins/elektro/src/plugin.py:464
 #: enigma2-plugins/showclock/src/plugin.py:124
+#: enigma2-plugins/elektro/src/plugin.py:464
 msgid "Specify plugin description to be used in menu (needs GUI restart)."
 msgstr "Popis modulu použitý v menu (nutný restart Enigmy2)_"
 
-#: enigma2-plugins/elektro/src/plugin.py:462
 #: enigma2-plugins/showclock/src/plugin.py:122
+#: enigma2-plugins/elektro/src/plugin.py:462
 msgid "Specify plugin name to be used in menu (needs GUI restart)."
 msgstr "Název modulu použitého v menu (nutný restart Enigmy2)_"
 
@@ -18883,8 +18882,8 @@ msgid ""
 msgstr ""
 "Nastavení, zda budou zobrazeny syst.hodiny. Skryjí se po def.časovém limitu."
 
-#: enigma2-plugins/elektro/src/plugin.py:460
 #: enigma2-plugins/showclock/src/plugin.py:120
+#: enigma2-plugins/elektro/src/plugin.py:460
 msgid ""
 "Specify whether plugin shall show up in plugin menu or extensions menu "
 "(needs GUI restart)"
@@ -18973,9 +18972,9 @@ msgid "Standard timer"
 msgstr "standardní časovač"
 
 #
-#: enigma2-plugins/cec/src/CecDeviceList.py:29
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:78
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:259
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:78
+#: enigma2-plugins/cec/src/CecDeviceList.py:29
 msgid "Standby"
 msgstr ">vypnout"
 
@@ -19087,10 +19086,10 @@ msgstr "přepnout PiP z info-panelu do std.okna PiP po x sek. (0=vyp.)"
 msgid "Start time (HH:MM)"
 msgstr "čas spuštění (HH:MM)"
 
-#: e2openplugin-PushService/src/Controller/ActiveTimers.py:48
+#: e2openplugin-PushService/src/Controller/APTUpdateNotification.py:48
 #: e2openplugin-PushService/src/Controller/IPKGUpdateNotification.py:48
 #: e2openplugin-PushService/src/Controller/OPKGUpdateNotification.py:48
-#: e2openplugin-PushService/src/Controller/APTUpdateNotification.py:48
+#: e2openplugin-PushService/src/Controller/ActiveTimers.py:48
 msgid "Start update check if not done yet"
 msgstr "spustit kontrolu aktualizace, pokud ještě neproběhla"
 
@@ -19124,8 +19123,8 @@ msgstr ""
 msgid "Startup aspect ratio"
 msgstr "startovat s poměrem stran..."
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:264
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:67
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:264
 msgid "Startup delay (in min)"
 msgstr "odklad startu (v min.)"
 
@@ -19290,8 +19289,8 @@ msgid "Stop playback"
 msgstr "pozastavit přehrávání"
 
 #
-#: enigma2-plugins/podcast/src/plugin.py:46
 #: enigma2-plugins/mytube/src/MyTubePlayer.py:288
+#: enigma2-plugins/podcast/src/plugin.py:46
 msgid "Stop playing this movie?"
 msgstr "Zastavit přehrávání videa ?"
 
@@ -19358,8 +19357,8 @@ msgid "Strictly"
 msgstr "striktní"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2219
-#: enigma2-plugins/fritzcall/src/plugin.py:2199
 #: enigma2-plugins/ncidclient/src/plugin.py:765
+#: enigma2-plugins/fritzcall/src/plugin.py:2199
 msgid "Strip Leading 0"
 msgstr "úvodní \"0\" odebrat"
 
@@ -19440,12 +19439,12 @@ msgid "Sun"
 msgstr "neděle"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:111
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:47
-#: enigma2-plugins/kiddytimer/src/KTglob.py:7
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:438
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:47
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:7
+#: enigma2-plugins/elektro/src/plugin.py:111
 msgid "Sunday"
 msgstr "neděle"
 
@@ -19491,8 +19490,8 @@ msgid "Switch to themes/designs config screen for selected skin"
 msgstr "Přepnout na konfigurační obrazovku motivů / návrhů pro vybraný skin"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:183
-#: enigma2-plugins/fritzcall/src/plugin.py:170
 #: enigma2-plugins/ncidclient/src/plugin.py:48
+#: enigma2-plugins/fritzcall/src/plugin.py:170
 msgid "Switzerland"
 msgstr "Švýcarsko"
 
@@ -19539,8 +19538,8 @@ msgstr "koš"
 msgid "TSID"
 msgstr "TSID "
 
-#: enigma2-plugins/cec/src/CecDeviceList.py:13
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:14
+#: enigma2-plugins/cec/src/CecDeviceList.py:13
 msgid "TV"
 msgstr "TV"
 
@@ -19596,12 +19595,12 @@ msgstr "slogan :"
 msgid "Taglines:"
 msgstr "slogany :"
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:62
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:408
-#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:48
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:228
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:671
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:458
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:48
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:62
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:671
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:228
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:408
 msgid "Tags"
 msgstr "označení žánru"
 
@@ -19844,8 +19843,8 @@ msgstr ""
 "vhodnou verzi. Zkouší verzi nejprve 4, pak 3 a pak 2 jako poslední_"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:180
-#: enigma2-plugins/fritzcall/src/plugin.py:167
 #: enigma2-plugins/ncidclient/src/plugin.py:45
+#: enigma2-plugins/fritzcall/src/plugin.py:167
 msgid "The Netherlands"
 msgstr "Nizozemí"
 
@@ -20032,8 +20031,8 @@ msgstr ""
 msgid "The password protection for '%s' was removed!"
 msgstr "Ochrana heslem pro '%s' byla odstraněna !"
 
-#: enigma2-plugins/kiddytimer/src/KTsetup.py:97
 #: enigma2-plugin-partnerbox/src/plugin.py:894
+#: enigma2-plugins/kiddytimer/src/KTsetup.py:97
 msgid "The pin code you entered is wrong."
 msgstr "Zadaný PIN je chybný !"
 
@@ -20146,9 +20145,9 @@ msgstr ""
 msgid "There are no timer for tomorrow - %s"
 msgstr "Na zítřek není žádný časovač  - %s"
 
+#: e2openplugin-PushService/src/Controller/APTUpdateNotification.py:36
 #: e2openplugin-PushService/src/Controller/IPKGUpdateNotification.py:36
 #: e2openplugin-PushService/src/Controller/OPKGUpdateNotification.py:36
-#: e2openplugin-PushService/src/Controller/APTUpdateNotification.py:36
 #, python-format
 msgid ""
 "There are updates available:\n"
@@ -20433,12 +20432,12 @@ msgid "Thu"
 msgstr "čtvrtek"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:108
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:44
-#: enigma2-plugins/kiddytimer/src/KTglob.py:11
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:435
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:44
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:11
+#: enigma2-plugins/elektro/src/plugin.py:108
 msgid "Thursday"
 msgstr "čtvrtek"
 
@@ -20509,14 +20508,14 @@ msgstr "Časová rezerva před záznamem (min.)_"
 msgid "Timeout"
 msgstr "čas zobrazení :"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:266
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:70
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:266
 msgid "Timeout (in min)"
 msgstr "časový limit spuštění (v min.)"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2176
-#: enigma2-plugins/fritzcall/src/plugin.py:2156
 #: enigma2-plugins/ncidclient/src/plugin.py:740
+#: enigma2-plugins/fritzcall/src/plugin.py:2156
 msgid "Timeout for Call Notifications (seconds)"
 msgstr "doba zobrazení v sek."
 
@@ -20537,14 +20536,14 @@ msgid "Timeout for activation dialog"
 msgstr "doba zobrazení dialogů"
 
 #
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:325
-#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1908
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:17
+#: enigma2-plugins/easymedia/src/plugin.py:386
 #: enigma2-plugins/quickbutton/src/plugin.py:149
 #: enigma2-plugins/quickbutton/src/plugin.py:226
 #: enigma2-plugins/quickbutton/src/plugin.py:275
-#: enigma2-plugins/easymedia/src/plugin.py:386
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:325
+#: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1908
 msgid "Timer"
 msgstr "časovač nahrávání"
 
@@ -20585,9 +20584,9 @@ msgid "Timer rename has been finished with %d errors:\n"
 msgstr "Přejmenování časovačů skončilo s  %d chybami :\n"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:40
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:600
 #: enigma2-plugins/autotimer/src/AutoTimerWizard.py:153
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 msgid "Timer type"
 msgstr "typ časovače"
 
@@ -20666,10 +20665,10 @@ msgid "Timeshift-button"
 msgstr "tlačítko \"časovače\""
 
 #
-#: enigma2-plugins/movieretitle/src/plugin.py:61
-#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:377
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:346
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1028
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:346
+#: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:377
+#: enigma2-plugins/movieretitle/src/plugin.py:61
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:210
 msgid "Title"
 msgstr "v názvu"
@@ -20728,8 +20727,8 @@ msgid ""
 msgstr "Více o funkcích FRITZ!Boxu, verze konfigurace Firmware"
 
 #
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:183
 #: enigma2-plugins/mytube/src/plugin.py:52
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:183
 msgid "Today"
 msgstr "dnes..."
 
@@ -20923,8 +20922,8 @@ msgstr "volba transpondéru"
 msgid "Trashcan"
 msgstr "koš"
 
-#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:778
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:3265
+#: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:778
 msgid "Trashcan create failed. Check mounts and permissions."
 msgstr "Založení koše selhalo ! Zkontrolujte namapování a oprávnění."
 
@@ -20978,12 +20977,12 @@ msgid "Tue"
 msgstr "úterý"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:106
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:42
-#: enigma2-plugins/kiddytimer/src/KTglob.py:9
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:433
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:42
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:9
+#: enigma2-plugins/elektro/src/plugin.py:106
 msgid "Tuesday"
 msgstr "úterý"
 
@@ -21073,9 +21072,9 @@ msgstr "TwitchTV - %s"
 msgid "TwitchTV - Channel Details"
 msgstr "TwitchTV - detaily kanálů"
 
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:83
 #: enigma2-plugins/growlee/src/plugin.py:168
 #: enigma2-plugins/podcast/src/plugin.py:288
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:83
 #: enigma2-plugins/eparted/src/eparted.py:314
 msgid "Type"
 msgstr "příkaz "
@@ -21110,7 +21109,7 @@ msgstr "UL"
 msgid "UL: %d kb/s"
 msgstr "UL: %d kb/s"
 
-#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:93
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2511
 #: enigma2-plugin-fritzcall/src/plugin.py:1304
 #: enigma2-plugin-fritzcall/src/plugin.py:2367
 #: enigma2-plugin-fritzcall/src/plugin.py:2370
@@ -21119,7 +21118,11 @@ msgstr "UL: %d kb/s"
 #: enigma2-plugin-fritzcall/src/plugin.py:2823
 #: enigma2-plugin-fritzcall/src/plugin.py:2828
 #: enigma2-plugin-fritzcall/src/plugin.py:2856
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:92
+#: enigma2-plugin-fritzcall/src/FritzCallFBF.py:93
+#: enigma2-plugins/ncidclient/src/plugin.py:836
+#: enigma2-plugins/ncidclient/src/plugin.py:839
+#: enigma2-plugins/ncidclient/src/plugin.py:941
+#: enigma2-plugins/ncidclient/src/plugin.py:995
 #: enigma2-plugins/fritzcall/src/plugin.py:1286
 #: enigma2-plugins/fritzcall/src/plugin.py:2346
 #: enigma2-plugins/fritzcall/src/plugin.py:2349
@@ -21128,11 +21131,7 @@ msgstr "UL: %d kb/s"
 #: enigma2-plugins/fritzcall/src/plugin.py:2799
 #: enigma2-plugins/fritzcall/src/plugin.py:2804
 #: enigma2-plugins/fritzcall/src/plugin.py:2832
-#: enigma2-plugins/ncidclient/src/plugin.py:836
-#: enigma2-plugins/ncidclient/src/plugin.py:839
-#: enigma2-plugins/ncidclient/src/plugin.py:941
-#: enigma2-plugins/ncidclient/src/plugin.py:995
-#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2511
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:92
 msgid "UNKNOWN"
 msgstr "neznámé"
 
@@ -21183,11 +21182,11 @@ msgstr "Spojené státy"
 
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3641
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4065
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3628
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3985
 #: enigma2-plugins/cec/src/CecDeviceList.py:32
 #: enigma2-plugins/cec/src/CecDeviceList.py:92
 #: enigma2-plugins/cec/src/CecDeviceList.py:104
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3628
-#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3985
 msgid "Unknown"
 msgstr "neurčeno"
 
@@ -21284,8 +21283,8 @@ msgstr "Nepodporované zařízení : %s"
 msgid "UnwetterInfo shows German storm information."
 msgstr "UnwetterInfo zobrazuje bouřkovou situaci nad Německem."
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:153
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:2466
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:153
 msgid "Up"
 msgstr "<<nahoru>>"
 
@@ -21466,8 +21465,8 @@ msgid "Use hardware-decoder for MP3"
 msgstr "použít hardware-dekoder pro MP3"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2206
-#: enigma2-plugins/fritzcall/src/plugin.py:2186
 #: enigma2-plugins/ncidclient/src/plugin.py:745
+#: enigma2-plugins/fritzcall/src/plugin.py:2186
 msgid "Use internal PhoneBook"
 msgstr "použít interní tel.seznam"
 
@@ -21579,9 +21578,9 @@ msgstr "uživatel : "
 msgid "Usermanager"
 msgstr "Správa uživatelů..."
 
-#: enigma2-plugins/elektro/src/plugin.py:369
 #: enigma2-plugins/dyndns/src/plugin.py:36
 #: enigma2-plugins/emission/src/EmissionSetup.py:28
+#: enigma2-plugins/elektro/src/plugin.py:369
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:133
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:117
 msgid "Username"
@@ -21768,16 +21767,16 @@ msgstr "pole s proměnlivou šířkou"
 msgid "Vendor: %s\n"
 msgstr "operátor : %s\n"
 
+#: enigma2-plugins/aspectratioswitch/src/plugin.py:133
+#: enigma2-plugins/movietagger/src/plugin.py:261
+#: enigma2-plugins/showclock/src/plugin.py:167
+#: enigma2-plugins/showclock/src/plugin.py:391
+#: enigma2-plugins/showclock/src/plugin.py:399
+#: enigma2-plugins/automaticcleanup/src/plugin.py:193
 #: enigma2-plugins/elektro/src/plugin.py:201
 #: enigma2-plugins/elektro/src/plugin.py:209
 #: enigma2-plugins/elektro/src/plugin.py:217
 #: enigma2-plugins/elektro/src/plugin.py:504
-#: enigma2-plugins/showclock/src/plugin.py:167
-#: enigma2-plugins/showclock/src/plugin.py:391
-#: enigma2-plugins/showclock/src/plugin.py:399
-#: enigma2-plugins/aspectratioswitch/src/plugin.py:133
-#: enigma2-plugins/automaticcleanup/src/plugin.py:193
-#: enigma2-plugins/movietagger/src/plugin.py:261
 msgid "Ver."
 msgstr "- ver."
 
@@ -21789,8 +21788,8 @@ msgstr "verze "
 msgid "Vertical offset in pixel"
 msgstr "svislé odsazení shora (pixely)"
 
-#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:313
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:182
+#: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:313
 msgid "Video Bitrate"
 msgstr "bit.tok videa"
 
@@ -21889,10 +21888,10 @@ msgstr "-- uživatelé a hesla pro připojení do sítě"
 msgid "Viewers: %s"
 msgstr "prohlížení : %s"
 
-#: enigma2-plugins/webcamviewer/src/WebcamTravel.py:247
-#: enigma2-plugins/webcamviewer/src/WebcamTravel.py:250
 #: enigma2-plugins/mytube/src/plugin.py:1102
 #: enigma2-plugins/mytube/src/plugin.py:1333
+#: enigma2-plugins/webcamviewer/src/WebcamTravel.py:247
+#: enigma2-plugins/webcamviewer/src/WebcamTravel.py:250
 msgid "Views: "
 msgstr "názory : "
 
@@ -22202,12 +22201,12 @@ msgid "Wed"
 msgstr "středa"
 
 #
-#: enigma2-plugins/elektro/src/plugin.py:107
-#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:43
-#: enigma2-plugins/kiddytimer/src/KTglob.py:10
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:391
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:434
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:43
+#: enigma2-plugins/merlinepgcenter/src/HelperFunctions.py:42
+#: enigma2-plugins/kiddytimer/src/KTglob.py:10
+#: enigma2-plugins/elektro/src/plugin.py:107
 msgid "Wednesday"
 msgstr "středa"
 
@@ -22216,8 +22215,8 @@ msgid "Week"
 msgstr "týden"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:49
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:429
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:49
 msgid "Weekday"
 msgstr "den v týdnu"
 
@@ -22325,8 +22324,8 @@ msgstr "západní Evropa a Turecko"
 msgid "Western and Central Europe"
 msgstr "západní a centrální Evropa"
 
-#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:270
 #: enigma2-plugins/emission/src/EmissionOverview.py:281
+#: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:270
 msgid "What do you want to do?"
 msgstr "Co chcete udělat ?"
 
@@ -22493,8 +22492,8 @@ msgstr "průvodce "
 msgid "Words / phrases to ignore (comma separated)"
 msgstr "ignorovat slova / fráze  (oddělené čárkou)"
 
-#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:279
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:90
+#: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:279
 msgid "Write debug messages into file"
 msgstr "sestavit protokol (log)_"
 
@@ -22553,33 +22552,33 @@ msgstr "žlutá"
 msgid "Yellow button function"
 msgstr "funkce pod tl.: žluté"
 
-#: enigma2-plugin-moviecut/src_py/plugin.py:95
-#: enigma2-plugin-vps/src_py/Modifications.py:140
-#: enigma2-plugin-vps/src_py/plugin.py:19
-#: enigma2-plugin-vps/src_py/plugin.py:20
-#: enigma2-plugin-vps/src_py/Vps_check.py:345
-#: enigma2-plugin-vps/src_py/Vps_check.py:373
 #: enigma2-plugin-pzyp4t/src/plugin.py:435
 #: enigma2-plugin-pzyp4t/src/plugin.py:467
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:860
-#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2064
-#: enigma2-plugins/epgrefresh/src/plugin.py:60
-#: enigma2-plugins/mytube/src/plugin.py:569
-#: enigma2-plugins/mytube/src/plugin.py:575
-#: enigma2-plugins/mytube/src/MyTubePlayer.py:282
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:31
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:32
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:33
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:34
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:35
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
+#: enigma2-plugins/mytube/src/MyTubePlayer.py:282
+#: enigma2-plugins/mytube/src/plugin.py:569
+#: enigma2-plugins/mytube/src/plugin.py:575
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:860
+#: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2064
+#: enigma2-plugins/epgrefresh/src/plugin.py:60
+#: enigma2-plugin-moviecut/src_py/plugin.py:95
+#: enigma2-plugin-vps/src_py/plugin.py:19
+#: enigma2-plugin-vps/src_py/plugin.py:20
+#: enigma2-plugin-vps/src_py/Vps_check.py:345
+#: enigma2-plugin-vps/src_py/Vps_check.py:373
+#: enigma2-plugin-vps/src_py/Modifications.py:140
 msgid "Yes"
 msgstr "-ano-"
 
-#: enigma2-plugin-vps/src_py/Modifications.py:140
 #: enigma2-plugin-vps/src_py/plugin.py:19
 #: enigma2-plugin-vps/src_py/plugin.py:20
 #: enigma2-plugin-vps/src_py/Vps_check.py:373
+#: enigma2-plugin-vps/src_py/Modifications.py:140
 msgid "Yes (safe mode)"
 msgstr "ano (bezpečný mód)"
 
@@ -22672,8 +22671,8 @@ msgstr ""
 msgid "You cannot delete this!"
 msgstr "Nemůžete toto smazat !"
 
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:269
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:796
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:269
 #, python-format
 msgid ""
 "You entered \"%s\" as Text to match.\n"
@@ -22992,8 +22991,8 @@ msgstr "[zpět]"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2160
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:981
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:155
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:981
 msgid "about to start"
 msgstr "...chystám se..."
 
@@ -23149,16 +23148,16 @@ msgstr "po restartu"
 msgid "after restart/standby"
 msgstr "po restartu / režimu spánku"
 
-#: enigma2-plugins/audiorestart/src/plugin.py:15
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:330
+#: enigma2-plugins/audiorestart/src/plugin.py:15
 msgid "after standby"
 msgstr "po režimu spánku"
 
+#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 #: enigma2-plugins/epgsearch/src/__init__.py:17
 #: enigma2-plugins/epgsearch/src/__init__.py:26
 #: enigma2-plugins/automaticcleanup/src/plugin.py:90
 #: enigma2-plugins/automaticcleanup/src/plugin.py:94
-#: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "all"
 msgstr "-vše-"
 
@@ -23176,9 +23175,9 @@ msgstr "↓A-Z"
 msgid "alphabetic sort  (quick toggle by key 0)"
 msgstr "řazení podle abecedy (rychle přes tl.0)"
 
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 #: enigma2-plugins/movieepg/src/plugin.py:18
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 msgid "always"
 msgstr "vždy"
 
@@ -23264,13 +23263,13 @@ msgstr ">>červené tlačítko"
 msgid "assigned to yellow"
 msgstr "přiřadit pod : žluté"
 
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:364
 #: enigma2-plugins/autoresolution/src/plugin.py:37
 #: enigma2-plugins/autoresolution/src/plugin.py:39
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:285
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:31
 #: enigma2-plugins/epgrefresh/src/plugin.py:46
 #: enigma2-plugins/fancontrol2/src/plugin.py:179
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:31
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:285
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:364
 msgid "auto"
 msgstr "aut."
 
@@ -23356,18 +23355,18 @@ msgstr "aktivní přesměrování volání"
 msgid "calls in mailbox"
 msgstr "volat přes mailbox"
 
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
+#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
+#: enigma2-plugins/epgcopy/src/plugin.py:163
+#: enigma2-plugins/dyndns/src/plugin.py:39
+#: enigma2-plugins/filebrowser/src/plugin.py:49
+#: enigma2-plugins/logomanager/src/plugin.py:221
 #: enigma2-plugins/emailclient/src/EmailConfig.py:39
 #: enigma2-plugins/emailclient/src/EmailConfig.py:102
-#: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:22
-#: enigma2-plugins/logomanager/src/plugin.py:221
-#: enigma2-plugins/dyndns/src/plugin.py:39
-#: enigma2-plugins/eparted/src/eparted.py:217
-#: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
-#: enigma2-plugins/filebrowser/src/plugin.py:49
-#: enigma2-plugins/epgcopy/src/plugin.py:163
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
+#: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:22
+#: enigma2-plugins/eparted/src/eparted.py:217
 msgid "cancel"
 msgstr "storno"
 
@@ -23431,14 +23430,14 @@ msgstr "kontrola"
 msgid "cleanup disabled"
 msgstr "čištění vypnuto"
 
-#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:211
 #: enigma2-plugins/emission/src/EmissionOverview.py:130
+#: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:211
 msgid "close"
 msgstr "zavřít"
 
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid "close and save"
 msgstr "zavřít a uložit"
 
@@ -23450,10 +23449,10 @@ msgstr "zavřít PIP okno..."
 msgid "close with saving and start searching"
 msgstr "zavřít s uložením a spustit hledání"
 
+#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:199
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:290
 #: enigma2-plugins/autotimer/src/AutoTimerOverview.py:266
-#: enigma2-plugin-partnerbox/src/PartnerboxAutoTimer.py:177
 msgid "close without saving"
 msgstr "zavřít bez uložení"
 
@@ -23462,9 +23461,9 @@ msgid "config changed."
 msgstr "změněná konfigurace "
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:194
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 #: enigma2-plugins/podcast/src/plugin.py:613
 #: e2openplugin-PushService/src/plugin.py:88
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:571
 msgid "configuration"
 msgstr "-- konfigurace"
 
@@ -23591,15 +23590,15 @@ msgid "default"
 msgstr "předvolba"
 
 #
+#: enigma2-plugins/podcast/src/plugin.py:70
+#: enigma2-plugins/filebrowser/src/plugin.py:112
 #: enigma2-plugins/emailclient/src/plugin.py:355
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1788
-#: enigma2-plugins/podcast/src/plugin.py:70
 #: enigma2-plugins/webadmin/src/WebScreens/WebAdminScreen.py:24
-#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
-#: enigma2-plugins/eparted/src/eparted.py:332
-#: enigma2-plugins/filebrowser/src/plugin.py:112
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:987
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1264
+#: enigma2-plugins/eparted/src/eparted.py:332
+#: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:79
 msgid "delete"
 msgstr "odstranit"
 
@@ -23675,14 +23674,14 @@ msgstr "zrušit přesun"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2203
+#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:169
+#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:33
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:181
+#: enigma2-plugins/audiorestart/src/plugin.py:15
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:21
 #: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:1000
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:60
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Movie.py:181
 #: enigma2-plugins/fancontrol2/src/plugin.py:161
-#: enigma2-plugins/automatictimerlistcleanup/src/plugin.py:33
-#: enigma2-plugins/audiorestart/src/plugin.py:15
-#: enigma2-plugin-partnerbox/src/RemoteTimerList.py:169
 msgid "disabled"
 msgstr "vyp."
 
@@ -23727,11 +23726,11 @@ msgid "do not play a service on startup"
 msgstr "nepřehrávat při spuštěném programu"
 
 #
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:364
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:282
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:28
 #: enigma2-plugins/epgrefresh/src/plugin.py:46
 #: enigma2-plugins/fancontrol2/src/plugin.py:169
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:28
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:282
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:364
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1177
 msgid "do nothing"
 msgstr "nedělat nic"
@@ -23749,10 +23748,10 @@ msgstr "hotovo"
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2185
 #: enigma2-plugin-pzyp4t/src/plugin.py:2196
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:990
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:996
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:162
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:166
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:990
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:996
 msgid "done!"
 msgstr "-hotovo-"
 
@@ -23761,8 +23760,8 @@ msgstr "-hotovo-"
 msgid "done, using last list"
 msgstr "hotovo, používám poslední seznam"
 
-#: enigma2-plugins/eibox/src/plugin.py:37
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:244
+#: enigma2-plugins/eibox/src/plugin.py:37
 msgid "down"
 msgstr "dolů"
 
@@ -24099,16 +24098,16 @@ msgid "getting message ..."
 msgstr "Stáhnout hlášení ..."
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:29
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:284
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:364
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:284
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:29
 msgid "go to deep standby"
 msgstr "přejít do hlubokého spánku, vypnout"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:30
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:283
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:364
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:283
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:30
 msgid "go to standby"
 msgstr "přepnout do režimu spánku"
 
@@ -24179,9 +24178,9 @@ msgstr "skrýt červené reálné složky"
 msgid "home"
 msgstr "privat"
 
+#: enigma2-plugins/easymedia/src/plugin.py:416
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3422
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3436
-#: enigma2-plugins/easymedia/src/plugin.py:416
 msgid "iDream"
 msgstr "iDream přehrávač"
 
@@ -24522,13 +24521,13 @@ msgstr "MiniTV"
 #: enigma2-plugin-pzyp4t/src/plugin.py:2125
 #: enigma2-plugin-pzyp4t/src/plugin.py:2134
 #: enigma2-plugin-pzyp4t/src/plugin.py:2136
-#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:83
 #: enigma2-plugin-partnerbox/src/plugin.py:558
 #: enigma2-plugin-partnerbox/src/plugin.py:798
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:137
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:139
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:145
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:147
+#: enigma2-plugins/autotimer/src/AutoTimerPreview.py:83
 msgid "mins"
 msgstr "minut"
 
@@ -24672,17 +24671,17 @@ msgstr "další kanál / pozice"
 #
 #: e2openplugin-InfoBarTunerState/src/plugin.py:52
 #: e2openplugin-InfoBarTunerState/src/Handler/Records.py:20
-#: enigma2-plugins/fancontrol2/src/plugin.py:162
-#: enigma2-plugins/fancontrol2/src/plugin.py:175
-#: enigma2-plugins/fancontrol2/src/plugin.py:179
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:373
+#: enigma2-plugins/emission/src/EmissionDetailview.py:193
+#: enigma2-plugins/emission/src/EmissionDetailview.py:260
+#: enigma2-plugins/pipzap/src/plugin.py:664
 #: enigma2-plugins/filebrowser/src/plugin.py:181
 #: enigma2-plugins/filebrowser/src/plugin.py:211
 #: enigma2-plugins/filebrowser/src/plugin.py:241
-#: enigma2-plugins/pipzap/src/plugin.py:664
-#: enigma2-plugins/emission/src/EmissionDetailview.py:193
-#: enigma2-plugins/emission/src/EmissionDetailview.py:260
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:373
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
+#: enigma2-plugins/fancontrol2/src/plugin.py:162
+#: enigma2-plugins/fancontrol2/src/plugin.py:175
+#: enigma2-plugins/fancontrol2/src/plugin.py:179
 msgid "no"
 msgstr "ne"
 
@@ -24704,8 +24703,8 @@ msgid "no account selected"
 msgstr "Není zvolený účet"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2341
-#: enigma2-plugins/fritzcall/src/plugin.py:2320
 #: enigma2-plugins/ncidclient/src/plugin.py:825
+#: enigma2-plugins/fritzcall/src/plugin.py:2320
 msgid "no calls"
 msgstr "žádné volání"
 
@@ -24762,8 +24761,8 @@ msgid "no user rating yet"
 msgstr "zatím neohodnoceno..."
 
 #
-#: enigma2-plugins/simplerss/src/plugin.py:15
 #: enigma2-plugins/epgsearch/src/__init__.py:17
+#: enigma2-plugins/simplerss/src/plugin.py:15
 msgid "none"
 msgstr "-žádný-"
 
@@ -24846,8 +24845,8 @@ msgid "nothing playing..."
 msgstr "Nic nelze přehrát..."
 
 #: enigma2-plugin-fritzcall/src/plugin.py:2827
-#: enigma2-plugins/fritzcall/src/plugin.py:2803
 #: enigma2-plugins/ncidclient/src/plugin.py:1007
+#: enigma2-plugins/fritzcall/src/plugin.py:2803
 msgid "number suppressed"
 msgstr "Počet potlačených"
 
@@ -24856,33 +24855,33 @@ msgid "of"
 msgstr "od "
 
 #
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
+#: enigma2-plugin-fritzcall/src/plugin.py:164
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3273
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3284
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3848
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3867
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3889
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3897
-#: enigma2-plugin-fritzcall/src/plugin.py:164
-#: enigma2-plugins/autoresolution/src/plugin.py:37
-#: enigma2-plugins/autoresolution/src/plugin.py:39
+#: enigma2-plugins/fritzcall/src/plugin.py:151
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3272
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3283
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3782
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3801
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3820
-#: enigma2-plugins/fritzcall/src/plugin.py:151
+#: enigma2-plugins/autoresolution/src/plugin.py:37
+#: enigma2-plugins/autoresolution/src/plugin.py:39
 #: enigma2-plugins/3dsettings/src/plugin.py:84
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
 msgid "off"
 msgstr "vyp."
 
+#: enigma2-plugins/dyndns/src/plugin.py:40
+#: enigma2-plugins/filebrowser/src/plugin.py:50
+#: enigma2-plugins/logomanager/src/plugin.py:222
 #: enigma2-plugins/emailclient/src/EmailConfig.py:40
 #: enigma2-plugins/emailclient/src/EmailConfig.py:103
 #: enigma2-plugins/webcamviewer/src/WebcamViewConfig.py:23
-#: enigma2-plugins/logomanager/src/plugin.py:222
-#: enigma2-plugins/dyndns/src/plugin.py:40
 #: enigma2-plugins/eparted/src/eparted.py:218
-#: enigma2-plugins/filebrowser/src/plugin.py:50
 msgid "ok"
 msgstr "OK"
 
@@ -24932,6 +24931,7 @@ msgid "older than 6 weeks"
 msgstr "starší než 6 týdnů"
 
 #
+#: enigma2-plugin-fritzcall/src/plugin.py:164
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3271
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3282
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3288
@@ -24941,9 +24941,7 @@ msgstr "starší než 6 týdnů"
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3874
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3887
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3895
-#: enigma2-plugin-fritzcall/src/plugin.py:164
-#: enigma2-plugins/autoresolution/src/plugin.py:37
-#: enigma2-plugins/autoresolution/src/plugin.py:39
+#: enigma2-plugins/fritzcall/src/plugin.py:151
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3270
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3281
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3287
@@ -24952,7 +24950,8 @@ msgstr "starší než 6 týdnů"
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3806
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3808
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3818
-#: enigma2-plugins/fritzcall/src/plugin.py:151
+#: enigma2-plugins/autoresolution/src/plugin.py:37
+#: enigma2-plugins/autoresolution/src/plugin.py:39
 msgid "on"
 msgstr "zap."
 
@@ -25022,8 +25021,8 @@ msgstr "otevřít seznam vyhledávacích filtrů EPGSearch"
 msgid "open EPGSearch search list"
 msgstr "-- vyhledat v seznamu EPGSearch"
 
-#: enigma2-plugins/emission/src/EmissionOverview.py:135
 #: enigma2-plugins/emission/src/EmissionDetailview.py:84
+#: enigma2-plugins/emission/src/EmissionOverview.py:135
 msgid "open bandwidth settings"
 msgstr "otevřít nastavení šířky pásma"
 
@@ -25087,9 +25086,9 @@ msgid "password"
 msgstr "heslo"
 
 #
+#: enigma2-plugins/emission/src/EmissionDetailview.py:176
 #: enigma2-plugins/webcamviewer/src/PictureScreen.py:193
 #: enigma2-plugins/webcamviewer/src/PictureScreen.py:219
-#: enigma2-plugins/emission/src/EmissionDetailview.py:176
 msgid "pause"
 msgstr "pauza"
 
@@ -25218,16 +25217,16 @@ msgid "really undelete mail?"
 msgstr "Obnovit poštu ?"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:360
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 msgid "record"
 msgstr "nahrát"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2179
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:987
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:160
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:987
 msgid "recording..."
 msgstr "...nahrávám..."
 
@@ -25251,8 +25250,8 @@ msgstr "obnovit sadu kanálů"
 msgid "reloaded lamedb"
 msgstr "obnovit lamedb"
 
-#: enigma2-plugins/emailclient/src/plugin.py:965
 #: enigma2-plugins/emission/src/EmissionDetailview.py:94
+#: enigma2-plugins/emailclient/src/plugin.py:965
 msgid "remove"
 msgstr "odebrat"
 
@@ -25437,8 +25436,8 @@ msgstr "hledat ve všech tématech"
 msgid "search..."
 msgstr "hledám..."
 
-#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:162
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:940
+#: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:162
 msgid "sec"
 msgstr "sek."
 
@@ -25567,8 +25566,8 @@ msgid "show all"
 msgstr "zobrazit vše"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:139
-#: enigma2-plugins/fritzcall/src/plugin.py:126
 #: enigma2-plugins/ncidclient/src/plugin.py:109
+#: enigma2-plugins/fritzcall/src/plugin.py:126
 msgid "show as list"
 msgstr "zobrazit jako seznam"
 
@@ -25585,8 +25584,8 @@ msgid "show duration"
 msgstr "zobrazit délku spuštění"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:139
-#: enigma2-plugins/fritzcall/src/plugin.py:126
 #: enigma2-plugins/ncidclient/src/plugin.py:109
+#: enigma2-plugins/fritzcall/src/plugin.py:126
 msgid "show each call"
 msgstr "zobrazit každé volání"
 
@@ -25608,8 +25607,8 @@ msgid "show next list"
 msgstr "zobrazit další seznam"
 
 #: enigma2-plugin-fritzcall/src/plugin.py:139
-#: enigma2-plugins/fritzcall/src/plugin.py:126
 #: enigma2-plugins/ncidclient/src/plugin.py:109
+#: enigma2-plugins/fritzcall/src/plugin.py:126
 msgid "show nothing"
 msgstr "žádná zpráva"
 
@@ -25833,8 +25832,8 @@ msgstr "přepnout plovoucí / nahoře"
 msgid "toggle info"
 msgstr "přepnout info"
 
-#: enigma2-plugins/menusort/src/plugin.py:198
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:92
+#: enigma2-plugins/menusort/src/plugin.py:198
 msgid "toggle selection"
 msgstr "přepnout označení"
 
@@ -25846,8 +25845,8 @@ msgstr "přepnout průhlednost"
 msgid "tolerated"
 msgstr "tolerovaný"
 
-#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1100
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1497
+#: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:1100
 msgid "trashcan"
 msgstr "koš"
 
@@ -25912,8 +25911,8 @@ msgstr "pod ventilátorem"
 msgid "under the WLAN"
 msgstr "pod WLAN"
 
-#: enigma2-plugin-vps/src_py/Vps_check.py:287
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:153
+#: enigma2-plugin-vps/src_py/Vps_check.py:287
 msgid "unknown"
 msgstr "neznámý"
 
@@ -26012,8 +26011,8 @@ msgstr "čekejte..."
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2143
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:978
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:153
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:978
 msgid "waiting"
 msgstr "čekám..."
 
@@ -26077,16 +26076,16 @@ msgstr "žlutý řádek teletextu"
 
 #
 #: e2openplugin-InfoBarTunerState/src/plugin.py:53
-#: enigma2-plugins/fancontrol2/src/plugin.py:162
-#: enigma2-plugins/fancontrol2/src/plugin.py:179
+#: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
+#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:373
+#: enigma2-plugins/emission/src/EmissionDetailview.py:194
+#: enigma2-plugins/emission/src/EmissionDetailview.py:260
+#: enigma2-plugins/pipzap/src/plugin.py:664
 #: enigma2-plugins/filebrowser/src/plugin.py:181
 #: enigma2-plugins/filebrowser/src/plugin.py:211
 #: enigma2-plugins/filebrowser/src/plugin.py:241
-#: enigma2-plugins/pipzap/src/plugin.py:664
-#: enigma2-plugins/emission/src/EmissionDetailview.py:194
-#: enigma2-plugins/emission/src/EmissionDetailview.py:260
-#: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:373
-#: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
+#: enigma2-plugins/fancontrol2/src/plugin.py:162
+#: enigma2-plugins/fancontrol2/src/plugin.py:179
 msgid "yes"
 msgstr "-ano-"
 
@@ -26107,9 +26106,9 @@ msgid "yes, including data"
 msgstr "ano, včetně dat"
 
 #
-#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
-#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:360
+#: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
+#: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
 msgid "zap"
 msgstr "přepnout"
 
@@ -26119,8 +26118,8 @@ msgstr "zapnuto v PiP okně..."
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2167
-#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:985
 #: enigma2-plugin-partnerbox/src/RemoteTimerList.py:158
+#: enigma2-plugins/merlinepgcenter/src/EpgCenterList.py:985
 msgid "zapped"
 msgstr "přepnutý"
 
