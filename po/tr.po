@@ -219,6 +219,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:622
+#: enigma2-plugins/imdb/src/plugin.py:616
 msgid " as "
 msgstr ""
 
@@ -760,13 +761,13 @@ msgstr ""
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:66
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:77
 msgid "16:10 Letterbox"
-msgstr "16:10 Letterbox"
+msgstr "16:10 EkranFormatı"
 
 #
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:67
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:77
 msgid "16:10 PanScan"
-msgstr "16:10 PanScan"
+msgstr "16:10 PanTarama"
 
 #
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:64
@@ -778,7 +779,7 @@ msgstr "16:9"
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:68
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:77
 msgid "16:9 Letterbox"
-msgstr "16:9 Letterbox"
+msgstr "16:9 EkranFormatı"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:65
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:77
@@ -855,13 +856,13 @@ msgstr ""
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:62
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:77
 msgid "4:3 Letterbox"
-msgstr "4:3 Letterbox"
+msgstr "4:3 EkranFormatı"
 
 #
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:63
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:77
 msgid "4:3 PanScan"
-msgstr "4:3 PanScan"
+msgstr "4:3 PanArama"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:161
 msgid "4Pin"
@@ -890,6 +891,13 @@ msgstr ""
 #: enigma2-plugins/imdb/src/plugin.py:677
 #: enigma2-plugins/imdb/src/plugin.py:710
 #: enigma2-plugins/imdb/src/plugin.py:724
+#: enigma2-plugins/imdb/src/plugin.py:557
+#: enigma2-plugins/imdb/src/plugin.py:587
+#: enigma2-plugins/imdb/src/plugin.py:634
+#: enigma2-plugins/imdb/src/plugin.py:638
+#: enigma2-plugins/imdb/src/plugin.py:671
+#: enigma2-plugins/imdb/src/plugin.py:704
+#: enigma2-plugins/imdb/src/plugin.py:718
 msgid ":"
 msgstr ""
 
@@ -1882,10 +1890,12 @@ msgid "Alpha sort meta date newest"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Also known as:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Alternate versions:"
 msgstr ""
 
@@ -2091,6 +2101,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Aspect ratio:"
 msgstr ""
 
@@ -2516,6 +2527,7 @@ msgid "Avoid deep standby when HDD is active, e.g. for FTP"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:696
+#: enigma2-plugins/imdb/src/plugin.py:690
 msgid "Awards:"
 msgstr ""
 
@@ -2675,7 +2687,7 @@ msgstr "Mesaj"
 
 #: enigma2-plugins/bonjour/src/plugin.py:110
 msgid "Bonjour"
-msgstr ""
+msgstr "Merhaba"
 
 #: enigma2-plugins/bonjour/meta/plugin_bonjour.xml./enigma2-plugins/bonjour/meta/plugin_bonjour.xml
 msgid "Bonjour/Avahi control plugin"
@@ -2752,6 +2764,7 @@ msgid "Box has no fancontrol hardware -> FC2 deactivated"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:702
+#: enigma2-plugins/imdb/src/plugin.py:696
 msgid "Box office:"
 msgstr ""
 
@@ -3169,6 +3182,7 @@ msgstr "Kanada"
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2929
 #: enigma2-plugin-vps/src_py/Vps_setup.py:66
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:296
+#: enigma2-plugins/imdb/src/plugin.py:783
 msgid "Cancel"
 msgstr "Vazgeç"
 
@@ -3204,6 +3218,12 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4314
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4486
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4511
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4005
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4240
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4260
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4301
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4473
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4498
 msgid ""
 "Cannot get infos from FRITZ!Box yet\n"
 "Still initialising or wrong firmware version"
@@ -3228,6 +3248,7 @@ msgid "Case Insensitive:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:629
+#: enigma2-plugins/imdb/src/plugin.py:623
 msgid "Cast:"
 msgstr ""
 
@@ -3246,6 +3267,7 @@ msgid "Central and Southeast Europe"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Certificate:"
 msgstr ""
 
@@ -3459,7 +3481,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1026
 msgid "Chap."
-msgstr "Bölüm"
+msgstr "Bölüm."
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:1027
 msgid "Chapter"
@@ -3773,6 +3795,7 @@ msgid "Color space setup"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Color:"
 msgstr ""
 
@@ -3986,6 +4009,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Connections:"
 msgstr ""
 
@@ -4151,17 +4175,20 @@ msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4309
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4321
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4308
 msgid "Could not load barring list: "
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4321
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4333
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4320
 #, python-format
 msgid "Could not load barring list: %s"
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4447
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4459
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4446
 msgid "Could not load deflections list: "
 msgstr ""
 
@@ -4173,6 +4200,10 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4171
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4343
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4414
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4141
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4158
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4330
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4401
 msgid "Could not load phonebook: "
 msgstr ""
 
@@ -4192,6 +4223,9 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4177
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4349
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4420
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4164
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4336
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4407
 #, python-format
 msgid "Could not load phonebook: %s"
 msgstr ""
@@ -4295,6 +4329,7 @@ msgid "Countries"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Countries of origin:"
 msgstr ""
 
@@ -4305,6 +4340,7 @@ msgid "Country"
 msgstr "Ülke"
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Country of origin:"
 msgstr ""
 
@@ -4365,6 +4401,7 @@ msgid "Crashlog(s) are attached"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Crazy credits:"
 msgstr ""
 
@@ -4504,10 +4541,12 @@ msgid "Creation of symlink %s in %s to %s"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Creator:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Creators:"
 msgstr ""
 
@@ -5241,6 +5280,7 @@ msgstr ""
 #: enigma2-plugins/twitchtv/src/plugin.py:241
 #: enigma2-plugins/twitchtv/src/plugin.py:482
 #: enigma2-plugins/imdb/src/plugin.py:547
+#: enigma2-plugins/imdb/src/plugin.py:541
 msgid "Details"
 msgstr "Detaylar"
 
@@ -5288,10 +5328,12 @@ msgid "Direct playback of Youtube videos"
 msgstr "Youtube videolarını oynatın"
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Director:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Directors:"
 msgstr ""
 
@@ -5947,6 +5989,7 @@ msgid "Downloaded %d of %d MB (%d%%)"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:653
+#: enigma2-plugins/imdb/src/plugin.py:647
 #, python-format
 msgid "Downloading Movie Poster: %s..."
 msgstr "%s posteri indiriliyor."
@@ -7217,6 +7260,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Episodes:"
 msgstr ""
 
@@ -7600,6 +7644,7 @@ msgid "Extensions menu"
 msgstr "Eklenti menüsü"
 
 #: enigma2-plugins/imdb/src/plugin.py:730
+#: enigma2-plugins/imdb/src/plugin.py:725
 msgid "Extra Info"
 msgstr "Detay bilgi"
 
@@ -7648,6 +7693,16 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4414
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4420
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4459
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4141
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4158
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4164
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4308
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4320
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4330
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4336
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4401
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4407
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4446
 msgid "FRITZ!Box - "
 msgstr ""
 
@@ -7661,6 +7716,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2191
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2959
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4024
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4011
 #, python-format
 msgid "FRITZ!Box - Could not load calls: %s"
 msgstr "FRITZ!Box - Aramalar yüklenemedi: %s"
@@ -7685,6 +7741,7 @@ msgstr "FRITZ!Box araması başarısız: %s"
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2632
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3485
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4388
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4375
 #, python-format
 msgid "FRITZ!Box - Error getting blacklist: %s"
 msgstr ""
@@ -7725,6 +7782,8 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:494
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4293
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4302
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4280
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4289
 #, python-format
 msgid "FRITZ!Box - Error logging in: %s"
 msgstr "FRITZ!Box oturumu başlatılamadı: %s"
@@ -8117,10 +8176,12 @@ msgid "Film & Animation"
 msgstr "Film & Animasyon"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Filming location:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Filming locations:"
 msgstr ""
 
@@ -8556,6 +8617,7 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:404
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:395
+#: enigma2-plugins/imdb/src/plugin.py:551
 msgid "Genre:"
 msgstr "Tür:"
 
@@ -8572,6 +8634,7 @@ msgid "Genres (%d)"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:557
+#: enigma2-plugins/imdb/src/plugin.py:551
 msgid "Genres:"
 msgstr ""
 
@@ -8706,6 +8769,7 @@ msgid "Go to trashcan"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Goofs:"
 msgstr ""
 
@@ -9459,7 +9523,7 @@ msgstr "HTTPS portu"
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:124
 #: enigma2-plugins/logomanager/src/plugin.py:13
 msgid "Harddisk"
-msgstr "Harddisk"
+msgstr "Sabit Disk"
 
 #: enigma2-plugins/quickbutton/src/plugin.py:153
 #: enigma2-plugins/quickbutton/src/plugin.py:228
@@ -9703,11 +9767,16 @@ msgstr "Internet Film Veritabanı (imdb.com)"
 #: enigma2-plugins/imdb/src/plugin.py:849
 #: enigma2-plugins/imdb/src/plugin.py:869
 #: enigma2-plugins/imdb/src/plugin.py:872
+#: enigma2-plugins/imdb/src/plugin.py:843
+#: enigma2-plugins/imdb/src/plugin.py:863
+#: enigma2-plugins/imdb/src/plugin.py:866
 msgid "IMDb Details"
 msgstr "IMDb Ayrıntıları"
 
 #: enigma2-plugins/imdb/src/plugin.py:548
 #: enigma2-plugins/imdb/src/plugin.py:738
+#: enigma2-plugins/imdb/src/plugin.py:542
+#: enigma2-plugins/imdb/src/plugin.py:732
 msgid "IMDb Details parsed"
 msgstr "IMDb detayları ayrıştırıldı"
 
@@ -9716,6 +9785,7 @@ msgid "IMDb Download completed"
 msgstr "IMDb indirmesi tamamlandı"
 
 #: enigma2-plugins/imdb/src/plugin.py:528
+#: enigma2-plugins/imdb/src/plugin.py:525
 msgid "IMDb Download failed"
 msgstr "IMDb indirmesi tamamlanamadı!"
 
@@ -9725,10 +9795,12 @@ msgid "IMDb Menu"
 msgstr "IMDb Eklentisi"
 
 #: enigma2-plugins/imdb/src/plugin.py:778
+#: enigma2-plugins/imdb/src/plugin.py:772
 msgid "IMDb Plugin"
 msgstr "IMDb Eklentisi"
 
 #: enigma2-plugins/imdb/src/plugin.py:534
+#: enigma2-plugins/imdb/src/plugin.py:531
 msgid "IMDb Re-Download completed"
 msgstr "IMDb yeniden indirme tamamlandı"
 
@@ -9737,6 +9809,7 @@ msgid "IMDb Search"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:785
+#: enigma2-plugins/imdb/src/plugin.py:779
 msgid "IMDb Setup"
 msgstr ""
 
@@ -9745,6 +9818,7 @@ msgid "IMDb info"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:525
+#: enigma2-plugins/imdb/src/plugin.py:522
 msgid "IMDb query failed!"
 msgstr "IMDb sorgusunda hata oluştu."
 
@@ -10425,6 +10499,7 @@ msgid "Keys"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:689
+#: enigma2-plugins/imdb/src/plugin.py:683
 msgid "Keywords:"
 msgstr ""
 
@@ -10465,10 +10540,12 @@ msgstr "Dil ayarları"
 #: enigma2-plugins/imdb/src/plugin.py:705
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:703
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:620
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Language:"
 msgstr "Dil:"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Languages:"
 msgstr ""
 
@@ -10747,7 +10824,7 @@ msgstr ""
 #: enigma2-plugins/twitchtv/src/plugin.py:326
 #: enigma2-plugins/twitchtv/src/plugin.py:605
 msgid "Loading..."
-msgstr ""
+msgstr "Yükleniyor..."
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:194
 msgid "Local"
@@ -11171,7 +11248,7 @@ msgstr ""
 #: enigma2-plugins/quickbutton/src/plugin.py:269
 #: enigma2-plugins/easymedia/src/plugin.py:49
 msgid "MediaPlayer"
-msgstr "Ortam Oynatıcı"
+msgstr "Medya Oynatıcı"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:89
 msgid "Mediaplayer"
@@ -11494,7 +11571,7 @@ msgstr "Ay"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxEPGSelection.py:185
 msgid "More ..."
-msgstr ""
+msgstr "Daha ..."
 
 #: enigma2-plugins/merlinepgcenter/src/plugin.py:178
 msgid "More than just an EPG..."
@@ -11509,6 +11586,7 @@ msgid "Mosaic"
 msgstr "Mozaik"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Motion Picture Rating (MPAA):"
 msgstr ""
 
@@ -11833,7 +11911,7 @@ msgstr ""
 
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:84
 msgid "Movielist"
-msgstr ""
+msgstr "Film listesi"
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:118
 #: enigma2-plugins/movielistpreview/src/plugin.py:279
@@ -12301,6 +12379,7 @@ msgid "No HDD found or HDD not initialized!"
 msgstr "HDD bulunamadı veya HDD ilişkilendirilemedi!"
 
 #: enigma2-plugins/imdb/src/plugin.py:509
+#: enigma2-plugins/imdb/src/plugin.py:506
 msgid "No IMDb match."
 msgstr "IMDb eşleşmesi bulunamadı."
 
@@ -12344,6 +12423,7 @@ msgid "No call diversion active"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:631
+#: enigma2-plugins/imdb/src/plugin.py:625
 msgid "No cast list found in the database."
 msgstr "Oyuncu listesi veritabanında bulunamadı."
 
@@ -12370,6 +12450,7 @@ msgid "No default storage device found!"
 msgstr "Varsayılan depolama aygıtı bulunamadı!"
 
 #: enigma2-plugins/imdb/src/plugin.py:545
+#: enigma2-plugins/imdb/src/plugin.py:539
 msgid "No details found."
 msgstr "Detay bilgisi bulunamadı."
 
@@ -12720,7 +12801,7 @@ msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:40
 msgid "Now"
-msgstr ""
+msgstr "Hemen"
 
 #: enigma2-plugins/eparted/src/eparted.py:310
 msgid "Nr"
@@ -12853,6 +12934,7 @@ msgstr ""
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2930
 #: enigma2-plugin-vps/src_py/Vps_setup.py:67
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:297
+#: enigma2-plugins/imdb/src/plugin.py:782
 msgid "OK"
 msgstr "Tamam"
 
@@ -12878,7 +12960,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:82
 msgid "OSD Name"
-msgstr ""
+msgstr "OSD adı"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieCenter.py:884
 msgid "OSError - please reload list (EMC menu)"
@@ -13181,6 +13263,7 @@ msgid "Orbital Position Selected"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Original title:"
 msgstr ""
 
@@ -13198,7 +13281,7 @@ msgstr ""
 #: enigma2-plugins/cec/src/CecDeviceList.py:97
 #: enigma2-plugins/cec/src/CecDeviceList.py:103
 msgid "Other"
-msgstr ""
+msgstr "Diğer"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:185
 #: enigma2-plugin-fritzcall/src/plugin.py:199
@@ -13280,7 +13363,7 @@ msgstr ""
 
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:52
 msgid "PIN"
-msgstr "Şifre"
+msgstr "PIN"
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:306
 msgid "PLUGINNAME_EPGRefresh"
@@ -13342,7 +13425,7 @@ msgstr ""
 #: enigma2-plugins/quickbutton/src/plugin.py:142
 #: enigma2-plugins/letterbox/src/plugin.py:40
 msgid "Pan&Scan"
-msgstr "Pan&Scan"
+msgstr "Pan&Tarama"
 
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:235
 #: enigma2-plugins/dreamexplorer/src/DreamExplorerFileList.py:343
@@ -13675,7 +13758,7 @@ msgstr "Resimler"
 #: enigma2-plugins/quickbutton/src/plugin.py:141
 #: enigma2-plugins/letterbox/src/plugin.py:40
 msgid "Pillarbox"
-msgstr "Pillarbox"
+msgstr "Sütun Kutusu"
 
 #: enigma2-plugins/pipservicerelation/src/plugin.py:82
 msgid "PipServiceRelation - Config"
@@ -13771,15 +13854,15 @@ msgstr "Bilgisayarınızdaki videoları Dreambox' ınızdan oynatın"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:17
 msgid "Playback Device"
-msgstr ""
+msgstr "Oynatma Aygıtı"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:21
 msgid "Playback Device 2"
-msgstr ""
+msgstr "Oynatma Aygıtı 2"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:24
 msgid "Playback Device 3"
-msgstr ""
+msgstr "Oynatma Aygıtı 3"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/MP.py:149
 #, python-format
@@ -13833,7 +13916,7 @@ msgstr ""
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2094
 msgid "Playlists"
-msgstr ""
+msgstr "Çalma listeleri"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2366
 #, python-format
@@ -14095,6 +14178,7 @@ msgid "Please wait... Loading list..."
 msgstr "Lütfen bekleyin... Liste yükleniyor..."
 
 #: enigma2-plugins/imdb/src/plugin.py:675
+#: enigma2-plugins/imdb/src/plugin.py:669
 msgid "Plot outline:"
 msgstr ""
 
@@ -14106,7 +14190,7 @@ msgstr ""
 #: enigma2-plugins/quickbutton/src/plugin.py:224
 #: enigma2-plugins/quickbutton/src/plugin.py:271
 msgid "Plugin browser"
-msgstr "Eklenti listesi"
+msgstr "Eklenti Tarayıcı"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:80
 #: enigma2-plugins/elektro/src/plugin.py:80
@@ -14270,15 +14354,15 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:83
 msgid "Power Handling"
-msgstr ""
+msgstr "Güç Kontrolü"
 
 #: enigma2-plugins/cec/src/CecConfig.py:89
 msgid "Power on AV-Receiver"
-msgstr ""
+msgstr "AV-alıcısını açın"
 
 #: enigma2-plugins/cec/src/CecConfig.py:92
 msgid "Power on/off based on CEC Events"
-msgstr ""
+msgstr "CEC olaylarına göre açma/kapama"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:571
 msgid ""
@@ -14401,7 +14485,7 @@ msgstr "Önizleme"
 
 #: enigma2-plugins/autotimer/src/AutoTimerPreview.py:107
 msgid "Preview AutoTimer"
-msgstr "Otomatik zamanlayıcı önizleme"
+msgstr "Otomatik Zamanlayıcıyı Önizleme"
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:321
 msgid "Preview created."
@@ -14496,10 +14580,12 @@ msgid "Production Countries:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Production companies:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Production company:"
 msgstr ""
 
@@ -14603,6 +14689,8 @@ msgstr "%s IMDb'de sorgulanıyor..."
 
 #: enigma2-plugins/imdb/src/plugin.py:869
 #: enigma2-plugins/imdb/src/plugin.py:872
+#: enigma2-plugins/imdb/src/plugin.py:863
+#: enigma2-plugins/imdb/src/plugin.py:866
 msgid "Query details from the Internet Movie Database"
 msgstr "Film detaylarını imdb.com'dan sorgulayın"
 
@@ -14642,9 +14730,10 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/plugin.py:1227
 #: enigma2-plugin-fritzcall/src/plugin.py:1780
 msgid "Quit"
-msgstr "Çık"
+msgstr "Çıkış yap"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Quotes:"
 msgstr ""
 
@@ -14659,7 +14748,7 @@ msgstr "RSS gösterici"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:181
 msgid "RTSP Path"
-msgstr ""
+msgstr "RTSP Yolu"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:180
 msgid "RTSP Port"
@@ -14670,7 +14759,7 @@ msgstr ""
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:15
 #: enigma2-plugins/easymedia/src/plugin.py:401
 msgid "Radio"
-msgstr "Raydo"
+msgstr "Radyo"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:75
 msgid "Radio key long"
@@ -14702,6 +14791,9 @@ msgstr ""
 #: enigma2-plugins/imdb/src/plugin.py:500
 #: enigma2-plugins/imdb/src/plugin.py:514
 #: enigma2-plugins/imdb/src/plugin.py:521
+#: enigma2-plugins/imdb/src/plugin.py:497
+#: enigma2-plugins/imdb/src/plugin.py:511
+#: enigma2-plugins/imdb/src/plugin.py:518
 #, python-format
 msgid "Re-Query IMDb: %s..."
 msgstr "%s IMDb'de yeniden sorgulanıyor..."
@@ -14919,15 +15011,15 @@ msgstr "Kaydedilmiş dosyalar..."
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:14
 msgid "Recording Device"
-msgstr ""
+msgstr "Kayıt cihazı"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:15
 msgid "Recording Device 2"
-msgstr ""
+msgstr "Kayıt Cihazı 2"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:22
 msgid "Recording Device 3"
-msgstr ""
+msgstr "Kayıt Cihazı 3"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:165
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:294
@@ -14955,7 +15047,7 @@ msgstr ""
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:65
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:407
 msgid "Red"
-msgstr ""
+msgstr "Kırmızı"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:344
 msgid "Red button function"
@@ -14965,11 +15057,11 @@ msgstr ""
 msgid "Redirect notifications to Growl, Snarl, Prowl or Syslog"
 msgstr ""
 
+#: enigma2-plugins/cec/src/CecDeviceList.py:53
 #: enigma2-plugins/twitchtv/src/plugin.py:244
 #: enigma2-plugins/twitchtv/src/plugin.py:372
-#: enigma2-plugins/cec/src/CecDeviceList.py:53
 msgid "Refresh"
-msgstr ""
+msgstr "Yenile"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:157
 msgid "Refresh EPG automatically"
@@ -15016,7 +15108,7 @@ msgstr ""
 
 #: enigma2-plugins/teletext/src/plugin.py:1354
 msgid "Region"
-msgstr ""
+msgstr "Ülke/Bölge"
 
 #: enigma2-plugins/pipservicerelation/src/plugin.py:84
 msgid "Related PiP Service"
@@ -15042,6 +15134,7 @@ msgid "Release Date:"
 msgstr "Yayınlanma Tarihi:"
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Release date:"
 msgstr ""
 
@@ -15154,7 +15247,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:96
 msgid "Remote control"
-msgstr ""
+msgstr "Uzaktan Kumanda"
 
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:291
 msgid ""
@@ -15164,7 +15257,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:99
 msgid "Remote control repeat delay (ms)"
-msgstr ""
+msgstr "Uzaktan kumanda tekrar gecikmesi (ms)"
 
 #: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
 msgid "Remote file display"
@@ -15267,7 +15360,7 @@ msgstr ""
 #: enigma2-plugins/fstabeditor/src/plugin.py:261
 #: enigma2-plugins/fstabeditor/src/plugin.py:443
 msgid "Remove entry"
-msgstr ""
+msgstr "Girişi sil"
 
 #: e2openplugin-PushService/src/Controller/RecordSummary.py:47
 msgid "Remove finished timer(s)"
@@ -15345,7 +15438,7 @@ msgstr "Klasör kaldırma özelliği desteklenmiyor."
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:202
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1075
 msgid "Rename"
-msgstr "Ad değiştir "
+msgstr "Ad değiştir"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:616
 #, python-format
@@ -15521,7 +15614,7 @@ msgstr "Kayıtlı pozisyonu sıfırla"
 
 #: enigma2-plugins/cec/src/CecConfig.py:110
 msgid "Reset to defaults?"
-msgstr ""
+msgstr "Varsayılanlara dön?"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:393
 msgid "Reset todays remaining time"
@@ -15675,7 +15768,7 @@ msgstr "Arkaplanda çalış"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:128
 msgid "Run mount -a"
-msgstr ""
+msgstr "mount -a'yı çalıştırın"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:193
 msgid "Run on boot"
@@ -15703,6 +15796,7 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:403
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:397
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Runtime:"
 msgstr ""
 
@@ -15988,7 +16082,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:54
 msgid "Scan"
-msgstr ""
+msgstr "Tara"
 
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:560
 msgid "Scan NFS share"
@@ -16309,6 +16403,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:595
+#: enigma2-plugins/imdb/src/plugin.py:589
 msgid "Seasons:"
 msgstr ""
 
@@ -16463,7 +16558,7 @@ msgstr ""
 
 #: enigma2-plugins/teletext/src/plugin.py:1131
 msgid "Select teletext"
-msgstr ""
+msgstr "Teletekst seç"
 
 #: enigma2-plugins/teletext/src/plugin.py:81
 msgid "Select teletext version to use."
@@ -16574,7 +16669,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:84
 msgid "Send HDMI CEC Power Events"
-msgstr ""
+msgstr "HDMI CEC güç olayları gönder"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:71
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:88
@@ -16790,7 +16885,7 @@ msgstr ""
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:603
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:446
 msgid "Set End Time"
-msgstr "Bitiş zamanı ayarla"
+msgstr "Bitiş Zamanını ayarla"
 
 #: enigma2-plugins/remotetimer/src/plugin.py:367
 #, python-format
@@ -16975,6 +17070,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2073
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2846
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4228
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4215
 msgid "Shortcut"
 msgstr "Kısayol"
 
@@ -17176,7 +17272,7 @@ msgstr ""
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:82
 msgid "Show Picons"
-msgstr ""
+msgstr "Pikonları göster"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:548
 msgid "Show Plugin in Extension-Menu"
@@ -17320,6 +17416,7 @@ msgid "Show duration:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:809
+#: enigma2-plugins/imdb/src/plugin.py:803
 msgid "Show episode and year information in cast list"
 msgstr ""
 
@@ -17390,6 +17487,7 @@ msgid "Show in main menu"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:807
+#: enigma2-plugins/imdb/src/plugin.py:801
 msgid "Show in plugin browser"
 msgstr ""
 
@@ -17756,7 +17854,7 @@ msgstr "Kolay RSS Okuyucu"
 #: enigma2-plugins/simplerss/src/RSSSetup.py:37
 #: enigma2-plugins/simplerss/src/RSSSetup.py:88
 msgid "Simple RSS Reader Setup"
-msgstr "Kolay RSS Okuyucu Kurulumu"
+msgstr "Basit RSS Okuyucu Kurulumu"
 
 #: enigma2-plugins/simplerss/src/RSSScreens.py:143
 #: enigma2-plugins/simplerss/src/RSSScreens.py:305
@@ -18221,10 +18319,12 @@ msgid "Sorting previous"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Sound mix:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Soundtracks:"
 msgstr ""
 
@@ -18302,7 +18402,7 @@ msgstr ""
 
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:48
 msgid "Speed"
-msgstr ""
+msgstr "Hız"
 
 #: enigma2-plugins/teletext/src/plugin.py:1357
 msgid "Splitting mode"
@@ -18335,7 +18435,7 @@ msgstr ""
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:23
 msgid "Stalker Middleware Client Configuration"
-msgstr ""
+msgstr "Takipçi Ara Yazılım İstemci Yapılandırması"
 
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerConfig.py:40
 msgid "Stalker Server"
@@ -18711,6 +18811,7 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:637
+#: enigma2-plugins/imdb/src/plugin.py:631
 msgid "Storyline:"
 msgstr ""
 
@@ -18726,7 +18827,7 @@ msgstr ""
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:77
 msgid "Stream Client"
-msgstr ""
+msgstr "Akış İstemcisi"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:78
 msgid "Stream Client with Port"
@@ -18801,7 +18902,7 @@ msgstr "Altyazı kaplaması"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:37
 msgid "Success"
-msgstr "Başarılı"
+msgstr "Başarı"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:157
 #, python-format
@@ -18927,10 +19028,10 @@ msgstr ""
 msgid "TSID"
 msgstr "TSID"
 
-#: enigma2-plugins/cec/src/CecDeviceList.py:13
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:14
+#: enigma2-plugins/cec/src/CecDeviceList.py:13
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: enigma2-plugins/tvcharts/src/plugin.py:412
 msgid "TV Charts Plugin Enable"
@@ -18946,7 +19047,7 @@ msgstr ""
 
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:53
 msgid "TV Services"
-msgstr ""
+msgstr "TV Kanalları"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:55
 msgid "TV Shows"
@@ -18979,10 +19080,12 @@ msgid "Tag Filter"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:667
+#: enigma2-plugins/imdb/src/plugin.py:661
 msgid "Tagline:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:667
+#: enigma2-plugins/imdb/src/plugin.py:661
 msgid "Taglines:"
 msgstr ""
 
@@ -19049,7 +19152,7 @@ msgstr "Telnet portu"
 
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:47
 msgid "Temperature"
-msgstr ""
+msgstr "Sıcaklık"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:762
 #, python-format
@@ -19716,6 +19819,8 @@ msgid ""
 "This will reset all CeC settings to their factory defaults\n"
 "Continue?"
 msgstr ""
+"Bu, tüm CeC ayarlarını fabrika varsayılanlarına sıfırlayacaktır.\n"
+"Devam et?"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2108
@@ -19926,7 +20031,7 @@ msgstr ""
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1185
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1186
 msgid "Timeshift"
-msgstr "Zaman kaydırıcı"
+msgstr "Zaman kaydırma"
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1994
 msgid "Timeshift Settings"
@@ -20220,6 +20325,7 @@ msgid "Travel & Events"
 msgstr "Gezi"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "Trivia:"
 msgstr ""
 
@@ -20274,15 +20380,15 @@ msgstr "Tuner"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:19
 msgid "Tuner 2"
-msgstr ""
+msgstr "Tuner 2"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:20
 msgid "Tuner 3"
-msgstr ""
+msgstr "Tuner 3"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:23
 msgid "Tuner 4"
-msgstr ""
+msgstr "Tuner 4"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3575
 msgid "Tuner Selected"
@@ -20463,6 +20569,7 @@ msgstr "Amerika"
 #: enigma2-plugins/cec/src/CecDeviceList.py:104
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3653
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4078
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4065
 msgid "Unknown"
 msgstr ""
 
@@ -20749,6 +20856,7 @@ msgid "Use original EMC-skin (needs reopen)"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:808
+#: enigma2-plugins/imdb/src/plugin.py:802
 msgid "Use original IMDb skin:"
 msgstr ""
 
@@ -20805,6 +20913,7 @@ msgid "User Online"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:608
+#: enigma2-plugins/imdb/src/plugin.py:602
 msgid "User Rating"
 msgstr "Puan"
 
@@ -20822,6 +20931,7 @@ msgid "User name Accessing FRITZ!Box"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:705
+#: enigma2-plugins/imdb/src/plugin.py:699
 msgid "User reviews:"
 msgstr ""
 
@@ -20898,11 +21008,11 @@ msgstr ""
 
 #: enigma2-plugin-vps/meta/plugin_vps.xml./enigma2-plugin-vps/meta/plugin_vps.xml
 msgid "VPS-Plugin"
-msgstr ""
+msgstr "VPS-Eklentisi"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:225
 msgid "VPS-Plugin Information"
-msgstr ""
+msgstr "VPS-Eklentisi Bilgileri"
 
 #: enigma2-plugin-vps/src_py/Vps_setup.py:227
 msgid ""
@@ -20973,6 +21083,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2075
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2848
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4230
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4217
 msgid "Vanity"
 msgstr "Vanity"
 
@@ -21009,7 +21120,7 @@ msgstr ""
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:182
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:313
 msgid "Video Bitrate"
-msgstr "Video bit oranı"
+msgstr "Video Bit Hızı"
 
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:312
 msgid "Video Codec"
@@ -21061,7 +21172,7 @@ msgstr "Video oynatıcı durdurulduğunda/çıkıldığında:"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:371
 msgid "Videos"
-msgstr ""
+msgstr "Videolar"
 
 #: enigma2-plugins/merlinepg/src/plugin.py:605
 #: enigma2-plugins/merlinepg/src/plugin.py:922
@@ -21338,7 +21449,7 @@ msgstr ""
 #: enigma2-plugins/weatherplugin/src/plugin.py:50
 #: enigma2-plugins/weatherplugin/src/plugin.py:86
 msgid "Weather Plugin"
-msgstr ""
+msgstr "Hava Durumu Eklentisi"
 
 #: enigma2-plugins/easymedia/src/plugin.py:529
 msgid "Weather Plugin is not installed!"
@@ -21400,7 +21511,7 @@ msgstr "Web arayüzü"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:96
 msgid "Webinterface: Main Setup"
-msgstr "Web arayüzü: Ana kurulum"
+msgstr "Web Arayüzü Yapılandırması"
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2108
@@ -21678,6 +21789,7 @@ msgid "Wizard"
 msgstr "Sihirbaz"
 
 #: enigma2-plugins/imdb/src/plugin.py:810
+#: enigma2-plugins/imdb/src/plugin.py:804
 msgid "Words / phrases to ignore (comma separated)"
 msgstr ""
 
@@ -21692,10 +21804,12 @@ msgid ""
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Writer:"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:566
+#: enigma2-plugins/imdb/src/plugin.py:560
 msgid "Writers:"
 msgstr ""
 
@@ -21734,7 +21848,7 @@ msgstr "Yıl:"
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:56
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemesHelp.py:67
 msgid "Yellow"
-msgstr ""
+msgstr "Sarı"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:347
 msgid "Yellow button function"
@@ -21996,7 +22110,7 @@ msgstr ""
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:52
 msgid "Zap"
-msgstr ""
+msgstr "zap"
 
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:174
 msgid "Zap & Close"
@@ -22011,7 +22125,7 @@ msgstr ""
 #: enigma2-plugins/zapstatistic/src/plugin.py:426
 #: enigma2-plugins/zapstatistic/src/plugin.py:602
 msgid "Zap Statistic"
-msgstr ""
+msgstr "Zap İstatistik"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:89
 msgid "Zap and Exit"
@@ -22049,11 +22163,11 @@ msgstr ""
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:160
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:271
 msgid "Zap-History Browser"
-msgstr "Zap geçmişi gösterici"
+msgstr "Zap-Geçmiş Tarayıcı"
 
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:83
 msgid "Zap-History Configurator"
-msgstr "Zap geçmişi yapılandırıcı"
+msgstr "Zap-Geçmiş Yapılandırıcı"
 
 #: enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml./enigma2-plugins/zapstatistic/meta/plugin_zapstatistic.xml
 msgid "ZapStatistic shows the watched services with some statistics."
@@ -22178,7 +22292,7 @@ msgstr ""
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:151
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:187
 msgid "active"
-msgstr ""
+msgstr "Aktif"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1878
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2363
@@ -22316,7 +22430,7 @@ msgstr ""
 #: enigma2-plugins/automaticcleanup/src/plugin.py:94
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:52
 msgid "all"
-msgstr "tümü"
+msgstr "hepsi"
 
 #: enigma2-plugins/epgsearch/src/EPGSearchSetup.py:109
 msgid "all services"
@@ -22336,7 +22450,7 @@ msgstr ""
 #: enigma2-plugins/movieepg/src/plugin.py:18
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 msgid "always"
-msgstr ""
+msgstr "her zaman"
 
 #: enigma2-plugin-vps/src_py/plugin.py:20
 msgid "always ask"
@@ -22636,7 +22750,7 @@ msgstr ""
 #: e2-advancedaudiosettings/src/plugin.py:25
 #: e2-advancedaudiosettings/src/plugin.py:27
 msgid "controlled by HDMI"
-msgstr ""
+msgstr "HDMI kontrollü"
 
 #: e2-advancedaudiosettings/src/plugin.py:19
 #: e2-advancedaudiosettings/src/plugin.py:20
@@ -23035,6 +23149,7 @@ msgid "enter page number / rezap"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:625
+#: enigma2-plugins/imdb/src/plugin.py:619
 msgid "episodes"
 msgstr ""
 
@@ -23100,11 +23215,13 @@ msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4205
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4217
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4204
 msgid "fax_home"
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4205
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4217
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4204
 msgid "fax_work"
 msgstr ""
 
@@ -23169,6 +23286,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2113
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2882
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4043
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4030
 msgid "finishing"
 msgstr "sonlandırılıyor"
 
@@ -23204,7 +23322,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:191
 msgid "forward to the next chapter"
-msgstr ""
+msgstr "sonraki bölüme geç"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:940
 msgid "found"
@@ -23893,6 +24011,7 @@ msgid "no themes.xml"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:602
+#: enigma2-plugins/imdb/src/plugin.py:596
 msgid "no user rating yet"
 msgstr "puan verilmemiş"
 
@@ -23967,13 +24086,22 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4594
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4604
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4611
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4485
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4533
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4540
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4550
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4560
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4570
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4580
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4590
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4597
 msgid "not yet implemented"
 msgstr ""
 
 #: enigma2-plugins/fritzcall/src/plugin.py:127
 #: enigma2-plugin-fritzcall/src/plugin.py:141
 msgid "nothing"
-msgstr ""
+msgstr "hiçbir şey"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:1013
 msgid "nothing playing..."
@@ -24008,6 +24136,10 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3902
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3910
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:246
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3848
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3867
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3889
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3897
 msgid "off"
 msgstr "kapalı"
 
@@ -24089,6 +24221,12 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3887
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3900
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3908
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3846
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3865
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3872
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3874
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3887
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3895
 msgid "on"
 msgstr "açık"
 
@@ -24195,6 +24333,7 @@ msgstr ""
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4205
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4217
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4204
 msgid "pager"
 msgstr ""
 
@@ -24297,6 +24436,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2103
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2872
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4030
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4017
 msgid "preparing"
 msgstr "hazırlanıyor"
 
@@ -25134,6 +25274,7 @@ msgid "void"
 msgstr ""
 
 #: enigma2-plugins/imdb/src/plugin.py:607
+#: enigma2-plugins/imdb/src/plugin.py:601
 msgid "votes"
 msgstr ""
 
@@ -25158,6 +25299,7 @@ msgstr ""
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3804
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3257
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3816
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3803
 msgid "with"
 msgstr ""
 
@@ -25204,6 +25346,16 @@ msgstr "iş"
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4388
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4414
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4459
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4011
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4141
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4158
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4280
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4289
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4308
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4330
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4375
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4401
+#: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4446
 msgid "wrong user or password?"
 msgstr ""
 
