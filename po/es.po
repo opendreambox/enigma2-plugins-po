@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-11 23:12+0000\n"
-"PO-Revision-Date: 2023-02-11 23:11+0000\n"
+"PO-Revision-Date: 2023-02-12 23:11+0000\n"
 "Last-Translator: Miguel A. <magog2@gmail.com>\n"
 "Language-Team: Spanish <https://dreambox.de/translate/projects/dreambox/"
 "plugins/es/>\n"
@@ -7498,11 +7498,11 @@ msgstr "Introduzca código pin"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1982
 msgid "Enter search-text"
-msgstr ""
+msgstr "Introduzca texto de búsqueda"
 
 #: enigma2-plugins/skipintro/src/SkipIntroSetup.py:174
 msgid "Enter series name"
-msgstr ""
+msgstr "Introduzca el nombre de la serie"
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:148
 msgid "Enter share directory:"
@@ -7510,12 +7510,12 @@ msgstr "Introduzca el directorio compartido:"
 
 #: enigma2-plugin-networkbrowser/src/MountEdit.py:146
 msgid "Enter share name:"
-msgstr "Introduza el nombre compartido:"
+msgstr "Introduzca el nombre compartido:"
 
 #: enigma2-plugins/teletext/src/plugin.py:1763
 #, python-format
 msgid "Enter text for page %s"
-msgstr ""
+msgstr "Introduzca el texto para la página %s"
 
 #: enigma2-plugins/imdb/src/plugin.py:391
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:891
@@ -7526,16 +7526,16 @@ msgstr "Introduzca texto a buscar"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:683
 msgid "Enter the name of the channel you're searching for"
-msgstr ""
+msgstr "Introduzca el nombre del canal que busca"
 
 #: enigma2-plugins/movietagger/src/plugin.py:254
 msgid "Enter the new Tag"
-msgstr ""
+msgstr "Introduzca la nueva etiqueta"
 
 #
 #: enigma2-plugin-partnerbox/src/plugin.py:888
 msgid "Enter the service pin"
-msgstr "Ponga el pin del canal"
+msgstr "Introduzca pin del canal"
 
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:85
 msgid "Enter user and password for host: "
@@ -7551,6 +7551,8 @@ msgid ""
 "Enter values (left, top, right, bottom) or press TEXT to move and resize the "
 "teletext graphically."
 msgstr ""
+"Introduzca valores (izquierda, arriba, derecha, abajo) o pulse TEXTO para "
+"mover y redimensionar gráficamente el teletexto."
 
 #: enigma2-plugins/mytube/src/plugin.py:531
 msgid "Enter your search term(s)"
@@ -7558,11 +7560,11 @@ msgstr "Introduzca su(s) término(s) de búsqueda"
 
 #: enigma2-plugins/dreamirc/src/plugin.py:242
 msgid "Enter your text here:"
-msgstr ""
+msgstr "Introduzca aquí su texto:"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:688
 msgid "Enter your twitch user"
-msgstr ""
+msgstr "Introduzca su usuario de Twitch"
 
 #: enigma2-plugins/mytube/src/plugin.py:74
 msgid "Entertainment"
@@ -7589,21 +7591,23 @@ msgstr "Entrada incompleta."
 #: enigma2-plugins/fstabeditor/src/plugin.py:220
 #: enigma2-plugins/fstabeditor/src/plugin.py:407
 msgid "Entry is required for Dreambox to work. Delete is not allowed"
-msgstr ""
+msgstr "Se requiere entrada para que Dreambox funcione. No se permite eliminar"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:258
 msgid "Episode pattern file"
-msgstr ""
+msgstr "Archivo de patrón de episodios"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:309
 msgid ""
 "Episode: {rawepisode:s}\n"
 "{title:s}"
 msgstr ""
+"Episodio: {rawepisode:s}\n"
+"{title:s}"
 
 #: enigma2-plugins/imdb/src/plugin.py:566
 msgid "Episodes:"
-msgstr ""
+msgstr "Episodios:"
 
 #
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:132
@@ -7619,12 +7623,12 @@ msgstr "Error"
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:263
 #: e2openplugin-SeriesPlugin/src/ChannelEditor.py:308
 msgid "Error check log file"
-msgstr ""
+msgstr "Archivo de registro de control de errores"
 
 #: enigma2-plugins/eparted/src/eparted.py:100
 #, python-format
 msgid "Error command '%s'"
-msgstr ""
+msgstr "Error comando '%s"
 
 #: enigma2-plugins/emission/src/EmissionOverview.py:178
 #: enigma2-plugins/emission/src/EmissionOverview.py:194
@@ -7639,20 +7643,20 @@ msgstr ""
 #: enigma2-plugins/emission/src/EmissionDetailview.py:312
 #, python-format
 msgid "Error communicating with transmission-daemon: %s."
-msgstr ""
+msgstr "Error de comunicación con transmission-daemon: %s."
 
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:676
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:700
 msgid "Error during download."
-msgstr ""
+msgstr "Error durante la descarga."
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:219
 msgid "Error fetching URL:"
-msgstr ""
+msgstr "Error al buscar la URL:"
 
 #: enigma2-plugins/podcast/src/plugin.py:280
 msgid "Error getting movies"
-msgstr ""
+msgstr "Error al obtener películas"
 
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:183
 #, python-format
@@ -7660,11 +7664,13 @@ msgid ""
 "Error loading filelist into server %(server)s:\n"
 "%(error)s"
 msgstr ""
+"Error al cargar la lista de archivos en el servidor %(server)s:\n"
+"%(error)s"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:297
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:164
 msgid "Error loading page feed:"
-msgstr ""
+msgstr "Error al cargar el feed de la página:"
 
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:161
 #, python-format
@@ -7672,6 +7678,9 @@ msgid ""
 "Error loading playlist %(media)s into server %(server)s:\n"
 "%(error)s"
 msgstr ""
+"Error al cargar la lista de reproducción %(media)s en el servidor %(server)s:"
+"\n"
+"%(error)s"
 
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:177
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:193
@@ -7681,14 +7690,16 @@ msgid ""
 "Error loading playlist into server %(server)s:\n"
 "%(error)s"
 msgstr ""
+"Error al cargar la lista de reproducción en el servidor %(server)s:\n"
+"%(error)s"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPlugin.py:136
 msgid "Error missing dependency"
-msgstr ""
+msgstr "Error por falta de dependencia"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:174
 msgid "Error processing the skin file!"
-msgstr ""
+msgstr "¡Error al procesar el archivo de skin!"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:70
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:99
@@ -7699,6 +7710,9 @@ msgid ""
 "\n"
 "Error: %s, %s"
 msgstr ""
+"Error al leer el archivo %s.\n"
+"\n"
+"Error: %s, %s"
 
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:124
 #, python-format
@@ -7706,22 +7720,23 @@ msgid ""
 "Error updating filelist from server %(server)s:\n"
 "%(error)s"
 msgstr ""
+"Error al actualizar la lista de archivos del servidor %(server)s:\n"
+"%(error)s"
 
 #: enigma2-plugins/dvdbackup/src/plugin.py:130
 #: enigma2-plugins/dvdbackup/src/plugin.py:159
 msgid "Error while backup of DVD!"
-msgstr ""
+msgstr "¡Error durante la copia de seguridad del DVD!"
 
 #: enigma2-plugins/mosaic/src/plugin.py:295
 msgid "Error while creating screenshot. You need grab version 0.8 or higher!"
 msgstr ""
-"Error mientras creaba el pantallazo. ¡Necesita la versión de grab 0.8 o "
-"superior!"
+"Error al crear captura de pantalla. ¡Necesitas la versión 0.8 o superior!"
 
 #: enigma2-plugins/mediadownloader/src/MediaDownloader.py:264
 #, python-format
 msgid "Error while downloading file %s"
-msgstr "Error descargando el fichero %s"
+msgstr "Error al descargar el archivo %s"
 
 #: enigma2-plugins/simplerss/src/RSSScreens.py:54
 msgid ""
@@ -7750,11 +7765,14 @@ msgid ""
 "\n"
 "Error: %s, %s"
 msgstr ""
+"Error al escribir el archivo %s.\n"
+"\n"
+"Error: %s, %s"
 
 #: enigma2-plugins/multirc/src/plugin.py:88
 #, python-format
 msgid "Error writing to %s!"
-msgstr ""
+msgstr "¡Error al escribir en %s!"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:250
 msgid ""
@@ -7763,6 +7781,11 @@ msgid ""
 "Check if save folder is correct and writeable!\n"
 "Press OK to close."
 msgstr ""
+"¡Error!\n"
+"No se puede abrir la base de datos.\n"
+"Compruebe si la carpeta de almacenamiento es correcta y permite la escritura."
+"\n"
+"Pulse OK para cerrar."
 
 #: enigma2-plugins/quickbutton/src/plugin.py:135
 #: enigma2-plugins/quickbutton/src/plugin.py:174
@@ -7772,68 +7795,70 @@ msgid ""
 "Error!\n"
 "Error Text: %s"
 msgstr ""
+"¡Error!\n"
+"Texto de error: %s"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1264
 msgid "Error..."
-msgstr ""
+msgstr "Error..."
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3579
 msgid "Event ID"
-msgstr ""
+msgstr "ID del evento"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3580
 msgid "Event ID Selected"
-msgstr ""
+msgstr "ID del evento seleccionado"
 
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
 msgid "Event Info"
-msgstr ""
+msgstr "Información del evento"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:55
 #: enigma2-plugins/easyinfo/src/plugin.py:89
 msgid "Event info"
-msgstr ""
+msgstr "Información del evento"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Timer.py:435
 msgid "EventId not found"
-msgstr ""
+msgstr "ID del evento no encontrado"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:279
 msgid "EventInfo blue button:"
-msgstr ""
+msgstr "EventInfo botón azul:"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:278
 msgid "EventInfo yellow button:"
-msgstr ""
+msgstr "EventInfo botón amarillo:"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3563
 msgid "Eventdescription"
-msgstr ""
+msgstr "Descripción del evento"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3564
 msgid "Eventdescription Selected"
-msgstr ""
+msgstr "Descripción del evento seleccionado"
 
 #: enigma2-plugins/pluginhider/src/PluginHiderSetup.py:83
 msgid "Eventinfo"
-msgstr ""
+msgstr "Eventinfo"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3561
 msgid "Eventname"
-msgstr ""
+msgstr "Nombre del evento"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3562
 msgid "Eventname Selected"
-msgstr ""
+msgstr "Nombre del evento seleccionado"
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:490
 msgid ""
 "Every time the inode is modified, the i_version field will be incremented."
-msgstr ""
+msgstr "Incrementa el campo i_version cuando se cambia el inodo."
 
 #: enigma2-plugins/movielistpreview/src/plugin.py:406
 msgid "Everything done ;)"
-msgstr ""
+msgstr "Todo listo ;)"
 
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:164
 msgid "Exact match"
@@ -7841,7 +7866,7 @@ msgstr "Coincidencia exacta"
 
 #: enigma2-plugins/epgsearch/src/__init__.py:13
 msgid "Exact match of title"
-msgstr ""
+msgstr "Coincidencia exacta del título"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1056
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1084
@@ -7852,19 +7877,19 @@ msgstr "Excluir"
 
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:1077
 msgid "Excluded days:"
-msgstr ""
+msgstr "Días excluidos:"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:644
 msgid "Execute \"after event\" during timespan"
-msgstr "Ejectuar el después del Evento durante el Tiempo"
+msgstr "Ejecutar \"after event\" en el plazo previsto"
 
 #: enigma2-plugin-moviecut/src_py/plugin.py:23
 msgid "Execute cuts..."
-msgstr ""
+msgstr "Ejecutar cortes..."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:453
 msgid "Execute script"
-msgstr ""
+msgstr "Ejecutar script"
 
 #: enigma2-plugin-moviecut/meta/plugin_moviecut.xml./enigma2-plugin-moviecut/meta/plugin_moviecut.xml
 msgid ""
@@ -7899,15 +7924,15 @@ msgstr "Salir"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:195
 msgid "Exit on TV <-> Radio switch:"
-msgstr ""
+msgstr "Salir al cambiar TV <--> Radio:"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:191
 msgid "Exit the plugin"
-msgstr ""
+msgstr "Salir del plugin"
 
 #: e2openplugin-PushService/src/ConfigScreen.py:94
 msgid "Exit without saving"
-msgstr ""
+msgstr "Salir sin guardar"
 
 #
 #: enigma2-plugin-networkbrowser/src/NetworkBrowser.py:148
@@ -7916,49 +7941,51 @@ msgstr "Experto"
 
 #: enigma2-plugins/cec/src/CecConfig.py:103
 msgid "Expert options"
-msgstr ""
+msgstr "Opciones de experto"
 
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:269
 msgid "Export CSV file"
-msgstr ""
+msgstr "Exportar archivo CSV"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:730
 msgid "Export Timer 2 Autotimer"
-msgstr ""
+msgstr "Exportar programación a Autotimer"
 
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:376
 msgid "Export selected as AutoTimer"
-msgstr ""
+msgstr "Exportar seleccionado como AutoTimer"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:185
 msgid "Extend the list of services to refresh by those your AutoTimers use?"
 msgstr ""
+"¿Ampliar la lista de canales a actualizar por los que utilizan sus "
+"AutoTimers?"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:390
 msgid "Extended Control Range"
-msgstr ""
+msgstr "Rango de control ampliado"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2217
 #: enigma2-plugin-fritzcall/src/plugin.py:2244
 msgid "Extended Search for faces"
-msgstr ""
+msgstr "Búsqueda avanzada de imágenes"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2216
 #: enigma2-plugin-fritzcall/src/plugin.py:2243
 msgid "Extended Search for names"
-msgstr ""
+msgstr "Búsqueda avanzada de nombres"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1176
 msgid "Extended configuratin menu:"
-msgstr ""
+msgstr "Menú de configuración extendido:"
 
 #: enigma2-plugins/yttrailer/src/plugin.py:249
 msgid "Extended search filter"
-msgstr ""
+msgstr "Filtro de búsqueda avanzado"
 
 #: enigma2-plugin-pzyp4t/meta/plugin_pzyp4t.xml./enigma2-plugin-pzyp4t/meta/plugin_pzyp4t.xml
 msgid "Extended timerlist with EPG-Lookups and more"
-msgstr ""
+msgstr "Lista de timerlist ampliada con consultas EPG y mucho más"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2189
 #: enigma2-plugin-fritzcall/src/plugin.py:2216
@@ -7974,28 +8001,28 @@ msgstr "Extensiones"
 #: enigma2-plugins/elektro/src/plugin.py:80
 #: enigma2-plugins/showclock/src/plugin.py:72
 msgid "Extensions menu"
-msgstr ""
+msgstr "Menú Extensiones"
 
 #: enigma2-plugins/imdb/src/plugin.py:730
 msgid "Extra Info"
-msgstr ""
+msgstr "Información adicional"
 
 #: EnhancedMovieCenter.py:469
 msgid "Extra support for language"
-msgstr "Soporte extra para el idioma"
+msgstr "Soporte adicional de idiomas"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:442
 msgid "Extract archive"
-msgstr ""
+msgstr "Extraer archivo"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:20
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:216
 msgid "Extras"
-msgstr ""
+msgstr "Extras"
 
 #: enigma2-plugins/autoresolution/src/plugin.py:26
 msgid "FHD Progressive Mode"
-msgstr ""
+msgstr "Modo progresivo FHD"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:433
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1407
@@ -8026,7 +8053,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4471
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4510
 msgid "FRITZ!Box - "
-msgstr ""
+msgstr "FRITZ!Box - "
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:577
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1497
@@ -8040,7 +8067,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4073
 #, python-format
 msgid "FRITZ!Box - Could not load calls: %s"
-msgstr ""
+msgstr "FRITZ!Box - No se han podido cargar las llamadas: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:621
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1541
@@ -8050,7 +8077,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2261
 #, python-format
 msgid "FRITZ!Box - Dialling failed: %s"
-msgstr ""
+msgstr "FRITZ!Box - Fallo de marcación: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1118
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1817
@@ -8064,12 +8091,12 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4437
 #, python-format
 msgid "FRITZ!Box - Error getting blacklist: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al obtener la lista negra: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3557
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3616
 msgid "FRITZ!Box - Error getting status: "
-msgstr ""
+msgstr "FRITZ!Box - Error al obtener el estado: "
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1020
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1735
@@ -8081,7 +8108,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3440
 #, python-format
 msgid "FRITZ!Box - Error getting status: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al obtener el estado: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:233
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1241
@@ -8095,6 +8122,8 @@ msgid ""
 "FRITZ!Box - Error logging in\n"
 "\n"
 msgstr ""
+"FRITZ!Box - Error al iniciar sesión\n"
+"\n"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:486
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:4281
@@ -8119,6 +8148,8 @@ msgid ""
 "FRITZ!Box - Error logging in: %s\n"
 "Disabling plugin."
 msgstr ""
+"FRITZ!Box - Error al iniciar sesión: %s\n"
+"Desactivando plugin."
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:268
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1283
@@ -8130,7 +8161,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:2820
 #, python-format
 msgid "FRITZ!Box - Error logging out: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al cerrar la sesión: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1068
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1781
@@ -8142,7 +8173,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3480
 #, python-format
 msgid "FRITZ!Box - Error resetting: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al reiniciar: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:2339
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3089
@@ -8150,7 +8181,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3145
 #, python-format
 msgid "FRITZ!Box - Failed changing GuestAccess: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al cambiar GuestAccess: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:736
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1606
@@ -8158,7 +8189,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:1636
 #, python-format
 msgid "FRITZ!Box - Failed changing Mailbox: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al cambiar el buzón: %s"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:668
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:1589
@@ -8170,7 +8201,7 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3074
 #, python-format
 msgid "FRITZ!Box - Failed changing WLAN: %s"
-msgstr ""
+msgstr "FRITZ!Box - Error al cambiar WLAN: %s"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2159
 #: enigma2-plugin-fritzcall/src/plugin.py:2186
@@ -8180,7 +8211,7 @@ msgstr "Dirección FRITZ!Box FON (Nombre o IP)"
 #: enigma2-plugins/fritzcall/src/plugin.py:2160
 #: enigma2-plugin-fritzcall/src/plugin.py:2187
 msgid "FRITZ!Box FON firmware version"
-msgstr ""
+msgstr "FRITZ!Box FON versión firmware"
 
 #. TRANSLATORS: this is a window title.
 #. TRANSLATORS: keep it short, this is a button
@@ -8197,12 +8228,12 @@ msgstr ""
 #: enigma2-plugin-fritzcall/src/plugin.py:2151
 #: enigma2-plugin-fritzcall/src/plugin.py:3058
 msgid "FRITZ!Box Fon Status"
-msgstr "Estado de Fon FRITZ!Box"
+msgstr "FRITZ!Box Fon Estado"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2197
 #: enigma2-plugin-fritzcall/src/plugin.py:2224
 msgid "FRITZ!Box PhoneBook to read"
-msgstr ""
+msgstr "FRITZ!Box Agenda telefónica"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2261
 #: enigma2-plugins/fritzcall/src/plugin.py:2917
@@ -8212,11 +8243,12 @@ msgid ""
 "FRITZ!Box firmware version not configured! Please set it in the "
 "configuration."
 msgstr ""
+"¡Versión de firmware del FRITZ!Box no configurada! Por favor, configúrela."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1450
 #: enigma2-plugin-fritzcall/src/plugin.py:1474
 msgid "FRITZ!Box not available for calling"
-msgstr ""
+msgstr "FRITZ!Box no disponible para llamadas"
 
 #: enigma2-plugins/ftpbrowser/src/FTPQueueManager.py:105
 msgid "FTP Queue Manager"
@@ -8242,7 +8274,7 @@ msgstr ""
 #: enigma2-plugins/emission/src/plugin.py:66
 #, python-format
 msgid "Failed to add %d torrents."
-msgstr ""
+msgstr "Error al añadir %d torrents."
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:805
 #, python-format
@@ -8259,60 +8291,71 @@ msgid ""
 "%s\n"
 "."
 msgstr ""
+"Error al descargar o guardar el archivo.\n"
+"Posibles problemas:\n"
+"- Nombre del subtítulo:\n"
+"%s\n"
+"- Página de códigos de subtítulos:\n"
+"%s\n"
+"- Tipo de archivo de subtítulos:\n"
+"%s\n"
+"- Película fsp:\n"
+"%s\n"
+"."
 
 #: enigma2-plugins/simplerss/src/RSSPoller.py:81
 msgid "Failed to get subscriptions from Google Reader."
-msgstr ""
+msgstr "Error al obtener suscripciones de Google Reader."
 
 #: enigma2-plugins/simplerss/src/RSSPoller.py:62
 msgid "Failed to login to Google Reader."
-msgstr ""
+msgstr "Error al iniciar sesión en Google Reader."
 
 #: enigma2-plugins/movieretitle/src/plugin.py:281
 #, python-format
 msgid "Failed to move the movie %s to %s in the background"
-msgstr ""
+msgstr "Error al mover la película %s a %s en segundo plano"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginRenamer.py:294
 #: e2openplugin-SeriesPlugin/src/SeriesPluginBare.py:48
 #: e2openplugin-SeriesPlugin/src/SeriesPluginTimer.py:165
 #, python-format
 msgid "Failed: %s."
-msgstr ""
+msgstr "Falló: %s."
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:71
 msgid "Fake recording"
-msgstr ""
+msgstr "Grabación falsa"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/AudioTracks.py:11
 msgid "False"
-msgstr ""
+msgstr "Falso"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:1055
 msgid "Fan is not working!"
-msgstr ""
+msgstr "¡El ventilador no funciona!"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:675
 msgid "Fan off in Idle Mode"
-msgstr ""
+msgstr "Ventilador apagado en modo inactivo"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:674
 msgid "Fan type"
-msgstr ""
+msgstr "Tipo de ventilador"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:991
 msgid "FanControl2 emergency, Box Shutdown now?"
-msgstr ""
+msgstr "Emergencia de FanControl2, ¿Apagar Dreambox ahora?"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:582
 msgid "Favorite list"
-msgstr ""
+msgstr "Lista de favoritos"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:244
 #: enigma2-plugins/twitchtv/src/plugin.py:477
 #: enigma2-plugins/twitchtv/src/plugin.py:660
 msgid "Favorites"
-msgstr ""
+msgstr "Favoritos"
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:95
 msgid "Feed"
@@ -8335,12 +8378,12 @@ msgstr "La Fuente está vacía."
 
 #: enigma2-plugins/podcast/src/plugin.py:619
 msgid "Feedly OPML"
-msgstr ""
+msgstr "Feedly OPML"
 
 #: enigma2-plugins/weatherplugin/src/plugin.py:210
 #, python-format
 msgid "Feels like %s"
-msgstr ""
+msgstr "Sensación térmica %s"
 
 #: enigma2-plugin-curlytx/meta/plugin_curlytx.xml./enigma2-plugin-curlytx/meta/plugin_curlytx.xml
 msgid "Fetch and display remote text files via HTTP"
@@ -8348,7 +8391,7 @@ msgstr "Descargar y visualizar los ficheros de texto remotos vía HTTP"
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:110
 msgid "Fetch feeds from Google Reader?"
-msgstr ""
+msgstr "¿Obtener fuentes de Google Reader?"
 
 #: enigma2-plugins/mytube/src/plugin.py:366
 #: enigma2-plugins/mytube/src/plugin.py:415
@@ -8362,22 +8405,22 @@ msgstr "Descargando las entradas de búsqueda"
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:119
 #, python-format
 msgid "Field %d content"
-msgstr ""
+msgstr "Contenido del campo %d"
 
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:123
 #, python-format
 msgid "Field %d width"
-msgstr ""
+msgstr "Ancho campo %d"
 
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:183
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:220
 #, python-format
 msgid "File %s does not exists"
-msgstr ""
+msgstr "El fichero %s no existe"
 
 #: e2openplugin-InfoBarTunerState/src/plugin.py:82
 msgid "File Size"
-msgstr ""
+msgstr "Tamaño del archivo"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2182
 msgid "File added to current Playlist."
@@ -8389,7 +8432,7 @@ msgstr "El archivo ya existe en la lista de reproducción actual."
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:460
 msgid "File is too big to display content"
-msgstr ""
+msgstr "El archivo es demasiado grande para mostrar el contenido"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2125
 msgid "File not available."
@@ -8401,33 +8444,36 @@ msgid ""
 "\n"
 " Subs Downloader can't manage it with vEditor."
 msgstr ""
+"El tamaño del archivo es superior a 61440.\n"
+"\n"
+" Subs Downloader no puede gestionarlo con vEditor."
 
 #: enigma2-plugins/filebrowser/src/plugin.py:17
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:173
 #: enigma2-plugins/easymedia/src/plugin.py:50
 msgid "Filebrowser"
-msgstr ""
+msgstr "Explorador de archivos"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2947
 msgid "Filebrowser startup path"
-msgstr ""
+msgstr "Ruta de inicio del explorador de archivos"
 
 #: enigma2-plugin-vlcplayer/src/VlcMediaList.py:59
 msgid "Filelist"
-msgstr ""
+msgstr "Lista de archivos"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:3347
 #, python-format
 msgid "Filelist: %s"
-msgstr ""
+msgstr "Lista de archivos: %s"
 
 #: enigma2-plugins/movieretitle/src/plugin.py:60
 msgid "Filename"
-msgstr ""
+msgstr "Nombre de archivo"
 
 #: e2openplugin-PushService/src/Controller/SendLog.py:47
 msgid "Filename pattern (No RegExp)"
-msgstr ""
+msgstr "Patrón de nombre de archivo (No RegExp)"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieRetitle.py:84
 msgid "Filename:"
@@ -8436,7 +8482,7 @@ msgstr "Nombre de archivo:"
 #: enigma2-plugins/emission/src/EmissionDetailview.py:100
 #: enigma2-plugins/easymedia/src/plugin.py:410
 msgid "Files"
-msgstr "Ficheros"
+msgstr "Archivos"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2187
 msgid "Files added to current Playlist."
@@ -8451,6 +8497,11 @@ msgid ""
 "Files exists in current Playlist:\n"
 "%(exist)s"
 msgstr ""
+"Archivos añadidos a la lista de reproducción actual:\n"
+"%(add)s\n"
+"\n"
+"Archivos existentes en la lista de reproducción actual:\n"
+"%(exist)s"
 
 #: MovieSelection.py:1932
 #, python-format
@@ -8469,7 +8520,7 @@ msgstr ""
 
 #: enigma2-plugins/easymedia/src/plugin.py:197
 msgid "Files browser:"
-msgstr ""
+msgstr "Explorador de archivos:"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:2191
 #, python-format
@@ -8486,15 +8537,15 @@ msgstr ""
 #: enigma2-plugins/fancontrol2/src/FC2webSite.py:203
 #, python-format
 msgid "Filesize : %d %sByte"
-msgstr ""
+msgstr "Tamaño del archivo : %d %sByte"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:45
 msgid "Filesystemposition list left"
-msgstr ""
+msgstr "Lista de ubicaciones del sistema de archivos a la izquierda"
 
 #: enigma2-plugins/filebrowser/src/plugin.py:46
 msgid "Filesystemposition list right"
-msgstr ""
+msgstr "Lista de ubicaciones del sistema de archivos a la derecha"
 
 #: enigma2-plugins/mytube/src/plugin.py:63
 msgid "Film & Animation"
@@ -8502,11 +8553,11 @@ msgstr "Cine y animación"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
 msgid "Filming location:"
-msgstr ""
+msgstr "Lugar de grabación:"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
 msgid "Filming locations:"
-msgstr ""
+msgstr "Lugares de grabación:"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1072
 msgid "Filter"
@@ -8514,44 +8565,44 @@ msgstr "Filtro"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3040
 msgid "Filter Arrangement"
-msgstr ""
+msgstr "Disposición de los filtros"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3599
 msgid "Filter Disabled (Filterlist)"
-msgstr ""
+msgstr "Filtro desactivado (lista de filtros)"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3886
 msgid "Filter Disabled:"
-msgstr ""
+msgstr "Filtro desactivado:"
 
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:180
 msgid "Filter List"
-msgstr ""
+msgstr "Lista de filtros"
 
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:275
 msgid "Filter List Entry"
-msgstr ""
+msgstr "Entrada de la lista de filtros"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:3035
 msgid "Filter Selected"
-msgstr ""
+msgstr "Filtro seleccionado"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:112
 msgid "Filter Services"
-msgstr ""
+msgstr "Filtrar canales"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:2167
 #: enigma2-plugin-fritzcall/src/plugin.py:2194
 msgid "Filter also list of calls"
-msgstr ""
+msgstr "Filtrar también lista de llamadas"
 
 #: enigma2-plugins/mytube/src/MyTubeSettings.py:64
 msgid "Filter restricted content:"
-msgstr ""
+msgstr "Filtro de contenidos restringidos:"
 
 #: enigma2-plugins/internetradio/src/InternetRadioList.py:49
 msgid "Filter:"
-msgstr ""
+msgstr "Filtrar:"
 
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:49
@@ -8565,26 +8616,28 @@ msgid ""
 "Finished record list:\n"
 "%s"
 msgstr ""
+"Lista de grabaciones finalizadas:\n"
+"%s"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:496
 msgid "Finished watching percent"
-msgstr "Porcentaje visto"
+msgstr "Porcentaje terminado de ver"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginBare.py:67
 msgid "Finished with errors:\n"
-msgstr ""
+msgstr "Terminado con errores:\n"
 
 #: e2openplugin-PushService/src/Controller/RecordSummary.py:34
 msgid "FinishedTimerPushed"
-msgstr ""
+msgstr "Programaciones terminadas"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:564
 msgid ""
 "First day to match events. No event that begins before this date will be "
 "matched."
 msgstr ""
-"Primer día a coincidir eventos. No habrá ningún evento que coincida antes de "
-"esta fecha."
+"Primer día a coincidir eventos. Los eventos anteriores a esta fecha se "
+"ignoran."
 
 #: enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml./enigma2-plugins/aihdcontroler/meta/plugin_aihdcontroler.xml
 msgid "First generate your skin-style with the Ai.HD-Control plugin."
@@ -8600,24 +8653,24 @@ msgstr "Nombre de la carpeta:"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:811
 msgid "Folders"
-msgstr ""
+msgstr "Carpetas"
 
 #: enigma2-plugin-pzyp4t/src/plugin.py:499
 msgid "Folge"
-msgstr ""
+msgstr "Resultado"
 
 #: enigma2-plugins/dreamexplorer/src/plugin.py:318
 msgid "Follow symlink"
-msgstr ""
+msgstr "Seguir symlink"
 
 #: enigma2-plugins/twitchtv/src/plugin.py:663
 msgid "Followed Channels"
-msgstr ""
+msgstr "Canales Seguidos"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:741
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:747
 msgid "Following Services have to be scanned:"
-msgstr ""
+msgstr "Hay que escanear los siguientes canales:"
 
 #
 #: enigma2-plugin-curlytx/src/CurlyTxSettings.py:211
@@ -8626,17 +8679,19 @@ msgstr "Tamaño de fuente"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:839
 msgid "FontTheme: A FontTheme defines the font used in the skin."
-msgstr ""
+msgstr "FontTheme: define la fuente utilizada en el skin."
 
 #: enigma2-plugins/fstabeditor/src/plugin.py:510
 msgid ""
 "Forbid an ordinary user to mount the filesystem. This is the default; it "
 "does not imply any other options."
 msgstr ""
+"Prohibir a un usuario normal montar el sistema de ficheros. Este es el valor "
+"predeterminado; no implica ninguna otra opción."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:179
 msgid "Force save EPG.db"
-msgstr ""
+msgstr "Forzar guardar EPG.db"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:175
 msgid "Force scan even if receiver is in use"
@@ -8644,7 +8699,7 @@ msgstr "Forzar el escaneo incluso cuando el receptor está en uso"
 
 #: enigma2-plugins/elektro/src/plugin.py:443
 msgid "Force sleep (even when not in standby)"
-msgstr ""
+msgstr "Forzar el reposo (aunque no esté en espera)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:357
 msgid "Force standby after auto-restart"
@@ -8655,14 +8710,16 @@ msgid ""
 "Forces deep standby, even when not in standby mode. Scheduled recordings "
 "remain unaffected."
 msgstr ""
+"Fuerza el modo de espera profunda, incluso cuando no está en modo de espera. "
+"Las grabaciones programadas no se ven afectadas."
 
 #: enigma2-plugins/epgrefresh/src/plugin.py:53
 msgid "Foreground also"
-msgstr ""
+msgstr "También en primer plano"
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:218
 msgid "Format AVSwitch"
-msgstr "AV Cambiar formato"
+msgstr "Cambiar formato AV"
 
 #: enigma2-plugins/cec/src/CecConfig.py:98
 msgid "Forward Volume keys to TV/AVR"
@@ -8670,11 +8727,11 @@ msgstr "Reenviar teclas de volumen a TV/AVR"
 
 #: e2openplugin-PushService/src/Controller/CrashLog.py:33
 msgid "Found CrashLog(s)"
-msgstr ""
+msgstr "CrashLog(s) encontrado(s)"
 
 #: e2openplugin-PushService/src/Controller/SendLog.py:32
 msgid "Found Log(s)"
-msgstr ""
+msgstr "Registro(s) encontrado(s)"
 
 #: enigma2-plugins/autotimer/src/plugin.py:206
 #: enigma2-plugins/autotimer/src/AutoTimerResource.py:97
