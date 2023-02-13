@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 23:12+0000\n"
-"PO-Revision-Date: 2023-02-12 23:11+0000\n"
+"PO-Revision-Date: 2023-02-13 23:12+0000\n"
 "Last-Translator: Miguel A. <magog2@gmail.com>\n"
 "Language-Team: Spanish <https://dreambox.de/translate/projects/dreambox/"
 "plugins/es/>\n"
@@ -8743,6 +8743,11 @@ msgid ""
 "%(conflicts)d conflicts encountered,\n"
 "%(similars)d similars added."
 msgstr ""
+"Encontré un total de %(matches)d eventos coincidentes.\n"
+"%(timer)d Programaciones fueron añadidas y\n"
+"%(modified)d modificadas,\n"
+"%(conflicts)d conflictos encontrados,\n"
+"%(similars)d similares añadidos."
 
 #: enigma2-plugins/epgrefresh/src/EPGRefresh.py:502
 #, python-format
@@ -8761,11 +8766,11 @@ msgstr ""
 
 #: e2openplugin-PushService/src/Controller/ActiveTimers.py:33
 msgid "Found active timer(s)"
-msgstr ""
+msgstr "Programación(es) activa(s) encontrada(s)"
 
 #: e2openplugin-PushService/src/Controller/DeactivatedTimers.py:31
 msgid "Found deactivated timer(s)"
-msgstr ""
+msgstr "Programación(es) desactivada(s) encontrada(s)"
 
 #: enigma2-plugins/simplerss/src/RSSScreens.py:95
 msgid "Found no Enclosure we can display."
@@ -8783,6 +8788,11 @@ msgid ""
 "\n"
 "But did not load. Probably not PNG, 8-bit"
 msgstr ""
+"Imagen encontrada\n"
+"\n"
+"%s\n"
+"\n"
+"Pero no se ha cargado. Probablemente no PNG, 8-bit"
 
 #: e2openplugin-EnhancedMovieCenter/src/RogueFileCheck.py:44
 msgid ""
@@ -8802,25 +8812,25 @@ msgstr "Francia"
 #: e2openplugin-InfoBarTunerState/src/plugin.py:83
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:126
 msgid "Free Space"
-msgstr ""
+msgstr "Espacio libre"
 
 #: e2openplugin-PushService/src/Controller/FreeSpace.py:34
 msgid "Free disk space limit has been reached:\n"
-msgstr ""
+msgstr "Se ha alcanzado el límite de espacio libre en disco:\n"
 
 #: e2openplugin-PushService/src/Controller/FreeSpace.py:76
 msgid "Free space limit in GB"
-msgstr ""
+msgstr "Límite de espacio libre en GB"
 
 #: e2openplugin-PushService/src/Controller/FreeSpace.py:33
 msgid "Free space warning"
-msgstr ""
+msgstr "Alerta de espacio libre"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1519
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1521
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1523
 msgid "Free: "
-msgstr ""
+msgstr "Libre: "
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
@@ -8862,8 +8872,7 @@ msgstr "Configuración FritzCall"
 #: enigma2-plugins/fritzcall/meta/plugin_fritzcall.xml./enigma2-plugins/fritzcall/meta/plugin_fritzcall.xml
 #: enigma2-plugin-fritzcall/meta/plugin_fritzcall.xml./enigma2-plugin-fritzcall/meta/plugin_fritzcall.xml
 msgid "FritzCall shows incoming calls to your Fritz!Box on your Dreambox."
-msgstr ""
-"FritzCall muestra sus llamadas de entrada a su Fritz!Box en su Dreambox."
+msgstr "FritzCall muestra las llamadas entrantes a tu Fritz!Box en tu Dreambox."
 
 #: enigma2-plugins/emailclient/src/plugin.py:344
 msgid "From"
@@ -8871,77 +8880,85 @@ msgstr "De"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:121
 msgid "Frontprocessor Version"
-msgstr ""
+msgstr "Versión Frontprocessor"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:50
 #: enigma2-plugins/aihdcontroler/src/plugin.py:56
 msgid "Full"
-msgstr ""
+msgstr "Completo"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:51
 msgid "Full vertikal"
-msgstr ""
+msgstr "Vertical completo"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:819
 #: enigma2-plugins/teletext/src/plugin.py:68
 msgid "Fullscreen"
-msgstr ""
+msgstr "Pantalla completa"
 
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:52
 msgid "Fullscreen Layout"
-msgstr ""
+msgstr "Diseño a toda pantalla"
 
 #: enigma2-plugins/internetradio/src/InternetRadioSetup.py:53
 msgid "Fullscreen auto activation"
-msgstr ""
+msgstr "Activación automática de pantalla completa"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:110
 msgid "Functions"
-msgstr ""
+msgstr "Funciones"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:333
 msgid "GENERAL"
-msgstr ""
+msgstr "GENERAL"
 
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:1011
 msgid ""
 "GUI needs a restart to apply a new skin\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
+"La GUI necesita reiniciarse para aplicar un nuevo skin\n"
+"¿Desea reiniciar la GUI ahora?"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:175
 msgid ""
 "GUI needs a restart to apply a new skin.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
+"La GUI necesita reiniciarse para aplicar un nuevo skin\n"
+"¿Desea reiniciar la GUI ahora?"
 
 #: enigma2-plugins/satloader/src/plugin.py:103
 #: enigma2-plugins/satloader/src/plugin.py:201
 #: enigma2-plugins/satloader/src/plugin.py:325
 msgid "GUI needs a restart to apply changes."
-msgstr ""
+msgstr "La GUI necesita reiniciarse para aplicar los cambios."
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:605
 msgid ""
 "GUI needs a restart to apply the changes.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
+"La GUI necesita reiniciarse para aplicar los cambios.\n"
+"¿Desea reiniciar la GUI ahora?"
 
 #: enigma2-plugins/virtualzap/src/plugin.py:744
 msgid ""
 "GUI needs a restart to apply the new settings.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
+"La GUI necesita reiniciarse para aplicar los nuevos ajustes.\n"
+"¿Desea reiniciar la GUI ahora?"
 
 #: enigma2-plugins/satloader/src/plugin.py:110
 #: enigma2-plugins/satloader/src/plugin.py:241
 #: enigma2-plugins/satloader/src/plugin.py:370
 msgid "GUI needs a restart."
-msgstr ""
+msgstr "La GUI necesita reiniciarse."
 
 #: enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml./enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml
 msgid "GUI that allows user to change the ftp- / telnet password."
-msgstr "GUI que permite al usuario cambiar la contraseña para ftp/telnet."
+msgstr "GUI que permite al usuario cambiar la contraseña ftp/telnet."
 
 #: enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml./enigma2-plugins/setpasswd/meta/plugin_setpasswd.xml
 msgid "GUI to change the ftp and telnet-password"
@@ -8949,7 +8966,7 @@ msgstr "GUI para cambiar la contraseña al ftp y telnet"
 
 #: enigma2-plugins/subsdownloader2/src/plugin.py:932
 msgid "GZ-package:\\n"
-msgstr ""
+msgstr "GZ-package:\\n"
 
 #: enigma2-plugins/mytube/src/plugin.py:70
 msgid "Gaming"
@@ -8964,15 +8981,15 @@ msgstr "Puerta de enlace"
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:59
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:41
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: e2-advancedaudiosettings/src/plugin.py:66
 msgid "General AC3 Delay"
-msgstr ""
+msgstr "Retardo AC3 general"
 
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:38
 msgid "General Help"
-msgstr ""
+msgstr "Ayuda general"
 
 #: e2-advancedaudiosettings/src/plugin.py:67
 msgid "General PCM Delay"
@@ -8980,22 +8997,20 @@ msgstr "Retardo PCM General"
 
 #: enigma2-plugins/setpasswd/src/plugin.py:25
 msgid "Generate a random password"
-msgstr ""
+msgstr "Generar una contraseña aleatoria"
 
 #: enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml./enigma2-plugins/tvcharts/meta/plugin_tvcharts.xml
 msgid "Generates and Shows TV Charts of all users having this plugin installed"
-msgstr ""
-"Genera y Muestra Gráficos de TV de todos usuarios que tienen el plugin "
-"instalado"
+msgstr "Genera y muestra gráficos de TV de todos los usuarios de este plugin"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2175
 #, python-format
 msgid "Genre (%s) -> Song List"
-msgstr ""
+msgstr "Género (%s) -> Lista de canciones"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2141
 msgid "Genre List"
-msgstr ""
+msgstr "Lista de géneros"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:136
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:191
@@ -9010,25 +9025,25 @@ msgstr "Género:"
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:677
 #: enigma2-plugin-stalkerclient/StalkerClient/StalkerChannels.py:67
 msgid "Genres"
-msgstr ""
+msgstr "Géneros"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2382
 #, python-format
 msgid "Genres (%d)"
-msgstr ""
+msgstr "Géneros (%d)"
 
 #: enigma2-plugins/imdb/src/plugin.py:557
 msgid "Genres:"
-msgstr ""
+msgstr "Géneros:"
 
 #: enigma2-plugins/genuinedreambox/src/plugin.py:71
 msgid "Genuine Dreambox"
-msgstr "Dreambox Genuino"
+msgstr "Dreambox original"
 
 #: enigma2-plugins/genuinedreambox/src/plugin.py:326
 #: enigma2-plugins/genuinedreambox/meta/plugin_genuinedreambox.xml./enigma2-plugins/genuinedreambox/meta/plugin_genuinedreambox.xml
 msgid "Genuine Dreambox verification"
-msgstr "Verificación de Dreambox Genuino"
+msgstr "Verificación de Dreambox original"
 
 #
 #: e2openplugin-EnhancedMovieCenter/src/EMCCoverSearch.py:48
@@ -9050,52 +9065,52 @@ msgstr "Alemania"
 
 #: enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml./enigma2-plugins/cdinfo/meta/plugin_cdinfo.xml
 msgid "Get AudioCD info from CDDB and CD-Text"
-msgstr "Conseguir información AudioCD desde CDDB y CD-Text"
+msgstr "Obtener información AudioCD desde CDDB y CD-Text"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:154
 msgid "Get a Screenshot"
-msgstr ""
+msgstr "Obtener una captura de pantalla"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:755
 #, python-format
 msgid "Getting %s"
-msgstr ""
+msgstr "Obteniendo %s"
 
 #: enigma2-plugin-partnerbox/src/plugin.py:1141
 msgid "Getting Channel Information..."
-msgstr ""
+msgstr "Obteniendo información del canal..."
 
 #: enigma2-plugin-partnerbox/src/plugin.py:268
 msgid "Getting EPG Information..."
-msgstr ""
+msgstr "Obteniendo información EPG..."
 
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1243
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1265
 msgid "Getting Event Info failed!"
-msgstr ""
+msgstr "¡Error al leer la información del evento!"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:590
 #, python-format
 msgid "Getting InternetRadio %s list..."
-msgstr ""
+msgstr "Obteniendo lista InternetRadio %s..."
 
 #: enigma2-plugin-partnerbox/src/plugin.py:970
 msgid "Getting Partnerbox Bouquet Information..."
-msgstr ""
+msgstr "Obteniendo información sobre el bouquet PartnerBox..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1214
 #: enigma2-plugins/fritzcall/src/plugin.py:1276
 #: enigma2-plugin-fritzcall/src/plugin.py:1238
 #: enigma2-plugin-fritzcall/src/plugin.py:1300
 msgid "Getting calls from FRITZ!Box..."
-msgstr "Consiguiendo llamadas desde FRITZ!Box..."
+msgstr "Obteniendo llamadas desde FRITZ!Box..."
 
 #: enigma2-plugins/fritzcall/src/plugin.py:600
 #: enigma2-plugins/fritzcall/src/plugin.py:804
 #: enigma2-plugin-fritzcall/src/plugin.py:624
 #: enigma2-plugin-fritzcall/src/plugin.py:828
 msgid "Getting status from FRITZ!Box Fon..."
-msgstr "Consiguiendo estado desde Fon FRITZ!Box..."
+msgstr "Obteniendo estado del FRITZ!Box Fon..."
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:475
 #, python-format
@@ -9103,16 +9118,18 @@ msgid ""
 "Getting streaming data from\n"
 "%s"
 msgstr ""
+"Obteniendo datos de streaming de\n"
+"%s"
 
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:397
 #: enigma2-plugins/internetradio/src/InternetRadioScreen.py:697
 #, python-format
 msgid "Getting streaming data from %s"
-msgstr ""
+msgstr "Obteniendo datos de streaming de %s"
 
 #: enigma2-plugins/weatherplugin/src/plugin.py:137
 msgid "Getting weather information..."
-msgstr ""
+msgstr "Obteniendo información meteorológica..."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:770
 #, python-format
@@ -9122,7 +9139,7 @@ msgstr "La ruta %s no existe. Por favor, cámbiela."
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:33
 #: enigma2-plugins/emission/src/EmissionBandwidth.py:37
 msgid "Global Setting"
-msgstr ""
+msgstr "Configuración global"
 
 #: enigma2-plugins/audiosync/src/AC3main.py:53
 msgid "Global delay"
@@ -9133,19 +9150,22 @@ msgid ""
 "GlobalsTheme: A GlobalsTheme defines values for variables that are reused in "
 "the skin and guarantee e.g. a consistent position of elements."
 msgstr ""
+"GlobalsTheme: GlobalsTheme define valores para variables que se reutilizan "
+"en el skin y garantizan, por ejemplo, una posición coherente de los "
+"elementos."
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:224
 msgid "Go and add a page in the settings"
-msgstr ""
+msgstr "Ir y añadir una página en la configuración"
 
 #: enigma2-plugins/seekbar/src/plugin.py:74
 msgid "Go to position:"
-msgstr ""
+msgstr "Ir a posición:"
 
 #: enigma2-plugins/elektro/src/plugin.py:856
 #: enigma2-plugins/elektro/src/plugin.py:921
 msgid "Go to sleep now?"
-msgstr ""
+msgstr "¿Entrar en hibernación?"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelectionMenu.py:125
 msgid "Go to trashcan"
@@ -9153,32 +9173,32 @@ msgstr "Ir a la papelera"
 
 #: enigma2-plugins/imdb/src/plugin.py:705
 msgid "Goofs:"
-msgstr ""
+msgstr "Fallas:"
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:116
 msgid "Google Password"
-msgstr ""
+msgstr "Contraseña de Google"
 
 #: enigma2-plugins/simplerss/src/RSSSetup.py:115
 msgid "Google Username"
-msgstr ""
+msgstr "Nombre de usuario de Google"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:2942
 msgid "Google image path"
-msgstr ""
+msgstr "Ruta de imágenes de Google"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:155
 msgid "Grab Video & OSD"
-msgstr ""
+msgstr "Captura de vídeo y OSD"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:639
 msgid "GraphMultiEPG is not installed!"
-msgstr ""
+msgstr "¡GraphMultiEPG no está instalado!"
 
 #: enigma2-plugins/easyinfo/src/plugin.py:60
 #: enigma2-plugins/easyinfo/src/plugin.py:72
 msgid "Graphik multi-EPG"
-msgstr ""
+msgstr "Multi-EPG gráfico"
 
 #: enigma2-plugins/mytube/src/plugin.py:88
 msgid "Great Britain"
@@ -9193,15 +9213,15 @@ msgstr "Verde"
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:404
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:408
 msgid "Grey"
-msgstr ""
+msgstr "Gris"
 
 #: e2openplugin-PushService/src/Services/GNTP.py:48
 msgid "Growl Host name"
-msgstr ""
+msgstr "Growl Nombre de host"
 
 #: e2openplugin-PushService/src/Services/GNTP.py:49
 msgid "Growl Port"
-msgstr ""
+msgstr "Growl Puerto"
 
 #: enigma2-plugins/growlee/meta/plugin_growlee.xml./enigma2-plugins/growlee/meta/plugin_growlee.xml
 msgid ""
@@ -9216,24 +9236,24 @@ msgstr ""
 #. TRANSLATORS: the double-percent is intentional and required, please don't make me hunt you down individually
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:75
 msgid "Guess existing timer based on begin/end"
-msgstr "Las programaciones existentes están basadas en Inicio/Fin"
+msgstr "Determinar programaciones existentes por hora de inicio/fin"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:843
 #: enigma2-plugins/fritzcall/src/plugin.py:1044
 #: enigma2-plugin-fritzcall/src/plugin.py:867
 #: enigma2-plugin-fritzcall/src/plugin.py:1068
 msgid "Guest access"
-msgstr ""
+msgstr "Acceso de invitados"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1008
 #: enigma2-plugin-fritzcall/src/plugin.py:1032
 msgid "Guest access not active"
-msgstr ""
+msgstr "Acceso de invitados no activo"
 
 #: enigma2-plugins/fritzcall/src/plugin.py:1004
 #: enigma2-plugin-fritzcall/src/plugin.py:1028
 msgid "Guest access on "
-msgstr ""
+msgstr "Acceso de invitados con "
 
 #: enigma2-plugins/autoresolution/src/plugin.py:25
 msgid "HD Interlace Mode"
@@ -9245,15 +9265,15 @@ msgstr "Modo HD Progresivo"
 
 #: enigma2-plugins/cec/src/CecConfig.py:77
 msgid "HDMI CEC"
-msgstr ""
+msgstr "HDMI CEC"
 
 #: enigma2-plugins/cec/src/plugin.py:23
 msgid "HDMI CEC 2.0"
-msgstr ""
+msgstr "HDMI CEC 2.0"
 
 #: enigma2-plugins/cec/src/CecConfig.py:131
 msgid "HDMI CEC: Setup"
-msgstr ""
+msgstr "HDMI CEC: Configurar"
 
 #: enigma2-plugins/cec/src/CecDeviceList.py:66
 msgid "HDMI CeC: Devices"
