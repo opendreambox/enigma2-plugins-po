@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2 plugin - 3dsettings\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 23:13+0000\n"
+"POT-Creation-Date: 2023-02-16 23:13+0000\n"
 "PO-Revision-Date: 2023-02-04 23:11+0000\n"
 "Last-Translator: Dario Croci <spaeleus@croci.org>\n"
 "Language-Team: Italian <https://dreambox.de/translate/projects/dreambox/"
@@ -938,7 +938,7 @@ msgstr "60 min."
 msgid ":"
 msgstr ":"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:49
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:25
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:31
 msgid ": "
 msgstr ": "
@@ -3292,7 +3292,7 @@ msgstr "Canada"
 #: enigma2-plugins/dreamexplorer/src/plugin.py:442
 #: enigma2-plugins/dreamexplorer/src/plugin.py:447
 #: enigma2-plugins/dreamexplorer/src/plugin.py:453
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:35
 #: enigma2-plugins/tvcharts/src/plugin.py:403
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:30
 #: enigma2-plugins/epgsearch/src/EPGSearch.py:781
@@ -3428,7 +3428,7 @@ msgstr "Classificazione per età:"
 msgid "Challenge executed, please verify the result!"
 msgstr "Challenge eseguito: verificare il risultato."
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:55
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:29
 msgid "Change"
 msgstr "Cambiare"
 
@@ -4032,8 +4032,7 @@ msgstr "Impostazioni"
 msgid "Configuration for the Webinterface"
 msgstr "Impostazioni Webinterface"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:46
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:87
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:24
 msgid "Configuration of the title:episode separator"
 msgstr "Impostazioni titoli: separatore episodi"
 
@@ -5537,7 +5536,7 @@ msgstr "Directory"
 msgid "Directory %s already exists!"
 msgstr "Directory %s già presente."
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:469
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:476
 #, python-format
 msgid "Directory %s nonexistent."
 msgstr "La directory %s non esiste."
@@ -5583,8 +5582,8 @@ msgstr "Directory:"
 msgid "Disable"
 msgstr "Disabilitare"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:55
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:131
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:29
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:105
 msgid "Disable "
 msgstr "Disabilitare "
 
@@ -6758,7 +6757,7 @@ msgstr "EasySelection"
 #: enigma2-plugins/ftpbrowser/src/FTPServerManager.py:269
 #: enigma2-plugins/pipservicerelation/src/plugin.py:88
 #: enigma2-plugins/teletext/src/plugin.py:1736
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:35
 #: enigma2-plugins/automaticvolumeadjustment/src/AutomaticVolumeAdjustmentSetup.py:142
 #: enigma2-plugins/birthdayreminder/src/BirthdayReminder.py:264
 #: enigma2-plugins/ncidclient/src/plugin.py:445
@@ -6887,7 +6886,7 @@ msgstr "Gestione delle etichette da applicare alle registrazioni."
 msgid "Edit the selected entry"
 msgstr "Mod. la voce selezionata"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:111
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:85
 msgid "Edit title:episode separator"
 msgstr "Modifica titoli: separatore episodi"
 
@@ -6965,8 +6964,8 @@ msgstr "Svuotare il cestino"
 msgid "Enable"
 msgstr "Abilitare"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:57
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:128
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:31
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:102
 msgid "Enable "
 msgstr "Abilitare "
 
@@ -7827,7 +7826,7 @@ msgstr "Esistente: %s"
 #: enigma2-plugins/ftpbrowser/src/FTPBrowser.py:201
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:2272
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1071
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:55
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:29
 msgid "Exit"
 msgstr "Uscire"
 
@@ -10994,7 +10993,7 @@ msgstr "Tasto %(Key)s configurato correttamente a %(delay)i ms"
 msgid "Key %(key)s (current value: %(value)i ms)"
 msgstr "Tasto %(key)s (valore corrente: %(value)i ms)"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:112
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:86
 msgid "Key 0 provides special chracters, key 1 blank"
 msgstr "Tasto 0 = caratteri speciali, tasto 1 = spazio"
 
@@ -11155,7 +11154,7 @@ msgstr "Durata"
 msgid "Length of History"
 msgstr "Dimensione History"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:138
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:112
 msgid "Length of the title:episode separator"
 msgstr "Lunghezza titolo: separatore episodi"
 
@@ -12512,7 +12511,7 @@ msgstr ""
 "registrazioni."
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieInfo.py:51
-#: enigma2-plugins/serienfilm/src/MovieList.py:597
+#: enigma2-plugins/serienfilm/src/MovieList.py:629
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:16
 #: enigma2-plugins/easymedia/src/plugin.py:323
 #: enigma2-plugins/easymedia/src/plugin.py:380
@@ -13240,7 +13239,7 @@ msgstr "Elemento non trovato."
 msgid "No suitable Viewer found!"
 msgstr "Nessun visualizzatore trovato!"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:512
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:519
 msgid "No tags are set on these movies."
 msgstr "Nessuna etichetta assegnata ai video."
 
@@ -13432,7 +13431,7 @@ msgstr "Numero e nome"
 msgid "Number of WebIF-Log-Entries"
 msgstr "Numero di voci nel log"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:137
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:111
 msgid "Number of characters"
 msgstr "Numero di caratteri"
 
@@ -14729,7 +14728,7 @@ msgstr "Selezionare almeno un transponder"
 msgid "Please select new permissions..."
 msgstr "Selezionare nuovi permessi..."
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:509
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:516
 msgid "Please select tag to filter..."
 msgstr "Selezionare una etichetta come filtro..."
 
@@ -14737,7 +14736,7 @@ msgstr "Selezionare una etichetta come filtro..."
 msgid "Please select the matching entry"
 msgstr "Selezionare la voce di confronto"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:453
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:460
 msgid "Please select the movie path..."
 msgstr "Selezionare il percorso video..."
 
@@ -15476,7 +15475,7 @@ msgstr "Velocità di lettura [80-450] parole/minuto"
 #: e2openplugin-PushService/src/ConfigScreen.py:346
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:182
 #: e2openplugin-EnhancedMovieCenter/src/configlistext.py:324
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:86
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:60
 #: enigma2-plugins/epgrefresh/src/EPGRefreshChannelEditor.py:198
 #: enigma2-plugins/epgrefresh/src/EPGRefreshConfiguration.py:359
 #: enigma2-plugins/autotimer/src/AutoTimerFilterList.py:421
@@ -15651,7 +15650,7 @@ msgstr "Registrazione iniziata:\n"
 msgid "Record title episode pattern"
 msgstr "Modello episodi per titolo registrazione"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:435
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:442
 msgid "Recorded files..."
 msgstr "Registrazioni..."
 
@@ -16575,7 +16574,7 @@ msgstr "Sabato"
 #: enigma2-plugins/dreamirc/src/dreamIRCSetup.py:72
 #: enigma2-plugins/yttrailer/src/plugin.py:245
 #: enigma2-plugins/audiosync/src/AC3setup.py:59
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:35
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:69
 #: enigma2-plugins/audiorestart/src/plugin.py:108
 #: enigma2-plugins/podcast/src/plugin.py:543
@@ -17406,11 +17405,16 @@ msgstr "Sensibilità:"
 msgid "Sensors"
 msgstr "Sensori"
 
+#: enigma2-plugins/serienfilm/src/plugin.py:10
+#, python-format
+msgid "SerienFilm %s"
+msgstr ""
+
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:260
 msgid "SerienServer API"
 msgstr "API SerienServer"
 
-#: enigma2-plugins/serienfilm/src/MovieList.py:443
+#: enigma2-plugins/serienfilm/src/MovieList.py:484
 msgid "Series"
 msgstr "Serie"
 
@@ -17588,7 +17592,7 @@ msgstr "Impostare come directory iniziale"
 msgid "Set aspect ratio on startup"
 msgstr "Configurare il rapporto d'aspetto all'avvio"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:55
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:29
 msgid "Set default"
 msgstr "Usare predefinito"
 
@@ -17625,7 +17629,7 @@ msgstr "Regolare il tempo residuo"
 msgid "Set search term"
 msgstr "Ricercare"
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:61
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:35
 msgid "Set size"
 msgstr "Num. caratteri"
 
@@ -19780,11 +19784,11 @@ msgstr "Modalità TV"
 msgid "TVDb info"
 msgstr "Informazioni TVDb"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:396
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:403
 msgid "Tag 1"
 msgstr "Etich. 1"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:401
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:408
 msgid "Tag 2"
 msgstr "Etich. 2"
 
@@ -19801,7 +19805,7 @@ msgid "Taglines:"
 msgstr "Slogan:"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:458
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:408
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:415
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:62
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:48
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:671
@@ -20116,7 +20120,7 @@ msgid ""
 msgstr ""
 "Il contatore può essere automaticamente resettato a intervalli prefissati."
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:59
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:33
 #, python-format
 msgid ""
 "The current title:episode separator is \"%s\" (%d characters)\n"
@@ -20613,7 +20617,7 @@ msgstr ""
 "Questo plugin è in grado di determinare se un programma inizi in anticipo o "
 "duri più a lungo. Il canale deve fornire informazioni attendibili."
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:26
+#: enigma2-plugins/serienfilm/src/plugin.py:9
 msgid ""
 "This plugin is configured by the MENU key in the movielist\n"
 "\n"
@@ -21091,8 +21095,8 @@ msgid "Toggle service selection"
 msgstr "Selezione canali On/Off"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:291
-msgid "Toggle style minimal / compact"
-msgstr "Commutare stile minimale/compatto"
+msgid "Toggle style minimal / compact / full"
+msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:717
 msgid "Toggle viewed / not viewed"
@@ -21853,7 +21857,7 @@ msgstr ""
 "Tramite eMission è possibile controllare impostazioni e download di una "
 "istanza remota (o locale) di Transmission."
 
-#: enigma2-plugins/serienfilm/src/SerienFilm.py:54
+#: enigma2-plugins/serienfilm/src/SerienFilm.py:28
 msgid ""
 "Usually the episode of a series is tansmitted separate of the title in the "
 "description field\n"
@@ -23441,10 +23445,6 @@ msgstr "tutti i canali"
 msgid "alphabetic sort"
 msgstr "Ordine alfabetico"
 
-#: enigma2-plugins/serienfilm/src/MovieSelection.py:71
-msgid "alphabetic sort  (quick toggle by key 0)"
-msgstr "Ordine alfabetico (0 = comm. rapida)"
-
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:396
 #: enigma2-plugins/movieepg/src/plugin.py:18
 #: enigma2-plugins/trackautoselect/src/TrackAutoselectConfig.py:50
@@ -23739,6 +23739,10 @@ msgstr "Comfigurazione modificata."
 msgid "configuration"
 msgstr "Impostazioni"
 
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:87
+msgid "configuration of title:episode separator"
+msgstr ""
+
 #: enigma2-plugins/emailclient/src/plugin.py:834
 msgid "connection failed - retrying"
 msgstr "Connessione fallita. Nuovo tentativo in corso"
@@ -24031,7 +24035,7 @@ msgstr "download in corso"
 msgid "dump frequency (in days): "
 msgstr "frequenza dump (giorni): "
 
-#: enigma2-plugins/serienfilm/src/MovieList.py:599
+#: enigma2-plugins/serienfilm/src/MovieList.py:631
 msgid "duplicated"
 msgstr "Duplicato"
 
@@ -24366,7 +24370,7 @@ msgstr "Standby"
 msgid "green teletext link"
 msgstr "Link teletext Verde"
 
-#: enigma2-plugins/serienfilm/src/plugin.py:72
+#: enigma2-plugins/serienfilm/src/plugin.py:66
 msgid "group movies of a series to virtual directories"
 msgstr "Raggruppare le registrazioni di serie in directory virtuali"
 
@@ -24628,20 +24632,20 @@ msgid "list and event info: simple"
 msgstr "Info elenco ed eventi: semplice"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:75
-msgid "list style compact with service  (quick toggle by key 8)"
-msgstr "Elenco compatto con canale (8 = comm. rapida)"
+msgid "list style 'compact with service'  (toggle with [8])"
+msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:76
-msgid "list style compact with tags  (quick toggle by key 8)"
-msgstr "Elenco compatto con etichette (8 = comm. rapida)"
+msgid "list style 'compact with tags'  (toggle with [8])"
+msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:74
-msgid "list style elaborately"
-msgstr "Elenco standard"
+msgid "list style 'full'"
+msgstr ""
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:77
-msgid "list style single line  (key = service, 8 = tags)"
-msgstr "Elenco linea singola (5 = canale, 8 = etich.)"
+msgid "list style 'single line'"
+msgstr ""
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:117
 msgid "list: off, event info: four parts"
@@ -25901,14 +25905,18 @@ msgstr "saltare intro"
 msgid "skipping"
 msgstr "ignorato"
 
+#: enigma2-plugins/serienfilm/src/MovieSelection.py:71
+msgid "sort alphabetically (toggle with [0])"
+msgstr ""
+
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:97
 #: enigma2-plugins/movieselectionquickbutton/src/plugin.py:129
 msgid "sort by date"
 msgstr "Ordinare per data"
 
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:69
-msgid "sort by date  (quick toggle by key 0)"
-msgstr "Ordine per data (0 = commut. rapida)"
+msgid "sort by recording date (toggle with [0])"
+msgstr ""
 
 #: enigma2-plugins/teletext/src/plugin.py:234
 msgid "split screen"
