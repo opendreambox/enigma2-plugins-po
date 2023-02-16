@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 23:13+0000\n"
-"PO-Revision-Date: 2023-02-14 23:12+0000\n"
+"PO-Revision-Date: 2023-02-16 23:13+0000\n"
 "Last-Translator: Miguel A. <magog2@gmail.com>\n"
 "Language-Team: Spanish <https://dreambox.de/translate/projects/dreambox/"
 "plugins/es/>\n"
@@ -9286,7 +9286,7 @@ msgstr "Abre la ventana \"Acerca de\""
 
 #: EnhancedMovieCenter.py:488
 msgid "HELP_Advanced Skin options separator"
-msgstr "Ajustes avanzados de la interfaz"
+msgstr "Ajustes avanzados de la piel"
 
 #: EnhancedMovieCenter.py:492
 msgid "HELP_Advanced audio metadata options separator"
@@ -9300,24 +9300,28 @@ msgstr "Configuración avanzada"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "HELP_After file OPs only re-scan affected dirs"
 msgstr ""
-"Después de realizar una operación sobre ficheros (copiar, mover, eliminar, "
-"etc.) vuelve a buscar sólo en los directorios afectados por la operación"
+"Después de las operaciones de archivos, solo se vuelven a escanear los "
+"directorios que se vieron afectados"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:443
 msgid "HELP_Age of finished movies in movie folder (days)"
 msgstr ""
-"Programe la cantidad de días que las películas vistas pueden permanecer en "
-"el directorio de películas (días)"
+"Tiempo de permanencia de las películas con el estado \"terminado de ver\" "
+"hasta que se mueven a la papelera de reciclaje"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:421
 msgid "HELP_Always save last played progress as marker"
-msgstr "AYUDA_Guardar siempre el último progreso reproducido como marcador"
+msgstr ""
+"Esto guarda la posición de reproducción actual como un marcador cada vez que "
+"se detiene la reproducción\n"
+"Posteriormente, se puede saltar directamente a estos marcadores con las "
+"teclas < >. (Independiente de la función de reanudación)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:457
 msgid "HELP_Automatic timers list cleaning"
 msgstr ""
-"Eliminar automáticamente los temporizadores terminados de la lista de "
-"temporizadores"
+"Eliminar automáticamente las programaciones terminadas de la lista de "
+"programaciones"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:349
 msgid "HELP_Blue button function"
@@ -9326,16 +9330,21 @@ msgstr "Una selección de funciones se puede asignar al botón azul"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:342
 msgid "HELP_Bouquet buttons behaviour"
 msgstr ""
-"Saltar al principio o al final de la lista o saltar sólo un cierto número de "
-"entradas"
+"Saltar al principio o al final de la lista u omitir sólo un determinado "
+"número de entradas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:392
 msgid "HELP_Check for dead links"
 msgstr ""
+"Comprobar los enlaces muertos sólo la primera vez ayuda a dejar los discos "
+"externos en espera, pero los archivos de los discos remotos pueden seguir "
+"apareciendo"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:372
 msgid "HELP_Configure in etc\\enigma2\\emc-topdir.cfg"
-msgstr "Configure en etc/enigma2/emc-topdir.cfg"
+msgstr ""
+"Si se activa, los directorios listados en /etc/enigma2/emc-topdir.cfg se "
+"muestran al principio de la lista de películas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:513
 msgid "HELP_Cover background"
@@ -9343,15 +9352,21 @@ msgstr "Fondo de la carátula"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:504
 msgid "HELP_Cover delay in ms"
-msgstr "Retardo de la carátula en ms"
+msgstr ""
+"Si la opción Mostrar carátula está activada, puede utilizarse para "
+"establecer el retardo de visualización de las carátulas. De este modo se "
+"evita tener que leer las carátulas al pasar por la lista de películas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:366
 msgid "HELP_Cursor predictive move after selection"
-msgstr "AYUDA_Movimiento predictivo del cursor después de la selección"
+msgstr ""
+"El cursor se desplaza en la dirección establecida al seleccionar con la "
+"tecla [VIDEO/PVR].\n"
+"Con \"arriba/abajo\", el cursor salta a la última dirección movida."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:354
 msgid "HELP_Daily auto-start"
-msgstr "Puesta en marcha diaria"
+msgstr "Inicio automático diario"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:440
 msgid "HELP_Daily cleanup time"
@@ -9370,23 +9385,23 @@ msgstr "Nombre del archivo de registro para la depuración"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:501
 msgid "HELP_Default color highlighted"
-msgstr ""
+msgstr "Establece el color por defecto para la película marcada"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:498
 msgid "HELP_Default color partially watched"
-msgstr ""
+msgstr "Establece el color por defecto de las películas reproducidas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:500
 msgid "HELP_Default color recording"
-msgstr ""
+msgstr "Establece el color por defecto para las grabaciones en curso"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:497
 msgid "HELP_Default color unwatched"
-msgstr ""
+msgstr "Establece el color por defecto para las películas no vistas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:499
 msgid "HELP_Default color watched"
-msgstr ""
+msgstr "Establece el color por defecto de las películas visualizadas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:437
 msgid "HELP_Delete validation"
@@ -9396,7 +9411,10 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:472
 msgid "HELP_Description field update delay"
-msgstr "AYUDA_Retraso de actualización del campo Descripción"
+msgstr ""
+"Retardo de visualización del campo de descripción en la lista de películas.\n"
+"(Acelera la pulsación repetida de las teclas de flecha arriba/abajo porque "
+"la descripción de la película sólo se lee tras el retardo establecido)."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:335
 msgid "HELP_Disable EMC"
@@ -9423,7 +9441,7 @@ msgstr "El paquete Mutagen para los metadatos de audio está disponible."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:428
 msgid "HELP_Download cutlist from Cutlist.at"
-msgstr "AYUDA_Descargar lista de cortes de Cutlist.at"
+msgstr "Descargar lista de cortes de Cutlist.at"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:436
 msgid "HELP_Dynamic trashcan"
@@ -9532,6 +9550,7 @@ msgstr "Indica la alineación horizontal del texto para número y tamaño."
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:483
 msgid "HELP_Horizontal alignment for date"
 msgstr ""
+"Seleccione el tipo de alineación horizontal que se utilizará para las fechas"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:441
 msgid "HELP_How many days files may remain in trashcan"
@@ -9543,12 +9562,12 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:377
 msgid "HELP_Icon shown for initially unknown count / size"
 msgstr ""
-"Habilita si se muestra o no un icono para númer y tamaño inicialmente "
+"Habilita si se muestra o no un icono para número y tamaño inicialmente "
 "desconocido."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:543
 msgid "HELP_Install Mutagen-package for audio metadata"
-msgstr ""
+msgstr "Instalar el paquete Mutagen para metadatos de audio"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:419
 msgid "HELP_Jump to first mark when playing movie"
@@ -9576,7 +9595,7 @@ msgstr "Ajustes de idioma"
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:381
 msgid "HELP_Latest Recordings directory limit"
 msgstr ""
-"Indica el límit de tamaño que desees para el directorio de últimas "
+"Indica el límite de tamaño que desees para el directorio de últimas "
 "grabaciones."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:382
@@ -9592,6 +9611,8 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:389
 msgid "HELP_Limit file operations in dirs from emc-noscan.cfg"
 msgstr ""
+"Define si el límite para las operaciones de archivo debe ser\n"
+"determinado por '/etc/enigma2/emc-noscan.cfg'"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:343
 msgid "HELP_List entries to skip"
@@ -9634,7 +9655,7 @@ msgstr "Marcar nuevas grabaciones con una estrella"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:386
 msgid "HELP_Minimum file cache limit"
-msgstr ""
+msgstr "Definir el límite mínimo de caché de archivos (0=todos)"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:442
 msgid "HELP_Move finished movies in trashcan"
@@ -9781,7 +9802,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:338
 msgid "HELP_Show EMC in main menu"
-msgstr ""
+msgstr "Mostrar el plug-in EMC en el menú principal"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:380
 msgid "HELP_Show Latest Recordings directory"
@@ -9801,12 +9822,12 @@ msgstr "Muestra la ruta si no existe descripción extendida disponible."
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:383
 msgid "HELP_Show VLC directory"
 msgstr ""
-"Mostrar u ocultar el directorio de VLC, si está instalado el complemento "
+"Mostrar u ocultar el directorio de VLC, si está instalado el plugin "
 "VlcPlayerExtended."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:550
 msgid "HELP_Show audio metadata"
-msgstr ""
+msgstr "Mostrar metadatos de audio en la lista de películas"
 
 #: EnhancedMovieCenter.py:504
 msgid "HELP_Show audio metadata (needs skin-changes)"
@@ -9898,6 +9919,8 @@ msgstr "Defina una tecla directa para abrir EMC."
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:478
 msgid "HELP_Style for original EMC-skin (needs reopen)"
 msgstr ""
+"Aquí se puede seleccionar el estilo del EMC. Para ello es necesario "
+"reiniciar el EMC"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:469
 msgid "HELP_Tertiary playback audio language"
@@ -9942,6 +9965,8 @@ msgstr ""
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:405
 msgid "HELP_Try to load extra title and more from .meta files"
 msgstr ""
+"Intenta leer información adicional, como los títulos de los episodios, de "
+"los archivos .meta"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:406
 msgid "HELP_Try to load titles from .eit files"
@@ -10008,26 +10033,28 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:522
 msgid "HELP_hide_MiniTV"
-msgstr ""
+msgstr "Establece las situaciones en las que el MiniTV debe ocultarse"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:523
 msgid "HELP_hide_MiniTV cover"
 msgstr ""
+"Determina si el MiniTV debe ocultarse en segundo plano cuando se muestra una "
+"portada"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:530
 msgid "HELP_hide_MiniTV_method"
-msgstr ""
+msgstr "Método de ocultación de MiniTV"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:401
 msgid "HELP_scan_linked"
 msgstr ""
-"Desactivar el análisis de las estructuras deDVD en enlaces simbólicos "
+"Desactivar el análisis de las estructuras de DVD en enlaces simbólicos "
 "concernientes a los subdirectorios.\n"
 "Esto evita despertar no deseado de discos (de red)"
 
 #: EnhancedMovieCenter.py:440
 msgid "HELP_separator_Trashcan settings"
-msgstr "Ajustes de papeplera"
+msgstr "Ajustes de papelera"
 
 #: EnhancedMovieCenter.py:380
 msgid "HELP_separator_hide&performance"
@@ -10059,7 +10086,7 @@ msgstr "HTTP"
 
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:307
 msgid "HTTP Password"
-msgstr ""
+msgstr "Contraseña HTTP"
 
 #: enigma2-plugin-vlcplayer/src/VlcServerConfig.py:306
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:71
@@ -10068,11 +10095,11 @@ msgstr "Puerto HTTP"
 
 #: enigma2-plugin-curlytx/src/CurlyTx.py:235
 msgid "HTTP response headers for"
-msgstr ""
+msgstr "Respuesta del encabezado HTTP para"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:76
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 #: enigma2-plugins/webinterface/src/WebIfConfig.py:81
 msgid "HTTPS Port"
@@ -10091,7 +10118,7 @@ msgstr "HbbTV Aplicaciones"
 
 #: enigma2-plugins/teletext/src/plugin.py:70
 msgid "Hebrew / Arabic"
-msgstr ""
+msgstr "Hebreo / árabe"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:689
 #: enigma2-plugins/merlinskinthemes/src/MerlinSkinThemes.py:910
@@ -10108,12 +10135,12 @@ msgstr "Ayuda"
 
 #: enigma2-plugins/aspectratioswitch/src/plugin.py:75
 msgid "Help key long"
-msgstr ""
+msgstr "Pulsación larga del botón Ayuda"
 
 #: enigma2-plugins/birthdayreminder/src/plugin.py:67
 #: enigma2-plugins/birthdayreminder/src/plugin.py:69
 msgid "Helps to remind of birthdays"
-msgstr ""
+msgstr "Ayuda a recordar los cumpleaños"
 
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1933
 #: e2openplugin-EnhancedMovieCenter/src/MovieSelection.py:1949
