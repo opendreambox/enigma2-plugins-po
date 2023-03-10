@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-10 23:12+0000\n"
-"PO-Revision-Date: 2023-02-18 23:11+0000\n"
+"PO-Revision-Date: 2023-03-11 23:11+0000\n"
 "Last-Translator: Miguel A. <magog2@gmail.com>\n"
 "Language-Team: Spanish <https://dreambox.de/translate/projects/dreambox/"
 "plugins/es/>\n"
@@ -25950,7 +25950,7 @@ msgstr ""
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1380
 #: enigma2-plugins/subsdownloader2/src/plugin.py:1386
 msgid "wait..."
-msgstr ""
+msgstr "espera..."
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2143
@@ -25961,26 +25961,26 @@ msgstr "esperando"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:369
 msgid "weekly"
-msgstr ""
+msgstr "semanalmente"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3246
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:3804
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3304
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:3867
 msgid "with"
-msgstr ""
+msgstr "con"
 
 #: enigma2-plugins/virtualzap/src/plugin.py:59
 msgid "with exit button"
-msgstr ""
+msgstr "con botón \"Exit\""
 
 #: enigma2-plugins/virtualzap/src/plugin.py:59
 msgid "with long OK press"
-msgstr ""
+msgstr "con pulsación larga de OK"
 
 #: enigma2-plugins/merlinepgcenter/src/ConfigTabs.py:101
 msgid "with short description"
-msgstr ""
+msgstr "con descripción breve"
 
 #: enigma2-plugins/fritzcall/src/FritzCallFBF.py:380
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:390
@@ -26014,11 +26014,11 @@ msgstr "trabajo"
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4467
 #: enigma2-plugin-fritzcall/src/FritzCallFBF.py:4512
 msgid "wrong user or password?"
-msgstr ""
+msgstr "¿usuario o contraseña incorrectos?"
 
 #: enigma2-plugins/teletext/src/plugin.py:232
 msgid "yellow teletext link"
-msgstr ""
+msgstr "enlace de teletexto amarillo"
 
 #: e2openplugin-EnhancedMovieCenter/src/plugin.py:55
 #: enigma2-plugins/fancontrol2/src/plugin.py:162
@@ -26036,19 +26036,19 @@ msgstr "si"
 
 #: enigma2-plugins/fancontrol2/src/plugin.py:162
 msgid "yes, Except for Recording or HDD"
-msgstr ""
+msgstr "Sí, excepto para grabación o HDD"
 
 #: enigma2-plugins/elektro/src/plugin.py:96
 msgid "yes, Profile 1"
-msgstr ""
+msgstr "sí, Perfil 1"
 
 #: enigma2-plugins/elektro/src/plugin.py:96
 msgid "yes, Profile 2"
-msgstr ""
+msgstr "sí, Perfil 2"
 
 #: enigma2-plugins/emission/src/EmissionDetailview.py:195
 msgid "yes, including data"
-msgstr ""
+msgstr "si, incluyendo datos"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:214
 #: enigma2-plugins/autotimer/src/AutoTimerImporter.py:210
@@ -26058,7 +26058,7 @@ msgstr "zapear"
 
 #: enigma2-plugins/pipzap/src/plugin.py:299
 msgid "zap in pip window..."
-msgstr ""
+msgstr "zap en ventana pip..."
 
 #
 #: enigma2-plugin-pzyp4t/src/plugin.py:2167
@@ -26069,12 +26069,12 @@ msgstr "zapeado"
 
 #: enigma2-plugins/teletext/src/plugin.py:220
 msgid "zoom / increase height"
-msgstr ""
+msgstr "zoom / aumentar altura"
 
 #: enigma2-plugins/satipclient/src/SatIPTuner.py:50
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "{0}x {1}"
-msgstr ""
+msgstr "{0}x {1}"
 
 #: e2openplugin-PushService/src/Services/SMTP.py:33
 #: e2openplugin-PushService/src/Services/GNTP.py:34
@@ -26082,33 +26082,43 @@ msgid ""
 "{body:s}\n"
 "\n"
 msgstr ""
+"{body:s}\n"
+"\n"
 
 #: e2openplugin-PushService/src/Services/GNTP.py:31
 msgid "{box:s} {name:s}"
-msgstr ""
+msgstr "{box:s} {name:s}"
 
 #: e2openplugin-PushService/src/Services/SMTP.py:32
+#, fuzzy
 msgid "{box:s} {name:s}: {plugin:s}: {subject:s}"
-msgstr ""
+msgstr "{box:s} {name:s}: {plugin:s}: {subject:s}"
 
 #: e2openplugin-PushService/src/Services/GNTP.py:33
+#, fuzzy
 msgid "{box:s}: {subject:s}"
-msgstr ""
+msgstr "{box:s}: {subject:s}"
 
 #: e2openplugin-PushService/src/Services/GNTP.py:32
+#, fuzzy
 msgid "{name:s}"
-msgstr ""
+msgstr "{name:s}"
 
 #: e2openplugin-PushService/src/Services/PopUp.py:32
+#, fuzzy
 msgid ""
 "{name:s} {plugin:s}\n"
 "{subject:s}\n"
 "{body:s}"
 msgstr ""
+"{name:s} {plugin:s}\n"
+"{subject:s}\n"
+"{body:s}"
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginInfoScreen.py:306
+#, fuzzy
 msgid "{title:s}"
-msgstr ""
+msgstr "{title:s}"
 
 #~ msgid "Areacode to add to Outgoing Calls (if necessary)"
 #~ msgstr "Añadir código de área a las llamadas salientes (si es necesario)"
