@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2-plugins 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-25 23:11+0000\n"
-"PO-Revision-Date: 2023-03-11 23:11+0000\n"
+"PO-Revision-Date: 2023-04-26 23:11+0000\n"
 "Last-Translator: Miguel A. <magog2@gmail.com>\n"
 "Language-Team: Spanish <https://dreambox.de/translate/projects/dreambox/"
 "plugins/es/>\n"
@@ -1724,7 +1724,7 @@ msgstr ""
 #: enigma2-plugins/epgsearch/src/EPGSearchFilter.py:44
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:465
 msgid "After event"
-msgstr "Después del evento"
+msgstr "Después del programa"
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:390
 msgid "After file OPs only re-scan affected dirs"
@@ -4055,7 +4055,7 @@ msgstr ""
 
 #: e2openplugin-SeriesPlugin/src/SeriesPluginConfiguration.py:217
 msgid "Composition of the recording filenames"
-msgstr "Composición de los nombre de ficheros de grabación"
+msgstr "Estructura de los nombres de ficheros de grabación"
 
 #
 #: enigma2-plugins/zaphistorybrowser/src/plugin.py:175
@@ -6185,7 +6185,7 @@ msgstr "No apagar después de abortar manualmente la actualización automática"
 #
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:958
 msgid "Don't stop current event but disable coming events"
-msgstr "No pare el evento actual, pero desactive los siguientes"
+msgstr "No interrumpir el programa actual pero cancelar los futuros"
 
 #: enigma2-plugins/elektro/src/plugin.py:455
 msgid "Don't wake up"
@@ -7497,7 +7497,7 @@ msgstr "Introduzca contraseña:"
 
 #: enigma2-plugins/kiddytimer/src/KTmain.py:254
 msgid "Enter pin code"
-msgstr "Introduzca código pin"
+msgstr "Introducir código pin"
 
 #: enigma2-plugin-merlinmusicplayer/src/plugin.py:1982
 msgid "Enter search-text"
@@ -7538,7 +7538,7 @@ msgstr "Introduzca la nueva etiqueta"
 #
 #: enigma2-plugin-partnerbox/src/plugin.py:888
 msgid "Enter the service pin"
-msgstr "Introduzca pin del canal"
+msgstr "Introducir pin del canal"
 
 #: enigma2-plugin-networkbrowser/src/UserDialog.py:85
 msgid "Enter user and password for host: "
@@ -8921,8 +8921,8 @@ msgid ""
 "GUI needs a restart to apply a new skin\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
-"La GUI necesita reiniciarse para aplicar un nuevo skin\n"
-"¿Desea reiniciar la GUI ahora?"
+"La activación del nuevo skin requiere\n"
+"reiniciar la GUI. ¿Reiniciarla ahora?"
 
 #: enigma2-plugins/aihdcontroler/src/plugin.py:175
 msgid ""
@@ -10445,7 +10445,7 @@ msgstr "Icono mostrado para número y tamaño inicialmente desconocido."
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:66
 msgid "Idle Mode"
-msgstr "Modo reposo"
+msgstr "Reposo"
 
 #: enigma2-plugins/autotimer/src/AutoTimerSettings.py:86
 msgid "If 0, the popup will remain open."
@@ -10700,7 +10700,9 @@ msgstr ""
 #: enigma2-plugin-vps/src_py/Vps.py:410
 msgid ""
 "In order to record a timer, the TV was switched to the recording service!\n"
-msgstr "¡Para grabar un evento, la TV se cambió al servicio de grabación!\n"
+msgstr ""
+"Para poder realizar la grabación , ¡se cambió a la emisora que se iba a "
+"grabar!\n"
 
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1059
 #: enigma2-plugins/autotimer/src/AutoTimerEditor.py:1089
@@ -10834,7 +10836,7 @@ msgstr ""
 #
 #: e2openplugin-InfoBarTunerState/src/IBTSConfiguration.py:152
 msgid "Infobar timeout"
-msgstr "Tiempo cumplido del Infobar"
+msgstr "Duración de Infobar"
 
 #
 #: enigma2-plugin-vps/src_py/Vps_setup.py:69
@@ -16148,7 +16150,7 @@ msgstr ""
 #
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:960
 msgid "Repeating event currently recording... What do you want to do?"
-msgstr "Repitiendo la grabación del evento actual... ¿Qué quiere hacer?"
+msgstr "Repitiendo la grabación del programa actual... ¿Qué quiere hacer?"
 
 #: enigma2-plugin-partnerbox/src/RemoteTimerEntry.py:420
 msgid "Repeats"
@@ -17320,7 +17322,7 @@ msgstr ""
 
 #: enigma2-plugins/cec/src/CecConfig.py:84
 msgid "Send HDMI CEC Power Events"
-msgstr "Enviar eventos de alimentación de HDMI CEC"
+msgstr "Enviar eventos de alimentación HDMI CEC"
 
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:71
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:88
@@ -19127,7 +19129,7 @@ msgstr ""
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/Strings.py:78
 #: enigma2-plugins/cec/src/CecDeviceList.py:29
 msgid "Standby"
-msgstr "Reposo"
+msgstr "Apagar"
 
 #: e2openplugin-PushService/src/Controller/StandbyNotification.py:30
 msgid "Standby Notification"
@@ -19409,12 +19411,12 @@ msgstr ""
 #
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:957
 msgid "Stop current event and disable coming events"
-msgstr "Para el evento actual y desactivar los eventos siguientes"
+msgstr "Detener el programa actual y desactivar los siguientes"
 
 #
 #: enigma2-plugins/merlinepgcenter/src/MerlinEPGCenter.py:956
 msgid "Stop current event but not coming events"
-msgstr "Parar el evento actual pero no los eventos siguientes"
+msgstr "Detener el programa actual pero no los siguientes"
 
 #: e2openplugin-SeriesPlugin/src/TimeoutServerProxy.py:65
 msgid "Stop is enabled. To reactivate SeriesPlugin, just open the setup"
@@ -20136,7 +20138,7 @@ msgstr ""
 #: enigma2-plugins/kiddytimer/src/KTsetup.py:97
 #: enigma2-plugin-partnerbox/src/plugin.py:894
 msgid "The pin code you entered is wrong."
-msgstr "El pin introducido no es correcto."
+msgstr "El código pin introducido es incorrecto."
 
 #: e2openplugin-EnhancedMovieCenter/src/EnhancedMovieCenter.py:573
 msgid "The python-mutagen package is not available on the feed."
@@ -20162,7 +20164,7 @@ msgstr ""
 #
 #: enigma2-plugins/webinterface/src/WebComponents/Sources/SleepTimer.py:86
 msgid "The sleep timer has been disabled."
-msgstr "El apagado automático ha sido cancelado."
+msgstr "El temporizador de apagado se ha desactivado."
 
 #: enigma2-plugins/movieretitle/src/plugin.py:129
 msgid "The target directory is not found. The file is not renamed."
@@ -23048,7 +23050,7 @@ msgstr "añadir grabación (introduzca duración)"
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1172
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1184
 msgid "add recording (enter recording endtime)"
-msgstr "Añadir grabación (introduzca hora fin)"
+msgstr "añadir grabación (introduzca hora fin)"
 
 #
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1170
@@ -23060,7 +23062,7 @@ msgstr "añadir grabación (indefinidamente)"
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1169
 #: enigma2-plugin-permanenttimeshift/src/plugin.py:1181
 msgid "add recording (stop after current event)"
-msgstr "añadir grabación (sólo evento actual)"
+msgstr "añadir grabación (hasta que acabe el programa)"
 
 #: enigma2-plugin-partnerbox/src/PartnerboxRemoteInstantRecord.py:58
 msgid "add recording on Partnerbox (indefinitely)"
@@ -25500,7 +25502,7 @@ msgstr ""
 
 #: e2openplugin-EnhancedMovieCenter/src/EMCMediaCenter.py:189
 msgid "show DVD main menu"
-msgstr "mostrar el menú principal de DVD"
+msgstr "mostrar el menú principal del DVD"
 
 #
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:274
@@ -25534,7 +25536,7 @@ msgstr "mostrar cada llamada"
 #
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:269
 msgid "show event details"
-msgstr "mostrar detalles del evento"
+msgstr "mostrar detalles del programa"
 
 #
 #: enigma2-plugins/serienfilm/src/MovieSelection.py:275
